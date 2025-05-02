@@ -1,44 +1,6 @@
-
 <section class="kids-games">
   <h2>Select a Game</h2>
-
-  <div class="games-grid">
-    <button
-      class="game-card"
-      routerLink="match-words"
-      routerLinkActive="active"
-      [routerLinkActiveOptions]="{ exact: true }"
-    >
-      <div class="content">
-        <div class="icon">🔤</div>
-        <div class="label">Match Words</div>
-      </div>
-    </button>
-
-    <button
-      class="game-card"
-      routerLink="match-sounds"
-      routerLinkActive="active"
-      [routerLinkActiveOptions]="{ exact: true }"
-    >
-      <div class="content">
-        <div class="icon">🔊</div>
-        <div class="label">Match Sounds</div>
-      </div>
-    </button>
-
-    <button
-      class="game-card"
-      routerLink="write-by-sound"
-      routerLinkActive="active"
-      [routerLinkActiveOptions]="{ exact: true }"
-    >
-      <div class="content">
-        <div class="icon">🎧</div>
-        <div class="label">Write by Sound</div>
-      </div>
-    </button>
-  </div>
+  <app-game-grid [cards]="gameCards"/>
 </section>
 
 <router-outlet></router-outlet>

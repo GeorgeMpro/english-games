@@ -1,0 +1,11 @@
+
+.games-grid {
+  /* lay out cards in a neat, centered grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  align-items: start;
+  max-width: 500px;
+  margin: 0 auto; /* center the grid container */
+}
