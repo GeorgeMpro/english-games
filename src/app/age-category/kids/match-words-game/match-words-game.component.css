@@ -1,0 +1,162 @@
+
+.match-words h2 {
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+/* make match-words a positioning context */
+.match-words {
+  position: relative;
+  padding: var(--space-lg);
+  text-align: center;
+}
+
+/* turn .message into an overlay */
+
+.message {
+  position: absolute;
+  top: 0.5rem; /* tweak as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0; /* kill the old margin-bottom */
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border-radius: var(--card-radius);
+  z-index: 10;
+  pointer-events: none; /* if you don’t need clicks */
+}
+
+.boards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--space-lg);
+
+}
+
+.words-board,
+.images-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+/* COMMON CARD LAYOUT */
+.card {
+  width: var(--card-size);
+  height: var(--card-size);
+  border: var(--border-playing-card);
+  border-radius: var(--card-radius);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--card-transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* SELECTED & MATCHED STATES */
+.selected {
+  border-color: var(--color-accent);
+}
+
+.matched {
+  opacity: 0.6;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* WORD CARDS */
+/* base word‑card styling */
+.word-card {
+  width: var(--card-size);
+  height: var(--card-size);
+  border: var(--border-playing-card);
+  border-radius: var(--card-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  transition: var(--card-transition);
+
+  /* pastel hue via golden angle: index × 137.508° */
+  background: hsl(
+    calc(var(--index) * 137.508),
+    65%,
+    65%
+  );
+}
+
+.word-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.word-card.selected {
+  border-color: var(--color-accent);
+}
+
+.word-card.matched {
+  opacity: 0.6;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* IMAGE CARDS */
+.image-card {
+  background: var(--color-bg-card);
+  border-radius: var(--card-radius);
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/*todo extract*/
+.state-placeholder {
+  display: flex;
+  flex-direction: column; /* stack text and any spinner */
+  align-items: center; /* horizontal centering */
+  justify-content: center; /* vertical centering */
+  min-height: 300px; /* or match the height of your .boards */
+  text-align: center;
+}
+
+/*spinner*/
+.spinner {
+  width: 3rem;
+  height: 3rem;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top-color: var(--color-accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: auto; /* center horizontally in the flex container */
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.state-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}

@@ -1,0 +1,34 @@
+/*todo extract*/
+.game-card {
+  width: var(--card-game-icon-size);
+  height: var(--card-game-icon-size);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-card);
+  border: 2px solid transparent;
+  border-radius: var(--card-radius);
+  cursor: pointer;
+  transition: var(--card-transition);
+}
+
+.game-card .icon {
+  font-size: 2.5rem;
+}
+
+.game-card .label {
+  margin-top: var(--space-sm);
+  font-weight: 600;
+  color: #333;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.game-card.active {
+  border-color: var(--color-accent);
+}
+
