@@ -1,0 +1,59 @@
+/* Container: auto‐fit a 120px card grid, with gap and padding */
+.age-categories {
+  display: grid;
+  /* force 2 columns, 2 rows */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 500px; /* optional: constrain width */
+  margin: 0 auto; /* center the whole block */
+
+  @media (max-width: 480px) {
+    .age-categories {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto);
+    }
+  }
+}
+
+/* Card styling: white card, rounded, shadow, centered content */
+.age-card {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  transition: transform 0.2s;
+}
+
+/* Lift on hover */
+.age-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Icon circle: primary purple bg, white emoji */
+.icon {
+  background: #4e54c8;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Label text: match purple accent */
+.label {
+  color: #4e54c8;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}

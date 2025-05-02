@@ -1,0 +1,37 @@
+<section class="match-words">
+  <h2>Match the Word to the Image</h2>
+  <div class="message" *ngIf="message">{{ message }}</div>
+
+  <div class="boards">
+    <!-- Words board -->
+    <div class="words-board">
+  <div
+    *ngFor="let w of words; let i = index"
+    class="card word-card"
+    [style.--index]="i + 1"
+    [class.selected]="w.id === selectedWordId"
+    [class.matched]="w.matched"
+    (click)="selectWord(w)"
+  >
+    {{ w.text }}
+  </div>
+</div>
+
+    <!-- Images board -->
+    <div class="images-board">
+      <div
+        *ngFor="let img of images"
+        class="card image-card"
+        [class.selected]="img.id === selectedImageId"
+        [class.matched]="img.matched"
+        (click)="selectImage(img)"
+      >
+        <img
+          [src]="img.url"
+          [alt]="'Image of ' + img.text"
+          draggable="false"
+        />
+      </div>
+    </div>
+  </div>
+</section>

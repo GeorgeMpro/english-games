@@ -1,0 +1,113 @@
+.match-words {
+  padding: 2rem;
+  text-align: center;
+}
+
+.match-words h2 {
+  color: #4e54c8;
+  margin-bottom: 0.5rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.boards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.words-board,
+.images-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+/* COMMON CARD LAYOUT */
+.card {
+  width: 120px;
+  height: 120px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* SELECTED & MATCHED STATES */
+.selected {
+  border-color: #ffa751;
+}
+
+.matched {
+  opacity: 0.6;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* WORD CARDS */
+/* base word‑card styling */
+.word-card {
+  width: 120px;
+  height: 120px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+
+  /* pastel hue via golden angle: index × 137.508° */
+  background: hsl(
+    calc(var(--index) * 137.508),
+    65%,
+    65%
+  );
+}
+
+.word-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.word-card.selected {
+  border-color: #ffa751;
+}
+
+.word-card.matched {
+  opacity: 0.6;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* IMAGE CARDS */
+.image-card {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
