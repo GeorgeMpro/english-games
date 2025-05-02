@@ -1,0 +1,33 @@
+.game-card {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+
+.game-card .icon {
+  font-size: 2.5rem;
+}
+
+.game-card .label {
+  margin-top: .5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.game-card.active {
+  border-color: #ffa751;
+}
+

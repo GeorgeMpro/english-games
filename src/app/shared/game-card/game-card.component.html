@@ -1,0 +1,9 @@
+<button
+  class="game-card"
+  [routerLink]="card()?.link"
+  routerLinkActive="active"
+  [routerLinkActiveOptions]="{ exact: true }"
+>
+  <div class="icon">{{ card()?.icon }}</div>
+  <div class="label">{{ card()?.label }}</div>
+</button>
