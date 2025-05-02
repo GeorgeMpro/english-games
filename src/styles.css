@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* 1. Base reset & 100% heights */
+html, body, app-root {
+  height: 100%;
+  margin: 0;
+}
+
+/* 2. Make the root a column flex container */
+app-root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3. Let <app-home> take the remaining space */
+app-home {
+  display: flex;
+  flex-direction: column;
+  flex: 1;            /* <-- fill what's left after header */
+}
+
+/* 4. Inside HomeComponent, let the main.content push the footer */
+.content {
+  flex: 1;            /* <-- take all available vertical space */
+}
