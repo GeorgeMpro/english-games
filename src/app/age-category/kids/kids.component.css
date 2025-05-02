@@ -1,6 +1,7 @@
+
 .kids-games {
-  text-align: center;
   padding: 2rem;
+  text-align: center;
 }
 
 .kids-games h2 {
@@ -9,48 +10,47 @@
 }
 
 .games-grid {
+  /* lay out cards in a neat, centered grid */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1rem;
-  max-width: 400px;
-  margin: 0 auto;
+  justify-items: center;
+  align-items: start;
+  max-width: 500px;
+  margin: 0 auto; /* center the grid container */
 }
 
 .game-card {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  cursor: pointer;
-  transition: transform 0.2s, border-color 0.2s;
+  /* make all cards the same size */
+  width: 140px;
+  height: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background: #fff;
   border: 2px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.game-card .icon {
+  font-size: 2.5rem;
+}
+
+.game-card .label {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
 }
 
 .game-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
 
 .game-card.active {
-  border-color: #4e54c8;
-}
-
-.icon {
-  background: #4e54c8;
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.label {
-  font-weight: bold;
-  color: #4e54c8;
+  border-color: #ffa751;
 }

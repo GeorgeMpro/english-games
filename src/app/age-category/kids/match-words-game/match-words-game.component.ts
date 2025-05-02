@@ -25,7 +25,8 @@ export class MatchWordsGameComponent implements OnInit {
       'Elephant', 'Lion', 'Tiger', 'Zebra',
       'Rabbit', 'Duck', 'Horse', 'Pig',
       'Monkey', 'Bear', 'Fish', 'Jellyfish',
-      'Donkey', 'Hamster', 'Beaver', 'Jackal'
+      'Donkey', 'Hamster', 'Beaver', 'Jackal',
+      'Fox', 
 
     ];
 
