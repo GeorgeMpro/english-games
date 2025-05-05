@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
-import {GameCardDefinition, GameGridComponent} from '../../shared/game-grid/game-grid.component';
+import {GameCardDefinition, GameGridComponent} from '../../shared/components/game-grid/game-grid.component';
+import {IframeModeDirective} from '../../shared/directives/iframe-mode/iframe-mode.directive';
 
 @Component({
   selector: 'app-kids',
@@ -17,4 +18,5 @@ export class KidsComponent {
     {icon: '🔊', label: 'Match Sounds', link: 'match-sounds'},
     {icon: '🎧', label: 'Write by Sound', link: 'write-by-sound'}
   ];
+  isEmbedded: boolean = IframeModeDirective.isEmbedded();
 }

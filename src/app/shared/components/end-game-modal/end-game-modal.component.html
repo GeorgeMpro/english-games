@@ -1,0 +1,34 @@
+<div data-testid="end-game-modal">
+  <div class="modal-content">
+    <h2>Game Over</h2>
+    <div class="star-rating" data-testid="star-rating">
+      @for (i of Array(totalStars).keys(); track i) {
+        <span class="star" [class.filled]="i < starCount()">★</span>
+      }
+    </div>
+
+    <p>
+      You matched
+      <strong data-testid="correct-count">
+        {{ correctCount() }}
+      </strong>
+      out of
+      <strong data-testid="total-count">
+        {{ totalCount() }}
+      </strong>
+    </p>
+
+    <p data-testid="feedback-message">
+      {{ feedbackMessage() }}
+    </p>
+
+    <button data-testid="replay-button"
+            (click)="replayClicked.emit()">
+      <span>Replay</span>
+    </button>
+    <button data-testid="new-game-button"
+            (click)="newGameClicked.emit()">
+      <span>New Game</span>
+    </button>
+  </div>
+</div>

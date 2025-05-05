@@ -1,4 +1,8 @@
 :root {
+  /* Fonts */
+  --font-size-sm: 1rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2.5rem;
   /* Colors */
   --color-primary: #4e54c8;
   --color-accent: #ffa751;
@@ -19,6 +23,19 @@
   --shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15);
   --shadow-card: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
+/*todo handling iframes
+   after adding directive to handle the iframe-mode display logic*/
+/*
+.iframe-mode app-header,
+.iframe-mode app-footer {
+  display: none;
+}
+
+.iframe-mode .game-card {
+  transform: scale(0.9);
+}
+ */
 
 /* 1. Base reset & 100% heights */
 html, body, app-root {

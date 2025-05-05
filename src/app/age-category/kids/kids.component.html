@@ -1,6 +1,8 @@
-<section class="kids-games">
-  <h2>Select a Game</h2>
-  <app-game-grid [cards]="gameCards"/>
-</section>
-
+@if (!isEmbedded) {
+  <section class="kids-games"
+           data-testid="kids-games">
+    <h2>Select a Game</h2>
+    <app-game-grid [cards]="gameCards"/>
+  </section>
+}
 <router-outlet></router-outlet>
