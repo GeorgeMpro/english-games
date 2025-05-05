@@ -1,64 +1,76 @@
 import {Injectable} from '@angular/core';
-import {HttpClient, HttpParams} from '@angular/common/http';
-import {Observable, of} from 'rxjs';
-import {map, catchError} from 'rxjs/operators';
+import {Observable, switchMap, take} from 'rxjs';
 
-interface WikiPage {
-  title: string;
-  thumbnail?: { source: string };
-  fullurl: string;
-}
-
-interface WikiQueryResponse {
-  query: { pages: Record<string, WikiPage> };
-}
-
-export interface MatchItem {
-  id: number;
-  word: string;
-  imageUrl: string;
-  wikiUrl: string;
-  matched: boolean;
-}
+import {GameSetupService} from '../../../shared/services/game-setup.service';
+import {ImageCard, MatchItem, WordCard} from '../../../shared/models/kids.models';
+import {WikiService} from '../../../shared/services/wiki.service';
+import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
+import {MatchWordsStore} from './match-words.store';
 
 @Injectable({providedIn: 'root'})
 export class MatchWordsService {
-  private readonly apiUrl = 'https://en.wikipedia.org/w/api.php';
-
-  constructor(private readonly http: HttpClient) {
+  constructor(
+    private readonly store: MatchWordsStore,
+    private readonly gameSetupService: GameSetupService,
+    private readonly wikiService: WikiService,
+    private readonly vocabularyService: VocabularyService
+  ) {
   }
 
-  getItems(words: string[]): Observable<MatchItem[]> {
-    const params = this.buildParams(words);
-    return this.http
-      .get<WikiQueryResponse>(this.apiUrl, {params})
-      .pipe(
-        map(response => this.mapPagesToItems(response.query.pages)),
-        // remove items that have no image
-        map(items => items.filter(item => !!item.imageUrl)),
-        catchError(() => of([]))
-      );
+  setupGameItems(category: Category): void {
+    this.fetchItemsByCategory(category).pipe(take(1)).subscribe({
+        next: (items) => {
+          this.store.items.set(items);
+          this.setupGameCardsFromItems(items);
+        },
+        error: () => {
+          // todo update message?
+          this.store.message.set('⚠️ Failed to load items.');
+        }
+      }
+    );
   }
 
-  private buildParams(words: string[]): HttpParams {
-    return new HttpParams()
-      .set('action', 'query')
-      .set('format', 'json')
-      .set('origin', '*')
-      .set('prop', 'pageimages|info')
-      .set('piprop', 'thumbnail')
-      .set('pithumbsize', '200')
-      .set('inprop', 'url')
-      .set('titles', words.join('|'));
+  private fetchItemsByCategory(category: Category): Observable<MatchItem[]> {
+    return this.vocabularyService.getList(category).pipe(
+      switchMap(words => this.wikiService.getItems(words))
+    );
   }
 
-  private mapPagesToItems(pages: Record<string, WikiPage>): MatchItem[] {
-    return Object.values(pages).map((page: WikiPage, index: number) => ({
-      id: index + 1,
-      word: page.title,
-      imageUrl: page.thumbnail?.source || '',
-      wikiUrl: page.fullurl,
-      matched: false
-    }));
+  setupGameCardsFromItems(items: MatchItem[]): void {
+    const {words, images} = this.gameSetupService.setupCards(items);
+    this.store.words.set(words);
+    this.store.images.set(images);
   }
+
+  selectWord(word: WordCard): void {
+    if (word.matched) return;
+    this.store.selectedWordId.set(word.id);
+    this.tryMatch();
+  }
+
+  selectImage(image: ImageCard): void {
+    if (image.matched) return;
+    this.store.selectedImageId.set(image.id);
+    this.tryMatch();
+  }
+
+
+  private tryMatch(): void {
+    const wordId = this.store.selectedWordId();
+    const imageId = this.store.selectedImageId();
+    const isNotReady = wordId == null || imageId == null;
+
+    if (isNotReady) return;
+
+    const isCorrect = wordId === imageId;
+    if (isCorrect) {
+      this.store.words.set(this.gameSetupService.markMatched(this.store.words(), wordId!));
+      this.store.images.set(this.gameSetupService.markMatched(this.store.images(), wordId!));
+    }
+
+    this.store.message.set(this.gameSetupService.setCardMatchFeedback(isCorrect));
+    setTimeout(() => this.store.resetSelections(), 800);
+  }
+
 }

@@ -2,22 +2,22 @@
 @defer (; prefetch on idle) {
   <section class="match-words">
     <h2>Match the Word to the Image</h2>
-    @if (message) {
-      <div class="message">{{ message }}</div>
+    @if (message()) {
+      <div class="message">{{ message() }}</div>
     }
 
     <div class="boards">
       <!-- Words board -->
       <div class="words-board">
-        @for (word of words; track word.id; let index = $index) {
+        @for (word of words(); track word.id; let index = $index) {
           <!--        todo
           extract to component and use a button instead-->
           <div
             class="card word-card"
             [style.--index]="index + 1"
-            [class.selected]="word.id === selectedWordId"
+            [class.selected]="word.id === selectedWordId()"
             [class.matched]="word.matched"
-            (click)="selectWord(word)"
+            (click)="onSelectWord(word)"
           >
             {{ word.text }}
           </div>
@@ -26,12 +26,12 @@
 
       <!-- Images board -->
       <div class="images-board">
-        @for (image of images; track image.id) {
+        @for (image of images(); track image.id) {
           <div
             class="card image-card"
-            [class.selected]="image.id === selectedImageId"
+            [class.selected]="image.id === selectedImageId()"
             [class.matched]="image.matched"
-            (click)="selectImage(image)">
+            (click)="onSelectImage(image)">
             <img [ngSrc]="image.url"
                  [alt]="'Image of ' + image.text"
                  draggable="false"
@@ -59,7 +59,7 @@
   </div>
 }
 
-<ng-template #dataLoading>
+<ng-template>
   <div class="state-placeholder">
     <div class="spinner"></div>
     <p>Loading images…</p>

@@ -1,4 +1,8 @@
 :root {
+  /* Fonts */
+  --font-size-sm:1rem;
+  --font-size-md:1.5rem;
+  --font-size-lg:2.5rem;
   /* Colors */
   --color-primary: #4e54c8;
   --color-accent: #ffa751;

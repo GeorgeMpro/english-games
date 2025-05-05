@@ -1,5 +1,16 @@
 # Shared
 
+- add component-less route (guard) for progress/login
+  - on the route:
+  `canActivateChild: [ProgressGuard],
+  children: [...`
+  - how the guard decides:
+  
+  `canActivateChild(route: ActivatedRouteSnapshot): boolean {
+  const free = ['match-words'];
+  if (free.includes(route.routeConfig?.path)) return true;
+  return this.hasUnlocked(route.routeConfig?.path); // your logic
+}`
 - extract components
 - extract css/ animations/ etc
 
@@ -11,7 +22,6 @@
   - ? 6 cards at a time
   - ? 3 stages
     - display x out of 3 so they know the state
-- Don't add card when no image extracted from wiki
 - Add more Animals
 - Add more categories - colors, food, numbers
 - Add Reset button

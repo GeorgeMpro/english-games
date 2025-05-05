@@ -8,4 +8,5 @@
   align-items: start;
   max-width: 500px;
   margin: 0 auto; /* center the grid container */
+  height: 100%;
 }

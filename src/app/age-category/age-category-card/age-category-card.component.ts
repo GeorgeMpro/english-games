@@ -1,6 +1,7 @@
 import {Component, input} from '@angular/core';
 import {RouterLink, RouterLinkActive} from '@angular/router';
-import {AgeCategory} from '../age-category.component';
+
+import {AgeCategory} from '../../shared/models/kids.models';
 
 
 @Component({
