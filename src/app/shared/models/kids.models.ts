@@ -40,3 +40,12 @@ export interface AgeCategory {
   icon: string,
   route: string
 }
+
+/**
+ * Represents the result of a match attempt in the game.
+ */
+export interface MatchResult {
+  updatedWords: WordCard[];
+  updatedImages: ImageCard[];
+  message: string;
+}

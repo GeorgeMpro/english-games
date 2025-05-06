@@ -1,11 +1,20 @@
-<!--todo make sure to connect it to something for defer on something-->
-@defer (; prefetch on idle) {
+<ng-template #loadingSpinner let-text>
+  <div class="state-placeholder">
+    <h2 [style.color]="'var(--color-primary)'">{{ text }}</h2>
+    <div class="spinner"></div>
+  </div>
+</ng-template>
+
+@defer (when gameReady()) {
   <section class="match-words">
     <h2>Match the Word to the Image</h2>
     @if (message()) {
       <div class="message">{{ message() }}</div>
     }
-
+    <!--      todo update to signal or something? the 3-->
+    @if (currentStage() < DEFAULT_STAGE_COUNT) {
+      <h2>Stage {{ this.currentStage() + 1 }} of {{ DEFAULT_STAGE_COUNT }}</h2>
+    }
     <div class="boards">
       <!-- Words board -->
       <div class="words-board">
@@ -36,32 +45,19 @@
                  [alt]="'Image of ' + image.text"
                  draggable="false"
                  fill
-                 [priority]="$index==0"/>
+                 [priority]="$index===0"/>
           </div>
         }
       </div>
     </div>
   </section>
 } @loading (minimum 250ms) {
-  <div class="state-placeholder">
-    <!--    todo extract-->
-    <h2 [style.color]="'var(--color-primary)'">Loading game UI…</h2>
-    <div class="spinner"></div>
-  </div>
+  <ng-container
+    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Loading game UI…' }"></ng-container>
 } @placeholder (minimum 250ms) {
-  <div class="state-placeholder">
-    <h2 [style.color]="'var(--color-primary)'">Loading game UI…</h2>
-    <div class="spinner"></div>
-  </div>
+  <ng-container
+    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Fetching items...' }"></ng-container>
 } @error {
-  <div class="state-placeholder">
-    <h2 [style.color]="'var(--color-primary)'">Failed to load game UI. Please try again.</h2>
-  </div>
+  <ng-container
+    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Failed to load game UI. Please try again.' }"></ng-container>
 }
-
-<ng-template>
-  <div class="state-placeholder">
-    <div class="spinner"></div>
-    <p>Loading images…</p>
-  </div>
-</ng-template>
