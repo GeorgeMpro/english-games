@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {MatchWordsService} from './match-words.service';
-import {ImageCard, WordCard} from '../../../shared/models/kids.models';
 import {Category} from '../../../shared/services/vocabulary.service';
 import {MatchWordsStore} from './match-words.store';
+import {ImageCard, WordCard} from '../../../shared/models/kids.models';
 
 @Component({
   selector: 'app-match-words-game',
