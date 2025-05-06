@@ -10,5 +10,5 @@ import {AgeCategoryComponent} from '../age-category/age-category.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  title = 'Start Your English Adventure';
 }

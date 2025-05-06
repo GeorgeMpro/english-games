@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, signal} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {MatchWordsService} from './match-words.service';
 import {Category} from '../../../shared/services/vocabulary.service';
@@ -21,9 +21,13 @@ export class MatchWordsGameComponent implements OnInit {
   readonly words;
   readonly images;
 
+
+  readonly gameReady = signal(false);
+
   constructor(
     private readonly store: MatchWordsStore,
     private readonly matchWordService: MatchWordsService) {
+
     this.selectedWordId = this.store.selectedWordId;
     this.selectedImageId = this.store.selectedImageId;
     this.message = this.store.message;
@@ -33,12 +37,15 @@ export class MatchWordsGameComponent implements OnInit {
     this.images = this.store.images;
   }
 
+
   ngOnInit(): void {
     // todo allow passing a specified number of items and items per stage ( items 6 stages 3 is 18)
     // todo work on display of each stage
     // todo add a replay (same items)
     // todo allow new game (new items,maybe more categories)
-    this.matchWordService.setupGameItems(Category.Animals);
+    this.matchWordService.setupGameItems(Category.Animals).subscribe(success => {
+      this.gameReady.set(success);
+    });
   }
 
   onSelectWord(word: WordCard): void {

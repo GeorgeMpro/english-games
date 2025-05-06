@@ -12,6 +12,13 @@ export class MatchWordsStore {
   /** The full set of word-image pairs retrieved from Wiki API. */
   readonly items: WritableSignal<MatchItem[]> = signal([]);
 
+
+  // todo
+  shuffledItemsSlice: WritableSignal<MatchItem[]> = signal([]);
+
+  // todo
+  stageItems: WritableSignal<MatchItem[][]> = signal([]);
+
   /** The list of words prepared as cards (shuffled). */
   readonly words: WritableSignal<WordCard[]> = signal([]);
 
@@ -32,7 +39,7 @@ export class MatchWordsStore {
     this.selectedWordId() != null && this.selectedImageId() != null
   );
 
-  /** Resets selections and clears feedback. */
+  /** Resets word, image, and message selections. */
   resetSelections(): void {
     this.selectedWordId.set(undefined);
     this.selectedImageId.set(undefined);

@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AgeCategoryComponent } from './age-category.component';
+import {provideRouter} from '@angular/router';
 
 describe('AgeCategoryComponent', () => {
   let component: AgeCategoryComponent;
@@ -8,7 +9,10 @@ describe('AgeCategoryComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AgeCategoryComponent]
+      imports: [AgeCategoryComponent],
+      providers: [
+        provideRouter([])
+      ]
     })
     .compileComponents();
 

@@ -1,6 +1,7 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { KidsComponent } from './kids.component';
+import {KidsComponent} from './kids.component';
+import {provideRouter} from '@angular/router';
 
 describe('KidsComponent', () => {
   let component: KidsComponent;
@@ -8,9 +9,12 @@ describe('KidsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [KidsComponent]
+      imports: [KidsComponent],
+      providers: [
+        provideRouter([])
+      ]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(KidsComponent);
     component = fixture.componentInstance;
