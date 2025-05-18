@@ -5,9 +5,6 @@ import {provideHttpClientTesting} from '@angular/common/http/testing';
 import {of} from 'rxjs';
 
 import {
-  DEFAULT_ITEMS_PER_STAGE,
-  DEFAULT_STAGE_COUNT,
-  MATCH_RESET_TIMEOUT,
   MatchWordsService
 } from './match-words.service';
 import {MatchWordsStore} from './match-words.store';
@@ -17,6 +14,12 @@ import {GameLogicService} from '../../../shared/services/game-logic.service';
 
 import {ImageCard, MatchItem, WordCard} from '../../../shared/models/kids.models';
 import {matchItems} from '../../../../assets/test-data/match-items';
+
+import {
+  DEFAULT_STAGE_COUNT,
+  DEFAULT_ITEMS_PER_STAGE,
+  MATCH_RESET_TIMEOUT_DELAY
+} from '../../../shared/game-config.constants';
 
 const stages = DEFAULT_STAGE_COUNT;
 const itemsPerStage = DEFAULT_ITEMS_PER_STAGE;
@@ -132,19 +135,19 @@ describe('MatchWordsService', () => {
     });
 
     it('should store selected word ID in signal', () => {
-      service.selectWord(word);
+      service.handleWordSelection(word);
       expect(store.selectedWordId()).toBe(word.id);
       expect(store.selectedImageId()).toBeUndefined();
     });
 
     it('should store selected image ID in signal', () => {
-      service.selectImage(image);
+      service.handleImageSelection(image);
       expect(store.selectedImageId()).toBe(image.id);
     });
 
     it('should mark item as matched, reset selected, and set feedback message', fakeAsync(() => {
-      service.selectWord(word);
-      service.selectImage(image);
+      service.handleWordSelection(word);
+      service.handleImageSelection(image);
 
       // Matched item should be updated
       const updated = service.getCurrentStageItems().find(i => i.id === item.id);
@@ -154,7 +157,7 @@ describe('MatchWordsService', () => {
       expect(store.matchAttemptMessage()).toBeTruthy();
 
       // Advance time to trigger resetSelections()
-      tick(MATCH_RESET_TIMEOUT);
+      tick(MATCH_RESET_TIMEOUT_DELAY);
 
       // Selected IDs should be cleared
       expect(store.selectedWordId()).toBeUndefined();
@@ -164,7 +167,7 @@ describe('MatchWordsService', () => {
 
 
     it('should not attempt a match if only word is selected', () => {
-      service.selectWord(word);
+      service.handleWordSelection(word);
 
       // no image selected, the match shouldn't trigger
       expect(store.matchAttemptMessage()).toBe('');
@@ -174,14 +177,14 @@ describe('MatchWordsService', () => {
 
     it('should ignore selection if word is already matched', () => {
       word.matched = true;
-      service.selectWord(word);
+      service.handleWordSelection(word);
 
       expect(store.selectedWordId()).toBeUndefined(); // should be ignored
     });
 
     it('should ignore selection if image is already matched', () => {
       image.matched = true;
-      service.selectImage(image);
+      service.handleImageSelection(image);
 
       expect(store.selectedImageId()).toBeUndefined(); // should be ignored
     });
@@ -189,8 +192,8 @@ describe('MatchWordsService', () => {
     it('should not update anything if match result is null', () => {
       spyOn(gameLogicService, 'tryMatchResult').and.returnValue(null);
 
-      service.selectWord(word);
-      service.selectImage(image);
+      service.handleWordSelection(word);
+      service.handleImageSelection(image);
 
       expect(store.matchAttemptMessage()).toBe('');
       expect(service.getCurrentStageItems().find(i => i.id === item.id)?.matched).toBeFalse();
@@ -206,12 +209,45 @@ describe('MatchWordsService', () => {
       const updateValuesSpy = spyOn(service as any, 'updateValues').and.callThrough();
       const resetSpy = spyOn(service as any, 'executeReset').and.callThrough();
 
-      service.selectWord(word);
-      service.selectImage(image);
+      service.handleWordSelection(word);
+      service.handleImageSelection(image);
 
       expect(updateValuesSpy).toHaveBeenCalledWith(result);
       expect(resetSpy).toHaveBeenCalled();
     });
+
+
+    it('should not reset selections if no match result is detected', fakeAsync(() => {
+      spyOn(service as any, 'getMatchResult').and.returnValue(null);
+      const resetSpy = spyOn(service as any, 'executeReset').and.callThrough();
+
+      service.handleWordSelection(word);
+      service.handleImageSelection(image);
+
+      // No match result, reset should not be called
+      expect(resetSpy).not.toHaveBeenCalled();
+      expect(store.selectedWordId()).toBe(word.id);
+      expect(store.selectedImageId()).toBe(image.id);
+    }));
+
+    it('should reset selections if a valid match result is detected', fakeAsync(() => {
+      const result = {
+        updatedWords: [word],
+        updatedImages: [image],
+        message: 'Great!'
+      };
+      spyOn(service as any, 'getMatchResult').and.returnValue(result);
+      const resetSpy = spyOn(service as any, 'executeReset').and.callThrough();
+
+      service.handleWordSelection(word);
+      service.handleImageSelection(image);
+
+      // Valid match result, reset should be called
+      expect(resetSpy).toHaveBeenCalled();
+      tick(MATCH_RESET_TIMEOUT_DELAY);
+      expect(store.selectedWordId()).toBeUndefined();
+      expect(store.selectedImageId()).toBeUndefined();
+    }));
   });
 
 

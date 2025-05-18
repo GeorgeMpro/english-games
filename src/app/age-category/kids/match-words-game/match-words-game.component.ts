@@ -1,6 +1,6 @@
 import {Component, effect, OnInit, signal} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
-import {DEFAULT_STAGE_COUNT, MatchWordsService} from './match-words.service';
+import {MatchWordsService} from './match-words.service';
 import {Category} from '../../../shared/services/vocabulary.service';
 import {MatchWordsStore} from './match-words.store';
 import {ImageCard, WordCard} from '../../../shared/models/kids.models';
@@ -41,7 +41,6 @@ export class MatchWordsGameComponent implements OnInit {
     this.currentStage = this.store.currentStage;
 
 
-
     let lastStage = -1;
 
     effect(() => {
@@ -49,7 +48,7 @@ export class MatchWordsGameComponent implements OnInit {
       if (current !== lastStage) {
         lastStage = current;
         const items = this.store.currentStageItems();
-        this.matchWordService.setupGameCardsFromItems(items);
+        this.matchWordService.generateGameCardsFromItems(items);
       }
     });
 
@@ -68,12 +67,10 @@ export class MatchWordsGameComponent implements OnInit {
   }
 
   onSelectWord(word: WordCard): void {
-    this.matchWordService.selectWord(word);
+    this.matchWordService.handleWordSelection(word);
   }
 
   onSelectImage(image: ImageCard): void {
-    this.matchWordService.selectImage(image);
+    this.matchWordService.handleImageSelection(image);
   }
-
-  protected readonly DEFAULT_STAGE_COUNT = DEFAULT_STAGE_COUNT;
 }

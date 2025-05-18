@@ -19,19 +19,23 @@ export interface WikiQueryResponse {
   query: { pages: Record<string, WikiPage> };
 }
 
-/** A game card with a word*/
-export interface WordCard {
+/**
+ * Represents a base card used in the game, containing common properties
+ * such as an ID, text, and a matched status.
+ */
+export interface BaseCard {
   id: number;
   text: string;
   matched: boolean;
 }
 
+/** A game card with a word*/
+export interface WordCard extends BaseCard {
+}
+
 /** A game with an image*/
-export interface ImageCard {
-  id: number;
+export interface ImageCard extends BaseCard {
   url: string;
-  text: string;
-  matched: boolean;
 }
 
 /** Category metadata for specific age groups*/
