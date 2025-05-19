@@ -56,9 +56,8 @@
 
 /* COMMON CARD LAYOUT */
 .card {
-  width: 100%; /* fill its grid cell */
   aspect-ratio: 1; /* stay square */
-  /*width: var(--card-size);*/
+  width: var(--card-size);
   height: var(--card-size);
   border: var(--border-playing-card);
   border-radius: var(--card-radius);
@@ -90,6 +89,7 @@
 /* WORD CARDS */
 /* base word‑card styling */
 .word-card {
+  --index: 1;
   width: var(--card-size);
   height: var(--card-size);
   border: var(--border-playing-card);
@@ -130,6 +130,7 @@
 /* IMAGE CARDS */
 .image-card {
   background: var(--color-bg-card);
+  border: var(--border-playing-card);
   border-radius: var(--card-radius);
 }
 

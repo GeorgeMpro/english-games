@@ -6,8 +6,8 @@ import {of} from 'rxjs';
 
 import {
   MatchWordsService
-} from './match-words.service';
-import {MatchWordsStore} from './match-words.store';
+} from '../match-words-game/match-words.service';
+import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {VocabularyService, Category} from '../../../shared/services/vocabulary.service';
 import {WikiService} from '../../../shared/services/wiki.service';
 import {GameLogicService} from '../../../shared/services/game-logic.service';
@@ -24,24 +24,6 @@ import {
 const stages = DEFAULT_STAGE_COUNT;
 const itemsPerStage = DEFAULT_ITEMS_PER_STAGE;
 const totalItems = stages * itemsPerStage;
-
-function markAllAsMatched(items: MatchItem[]) {
-  items.forEach(item => {
-    item.matched = true;
-  });
-}
-
-function expectStageProgression(service: MatchWordsService, previousStage: number) {
-  const currentItems = service.getCurrentStageItems();
-  markAllAsMatched(currentItems);
-
-  service.progressIfStageComplete();
-
-  const nextItems = service.getCurrentStageItems();
-  expect(service.getCurrentStage()).toBe(previousStage + 1);
-  expect(nextItems).not.toEqual(currentItems);
-  expect(nextItems.every(i => i.matched)).toBeFalse();
-}
 
 describe('MatchWordsService', () => {
   let service: MatchWordsService;
@@ -249,20 +231,22 @@ describe('MatchWordsService', () => {
       expect(store.selectedImageId()).toBeUndefined();
     }));
   });
+});
 
-
-  describe('Replay & Reset (TODO)', () => {
-    xit('should reshuffle and reuse same items', () => {
-    });
-    xit('should reset game fully with same category', () => {
-    });
+function markAllAsMatched(items: MatchItem[]) {
+  items.forEach(item => {
+    item.matched = true;
   });
+}
 
-  describe('Feedback & Completion (TODO)', () => {
-    xit('should track correct and incorrect matches', () => {
-    });
-    xit('should finish game when all stages complete', () => {
-    });
-  });
-})
-;
+function expectStageProgression(service: MatchWordsService, previousStage: number) {
+  const currentItems = service.getCurrentStageItems();
+  markAllAsMatched(currentItems);
+
+  service.progressGameIfStageComplete();
+
+  const nextItems = service.getCurrentStageItems();
+  expect(service.getCurrentStage()).toBe(previousStage + 1);
+  expect(nextItems).not.toEqual(currentItems);
+  expect(nextItems.every(i => i.matched)).toBeFalse();
+}

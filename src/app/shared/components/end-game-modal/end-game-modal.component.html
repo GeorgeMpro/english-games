@@ -1,0 +1,15 @@
+<div data-testid="end-game-modal">
+  <div class="modal-content">
+    <h2>Game Over</h2>
+    <p>End game modal content goes here.</p>
+
+    <button data-testid="replay-button"
+            (click)="replayClicked.emit()">
+      <span>Replay</span>
+    </button>
+    <button data-testid="new-game-button"
+            (click)="newGameClicked.emit()">
+      <span>New Game</span>
+    </button>
+  </div>
+</div>

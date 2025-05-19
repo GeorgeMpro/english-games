@@ -53,3 +53,8 @@ export interface MatchResult {
   updatedImages: ImageCard[];
   message: string;
 }
+
+export interface MatchAttempt {
+  attempts: number;
+  correctOnFirstTry: boolean;
+}

@@ -12,44 +12,68 @@
       <div class="message">{{ message() }}</div>
     }
     <!--      todo update to signal or something? the 3-->
-    @if (currentStage() < DEFAULT_STAGE_COUNT) {
-      <h2>Stage {{ this.currentStage() + 1 }} of {{ DEFAULT_STAGE_COUNT }}</h2>
+    @if (currentStage() < numberOfStages && !gameOver()) {
+      <h2>Stage {{ this.currentStage() + 1 }} of {{ numberOfStages }}</h2>
     }
-    <div class="boards">
-      <!-- Words board -->
-      <div class="words-board">
-        @for (word of words(); track word.id; let index = $index) {
-          <!--        todo
-          extract to component and use a button instead-->
-          <div
-            class="card word-card"
-            [style.--index]="index + 1"
-            [class.selected]="word.id === selectedWordId()"
-            [class.matched]="word.matched"
-            (click)="onSelectWord(word)"
-          >
-            {{ word.text }}
-          </div>
-        }
-      </div>
 
-      <!-- Images board -->
-      <div class="images-board">
-        @for (image of images(); track image.id) {
-          <div
-            class="card image-card"
-            [class.selected]="image.id === selectedImageId()"
-            [class.matched]="image.matched"
-            (click)="onSelectImage(image)">
-            <img [ngSrc]="image.url"
-                 [alt]="'Image of ' + image.text"
-                 draggable="false"
-                 fill
-                 [priority]="$index===0"/>
-          </div>
-        }
+    <!--    todo rename testid-->
+    @if (!gameOver()) {
+      <div class="boards"
+           data-testid="game-grid">
+        <!-- Words board -->
+        <div class="words-board">
+          @for (word of words(); track word.id; let index = $index) {
+            <!--        todo
+            extract to component and use a button instead-->
+            <div
+              class="card word-card"
+              data-testid="word-card"
+              [style.--index]="index + 1"
+              [class.selected]="word.id === selectedWordId()"
+              [class.matched]="word.matched"
+              (click)="onSelectWord(word)"
+            >
+              {{ word.text }}
+            </div>
+          }
+        </div>
+
+        <!-- Images board -->
+        <div class="images-board">
+          @for (image of images(); track image.id; let i = $index) {
+            <div
+              class="card image-card"
+              data-testid="image-card"
+              [class.selected]="image.id === selectedImageId()"
+              [class.matched]="image.matched"
+              (click)="onSelectImage(image)">
+
+              @if (i === 0) {
+                <img [ngSrc]="image.url"
+                     [alt]="'Image of ' + image.text"
+                     draggable="false"
+                     fill
+                     priority/>
+              } @else {
+                <img [ngSrc]="image.url"
+                     [alt]="'Image of ' + image.text"
+                     draggable="false"
+                     fill/>
+              }
+            </div>
+          }
+
+        </div>
       </div>
-    </div>
+      <!--  todo-->
+        <!--end game modal-->
+    } @else {
+      <app-end-game-modal
+        (newGameClicked)="onNewGame()"
+        (replayClicked)="onReplayGame()"
+
+        data-testid="end-game-modal"/>
+    }
   </section>
 } @loading (minimum 250ms) {
   <ng-container

@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {ImageCard, MatchItem, WordCard} from '../models/kids.models';
+import {ImageCard, MatchAttempt, MatchItem, WordCard} from '../models/kids.models';
 
 
 @Injectable({providedIn: 'root'})
@@ -94,5 +94,35 @@ export class GameLogicService {
   }
 
 
+  /**
+   * Updates the match attempts map with the given word and image IDs.
+   *
+   * - Increments the attempt count for the image ID.
+   * - Marks whether the match was correct on the first attempt.
+   *
+   * @param wordId - The selected word card ID.
+   * @param imageId - The selected image card ID.
+   * @param prev - The previous match attempts map.
+   * @returns A new map containing the updated match attempt.
+   */
+  updateMatchAttempts(
+    wordId: number,
+    imageId: number,
+    prev: Map<number, {
+      attempts: number,
+      correctOnFirstTry: boolean
+    }>): Map<number, MatchAttempt> {
+    const newMap: Map<number, MatchAttempt> = new Map(prev);
+    const exist = newMap.get(imageId);
+    const isFirstAttempt = !exist;
+    const isCorrect = imageId === wordId;
+
+    newMap.set(imageId, {
+      attempts: (exist?.attempts ?? 0) + 1,
+      correctOnFirstTry: isFirstAttempt && isCorrect
+    });
+
+    return newMap;
+  }
 }
 

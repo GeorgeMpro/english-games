@@ -1,14 +1,17 @@
 import {Component, effect, OnInit, signal} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
+
 import {MatchWordsService} from './match-words.service';
-import {Category} from '../../../shared/services/vocabulary.service';
 import {MatchWordsStore} from './match-words.store';
 import {ImageCard, WordCard} from '../../../shared/models/kids.models';
+import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
+import {Category} from '../../../shared/services/vocabulary.service';
+import {DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
 
 @Component({
   selector: 'app-match-words-game',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage],
+  imports: [CommonModule, NgOptimizedImage, EndGameModalComponent],
   templateUrl: './match-words-game.component.html',
   styleUrls: ['./match-words-game.component.css']
 })
@@ -22,6 +25,9 @@ export class MatchWordsGameComponent implements OnInit {
   readonly images;
   readonly stageItems;
   readonly currentStage;
+  readonly gameOver;
+
+  readonly numberOfStages = DEFAULT_STAGE_COUNT;
 
 
   readonly gameReady = signal(false);
@@ -39,7 +45,7 @@ export class MatchWordsGameComponent implements OnInit {
     this.images = this.store.imageCards;
     this.stageItems = this.store.stageItems;
     this.currentStage = this.store.currentStage;
-
+    this.gameOver = this.store.gameOver;
 
     let lastStage = -1;
 
@@ -60,10 +66,12 @@ export class MatchWordsGameComponent implements OnInit {
     // todo work on display of each stage
     // todo add a replay (same items)
     // todo allow new game (new items,maybe more categories)
-    this.matchWordService.initializeGameData(Category.Animals).subscribe(success => {
+    this.matchWordService.initializeGameData(Category.Animals).subscribe(() => {
       this.matchWordService.initializeGamePlay();
-      this.gameReady.set(success);
+      this.gameReady.set(true);
     });
+    // todo set for testing end game modal
+    // this.gameOver.set(true);
   }
 
   onSelectWord(word: WordCard): void {
@@ -72,5 +80,13 @@ export class MatchWordsGameComponent implements OnInit {
 
   onSelectImage(image: ImageCard): void {
     this.matchWordService.handleImageSelection(image);
+  }
+
+  onNewGame(): void {
+    this.matchWordService.newGame();
+  }
+
+  onReplayGame() {
+    this.matchWordService.replayGame();
   }
 }

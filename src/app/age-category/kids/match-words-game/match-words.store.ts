@@ -1,5 +1,5 @@
 import {computed, Injectable, signal, WritableSignal} from '@angular/core';
-import {ImageCard, MatchItem, WordCard} from '../../../shared/models/kids.models';
+import {ImageCard, MatchAttempt, MatchItem, WordCard} from '../../../shared/models/kids.models';
 
 
 /**
@@ -22,9 +22,15 @@ export class MatchWordsStore {
   currentStage: WritableSignal<number> = signal(0);
 
   // todo
+  gameOver: WritableSignal<boolean> = signal(false);
+
+  // todo
   readonly currentStageItems = computed(() =>
     this.stageItems()[this.currentStage()] ?? []
   );
+
+  // todo
+  uniqueCorrectMatchAttemptCounter = signal(new Map<number, MatchAttempt>());
 
   /** The list of words prepared as cards (shuffled). */
   readonly wordCards: WritableSignal<WordCard[]> = signal([]);
@@ -52,5 +58,6 @@ export class MatchWordsStore {
     this.selectedImageId.set(undefined);
     this.matchAttemptMessage.set('');
   }
+
 
 }

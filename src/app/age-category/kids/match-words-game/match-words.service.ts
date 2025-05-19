@@ -7,10 +7,11 @@ import {GameLogicService} from '../../../shared/services/game-logic.service';
 import {WikiService} from '../../../shared/services/wiki.service';
 import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
 import {MatchWordsStore} from './match-words.store';
-import {ImageCard, MatchItem, MatchResult, WordCard} from '../../../shared/models/kids.models';
+import {ImageCard, MatchAttempt, MatchItem, MatchResult, WordCard} from '../../../shared/models/kids.models';
 import {
   DEFAULT_ITEMS_PER_STAGE,
   DEFAULT_STAGE_COUNT,
+  DEFAULT_FIRST_STAGE,
   MATCH_RESET_TIMEOUT_DELAY
 } from '../../../shared/game-config.constants';
 
@@ -60,7 +61,7 @@ export class MatchWordsService {
   }
 
   /**
-   * Sets up the game play by initializing shuffled items, dividing them into stages,
+   * Initializes shuffled items, dividing them into stages,
    * and generating word and image cards for the current stage.
    *
    * Steps:
@@ -159,6 +160,7 @@ export class MatchWordsService {
     }
   }
 
+  // todo working on feedback and counting match attempts
   /**
    * Coordinates a match attempt using the currently selected word and image.
    *
@@ -173,12 +175,31 @@ export class MatchWordsService {
    *    - Reset selections after a timeout.
    */
   private processMatchAttempt(): void {
+    // todo adding unique match tries
+
     const result: MatchResult | null = this.getMatchResult();
 
     if (result) {
       this.handleMatchResult(result);
       this.executeReset();
     }
+    this.updateMatchAttemptMap();
+  }
+
+  // todo
+  updateMatchAttemptMap(): void {
+    const wordId: number = this.store.selectedWordId()!;
+    const imageId: number = this.store.selectedImageId()!;
+    const prev: Map<number, MatchAttempt> = this.store.uniqueCorrectMatchAttemptCounter();
+    const updated: Map<number, MatchAttempt> = this.gameLogicService.updateMatchAttempts(wordId, imageId, prev);
+
+    this.store.uniqueCorrectMatchAttemptCounter.set(updated);
+  }
+
+
+  // todo
+  getMatchAttemptById(id: number) {
+    return this.store.uniqueCorrectMatchAttemptCounter().get(id);
   }
 
   private getMatchResult(): MatchResult | null {
@@ -192,7 +213,7 @@ export class MatchWordsService {
 
   private handleMatchResult(result: MatchResult) {
     this.applyMatchResult(result);
-    this.progressIfStageComplete();
+    this.progressGameIfStageComplete();
   }
 
   private applyMatchResult(result: MatchResult) {
@@ -208,9 +229,14 @@ export class MatchWordsService {
    * If all items are matched, progresses to the next stage
    * by updating the `currentStage` signal.
    */
-  progressIfStageComplete(): void {
+  progressGameIfStageComplete(): void {
     let areMatched = this.getCurrentStageItems().every(item => item.matched);
-    if (areMatched) {
+    if (!areMatched) {
+      return
+    }
+    if (this.getCurrentStage() === DEFAULT_STAGE_COUNT - 1) {
+      this.store.gameOver.set(true);
+    } else {
       this.progressStage();
     }
   }
@@ -251,5 +277,57 @@ export class MatchWordsService {
 
   getCurrentStage(): number {
     return this.store.currentStage();
+  }
+
+  // TODO Working on GAME OVER, FEEDBACK, REPLAY, NEW GAME
+  //  add doc
+  //  connect to component - buttons
+  //  connect to modal - display
+  getGameOverSignal(): Readonly<boolean> {
+    return this.store.gameOver() as Readonly<boolean>;
+  }
+
+  replayGame(): void {
+    this.reshuffleCurrentGameItems();  // reshuffle slice
+    this.resetMatchValues();           // clear matched flags
+
+    this.store.gameOver.set(false);
+    this.store.currentStage.set(DEFAULT_FIRST_STAGE);
+
+    // Notice: clears `matched` class from CSS classes in the cards
+    this.initializeItemsForStage(DEFAULT_STAGE_COUNT, DEFAULT_ITEMS_PER_STAGE);
+
+    // 💥 now use the updated stage items to rebuild cards
+    this.generateGameCardsFromItems(this.getCurrentStageItems());
+
+    this.store.resetSelections();
+  }
+
+
+  reshuffleCurrentGameItems(): void {
+    const reshuffledItems = this.gameLogicService.generateShuffledItemCopy(this.store.shuffledItemsSlice());
+    this.store.shuffledItemsSlice.set(reshuffledItems);
+  }
+
+  resetMatchValues(): void {
+    const unmatchedItems: MatchItem[] = this.store.shuffledItemsSlice().map((item: MatchItem) => {
+      return ({...item, matched: false})
+    });
+
+    this.store.shuffledItemsSlice.set(unmatchedItems);
+  }
+
+//   todo new game
+  newGame() {
+    this.resetGameState();
+
+
+    this.initializeGamePlay();
+  }
+
+  private resetGameState() {
+    this.resetMatchValues();
+    this.store.gameOver.set(false);
+    this.store.currentStage.set(DEFAULT_FIRST_STAGE);
   }
 }

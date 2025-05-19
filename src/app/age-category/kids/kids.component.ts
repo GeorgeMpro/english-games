@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
-import {GameCardDefinition, GameGridComponent} from '../../shared/game-grid/game-grid.component';
+import {GameCardDefinition, GameGridComponent} from '../../shared/components/game-grid/game-grid.component';
 
 @Component({
   selector: 'app-kids',
