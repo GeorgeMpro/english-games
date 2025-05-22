@@ -1,5 +1,5 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
-import { OutputEmitterRef} from '@angular/core';
+import {OutputEmitterRef} from '@angular/core';
 
 import {EndGameModalComponent} from '../components/end-game-modal/end-game-modal.component';
 import {MatchWordsStore} from '../../age-category/kids/match-words-game/match-words.store';
@@ -40,6 +40,18 @@ describe('EndGameModalComponent', () => {
       const btn = getElementByDataTestId(fixture, 'new-game-button');
       expect(btn).not.toBeNull();
       expect(btn.textContent!.trim()).toBe('New Game');
+    });
+
+    it('should have feedback with data-testid', () => {
+      const starRating = getElementByDataTestId(fixture, 'star-rating');
+      const feedback = getElementByDataTestId(fixture, 'feedback-message');
+      const correctCount = getElementByDataTestId(fixture, 'correct-count');
+      const totalCount = getElementByDataTestId(fixture, 'total-count');
+
+      expect(starRating).not.toBeNull();
+      expect(feedback).not.toBeNull();
+      expect(correctCount).not.toBeNull();
+      expect(totalCount).not.toBeNull();
     });
   });
 

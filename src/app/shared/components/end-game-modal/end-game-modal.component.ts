@@ -73,7 +73,7 @@ import {FeedbackMessages} from '../../../../assets/data/feedback-messages';
       text-shadow: 0 0 2px #ffecb3,
       0 0 4px #fdd835,
       0 0 6px #fbc02d;
-      animation: sparkle 1.2s infinite ease-in-out;
+      animation: sparkle 1.5s infinite ease-in-out;
     }
 
     /* ✨ Sparkling effect using subtle scale + glow pulse */
@@ -88,12 +88,11 @@ import {FeedbackMessages} from '../../../../assets/data/feedback-messages';
         0 0 6px #ffee58,
         0 0 10px #fdd835;
       }
-    }
-
-  `]
+    } `]
 
 })
 export class EndGameModalComponent {
+  readonly totalStars: number = 5;
   readonly correctCount = input<number>(0);
   readonly totalCount = input<number>(0);
 
@@ -103,7 +102,9 @@ export class EndGameModalComponent {
   readonly starCount = computed(() => {
     const correct = this.correctCount();
     const total = this.totalCount();
-    if (total === 0) return 0;
+    if (total === 0) {
+      return 0;
+    }
 
     return Math.round((correct / total) * 5);
   });
@@ -120,18 +121,20 @@ export class EndGameModalComponent {
     const {perfect, great, okay, encouragement} = FeedbackMessages;
 
     if (ratio === 1) {
-      return this.getRandomMessage(perfect);
+      return this.getRandomFeedbackMsgByCategory(perfect);
     } else if (ratio >= 0.8) {
-      return this.getRandomMessage(great);
+      return this.getRandomFeedbackMsgByCategory(great);
     } else if (ratio >= 0.5) {
-      return this.getRandomMessage(okay);
+      return this.getRandomFeedbackMsgByCategory(okay);
     } else {
-      return this.getRandomMessage(encouragement);
+      return this.getRandomFeedbackMsgByCategory(encouragement);
     }
   });
 
-  getRandomMessage(messages: string[]): string {
-    return messages[Math.floor(Math.random() * messages.length)];
+  getRandomFeedbackMsgByCategory(messages: string[]): string {
+    const randomIndex = Math.floor(Math.random() * messages.length);
+    return messages[randomIndex];
   }
 
+  protected readonly Array = Array;
 }

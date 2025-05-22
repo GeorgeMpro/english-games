@@ -63,7 +63,9 @@ describe('Game completion, feedback, replay, and new game', () => {
 
       setGivenStageComplete(service, store, 0);
 
-      expect(service.getGameOverSignal()).toBeFalse();
+      expect(service.getGameOverSignal())
+        .withContext('Notice: this test fails when manually setting default stages to 1')
+        .toBeFalse();
     });
 
     // todo test when adding modal and changing display on component
