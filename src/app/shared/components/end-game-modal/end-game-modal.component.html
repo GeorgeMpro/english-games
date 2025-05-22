@@ -1,6 +1,15 @@
 <div data-testid="end-game-modal">
   <div class="modal-content">
     <h2>Game Over</h2>
+
+
+
+    <div class="star-rating" data-testid="star-rating">
+      @for (i of [0, 1, 2, 3, 4]; track i) {
+        <span class="star" [class.filled]="i < starCount()">★</span>
+      }
+    </div>
+
     <p>
       You matched
       <strong data-testid="correct-count">

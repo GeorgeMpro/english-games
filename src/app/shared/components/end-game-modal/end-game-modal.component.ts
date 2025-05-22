@@ -54,7 +54,43 @@ import {FeedbackMessages} from '../../../../assets/data/feedback-messages';
     .modal-content button:hover {
       background-color: var(--color-accent);
       box-shadow: var(--shadow-hover);
-    } `]
+    }
+
+    .star-rating {
+      display: flex;
+      gap: 0.2rem;
+      justify-content: center;
+      font-size: 2rem;
+    }
+
+    .star {
+      color: #e0e0e0; /* Gray for empty stars */
+      transition: color 0.3s ease;
+    }
+
+    .star.filled {
+      color: #FFD700; /* Gold */
+      text-shadow: 0 0 2px #ffecb3,
+      0 0 4px #fdd835,
+      0 0 6px #fbc02d;
+      animation: sparkle 1.2s infinite ease-in-out;
+    }
+
+    /* ✨ Sparkling effect using subtle scale + glow pulse */
+    @keyframes sparkle {
+      0%, 100% {
+        text-shadow: 0 0 2px #ffecb3,
+        0 0 4px #fdd835,
+        0 0 6px #fbc02d;
+      }
+      50% {
+        text-shadow: 0 0 3px #fff176,
+        0 0 6px #ffee58,
+        0 0 10px #fdd835;
+      }
+    }
+
+  `]
 
 })
 export class EndGameModalComponent {
@@ -64,6 +100,13 @@ export class EndGameModalComponent {
   readonly replayClicked = output<void>();
   readonly newGameClicked = output<void>();
 
+  readonly starCount = computed(() => {
+    const correct = this.correctCount();
+    const total = this.totalCount();
+    if (total === 0) return 0;
+
+    return Math.round((correct / total) * 5);
+  });
 
   readonly feedbackMessage = computed(() => {
     const correct = this.correctCount();
@@ -90,4 +133,5 @@ export class EndGameModalComponent {
   getRandomMessage(messages: string[]): string {
     return messages[Math.floor(Math.random() * messages.length)];
   }
+
 }
