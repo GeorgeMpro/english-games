@@ -1,4 +1,4 @@
-import {TestBed} from '@angular/core/testing';
+import {ComponentFixture, DeferBlockBehavior, DeferBlockState, TestBed} from '@angular/core/testing';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 import {provideHttpClient} from '@angular/common/http';
 
@@ -11,6 +11,8 @@ import {WikiService} from '../../../shared/services/wiki.service';
 
 import {matchItems} from '../../../../assets/test-data/match-items';
 import {DEFAULT_ITEMS_PER_STAGE, DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
+import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
+import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
 
 const stages = DEFAULT_STAGE_COUNT;
 const itemsPerStage = DEFAULT_ITEMS_PER_STAGE;
@@ -86,7 +88,7 @@ describe('Feedback functionality', () => {
 
     it('should not set false on multiple attempts on correct unique match', () => {
       [1, 1].forEach(id => simulateMultipleIdMatch(service, store, id, id));
-      expect(getUniqueMatches(store)).toBe(1);
+      expect(service.countUniqueCorrect()).toBe(1);
       expect(store.uniqueCorrectMatchAttemptCounter().size).toBe(1);
     });
 
@@ -109,9 +111,9 @@ describe('Feedback functionality', () => {
     });
   });
 
-  describe('user feedback', () => {
+  xdescribe('user feedback', () => {
 
-    it('should display attempts on game end', () => {
+    xit('should display attempts on game end', () => {
 
     });
     xit('should display an end game message');
@@ -130,6 +132,58 @@ describe('Feedback functionality', () => {
   });
 });
 
+describe('MatchWordsGameComponent - End Game Feedback', () => {
+  let fixture: ComponentFixture<MatchWordsGameComponent>;
+  let component: MatchWordsGameComponent;
+
+  beforeEach(async () => {
+    TestBed.configureTestingModule({
+      imports: [MatchWordsGameComponent], // standalone
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting(),
+        MatchWordsService,
+        MatchWordsStore,
+        {
+          provide: VocabularyService,
+          useValue: {getList: () => of(matchItems.map(i => i.word))}
+        },
+        {
+          provide: WikiService,
+          useValue: {getItems: () => of(structuredClone(matchItems))}
+        }
+      ],
+      deferBlockBehavior: DeferBlockBehavior.Manual,
+    });
+
+    fixture = TestBed.createComponent(MatchWordsGameComponent);
+    component = fixture.componentInstance;
+    const [deferBlock] = await fixture.getDeferBlocks();
+    await deferBlock.render(DeferBlockState.Complete);
+    fixture.detectChanges();
+  });
+
+  it('should display correct attempts in modal on game over', () => {
+    const store = TestBed.inject(MatchWordsStore);
+    const service = TestBed.inject(MatchWordsService);
+
+    // Simulate game progression
+    [1, 2, 3].forEach(id => simulateMultipleIdMatch(service, store, id, id)); // 3 correct
+    [4, 5].forEach(id => simulateMultipleIdMatch(service, store, id, id + 1)); // 2 wrong
+
+    // Simulate game over state
+    component['gameOver'].set(true); // or whatever triggers the modal
+    fixture.detectChanges();
+
+    // Assert via test id
+    const correctEl = getElementByDataTestId(fixture, 'correct-count');
+    const totalEl = getElementByDataTestId(fixture, 'total-count');
+
+    expect(correctEl.textContent).toContain('3');
+    expect(totalEl.textContent).toContain('5');
+  });
+});
+
 /**
  * Manually sets the selected image and word card IDs in the store.
  *
@@ -142,18 +196,6 @@ function setUserSelectedImageAndWordCard(store: MatchWordsStore, imgId: number, 
   store.selectedWordId.set(wordId);
 }
 
-/**
- * Retrieves the count of unique matches.
- *
- * @param store - The `MatchWordsStore` instance.
- * @returns The number of unique correct matches.
- */
-function getUniqueMatches(store: MatchWordsStore) {
-  // Notice: change implementation for a large dataset
-  return Array.from(store.uniqueCorrectMatchAttemptCounter().values())
-    .filter(attempt => attempt.correctOnFirstTry).length;
-}
-
 function assertUniqueMatchCount(service: MatchWordsService, store: MatchWordsStore, correctIds: number[], incorrect: number[]) {
   // simulate `ids.length` correct unique matches
   correctIds.forEach((id) => simulateMultipleIdMatch(service, store, id, id));
@@ -162,7 +204,7 @@ function assertUniqueMatchCount(service: MatchWordsService, store: MatchWordsSto
   incorrect.forEach((id) => simulateMultipleIdMatch(service, store, id, id + 1));
 
   // verify map contains `ids.length` entries with `correctOnFirstTry` set true
-  expect(getUniqueMatches(store)).toBe(correctIds.length);
+  expect(service.countUniqueCorrect()).toBe(correctIds.length);
   expect(store.uniqueCorrectMatchAttemptCounter().size).toBe(correctIds.length + incorrect.length);
 }
 

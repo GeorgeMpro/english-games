@@ -12,7 +12,7 @@ import {
   DEFAULT_ITEMS_PER_STAGE,
   DEFAULT_STAGE_COUNT,
   DEFAULT_FIRST_STAGE,
-  MATCH_RESET_TIMEOUT_DELAY
+  MATCH_RESET_TIMEOUT_DELAY, DEFAULT_TOTAL_ITEMS
 } from '../../../shared/game-config.constants';
 
 
@@ -336,5 +336,21 @@ export class MatchWordsService {
 
     this.store.shuffledItemsSlice.set(unmatchedItems);
     this.store.uniqueCorrectMatchAttemptCounter.set(new Map<number, MatchAttempt>());
+  }
+
+  // todo modal data
+  countUniqueCorrect(): number {
+    return Array.from(this.store.uniqueCorrectMatchAttemptCounter().values())
+      .filter(attempt => attempt.correctOnFirstTry).length;
+  }
+
+  countTotalItems(): number {
+    const map = this.store.uniqueCorrectMatchAttemptCounter();
+
+    // Notice: filter NaN values
+    const validKeys = Array.from(map.keys()).filter(
+      key => typeof key === 'number' && !Number.isNaN(key));
+
+    return validKeys.length;
   }
 }

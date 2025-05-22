@@ -1,7 +1,20 @@
 <div data-testid="end-game-modal">
   <div class="modal-content">
     <h2>Game Over</h2>
-    <p>End game modal content goes here.</p>
+    <p>
+      You matched
+      <strong data-testid="correct-count">
+        {{ correctCount() }}
+      </strong>
+      out of
+      <strong data-testid="total-count">
+        {{ totalCount() }}
+      </strong>
+    </p>
+
+    <p data-testid="feedback-message">
+      {{ feedbackMessage() }}
+    </p>
 
     <button data-testid="replay-button"
             (click)="replayClicked.emit()">

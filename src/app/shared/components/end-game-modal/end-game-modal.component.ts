@@ -1,4 +1,5 @@
-import {Component, EventEmitter, output} from '@angular/core';
+import {Component, computed, input, output} from '@angular/core';
+import {FeedbackMessages} from '../../../../assets/data/feedback-messages';
 
 @Component({
   selector: 'app-end-game-modal',
@@ -57,6 +58,36 @@ import {Component, EventEmitter, output} from '@angular/core';
 
 })
 export class EndGameModalComponent {
+  readonly correctCount = input<number>(0);
+  readonly totalCount = input<number>(0);
+
   readonly replayClicked = output<void>();
   readonly newGameClicked = output<void>();
+
+
+  readonly feedbackMessage = computed(() => {
+    const correct = this.correctCount();
+    const total = this.totalCount();
+
+    if (total <= 0) {
+      return '';
+    }
+
+    const ratio = correct / total;
+    const {perfect, great, okay, encouragement} = FeedbackMessages;
+
+    if (ratio === 1) {
+      return this.getRandomMessage(perfect);
+    } else if (ratio >= 0.8) {
+      return this.getRandomMessage(great);
+    } else if (ratio >= 0.5) {
+      return this.getRandomMessage(okay);
+    } else {
+      return this.getRandomMessage(encouragement);
+    }
+  });
+
+  getRandomMessage(messages: string[]): string {
+    return messages[Math.floor(Math.random() * messages.length)];
+  }
 }

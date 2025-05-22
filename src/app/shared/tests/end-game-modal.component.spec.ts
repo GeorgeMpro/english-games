@@ -1,5 +1,5 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {EventEmitter} from '@angular/core';
+import { OutputEmitterRef} from '@angular/core';
 
 import {EndGameModalComponent} from '../components/end-game-modal/end-game-modal.component';
 import {MatchWordsStore} from '../../age-category/kids/match-words-game/match-words.store';
@@ -45,11 +45,11 @@ describe('EndGameModalComponent', () => {
 
   describe('Button Clicks and events', () => {
     it('should emit replay when button is clicked', () => {
-      expectButtonEmitEvent(fixture, component, 'replay-button', 'replayClicked');
+      expectButtonEmitEvent(fixture, component, 'replay-button', component.replayClicked);
     });
 
     it('should emit new game when button is clicked', () => {
-      expectButtonEmitEvent(fixture, component, 'new-game-button', 'newGameClicked');
+      expectButtonEmitEvent(fixture, component, 'new-game-button', component.newGameClicked);
     });
   });
 
@@ -65,11 +65,14 @@ describe('EndGameModalComponent', () => {
 });
 
 
-function expectButtonEmitEvent(fixture: ComponentFixture<EndGameModalComponent>, component: EndGameModalComponent, btnName: string, eventEmitter: keyof EndGameModalComponent) {
+function expectButtonEmitEvent(
+  fixture: ComponentFixture<EndGameModalComponent>,
+  component: EndGameModalComponent,
+  btnName: string,
+  emitter: OutputEmitterRef<void>
+): void {
   const btn = getElementByDataTestId(fixture, btnName);
-  spyOn(component[eventEmitter], 'emit');
-
+  spyOn(emitter, 'emit');
   btn.click();
-
-  expect(component[eventEmitter].emit).toHaveBeenCalled();
+  expect(emitter.emit).toHaveBeenCalled();
 }

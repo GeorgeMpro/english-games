@@ -70,6 +70,7 @@ export class MatchWordsGameComponent implements OnInit {
       this.matchWordService.initializeGamePlay();
       this.gameReady.set(true);
     });
+
     // todo set for testing end game modal
     // this.gameOver.set(true);
   }
@@ -88,5 +89,13 @@ export class MatchWordsGameComponent implements OnInit {
 
   onReplayGame() {
     this.matchWordService.replayGame();
+  }
+
+  correctCount() {
+    return this.matchWordService.countUniqueCorrect();
+  }
+
+  totalCount() {
+    return this.matchWordService.countTotalItems();
   }
 }

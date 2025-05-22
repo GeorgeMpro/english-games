@@ -71,7 +71,8 @@
       <app-end-game-modal
         (newGameClicked)="onNewGame()"
         (replayClicked)="onReplayGame()"
-
+        [correctCount]="correctCount()"
+        [totalCount]="totalCount()"
         data-testid="end-game-modal"/>
     }
   </section>
