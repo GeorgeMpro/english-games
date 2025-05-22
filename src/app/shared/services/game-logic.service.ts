@@ -114,6 +114,12 @@ export class GameLogicService {
     }>): Map<number, MatchAttempt> {
     const newMap: Map<number, MatchAttempt> = new Map(prev);
     const exist = newMap.get(imageId);
+
+    // don't overwrite if was correct on first try
+    if (exist?.correctOnFirstTry) {
+      return newMap;
+    }
+
     const isFirstAttempt = !exist;
     const isCorrect = imageId === wordId;
 

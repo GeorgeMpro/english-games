@@ -309,18 +309,9 @@ export class MatchWordsService {
     this.store.shuffledItemsSlice.set(reshuffledItems);
   }
 
-  resetMatchValues(): void {
-    const unmatchedItems: MatchItem[] = this.store.shuffledItemsSlice().map((item: MatchItem) => {
-      return ({...item, matched: false})
-    });
-
-    this.store.shuffledItemsSlice.set(unmatchedItems);
-  }
-
 //   todo new game
   newGame() {
     this.resetGameState();
-
 
     this.initializeGamePlay();
   }
@@ -329,5 +320,21 @@ export class MatchWordsService {
     this.resetMatchValues();
     this.store.gameOver.set(false);
     this.store.currentStage.set(DEFAULT_FIRST_STAGE);
+  }
+
+  /**
+   * Resets all match-related values in the game state.
+   *
+   * This method performs the following:
+   * 1. Resets all items in the `shuffledItemsSlice` to unmatched.
+   * 2. Clears the `uniqueCorrectMatchAttemptCounter` map.
+   */
+  resetMatchValues(): void {
+    const unmatchedItems: MatchItem[] = this.store.shuffledItemsSlice().map((item: MatchItem) => {
+      return ({...item, matched: false})
+    });
+
+    this.store.shuffledItemsSlice.set(unmatchedItems);
+    this.store.uniqueCorrectMatchAttemptCounter.set(new Map<number, MatchAttempt>());
   }
 }

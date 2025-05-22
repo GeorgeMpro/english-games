@@ -15,10 +15,12 @@ import {DEFAULT_ITEMS_PER_STAGE, DEFAULT_STAGE_COUNT} from '../../../shared/game
 const stages = DEFAULT_STAGE_COUNT;
 const itemsPerStage = DEFAULT_ITEMS_PER_STAGE;
 
+
 describe('Feedback functionality', () => {
   let service: MatchWordsService;
   let store: MatchWordsStore;
 
+  // todo extract setup in multiple files
   beforeEach((done) => {
     TestBed.configureTestingModule({
       providers: [
@@ -82,17 +84,36 @@ describe('Feedback functionality', () => {
       expect(service.getMatchAttemptById(id)?.correctOnFirstTry).toBeFalse();
     });
 
-    xit('should ignore repeated attempts on the same image');
+    it('should not set false on multiple attempts on correct unique match', () => {
+      [1, 1].forEach(id => simulateMultipleIdMatch(service, store, id, id));
+      expect(getUniqueMatches(store)).toBe(1);
+      expect(store.uniqueCorrectMatchAttemptCounter().size).toBe(1);
+    });
 
-    xit('should return correct unique matches out of total items');
-    xit('should reset attempt map on new game');
-    xit('should reset attempt map on replay');
+    it('should return correct unique matches out of total items', () => {
+      const ids = [1, 2, 3, 4, 5];
+      const incorrect = [6, 7, 8];
+      assertUniqueMatchCount(service, store, ids, incorrect);
+    });
 
+    it('should reset attempt map on new game', () => {
+
+      simulateInputAndReset(service, store, 'newGame');
+
+      expect(store.uniqueCorrectMatchAttemptCounter().size).toBe(0);
+    });
+
+    it('should reset attempt map on replay', () => {
+      simulateInputAndReset(service, store, 'replayGame');
+      expect(store.uniqueCorrectMatchAttemptCounter().size).toBe(0);
+    });
   });
 
-  xdescribe('user feedback', () => {
+  describe('user feedback', () => {
 
-    xit('should display number of unique correct attempts');
+    it('should display attempts on game end', () => {
+
+    });
     xit('should display an end game message');
     xit('should give random encouraging message depending on level');
     xit('should render stars or visual rating as feedback');
@@ -109,7 +130,66 @@ describe('Feedback functionality', () => {
   });
 });
 
+/**
+ * Manually sets the selected image and word card IDs in the store.
+ *
+ * @param store - The `MatchWordsStore` instance.
+ * @param imgId - The ID of the selected image card.
+ * @param wordId - The ID of the selected word card.
+ */
 function setUserSelectedImageAndWordCard(store: MatchWordsStore, imgId: number, wordId: number) {
   store.selectedImageId.set(imgId);
   store.selectedWordId.set(wordId);
+}
+
+/**
+ * Retrieves the count of unique matches.
+ *
+ * @param store - The `MatchWordsStore` instance.
+ * @returns The number of unique correct matches.
+ */
+function getUniqueMatches(store: MatchWordsStore) {
+  // Notice: change implementation for a large dataset
+  return Array.from(store.uniqueCorrectMatchAttemptCounter().values())
+    .filter(attempt => attempt.correctOnFirstTry).length;
+}
+
+function assertUniqueMatchCount(service: MatchWordsService, store: MatchWordsStore, correctIds: number[], incorrect: number[]) {
+  // simulate `ids.length` correct unique matches
+  correctIds.forEach((id) => simulateMultipleIdMatch(service, store, id, id));
+
+  // simulate incorrect matches
+  incorrect.forEach((id) => simulateMultipleIdMatch(service, store, id, id + 1));
+
+  // verify map contains `ids.length` entries with `correctOnFirstTry` set true
+  expect(getUniqueMatches(store)).toBe(correctIds.length);
+  expect(store.uniqueCorrectMatchAttemptCounter().size).toBe(correctIds.length + incorrect.length);
+}
+
+/**
+ * Simulates multiple match attempts for a given image and word ID pair.
+ *
+ * @param service - The `MatchWordsService` instance.
+ * @param store - The `MatchWordsStore` instance.
+ * @param imageId - The ID of the image card to match.
+ * @param wordId - The ID of the word card to match.
+ */
+function simulateMultipleIdMatch(
+  service: MatchWordsService,
+  store: MatchWordsStore,
+  imageId: number,
+  wordId: number) {
+  setUserSelectedImageAndWordCard(store, imageId, wordId);
+  service['processMatchAttempt']();
+}
+
+function simulateInputAndReset(
+  service: MatchWordsService,
+  store: MatchWordsStore,
+  resetFunction: keyof MatchWordsService) {
+  [1, 2, 3, 4].forEach(id => simulateMultipleIdMatch(service, store, id, id));
+  [5, 6, 7].forEach(id => simulateMultipleIdMatch(service, store, id, id + 1));
+
+  // simulate resetting game state
+  (service[resetFunction] as Function)();
 }
