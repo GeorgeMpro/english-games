@@ -6,7 +6,8 @@
 </ng-template>
 
 @defer (when gameReady()) {
-  <section class="match-words">
+  <section class="match-words"
+           [class.fade-in]="gameReady()">
     <h2>Match the Word to the Image</h2>
     @if (message()) {
       <div class="message">{{ message() }}</div>
@@ -69,6 +70,7 @@
         <!--end game modal-->
     } @else {
       <app-end-game-modal
+        class="fade-in"
         (newGameClicked)="onNewGame()"
         (replayClicked)="onReplayGame()"
         [correctCount]="correctCount()"

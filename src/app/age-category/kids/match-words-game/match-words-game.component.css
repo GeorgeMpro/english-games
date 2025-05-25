@@ -175,3 +175,37 @@
   justify-content: center;
   min-height: 300px;
 }
+
+/*todo update and test*/
+/*modal animation*/
+[data-testid="end-game-modal"] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  background-color: rgba(60, 40, 122, 0.85); /* deep eggplant / plum */
+}
+
+/* 2. Modal fades in slowly */
+.modal-content {
+  opacity: 0;
+  animation: fadeInModal 450ms ease-out forwards;
+  animation-delay: 50ms; /* slight lag after backdrop */
+}
+
+@keyframes fadeInModal {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

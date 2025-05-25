@@ -98,4 +98,5 @@ export class MatchWordsGameComponent implements OnInit {
   totalCount() {
     return this.matchWordService.countTotalItems();
   }
+
 }
