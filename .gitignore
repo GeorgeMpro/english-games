@@ -36,6 +36,9 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+*.deb
+CODE_REVIEW.md
+n-kids-category
 
 # System files
 .DS_Store
