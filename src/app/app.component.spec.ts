@@ -1,7 +1,6 @@
 import {TestBed} from '@angular/core/testing';
 import {AppComponent} from './app.component';
 import {provideRouter} from '@angular/router';
-import {IframeModeDirective} from './shared/directives/iframe-mode/iframe-mode.directive';
 
 describe('AppComponent', () => {
   beforeEach(async () => {

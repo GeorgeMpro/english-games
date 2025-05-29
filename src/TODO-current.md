@@ -42,19 +42,14 @@
 
 ## General
 
-### iframe
+### mobile
 
-Create an iframe directive
+Create a mobile directive
 
-1. display none on header/footer
-2. transform card scale
-
-- pass as iframe
-- hide things when embedded as iframe
-- standalone component without background route
-- e.g: (commented out)
-
-[//]: # (<iframe src="http://localhost:4200/kids/match-words?embed=true" width="100%" height="600"></iframe>)
+- notice screen size
+- transform card scale
+- vertical/ horizontal mode
+- extract css class?
 
 ### Design / Style
 
