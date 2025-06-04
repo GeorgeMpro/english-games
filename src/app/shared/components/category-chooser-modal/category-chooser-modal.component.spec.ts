@@ -1,6 +1,8 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {CategoryChooserModalComponent} from './category-chooser-modal.component';
+import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
+
 
 describe('CategoryChooserModalComponent', () => {
   let component: CategoryChooserModalComponent;
@@ -37,12 +39,54 @@ describe('Functionality', () => {
     fixture.detectChanges();
   });
 
-  describe('Displaying categories', () => {
-    it('should have a non-empty categories list', () => {
-      expect(component.categories?.length).toBeGreaterThan(0);
+  describe('Handling categories', () => {
+
+    it('should handle empty categories', () => {
+      expect(component.categories()).toEqual([]);
+      spyOn(component, 'getCategories').and.callThrough();
+
+      const result = component.getCategories();
+      const msg = component.errorMessage;
+
+      expect(result.length).toBe(1);
+      expect(msg).toBe(ERROR_CATEGORIES_MESSAGE);
+      expect(result).toEqual([DEFAULT_CATEGORY]);
+
+
     });
-    xit('should get categories from service');
-    xit('should it should display entire categories input');
+    it('should be update categories', () => {
+      const fakeCategories = ['Animals', 'Colors'];
+
+      component.updateCategories(fakeCategories);
+
+      expect(component.getCategories()).toEqual(fakeCategories);
+    });
+
+    it('should handle update duplicate categories', () => {
+      const fakeCategories = ['Animals', 'Colors'];
+
+      component.updateCategories(fakeCategories);
+
+      const duplicateCategories = ['Animals', 'Utensils'];
+
+      component.updateCategories(duplicateCategories);
+      expect(component.getCategories()).toEqual(['Animals', 'Colors', 'Utensils']);
+
+      const reDuplicateCategories = ['Animals', 'Colors','Colors','Verbs'];
+
+      component.updateCategories(reDuplicateCategories);
+      expect(component.getCategories()).toEqual(['Animals', 'Colors', 'Utensils','Verbs']);
+
+
+    });
+
+    xit('should not allow empty categories update', () => {
+    });
+
+
+    xit('should be able to reset categories');
+    xit('should display all available categories');
+
   });
 
   xdescribe('Choosing categories', () => {
@@ -78,5 +122,12 @@ describe('Functionality', () => {
     xit('should handle when not enough items in given category');
     xit('should ');
 
+
+    // todo end to end
+    // todo maybe cache in a map <string, item[]>
+    xit('should keep old fetched categories for this session, not calling again categories already fetched');
+    xit('should get categories from service');
+    xit('');
+    xit('');
   });
 });

@@ -5,6 +5,8 @@
 ### Category Button
 
 - use or create a category service
+- testing
+  - modal harness ?
 - functionality
   - pop up modal
     - take 1 or many categories
