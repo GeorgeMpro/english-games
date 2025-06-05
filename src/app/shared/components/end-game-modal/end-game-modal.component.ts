@@ -6,7 +6,8 @@ import {FeedbackMessages} from '../../../../assets/data/feedback-messages';
   imports: [],
   templateUrl: './end-game-modal.component.html',
 
-  // todo
+
+  // todo extract styling from this and category modal
   styles: [`
     [data-testid="end-game-modal"] {
       position: fixed; /* ✅ FIX: cover viewport regardless of scroll/parent */

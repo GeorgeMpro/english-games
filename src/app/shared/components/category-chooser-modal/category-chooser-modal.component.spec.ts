@@ -1,43 +1,19 @@
-import {By} from '@angular/platform-browser';
 import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {By} from '@angular/platform-browser';
+
+import {TestbedHarnessEnvironment} from '@angular/cdk/testing/testbed';
+import {HarnessLoader} from '@angular/cdk/testing';
+
+import {MatChipOptionHarness} from '@angular/material/chips/testing';
 
 import {CategoryChooserModalComponent} from './category-chooser-modal.component';
-
 import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
-import {DebugElement} from '@angular/core';
+import {getElementByDataTestId} from '../../tests/dom-test-utils';
 
-
-describe('CategoryChooserModalComponent', () => {
-  let component: CategoryChooserModalComponent;
-  let fixture: ComponentFixture<CategoryChooserModalComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [CategoryChooserModalComponent]
-    })
-      .compileComponents();
-
-    fixture = TestBed.createComponent(CategoryChooserModalComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
-
-
-function expectSelectedStates(fixture: ComponentFixture<CategoryChooserModalComponent>, expectedValues: boolean[]) {
-  expect(getChips(fixture).map(
-    chip => chip.componentInstance.selected
-  )).toEqual(expectedValues);
-}
 
 describe('Functionality', () => {
   let component: CategoryChooserModalComponent;
   let fixture: ComponentFixture<CategoryChooserModalComponent>;
-
   const fakeCategories: string[] = ['Animals', 'Colors'];
 
   beforeEach(async () => {
@@ -124,16 +100,18 @@ describe('Functionality', () => {
 
   describe('Rendering and interaction', () => {
     describe('Display and selection', () => {
+
+      let loader: HarnessLoader;
+
       beforeEach(() => {
         component.availableCategories = fakeCategories;
+        loader = TestbedHarnessEnvironment.loader(fixture);
         fixture.detectChanges();
       });
 
-      it('should render available categories', () => {
-        const chips = getChips(fixture);
-        const labels: string[] = chips.map(chip =>
-          chip.nativeElement.textContent.trim()
-        );
+      it('should render available categories', async () => {
+        const chips = await loader.getAllHarnesses(MatChipOptionHarness);
+        const labels = await Promise.all(chips.map(chip => chip.getText()));
         expect(chips.length).toBe(fakeCategories.length);
         expect(labels).toEqual(fakeCategories);
       });
@@ -153,22 +131,30 @@ describe('Functionality', () => {
         expectSelectedStates(fixture, [true, false]);
       });
 
-      it('should be able to click select category', () => {
-        getChips(fixture)[0].nativeElement.click();
-        fixture.detectChanges();
+      it('should toggle chip selection', async () => {
 
-        expect(component.chosenCategories()).toEqual([fakeCategories[0]]);
-        expectSelectedStates(fixture, [true, false]);
+        // todo cleanup?
+        const chips = await loader.getAllHarnesses(MatChipOptionHarness);
+
+        await chips[0].toggle();
+        await chips[1].toggle();
+        expect(await chips[0].isSelected()).toBeTrue();
+        expect(await chips[1].isSelected()).toBeTrue();
+
+        await chips[0].toggle();
+        expect(await chips[0].isSelected()).toBeFalse();
+        expect(await chips[1].isSelected()).toBeTrue();
+
+
+        // Internal state should NOT be updated yet
+        expect(component.chosenCategories()).toEqual([]);
       });
 
-      xit('should be able to click select multiple categories')
-      xit('should toggle selection on click', () => {
-
-      });
     });
 
     describe('Ok and Back buttons', () => {
 
+      it('should update selected categories on OK click')
       xit('should disable the "ok" button when no categories selected', () => {
 
       });
@@ -176,13 +162,37 @@ describe('Functionality', () => {
       xit('should disable ok button if no categories are chosen');
     });
 
-  });
+    describe('Ok and Cancel', () => {
+      let loader: HarnessLoader;
 
-  xdescribe('Ok and Cancel', () => {
-    xit('should not update categories when clicking cancel button');
-    xit('should close modal on cancel button');
-    xit('should accept chosen categories when clicking ok button', () => {
+      const okId = "ok-button";
 
+      beforeEach(() => {
+        component.availableCategories = fakeCategories;
+        loader = TestbedHarnessEnvironment.loader(fixture);
+        fixture.detectChanges();
+      });
+
+      it('should render an OK button', () => {
+        expect(getElementByDataTestId(fixture, okId)).toBeTruthy();
+      });
+      it('should not update categories when clicking cancel button', async () => {
+        // setup
+        component.availableCategories = fakeCategories;
+        const chips = await loader.getAllHarnesses(MatChipOptionHarness);
+        await chips[0].toggle();
+        await chips[1].toggle();
+        const okBtn = getElementByDataTestId(fixture, okId);
+
+        // press ok
+        okBtn.click();
+
+        expect(component.chosenCategories()).toEqual(fakeCategories);
+      });
+      xit('should close modal on cancel button');
+      xit('should accept chosen categories when clicking ok button', () => {
+
+      });
     });
   });
 
@@ -224,15 +234,14 @@ function expectUpdated(component: CategoryChooserModalComponent, catUpdate: stri
   expect(component.getChosenCategories()).toEqual(expected);
 }
 
-function getChips(fixture: ComponentFixture<CategoryChooserModalComponent>): DebugElement[] {
-  return fixture.debugElement.queryAll(By.css('mat-chip-option[data-testid^="category-"]'));
-}
-
-function getSelectedCategories(chips: DebugElement[]): boolean[] {
-  return chips.map(chip => chip.componentInstance.selected);
-}
-
 function setupAndDetectChosenCategories(fixture: ComponentFixture<CategoryChooserModalComponent>, component: CategoryChooserModalComponent, cats: string[]) {
   component.updateChosenCategories(cats);
   fixture.detectChanges();
+}
+
+async function expectSelectedStates(fixture: ComponentFixture<CategoryChooserModalComponent>, expected: boolean[]) {
+  const loader = TestbedHarnessEnvironment.loader(fixture);
+  const chips = await loader.getAllHarnesses(MatChipOptionHarness);
+  const selectedStates = await Promise.all(chips.map(c => c.isSelected()));
+  expect(selectedStates).toEqual(expected);
 }
