@@ -4,6 +4,7 @@ import {ComponentFixture, TestBed} from '@angular/core/testing';
 import {CategoryChooserModalComponent} from './category-chooser-modal.component';
 
 import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
+import {DebugElement} from '@angular/core';
 
 
 describe('CategoryChooserModalComponent', () => {
@@ -117,19 +118,47 @@ describe('Functionality', () => {
   });
 
   describe('Rendering and interaction', () => {
-    it('should render available categories', () => {
+    beforeEach(() => {
       component.availableCategories = fakeCategories;
       fixture.detectChanges();
-
-      const chips = fixture.debugElement.queryAll(By.css('mat-chip-option[data-testid^="category-"]'));
-      const labels = chips.map(chip =>
+    });
+    it('should render available categories', () => {
+      const chips = getChips(fixture);
+      const labels: string[] = chips.map(chip =>
         chip.nativeElement.textContent.trim()
       );
-
       expect(chips.length).toBe(fakeCategories.length);
       expect(labels).toEqual(fakeCategories);
+    });
+    it('should have available categories start as not selected', () => {
+      component.chosenCategories.set([]);
+      fixture.detectChanges();
+
+      const chips = getChips(fixture);
+      const selectedCategories = chips.map(chip => chip.componentInstance.selected);
+
+
+      expect(selectedCategories).toEqual([false, false]); // or fill dynamically:
+      expect(selectedCategories.every(s => s === false)).toBeTrue();
+    });
+
+    it('should mark available chips selected when they appear in the user chosen chips', () => {
+      component.chosenCategories.set(fakeCategories);
+      fixture.detectChanges();
+
+      const chips = getChips(fixture);
+      const selectedCategories = chips.map(chip => chip.componentInstance.selected);
+
+      expect(selectedCategories.every(s => s === true)).toBeTrue();
+
+      component.updateChosenCategories([fakeCategories[0]]);
+      fixture.detectChanges();
+      expect(getChips(fixture).map(
+        chip => chip.componentInstance.selected
+      )).toEqual([true, false]);
 
     });
+
     xit('should have previously selected categories from available categories', () => {
 
     });
@@ -192,4 +221,8 @@ describe('Functionality', () => {
 function expectUpdated(component: CategoryChooserModalComponent, catUpdate: string[], expected: string[]): void {
   component.updateChosenCategories(catUpdate);
   expect(component.getChosenCategories()).toEqual(expected);
+}
+
+function getChips(fixture: ComponentFixture<CategoryChooserModalComponent>): DebugElement[] {
+  return fixture.debugElement.queryAll(By.css('mat-chip-option[data-testid^="category-"]'));
 }

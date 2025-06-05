@@ -13,8 +13,9 @@ import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.cons
   template: `
     <mat-chip-listbox [multiple]="true">
       @for (category of availableCategories; track category) {
-        <mat-chip-option selected
-        [attr.data-testid]="'category-'+ category">
+        <mat-chip-option
+          [selected]="chosenCategories().includes(category)"
+          [attr.data-testid]="'category-'+ category">
           {{ category }}
         </mat-chip-option>
       }

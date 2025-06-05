@@ -60,3 +60,6 @@ app-home {
 .content {
   flex: 1; /* <-- take all available vertical space */
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
