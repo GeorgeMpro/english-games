@@ -12,7 +12,7 @@ import {
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, FooterComponent, CategoryChooserModalComponent,],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styles: ``
 })
 export class AppComponent {
 
