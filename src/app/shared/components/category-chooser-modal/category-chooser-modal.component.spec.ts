@@ -1,5 +1,4 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {By} from '@angular/platform-browser';
 
 import {TestbedHarnessEnvironment} from '@angular/cdk/testing/testbed';
 import {HarnessLoader} from '@angular/cdk/testing';
@@ -24,6 +23,7 @@ describe('Functionality', () => {
 
     fixture = TestBed.createComponent(CategoryChooserModalComponent);
     component = fixture.componentInstance;
+    component.isVisible.set(true);
     fixture.detectChanges();
   });
 
@@ -67,7 +67,7 @@ describe('Functionality', () => {
     it('should be able to reset categories', () => {
       expectUpdated(component, fakeCategories, fakeCategories);
 
-      component.resetCategories();
+      component.resetChosenCategories();
 
       expect(component.chosenCategories()).toEqual([]);
     });
@@ -116,19 +116,19 @@ describe('Functionality', () => {
         expect(labels).toEqual(fakeCategories);
       });
 
-      it('should have available categories start as not selected', () => {
+      it('should have available categories start as not selected', async () => {
         setupAndDetectChosenCategories(fixture, component, []);
 
-        expectSelectedStates(fixture, [false, false]);
+        await expectSelectedStates(fixture, [false, false]);
       });
 
-      it('should mark available chips selected when they appear in the user chosen chips', () => {
+      it('should mark available chips selected when they appear in the user chosen chips', async () => {
         setupAndDetectChosenCategories(fixture, component, fakeCategories);
-        expectSelectedStates(fixture, [true, true]);
+        await expectSelectedStates(fixture, [true, true]);
 
         setupAndDetectChosenCategories(fixture, component, [fakeCategories[0]]);
 
-        expectSelectedStates(fixture, [true, false]);
+        await expectSelectedStates(fixture, [true, false]);
       });
 
       it('should toggle chip selection', async () => {
@@ -152,43 +152,42 @@ describe('Functionality', () => {
 
     });
 
-    describe('Ok and Back buttons', () => {
-
-      it('should update selected categories on OK click')
-      xit('should disable the "ok" button when no categories selected', () => {
-
-      });
-
-      xit('should disable ok button if no categories are chosen');
-    });
-
     describe('Ok and Cancel', () => {
       let loader: HarnessLoader;
 
       const okId = "ok-button";
+      let okBtn: HTMLButtonElement;
 
       beforeEach(() => {
         component.availableCategories = fakeCategories;
         loader = TestbedHarnessEnvironment.loader(fixture);
+        okBtn = getElementByDataTestId(fixture, okId);
         fixture.detectChanges();
       });
 
       it('should render an OK button', () => {
-        expect(getElementByDataTestId(fixture, okId)).toBeTruthy();
+        expect(okBt
       });
-      it('should not update categories when clicking cancel button', async () => {
-        // setup
+
+      it('should update selected categories on OK click', async () => {
         component.availableCategories = fakeCategories;
         const chips = await loader.getAllHarnesses(MatChipOptionHarness);
         await chips[0].toggle();
         await chips[1].toggle();
-        const okBtn = getElementByDataTestId(fixture, okId);
 
-        // press ok
+        expect(okBtn.disabled).toBeFalse();
         okBtn.click();
 
         expect(component.chosenCategories()).toEqual(fakeCategories);
       });
+
+      it('should disable ok button if no categories are chosen', () => {
+        component.resetChosenCategories();
+        fixture.detectChanges();
+
+        expect(okBtn.disabled).toBeTrue();
+      });
+
       xit('should close modal on cancel button');
       xit('should accept chosen categories when clicking ok button', () => {
 
@@ -197,9 +196,17 @@ describe('Functionality', () => {
   });
 
 
+  // todo when in parent component - maybe move to further testing
   xdescribe('Displaying modal', () => {
     xit('should display modal on choose category button click');
     xit('should hide modal on finalising selection');
+  });
+
+  // todo connect to dummy vocab service get all categories
+  xdescribe('Connecting to service', () => {
+    xit('Should get all categories', () => {
+
+    });
   });
 
   // TODO: Note: probably not in the modal but here as place holder

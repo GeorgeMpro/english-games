@@ -1,4 +1,4 @@
-import {Component, QueryList, signal, ViewChildren} from '@angular/core';
+import {Component, computed, QueryList, signal, ViewChildren} from '@angular/core';
 
 import {MatChipListbox, MatChipOption} from '@angular/material/chips';
 
@@ -11,26 +11,29 @@ import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.cons
     MatChipOption
   ],
   template: `
-    <div class="app-modal"
-         data-testid="category-chooser-modal">
-      <div class="modal-content">
-        <mat-chip-listbox [multiple]="true">
-          @for (category of availableCategories; track category) {
-            <mat-chip-option
-              [selected]="chosenCategories().includes(category)"
-              [attr.data-testid]="'category-'+ category"
-              [value]="category">
-              {{ category }}
-            </mat-chip-option>
-          }
-        </mat-chip-listbox>
+    @if (isVisible()) {
+      <div class="app-modal"
+           data-testid="category-chooser-modal">
+        <div class="modal-content">
+          <mat-chip-listbox [multiple]="true">
+            @for (category of availableCategories; track category) {
+              <mat-chip-option
+                [selected]="chosenCategories().includes(category)"
+                [attr.data-testid]="'category-'+ category"
+                [value]="category">
+                {{ category }}
+              </mat-chip-option>
+            }
+          </mat-chip-listbox>
 
-        <button data-testid="ok-button"
-                (click)="onOkClick()">
-          <span>Ok</span>
-        </button>
+          <button data-testid="ok-button"
+                  [disabled]="isOkButtonDisabled()"
+                  (click)="onOkClick()">
+            <span>Ok</span>
+          </button>
+        </div>
       </div>
-    </div>
+    }
   `,
   // todo extract styling from this and end game
   styleUrl: '../../styles/app-modal.shared.css'
@@ -46,11 +49,15 @@ export class CategoryChooserModalComponent {
 
 
   availableCategories: string[] = ['animals', 'colors', 'utensils'];
-  readonly chosenCategories = signal<string[]>([]);
   errorMessage: string = '';
 
-  @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
+  readonly chosenCategories = signal<string[]>([]);
+  readonly isVisible = signal<boolean>(false);
+  readonly isOkButtonDisabled = computed(() =>
+    !this.chips?.some(chip => chip.selected)
+  );
 
+  @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
 
   setupCategories(): string[] {
     if (this.availableCategories.length === 0) {
@@ -71,7 +78,7 @@ export class CategoryChooserModalComponent {
     return this.chosenCategories();
   }
 
-  resetCategories(): void {
+  resetChosenCategories(): void {
     this.chosenCategories.set([]);
   }
 
@@ -81,13 +88,11 @@ export class CategoryChooserModalComponent {
   }
 
   onOkClick(): void {
-    const selected = this.chips.filter(
-      chip => chip.selected)
+    const selected = this.chips.toArray()
+      .filter(chip => chip.selected)
       .map(chip => chip.value);
 
     this.submittedCategories(selected);
-    //   todo del
-    console.log('selected: '+selected);
-    console.log('Chosen: '+ this.chosenCategories())
   }
+
 }

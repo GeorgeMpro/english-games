@@ -12,10 +12,10 @@ import {ComponentFixture} from '@angular/core/testing';
  * const button = getElementByDataTestId(fixture, 'submit-button');
  * expect(button).not.toBeNull();
  */
-export function getElementByDataTestId(
+export function getElementByDataTestId<T extends HTMLElement>(
   fixture: ComponentFixture<any>,
   dataTestId: string
-): HTMLElement;
+): T;
 export function getElementByDataTestId(fixture: ComponentFixture<any>, dataTestId: string) {
   return fixture.nativeElement.querySelector(`[data-testid=${dataTestId}]`)!;
 }
