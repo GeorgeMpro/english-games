@@ -24,9 +24,13 @@ describe('CategoryChooserModalComponent', () => {
   });
 });
 
+
 describe('Functionality', () => {
   let component: CategoryChooserModalComponent;
   let fixture: ComponentFixture<CategoryChooserModalComponent>;
+
+
+  const fakeCategories: string[] = ['Animals', 'Colors'];
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -54,48 +58,58 @@ describe('Functionality', () => {
 
 
     });
-    it('should be update categories', () => {
-      const fakeCategories = ['Animals', 'Colors'];
-
+    it('should be able to add categories', () => {
       component.updateCategories(fakeCategories);
 
       expect(component.getCategories()).toEqual(fakeCategories);
     });
 
     it('should handle update duplicate categories', () => {
-      const fakeCategories = ['Animals', 'Colors'];
+      const duplicateCategories = ['Animals', 'Utensils', 'Animals'];
+      const reDuplicateCategories = ['Animals', 'Colors', 'Colors', 'Verbs', 'Verbs'];
 
-      component.updateCategories(fakeCategories);
+      const firstExpected = ['Animals', 'Utensils'];
+      const secondExpected = ['Animals', 'Colors', 'Verbs'];
 
-      const duplicateCategories = ['Animals', 'Utensils'];
-
-      component.updateCategories(duplicateCategories);
-      expect(component.getCategories()).toEqual(['Animals', 'Colors', 'Utensils']);
-
-      const reDuplicateCategories = ['Animals', 'Colors','Colors','Verbs'];
-
-      component.updateCategories(reDuplicateCategories);
-      expect(component.getCategories()).toEqual(['Animals', 'Colors', 'Utensils','Verbs']);
-
-
+      expectAdded(component, fakeCategories, fakeCategories);
+      expectAdded(component, duplicateCategories, firstExpected);
+      expectAdded(component, reDuplicateCategories, secondExpected);
     });
 
-    xit('should not allow empty categories update', () => {
+    it('should handle empty categories update', () => {
+      expectAdded(component, fakeCategories, fakeCategories);
+
+      expectAdded(component, [], fakeCategories);
     });
 
+    it('should be able to reset categories', () => {
+      expectAdded(component, fakeCategories, fakeCategories);
 
-    xit('should be able to reset categories');
-    xit('should display all available categories');
+      component.resetCategories();
 
+      expect(component.categories()).toEqual([]);
+    });
   });
+
+  describe('')
 
   xdescribe('Choosing categories', () => {
 
     xit('should choose at least one category');
     xit('should be able to choose multiple categories');
     xit('should not proceed if no categories are chosen');
+    xit('should display all available categories');
 
   });
+
+  xdescribe('Ok and Cancel', () => {
+    xit('should not update categories when clicking cancel button');
+    xit('should close modal on cancel button');
+    xit('should accept chosen categories when clicking ok button', () => {
+
+    });
+  });
+
 
   xdescribe('Passing categories', () => {
     xit('should ');
@@ -131,3 +145,8 @@ describe('Functionality', () => {
     xit('');
   });
 });
+
+function expectAdded(component: CategoryChooserModalComponent, catUpdate: string[], expected: string[]): void {
+  component.updateCategories(catUpdate);
+  expect(component.getCategories()).toEqual(expected);
+}

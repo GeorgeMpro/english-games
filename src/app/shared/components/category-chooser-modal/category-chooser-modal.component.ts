@@ -32,8 +32,12 @@ export class CategoryChooserModalComponent {
   }
 
   updateCategories(cat: string[]): void {
-    this.categories.update(
-      (currCat: string[]) => Array.from(new Set([...currCat, ...cat])
-      ));
+    if (cat.length !== 0) {
+      this.categories.set(Array.from(new Set([...cat])));
+    }
+  }
+
+  resetCategories() {
+    this.categories.set([]);
   }
 }
