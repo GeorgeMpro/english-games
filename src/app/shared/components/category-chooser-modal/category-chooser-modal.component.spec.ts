@@ -28,10 +28,15 @@ describe('CategoryChooserModalComponent', () => {
 });
 
 
+function expectSelectedStates(fixture: ComponentFixture<CategoryChooserModalComponent>, expectedValues: boolean[]) {
+  expect(getChips(fixture).map(
+    chip => chip.componentInstance.selected
+  )).toEqual(expectedValues);
+}
+
 describe('Functionality', () => {
   let component: CategoryChooserModalComponent;
   let fixture: ComponentFixture<CategoryChooserModalComponent>;
-
 
   const fakeCategories: string[] = ['Animals', 'Colors'];
 
@@ -98,18 +103,18 @@ describe('Functionality', () => {
       component.availableCategories = fakeCategories;
       expect(component.chosenCategories()).toEqual([]);
 
-      component.selectCategories(fakeCategories[0]);
+      component.submittedCategories(fakeCategories[0]);
 
       expect(component.chosenCategories()).toEqual([fakeCategories[0]]);
 
-      component.selectCategories(fakeCategories);
+      component.submittedCategories(fakeCategories);
       expect(component.chosenCategories()).toEqual(fakeCategories);
     });
 
     it('should handle empty selected categories', () => {
       component.updateChosenCategories(fakeCategories);
 
-      component.selectCategories([]);
+      component.submittedCategories([]);
 
       expect(component.chosenCategories()).toEqual(fakeCategories);
     });
@@ -118,62 +123,58 @@ describe('Functionality', () => {
   });
 
   describe('Rendering and interaction', () => {
-    beforeEach(() => {
-      component.availableCategories = fakeCategories;
-      fixture.detectChanges();
-    });
-    it('should render available categories', () => {
-      const chips = getChips(fixture);
-      const labels: string[] = chips.map(chip =>
-        chip.nativeElement.textContent.trim()
-      );
-      expect(chips.length).toBe(fakeCategories.length);
-      expect(labels).toEqual(fakeCategories);
-    });
-    it('should have available categories start as not selected', () => {
-      component.chosenCategories.set([]);
-      fixture.detectChanges();
+    describe('Display and selection', () => {
+      beforeEach(() => {
+        component.availableCategories = fakeCategories;
+        fixture.detectChanges();
+      });
 
-      const chips = getChips(fixture);
-      const selectedCategories = chips.map(chip => chip.componentInstance.selected);
+      it('should render available categories', () => {
+        const chips = getChips(fixture);
+        const labels: string[] = chips.map(chip =>
+          chip.nativeElement.textContent.trim()
+        );
+        expect(chips.length).toBe(fakeCategories.length);
+        expect(labels).toEqual(fakeCategories);
+      });
 
+      it('should have available categories start as not selected', () => {
+        setupAndDetectChosenCategories(fixture, component, []);
 
-      expect(selectedCategories).toEqual([false, false]); // or fill dynamically:
-      expect(selectedCategories.every(s => s === false)).toBeTrue();
-    });
+        expectSelectedStates(fixture, [false, false]);
+      });
 
-    it('should mark available chips selected when they appear in the user chosen chips', () => {
-      component.chosenCategories.set(fakeCategories);
-      fixture.detectChanges();
+      it('should mark available chips selected when they appear in the user chosen chips', () => {
+        setupAndDetectChosenCategories(fixture, component, fakeCategories);
+        expectSelectedStates(fixture, [true, true]);
 
-      const chips = getChips(fixture);
-      const selectedCategories = chips.map(chip => chip.componentInstance.selected);
+        setupAndDetectChosenCategories(fixture, component, [fakeCategories[0]]);
 
-      expect(selectedCategories.every(s => s === true)).toBeTrue();
+        expectSelectedStates(fixture, [true, false]);
+      });
 
-      component.updateChosenCategories([fakeCategories[0]]);
-      fixture.detectChanges();
-      expect(getChips(fixture).map(
-        chip => chip.componentInstance.selected
-      )).toEqual([true, false]);
+      it('should be able to click select category', () => {
+        getChips(fixture)[0].nativeElement.click();
+        fixture.detectChanges();
 
-    });
+        expect(component.chosenCategories()).toEqual([fakeCategories[0]]);
+        expectSelectedStates(fixture, [true, false]);
+      });
 
-    xit('should have previously selected categories from available categories', () => {
+      xit('should be able to click select multiple categories')
+      xit('should toggle selection on click', () => {
 
-    });
-
-    xit('should disable the "ok" button when no categories selected', () => {
-
+      });
     });
 
-  });
-  xdescribe('Choosing categories', () => {
+    describe('Ok and Back buttons', () => {
 
-    xit('should choose at least one category');
-    xit('should be able to choose multiple categories');
-    xit('should not proceed if no categories are chosen');
-    xit('should display all available categories');
+      xit('should disable the "ok" button when no categories selected', () => {
+
+      });
+
+      xit('should disable ok button if no categories are chosen');
+    });
 
   });
 
@@ -225,4 +226,13 @@ function expectUpdated(component: CategoryChooserModalComponent, catUpdate: stri
 
 function getChips(fixture: ComponentFixture<CategoryChooserModalComponent>): DebugElement[] {
   return fixture.debugElement.queryAll(By.css('mat-chip-option[data-testid^="category-"]'));
+}
+
+function getSelectedCategories(chips: DebugElement[]): boolean[] {
+  return chips.map(chip => chip.componentInstance.selected);
+}
+
+function setupAndDetectChosenCategories(fixture: ComponentFixture<CategoryChooserModalComponent>, component: CategoryChooserModalComponent, cats: string[]) {
+  component.updateChosenCategories(cats);
+  fixture.detectChanges();
 }

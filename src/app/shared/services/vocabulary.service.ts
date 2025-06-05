@@ -5,12 +5,14 @@ import animals from '../../../assets/data/animals.json';
 import colors from '../../../assets/data/colors.json';
 import utensils from '../../../assets/data/utensils.json';
 import scenery from '../../../assets/data/scenery.json'
+import food from '../../../assets/data/food.json'
 
 export enum Category {
   Animals = 'animals',
   Colors = 'colors',
   Utensils = 'utensils',
-  Scenery = 'scenery'
+  Scenery = 'scenery',
+  Food = 'food'
 }
 
 @Injectable({
@@ -22,7 +24,8 @@ export class VocabularyService {
     [Category.Animals]: animals,
     [Category.Colors]: colors,
     [Category.Utensils]: utensils,
-    [Category.Scenery]: scenery
+    [Category.Scenery]: scenery,
+    [Category.Food]: food,
   };
 
   constructor() {

@@ -30,7 +30,10 @@ export class CategoryChooserModalComponent {
   //   render and test
   //   manual make sure
 
-  availableCategories: string[] = [];
+  // todo testing
+  // availableCategories: string[] = [];
+
+  availableCategories: string[] = ['animals', 'colors', 'utensils'];
   readonly chosenCategories = signal<string[]>([]);
   errorMessage: string = '';
 
@@ -57,7 +60,7 @@ export class CategoryChooserModalComponent {
     this.chosenCategories.set([]);
   }
 
-  selectCategories(chosenCat: string | string[]): void {
+  submittedCategories(chosenCat: string | string[]): void {
     const catArr = Array.isArray(chosenCat) ? chosenCat : [chosenCat];
     this.updateChosenCategories(catArr);
   }

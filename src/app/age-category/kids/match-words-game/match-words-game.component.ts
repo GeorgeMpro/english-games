@@ -58,15 +58,11 @@ export class MatchWordsGameComponent implements OnInit {
         this.matchWordService.generateGameCardsFromItems(items);
       }
     });
-
   }
 
 
   ngOnInit(): void {
-    // todo allow passing a specified number of items and items per stage ( items 6 stages 3 is 18)
-    // todo work on display of each stage
-    // todo add a replay (same items)
-    // todo allow new game (new items,maybe more categories)
+    // todo change
     this.matchWordService.initializeGameData(Category.Animals).subscribe(() => {
       this.matchWordService.initializeGamePlay();
       this.gameReady.set(true);
