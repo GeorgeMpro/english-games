@@ -1,6 +1,8 @@
+import {By} from '@angular/platform-browser';
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {CategoryChooserModalComponent} from './category-chooser-modal.component';
+
 import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
 
 
@@ -46,10 +48,10 @@ describe('Functionality', () => {
   describe('Handling categories', () => {
 
     it('should handle empty categories', () => {
-      expect(component.categories()).toEqual([]);
-      spyOn(component, 'getCategories').and.callThrough();
+      expect(component.chosenCategories()).toEqual([]);
+      spyOn(component, 'getChosenCategories').and.callThrough();
 
-      const result = component.getCategories();
+      const result = component.setupCategories();
       const msg = component.errorMessage;
 
       expect(result.length).toBe(1);
@@ -58,10 +60,8 @@ describe('Functionality', () => {
 
 
     });
-    it('should be able to add categories', () => {
-      component.updateCategories(fakeCategories);
-
-      expect(component.getCategories()).toEqual(fakeCategories);
+    it('should be able to update categories', () => {
+      expectUpdated(component, fakeCategories, fakeCategories);
     });
 
     it('should handle update duplicate categories', () => {
@@ -71,28 +71,74 @@ describe('Functionality', () => {
       const firstExpected = ['Animals', 'Utensils'];
       const secondExpected = ['Animals', 'Colors', 'Verbs'];
 
-      expectAdded(component, fakeCategories, fakeCategories);
-      expectAdded(component, duplicateCategories, firstExpected);
-      expectAdded(component, reDuplicateCategories, secondExpected);
+      expectUpdated(component, fakeCategories, fakeCategories);
+      expectUpdated(component, duplicateCategories, firstExpected);
+      expectUpdated(component, reDuplicateCategories, secondExpected);
     });
 
     it('should handle empty categories update', () => {
-      expectAdded(component, fakeCategories, fakeCategories);
+      expectUpdated(component, fakeCategories, fakeCategories);
 
-      expectAdded(component, [], fakeCategories);
+      expectUpdated(component, [], fakeCategories);
     });
 
     it('should be able to reset categories', () => {
-      expectAdded(component, fakeCategories, fakeCategories);
+      expectUpdated(component, fakeCategories, fakeCategories);
 
       component.resetCategories();
 
-      expect(component.categories()).toEqual([]);
+      expect(component.chosenCategories()).toEqual([]);
     });
   });
 
-  describe('')
+  describe('Category user selection', () => {
+    it('should select categories from available categories', () => {
+      //   todo- dummy categories, select from them somehow, check updated, selected start with []
+      component.availableCategories = fakeCategories;
+      expect(component.chosenCategories()).toEqual([]);
 
+      component.selectCategories(fakeCategories[0]);
+
+      expect(component.chosenCategories()).toEqual([fakeCategories[0]]);
+
+      component.selectCategories(fakeCategories);
+      expect(component.chosenCategories()).toEqual(fakeCategories);
+    });
+
+    it('should handle empty selected categories', () => {
+      component.updateChosenCategories(fakeCategories);
+
+      component.selectCategories([]);
+
+      expect(component.chosenCategories()).toEqual(fakeCategories);
+    });
+
+
+  });
+
+  describe('Rendering and interaction', () => {
+    it('should render available categories', () => {
+      component.availableCategories = fakeCategories;
+      fixture.detectChanges();
+
+      const chips = fixture.debugElement.queryAll(By.css('mat-chip-option[data-testid^="category-"]'));
+      const labels = chips.map(chip =>
+        chip.nativeElement.textContent.trim()
+      );
+
+      expect(chips.length).toBe(fakeCategories.length);
+      expect(labels).toEqual(fakeCategories);
+
+    });
+    xit('should have previously selected categories from available categories', () => {
+
+    });
+
+    xit('should disable the "ok" button when no categories selected', () => {
+
+    });
+
+  });
   xdescribe('Choosing categories', () => {
 
     xit('should choose at least one category');
@@ -110,12 +156,6 @@ describe('Functionality', () => {
     });
   });
 
-
-  xdescribe('Passing categories', () => {
-    xit('should ');
-    xit('should ');
-    xit('should ');
-  });
 
   xdescribe('Displaying modal', () => {
     xit('should display modal on choose category button click');
@@ -139,14 +179,17 @@ describe('Functionality', () => {
 
     // todo end to end
     // todo maybe cache in a map <string, item[]>
-    xit('should keep old fetched categories for this session, not calling again categories already fetched');
-    xit('should get categories from service');
-    xit('');
-    xit('');
+
+    xdescribe('Passing categories', () => {
+      xit('should keep old fetched categories for this session, not calling again categories already fetched');
+      xit('should get categories from service');
+      xit('should ');
+    });
+
   });
 });
 
-function expectAdded(component: CategoryChooserModalComponent, catUpdate: string[], expected: string[]): void {
-  component.updateCategories(catUpdate);
-  expect(component.getCategories()).toEqual(expected);
+function expectUpdated(component: CategoryChooserModalComponent, catUpdate: string[], expected: string[]): void {
+  component.updateChosenCategories(catUpdate);
+  expect(component.getChosenCategories()).toEqual(expected);
 }

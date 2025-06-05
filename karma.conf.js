@@ -37,6 +37,11 @@ module.exports = function (config) {
     },
     reporters: ['progress', 'kjhtml'],
     browsers: ['ChromeHeadless'],
-    restartOnFileChange: true
+    restartOnFileChange: true,
+    // updated timeout
+    captureTimeout: 300000,
+    browserDisconnectTimeout: 300000,
+    browserNoActivityTimeout: 300000,
+    browserDisconnectTolerance: 3,
   });
 };
