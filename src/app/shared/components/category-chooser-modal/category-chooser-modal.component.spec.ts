@@ -166,7 +166,7 @@ describe('Functionality', () => {
       });
 
       it('should render an OK button', () => {
-        expect(okBt
+        expect(okBtn).toBeTruthy();
       });
 
       it('should update selected categories on OK click', async () => {
