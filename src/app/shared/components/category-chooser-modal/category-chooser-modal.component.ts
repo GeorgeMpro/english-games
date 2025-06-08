@@ -24,6 +24,11 @@ import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.cons
             }
           </mat-chip-listbox>
 
+          <button data-testid="cancel-button"
+                  (click)="onCancelClick()">
+            <span>Cancel</span>
+          </button>
+
           <button data-testid="ok-button"
                   [disabled]="!isOkEnabled()"
                   (click)="onOkClick()">
@@ -84,7 +89,10 @@ export class CategoryChooserModalComponent {
       .map(chip => chip.value);
     this.submittedCategories(selected);
 
-    // todo
-    console.log('howdy: ' + selected);
+    this.isVisible.set(false);
+  }
+
+  onCancelClick() {
+    this.isVisible.set(false);
   }
 }

@@ -18,7 +18,8 @@
     }
 
     <!--    todo rename testid-->
-    @if (!gameOver()) {
+<!--    todo testing-->
+    @if (gameOver()) {
       <div class="boards"
            data-testid="game-grid">
         <!-- Words board -->
@@ -66,8 +67,6 @@
 
         </div>
       </div>
-      <!--  todo-->
-        <!--end game modal-->
     } @else {
       <app-end-game-modal
         class="fade-in"

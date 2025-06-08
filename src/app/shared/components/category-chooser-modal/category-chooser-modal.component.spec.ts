@@ -154,15 +154,18 @@ describe('Functionality', () => {
     });
 
     describe('Ok and Cancel', () => {
-      let loader: HarnessLoader;
-
       const okId = "ok-button";
+      const cancelId = "cancel-button";
+
+      let loader: HarnessLoader;
       let okBtn: HTMLButtonElement;
+      let cancelBtn: HTMLButtonElement;
 
       beforeEach(() => {
         component.availableCategories = fakeCategories;
         loader = TestbedHarnessEnvironment.loader(fixture);
         okBtn = getElementByDataTestId(fixture, okId);
+        cancelBtn = getElementByDataTestId(fixture, cancelId);
         fixture.detectChanges();
       });
 
@@ -171,15 +174,15 @@ describe('Functionality', () => {
       });
 
       it('should update selected categories on OK click', async () => {
-        component.availableCategories = fakeCategories;
-        const chips = await loader.getAllHarnesses(MatChipOptionHarness);
-        await chips[0].toggle();
-        await chips[1].toggle();
-
-        expect(okBtn.disabled).toBeFalse();
-        okBtn.click();
+        await enableOkBtnInteraction(component, loader, fakeCategories, okBtn);
 
         expect(component.chosenCategories()).toEqual(fakeCategories);
+      });
+
+      it('should close modal on OK (when not disabled)', async () => {
+        await enableOkBtnInteraction(component, loader, fakeCategories, okBtn);
+
+        expect(component.isVisible()).toBeFalse();
       });
 
       it('should disable ok button if no categories are chosen', () => {
@@ -189,52 +192,20 @@ describe('Functionality', () => {
         expect(okBtn.disabled).toBeTrue();
       });
 
-      xit('should close modal on cancel button');
-      xit('should accept chosen categories when clicking ok button', () => {
+      it('should render a cancel button', () => {
+        expect(cancelBtn).toBeTruthy();
+      });
 
+      it('should close modal on cancel button', () => {
+        expect(component.isVisible()).toBeTrue();
+
+        cancelBtn.click();
+
+        expect(component.isVisible()).toBeFalse();
       });
     });
   });
 
-
-  // todo when in parent component - maybe move to further testing
-  xdescribe('Displaying modal', () => {
-    xit('should display modal on choose category button click');
-    xit('should hide modal on finalising selection');
-  });
-
-  // todo connect to dummy vocab service get all categories
-  xdescribe('Connecting to service', () => {
-    xit('Should get all categories', () => {
-
-    });
-  });
-
-  // TODO: Note: probably not in the modal but here as place holder
-  xdescribe('Processing chosen categories and flow', () => {
-    xit('should process single category');
-    xit('should throw error when no categories chosen');
-    xit('should have default category');
-    xit('should process multiple chosen categories');
-    xit('should get all category items');
-    xit('should concat items from all categories');
-    xit('should mix all items from chosen categories on game initialization');
-
-    xit('should handle not enough items in category for default display');
-    xit('should handle when not enough items in given category');
-    xit('should ');
-
-
-    // todo end to end
-    // todo maybe cache in a map <string, item[]>
-
-    xdescribe('Passing categories', () => {
-      xit('should keep old fetched categories for this session, not calling again categories already fetched');
-      xit('should get categories from service');
-      xit('should ');
-    });
-
-  });
 });
 
 function expectUpdated(component: CategoryChooserModalComponent, catUpdate: string[], expected: string[]): void {
@@ -252,4 +223,18 @@ async function expectSelectedStates(fixture: ComponentFixture<CategoryChooserMod
   const chips = await loader.getAllHarnesses(MatChipOptionHarness);
   const selectedStates = await Promise.all(chips.map(c => c.isSelected()));
   expect(selectedStates).toEqual(expected);
+}
+
+async function enableOkBtnInteraction(
+  component: CategoryChooserModalComponent,
+  loader: HarnessLoader,
+  dummyCategories: string[],
+  okBtn: HTMLButtonElement) {
+  component.availableCategories = dummyCategories;
+  const chips = await loader.getAllHarnesses(MatChipOptionHarness);
+  await chips[0].toggle();
+  await chips[1].toggle();
+
+  expect(okBtn.disabled).toBeFalse();
+  okBtn.click();
 }
