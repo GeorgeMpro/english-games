@@ -23,10 +23,15 @@
       {{ feedbackMessage() }}
     </p>
 
+    <button data-testid="choose-button">
+      <span>Change Categories</span>
+    </button>
+
     <button data-testid="replay-button"
             (click)="replayClicked.emit()">
       <span>Replay</span>
     </button>
+
     <button data-testid="new-game-button"
             (click)="newGameClicked.emit()">
       <span>New Game</span>

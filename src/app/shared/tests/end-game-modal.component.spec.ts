@@ -2,14 +2,12 @@ import {ComponentFixture, TestBed} from '@angular/core/testing';
 import {OutputEmitterRef} from '@angular/core';
 
 import {EndGameModalComponent} from '../components/end-game-modal/end-game-modal.component';
-import {MatchWordsStore} from '../../age-category/kids/match-words-game/match-words.store';
 import {getElementByDataTestId} from './dom-test-utils';
 
 
 describe('EndGameModalComponent', () => {
-  let component: EndGameModalComponent;
   let fixture: ComponentFixture<EndGameModalComponent>;
-  let store: MatchWordsStore;
+  let component: EndGameModalComponent;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
