@@ -152,43 +152,43 @@ describe('Functionality', () => {
 
     });
 
-    describe('Ok and Cancel', () => {
-      const okId = "ok-button";
+    describe('New Categories Game and Cancel', () => {
+      const newCtgGameBtnId = "new-categories-game-button";
       const cancelId = "cancel-button";
 
       let loader: HarnessLoader;
-      let okBtn: HTMLButtonElement;
+      let newCtgGameBtn: HTMLButtonElement;
       let cancelBtn: HTMLButtonElement;
 
       beforeEach(() => {
         component.availableCategories = fakeCategories;
         loader = TestbedHarnessEnvironment.loader(fixture);
-        okBtn = getElementByDataTestId(fixture, okId);
+        newCtgGameBtn = getElementByDataTestId(fixture, newCtgGameBtnId);
         cancelBtn = getElementByDataTestId(fixture, cancelId);
         fixture.detectChanges();
       });
 
-      it('should render an OK button', () => {
-        expect(okBtn).toBeTruthy();
+      it('should render a New Game button', () => {
+        expect(newCtgGameBtn).toBeTruthy();
       });
 
-      it('should update selected categories on OK click', async () => {
-        await enableOkBtnInteraction(component, loader, fakeCategories, okBtn);
+      it('should update selected categories on New Game click', async () => {
+        await enableOkBtnInteraction(component, loader, fakeCategories, newCtgGameBtn);
 
         expect(component.chosenCategories()).toEqual(fakeCategories);
       });
 
-      it('should close modal on OK (when not disabled)', async () => {
-        await enableOkBtnInteraction(component, loader, fakeCategories, okBtn);
+      it('should close modal on New Game (when not disabled)', async () => {
+        await enableOkBtnInteraction(component, loader, fakeCategories, newCtgGameBtn);
 
         expect(component.isVisible()).toBeFalse();
       });
 
-      it('should disable ok button if no categories are chosen', () => {
+      it('should disable New Game button if no categories are chosen', () => {
         component.resetChosenCategories();
         fixture.detectChanges();
 
-        expect(okBtn.disabled).toBeTrue();
+        expect(newCtgGameBtn.disabled).toBeTrue();
       });
 
       it('should render a cancel button', () => {
@@ -250,12 +250,12 @@ async function enableOkBtnInteraction(
   component: CategoryChooserModalComponent,
   loader: HarnessLoader,
   dummyCategories: string[],
-  okBtn: HTMLButtonElement) {
+  newCtgGameBtn: HTMLButtonElement) {
   component.availableCategories = dummyCategories;
   const chips = await loader.getAllHarnesses(MatChipOptionHarness);
   await chips[0].toggle();
   await chips[1].toggle();
 
-  expect(okBtn.disabled).toBeFalse();
-  okBtn.click();
+  expect(newCtgGameBtn.disabled).toBeFalse();
+  newCtgGameBtn.click();
 }

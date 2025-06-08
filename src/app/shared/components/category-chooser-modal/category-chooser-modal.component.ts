@@ -29,10 +29,10 @@ import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.cons
             <span>Cancel</span>
           </button>
 
-          <button data-testid="ok-button"
+          <button data-testid="new-categories-game-button"
                   [disabled]="!isOkEnabled()"
-                  (click)="onOkClick()">
-            <span>Ok</span>
+                  (click)="onNewCategoriesGameClick()">
+            <span>New Categories Game</span>
           </button>
         </div>
       </div>
@@ -83,7 +83,7 @@ export class CategoryChooserModalComponent {
     this.isOkEnabled.set(anySelected);
   }
 
-  onOkClick(): void {
+  onNewCategoriesGameClick(): void {
     const selected = this.chips.toArray()
       .filter(chip => chip.selected)
       .map(chip => chip.value);

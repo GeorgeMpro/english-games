@@ -12,6 +12,8 @@ import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {VocabularyService} from '../../../shared/services/vocabulary.service';
 import {matchItems} from '../../../../assets/test-data/match-items';
 import {WikiService} from '../../../shared/services/wiki.service';
+import {setupMatchWordComponent} from './test-setup-util';
+
 
 describe('Choose category flow', () => {
 
@@ -41,35 +43,7 @@ describe('Choose category flow', () => {
     let component: MatchWordsGameComponent;
 
     beforeEach(async () => {
-      // todo handle duplicate
-      await TestBed.configureTestingModule({
-        imports: [MatchWordsGameComponent],
-        providers: [
-          provideHttpClient(),
-          provideHttpClientTesting(),
-          MatchWordsService,
-          MatchWordsStore,
-          {
-            provide: VocabularyService,
-            useValue: {getList: () => of(matchItems.map(i => i.word))}
-          },
-          {
-            provide: WikiService,
-            useValue: {getItems: () => of(structuredClone(matchItems))}
-          }
-        ],
-        deferBlockBehavior: DeferBlockBehavior.Manual,
-      });
-
-      fixture = TestBed.createComponent(MatchWordsGameComponent);
-      component = fixture.componentInstance;
-
-      const [deferBlock] = await fixture.getDeferBlocks();
-      await deferBlock.render(DeferBlockState.Complete);
-
-      component.gameReady.set(true);
-      component.gameOver.set(true); // force modal to show
-      fixture.detectChanges();
+      ({fixture,component}= await setupMatchWordComponent());
     });
 
 

@@ -9,5 +9,5 @@ export const MATCH_RESET_TIMEOUT_DELAY = 300;
 //todo move to error
 export const ERROR_CATEGORIES_MESSAGE = 'Could not load categories.';
 
-// Todo categories functionality
+// Todo remove when done dummy categories functionality
 export const DEFAULT_CATEGORY = 'Animals';
