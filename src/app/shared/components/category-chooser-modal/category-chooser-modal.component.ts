@@ -104,4 +104,7 @@ export class CategoryChooserModalComponent {
     this.isVisible.set(false);
     this.resetChosenCategories()
   }
+
+//   TODO
+//    add disabled css to the OK button when the button is disabled to notify the user
 }

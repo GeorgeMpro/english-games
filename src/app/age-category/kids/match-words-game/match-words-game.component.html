@@ -71,6 +71,7 @@
         class="fade-in"
         (newGameClicked)="onNewGame()"
         (replayClicked)="onReplayGame()"
+        (chooseClicked)="onChooseCategory()"
         [correctCount]="correctCount()"
         [totalCount]="totalCount()"
         data-testid="end-game-modal"/>
@@ -87,3 +88,4 @@
     *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Failed to load game UI. Please try again.' }"></ng-container>
 }
 
+<app-category-chooser-modal/>

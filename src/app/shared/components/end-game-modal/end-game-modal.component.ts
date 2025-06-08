@@ -5,8 +5,6 @@ import {FeedbackMessages} from '../../../../assets/data/feedback-messages';
   selector: 'app-end-game-modal',
   imports: [],
   templateUrl: './end-game-modal.component.html',
-
-
   styleUrl: '../../styles/app-modal.shared.css'
 })
 export class EndGameModalComponent {
@@ -16,6 +14,7 @@ export class EndGameModalComponent {
 
   readonly replayClicked = output<void>();
   readonly newGameClicked = output<void>();
+  readonly chooseClicked  = output<void>();
 
   readonly starCount = computed(() => {
     const correct = this.correctCount();
@@ -54,5 +53,6 @@ export class EndGameModalComponent {
     return messages[randomIndex];
   }
 
+  // TODO wth?
   protected readonly Array = Array;
 }

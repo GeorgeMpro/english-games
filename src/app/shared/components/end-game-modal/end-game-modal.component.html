@@ -23,7 +23,8 @@
       {{ feedbackMessage() }}
     </p>
 
-    <button data-testid="choose-button">
+    <button data-testid="choose-button"
+    (click)="chooseClicked.emit()">
       <span>Change Categories</span>
     </button>
 

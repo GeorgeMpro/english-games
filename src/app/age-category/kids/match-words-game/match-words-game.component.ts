@@ -1,4 +1,4 @@
-import {Component, effect, OnInit, signal} from '@angular/core';
+import {Component, effect, OnInit, signal, ViewChild} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 
 import {MatchWordsService} from './match-words.service';
@@ -7,11 +7,14 @@ import {ImageCard, WordCard} from '../../../shared/models/kids.models';
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
 import {Category} from '../../../shared/services/vocabulary.service';
 import {DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
+import {
+  CategoryChooserModalComponent
+} from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
 
 @Component({
   selector: 'app-match-words-game',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, EndGameModalComponent],
+  imports: [CommonModule, NgOptimizedImage, EndGameModalComponent, CategoryChooserModalComponent],
   templateUrl: './match-words-game.component.html',
   styleUrls: ['./match-words-game.component.css']
 })
@@ -28,6 +31,9 @@ export class MatchWordsGameComponent implements OnInit {
   readonly gameOver;
 
   readonly numberOfStages = DEFAULT_STAGE_COUNT;
+
+@ViewChild(CategoryChooserModalComponent, {static: true})
+  private categoryModal!: CategoryChooserModalComponent;
 
 
   readonly gameReady = signal(false);
@@ -96,4 +102,7 @@ export class MatchWordsGameComponent implements OnInit {
     return this.matchWordService.countTotalItems();
   }
 
+  onChooseCategory() {
+    this.categoryModal.open();
+  }
 }
