@@ -38,6 +38,7 @@ describe('Functionality', () => {
 
       expect(result.length).toBe(1);
       expect(msg).toBe(ERROR_CATEGORIES_MESSAGE);
+      // todo remove default dummy categories from the component
       expect(result).toEqual([DEFAULT_CATEGORY]);
 
 
