@@ -41,7 +41,6 @@ describe('Functionality', () => {
       // todo remove default dummy categories from the component
       expect(result).toEqual([DEFAULT_CATEGORY]);
 
-
     });
     it('should be able to update categories', () => {
       expectUpdated(component, fakeCategories, fakeCategories);
@@ -206,6 +205,28 @@ describe('Functionality', () => {
     });
   });
 
+  describe('Handling component visibility', () => {
+
+    it('should set to visible on "open"', () => {
+      component.isVisible.set(false);
+      expect(component.isVisible()).toBeFalse();
+
+      component.open();
+
+      expect(component.isVisible()).toBe(true);
+    });
+
+    it('should set to visibility to false and reset chosen categories on "close"', () => {
+      component.isVisible.set(true);
+      component.chosenCategories.set(fakeCategories);
+      expect(component.chosenCategories()).toEqual(fakeCategories);
+      component.close();
+
+      expect(component.isVisible()).toBe(false);
+      expect(component.chosenCategories()).toEqual([]);
+    });
+
+  });
 });
 
 function expectUpdated(component: CategoryChooserModalComponent, catUpdate: string[], expected: string[]): void {

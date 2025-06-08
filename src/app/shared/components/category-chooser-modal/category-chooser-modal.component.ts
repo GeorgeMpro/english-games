@@ -95,4 +95,13 @@ export class CategoryChooserModalComponent {
   onCancelClick() {
     this.isVisible.set(false);
   }
+
+  open(): void {
+    this.isVisible.set(true);
+  }
+
+  close() {
+    this.isVisible.set(false);
+    this.resetChosenCategories()
+  }
 }
