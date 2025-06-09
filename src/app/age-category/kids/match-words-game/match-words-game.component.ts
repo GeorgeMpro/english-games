@@ -14,7 +14,11 @@ import {
 @Component({
   selector: 'app-match-words-game',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, EndGameModalComponent, CategoryChooserModalComponent],
+  imports: [
+    CommonModule,
+    NgOptimizedImage,
+    EndGameModalComponent,
+    CategoryChooserModalComponent],
   templateUrl: './match-words-game.component.html',
   styleUrls: ['./match-words-game.component.css']
 })
