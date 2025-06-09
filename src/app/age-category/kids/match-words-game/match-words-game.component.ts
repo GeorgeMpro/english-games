@@ -32,7 +32,7 @@ export class MatchWordsGameComponent implements OnInit {
 
   readonly numberOfStages = DEFAULT_STAGE_COUNT;
 
-@ViewChild(CategoryChooserModalComponent, {static: true})
+  @ViewChild(CategoryChooserModalComponent, {static: true})
   private categoryModal!: CategoryChooserModalComponent;
 
 
@@ -90,19 +90,25 @@ export class MatchWordsGameComponent implements OnInit {
     this.matchWordService.newGame();
   }
 
-  onReplayGame() {
+  onReplayGame(): void {
     this.matchWordService.replayGame();
   }
 
-  correctCount() {
+  correctCount(): number {
     return this.matchWordService.countUniqueCorrect();
   }
 
-  totalCount() {
+  totalCount(): number {
     return this.matchWordService.countTotalItems();
   }
 
-  onChooseCategory() {
+  // Choosing Category
+  onChooseCategory(): void {
     this.categoryModal.open();
+  }
+
+  onNewGameWithCategories(categories: string[]): void {
+    //   todo: notice - handle 0 arguments in component button disable
+
   }
 }

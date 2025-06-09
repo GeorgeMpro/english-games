@@ -1,18 +1,16 @@
-import {provideHttpClient} from '@angular/common/http';
-import {provideHttpClientTesting} from '@angular/common/http/testing';
-import {ComponentFixture, DeferBlockBehavior, DeferBlockState, TestBed} from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {By} from '@angular/platform-browser';
 
-import {of} from 'rxjs';
+import {TestbedHarnessEnvironment} from '@angular/cdk/testing/testbed';
+import {MatChipOptionHarness} from '@angular/material/chips/testing';
 
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
 import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
-import {MatchWordsService} from '../match-words-game/match-words.service';
-import {MatchWordsStore} from '../match-words-game/match-words.store';
-import {VocabularyService} from '../../../shared/services/vocabulary.service';
-import {matchItems} from '../../../../assets/test-data/match-items';
-import {WikiService} from '../../../shared/services/wiki.service';
-import {setupMatchWordComponent} from './test-setup-util';
+import {setupMatchWordComponentEndGameState} from './test-setup-util';
+import {
+  CategoryChooserModalComponent
+} from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
 
 
 describe('Choose category flow', () => {
@@ -43,7 +41,7 @@ describe('Choose category flow', () => {
     let component: MatchWordsGameComponent;
 
     beforeEach(async () => {
-      ({fixture,component}= await setupMatchWordComponent());
+      ({fixture, component} = await setupMatchWordComponentEndGameState());
     });
 
 
@@ -73,17 +71,60 @@ describe('Choose category flow', () => {
       expect(chooseModal).toBeTruthy();
     });
 
-    it('should start new game with chosen categories on clicking OK in category modal', () => {
-      //   todo
-      //    check start new game on OK
-      //    close endgame/reset/whatever pass it on or call in match wordgame
-      //    pass the chosen categories to the service
+    it('should pass chosen categories to the service and start a new game on New Game clicked', async () => {
+
+      // open modal
+      component.onChooseCategory();
+      fixture.detectChanges();
+
+      // get the modal host element
+      const modalElement = getElementByDataTestId(fixture, 'category-chooser-modal');
+
+      // set available categories
+      const modalInstance = fixture.debugElement
+        .query(By.directive(CategoryChooserModalComponent))
+        .componentInstance as CategoryChooserModalComponent;
+
+      modalInstance.availableCategories = ['Animals', 'Colors'];
+      fixture.detectChanges();
+
+      // use a documentRootLoader and scope it to the modal element
+      const loader = TestbedHarnessEnvironment.documentRootLoader(fixture);
+      const chips = await loader.getAllHarnesses(
+        MatChipOptionHarness.with({ancestor: '[data-testid="category-chooser-modal"]'})
+      );
+
+      // toggle
+      await chips[0].toggle();
+      await chips[1].toggle();
+
+
+      const spy = spyOn(component, 'onNewGameWithCategories').and.callThrough();
+
+      const okBtn = getElementByDataTestId(fixture, 'new-categories-game-button') as HTMLButtonElement;
+      expect(okBtn.disabled).toBeFalse();
+      okBtn.click();
+
+
+      expect(spy).toHaveBeenCalledOnceWith(['Animals', 'Colors']);
+      expect(modalInstance.isVisible()).toBeFalse();
+
+//   todo
+//   - setup end game state, open choose category modal
+//   - setup available categories and select via toggle
+//         make sure button is not disabled
+//   - ensure New Game button is enabled
+//   - click New Game
+//   - expect onNewGameWithCategories to be called with selected categories
+//   - expect end modal and chooser modal to be closed/reset
 
 
     });
 
     xit('should close the chooser modal when "cancel" is clicked');
   });
+
+  xit('should reset game state on new game from choose category New Game');
 });
 
 // todo connect to dummy vocab service get all categories
