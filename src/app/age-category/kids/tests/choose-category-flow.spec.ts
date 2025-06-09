@@ -1,8 +1,8 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {By} from '@angular/platform-browser';
-
 import {TestbedHarnessEnvironment} from '@angular/cdk/testing/testbed';
 import {MatChipOptionHarness} from '@angular/material/chips/testing';
+
+import {By} from '@angular/platform-browser';
 
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
 import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
@@ -38,15 +38,14 @@ describe('Choose category flow', () => {
 
   describe('Displaying modal', () => {
     let fixture: ComponentFixture<MatchWordsGameComponent>;
-    let component: MatchWordsGameComponent;
 
     beforeEach(async () => {
-      ({fixture, component} = await setupMatchWordComponentEndGameState());
+      fixture = await setupMatchWordComponentEndGameState();
     });
 
 
     it('should call onChangeCategoryClicked when EndGameModal emits changeCategoryClicked', () => {
-      const spy = spyOn(component, 'onChooseCategory').and.callThrough();
+      const spy = spyOn(fixture.componentInstance, 'onChooseCategory').and.callThrough();
 
       const endModal = getElementByDataTestId(fixture, 'end-game-modal');
       const chooseBtn = endModal.querySelector('[data-testid="choose-button"]') as HTMLButtonElement;
@@ -74,25 +73,28 @@ describe('Choose category flow', () => {
     it('should pass chosen categories to the service and start a new game on New Game clicked', async () => {
       const {
         modalInstance, spy
-      } = await triggerNewGameWithSelectedCategories(component, fixture, 'category-chooser-modal');
+      } = await triggerNewGameWithSelectedCategories(fixture, 'category-chooser-modal');
 
       expect(spy).toHaveBeenCalledOnceWith(['Animals', 'Colors']);
       expect(modalInstance.isVisible()).toBeFalse();
     });
 
+
     it('should close the chooser modal when "cancel" is clicked', () => {
-      const modal = setupOpenChosenCategoryModal(component, fixture);
-      clickBtnById(fixture, 'cancel-button', true);
+      const modal = setupOpenChosenCategoryModal(fixture);
+      clickButtonByTestId(fixture, 'cancel-button', true);
 
       expect(modal.isVisible()).toBeFalse();
     });
   });
-
-  xit('should reset game state on new game from choose category New Game');
 });
 
 
-xdescribe('Processing chosen categories and flow', () => {
+describe('Processing chosen categories and flow', () => {
+
+  describe('Category flow integration', () => {
+    xit('should reset game state on new game from choose category New Game');
+  });
 
   xdescribe('Handling categories and component flow', () => {
     // todo: connect MatchWordsGameComponent's onNewGameWithCategories with fake chooser
@@ -123,19 +125,18 @@ xdescribe('Processing chosen categories and flow', () => {
 
 
 async function triggerNewGameWithSelectedCategories(
-  component: MatchWordsGameComponent,
   fixture: ComponentFixture<MatchWordsGameComponent>,
   ancestorTestId: string) {
   // set available categories
-  const modalInstance = setupOpenChosenCategoryModal(component, fixture);
+  const modalInstance = setupOpenChosenCategoryModal(fixture);
 
   modalInstance.availableCategories = ['Animals', 'Colors'];
   fixture.detectChanges();
 
   await toggleAllChips(fixture, ancestorTestId);
 
-  const spy = spyOn(component, 'onNewGameWithCategories').and.callThrough();
-  clickBtnById(fixture, 'new-categories-game-button');
+  const spy = spyOn(fixture.componentInstance, 'onNewGameWithCategories').and.callThrough();
+  clickButtonByTestId(fixture, 'new-categories-game-button');
 
   return {modalInstance, spy};
 }
@@ -150,7 +151,7 @@ async function toggleAllChips(fixture: ComponentFixture<any>, ancestorTestId: st
   }
 }
 
-function clickBtnById(
+function clickButtonByTestId(
   fixture: ComponentFixture<MatchWordsGameComponent>,
   btnTestId: string,
   expectEnabled: boolean = false) {
@@ -162,8 +163,8 @@ function clickBtnById(
   btn.click();
 }
 
-function setupOpenChosenCategoryModal(component: MatchWordsGameComponent, fixture: ComponentFixture<MatchWordsGameComponent>): CategoryChooserModalComponent {
-  component.onChooseCategory();
+function setupOpenChosenCategoryModal(fixture: ComponentFixture<MatchWordsGameComponent>): CategoryChooserModalComponent {
+  fixture.componentInstance.onChooseCategory();
   fixture.detectChanges();
 
   return fixture.debugElement
