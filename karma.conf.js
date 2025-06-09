@@ -14,7 +14,6 @@ module.exports = function (config) {
       require('karma-chrome-launcher'),
       require('karma-jasmine-html-reporter'),
       require('karma-coverage'),
-      require('@angular-devkit/build-angular/plugins/karma')
     ],
     client: {
       jasmine: {
@@ -37,6 +36,9 @@ module.exports = function (config) {
     },
     reporters: ['progress', 'kjhtml'],
     browsers: ['ChromeHeadless'],
+    browserConsoleLogOptions: {
+      level: 'error'  // suppress everything below error
+    },
     restartOnFileChange: true,
     // updated timeout
     captureTimeout: 300000,

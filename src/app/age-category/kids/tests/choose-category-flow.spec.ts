@@ -72,91 +72,101 @@ describe('Choose category flow', () => {
     });
 
     it('should pass chosen categories to the service and start a new game on New Game clicked', async () => {
-
-      // open modal
-      component.onChooseCategory();
-      fixture.detectChanges();
-
-      // get the modal host element
-      const modalElement = getElementByDataTestId(fixture, 'category-chooser-modal');
-
-      // set available categories
-      const modalInstance = fixture.debugElement
-        .query(By.directive(CategoryChooserModalComponent))
-        .componentInstance as CategoryChooserModalComponent;
-
-      modalInstance.availableCategories = ['Animals', 'Colors'];
-      fixture.detectChanges();
-
-      // use a documentRootLoader and scope it to the modal element
-      const loader = TestbedHarnessEnvironment.documentRootLoader(fixture);
-      const chips = await loader.getAllHarnesses(
-        MatChipOptionHarness.with({ancestor: '[data-testid="category-chooser-modal"]'})
-      );
-
-      // toggle
-      await chips[0].toggle();
-      await chips[1].toggle();
-
-
-      const spy = spyOn(component, 'onNewGameWithCategories').and.callThrough();
-
-      const okBtn = getElementByDataTestId(fixture, 'new-categories-game-button') as HTMLButtonElement;
-      expect(okBtn.disabled).toBeFalse();
-      okBtn.click();
-
+      const {
+        modalInstance, spy
+      } = await triggerNewGameWithSelectedCategories(component, fixture, 'category-chooser-modal');
 
       expect(spy).toHaveBeenCalledOnceWith(['Animals', 'Colors']);
       expect(modalInstance.isVisible()).toBeFalse();
-
-//   todo
-//   - setup end game state, open choose category modal
-//   - setup available categories and select via toggle
-//         make sure button is not disabled
-//   - ensure New Game button is enabled
-//   - click New Game
-//   - expect onNewGameWithCategories to be called with selected categories
-//   - expect end modal and chooser modal to be closed/reset
-
-
     });
 
-    xit('should close the chooser modal when "cancel" is clicked');
+    it('should close the chooser modal when "cancel" is clicked', () => {
+      const modal = setupOpenChosenCategoryModal(component, fixture);
+      clickBtnById(fixture, 'cancel-button', true);
+
+      expect(modal.isVisible()).toBeFalse();
+    });
   });
 
   xit('should reset game state on new game from choose category New Game');
 });
 
-// todo connect to dummy vocab service get all categories
-xdescribe('Connecting to service', () => {
-  xit('Should get all categories', () => {
-  });
-});
 
-// TODO: Note: probably not in the modal but here as place holder
 xdescribe('Processing chosen categories and flow', () => {
-  xit('should process single category');
-  xit('should throw error when no categories chosen');
-  xit('should have default category');
-  xit('should process multiple chosen categories');
-  xit('should get all category items');
-  xit('should concat items from all categories');
-  xit('should mix all items from chosen categories on game initialization');
 
-  xit('should handle not enough items in category for default display');
-  xit('should handle when not enough items in given category');
-  xit('should keep fetched categories in cache(?) for future calls');
-  xit('should ');
-  xit('should ');
+  xdescribe('Handling categories and component flow', () => {
+    // todo: connect MatchWordsGameComponent's onNewGameWithCategories with fake chooser
+    xit('should handle empty categories as normal new game');
+    xit('should pass category array to service');
+    xit('should generate the items from each category and concat them');
+    xit('should shuffle the concatenated items into game cards');
+  });
 
+  xdescribe('Fallbacks and validation', () => {
+    xit('should process single category');
+    xit('should throw error when no categories chosen');
+    xit('should fall back to default category');
+    xit('should handle not enough items in category');
+    xit('should handle when chosen categories don’t meet game requirements');
+  });
 
-  // todo end to end
-  // todo maybe cache in a map <string, item[]>
+  xdescribe('Connecting to service', () => {
+    xit('should get all categories');
+  });
 
-  xdescribe('Passing categories', () => {
-    xit('should keep old fetched categories for this session, not calling again categories already fetched');
-    xit('should get categories from service');
-    xit('should ');
+  xdescribe('Caching and reuse', () => {
+    xit('should keep fetched categories in cache for session');
+    xit('should avoid re-fetching cached categories');
   });
 
 });
+
+
+async function triggerNewGameWithSelectedCategories(
+  component: MatchWordsGameComponent,
+  fixture: ComponentFixture<MatchWordsGameComponent>,
+  ancestorTestId: string) {
+  // set available categories
+  const modalInstance = setupOpenChosenCategoryModal(component, fixture);
+
+  modalInstance.availableCategories = ['Animals', 'Colors'];
+  fixture.detectChanges();
+
+  await toggleAllChips(fixture, ancestorTestId);
+
+  const spy = spyOn(component, 'onNewGameWithCategories').and.callThrough();
+  clickBtnById(fixture, 'new-categories-game-button');
+
+  return {modalInstance, spy};
+}
+
+async function toggleAllChips(fixture: ComponentFixture<any>, ancestorTestId: string) {
+  const loader = TestbedHarnessEnvironment.documentRootLoader(fixture);
+  const chips = await loader.getAllHarnesses(
+    MatChipOptionHarness.with({ancestor: `[data-testid="${ancestorTestId}"]`})
+  );
+  for (const chip of chips) {
+    await chip.toggle();
+  }
+}
+
+function clickBtnById(
+  fixture: ComponentFixture<MatchWordsGameComponent>,
+  btnTestId: string,
+  expectEnabled: boolean = false) {
+  const btn = getElementByDataTestId(fixture, btnTestId) as HTMLButtonElement;
+  if (expectEnabled) {
+    expect(btn.disabled).toBeFalse();
+  }
+
+  btn.click();
+}
+
+function setupOpenChosenCategoryModal(component: MatchWordsGameComponent, fixture: ComponentFixture<MatchWordsGameComponent>): CategoryChooserModalComponent {
+  component.onChooseCategory();
+  fixture.detectChanges();
+
+  return fixture.debugElement
+    .query(By.directive(CategoryChooserModalComponent))
+    .componentInstance as CategoryChooserModalComponent;
+}
