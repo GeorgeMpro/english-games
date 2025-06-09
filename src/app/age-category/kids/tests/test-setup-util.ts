@@ -8,6 +8,8 @@ import {of} from 'rxjs';
 import {matchItems} from '../../../../assets/test-data/match-items';
 import {WikiService} from '../../../shared/services/wiki.service';
 import {DeferBlockBehavior, DeferBlockState, TestBed} from '@angular/core/testing';
+import {BrowserTestingModule} from '@angular/platform-browser/testing';
+import {provideRouter} from '@angular/router';
 
 export async function setupMatchWordComponentEndGameState() {
   const moduleDef = {
@@ -15,6 +17,8 @@ export async function setupMatchWordComponentEndGameState() {
     providers: [
       provideHttpClient(),
       provideHttpClientTesting(),
+      provideRouter([]),
+      BrowserTestingModule,
       MatchWordsService,
       MatchWordsStore,
       {
@@ -38,7 +42,7 @@ export async function setupMatchWordComponentEndGameState() {
 
   component.gameReady.set(true);
   component.gameOver.set(true); // force modal to show
-  fixture.detectChanges();
 
+  fixture.detectChanges();
   return {fixture, component};
 }

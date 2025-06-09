@@ -10,7 +10,7 @@ import {
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, CategoryChooserModalComponent,],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent,],
   templateUrl: './app.component.html',
   styles: ``
 })

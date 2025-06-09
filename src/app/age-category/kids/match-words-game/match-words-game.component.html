@@ -88,4 +88,5 @@
     *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Failed to load game UI. Please try again.' }"></ng-container>
 }
 
-<app-category-chooser-modal/>
+<app-category-chooser-modal
+(submit)="onNewGameWithCategories($event)"/>

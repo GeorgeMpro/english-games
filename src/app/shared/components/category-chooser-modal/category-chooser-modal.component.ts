@@ -1,4 +1,4 @@
-import {Component, QueryList, ViewChildren, signal} from '@angular/core';
+import {Component, QueryList, ViewChildren, signal, output} from '@angular/core';
 import {MatChipListbox, MatChipOption} from '@angular/material/chips';
 import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
 
@@ -48,7 +48,10 @@ export class CategoryChooserModalComponent {
   readonly isVisible = signal<boolean>(false);
   readonly isOkEnabled = signal(false);
 
+  submit = output<string[]>();
+
   @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
+
 
   setupCategories(): string[] {
     if (this.availableCategories.length === 0) {
@@ -87,7 +90,11 @@ export class CategoryChooserModalComponent {
     const selected = this.chips.toArray()
       .filter(chip => chip.selected)
       .map(chip => chip.value);
+
     this.submittedCategories(selected);
+
+    // emit the event
+    this.submit.emit(selected);
 
     this.isVisible.set(false);
   }
