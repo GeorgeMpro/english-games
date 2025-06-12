@@ -11,6 +11,11 @@ import {setupMatchWordComponentEndGameState} from './test-setup-util';
 import {
   CategoryChooserModalComponent
 } from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
+import {MatchWordsStore} from '../match-words-game/match-words.store';
+import {MatchWordsService} from '../match-words-game/match-words.service';
+import {VocabularyService} from '../../../shared/services/vocabulary.service';
+import {GameLogicService} from '../../../shared/services/game-logic.service';
+import {provideHttpClient} from '@angular/common/http';
 
 
 describe('Choose category flow', () => {
@@ -91,12 +96,48 @@ describe('Choose category flow', () => {
 
 
 describe('Processing chosen categories and flow', () => {
+  let fixture: ComponentFixture<MatchWordsGameComponent>;
+  let component: MatchWordsGameComponent;
+  let store: MatchWordsStore;
+  let service: MatchWordsService;
+  let vocabulary: VocabularyService;
 
-  describe('Category flow integration', () => {
-    xit('should reset game state on new game from choose category New Game');
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [MatchWordsGameComponent],
+      providers: [
+        MatchWordsStore,
+        MatchWordsService,
+        GameLogicService,
+        VocabularyService,
+        provideHttpClient()
+      ],
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(MatchWordsGameComponent);
+    component = fixture.componentInstance;
+    store = TestBed.inject(MatchWordsStore);
+    service =fixture.debugElement.injector.get(MatchWordsService);
+    vocabulary = TestBed.inject(VocabularyService);
+
+    component.gameReady.set(true);
+    fixture.detectChanges();
   });
 
-  xdescribe('Handling categories and component flow', () => {
+  describe('Category flow integration', () => {
+    it('should reset game state on new game from choose category New Game', () => {
+      component.gameOver.set(true);
+
+      const resetSpy = spyOn(service, 'resetGameState').and.callThrough();
+
+      // call with dummy categories
+      component.onNewGameWithCategories(['Animals', 'Clothes']);
+
+      expect(component.gameOver()).toBeFalse();
+      expect(resetSpy).toHaveBeenCalled();
+
+    });
+
     // todo: connect MatchWordsGameComponent's onNewGameWithCategories with fake chooser
     xit('should handle empty categories as normal new game');
     xit('should pass category array to service');

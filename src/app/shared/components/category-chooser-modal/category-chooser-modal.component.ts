@@ -41,8 +41,8 @@ import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.cons
   styleUrl: '../../styles/app-modal.shared.css'
 })
 export class CategoryChooserModalComponent {
-  availableCategories: string[] = ['animals', 'colors', 'utensils'];
   errorMessage: string = '';
+  availableCategories: string[] = [];
 
   readonly chosenCategories = signal<string[]>([]);
   readonly isVisible = signal<boolean>(false);

@@ -317,7 +317,7 @@ export class MatchWordsService {
     this.initializeGamePlay();
   }
 
-  private resetGameState() {
+  resetGameState() {
     this.resetMatchValues();
     this.store.gameOver.set(false);
     this.store.currentStage.set(DEFAULT_FIRST_STAGE);

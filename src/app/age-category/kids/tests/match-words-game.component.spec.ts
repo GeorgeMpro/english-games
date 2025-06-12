@@ -20,22 +20,6 @@ import {
 } from '../../../shared/tests/dom-test-utils';
 
 
-function assertEndModalClosingByButtonPress(fixture: ComponentFixture<MatchWordsGameComponent>, buttonToPress: string) {
-  const endGameModal = getElementByDataTestId(fixture, 'end-game-modal');
-
-  // Ensure modal is initially present
-  expect(endGameModal).not.toBeNull();
-
-  // Simulate the button click
-  simulateButtonClick(fixture, buttonToPress);
-
-  // Update the fixture to reflect changes
-  fixture.detectChanges();
-
-  // Verify the modal is no longer present
-  expect(getElementByDataTestId(fixture, 'end-game-modal')).toBeNull();
-}
-
 describe('MatchWordsGameComponent', () => {
   let fixture: ComponentFixture<MatchWordsGameComponent>;
   let component: MatchWordsGameComponent;
@@ -242,4 +226,20 @@ function assertMatchedStateAfterReplay(store: MatchWordsStore, fixture: Componen
 
 function areCardsMatched(cards: { matched: boolean }[]): boolean {
   return cards.some(card => card.matched);
+}
+
+function assertEndModalClosingByButtonPress(fixture: ComponentFixture<MatchWordsGameComponent>, buttonToPress: string) {
+  const endGameModal = getElementByDataTestId(fixture, 'end-game-modal');
+
+  // Ensure modal is initially present
+  expect(endGameModal).not.toBeNull();
+
+  // Simulate the button click
+  simulateButtonClick(fixture, buttonToPress);
+
+  // Update the fixture to reflect changes
+  fixture.detectChanges();
+
+  // Verify the modal is no longer present
+  expect(getElementByDataTestId(fixture, 'end-game-modal')).toBeNull();
 }
