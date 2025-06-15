@@ -13,6 +13,9 @@ export class MatchWordsStore {
   readonly items: WritableSignal<MatchItem[]> = signal([]);
 
   // todo
+  selectedCategoryWords: WritableSignal<string[]> = signal([]);
+
+  // todo
   shuffledItemsSlice: WritableSignal<MatchItem[]> = signal([]);
 
   // todo

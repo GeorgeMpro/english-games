@@ -112,9 +112,6 @@ export class MatchWordsGameComponent implements OnInit {
   }
 
   onNewGameWithCategories(categories: string[]): void {
-    //   todo: notice - handle 0 arguments in component button disable
-    console.log('match word comp: ' + categories);
-
-    this.matchWordService.resetGameState();
+    this.matchWordService.handleNewCategoriesGame(categories);
   }
 }

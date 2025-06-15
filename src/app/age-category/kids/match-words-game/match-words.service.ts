@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 
-import {catchError, Observable, of, switchMap, take, tap} from 'rxjs';
+import {catchError, forkJoin, Observable, of, switchMap, take, tap} from 'rxjs';
 import {map} from 'rxjs/operators';
 
 import {GameLogicService} from '../../../shared/services/game-logic.service';
@@ -15,7 +15,7 @@ import {
   MATCH_RESET_TIMEOUT_DELAY,
 } from '../../../shared/game-config.constants';
 
-
+// todo does too much - split
 @Injectable({providedIn: 'root'})
 export class MatchWordsService {
 
@@ -323,6 +323,7 @@ export class MatchWordsService {
     this.store.currentStage.set(DEFAULT_FIRST_STAGE);
   }
 
+  // todo extract choose modal
   /**
    * Resets all match-related values in the game state.
    *
@@ -353,5 +354,20 @@ export class MatchWordsService {
       key => typeof key === 'number' && !Number.isNaN(key));
 
     return validKeys.length;
+  }
+
+  // todo maybe extract choosing new category
+  /*New Categories*/
+  handleNewCategoriesGame(categories: string[]) {
+    this.resetGameState();
+
+    const fetches = categories.map(cat => this.vocabularyService.getList(cat as Category));
+
+    forkJoin(fetches).subscribe((allCategoryWords: string[][]) => {
+      const mergedWords = allCategoryWords.flat();
+      this.store.selectedCategoryWords.set(mergedWords);
+    });
+
+
   }
 }

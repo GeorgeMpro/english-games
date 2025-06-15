@@ -1,7 +1,9 @@
-import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
 import {TestbedHarnessEnvironment} from '@angular/cdk/testing/testbed';
 import {MatChipOptionHarness} from '@angular/material/chips/testing';
+import {provideHttpClient} from '@angular/common/http';
 
+import {of} from 'rxjs';
 import {By} from '@angular/platform-browser';
 
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
@@ -13,9 +15,9 @@ import {
 } from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
 import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {MatchWordsService} from '../match-words-game/match-words.service';
-import {VocabularyService} from '../../../shared/services/vocabulary.service';
+import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
 import {GameLogicService} from '../../../shared/services/game-logic.service';
-import {provideHttpClient} from '@angular/common/http';
+import {WikiService} from '../../../shared/services/wiki.service';
 
 
 describe('Choose category flow', () => {
@@ -117,7 +119,7 @@ describe('Processing chosen categories and flow', () => {
     fixture = TestBed.createComponent(MatchWordsGameComponent);
     component = fixture.componentInstance;
     store = TestBed.inject(MatchWordsStore);
-    service =fixture.debugElement.injector.get(MatchWordsService);
+    service = fixture.debugElement.injector.get(MatchWordsService);
     vocabulary = TestBed.inject(VocabularyService);
 
     component.gameReady.set(true);
@@ -138,12 +140,95 @@ describe('Processing chosen categories and flow', () => {
 
     });
 
-    // todo: connect MatchWordsGameComponent's onNewGameWithCategories with fake chooser
-    xit('should handle empty categories as normal new game');
-    xit('should pass category array to service');
-    xit('should generate the items from each category and concat them');
-    xit('should shuffle the concatenated items into game cards');
+    it('should delegate new category handling to the service', () => {
+      spyOn(service, 'handleNewCategoriesGame'); // or whatever method you wire
+      component.onNewGameWithCategories(['Animals', 'Clothes']);
+      expect(service.handleNewCategoriesGame).toHaveBeenCalledWith(['Animals', 'Clothes'])
+    });
   });
+});
+
+describe('Chosen categories service interaction', () => {
+
+  describe('Proper flow', () => {
+
+    let wrdService: MatchWordsService;
+    let vocabService: VocabularyService;
+    let store: MatchWordsStore;
+
+    const categories = ['animals', 'clothes', 'colors'];
+
+    beforeEach(() => {
+      TestBed.configureTestingModule({
+        providers: [
+          MatchWordsStore,
+          GameLogicService,
+          VocabularyService,
+          {provide: WikiService, useValue: {}},
+        ]
+      })
+
+      wrdService = TestBed.inject(MatchWordsService);
+      vocabService = TestBed.inject(VocabularyService);
+      store = TestBed.inject(MatchWordsStore);
+    });
+
+    it('should attempt to get items for passed category', () => {
+      const spy = spyOn(vocabService, 'getList').and.returnValue(of([]));
+      wrdService.handleNewCategoriesGame(categories);
+
+      expect(spy.calls.count()).toBe(categories.length);
+      categories.forEach((category, i) => {
+        expect(spy.calls.argsFor(i)).toEqual([category as Category])
+      })
+    });
+
+    it('should create items from merged item list', fakeAsync(() => {
+      const expectedList = ['dog', 'cat', 'red', 'yellow', 'pants', 'shoes']
+      spyOn(vocabService, 'getList').and.callFake((cat: Category) => {
+        switch (cat) {
+          case Category.Animals:
+            return of(['dog', 'cat']);
+          case Category.Clothes:
+            return of(['pants', 'shoes']);
+          case Category.Colors:
+            return of(['red', 'yellow']);
+          default:
+            return of([]);
+
+        }
+      });
+
+      // action
+      wrdService.handleNewCategoriesGame(categories);
+      tick();
+
+      expectedList.forEach((word) => {
+        expect(store.selectedCategoryWords()).toContain(word);
+      });
+
+
+    }));
+
+    xit('should get images for the items from the server');
+    xit('should shuffle the merged item list and store it', () => {
+    });
+    xit('should create game cards for the merged shuffled list', () => {
+    });
+    xit('should set game ready when done', () => {
+    });
+    xit('should reset game state before fetching', () => {
+    });
+
+
+    xit('should ', () => {
+    });
+    xit('should ', () => {
+    });
+    xit('should ', () => {
+    });
+  });
+
 
   xdescribe('Fallbacks and validation', () => {
     xit('should process single category');
@@ -151,6 +236,18 @@ describe('Processing chosen categories and flow', () => {
     xit('should fall back to default category');
     xit('should handle not enough items in category');
     xit('should handle when chosen categories don’t meet game requirements');
+    // todo: connect MatchWordsGameComponent's onNewGameWithCategories with fake chooser
+    xit('should handle empty categories as normal new game');
+    xit('should pass category array to service');
+    xit('should generate the items from each category and concat them');
+    xit('should shuffle the concatenated items into game cards');
+
+    xit('should ignore unknown categories', () => {
+    });
+    xit('should skip categories with no items', () => {
+    });
+    xit('should log or show error if all fetches fail', () => {
+    });
   });
 
   xdescribe('Connecting to service', () => {
@@ -163,7 +260,6 @@ describe('Processing chosen categories and flow', () => {
   });
 
 });
-
 
 async function triggerNewGameWithSelectedCategories(
   fixture: ComponentFixture<MatchWordsGameComponent>,
