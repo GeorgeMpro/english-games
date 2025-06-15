@@ -368,6 +368,15 @@ export class MatchWordsService {
       this.store.selectedCategoryWords.set(mergedWords);
     });
 
+    this.initializeGameItemsFromChosenCategories();
 
+  }
+
+  initializeGameItemsFromChosenCategories() {
+    this.wikiService.getItems(this.store.selectedCategoryWords()).subscribe(
+      (items: MatchItem[]) => {
+        this.store.items.set(items);
+      }
+    );
   }
 }

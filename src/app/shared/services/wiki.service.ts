@@ -15,10 +15,12 @@ export class WikiService {
   ) {
   }
 
+  // todo cleanup and add doc
   getItems(words: string[]): Observable<MatchItem[]> {
     const params = this.buildParams(words);
     return this.http.get<WikiQueryResponse>(this.apiUrl, {params}).pipe(
       map(response => this.mapPagesToItems(response.query.pages)),
+      // todo notice: filters items without images without testing
       map(items => items.filter(item => !!item.imageUrl)),
 
       // todo keep or remove?

@@ -1,4 +1,3 @@
-import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 import {BrowserTestingModule} from '@angular/platform-browser/testing';
 import {DeferBlockBehavior, DeferBlockState, TestBed} from '@angular/core/testing';
@@ -19,7 +18,6 @@ export async function setupMatchWordComponentEndGameState() {
       BrowserTestingModule,
     ],
     providers: [
-      provideHttpClient(),
       provideHttpClientTesting(),
       provideRouter([]),
       MatchWordsService,

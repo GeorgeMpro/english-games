@@ -18,6 +18,8 @@ import {MatchWordsService} from '../match-words-game/match-words.service';
 import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
 import {GameLogicService} from '../../../shared/services/game-logic.service';
 import {WikiService} from '../../../shared/services/wiki.service';
+import {MatchItem, WikiQueryResponse} from '../../../shared/models/kids.models';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 
 describe('Choose category flow', () => {
@@ -152,8 +154,9 @@ describe('Chosen categories service interaction', () => {
 
   describe('Proper flow', () => {
 
-    let wrdService: MatchWordsService;
+    let wordsService: MatchWordsService;
     let vocabService: VocabularyService;
+    let wikiService: WikiService;
     let store: MatchWordsStore;
 
     const categories = ['animals', 'clothes', 'colors'];
@@ -164,18 +167,22 @@ describe('Chosen categories service interaction', () => {
           MatchWordsStore,
           GameLogicService,
           VocabularyService,
-          {provide: WikiService, useValue: {}},
+          WikiService,
+          MatchWordsService,
+          provideHttpClient(),
+          provideHttpClientTesting(),
         ]
       })
 
-      wrdService = TestBed.inject(MatchWordsService);
+      wordsService = TestBed.inject(MatchWordsService);
       vocabService = TestBed.inject(VocabularyService);
+      wikiService = TestBed.inject(WikiService);
       store = TestBed.inject(MatchWordsStore);
     });
 
     it('should attempt to get items for passed category', () => {
       const spy = spyOn(vocabService, 'getList').and.returnValue(of([]));
-      wrdService.handleNewCategoriesGame(categories);
+      wordsService.handleNewCategoriesGame(categories);
 
       expect(spy.calls.count()).toBe(categories.length);
       categories.forEach((category, i) => {
@@ -185,6 +192,7 @@ describe('Chosen categories service interaction', () => {
 
     it('should create items from merged item list', fakeAsync(() => {
       const expectedList = ['dog', 'cat', 'red', 'yellow', 'pants', 'shoes']
+      // todo: simplify?
       spyOn(vocabService, 'getList').and.callFake((cat: Category) => {
         switch (cat) {
           case Category.Animals:
@@ -200,17 +208,36 @@ describe('Chosen categories service interaction', () => {
       });
 
       // action
-      wrdService.handleNewCategoriesGame(categories);
+      wordsService.handleNewCategoriesGame(categories);
       tick();
 
       expectedList.forEach((word) => {
         expect(store.selectedCategoryWords()).toContain(word);
       });
-
-
     }));
 
-    xit('should get images for the items from the server');
+    it('should generate items from chosen categories', () => {
+      const selectedCategoryWords = ['dog', 'cat', 'red'];
+      const wikiItems: MatchItem[] = [
+        {id: 1, word: 'dog', imageUrl: 'img1', wikiUrl: 'url1', matched: false},
+        {id: 2, word: 'cat', imageUrl: 'img2', wikiUrl: 'url2', matched: false},
+        {id: 3, word: 'red', imageUrl: 'img3', wikiUrl: 'url3', matched: false}
+      ];
+
+      store.selectedCategoryWords.set(selectedCategoryWords);
+
+      //   todo
+      //   dummy wiki return
+      const spyWiki =
+        spyOn(wikiService, 'getItems').and.returnValue(of(wikiItems));
+
+
+      wordsService.initializeGameItemsFromChosenCategories();
+
+      expect(spyWiki).toHaveBeenCalledOnceWith(selectedCategoryWords);
+      expect(store.items()).toEqual(wikiItems);
+
+    });
     xit('should shuffle the merged item list and store it', () => {
     });
     xit('should create game cards for the merged shuffled list', () => {
