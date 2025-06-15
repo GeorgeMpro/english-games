@@ -43,7 +43,8 @@ export class MatchWordsService {
     return this.fetchItemsByCategory(category).pipe(
       take(1),
       tap(items => {
-        this.store.items.set(items);
+        // this.store.items.set(items);
+        this.setGameItems(items);
       }),
       map(() => true),
       catchError(() => {
@@ -373,10 +374,20 @@ export class MatchWordsService {
   }
 
   initializeGameItemsFromChosenCategories() {
-    this.wikiService.getItems(this.store.selectedCategoryWords()).subscribe(
-      (items: MatchItem[]) => {
-        this.store.items.set(items);
+    // todo extract subscribe for all init funcs here
+    this.wikiService.getItems(this.store.selectedCategoryWords()).subscribe({
+        next: (items: MatchItem[]) => {
+          console.log(items);
+          this.setGameItems(items);
+          this.initializeGamePlay();
+        }
       }
     );
+
+    //   todo
+  }
+
+  private setGameItems(items: MatchItem[]) {
+    this.store.items.set(items);
   }
 }

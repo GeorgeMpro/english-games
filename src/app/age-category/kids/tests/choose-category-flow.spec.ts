@@ -2,9 +2,10 @@ import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing'
 import {TestbedHarnessEnvironment} from '@angular/cdk/testing/testbed';
 import {MatChipOptionHarness} from '@angular/material/chips/testing';
 import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
+import {By} from '@angular/platform-browser';
 
 import {of} from 'rxjs';
-import {By} from '@angular/platform-browser';
 
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
 import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
@@ -18,8 +19,7 @@ import {MatchWordsService} from '../match-words-game/match-words.service';
 import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
 import {GameLogicService} from '../../../shared/services/game-logic.service';
 import {WikiService} from '../../../shared/services/wiki.service';
-import {MatchItem, WikiQueryResponse} from '../../../shared/models/kids.models';
-import {provideHttpClientTesting} from '@angular/common/http/testing';
+import {MatchItem} from '../../../shared/models/kids.models';
 
 
 describe('Choose category flow', () => {
@@ -160,6 +160,11 @@ describe('Chosen categories service interaction', () => {
     let store: MatchWordsStore;
 
     const categories = ['animals', 'clothes', 'colors'];
+    const fakeWikiReturnItems: MatchItem[] = [
+      {id: 1, word: 'dog', imageUrl: 'img1', wikiUrl: 'url1', matched: false},
+      {id: 2, word: 'cat', imageUrl: 'img2', wikiUrl: 'url2', matched: false},
+      {id: 3, word: 'red', imageUrl: 'img3', wikiUrl: 'url3', matched: false}
+    ];
 
     beforeEach(() => {
       TestBed.configureTestingModule({
@@ -185,7 +190,7 @@ describe('Chosen categories service interaction', () => {
       wordsService.handleNewCategoriesGame(categories);
 
       expect(spy.calls.count()).toBe(categories.length);
-      categories.forEach((category, i) => {
+      categories.forEach((category: string, i: number) => {
         expect(spy.calls.argsFor(i)).toEqual([category as Category])
       })
     });
@@ -203,7 +208,6 @@ describe('Chosen categories service interaction', () => {
             return of(['red', 'yellow']);
           default:
             return of([]);
-
         }
       });
 
@@ -211,35 +215,28 @@ describe('Chosen categories service interaction', () => {
       wordsService.handleNewCategoriesGame(categories);
       tick();
 
-      expectedList.forEach((word) => {
+      expectedList.forEach((word: string) => {
         expect(store.selectedCategoryWords()).toContain(word);
       });
     }));
 
-    it('should generate items from chosen categories', () => {
-      const selectedCategoryWords = ['dog', 'cat', 'red'];
-      const wikiItems: MatchItem[] = [
-        {id: 1, word: 'dog', imageUrl: 'img1', wikiUrl: 'url1', matched: false},
-        {id: 2, word: 'cat', imageUrl: 'img2', wikiUrl: 'url2', matched: false},
-        {id: 3, word: 'red', imageUrl: 'img3', wikiUrl: 'url3', matched: false}
-      ];
-
-      store.selectedCategoryWords.set(selectedCategoryWords);
-
-      //   todo
-      //   dummy wiki return
+    it('should generate items from chosen categories and initialize gameplay', () => {
+      store.selectedCategoryWords.set(categories);
       const spyWiki =
-        spyOn(wikiService, 'getItems').and.returnValue(of(wikiItems));
-
+        spyOn(wikiService, 'getItems').and.returnValue(of(fakeWikiReturnItems));
+      const spyInitPlay = spyOn(wordsService, 'initializeGamePlay');
 
       wordsService.initializeGameItemsFromChosenCategories();
 
-      expect(spyWiki).toHaveBeenCalledOnceWith(selectedCategoryWords);
-      expect(store.items()).toEqual(wikiItems);
+      expect(spyWiki).toHaveBeenCalledOnceWith(categories);
+      expect(store.items()).toEqual(fakeWikiReturnItems);
+      expect(spyInitPlay).toHaveBeenCalled();
+    });
+
+    xit('should shuffle the merged item list and store it', () => {
 
     });
-    xit('should shuffle the merged item list and store it', () => {
-    });
+
     xit('should create game cards for the merged shuffled list', () => {
     });
     xit('should set game ready when done', () => {

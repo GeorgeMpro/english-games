@@ -42,7 +42,9 @@ import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.cons
 })
 export class CategoryChooserModalComponent {
   errorMessage: string = '';
-  availableCategories: string[] = [];
+  // todo for manual testing
+  // availableCategories: string[] = [];
+  availableCategories: string[] = ['animals', 'utensils', 'food', 'clothes'];
 
   readonly chosenCategories = signal<string[]>([]);
   readonly isVisible = signal<boolean>(false);
