@@ -37,4 +37,6 @@ export class VocabularyService {
   getList(category: Category): Observable<string[]> {
     return of(this.wordLists[category] ?? []);
   }
+
 }
+

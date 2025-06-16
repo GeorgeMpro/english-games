@@ -246,7 +246,7 @@ describe('Chosen categories service interaction', () => {
         spyOn(wikiService, 'getItems').and.returnValue(of(fakeWikiReturnItems));
       const spyInitPlay = spyOn(wordsService, 'initializeGamePlay');
 
-      wordsService.initializeGameItemsFromChosenCategories();
+      wordsService.startGameFromChosenCategories();
 
       expect(spyWiki).toHaveBeenCalledOnceWith(categories);
       expect(store.items()).toEqual(fakeWikiReturnItems);

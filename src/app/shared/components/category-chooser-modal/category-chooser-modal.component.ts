@@ -1,6 +1,7 @@
-import {Component, QueryList, ViewChildren, signal, output} from '@angular/core';
+import {Component, QueryList, ViewChildren, signal, output, OnInit} from '@angular/core';
 import {MatChipListbox, MatChipOption} from '@angular/material/chips';
 import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
+import {Category} from '../../services/vocabulary.service';
 
 @Component({
   selector: 'app-category-chooser-modal',
@@ -40,11 +41,9 @@ import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.cons
   `,
   styleUrl: '../../styles/app-modal.shared.css'
 })
-export class CategoryChooserModalComponent {
+export class CategoryChooserModalComponent implements OnInit {
   errorMessage: string = '';
-  // todo for manual testing
-  // availableCategories: string[] = [];
-  availableCategories: string[] = ['animals', 'utensils', 'food', 'clothes'];
+  availableCategories: string[] = [];
 
   readonly chosenCategories = signal<string[]>([]);
   readonly isVisible = signal<boolean>(false);
@@ -53,6 +52,11 @@ export class CategoryChooserModalComponent {
   submit = output<string[]>();
 
   @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
+
+  // todo: temp solution while awaiting backend
+  ngOnInit() {
+    this.availableCategories = Object.values(Category);
+  }
 
 
   setupCategories(): string[] {

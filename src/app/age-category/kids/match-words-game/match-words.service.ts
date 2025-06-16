@@ -370,11 +370,11 @@ export class MatchWordsService {
       this.store.selectedCategoryWords.set(mergedWords);
     });
 
-    this.initializeGameItemsFromChosenCategories();
+    this.startGameFromChosenCategories();
 
   }
 
-  initializeGameItemsFromChosenCategories() {
+  startGameFromChosenCategories() {
     // todo extract subscribe for all init funcs here
     this.wikiService.getItems(this.store.selectedCategoryWords()).subscribe({
         next: (items: MatchItem[]) => {
