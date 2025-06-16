@@ -10,7 +10,7 @@ import {of} from 'rxjs';
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
 import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
-import {setupMatchWordComponentEndGameState} from './test-setup-util';
+import {setupMatchWordComponent, setupMatchWordComponentEndGameState} from './test-setup-util';
 import {
   CategoryChooserModalComponent
 } from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
@@ -95,6 +95,33 @@ describe('Choose category flow', () => {
 
       expect(modal.isVisible()).toBeFalse();
     });
+
+
+  });
+});
+
+describe('Category chooser modal before game end', () => {
+
+  let fixture: ComponentFixture<MatchWordsGameComponent>;
+
+  beforeEach(async () => {
+    fixture = await setupMatchWordComponent();
+  });
+
+  it('should open modal on match component', () => {
+
+    const spy = spyOn(fixture.componentInstance, 'onChooseCategory').and.callThrough();
+    expect(getElementByDataTestId(fixture, 'category-chooser-modal')).toBeNull();
+
+    clickButtonByTestId(fixture, 'choose-in-match-button');
+    fixture.detectChanges();
+
+    expect(getElementByDataTestId(fixture, 'category-chooser-modal')).toBeTruthy();
+    expect(spy).toHaveBeenCalled();
+
+  //   todo spy on match words - onchooseCate
+
+
   });
 });
 
@@ -231,25 +258,6 @@ describe('Chosen categories service interaction', () => {
       expect(spyWiki).toHaveBeenCalledOnceWith(categories);
       expect(store.items()).toEqual(fakeWikiReturnItems);
       expect(spyInitPlay).toHaveBeenCalled();
-    });
-
-    xit('should shuffle the merged item list and store it', () => {
-
-    });
-
-    xit('should create game cards for the merged shuffled list', () => {
-    });
-    xit('should set game ready when done', () => {
-    });
-    xit('should reset game state before fetching', () => {
-    });
-
-
-    xit('should ', () => {
-    });
-    xit('should ', () => {
-    });
-    xit('should ', () => {
     });
   });
 

@@ -209,3 +209,21 @@
     transform: scale(1);
   }
 }
+
+
+/*choose button*/
+.choose-category-button {
+  font-size: var(--font-size-md);
+  padding: var(--space-sm) var(--space-md);
+  border: none;
+  border-radius: var(--card-radius);
+  background-color: var(--color-primary);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.choose-category-button:hover {
+  background-color: var(--color-accent);
+  box-shadow: var(--shadow-hover);
+}

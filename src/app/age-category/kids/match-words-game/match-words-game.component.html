@@ -9,6 +9,13 @@
   <section class="match-words"
            [class.fade-in]="gameReady()">
     <h2>Match the Word to the Image</h2>
+
+      <button data-testid="choose-in-match-button"
+              class="choose-category-button"
+              (click)="onChooseCategory()">
+        <span>Change Categories</span>
+      </button>
+
     @if (message()) {
       <div class="message">{{ message() }}</div>
     }
@@ -89,4 +96,4 @@
 }
 
 <app-category-chooser-modal
-(submit)="onNewGameWithCategories($event)"/>
+  (submit)="onNewGameWithCategories($event)"/>

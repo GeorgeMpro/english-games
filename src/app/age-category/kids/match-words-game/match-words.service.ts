@@ -95,10 +95,11 @@ export class MatchWordsService {
    */
   private initializeShuffledItemsSlice(stages: number, itemsPerStage: number): void {
     const totalItems = stages * itemsPerStage;
-    const shuffledCopy: MatchItem[] = this.gameLogicService.generateShuffledItemCopy(this.store.items());
+    const shuffledCopy: MatchItem[] = this.gameLogicService.generateShuffledItemCopy(this.getStoreItems());
 
     this.store.shuffledItemsSlice.set(shuffledCopy.slice(0, totalItems));
   }
+
 
   /**
    * Divides the shuffled item slice into individual stage groups.
@@ -389,5 +390,9 @@ export class MatchWordsService {
 
   private setGameItems(items: MatchItem[]) {
     this.store.items.set(items);
+  }
+
+  private getStoreItems() {
+    return this.store.items();
   }
 }

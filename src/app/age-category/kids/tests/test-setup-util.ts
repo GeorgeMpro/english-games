@@ -11,7 +11,7 @@ import {matchItems} from '../../../../assets/test-data/match-items';
 import {WikiService} from '../../../shared/services/wiki.service';
 import {provideRouter} from '@angular/router';
 
-export async function setupMatchWordComponentEndGameState() {
+export async function setupMatchWordComponent() {
   const moduleDef = {
     imports: [
       MatchWordsGameComponent,
@@ -41,6 +41,12 @@ export async function setupMatchWordComponentEndGameState() {
   await deferBlock.render(DeferBlockState.Complete);
 
   fixture.componentInstance.gameReady.set(true);
+  return fixture;
+}
+
+export async function setupMatchWordComponentEndGameState() {
+  const fixture = await setupMatchWordComponent();
+
   fixture.componentInstance.gameOver.set(true); // force modal to show
 
   fixture.detectChanges();
