@@ -118,13 +118,8 @@ describe('Category chooser modal before game end', () => {
 
     expect(getElementByDataTestId(fixture, 'category-chooser-modal')).toBeTruthy();
     expect(spy).toHaveBeenCalled();
-
-  //   todo spy on match words - onchooseCate
-
-
   });
 });
-
 
 describe('Processing chosen categories and flow', () => {
   let fixture: ComponentFixture<MatchWordsGameComponent>;
@@ -166,7 +161,6 @@ describe('Processing chosen categories and flow', () => {
 
       expect(component.gameOver()).toBeFalse();
       expect(resetSpy).toHaveBeenCalled();
-
     });
 
     it('should delegate new category handling to the service', () => {
@@ -238,7 +232,6 @@ describe('Chosen categories service interaction', () => {
         }
       });
 
-      // action
       wordsService.handleNewCategoriesGame(categories);
       tick();
 
