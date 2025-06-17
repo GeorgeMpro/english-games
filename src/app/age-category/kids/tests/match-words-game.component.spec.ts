@@ -1,45 +1,30 @@
-import {provideHttpClient} from '@angular/common/http';
-import {ComponentFixture, DeferBlockBehavior, DeferBlockState, TestBed} from '@angular/core/testing';
-import {provideHttpClientTesting} from '@angular/common/http/testing';
+import {ComponentFixture, DeferBlockState} from '@angular/core/testing';
 
-import {lastValueFrom, of} from 'rxjs';
+import {lastValueFrom} from 'rxjs';
 
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
 import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {MatchWordsService} from '../match-words-game/match-words.service';
+import {Category} from '../../../shared/services/vocabulary.service';
+
 import {matchItems} from '../../../../assets/test-data/match-items';
-import {GameLogicService} from '../../../shared/services/game-logic.service';
-import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
-import {WikiService} from '../../../shared/services/wiki.service';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {
   expectClickCallsMethod,
   getElementByDataTestId,
   getQuerySelectorAll,
   simulateButtonClick
 } from '../../../shared/tests/dom-test-utils';
+import {setupMatchComponent} from './test-setup-util';
 
 
 describe('MatchWordsGameComponent', () => {
+
   let fixture: ComponentFixture<MatchWordsGameComponent>;
   let component: MatchWordsGameComponent;
   let store: MatchWordsStore;
 
   beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [MatchWordsGameComponent],
-      providers: [
-        MatchWordsStore,
-        MatchWordsService,
-        provideHttpClient(),
-        provideHttpClientTesting(),
-      ],
-      deferBlockBehavior: DeferBlockBehavior.Manual,
-    }).compileComponents();
-
-    fixture = TestBed.createComponent(MatchWordsGameComponent);
-    component = fixture.componentInstance;
-    store = fixture.debugElement.injector.get(MatchWordsStore);
+    ({fixture, component, store} = await setupMatchComponent({withDefer: true}));
 
     component.ngOnInit();
     component.gameReady.set(true);
@@ -130,20 +115,7 @@ describe('Effect: currentStage triggers generateGameCardsFromItems', () => {
   let service: MatchWordsService;
 
   beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [MatchWordsGameComponent],
-      providers: [
-        MatchWordsStore,
-        MatchWordsService,
-        provideHttpClient(),
-        provideHttpClientTesting(),
-      ],
-    }).compileComponents();
-
-    fixture = TestBed.createComponent(MatchWordsGameComponent);
-    component = fixture.componentInstance;
-    store = TestBed.inject(MatchWordsStore);
-    service = TestBed.inject(MatchWordsService);
+    ({fixture, component, store, service} = await setupMatchComponent());
 
     // force ready state
     component.gameReady.set(true);
@@ -203,29 +175,7 @@ describe('CSS Match class logic', () => {
   let store: MatchWordsStore;
 
   beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [MatchWordsGameComponent, CommonModule, NgOptimizedImage],
-      providers: [
-        MatchWordsStore,
-        MatchWordsService,
-        GameLogicService,
-        provideHttpClient(),
-        provideHttpClientTesting(),
-        {
-          provide: VocabularyService,
-          useValue: {getList: () => of(matchItems.map(i => i.word))}
-        },
-        {
-          provide: WikiService,
-          useValue: {getItems: () => of(structuredClone(matchItems))}
-        }
-      ],
-    }).compileComponents();
-
-    fixture = TestBed.createComponent(MatchWordsGameComponent);
-    component = fixture.componentInstance;
-    store = TestBed.inject(MatchWordsStore);
-    service = TestBed.inject(MatchWordsService);
+    ({fixture, component, store, service} = await setupMatchComponent({withMockServices: true}));
 
     // Initialize game data before the component is initialized
     await lastValueFrom(service.initializeGameData(Category.Animals));
@@ -246,7 +196,6 @@ describe('CSS Match class logic', () => {
     // Verify both data and DOM state
     assertMatchedStateAfterReplay(store, fixture);
   });
-
 });
 
 

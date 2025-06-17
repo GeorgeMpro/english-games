@@ -11,6 +11,46 @@ import {matchItems} from '../../../../assets/test-data/match-items';
 import {WikiService} from '../../../shared/services/wiki.service';
 import {provideRouter} from '@angular/router';
 import {MatchItem} from '../../../shared/models/kids.models';
+import {provideHttpClient} from '@angular/common/http';
+
+const baseProviders = [
+  MatchWordsStore,
+  MatchWordsService,
+  provideHttpClient(),
+  provideHttpClientTesting(),
+];
+
+
+export async function setupMatchComponent
+(options: {
+  withDefer?: boolean,
+  withMockServices?: boolean
+} = {}) {
+  const {withDefer = false, withMockServices = false} = options;
+  const mockServices = [{
+    provide: VocabularyService,
+    useValue: {getList: () => of(matchItems.map(i => i.word))}
+  },
+    {
+      provide: WikiService,
+      useValue: {getItems: () => of(structuredClone(matchItems))}
+    }];
+
+  await TestBed.configureTestingModule({
+    imports: [MatchWordsGameComponent],
+    providers: [...baseProviders,
+      ...(withMockServices ? mockServices : [])],
+    ...(withDefer && {deferBlockBehavior: DeferBlockBehavior.Manual}),
+  }).compileComponents();
+
+
+  const fixture = TestBed.createComponent(MatchWordsGameComponent);
+  const component = fixture.componentInstance;
+  const store = fixture.debugElement.injector.get(MatchWordsStore);
+  const service = TestBed.inject(MatchWordsService);
+
+  return {fixture, component, store, service}
+}
 
 export async function setupMatchWordComponent() {
   const moduleDef = {
