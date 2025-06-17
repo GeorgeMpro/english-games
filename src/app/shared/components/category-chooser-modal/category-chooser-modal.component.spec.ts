@@ -31,6 +31,7 @@ describe('Functionality', () => {
 
     it('should handle empty categories', () => {
       expect(component.chosenCategories()).toEqual([]);
+      component.availableCategories = [];
       spyOn(component, 'getChosenCategories').and.callThrough();
 
       const result = component.setupCategories();

@@ -5,7 +5,7 @@ import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {VocabularyService} from '../../../shared/services/vocabulary.service';
 import {GameLogicService} from '../../../shared/services/game-logic.service';
 import {WikiService} from '../../../shared/services/wiki.service';
-import {MatchItem} from '../../../shared/models/kids.models';
+import {MatchAttempt, MatchItem} from '../../../shared/models/kids.models';
 
 import {DEFAULT_LAST_STAGE, DEFAULT_STAGE_COUNT, DEFAULT_TOTAL_ITEMS} from '../../../shared/game-config.constants';
 import {matchItems} from '../../../../assets/test-data/match-items';
@@ -135,8 +135,23 @@ describe('Game completion, feedback, replay, and new game', () => {
       expect(store.wordCards().length).toBeGreaterThan(0);
       expect(store.imageCards().length).toBeGreaterThan(0);
     });
-  });
 
+
+    it('should clear unique correct match attempt counter on new game', () => {
+      const matchAttempts = new Map<number, MatchAttempt>([
+        [1, {attempts: 1, correctOnFirstTry: true}],
+        [2, {attempts: 2, correctOnFirstTry: false}]
+      ]);
+
+      store.uniqueCorrectMatchAttemptCounter.set(matchAttempts);
+
+      expect(store.uniqueCorrectMatchAttemptCounter().size).toBe(2);
+
+      service.newGame();
+
+      expect(store.uniqueCorrectMatchAttemptCounter().size).toBe(0);
+    });
+  });
 });
 
 function setupGameStart(store: MatchWordsStore, service: MatchWordsService) {

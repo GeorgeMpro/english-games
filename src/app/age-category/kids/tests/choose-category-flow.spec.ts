@@ -252,6 +252,43 @@ describe('Chosen categories service interaction', () => {
       expect(store.items()).toEqual(fakeWikiReturnItems);
       expect(spyInitPlay).toHaveBeenCalled();
     });
+
+    it('should assign unique IDs to all items when merging multiple categories', fakeAsync(() => {
+      spyOn(vocabService, 'getList').and.callFake((cat: Category) => {
+        switch (cat) {
+          case Category.Animals:
+            return of(['bee', 'dog']);
+          case Category.Clothes:
+            return of(['hat', 'shirt']);
+          case Category.Colors:
+            return of(['red', 'blue']);
+          default:
+            return of([]);
+        }
+      });
+
+      // simulate duplicated ids from wikiService
+      spyOn(wikiService, 'getItems').and.callFake((words: string[]) => {
+        const duplicatedIdItems: MatchItem[] = words.map((word, i) => ({
+          id: i % 2, // force duplicates like id=0,1,0,1...
+          word,
+          imageUrl: `img-${word}`,
+          wikiUrl: `wiki-${word}`,
+          matched: false,
+        }));
+        return of(duplicatedIdItems);
+      });
+
+      wordsService.handleNewCategoriesGame(categories);
+      tick();
+
+      const ids = store.items().map(item => item.id);
+      const unique = new Set(ids);
+
+      expect(unique.size)
+        .withContext('All match items must have unique IDs after merging categories')
+        .toBe(ids.length);
+    }));
   });
 
 

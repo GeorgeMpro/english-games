@@ -61,6 +61,4 @@ export class MatchWordsStore {
     this.selectedImageId.set(undefined);
     this.matchAttemptMessage.set('');
   }
-
-
 }

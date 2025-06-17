@@ -293,19 +293,24 @@ export class MatchWordsService {
   replayGame(): void {
     this.reshuffleCurrentGameItems();  // reshuffle slice
     this.resetMatchValues();           // clear matched flags
+    this.resetGameSignals();
+    this.reinitializeStageAndCards();
+    this.store.resetSelections();
+  }
 
+  private resetGameSignals() {
     this.store.gameOver.set(false);
-    this.store.currentStage.set(DEFAULT_FIRST_STAGE);
 
+    this.store.currentStage.set(DEFAULT_FIRST_STAGE);
+  }
+
+  private reinitializeStageAndCards() {
     // Notice: clears `matched` class from CSS classes in the cards
     this.initializeItemsForStage(DEFAULT_STAGE_COUNT, DEFAULT_ITEMS_PER_STAGE);
 
     // 💥 now use the updated stage items to rebuild cards
     this.generateGameCardsFromItems(this.getCurrentStageItems());
-
-    this.store.resetSelections();
   }
-
 
   reshuffleCurrentGameItems(): void {
     const reshuffledItems = this.gameLogicService.generateShuffledItemCopy(this.store.shuffledItemsSlice());
@@ -323,6 +328,7 @@ export class MatchWordsService {
     this.resetMatchValues();
     this.store.gameOver.set(false);
     this.store.currentStage.set(DEFAULT_FIRST_STAGE);
+    this.store.uniqueCorrectMatchAttemptCounter().clear();
   }
 
   // todo extract choose modal
@@ -371,15 +377,16 @@ export class MatchWordsService {
     });
 
     this.startGameFromChosenCategories();
-
   }
 
   startGameFromChosenCategories() {
     // todo extract subscribe for all init funcs here
     this.wikiService.getItems(this.store.selectedCategoryWords()).subscribe({
         next: (items: MatchItem[]) => {
+          // todo del
           console.log(items);
-          this.setGameItems(items);
+          const itemsWithUniqueIds: MatchItem[] = this.assignUniqueIds(items);
+          this.setGameItems(itemsWithUniqueIds);
           this.initializeGamePlay();
         }
       }
@@ -394,5 +401,12 @@ export class MatchWordsService {
 
   private getStoreItems() {
     return this.store.items();
+  }
+
+  private assignUniqueIds(items: MatchItem[]): MatchItem[] {
+    return items.map((item, index) => ({
+      ...item,
+      id: index + 1
+    }));
   }
 }
