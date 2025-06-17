@@ -54,6 +54,12 @@ export interface MatchResult {
   message: string;
 }
 
+/**
+ * Tracks a user's attempt to match a word-image pair.
+ *
+ * @property attempts - Total number of attempts made to match this pair.
+ * @property correctOnFirstTry - Whether the match was correct on the first attempt.
+ */
 export interface MatchAttempt {
   attempts: number;
   correctOnFirstTry: boolean;

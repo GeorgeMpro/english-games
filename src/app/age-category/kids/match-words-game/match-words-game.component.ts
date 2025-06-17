@@ -72,14 +72,10 @@ export class MatchWordsGameComponent implements OnInit {
 
 
   ngOnInit(): void {
-    // todo change
     this.matchWordService.initializeGameData(Category.Animals).subscribe(() => {
       this.matchWordService.initializeGamePlay();
       this.gameReady.set(true);
     });
-
-    // todo set for testing end game modal
-    // this.gameOver.set(true);
   }
 
   onSelectWord(word: WordCard): void {

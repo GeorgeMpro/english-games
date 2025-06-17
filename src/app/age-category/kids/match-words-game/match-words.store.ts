@@ -1,7 +1,6 @@
 import {computed, Injectable, signal, WritableSignal} from '@angular/core';
 import {ImageCard, MatchAttempt, MatchItem, WordCard} from '../../../shared/models/kids.models';
 
-
 /**
  * Central reactive store for Match Words game state.
  * Provides signals for selected cards, match items, and feedback message.
@@ -12,28 +11,27 @@ export class MatchWordsStore {
   /** The full set of word-image pairs retrieved from Wiki API. */
   readonly items: WritableSignal<MatchItem[]> = signal([]);
 
-  // todo
-  selectedCategoryWords: WritableSignal<string[]> = signal([]);
+  /** The list of words for the currently selected category. */
+  readonly wordsFromChosenCategories: WritableSignal<string[]> = signal([]);
 
-  // todo
-  shuffledItemsSlice: WritableSignal<MatchItem[]> = signal([]);
+  /** The current shuffled slice of items used for the current gameplay. */
+  readonly shuffledItemsSlice: WritableSignal<MatchItem[]> = signal([]);
 
-  // todo
-  stageItems: WritableSignal<MatchItem[][]> = signal([]);
+  /** Items divided into stages; each stage is an array of match items. */
+  readonly stageItems: WritableSignal<MatchItem[][]> = signal([]);
 
-  // todo
-  currentStage: WritableSignal<number> = signal(0);
+  /** The index of the current stage in the game. */
+  readonly currentStage: WritableSignal<number> = signal(0);
 
-  // todo
-  gameOver: WritableSignal<boolean> = signal(false);
+  readonly gameOver: WritableSignal<boolean> = signal(false);
 
-  // todo
+  /*Items for the current game stage*/
   readonly currentStageItems = computed(() =>
     this.stageItems()[this.currentStage()] ?? []
   );
 
-  // todo
-  uniqueCorrectMatchAttemptCounter = signal(new Map<number, MatchAttempt>());
+  /*Counts unique first attempts to match word - image pair*/
+  readonly uniqueCorrectMatchAttemptCounter = signal(new Map<number, MatchAttempt>());
 
   /** The list of words prepared as cards (shuffled). */
   readonly wordCards: WritableSignal<WordCard[]> = signal([]);
@@ -49,11 +47,6 @@ export class MatchWordsStore {
 
   /** Feedback message after a match attempt. */
   readonly matchAttemptMessage: WritableSignal<string> = signal('');
-
-  /** Whether both a word and image are currently selected. */
-  readonly isReadyToMatch = computed(() =>
-    this.selectedWordId() != null && this.selectedImageId() != null
-  );
 
   /** Resets word, image, and message selections. */
   resetSelections(): void {

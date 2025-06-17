@@ -1,19 +1,18 @@
 import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
-import {TestbedHarnessEnvironment} from '@angular/cdk/testing/testbed';
-import {MatChipOptionHarness} from '@angular/material/chips/testing';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-import {By} from '@angular/platform-browser';
 
 import {of} from 'rxjs';
 
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
-import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
+import {
+  clickButtonByTestId,
+  getElementByDataTestId,
+  setupOpenChosenCategoryModal,
+  triggerNewGameWithSelectedCategories
+} from '../../../shared/tests/dom-test-utils';
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
 import {setupMatchWordComponent, setupMatchWordComponentEndGameState} from './test-setup-util';
-import {
-  CategoryChooserModalComponent
-} from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
 import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {MatchWordsService} from '../match-words-game/match-words.service';
 import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
@@ -124,9 +123,7 @@ describe('Category chooser modal before game end', () => {
 describe('Processing chosen categories and flow', () => {
   let fixture: ComponentFixture<MatchWordsGameComponent>;
   let component: MatchWordsGameComponent;
-  let store: MatchWordsStore;
   let service: MatchWordsService;
-  let vocabulary: VocabularyService;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -136,15 +133,14 @@ describe('Processing chosen categories and flow', () => {
         MatchWordsService,
         GameLogicService,
         VocabularyService,
-        provideHttpClient()
+        provideHttpClient(),
+        provideHttpClientTesting(),
       ],
     }).compileComponents();
 
     fixture = TestBed.createComponent(MatchWordsGameComponent);
     component = fixture.componentInstance;
-    store = TestBed.inject(MatchWordsStore);
     service = fixture.debugElement.injector.get(MatchWordsService);
-    vocabulary = TestBed.inject(VocabularyService);
 
     component.gameReady.set(true);
     fixture.detectChanges();
@@ -236,12 +232,12 @@ describe('Chosen categories service interaction', () => {
       tick();
 
       expectedList.forEach((word: string) => {
-        expect(store.selectedCategoryWords()).toContain(word);
+        expect(store.wordsFromChosenCategories()).toContain(word);
       });
     }));
 
     it('should generate items from chosen categories and initialize gameplay', () => {
-      store.selectedCategoryWords.set(categories);
+      store.wordsFromChosenCategories.set(categories);
       const spyWiki =
         spyOn(wikiService, 'getItems').and.returnValue(of(fakeWikiReturnItems));
       const spyInitPlay = spyOn(wordsService, 'initializeGamePlay');
@@ -323,50 +319,3 @@ describe('Chosen categories service interaction', () => {
 
 });
 
-async function triggerNewGameWithSelectedCategories(
-  fixture: ComponentFixture<MatchWordsGameComponent>,
-  ancestorTestId: string) {
-  // set available categories
-  const modalInstance = setupOpenChosenCategoryModal(fixture);
-
-  modalInstance.availableCategories = ['Animals', 'Colors'];
-  fixture.detectChanges();
-
-  await toggleAllChips(fixture, ancestorTestId);
-
-  const spy = spyOn(fixture.componentInstance, 'onNewGameWithCategories').and.callThrough();
-  clickButtonByTestId(fixture, 'new-categories-game-button');
-
-  return {modalInstance, spy};
-}
-
-async function toggleAllChips(fixture: ComponentFixture<any>, ancestorTestId: string) {
-  const loader = TestbedHarnessEnvironment.documentRootLoader(fixture);
-  const chips = await loader.getAllHarnesses(
-    MatChipOptionHarness.with({ancestor: `[data-testid="${ancestorTestId}"]`})
-  );
-  for (const chip of chips) {
-    await chip.toggle();
-  }
-}
-
-function clickButtonByTestId(
-  fixture: ComponentFixture<MatchWordsGameComponent>,
-  btnTestId: string,
-  expectEnabled: boolean = false) {
-  const btn = getElementByDataTestId(fixture, btnTestId) as HTMLButtonElement;
-  if (expectEnabled) {
-    expect(btn.disabled).toBeFalse();
-  }
-
-  btn.click();
-}
-
-function setupOpenChosenCategoryModal(fixture: ComponentFixture<MatchWordsGameComponent>): CategoryChooserModalComponent {
-  fixture.componentInstance.onChooseCategory();
-  fixture.detectChanges();
-
-  return fixture.debugElement
-    .query(By.directive(CategoryChooserModalComponent))
-    .componentInstance as CategoryChooserModalComponent;
-}

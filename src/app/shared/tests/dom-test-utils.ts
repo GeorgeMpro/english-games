@@ -1,4 +1,9 @@
 import {ComponentFixture} from '@angular/core/testing';
+import {TestbedHarnessEnvironment} from '@angular/cdk/testing/testbed';
+import {MatChipOptionHarness} from '@angular/material/chips/testing';
+import {MatchWordsGameComponent} from '../../age-category/kids/match-words-game/match-words-game.component';
+import {CategoryChooserModalComponent} from '../components/category-chooser-modal/category-chooser-modal.component';
+import {By} from '@angular/platform-browser';
 
 /**
  * Retrieves a DOM element within the component's template using the `data-testid` attribute.
@@ -66,4 +71,52 @@ export function simulateButtonClick(fixture: ComponentFixture<any>, dataTestId: 
   const replayButton = getElementByDataTestId(fixture, dataTestId);
   expect(replayButton).not.toBeNull();
   replayButton.click();
+}
+
+export async function triggerNewGameWithSelectedCategories(
+  fixture: ComponentFixture<MatchWordsGameComponent>,
+  ancestorTestId: string) {
+  // set available categories
+  const modalInstance = setupOpenChosenCategoryModal(fixture);
+
+  modalInstance.availableCategories = ['Animals', 'Colors'];
+  fixture.detectChanges();
+
+  await toggleAllChips(fixture, ancestorTestId);
+
+  const spy = spyOn(fixture.componentInstance, 'onNewGameWithCategories').and.callThrough();
+  clickButtonByTestId(fixture, 'new-categories-game-button');
+
+  return {modalInstance, spy};
+}
+
+async function toggleAllChips(fixture: ComponentFixture<any>, ancestorTestId: string) {
+  const loader = TestbedHarnessEnvironment.documentRootLoader(fixture);
+  const chips = await loader.getAllHarnesses(
+    MatChipOptionHarness.with({ancestor: `[data-testid="${ancestorTestId}"]`})
+  );
+  for (const chip of chips) {
+    await chip.toggle();
+  }
+}
+
+export function clickButtonByTestId(
+  fixture: ComponentFixture<MatchWordsGameComponent>,
+  btnTestId: string,
+  expectEnabled: boolean = false) {
+  const btn = getElementByDataTestId(fixture, btnTestId) as HTMLButtonElement;
+  if (expectEnabled) {
+    expect(btn.disabled).toBeFalse();
+  }
+
+  btn.click();
+}
+
+export function setupOpenChosenCategoryModal(fixture: ComponentFixture<MatchWordsGameComponent>): CategoryChooserModalComponent {
+  fixture.componentInstance.onChooseCategory();
+  fixture.detectChanges();
+
+  return fixture.debugElement
+    .query(By.directive(CategoryChooserModalComponent))
+    .componentInstance as CategoryChooserModalComponent;
 }

@@ -5,10 +5,19 @@ import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {VocabularyService} from '../../../shared/services/vocabulary.service';
 import {GameLogicService} from '../../../shared/services/game-logic.service';
 import {WikiService} from '../../../shared/services/wiki.service';
-import {MatchAttempt, MatchItem} from '../../../shared/models/kids.models';
+import {MatchAttempt} from '../../../shared/models/kids.models';
 
 import {DEFAULT_LAST_STAGE, DEFAULT_STAGE_COUNT, DEFAULT_TOTAL_ITEMS} from '../../../shared/game-config.constants';
-import {matchItems} from '../../../../assets/test-data/match-items';
+import {
+  expectNewItemsComparedTo,
+  expectValidNewGameState,
+  expectValidReplayGameState,
+  getSortedIDs,
+  setGivenStageComplete,
+  setupAndValidateEndGameState,
+  setupCurrentAndReshuffledGameItems,
+  setupGameStart
+} from './test-setup-util';
 
 
 /**
@@ -153,91 +162,3 @@ describe('Game completion, feedback, replay, and new game', () => {
     });
   });
 });
-
-function setupGameStart(store: MatchWordsStore, service: MatchWordsService) {
-  store.items.set(structuredClone(matchItems));
-  service.initializeGamePlay();
-}
-
-function getMatchedItemsMock(items: MatchItem[]): MatchItem[] {
-  return items.map(item => ({...item, matched: true}));
-}
-
-function getSortedIDs(prevGameItems: MatchItem[]) {
-  return prevGameItems.map(item => item.id).sort();
-}
-
-/**
- * Progresses the game to the next stage if the current stage is complete.
- * This function mocks the behavior of marking all items in the current stage as matched,
- * sets the current stage to the specified final stage, and triggers the progression logic.
- *
- * @param service - The `MatchWordsService` instance managing the game logic.
- * @param store - The `MatchWordsStore` instance holding the game state.
- * @param finalStage - The stage to set as the current stage before progressing.
- */
-function setGivenStageComplete(service: MatchWordsService, store: MatchWordsStore, finalStage: number) {
-  spyOn(service, 'getCurrentStageItems').and.returnValue(getMatchedItemsMock(matchItems));
-  store.currentStage.set(finalStage);
-  service.progressGameIfStageComplete();
-}
-
-function setupCurrentAndReshuffledGameItems(store: MatchWordsStore, service: MatchWordsService) {
-  const prevGameItems: MatchItem[] = store.shuffledItemsSlice();
-  service.reshuffleCurrentGameItems();
-  const reShuffledItems = store.shuffledItemsSlice();
-  return {endGameItems: prevGameItems, replayGameItems: reShuffledItems};
-}
-
-function setupAndValidateEndGameState(service: MatchWordsService, store: MatchWordsStore, finalStage: number, totalGameItems: number) {
-  store.currentStage.set(finalStage);
-  store.gameOver.set(true);
-  const allMatched = getMatchedItemsMock(store.shuffledItemsSlice());
-  store.shuffledItemsSlice.set(allMatched);
-
-  expect(service.getGameOverSignal()).toBeTrue();
-  expect(store.shuffledItemsSlice().length).toBe(totalGameItems);
-  expect(service.getCurrentStage()).toBe(finalStage);
-  expect(store.shuffledItemsSlice().every(
-    item => item.matched
-  )).toBeTrue();
-}
-
-function expectValidReplayGameState(reShuffleSpy: jasmine.Spy<jasmine.Func>, service: MatchWordsService, firstStage: number, store: MatchWordsStore) {
-  expect(reShuffleSpy).toHaveBeenCalled();
-  expect(service.getCurrentStage()).toBe(firstStage);
-  expect(store.shuffledItemsSlice().every(
-    item => item.matched
-  )).toBeFalse();
-  expect(store.gameOver()).toBeFalse();
-}
-
-function expectValidNewGameState(service: MatchWordsService, firstStage: number, store: MatchWordsStore) {
-  expect(service.getGameOverSignal()).toBeFalse();
-  expect(service.getCurrentStage()).toBe(firstStage);
-  expect(store.shuffledItemsSlice().some(item => item.matched)).toBeFalse();
-}
-
-function expectNewItemsComparedTo(endGameItems: MatchItem[], newGameItems: MatchItem[]): void {
-  const [endGameIDs, newGameIDs] = getEndAndNewGameItemIDs(endGameItems, newGameItems);
-
-  const hasNewItems: boolean = hasNewIDsComparedTo(newGameIDs, endGameIDs);
-
-  expect(newGameItems.length).toBe(endGameItems.length);
-  expect(getSortedIDs(newGameItems)).not.toEqual(getSortedIDs(endGameItems));
-  expect(newGameItems).not.toBe(endGameItems);
-  expect(hasNewItems).toBeTrue();
-}
-
-function hasNewIDsComparedTo(newGameItemIDs: number[], endGameItemsIDs: number[]) {
-  return newGameItemIDs.some(id => {
-    return !endGameItemsIDs.includes(id);
-  });
-}
-
-function getEndAndNewGameItemIDs(endGameItems: MatchItem[], newGameItems: MatchItem[]) {
-  return [
-    getSortedIDs(endGameItems),
-    getSortedIDs(newGameItems)
-  ]
-}

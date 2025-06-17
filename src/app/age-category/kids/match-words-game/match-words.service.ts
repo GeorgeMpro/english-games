@@ -373,7 +373,7 @@ export class MatchWordsService {
 
     forkJoin(fetches).subscribe((allCategoryWords: string[][]) => {
       const mergedWords = allCategoryWords.flat();
-      this.store.selectedCategoryWords.set(mergedWords);
+      this.store.wordsFromChosenCategories.set(mergedWords);
     });
 
     this.startGameFromChosenCategories();
@@ -381,18 +381,15 @@ export class MatchWordsService {
 
   startGameFromChosenCategories() {
     // todo extract subscribe for all init funcs here
-    this.wikiService.getItems(this.store.selectedCategoryWords()).subscribe({
+    this.wikiService.getItems(this.store.wordsFromChosenCategories()).subscribe({
         next: (items: MatchItem[]) => {
-          // todo del
-          console.log(items);
-          const itemsWithUniqueIds: MatchItem[] = this.assignUniqueIds(items);
-          this.setGameItems(itemsWithUniqueIds);
+          this.setGameItems(
+            this.assignUniqueIds(items)
+          );
           this.initializeGamePlay();
         }
       }
     );
-
-    //   todo
   }
 
   private setGameItems(items: MatchItem[]) {
@@ -403,6 +400,19 @@ export class MatchWordsService {
     return this.store.items();
   }
 
+  /**
+   * Assigns unique sequential IDs to a list of MatchItems.
+   *
+   * This function ensures that each MatchItem in the array has a unique `id` field,
+   * regardless of its original value. This is critical when combining items from
+   * multiple categories, where duplicate IDs may exist and cause matching conflicts.
+   *
+   * The new IDs start from 1 and increment by 1 for each item.
+   * All other fields are preserved via object spreading.
+   *
+   * @param items - The array of MatchItem objects (possibly with duplicate IDs).
+   * @returns A new array of MatchItems with unique `id` values assigned.
+   */
   private assignUniqueIds(items: MatchItem[]): MatchItem[] {
     return items.map((item, index) => ({
       ...item,

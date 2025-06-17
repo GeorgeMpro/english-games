@@ -123,6 +123,79 @@ describe('MatchWordsGameComponent', () => {
 });
 
 
+describe('Effect: currentStage triggers generateGameCardsFromItems', () => {
+  let fixture: ComponentFixture<MatchWordsGameComponent>;
+  let component: MatchWordsGameComponent;
+  let store: MatchWordsStore;
+  let service: MatchWordsService;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [MatchWordsGameComponent],
+      providers: [
+        MatchWordsStore,
+        MatchWordsService,
+        provideHttpClient(),
+        provideHttpClientTesting(),
+      ],
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(MatchWordsGameComponent);
+    component = fixture.componentInstance;
+    store = TestBed.inject(MatchWordsStore);
+    service = TestBed.inject(MatchWordsService);
+
+    // force ready state
+    component.gameReady.set(true);
+    fixture.detectChanges();
+  });
+
+  it('should call generateGameCardsFromItems when currentStage changes', () => {
+    const spy = spyOn(service, 'generateGameCardsFromItems');
+
+    const items = [
+      {id: 1, word: 'Dog', imageUrl: 'dog.png', wikiUrl: '', matched: false}
+    ];
+
+    // Stage 0 is empty, stage 1 contains our test items
+    store.stageItems.set([[], items]);
+    store.currentStage.set(1);
+
+    fixture.detectChanges();
+
+    expect(spy).toHaveBeenCalledOnceWith(items);
+  });
+
+
+  it('should not crash when stage index is out of bounds', () => {
+    const spy = spyOn(service, 'generateGameCardsFromItems');
+
+    store.stageItems.set([]); // empty array
+    store.currentStage.set(99); // out of bounds
+
+    fixture.detectChanges();
+    expect(spy).toHaveBeenCalledWith([]); // still called with empty array
+  });
+
+  it('should not call generateGameCardsFromItems if stage has not changed', () => {
+    const spy = spyOn(service, 'generateGameCardsFromItems');
+
+    const items = [{id: 1, word: 'Dog', imageUrl: 'dog.png', wikiUrl: '', matched: false}];
+    store.stageItems.set([[], items]);
+
+    store.currentStage.set(1);
+    fixture.detectChanges();
+    expect(spy).toHaveBeenCalledOnceWith(items);
+
+    // set again with same value
+    spy.calls.reset();
+    store.currentStage.set(1);
+    fixture.detectChanges();
+    expect(spy).not.toHaveBeenCalled();
+  });
+});
+
+
 describe('CSS Match class logic', () => {
   let fixture: ComponentFixture<MatchWordsGameComponent>;
   let component: MatchWordsGameComponent;
@@ -175,6 +248,7 @@ describe('CSS Match class logic', () => {
   });
 
 });
+
 
 function assertMatchedStateBeforeReplay(store: MatchWordsStore, fixture: ComponentFixture<MatchWordsGameComponent>) {
   const matchedItems = matchItems.slice(0, 6).map(item => ({
