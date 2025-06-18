@@ -1,0 +1,39 @@
+
+### Get token and save it
+POST {{baseUrl}}/auth/qa
+Content-Type: application/x-www-form-urlencoded
+
+email = {{email}} &
+password = {{password}} &
+fingerprint = {{fingerprint}}
+
+> {%
+  client.global.set("token", response.body.data.access_token);
+%}
+
+### Get Image
+GET {{baseUrl}}/client/{{userId}}/word-group/4/cover
+Cookie: c_at={{token}}
+Accept-Language: en
+X-Requested-With: XMLHttpRequest
+Accept: application/json
+
+### Get all word groups
+GET {{baseUrl}}/client/{{userId}}/words/groups
+Authorization: Bearer {{token}}
+Accept-Language: en
+X-Requested-With: XMLHttpRequest
+Accept: application/json
+
+### All words in group
+GET {{baseUrl}}/client/{{userId}}/words/by-group/43/all
+Authorization: Bearer {{token}}
+Accept-Language: en
+X-Requested-With: XMLHttpRequest
+
+### Get all words in group 4 for client 3
+GET {{baseUrl}}/client/{{userId}}/words/by-group/4/all
+Authorization: Bearer {{token}}
+Accept-Language: en
+X-Requested-With: XMLHttpRequest
+Accept: application/json

@@ -43,3 +43,6 @@ n-kids-category
 # System files
 .DS_Store
 Thumbs.db
+
+/src/environments/environment.local.ts
+/src/app/http/http-client.env.json
