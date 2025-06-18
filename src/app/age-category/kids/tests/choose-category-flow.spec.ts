@@ -12,7 +12,7 @@ import {
   triggerNewGameWithSelectedCategories
 } from '../../../shared/tests/dom-test-utils';
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
-import {setupMatchWordComponent, setupMatchWordComponentEndGameState} from './test-setup-util';
+import {setupMatchComponent, setupMatchWordComponent, setupMatchWordComponentEndGameState} from './test-setup-util';
 import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {MatchWordsService} from '../match-words-game/match-words.service';
 import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
@@ -126,21 +126,7 @@ describe('Processing chosen categories and flow', () => {
   let service: MatchWordsService;
 
   beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [MatchWordsGameComponent],
-      providers: [
-        MatchWordsStore,
-        MatchWordsService,
-        GameLogicService,
-        VocabularyService,
-        provideHttpClient(),
-        provideHttpClientTesting(),
-      ],
-    }).compileComponents();
-
-    fixture = TestBed.createComponent(MatchWordsGameComponent);
-    component = fixture.componentInstance;
-    service = fixture.debugElement.injector.get(MatchWordsService);
+    ({fixture, component, service} = await setupMatchComponent());
 
     component.gameReady.set(true);
     fixture.detectChanges();
@@ -171,17 +157,18 @@ describe('Chosen categories service interaction', () => {
 
   describe('Proper flow', () => {
 
-    let wordsService: MatchWordsService;
-    let vocabService: VocabularyService;
-    let wikiService: WikiService;
-    let store: MatchWordsStore;
-
     const categories = ['animals', 'clothes', 'colors'];
     const fakeWikiReturnItems: MatchItem[] = [
       {id: 1, word: 'dog', imageUrl: 'img1', wikiUrl: 'url1', matched: false},
       {id: 2, word: 'cat', imageUrl: 'img2', wikiUrl: 'url2', matched: false},
       {id: 3, word: 'red', imageUrl: 'img3', wikiUrl: 'url3', matched: false}
     ];
+
+    let wordsService: MatchWordsService;
+    let vocabService: VocabularyService;
+    let wikiService: WikiService;
+
+    let store: MatchWordsStore;
 
     beforeEach(() => {
       TestBed.configureTestingModule({
