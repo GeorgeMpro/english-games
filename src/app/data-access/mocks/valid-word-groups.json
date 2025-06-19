@@ -1,0 +1,536 @@
+{
+  "success": true,
+  "message": "The operation completed successfully",
+  "data": {
+    "items": [
+      {
+        "id": 4,
+        "title": "Body Parts",
+        "translate": "Body Parts",
+        "status": 1,
+        "count": 42,
+        "cover": {
+          "id": 87057,
+          "name": "cover_6838b11550b19.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485458133384.png"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Clothing and Accessories",
+        "translate": "Clothing and Accessories",
+        "status": 1,
+        "count": 44,
+        "cover": {
+          "id": 87251,
+          "name": "cover_68394e9c1a297.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485861401182.png"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Food and Drinks",
+        "translate": "Food and Drinks",
+        "status": 1,
+        "count": 59,
+        "cover": {
+          "id": 87252,
+          "name": "cover_68394ec523c49.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485861811531.png"
+        }
+      },
+      {
+        "id": 7,
+        "title": "Family and Relationships",
+        "translate": "Family and Relationships",
+        "status": 1,
+        "count": 51,
+        "cover": {
+          "id": 87253,
+          "name": "cover_68394eeed137a.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485862228653.png"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Animals",
+        "translate": "Animals",
+        "status": 1,
+        "count": 37,
+        "cover": {
+          "id": 87254,
+          "name": "cover_68394f16824f5.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485862625406.png"
+        }
+      },
+      {
+        "id": 9,
+        "title": "Nature",
+        "translate": "Nature",
+        "status": 1,
+        "count": 30,
+        "cover": {
+          "id": 87255,
+          "name": "cover_68394f41d71e6.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485863058881.png"
+        }
+      },
+      {
+        "id": 10,
+        "title": "Colors",
+        "translate": "Colors",
+        "status": 1,
+        "count": 36,
+        "cover": {
+          "id": 87256,
+          "name": "cover_68394f6a7438c.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485863464886.png"
+        }
+      },
+      {
+        "id": 11,
+        "title": "Basic Numbers",
+        "translate": "Basic Numbers",
+        "status": 1,
+        "count": 32,
+        "cover": {
+          "id": 87257,
+          "name": "cover_68394f8de4b7f.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485863819460.png"
+        }
+      },
+      {
+        "id": 12,
+        "title": "Ordinal Numbers",
+        "translate": "Ordinal Numbers",
+        "status": 1,
+        "count": 23,
+        "cover": {
+          "id": 87258,
+          "name": "cover_68394fb61a79d.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485864221150.png"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Quantity Terms",
+        "translate": "Quantity Terms",
+        "status": 1,
+        "count": 13,
+        "cover": {
+          "id": 87259,
+          "name": "cover_68394fe6dd50a.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485864709167.png"
+        }
+      },
+      {
+        "id": 14,
+        "title": "Travel and Transportation",
+        "translate": "Travel and Transportation",
+        "status": 1,
+        "count": 49,
+        "cover": {
+          "id": 87260,
+          "name": "cover_6839500e785bb.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485865104996.png"
+        }
+      },
+      {
+        "id": 15,
+        "title": "City and Architecture",
+        "translate": "City and Architecture",
+        "status": 1,
+        "count": 47,
+        "cover": {
+          "id": 87261,
+          "name": "cover_6839503a6d79e.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485865544545.png"
+        }
+      },
+      {
+        "id": 16,
+        "title": "Home and Household",
+        "translate": "Home and Household",
+        "status": 1,
+        "count": 56,
+        "cover": {
+          "id": 87262,
+          "name": "cover_6839505f7c78f.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485865915171.png"
+        }
+      },
+      {
+        "id": 17,
+        "title": "Work and Professions",
+        "translate": "Work and Professions",
+        "status": 1,
+        "count": 60,
+        "cover": {
+          "id": 87263,
+          "name": "cover_6839508c312d8.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485866362080.png"
+        }
+      },
+      {
+        "id": 18,
+        "title": "Hobbies and Leisure",
+        "translate": "Hobbies and Leisure",
+        "status": 1,
+        "count": 50,
+        "cover": {
+          "id": 87264,
+          "name": "cover_683950bb0afb7.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485866830522.png"
+        }
+      },
+      {
+        "id": 19,
+        "title": "Education and Study",
+        "translate": "Education and Study",
+        "status": 1,
+        "count": 55,
+        "cover": {
+          "id": 87265,
+          "name": "cover_683950e548816.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485867253041.png"
+        }
+      },
+      {
+        "id": 20,
+        "title": "Sports and Fitness",
+        "translate": "Sports and Fitness",
+        "status": 1,
+        "count": 47,
+        "cover": {
+          "id": 87266,
+          "name": "cover_68395112c57c2.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485867708155.png"
+        }
+      },
+      {
+        "id": 21,
+        "title": "Music",
+        "translate": "Music",
+        "status": 1,
+        "count": 36,
+        "cover": {
+          "id": 87267,
+          "name": "cover_6839513911c88.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485868090796.png"
+        }
+      },
+      {
+        "id": 22,
+        "title": "Art",
+        "translate": "Art",
+        "status": 1,
+        "count": 15,
+        "cover": {
+          "id": 87268,
+          "name": "cover_6839516519b4c.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485868531124.png"
+        }
+      },
+      {
+        "id": 23,
+        "title": "Health and Medicine",
+        "translate": "Health and Medicine",
+        "status": 1,
+        "count": 56,
+        "cover": {
+          "id": 87269,
+          "name": "cover_6839518bdb19f.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485868919041.png"
+        }
+      },
+      {
+        "id": 24,
+        "title": "Weather and Climate",
+        "translate": "Weather and Climate",
+        "status": 1,
+        "count": 52,
+        "cover": {
+          "id": 87270,
+          "name": "cover_683951af78808.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485869274994.png"
+        }
+      },
+      {
+        "id": 25,
+        "title": "Emotions and Feelings",
+        "translate": "Emotions and Feelings",
+        "status": 1,
+        "count": 58,
+        "cover": {
+          "id": 87271,
+          "name": "cover_683951d9707a2.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485869694682.png"
+        }
+      },
+      {
+        "id": 26,
+        "title": "Holidays and Traditions",
+        "translate": "Holidays and Traditions",
+        "status": 1,
+        "count": 40,
+        "cover": {
+          "id": 87272,
+          "name": "cover_6839520255dd6.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485870103583.png"
+        }
+      },
+      {
+        "id": 27,
+        "title": "Science",
+        "translate": "Science",
+        "status": 1,
+        "count": 18,
+        "cover": {
+          "id": 87273,
+          "name": "cover_6839522b8839c.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485870515695.png"
+        }
+      },
+      {
+        "id": 28,
+        "title": "Technology",
+        "translate": "Technology",
+        "status": 1,
+        "count": 38,
+        "cover": {
+          "id": 87274,
+          "name": "cover_6839525471357.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485870924703.png"
+        }
+      },
+      {
+        "id": 29,
+        "title": "Adjectives",
+        "translate": "Adjectives",
+        "status": 1,
+        "count": 87,
+        "cover": {
+          "id": 87275,
+          "name": "cover_6839527a349d1.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485871302218.png"
+        }
+      },
+      {
+        "id": 30,
+        "title": "Verbs",
+        "translate": "",
+        "status": 1,
+        "count": 144,
+        "cover": {
+          "id": 87276,
+          "name": "cover_683952a11d16d.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485871691252.png"
+        }
+      },
+      {
+        "id": 31,
+        "title": "Adverbs",
+        "translate": "Adverbs",
+        "status": 1,
+        "count": 58,
+        "cover": {
+          "id": 87277,
+          "name": "cover_683952c9b4091.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485872097443.png"
+        }
+      },
+      {
+        "id": 32,
+        "title": "Prepositions",
+        "translate": "Prepositions",
+        "status": 1,
+        "count": 41,
+        "cover": {
+          "id": 87278,
+          "name": "cover_683952f0ac7b7.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485872487167.png"
+        }
+      },
+      {
+        "id": 33,
+        "title": "Seasons of the Year",
+        "translate": "Seasons of the Year",
+        "status": 1,
+        "count": 0,
+        "cover": {
+          "id": 87279,
+          "name": "cover_6839531a5b693.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485872903829.png"
+        }
+      },
+      {
+        "id": 34,
+        "title": "Space and Astronomy",
+        "translate": "Space and Astronomy",
+        "status": 1,
+        "count": 55,
+        "cover": {
+          "id": 87280,
+          "name": "cover_683953452b3ad.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485873331834.png"
+        }
+      },
+      {
+        "id": 35,
+        "title": "History and Culture",
+        "translate": "History and Culture",
+        "status": 1,
+        "count": 49,
+        "cover": {
+          "id": 87281,
+          "name": "cover_6839537275fe7.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485873784901.png"
+        }
+      },
+      {
+        "id": 36,
+        "title": "Politics and Society",
+        "translate": "Politics and Society",
+        "status": 1,
+        "count": 45,
+        "cover": {
+          "id": 87282,
+          "name": "cover_683953a0158a5.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485874240957.png"
+        }
+      },
+      {
+        "id": 37,
+        "title": "Economics and Finance",
+        "translate": "Economics and Finance",
+        "status": 1,
+        "count": 49,
+        "cover": {
+          "id": 87283,
+          "name": "cover_683953c8e1f45.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485874649365.png"
+        }
+      },
+      {
+        "id": 38,
+        "title": "Computers and Internet",
+        "translate": "Computers and Internet",
+        "status": 1,
+        "count": 40,
+        "cover": {
+          "id": 87284,
+          "name": "cover_683953ea49bdd.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485874983081.png"
+        }
+      },
+      {
+        "id": 39,
+        "title": "Phrasal Verbs",
+        "translate": "Phrasal Verbs",
+        "status": 1,
+        "count": 97,
+        "cover": {
+          "id": 87285,
+          "name": "cover_68395414d8d69.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485875408954.png"
+        }
+      },
+      {
+        "id": 40,
+        "title": "Idioms and Expressions",
+        "translate": "Idioms and Expressions",
+        "status": 1,
+        "count": 43,
+        "cover": {
+          "id": 87286,
+          "name": "cover_683954430226a.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485875870159.png"
+        }
+      },
+      {
+        "id": 41,
+        "title": "Academic and Scientific English",
+        "translate": "Academic and Scientific English",
+        "status": 1,
+        "count": 92,
+        "cover": {
+          "id": 87287,
+          "name": "cover_6839546e20532.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485876301423.png"
+        }
+      },
+      {
+        "id": 42,
+        "title": "Business English",
+        "translate": "Business English",
+        "status": 1,
+        "count": 84,
+        "cover": {
+          "id": 87288,
+          "name": "cover_683954940cd88.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485876680586.png"
+        }
+      },
+      {
+        "id": 43,
+        "title": "Legal English",
+        "translate": "Legal English",
+        "status": 1,
+        "count": 91,
+        "cover": {
+          "id": 87289,
+          "name": "cover_683954b7a2701.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485877036719.png"
+        }
+      },
+      {
+        "id": 44,
+        "title": "Media and News English",
+        "translate": "Media and News English",
+        "status": 1,
+        "count": 90,
+        "cover": {
+          "id": 87290,
+          "name": "cover_683954dd55b23.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485877413596.png"
+        }
+      },
+      {
+        "id": 45,
+        "title": "Ecology and Environment",
+        "translate": "Ecology and Environment",
+        "status": 1,
+        "count": 88,
+        "cover": {
+          "id": 87291,
+          "name": "cover_6839550a3d911.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485877862595.png"
+        }
+      },
+      {
+        "id": 46,
+        "title": "Technology and Innovation",
+        "translate": "Technology and Innovation",
+        "status": 1,
+        "count": 58,
+        "cover": {
+          "id": 87292,
+          "name": "cover_683955397b473.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485878335114.png"
+        }
+      },
+      {
+        "id": 47,
+        "title": "AI",
+        "translate": "AI",
+        "status": 1,
+        "count": 0,
+        "cover": {
+          "id": 87293,
+          "name": "cover_6839556631aaf.png",
+          "url": "https:\/\/cdn.see.guru\/word-groups\/2025\/05\/17485878782134.png"
+        }
+      }
+    ]
+  }
+}

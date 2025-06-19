@@ -37,3 +37,22 @@ Authorization: Bearer {{token}}
 Accept-Language: en
 X-Requested-With: XMLHttpRequest
 Accept: application/json
+
+### Get all client id's
+GET {{baseUrl}}/client
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### Get all word groups (categories)
+GET {{baseUrl}}/words/groups
+Authorization: Bearer {{token}}
+Accept: application/json
+X-Requested-With: XMLHttpRequest
+Accept-Language: en
+
+### Get all words in a group
+GET {{baseUrl}}/words/by-group/{{groupId}}/all
+Authorization: Bearer {{token}}
+Accept: application/json
+X-Requested-With: XMLHttpRequest
+Accept-Language: en
