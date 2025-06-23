@@ -1,5 +1,5 @@
 import {provideHttpClient} from '@angular/common/http';
-import {TestBed} from '@angular/core/testing';
+import { TestBed} from '@angular/core/testing';
 import {HttpTestingController, provideHttpClientTesting} from '@angular/common/http/testing';
 
 import {CategoryService, FAILED_LOAD_CATEGORIES_MSG} from './category.service';
@@ -7,6 +7,9 @@ import {CategoryService, FAILED_LOAD_CATEGORIES_MSG} from './category.service';
 import {BASE_URL} from '../../environments/environment.local';
 import {API_ENDPOINTS} from './api-endpoints';
 import validWordGroupResponse from './mocks/valid-word-groups.json';
+import {
+  CategoryChooserModalComponent
+} from '../shared/components/category-chooser-modal/category-chooser-modal.component';
 
 describe('CategoryService', () => {
   let service: CategoryService;
@@ -78,22 +81,6 @@ describe('CategoryService', () => {
     });
   });
 
-  describe('Integration with chooser service', () => {
-    xit('should load categories', () => {
-
-    });
-
-    xit('should handle errors with fallback and message to user', () => {
-
-    });
-
-    xit('should handle malformed category data with fallback and message to user', () => {
-
-    });
-
-    // it('should ',()=>{});
-    // it('should ',()=>{})
-  });
 
   xdescribe('interceptors and headers', () => {
     xit('should add token to outgoing requests', () => {
@@ -102,6 +89,49 @@ describe('CategoryService', () => {
     // it('should ',()=>{});
     // it('should ',()=>{});
   });
+});
+
+
+describe('Integration with chooser service', () => {
+  let chooser: CategoryChooserModalComponent;
+  let catService: CategoryService;
+  let httpTesting: HttpTestingController;
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [
+        CategoryChooserModalComponent,
+        CategoryService,
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    });
+
+    chooser = TestBed.inject(CategoryChooserModalComponent);
+    catService = TestBed.inject(CategoryService);
+    httpTesting = TestBed.inject(HttpTestingController);
+  });
+
+  afterEach(() => {
+    // Verify that none of the tests make any extra HTTP requests.
+    TestBed.inject(HttpTestingController).verify();
+  });
+  it('should load categories', () => {
+    //todo
+    //   on init should get populate all the categories?
+    //   what about the id's?
+    expect(chooser.availableCategories).toEqual(validWordGroupResponse.data.items);
+  });
+
+  xit('should handle errors with fallback and message to user', () => {
+
+  });
+
+  xit('should handle malformed category data with fallback and message to user', () => {
+
+  });
+
+  // it('should ',()=>{});
+  // it('should ',()=>{})
 });
 
 

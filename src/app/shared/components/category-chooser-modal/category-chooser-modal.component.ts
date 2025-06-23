@@ -1,7 +1,7 @@
 import {Component, QueryList, ViewChildren, signal, output, OnInit} from '@angular/core';
 import {MatChipListbox, MatChipOption} from '@angular/material/chips';
-import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
-import {Category} from '../../services/vocabulary.service';
+import {ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
+import {WordGroup} from '../../../data-access/api.models';
 
 @Component({
   selector: 'app-category-chooser-modal',
@@ -43,9 +43,9 @@ import {Category} from '../../services/vocabulary.service';
 })
 export class CategoryChooserModalComponent implements OnInit {
   errorMessage: string = '';
-  availableCategories: string[] = [];
+  availableCategories: WordGroup[] = [];
 
-  readonly chosenCategories = signal<string[]>([]);
+  readonly chosenCategories = signal<WordGroup[]>([]);
   readonly isVisible = signal<boolean>(false);
   readonly isOkEnabled = signal(false);
 
@@ -54,26 +54,46 @@ export class CategoryChooserModalComponent implements OnInit {
   @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
 
   // todo: temp solution while awaiting backend
+  // ngOnInit() {
+  //   this.availableCategories = Object.values(Category);
+  // }
+
   ngOnInit() {
-    this.availableCategories = Object.values(Category);
+
   }
 
 
-  setupCategories(): string[] {
+  setupCategories(): WordGroup[] {
     if (this.availableCategories.length === 0) {
       this.errorMessage = ERROR_CATEGORIES_MESSAGE;
-      this.availableCategories = [DEFAULT_CATEGORY];
+      this.availableCategories = [{
+        id: 8,
+        title: 'Animals',
+        translate: 'Animals',
+        status: 1,
+        count: 37,
+        cover: {
+          id: 87254,
+          name: 'cover_68394f16824f5.png',
+          url: 'https://cdn.see.guru/word-groups/2025/05/17485862625406.png'
+        }
+      }];
+
     }
     return this.availableCategories;
   }
 
-  updateChosenCategories(cat: string[]): void {
+  updateChosenCategories(cat: WordGroup[]): void {
     if (cat.length !== 0) {
-      this.chosenCategories.set(Array.from(new Set([...cat])));
+      this.chosenCategories.set(
+        Array.from(
+          new Map(cat.map(c => [c.id, c])).values()
+        ) as WordGroup[]
+      );
     }
   }
 
-  getChosenCategories(): string[] {
+  getChosenCategories(): WordGroup[] {
     return this.chosenCategories();
   }
 
@@ -82,9 +102,13 @@ export class CategoryChooserModalComponent implements OnInit {
     this.isOkEnabled.set(false);
   }
 
-  submittedCategories(chosenCat: string | string[]): void {
+  submittedCategories(chosenCat: WordGroup | WordGroup[]): void {
     const catArr = Array.isArray(chosenCat) ? chosenCat : [chosenCat];
-    this.updateChosenCategories(catArr);
+    // Convert string[] to WordGroup[] by matching titles in availableCategories
+    const selectedWordGroups = this.availableCategories.filter(cat =>
+      catArr.includes(cat)
+    );
+    this.updateChosenCategories(selectedWordGroups);
   }
 
   onSelectionChange(): void {

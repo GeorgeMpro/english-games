@@ -4,6 +4,7 @@ import {MatChipOptionHarness} from '@angular/material/chips/testing';
 import {MatchWordsGameComponent} from '../../age-category/kids/match-words-game/match-words-game.component';
 import {CategoryChooserModalComponent} from '../components/category-chooser-modal/category-chooser-modal.component';
 import {By} from '@angular/platform-browser';
+import {DEFAULT_CATEGORIES} from '../game-config.constants';
 
 /**
  * Retrieves a DOM element within the component's template using the `data-testid` attribute.
@@ -79,7 +80,7 @@ export async function triggerNewGameWithSelectedCategories(
   // set available categories
   const modalInstance = setupOpenChosenCategoryModal(fixture);
 
-  modalInstance.availableCategories = ['Animals', 'Colors'];
+  modalInstance.availableCategories = DEFAULT_CATEGORIES;
   fixture.detectChanges();
 
   await toggleAllChips(fixture, ancestorTestId);

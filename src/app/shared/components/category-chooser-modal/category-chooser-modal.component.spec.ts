@@ -6,14 +6,20 @@ import {HarnessLoader} from '@angular/cdk/testing';
 import {MatChipOptionHarness} from '@angular/material/chips/testing';
 
 import {CategoryChooserModalComponent} from './category-chooser-modal.component';
-import {DEFAULT_CATEGORY, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
+import {
+  animalsGroup, colorsGroup,
+  DEFAULT_CATEGORIES,
+  DEFAULT_CATEGORY,
+  ERROR_CATEGORIES_MESSAGE, sportsGroup
+} from '../../game-config.constants';
 import {getElementByDataTestId} from '../../tests/dom-test-utils';
+import {WordGroup} from '../../../data-access/api.models';
 
 
 describe('Functionality', () => {
   let component: CategoryChooserModalComponent;
   let fixture: ComponentFixture<CategoryChooserModalComponent>;
-  const fakeCategories: string[] = ['Animals', 'Colors'];
+  const fakeCategories: WordGroup[] = DEFAULT_CATEGORIES;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -48,11 +54,12 @@ describe('Functionality', () => {
     });
 
     it('should handle update duplicate categories', () => {
-      const duplicateCategories = ['Animals', 'Utensils', 'Animals'];
-      const reDuplicateCategories = ['Animals', 'Colors', 'Colors', 'Verbs', 'Verbs'];
+      const duplicateCategories = [animalsGroup, sportsGroup, animalsGroup];
+      const reDuplicateCategories = [
+        animalsGroup, colorsGroup, colorsGroup, sportsGroup, sportsGroup];
 
-      const firstExpected = ['Animals', 'Utensils'];
-      const secondExpected = ['Animals', 'Colors', 'Verbs'];
+      const firstExpected = [animalsGroup, sportsGroup];
+      const secondExpected = [animalsGroup, colorsGroup, sportsGroup];
 
       expectUpdated(component, fakeCategories, fakeCategories);
       expectUpdated(component, duplicateCategories, firstExpected);
@@ -114,7 +121,7 @@ describe('Functionality', () => {
         const chips = await loader.getAllHarnesses(MatChipOptionHarness);
         const labels = await Promise.all(chips.map(chip => chip.getText()));
         expect(chips.length).toBe(fakeCategories.length);
-        expect(labels).toEqual(fakeCategories);
+        expect(labels).toEqual(fakeCategories.map(c => c.title));
       });
 
       it('should have available categories start as not selected', async () => {
@@ -230,12 +237,12 @@ describe('Functionality', () => {
   });
 });
 
-function expectUpdated(component: CategoryChooserModalComponent, catUpdate: string[], expected: string[]): void {
+function expectUpdated(component: CategoryChooserModalComponent, catUpdate: WordGroup[], expected: WordGroup[]): void {
   component.updateChosenCategories(catUpdate);
   expect(component.getChosenCategories()).toEqual(expected);
 }
 
-function setupAndDetectChosenCategories(fixture: ComponentFixture<CategoryChooserModalComponent>, component: CategoryChooserModalComponent, cats: string[]) {
+function setupAndDetectChosenCategories(fixture: ComponentFixture<CategoryChooserModalComponent>, component: CategoryChooserModalComponent, cats: WordGroup[]) {
   component.updateChosenCategories(cats);
   fixture.detectChanges();
 }
@@ -250,7 +257,7 @@ async function expectSelectedStates(fixture: ComponentFixture<CategoryChooserMod
 async function enableOkBtnInteraction(
   component: CategoryChooserModalComponent,
   loader: HarnessLoader,
-  dummyCategories: string[],
+  dummyCategories: WordGroup[],
   newCtgGameBtn: HTMLButtonElement) {
   component.availableCategories = dummyCategories;
   const chips = await loader.getAllHarnesses(MatChipOptionHarness);
