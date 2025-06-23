@@ -22,3 +22,15 @@ export interface Cover {
 export interface ListData<T> {
   items: T[]
 }
+
+export interface WordItem {
+  id: number,
+  title: string,
+  transcription: string,
+  sentence: string,
+  translate: string | null,
+  date_created: string | null,
+  date_learned: string | null,
+  status: number,
+  cover: Cover
+}

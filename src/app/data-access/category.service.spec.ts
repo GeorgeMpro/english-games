@@ -10,6 +10,8 @@ import validWordGroupResponse from './mocks/valid-word-groups.json';
 import {
   CategoryChooserModalComponent
 } from '../shared/components/category-chooser-modal/category-chooser-modal.component';
+import {MatchWordsService} from '../age-category/kids/match-words-game/match-words.service';
+import {WordItem} from './api.models';
 
 const getAllCategoriesUrl: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;
 
@@ -84,7 +86,7 @@ describe('CategoryService', () => {
 
 
     it('should GET all categories with auth headers', () => {
-      const expectedUrl = 'https://api.see.guru/api/v1/client/3/words/groups';
+      const expectedUrl = 'https://api.see.guru/api/v1/words/groups';
       const expectedToken = 'Bearer TEST_TOKEN';
 
       spyOn<any>(service, 'baseUrl').and.returnValue('https://api.see.guru/api/v1');
@@ -157,10 +159,20 @@ describe('Integration with chooser service', () => {
     expect(chooser.availableCategories).toEqual(validWordGroupResponse.data.items);
   }));
 
-  xit('should handle errors with fallback and message to user', () => {
+  it('should handle errors with fallback and message to user', fakeAsync(() => {
+    chooser.ngOnInit();
 
-  });
+    const req = httpTesting.expectOne(getAllCategoriesUrl);
+    req.flush('Server error', {status: 500, statusText: 'Internal Server Error'});
 
+    tick();
+    fixture.detectChanges();
+
+    const errorMsg = fixture.nativeElement.querySelector('[data-testid="category-error"]');
+    expect(errorMsg).toBeTruthy();
+    expect(errorMsg.textContent).toContain(FAILED_LOAD_CATEGORIES_MSG);
+
+  }));
   xit('should handle malformed category data with fallback and message to user', () => {
 
   });
@@ -170,3 +182,82 @@ describe('Integration with chooser service', () => {
 });
 
 
+describe('getAllWordsInGroup', () => {
+
+  let matchService: MatchWordsService;
+  let catService: CategoryService;
+  let httpTesting: HttpTestingController;
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [
+        MatchWordsService,
+        CategoryService,
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    });
+
+    matchService = TestBed.inject(MatchWordsService);
+    catService = TestBed.inject(CategoryService);
+    httpTesting = TestBed.inject(HttpTestingController);
+  });
+
+  afterEach(() => {
+    // Verify that none of the tests make any extra HTTP requests.
+    TestBed.inject(HttpTestingController).verify();
+  });
+
+
+  it('should GET and return all words in a specific group', () => {
+    const groupId = 123;
+    const expectedUrl = `${BASE_URL}/api/v1/words/groups/${groupId}/words`;
+
+    const mockWord: WordItem = {
+      id: 1,
+      title: 'Example',
+      transcription: 'example',
+      sentence: 'This is an example.',
+      translate: null,
+      date_created: '2024-01-01 00:00:00',
+      date_learned: null,
+      status: 1,
+      cover: {
+        id: 101,
+        name: 'cover_example.png',
+        url: 'https://example.com/image.png'
+      }
+    };
+
+    const mockResponse = {
+      success: true,
+      message: '',
+      data: {items: [mockWord]}
+    };
+
+    catService.getAllWordsInGroup(groupId).subscribe(result => {
+      expect(result).toEqual([mockWord]);
+    });
+
+    const req = httpTesting.expectOne(expectedUrl);
+    expect(req.request.method).toBe('GET');
+    req.flush(mockResponse);
+  });
+
+
+  it('should GET all words in group with auth headers', () => {
+    const groupId = 20;
+    const expectedUrl = `${BASE_URL}/api/v1/words/groups/${groupId}/words`;
+
+    catService.getAllWordsInGroup(groupId).subscribe();
+
+    const req = httpTesting.expectOne(expectedUrl);
+    expect(req.request.method).toBe('GET');
+
+    expect(req.request.headers.get('Authorization')).toContain('Bearer');
+    expect(req.request.headers.get('Accept-Language')).toBe('en');
+    expect(req.request.headers.get('X-Requested-With')).toBe('XMLHttpRequest');
+    expect(req.request.headers.get('Accept')).toBe('application/json');
+
+    req.flush({success: true, message: '', data: {items: []}});
+  });
+});

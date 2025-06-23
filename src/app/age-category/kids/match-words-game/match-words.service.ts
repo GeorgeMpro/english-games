@@ -14,7 +14,8 @@ import {
   DEFAULT_FIRST_STAGE,
   MATCH_RESET_TIMEOUT_DELAY,
 } from '../../../shared/game-config.constants';
-import {WordGroup} from '../../../data-access/api.models';
+import {WordGroup, WordItem} from '../../../data-access/api.models';
+import {CategoryService} from '../../../data-access/category.service';
 
 // todo does too much - split
 @Injectable({providedIn: 'root'})
@@ -24,7 +25,8 @@ export class MatchWordsService {
     private readonly store: MatchWordsStore,
     private readonly gameLogicService: GameLogicService,
     private readonly wikiService: WikiService,
-    private readonly vocabularyService: VocabularyService
+    private readonly vocabularyService: VocabularyService,
+    private readonly categoryService: CategoryService,
   ) {
 
   }
@@ -370,19 +372,36 @@ export class MatchWordsService {
   handleNewCategoriesGame(categories: WordGroup[]) {
     this.resetGameState();
 
-    // const fetches = categories.map(cat => this.vocabularyService.getList(cat as Category));
+    // todo update for word group
+    const fetches = categories.map((cat: WordGroup) => {
 
-    // forkJoin(fetches).subscribe((allCategoryWords: string[][]) => {
-    //   const mergedWords = allCategoryWords.flat();
-    //   this.store.wordsFromChosenCategories.set(mergedWords);
-    // });
+      const obs = this.categoryService.getAllWordsInGroup(cat.id)
+      // todo del
+      console.log('fetch:', cat.id, obs);
+      return obs;
 
-    this.startGameFromChosenCategories();
+    });
+
+    forkJoin(fetches).subscribe((allCategoryWords: WordItem[][]) => {
+      const mergedWords: WordItem[] = allCategoryWords.flat();
+      // todo dell
+      console.log(fetches);
+      console.log(mergedWords)
+
+      this.store.wordsFromChosenCategories.set(mergedWords);
+      this.startGameFromChosenCategories();
+    });
+
   }
 
   startGameFromChosenCategories() {
     // todo extract subscribe for all init funcs here
-    this.wikiService.getItems(this.store.wordsFromChosenCategories()).subscribe({
+    // todo update to word item
+    this.wikiService.getItems(
+      this.store.wordsFromChosenCategories().map(
+        w => w.title
+      )
+    ).subscribe({
         next: (items: MatchItem[]) => {
           this.setGameItems(
             this.assignUniqueIds(items)

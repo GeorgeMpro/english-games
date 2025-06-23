@@ -1,0 +1,1251 @@
+{
+  "success": true,
+  "message": "The operation completed successfully",
+  "data": [
+    {
+      "id": 1931,
+      "title": "Plaintiff",
+      "transcription": "The plaintiff is seeking damages for breach of contract.",
+      "sentence": "ˈpleɪnt̬əf",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:19",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89869,
+        "name": "cover_684c6650c750c.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498373928236.png"
+      }
+    },
+    {
+      "id": 1932,
+      "title": "Attorney",
+      "transcription": "The attorney advised his client to plead not guilty.",
+      "sentence": "əˈtɜːrni",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:20",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89870,
+        "name": "cover_684c66872c7e8.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498374471896.png"
+      }
+    },
+    {
+      "id": 1933,
+      "title": "Defendant",
+      "transcription": "The defendant pleaded not guilty to the charges brought against him.",
+      "sentence": "dɪˈfɛndənt",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:20",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89871,
+        "name": "cover_684c66b00ec6d.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498374880680.png"
+      }
+    },
+    {
+      "id": 1941,
+      "title": "Cross-examination",
+      "transcription": "The defense attorney conducted a thorough cross-examination of the witness.",
+      "sentence": "ˌkrɔːsɪɡˌzæmɪˈneɪʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:31",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89879,
+        "name": "cover_684c67eca7411.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498378046929.png"
+      }
+    },
+    {
+      "id": 1942,
+      "title": "Subpoena",
+      "transcription": "He received a subpoena to testify in court.",
+      "sentence": "səˈpiːnə",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:32",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89880,
+        "name": "cover_684c6813d3bef.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498378438746.png"
+      }
+    },
+    {
+      "id": 1943,
+      "title": "Summons",
+      "transcription": "He received a summons to appear in court as a witness.",
+      "sentence": "\/ˈsʌmənz\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:32",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89881,
+        "name": "cover_684c684056e52.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498378883710.png"
+      }
+    },
+    {
+      "id": 1944,
+      "title": "Complaint",
+      "transcription": "She lodged a formal complaint about the rude behavior of her coworkers.",
+      "sentence": "\/kəmˈpleɪnt\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:35",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89882,
+        "name": "cover_684c6863ad7b4.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498379237191.png"
+      }
+    },
+    {
+      "id": 1945,
+      "title": "Charge",
+      "transcription": "The store will charge your credit card when you make a purchase.",
+      "sentence": "\/tʃɑːrdʒ\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:35",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89883,
+        "name": "cover_684c688ead537.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498379667168.png"
+      }
+    },
+    {
+      "id": 1946,
+      "title": "Indictment",
+      "transcription": "The grand jury issued an indictment against the suspect for multiple charges of fraud.",
+      "sentence": "\/ɪnˈdaɪt.mənt\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:36",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89884,
+        "name": "cover_684c68b59818c.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498380056301.png"
+      }
+    },
+    {
+      "id": 1947,
+      "title": "Bail",
+      "transcription": "The judge set bail at $10,000 for the defendant.",
+      "sentence": "beɪl",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:39",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89885,
+        "name": "cover_684c68df99692.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498380476374.png"
+      }
+    },
+    {
+      "id": 1948,
+      "title": "Arraignment",
+      "transcription": "The arraignment of the suspect will take place in court tomorrow.",
+      "sentence": "\/əˈreɪnmənt\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:40",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89886,
+        "name": "cover_684c6907ae44a.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498380877209.png"
+      }
+    },
+    {
+      "id": 1949,
+      "title": "Plea",
+      "transcription": "The defendant made a plea of guilty to the charges against them.",
+      "sentence": "pliː",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:43",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89887,
+        "name": "cover_684c692f2447c.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498381271564.png"
+      }
+    },
+    {
+      "id": 1950,
+      "title": "Guilty",
+      "transcription": "She knew she was guilty of breaking the rules, but she didn't want to admit it.",
+      "sentence": "\/ˈɡɪlti\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:48",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89888,
+        "name": "cover_684c6956c4e97.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498381668139.png"
+      }
+    },
+    {
+      "id": 1951,
+      "title": "Not guilty",
+      "transcription": "The defendant pleaded not guilty to the charges against him.",
+      "sentence": "ˈnɑt ˈɡɪl·ti",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:48",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89889,
+        "name": "cover_684c697c14480.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498382040911.png"
+      }
+    },
+    {
+      "id": 1952,
+      "title": "Innocent",
+      "transcription": "He was proven innocent of all charges.",
+      "sentence": "\/ˈɪnəsənt\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:51",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89890,
+        "name": "cover_684c699f5c478.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498382393853.png"
+      }
+    },
+    {
+      "id": 1953,
+      "title": "Conviction",
+      "transcription": "She spoke with such passion and conviction that I couldn't help but believe her.",
+      "sentence": "kənˈvɪkʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:53",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89891,
+        "name": "cover_684c69c337bca.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498382752355.png"
+      }
+    },
+    {
+      "id": 1955,
+      "title": "Sentence",
+      "transcription": "She was given a light sentence for her crime.",
+      "sentence": "\/ˈsɛntəns\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:56",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89893,
+        "name": "cover_684c6a1460c9e.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498383564038.png"
+      }
+    },
+    {
+      "id": 1956,
+      "title": "Civil case",
+      "transcription": "The dispute between the two neighbors was settled in a civil case in court.",
+      "sentence": "ˈsɪvəl keɪs",
+      "translate": null,
+      "date_created": "2024-02-22 15:51:59",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89894,
+        "name": "cover_684c6a42f21a4.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498384029984.png"
+      }
+    },
+    {
+      "id": 1957,
+      "title": "Criminal case",
+      "transcription": "The judge presided over a high-profile criminal case involving multiple charges of fraud and embezzlement.",
+      "sentence": "ˈkrɪmɪnl keɪs",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:01",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89895,
+        "name": "cover_684c6a6b8ee37.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498384435963.png"
+      }
+    },
+    {
+      "id": 1958,
+      "title": "Jurisdiction",
+      "transcription": "The case falls under the jurisdiction of the federal court.",
+      "sentence": "ˌdʒʊərɪsˈdɪkʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:03",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89896,
+        "name": "cover_684c6a933caa0.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498384832559.png"
+      }
+    },
+    {
+      "id": 1959,
+      "title": "Legal precedent",
+      "transcription": "The judge referred to a previous legal precedent when making their decision.",
+      "sentence": "ˈliːɡəl ˈpresɪdənt",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:05",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89897,
+        "name": "cover_684c6ab73cf52.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498385192566.png"
+      }
+    },
+    {
+      "id": 1960,
+      "title": "Statute",
+      "transcription": "The statute prohibits smoking in public places.",
+      "sentence": "\/ˈstætʃuːt\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:10",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89898,
+        "name": "cover_684c6adbdcf6c.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498385559123.png"
+      }
+    },
+    {
+      "id": 1961,
+      "title": "Amendment",
+      "transcription": "The first amendment to the U.S. Constitution protects the right to freedom of speech.",
+      "sentence": "əˈmɛndmənt",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:16",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89899,
+        "name": "cover_684c6b03ade0d.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498385957190.png"
+      }
+    },
+    {
+      "id": 1962,
+      "title": "Due process",
+      "transcription": "The defendant has the right to due process under the law, including a fair trial by a jury of their peers.",
+      "sentence": "ˈduː ˈprɑːsɛs",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:20",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89900,
+        "name": "cover_684c6b2c0bdc4.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498386360557.png"
+      }
+    },
+    {
+      "id": 1963,
+      "title": "Legal rights",
+      "transcription": "Everyone should be aware of their legal rights before signing any contract.",
+      "sentence": "ˈliːɡəl raɪts",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:24",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89901,
+        "name": "cover_684c6b5103789.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498386730212.png"
+      }
+    },
+    {
+      "id": 1965,
+      "title": "Negligence",
+      "transcription": "The company was sued for negligence after failing to provide adequate safety training for its employees.",
+      "sentence": "ˈnɛɡlədʒəns",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:29",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89903,
+        "name": "cover_684c6b99807ca.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498387455337.png"
+      }
+    },
+    {
+      "id": 1966,
+      "title": "Tort",
+      "transcription": "He was found guilty of committing a tort against his neighbor by intentionally damaging his property.",
+      "sentence": "tawrt",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:31",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89904,
+        "name": "cover_684c6bbb9c1e1.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498387796465.png"
+      }
+    },
+    {
+      "id": 1967,
+      "title": "Breach of contract",
+      "transcription": "The company filed a lawsuit against the contractor for breach of contract.",
+      "sentence": "briːtʃ ʌv ˈkɒntrækt",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:35",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89905,
+        "name": "cover_684c6be05e3d7.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498388163932.png"
+      }
+    },
+    {
+      "id": 1968,
+      "title": "Damages",
+      "transcription": "The storm caused significant damages to the property.",
+      "sentence": "ˈdæmɪdʒɪz",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:36",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89906,
+        "name": "cover_684c6c074aa3b.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498388553129.png"
+      }
+    },
+    {
+      "id": 1969,
+      "title": "Injunction",
+      "transcription": "The court issued an injunction ordering the company to stop construction immediately.",
+      "sentence": "in-juhngk-shuhn",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:40",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89907,
+        "name": "cover_684c6c308dcc2.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498388965883.png"
+      }
+    },
+    {
+      "id": 1970,
+      "title": "Compensation",
+      "transcription": "She received a generous compensation for the work she had done.",
+      "sentence": "ˌkɑmpənˈseɪʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:40",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89908,
+        "name": "cover_684c6c52e5aa0.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498389309472.png"
+      }
+    },
+    {
+      "id": 1971,
+      "title": "Arbitration",
+      "transcription": "They decided to settle the dispute through arbitration rather than going to court.",
+      "sentence": "\/ˌɑːr.bɪˈtreɪ.ʃən\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:41",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89909,
+        "name": "cover_684c6c723b95b.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498389622511.png"
+      }
+    },
+    {
+      "id": 1972,
+      "title": "Settlement",
+      "transcription": "The Native American tribe established a new settlement along the river.",
+      "sentence": "ˈsɛtlmənt",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:44",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89910,
+        "name": "cover_684c6c95d1277.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498389978639.png"
+      }
+    },
+    {
+      "id": 1973,
+      "title": "Mediation",
+      "transcription": "The family decided to use mediation to resolve their dispute instead of going to court.",
+      "sentence": "\/ˌmiː.diˈeɪ.ʃən\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:44",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89911,
+        "name": "cover_684c6cc41605d.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498390440978.png"
+      }
+    },
+    {
+      "id": 1974,
+      "title": "Alimony",
+      "transcription": "After the divorce, she had to pay alimony to her ex-husband.",
+      "sentence": "ˈælɪˌmoʊni",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:46",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89912,
+        "name": "cover_684c6ce87aebf.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498390805110.png"
+      }
+    },
+    {
+      "id": 1975,
+      "title": "Child support",
+      "transcription": "He was ordered to pay child support for his two children after the divorce.",
+      "sentence": "ˈtʃaɪld səˌpɔrt",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:48",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89913,
+        "name": "cover_684c6d0d145d9.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498391170913.png"
+      }
+    },
+    {
+      "id": 1976,
+      "title": "Custody",
+      "transcription": "The child's custody was awarded to the grandparents after the parents were deemed unfit.",
+      "sentence": "\/ˈkʌstədi\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:51",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89914,
+        "name": "cover_684c6d330a869.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498391550498.png"
+      }
+    },
+    {
+      "id": 1977,
+      "title": "Divorce",
+      "transcription": "After many years of unhappiness, they decided to get a divorce.",
+      "sentence": "dih-vawrs",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:52",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89915,
+        "name": "cover_684c6d611ce98.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498392011257.png"
+      }
+    },
+    {
+      "id": 1978,
+      "title": "Adoption",
+      "transcription": "She decided to pursue adoption as a way to start a family.",
+      "sentence": "əˈdɒpʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:53",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89916,
+        "name": "cover_684c6d8800c0d.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498392400107.png"
+      }
+    },
+    {
+      "id": 1979,
+      "title": "Domestic violence",
+      "transcription": "Domestic violence is a serious issue that affects millions of people every year.",
+      "sentence": "dəˈmɛstɪk ˈvaɪələns",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:56",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89917,
+        "name": "cover_684c6dad437ae.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498392772841.png"
+      }
+    },
+    {
+      "id": 1980,
+      "title": "Harassment",
+      "transcription": "She filed a complaint with HR about the ongoing harassment from her coworker.",
+      "sentence": "\/həˈræsmənt\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:57",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89918,
+        "name": "cover_684c6dd8a53df.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498393206844.png"
+      }
+    },
+    {
+      "id": 1981,
+      "title": "Discrimination",
+      "transcription": "Discrimination based on gender is still a major issue in many industries.",
+      "sentence": "dɪˌskrɪmɪˈneɪʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:52:58",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89919,
+        "name": "cover_684c6e0531646.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498393652098.png"
+      }
+    },
+    {
+      "id": 1982,
+      "title": "Civil rights",
+      "transcription": "The Civil Rights Movement fought for equal rights and treatment for all individuals regardless of race.",
+      "sentence": "ˈsɪvəl raɪts",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:01",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89920,
+        "name": "cover_684c6e2f6d760.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498394074555.png"
+      }
+    },
+    {
+      "id": 1983,
+      "title": "Freedom of speech",
+      "transcription": "Freedom of speech is a fundamental right protected by the First Amendment of the United States Constitution.",
+      "sentence": "ˈfriːdəm ʌv spiːtʃ",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:02",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89921,
+        "name": "cover_684c6e57d445c.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498394478769.png"
+      }
+    },
+    {
+      "id": 1984,
+      "title": "Freedom of religion",
+      "transcription": "The constitution guarantees the freedom of religion, allowing individuals to practice any religion of their choice.",
+      "sentence": "ˈfriːdəm ʌv rɪˈlɪdʒən",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:02",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89922,
+        "name": "cover_684c6e8dd567a.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498395018804.png"
+      }
+    },
+    {
+      "id": 1985,
+      "title": "Copyright",
+      "transcription": "The author holds the copyright for all of their published works.",
+      "sentence": "\/ˈkɒpiraɪt\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:06",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89923,
+        "name": "cover_684c6eb44bd52.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498395403166.png"
+      }
+    },
+    {
+      "id": 1986,
+      "title": "Trademark",
+      "transcription": "The Nike swoosh is a well-known trademark that appears on all their products.",
+      "sentence": "ˈtreɪdˌmɑːrk",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:07",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89924,
+        "name": "cover_684c6ed4a9a73.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498395727016.png"
+      }
+    },
+    {
+      "id": 1987,
+      "title": "Patent",
+      "transcription": "The inventor applied for a patent for their new invention.",
+      "sentence": "ˈpætnt",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:07",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89925,
+        "name": "cover_684c6efc4e403.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498396123276.png"
+      }
+    },
+    {
+      "id": 1988,
+      "title": "Antitrust",
+      "transcription": "The government filed an antitrust lawsuit against the large corporation for monopolizing the industry.",
+      "sentence": "æn.tiˈtrʌst",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:11",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89926,
+        "name": "cover_684c6f2604cb6.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498396540269.png"
+      }
+    },
+    {
+      "id": 1989,
+      "title": "Bankruptcy",
+      "transcription": "After losing his job, John had no choice but to file for bankruptcy.",
+      "sentence": "\/ˈbæŋkrəptsi\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:11",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89927,
+        "name": "cover_684c6f4b443ce.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498396912867.png"
+      }
+    },
+    {
+      "id": 1990,
+      "title": "Corporate law",
+      "transcription": "Corporate law deals with the formation and operations of corporations, as well as the rights and duties of shareholders, directors, and officers.",
+      "sentence": "ˈkɔːrpərət lɔː",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:13",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89928,
+        "name": "cover_684c6f6e0e482.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498397260656.png"
+      }
+    },
+    {
+      "id": 1991,
+      "title": "Employment law",
+      "transcription": "Understanding employment law is crucial for both employers and employees.",
+      "sentence": "ɪmˈplɔɪmənt lɔː",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:16",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89929,
+        "name": "cover_684c6f961c7e8.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498397661247.png"
+      }
+    },
+    {
+      "id": 1992,
+      "title": "Family law",
+      "transcription": "She specializes in family law and has helped countless clients with divorce and child custody cases.",
+      "sentence": "ˈfæməli lɔː",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:17",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89930,
+        "name": "cover_684c6fbc22075.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498398041469.png"
+      }
+    },
+    {
+      "id": 1993,
+      "title": "Immigration law",
+      "transcription": "She consulted with an immigration law attorney to get advice on her citizenship application.",
+      "sentence": "ˌɪməˈɡreɪʃən lɔː",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:18",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89931,
+        "name": "cover_684c6feae84d2.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498398509583.png"
+      }
+    },
+    {
+      "id": 1994,
+      "title": "Real estate law",
+      "transcription": "My uncle specializes in real estate law and helped me navigate the legal process of buying my first home.",
+      "sentence": "ˈrē(ə)l iˈstāt lô",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:20",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89932,
+        "name": "cover_684c700b66fb8.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498398834287.png"
+      }
+    },
+    {
+      "id": 1995,
+      "title": "Tax law",
+      "transcription": "She specializes in tax law and helps clients navigate complex tax regulations.",
+      "sentence": "taks law",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:20",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89933,
+        "name": "cover_684c702fbe2da.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498399197849.png"
+      }
+    },
+    {
+      "id": 1996,
+      "title": "Criminal law",
+      "transcription": "He specializes in criminal law and has handled several high-profile cases.",
+      "sentence": "ˈkrɪmənl lɔː",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:21",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89934,
+        "name": "cover_684c705b7840c.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498399634997.png"
+      }
+    },
+    {
+      "id": 1997,
+      "title": "Constitutional law",
+      "transcription": "Studying constitutional law involves examining the principles and rules by which a country is governed.",
+      "sentence": "ˌkɑnstəˈtuʃənəl lɔ",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:23",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89935,
+        "name": "cover_684c707f957fe.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498399996196.png"
+      }
+    },
+    {
+      "id": 1998,
+      "title": "International law",
+      "transcription": "The United Nations plays a key role in the development and enforcement of international law.",
+      "sentence": "ˌɪntəˈnæʃənl lɔː",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:24",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89936,
+        "name": "cover_684c70abb5c89.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498400437511.png"
+      }
+    },
+    {
+      "id": 1999,
+      "title": "Common law",
+      "transcription": "In a common law system, court decisions are based on precedent and previous rulings.",
+      "sentence": "\/ˈkɒmən lɔː\/",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:26",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89937,
+        "name": "cover_684c70d340a09.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498400832713.png"
+      }
+    },
+    {
+      "id": 2000,
+      "title": "Precedent",
+      "transcription": "The Supreme Court decision set a precedent for future cases involving privacy rights.",
+      "sentence": "ˈpresɪdənt",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:27",
+      "date_learned": null,
+      "status": 1,
+      "cover": {
+        "id": 89938,
+        "name": "cover_684c70f91cfac.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498401211250.png"
+      }
+    },
+    {
+      "id": 2001,
+      "title": "Legal system",
+      "transcription": "The legal system in the United States is based on the principle of 'innocent until proven guilty.'",
+      "sentence": "ˈliːɡəl ˈsɪstəm",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:27",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89939,
+        "name": "cover_684c712174b99.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498401614847.png"
+      }
+    },
+    {
+      "id": 2002,
+      "title": "Legal profession",
+      "transcription": "She decided to pursue a career in the legal profession and become a lawyer.",
+      "sentence": "ˈliːɡəl prəˈfɛʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:29",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89940,
+        "name": "cover_684c7149c500f.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498402018145.png"
+      }
+    },
+    {
+      "id": 2003,
+      "title": "Legal practice",
+      "transcription": "She has been working in the field of legal practice for over 10 years.",
+      "sentence": "ˈliːɡəl ˈpræktɪs",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:31",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89941,
+        "name": "cover_684c7171c770b.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498402418259.png"
+      }
+    },
+    {
+      "id": 2004,
+      "title": "Legal research",
+      "transcription": "She spent hours conducting legal research to find relevant case law for her thesis.",
+      "sentence": "ˈliːɡəl rɪˈsɜːrtʃ",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:32",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89942,
+        "name": "cover_684c719bd3ecc.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498402838757.png"
+      }
+    },
+    {
+      "id": 2005,
+      "title": "Legal writing",
+      "transcription": "Her legal writing was so persuasive that the judge ruled in her favor.",
+      "sentence": "ˈliːɡəl ˈraɪtɪŋ",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:32",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89943,
+        "name": "cover_684c71c9b6e5e.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498403297565.png"
+      }
+    },
+    {
+      "id": 2006,
+      "title": "Legal ethics",
+      "transcription": "It is important for lawyers to uphold legal ethics in order to maintain trust and integrity in the legal profession.",
+      "sentence": "ˈliːɡəl ˈɛθɪks",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:35",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89944,
+        "name": "cover_684c71f3d2e13.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498403718707.png"
+      }
+    },
+    {
+      "id": 2007,
+      "title": "Legal advice",
+      "transcription": "She sought legal advice before signing the contract.",
+      "sentence": "ˈliːɡəl ədˈvaɪs",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:36",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89945,
+        "name": "cover_684c721686d07.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498404065598.png"
+      }
+    },
+    {
+      "id": 2008,
+      "title": "Legal representation",
+      "transcription": "She hired a lawyer to provide legal representation in her court case.",
+      "sentence": "ˈliːɡəl ˌrɛprɪzɛnˈteɪʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:37",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89946,
+        "name": "cover_684c723747f55.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498404393022.png"
+      }
+    },
+    {
+      "id": 2009,
+      "title": "Legal document",
+      "transcription": "Please sign this legal document before proceeding with the transaction.",
+      "sentence": "ˈliːɡəl ˈdɑːkjəmənt",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:40",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89947,
+        "name": "cover_684c725f09ae1.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498404790458.png"
+      }
+    },
+    {
+      "id": 2010,
+      "title": "Legal procedure",
+      "transcription": "Before finalizing the divorce, they had to go through a lengthy legal procedure.",
+      "sentence": "ˈliːɡəl prəˈsiːdʒər",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:42",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89948,
+        "name": "cover_684c7286d4181.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498405188763.png"
+      }
+    },
+    {
+      "id": 2011,
+      "title": "Legal dispute",
+      "transcription": "The legal dispute between the two companies was settled out of court.",
+      "sentence": "ˈliːɡ(ə)l dɪˈspjuːt",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:42",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89949,
+        "name": "cover_684c72ae3aec3.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498405582489.png"
+      }
+    },
+    {
+      "id": 2012,
+      "title": "Legal liability",
+      "transcription": "The company faced legal liability after a customer slipped and fell inside the store.",
+      "sentence": "ˈliːɡəl ˌlaɪəˈbɪləti",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:42",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89950,
+        "name": "cover_684c72d377b2e.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498405955011.png"
+      }
+    },
+    {
+      "id": 2013,
+      "title": "Legal theory",
+      "transcription": "Legal theory explores the principles underlying law and the possible interpretations of legal concepts.",
+      "sentence": "ˈliːɡəl ˈθɪəri",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:47",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89951,
+        "name": "cover_684c72f7748d7.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498406314847.png"
+      }
+    },
+    {
+      "id": 2014,
+      "title": "Legal framework",
+      "transcription": "The legal framework for online privacy is constantly evolving.",
+      "sentence": "ˈliːɡəl ˈfreɪmˌwɜːrk",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:47",
+      "date_learned": null,
+      "status": 1,
+      "cover": {
+        "id": 89952,
+        "name": "cover_684c731f36b17.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498406712306.png"
+      }
+    },
+    {
+      "id": 2015,
+      "title": "Legal reform",
+      "transcription": "The government implemented legal reforms to improve the fairness of the justice system.",
+      "sentence": "ˈliːɡəl rɪˈfɔːrm",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:48",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89953,
+        "name": "cover_684c734859bd4.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498407123747.png"
+      }
+    },
+    {
+      "id": 2016,
+      "title": "Legal code",
+      "transcription": "It is important to study the legal code of a country to understand its laws and regulations.",
+      "sentence": "ˈliːɡəl koʊd",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:48",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89954,
+        "name": "cover_684c736fba7c9.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498407517712.png"
+      }
+    },
+    {
+      "id": 2017,
+      "title": "Legal jurisdiction",
+      "transcription": "The case falls under the legal jurisdiction of the state court.",
+      "sentence": "ˈliːɡl dʒʊˈrɪsdɪkʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:52",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89955,
+        "name": "cover_684c7395eecc4.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498407899852.png"
+      }
+    },
+    {
+      "id": 2018,
+      "title": "Legal interpretation",
+      "transcription": "Legal interpretation of the contract led to a resolution of the dispute.",
+      "sentence": "ˈliːɡəl ɪnˌtɜːprɪˈteɪʃən",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:52",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89956,
+        "name": "cover_684c73c094f21.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498408326170.png"
+      }
+    },
+    {
+      "id": 2019,
+      "title": "Legal remedy",
+      "transcription": "The court ordered a legal remedy for the breach of contract.",
+      "sentence": "ˈliːɡl ˈrɛmədi",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:52",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89957,
+        "name": "cover_684c73e1d8d31.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498408658949.png"
+      }
+    },
+    {
+      "id": 2020,
+      "title": "Legal guardian",
+      "transcription": "She was appointed as the legal guardian of her younger siblings after their parents passed away.",
+      "sentence": "ˈliːɡəl ˈɡɑːrdiən",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:53",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89958,
+        "name": "cover_684c740a8c1be.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498409065828.png"
+      }
+    },
+    {
+      "id": 2021,
+      "title": "Legal responsibility",
+      "transcription": "The company has a legal responsibility to ensure the safety of their employees.",
+      "sentence": "ˈliːɡəl rɪˌspɒnsəˈbɪləti",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:57",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89959,
+        "name": "cover_684c7430d4349.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498409448765.png"
+      }
+    },
+    {
+      "id": 2022,
+      "title": "Legal immunity",
+      "transcription": "The diplomat's legal immunity protected him from being prosecuted for the crime.",
+      "sentence": "ˈliːɡəl ɪˈmjuːnəti",
+      "translate": null,
+      "date_created": "2024-02-22 15:53:57",
+      "date_learned": null,
+      "status": 2,
+      "cover": {
+        "id": 89960,
+        "name": "cover_684c745209ad0.png",
+        "url": "https:\/\/cdn.see.guru\/words\/2025\/06\/17498409780464.png"
+      }
+    }
+  ]
+}

@@ -1,13 +1,20 @@
-import {inject, Injectable} from '@angular/core';
+import {inject, Injectable, signal} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {catchError, Observable, of} from 'rxjs';
 import {BASE_URL, TOKEN} from '../../environments/environment.local';
 import {API_ENDPOINTS} from './api-endpoints';
-import {ApiResponse, ListData, WordGroup} from './api.models';
+import {ApiResponse, ListData, WordGroup, WordItem} from './api.models';
 import {map} from 'rxjs/operators';
 
 // todo move to msg comp or interceptor
 export const FAILED_LOAD_CATEGORIES_MSG = 'Failed to load categories:';
+
+const headers = new HttpHeaders({
+  Authorization: `Bearer ${TOKEN}`,
+  'Accept-Language': 'en',
+  'X-Requested-With': 'XMLHttpRequest',
+  Accept: 'application/json'
+});
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +22,8 @@ export const FAILED_LOAD_CATEGORIES_MSG = 'Failed to load categories:';
 export class CategoryService {
 
   baseUrl: string = BASE_URL;
+  readonly errorMsg = signal<string | null>(null);
+
   private http: HttpClient = inject(HttpClient);
 
   constructor() {
@@ -22,12 +31,7 @@ export class CategoryService {
 
   getAllWordCategories(): Observable<WordGroup[]> {
     const url = `${this.baseUrl}${API_ENDPOINTS.WORD_GROUPS}`;
-    const headers = new HttpHeaders({
-      Authorization: `Bearer ${TOKEN}`,
-      'Accept-Language': 'en',
-      'X-Requested-With': 'XMLHttpRequest',
-      Accept: 'application/json'
-    });
+
     return this.http.get<ApiResponse<ListData<WordGroup>>>(
       url, {
         headers
@@ -42,4 +46,18 @@ export class CategoryService {
       );
 
   }
+
+
+  getAllWordsInGroup(groupId: number): Observable<WordItem[]> {
+    const url = `${this.baseUrl}${API_ENDPOINTS.ALL_WORDS_IN_GROUP(groupId)}`;
+
+    return this.http.get<ApiResponse<WordItem[]>>(url, {headers}).pipe(
+      map(res => res.data ?? []),
+      catchError(err => {
+        console.error('Failed to load words in group:', err);
+        return of([]); // prevents undefined in forkJoin
+      })
+    );
+  }
+
 }

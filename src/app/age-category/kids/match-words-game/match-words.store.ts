@@ -1,5 +1,6 @@
 import {computed, Injectable, signal, WritableSignal} from '@angular/core';
 import {ImageCard, MatchAttempt, MatchItem, WordCard} from '../../../shared/models/kids.models';
+import {WordItem} from '../../../data-access/api.models';
 
 /**
  * Central reactive store for Match Words game state.
@@ -12,7 +13,7 @@ export class MatchWordsStore {
   readonly items: WritableSignal<MatchItem[]> = signal([]);
 
   /** The list of words for the currently selected category. */
-  readonly wordsFromChosenCategories: WritableSignal<string[]> = signal([]);
+  readonly wordsFromChosenCategories: WritableSignal<WordItem[]> = signal([]);
 
   /** The current shuffled slice of items used for the current gameplay. */
   readonly shuffledItemsSlice: WritableSignal<MatchItem[]> = signal([]);
