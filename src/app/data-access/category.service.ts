@@ -1,7 +1,7 @@
 import {inject, Injectable} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {catchError, Observable, of} from 'rxjs';
-import {BASE_URL} from '../../environments/environment.local';
+import {BASE_URL, TOKEN} from '../../environments/environment.local';
 import {API_ENDPOINTS} from './api-endpoints';
 import {ApiResponse, ListData, WordGroup} from './api.models';
 import {map} from 'rxjs/operators';
@@ -21,8 +21,17 @@ export class CategoryService {
   }
 
   getAllWordCategories(): Observable<WordGroup[]> {
+    const url = `${this.baseUrl}${API_ENDPOINTS.WORD_GROUPS}`;
+    const headers = new HttpHeaders({
+      Authorization: `Bearer ${TOKEN}`,
+      'Accept-Language': 'en',
+      'X-Requested-With': 'XMLHttpRequest',
+      Accept: 'application/json'
+    });
     return this.http.get<ApiResponse<ListData<WordGroup>>>(
-      `${this.baseUrl}${API_ENDPOINTS.WORD_GROUPS}`
+      url, {
+        headers
+      }
     )
       .pipe(
         map(res => res.data.items),

@@ -50,7 +50,7 @@ export class CategoryChooserModalComponent implements OnInit {
   readonly isVisible = signal<boolean>(false);
   readonly isOkEnabled = signal(false);
 
-  submit = output<string[]>();
+  submit = output<WordGroup[]>();
 
   @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
 

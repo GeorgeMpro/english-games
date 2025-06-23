@@ -1,5 +1,5 @@
 import {provideHttpClient} from '@angular/common/http';
-import {ComponentFixture, fakeAsync, TestBed} from '@angular/core/testing';
+import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
 import {HttpTestingController, provideHttpClientTesting} from '@angular/common/http/testing';
 
 import {CategoryService, FAILED_LOAD_CATEGORIES_MSG} from './category.service';
@@ -81,6 +81,32 @@ describe('CategoryService', () => {
       const req = httpTesting.expectOne(getAllCategoriesUrl);
       req.flush(malformedResponse);
     });
+
+
+    it('should GET all categories with auth headers', () => {
+      const expectedUrl = 'https://api.see.guru/api/v1/client/3/words/groups';
+      const expectedToken = 'Bearer TEST_TOKEN';
+
+      spyOn<any>(service, 'baseUrl').and.returnValue('https://api.see.guru/api/v1');
+
+      // Replace the token manually in the service file if needed for test
+      const patchedService: any = service;
+      patchedService.baseUrl = 'https://api.see.guru/api/v1';
+
+      service.getAllWordCategories().subscribe(result => {
+        expect(result).toEqual(validWordGroupResponse.data.items);
+      });
+
+      const req = httpTesting.expectOne(expectedUrl);
+      expect(req.request.method).toBe('GET');
+
+      expect(req.request.headers.get('Authorization')).toContain('Bearer');
+      expect(req.request.headers.get('Accept-Language')).toBe('en');
+      expect(req.request.headers.get('X-Requested-With')).toBe('XMLHttpRequest');
+      expect(req.request.headers.get('Accept')).toBe('application/json');
+
+      req.flush(validWordGroupResponse);
+    });
   });
 
 
@@ -102,9 +128,11 @@ describe('Integration with chooser service', () => {
     TestBed.configureTestingModule({
       imports: [
         CategoryChooserModalComponent,
+      ],
+      providers: [
         provideHttpClient(),
         provideHttpClientTesting()
-      ],
+      ]
     });
 
     fixture = TestBed.createComponent(CategoryChooserModalComponent);
@@ -121,7 +149,10 @@ describe('Integration with chooser service', () => {
     chooser.ngOnInit();
 
     const req = httpTesting.expectOne(getAllCategoriesUrl);
-    req.flush(validWordGroupResponse.data);
+    req.flush(validWordGroupResponse);
+
+    // resolve async subscription
+    tick();
 
     expect(chooser.availableCategories).toEqual(validWordGroupResponse.data.items);
   }));
