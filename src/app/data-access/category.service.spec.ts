@@ -8,7 +8,7 @@ import {BASE_URL} from '../../environments/environment.local';
 import {API_ENDPOINTS} from './api-endpoints';
 import validWordGroupResponse from './mocks/valid-word-groups.json';
 
-fdescribe('CategoryService', () => {
+describe('CategoryService', () => {
   let service: CategoryService;
   let httpTesting: HttpTestingController;
 
@@ -30,6 +30,7 @@ fdescribe('CategoryService', () => {
 
   describe('response mapping', () => {
     const getAllCategories: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;
+
 
     it('should be created', () => {
       expect(service).toBeTruthy();
@@ -60,7 +61,6 @@ fdescribe('CategoryService', () => {
     });
 
     it('should return an empty array and error message if response structure is invalid', () => {
-
       spyOn(console, 'error');
 
       const malformedResponse = {data: null}; // or missing `items`
@@ -76,15 +76,32 @@ fdescribe('CategoryService', () => {
       const req = httpTesting.expectOne(getAllCategories);
       req.flush(malformedResponse);
     });
+  });
 
+  describe('Integration with chooser service', () => {
+    xit('should load categories', () => {
+
+    });
+
+    xit('should handle errors with fallback and message to user', () => {
+
+    });
+
+    xit('should handle malformed category data with fallback and message to user', () => {
+
+    });
+
+    // it('should ',()=>{});
+    // it('should ',()=>{})
   });
 
   xdescribe('interceptors and headers', () => {
     xit('should add token to outgoing requests', () => {
     });
-    // it('should ',()=>{});
-    // it('should ',()=>{});
+
     // it('should ',()=>{});
     // it('should ',()=>{});
   });
 });
+
+
