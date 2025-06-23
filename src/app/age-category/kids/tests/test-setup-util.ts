@@ -59,6 +59,7 @@ export async function setupMatchWordComponent() {
       BrowserTestingModule,
     ],
     providers: [
+      provideHttpClient(),
       provideHttpClientTesting(),
       provideRouter([]),
       MatchWordsService,

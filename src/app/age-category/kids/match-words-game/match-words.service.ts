@@ -14,6 +14,7 @@ import {
   DEFAULT_FIRST_STAGE,
   MATCH_RESET_TIMEOUT_DELAY,
 } from '../../../shared/game-config.constants';
+import {WordGroup} from '../../../data-access/api.models';
 
 // todo does too much - split
 @Injectable({providedIn: 'root'})
@@ -366,15 +367,15 @@ export class MatchWordsService {
 
   // todo maybe extract choosing new category
   /*New Categories*/
-  handleNewCategoriesGame(categories: string[]) {
+  handleNewCategoriesGame(categories: WordGroup[]) {
     this.resetGameState();
 
-    const fetches = categories.map(cat => this.vocabularyService.getList(cat as Category));
+    // const fetches = categories.map(cat => this.vocabularyService.getList(cat as Category));
 
-    forkJoin(fetches).subscribe((allCategoryWords: string[][]) => {
-      const mergedWords = allCategoryWords.flat();
-      this.store.wordsFromChosenCategories.set(mergedWords);
-    });
+    // forkJoin(fetches).subscribe((allCategoryWords: string[][]) => {
+    //   const mergedWords = allCategoryWords.flat();
+    //   this.store.wordsFromChosenCategories.set(mergedWords);
+    // });
 
     this.startGameFromChosenCategories();
   }

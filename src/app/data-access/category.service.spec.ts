@@ -1,5 +1,5 @@
 import {provideHttpClient} from '@angular/common/http';
-import { TestBed} from '@angular/core/testing';
+import {ComponentFixture, fakeAsync, TestBed} from '@angular/core/testing';
 import {HttpTestingController, provideHttpClientTesting} from '@angular/common/http/testing';
 
 import {CategoryService, FAILED_LOAD_CATEGORIES_MSG} from './category.service';
@@ -10,6 +10,9 @@ import validWordGroupResponse from './mocks/valid-word-groups.json';
 import {
   CategoryChooserModalComponent
 } from '../shared/components/category-chooser-modal/category-chooser-modal.component';
+
+const getAllCategoriesUrl: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;
+
 
 describe('CategoryService', () => {
   let service: CategoryService;
@@ -32,7 +35,6 @@ describe('CategoryService', () => {
   });
 
   describe('response mapping', () => {
-    const getAllCategories: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;
 
 
     it('should be created', () => {
@@ -45,7 +47,7 @@ describe('CategoryService', () => {
         expect(result).toEqual(validWordGroupResponse.data.items);
       });
 
-      const testReq = httpTesting.expectOne(getAllCategories);
+      const testReq = httpTesting.expectOne(getAllCategoriesUrl);
       expect(testReq.request.method).toBe('GET');
       testReq.flush(validWordGroupResponse);
     });
@@ -59,7 +61,7 @@ describe('CategoryService', () => {
           expect(console.error).toHaveBeenCalledWith(FAILED_LOAD_CATEGORIES_MSG, jasmine.anything());
         }
       );
-      const testReq = httpTesting.expectOne(getAllCategories);
+      const testReq = httpTesting.expectOne(getAllCategoriesUrl);
       testReq.flush('Internal Server Error', {status: 500, statusText: 'Server Error'});
     });
 
@@ -76,7 +78,7 @@ describe('CategoryService', () => {
         );
       });
 
-      const req = httpTesting.expectOne(getAllCategories);
+      const req = httpTesting.expectOne(getAllCategoriesUrl);
       req.flush(malformedResponse);
     });
   });
@@ -93,21 +95,20 @@ describe('CategoryService', () => {
 
 
 describe('Integration with chooser service', () => {
+  let fixture: ComponentFixture<CategoryChooserModalComponent>;
   let chooser: CategoryChooserModalComponent;
-  let catService: CategoryService;
   let httpTesting: HttpTestingController;
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [
+      imports: [
         CategoryChooserModalComponent,
-        CategoryService,
         provideHttpClient(),
         provideHttpClientTesting()
-      ]
+      ],
     });
 
-    chooser = TestBed.inject(CategoryChooserModalComponent);
-    catService = TestBed.inject(CategoryService);
+    fixture = TestBed.createComponent(CategoryChooserModalComponent);
+    chooser = fixture.componentInstance;
     httpTesting = TestBed.inject(HttpTestingController);
   });
 
@@ -115,12 +116,15 @@ describe('Integration with chooser service', () => {
     // Verify that none of the tests make any extra HTTP requests.
     TestBed.inject(HttpTestingController).verify();
   });
-  it('should load categories', () => {
-    //todo
-    //   on init should get populate all the categories?
-    //   what about the id's?
+
+  it('should load categories', fakeAsync(() => {
+    chooser.ngOnInit();
+
+    const req = httpTesting.expectOne(getAllCategoriesUrl);
+    req.flush(validWordGroupResponse.data);
+
     expect(chooser.availableCategories).toEqual(validWordGroupResponse.data.items);
-  });
+  }));
 
   xit('should handle errors with fallback and message to user', () => {
 

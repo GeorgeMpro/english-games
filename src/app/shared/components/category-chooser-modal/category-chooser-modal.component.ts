@@ -1,7 +1,8 @@
 import {Component, QueryList, ViewChildren, signal, output, OnInit} from '@angular/core';
 import {MatChipListbox, MatChipOption} from '@angular/material/chips';
-import {ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
+import {animalsGroup, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
 import {WordGroup} from '../../../data-access/api.models';
+import {CategoryService} from '../../../data-access/category.service';
 
 @Component({
   selector: 'app-category-chooser-modal',
@@ -20,7 +21,7 @@ import {WordGroup} from '../../../data-access/api.models';
                 [attr.data-testid]="'category-'+ category"
                 [value]="category"
                 (selectionChange)="onSelectionChange()">
-                {{ category }}
+                {{ category.title }}
               </mat-chip-option>
             }
           </mat-chip-listbox>
@@ -53,31 +54,25 @@ export class CategoryChooserModalComponent implements OnInit {
 
   @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
 
+  constructor(private catService: CategoryService) {
+  }
+
   // todo: temp solution while awaiting backend
   // ngOnInit() {
   //   this.availableCategories = Object.values(Category);
   // }
 
   ngOnInit() {
-
+    this.catService.getAllWordCategories().subscribe(
+      categories => this.availableCategories = categories
+    );
   }
 
 
   setupCategories(): WordGroup[] {
     if (this.availableCategories.length === 0) {
       this.errorMessage = ERROR_CATEGORIES_MESSAGE;
-      this.availableCategories = [{
-        id: 8,
-        title: 'Animals',
-        translate: 'Animals',
-        status: 1,
-        count: 37,
-        cover: {
-          id: 87254,
-          name: 'cover_68394f16824f5.png',
-          url: 'https://cdn.see.guru/word-groups/2025/05/17485862625406.png'
-        }
-      }];
+      this.availableCategories = [animalsGroup];
 
     }
     return this.availableCategories;

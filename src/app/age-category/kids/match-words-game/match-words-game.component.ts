@@ -10,6 +10,7 @@ import {DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
 import {
   CategoryChooserModalComponent
 } from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
+import {WordGroup} from '../../../data-access/api.models';
 
 @Component({
   selector: 'app-match-words-game',
@@ -107,7 +108,7 @@ export class MatchWordsGameComponent implements OnInit {
     this.categoryModal.open();
   }
 
-  onNewGameWithCategories(categories: string[]): void {
+  onNewGameWithCategories(categories: WordGroup[]): void {
     this.matchWordService.handleNewCategoriesGame(categories);
   }
 }

@@ -14,6 +14,8 @@ import {
 } from '../../game-config.constants';
 import {getElementByDataTestId} from '../../tests/dom-test-utils';
 import {WordGroup} from '../../../data-access/api.models';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 
 describe('Functionality', () => {
@@ -23,7 +25,11 @@ describe('Functionality', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CategoryChooserModalComponent]
+      imports: [CategoryChooserModalComponent],
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
     })
       .compileComponents();
 
