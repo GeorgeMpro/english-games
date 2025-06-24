@@ -7,8 +7,14 @@ import {ApiResponse, ListData, WordGroup, WordItem} from './api.models';
 import {map} from 'rxjs/operators';
 import {animalsGroup} from '../shared/game-config.constants';
 
+import wordsFromAnimals from './mocks/valid-words-from-animals-category.json'
+
 // todo move to msg comp or interceptor
 export const FAILED_LOAD_CATEGORIES_MSG = "Couldn't load categories. Please try again later.";
+
+export const FAILED_LOAD_WORDS_MSG = "Couldn't load category words. Returning fallback category.";
+
+
 const headers = new HttpHeaders({
   Authorization: `Bearer ${TOKEN}`,
   'Accept-Language': 'en',
@@ -57,8 +63,11 @@ export class CategoryService {
       }
     )
       .pipe(
-        map(res => res.data)
-        //   todo test for error and fall back
-      )
+        map(res => res.data),
+        catchError(err => {
+          console.error(FAILED_LOAD_WORDS_MSG);
+          return of(wordsFromAnimals.data)
+        })
+      );
   }
 }

@@ -2,7 +2,7 @@ import {provideHttpClient} from '@angular/common/http';
 import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
 import {HttpTestingController, provideHttpClientTesting, TestRequest} from '@angular/common/http/testing';
 
-import {CategoryService, FAILED_LOAD_CATEGORIES_MSG} from './category.service';
+import {CategoryService, FAILED_LOAD_CATEGORIES_MSG, FAILED_LOAD_WORDS_MSG} from './category.service';
 
 import {BASE_URL} from '../../environments/environment.local';
 import {API_ENDPOINTS} from './api-endpoints';
@@ -14,6 +14,7 @@ import {MatchWordsService} from '../age-category/kids/match-words-game/match-wor
 import {mockWord} from './mocks/mock-data';
 import {getElementByDataTestId} from '../shared/tests/dom-test-utils';
 import {animalsGroup} from '../shared/game-config.constants';
+import wordsFromAnimals from './mocks/valid-words-from-animals-category.json'
 
 const getAllCategoriesUrl: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;
 
@@ -39,7 +40,6 @@ describe('CategoryService', () => {
   });
 
   describe('response mapping', () => {
-
 
     it('should be created', () => {
       expect(service).toBeTruthy();
@@ -179,7 +179,7 @@ describe('Integration with chooser service', () => {
 });
 
 
-describe('Handling getting all categories', () => {
+describe('Handling getting words from categories', () => {
 
   let matchService: MatchWordsService;
   let catService: CategoryService;
@@ -204,6 +204,15 @@ describe('Handling getting all categories', () => {
     TestBed.inject(HttpTestingController).verify();
   });
 
+  it('should handle error response with fallback category', () => {
+    catService.getAllWordCategories().subscribe(result => {
+      expect(result).toEqual([animalsGroup]);
+      expect(catService.errorMsg()).toEqual(FAILED_LOAD_CATEGORIES_MSG);
+    })
+
+    const req = httpTesting.expectOne(getAllCategoriesUrl);
+    flushError(req);
+  });
 
   it('should GET and return all words in a specific group', () => {
     const groupId = 123;
@@ -236,15 +245,23 @@ describe('Handling getting all categories', () => {
     req.flush({success: true, message: '', data: {items: []}});
   });
 
-  it('should handle error response with fallback category', () => {
-    catService.getAllWordCategories().subscribe(result => {
-      expect(result).toEqual([animalsGroup]);
-      expect(catService.errorMsg()).toEqual(FAILED_LOAD_CATEGORIES_MSG);
+
+  it('should handle error response and return fallback words and error message', () => {
+    const groupId = 123;
+    const expectedUrl = `${BASE_URL}/words/by-group/${groupId}/all`;
+
+    spyOn(console, 'error');
+
+    catService.getAllWordsInGroup(groupId).subscribe(result => {
+      expect(result).toEqual(wordsFromAnimals.data);
+      expect(console.error).toHaveBeenCalledWith(
+        FAILED_LOAD_WORDS_MSG);
     })
 
-    const req = httpTesting.expectOne(getAllCategoriesUrl);
+    const req = httpTesting.expectOne(expectedUrl);
     flushError(req);
   });
+
 });
 
 function flushError(req: TestRequest, opts?: {

@@ -30,7 +30,7 @@ export interface WordItem {
   sentence: string,
   translate: string | null,
   date_created: string | null,
-  date_learned: string | null,
-  status: number,
+  date_learned?: string | null,
+  status: number | null,
   cover: Cover
 }

@@ -56,3 +56,10 @@ Authorization: Bearer {{token}}
 Accept: application/json
 X-Requested-With: XMLHttpRequest
 Accept-Language: en
+
+### Get all words in animals group
+GET {{baseUrl}}/words/by-group/8/all
+Authorization: Bearer {{token}}
+Accept: application/json
+X-Requested-With: XMLHttpRequest
+Accept-Language: en
