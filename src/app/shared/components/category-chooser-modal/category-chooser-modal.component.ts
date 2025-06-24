@@ -1,6 +1,6 @@
-import {Component, QueryList, ViewChildren, signal, output, OnInit} from '@angular/core';
+import {Component, QueryList, ViewChildren, signal, output, OnInit, computed, effect} from '@angular/core';
 import {MatChipListbox, MatChipOption} from '@angular/material/chips';
-import {animalsGroup, ERROR_CATEGORIES_MESSAGE} from '../../game-config.constants';
+import {animalsGroup} from '../../game-config.constants';
 import {WordGroup} from '../../../data-access/api.models';
 import {CategoryService} from '../../../data-access/category.service';
 
@@ -14,6 +14,11 @@ import {CategoryService} from '../../../data-access/category.service';
     @if (isVisible()) {
       <div class="app-modal" data-testid="category-chooser-modal">
         <div class="modal-content">
+          @defer (when errorMessage()) {
+            <div data-testid="error-msg" class="modal-error">
+              {{ errorMessage() }}
+            </div>
+          }
           <mat-chip-listbox [multiple]="true">
             @for (category of availableCategories; track category) {
               <mat-chip-option
@@ -43,7 +48,9 @@ import {CategoryService} from '../../../data-access/category.service';
   styleUrl: '../../styles/app-modal.shared.css'
 })
 export class CategoryChooserModalComponent implements OnInit {
-  errorMessage: string = '';
+
+  readonly errorMessage = signal<string | null>(null);
+
   availableCategories: WordGroup[] = [];
 
   readonly chosenCategories = signal<WordGroup[]>([]);
@@ -55,25 +62,24 @@ export class CategoryChooserModalComponent implements OnInit {
   @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
 
   constructor(private catService: CategoryService) {
+    effect(() => {
+      this.errorMessage.set(
+        this.catService.errorMsg()
+      );
+    });
   }
-
-  // todo: temp solution while awaiting backend
-  // ngOnInit() {
-  //   this.availableCategories = Object.values(Category);
-  // }
 
   ngOnInit() {
     this.catService.getAllWordCategories().subscribe(
       categories => this.availableCategories = categories
     );
+
   }
 
 
   setupCategories(): WordGroup[] {
     if (this.availableCategories.length === 0) {
-      this.errorMessage = ERROR_CATEGORIES_MESSAGE;
       this.availableCategories = [animalsGroup];
-
     }
     return this.availableCategories;
   }

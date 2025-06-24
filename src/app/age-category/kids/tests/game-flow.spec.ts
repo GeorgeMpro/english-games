@@ -18,6 +18,8 @@ import {
   setupCurrentAndReshuffledGameItems,
   setupGameStart
 } from './test-setup-util';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 
 /**
@@ -50,7 +52,9 @@ describe('Game completion, feedback, replay, and new game', () => {
         MatchWordsStore,
         {provide: VocabularyService, useValue: {}},
         {provide: WikiService, useValue: {}},
-        GameLogicService, // if needed
+        GameLogicService,
+        provideHttpClient(),
+        provideHttpClientTesting()
       ],
     });
 

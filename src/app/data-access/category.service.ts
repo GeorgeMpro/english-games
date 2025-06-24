@@ -7,8 +7,7 @@ import {ApiResponse, ListData, WordGroup, WordItem} from './api.models';
 import {map} from 'rxjs/operators';
 
 // todo move to msg comp or interceptor
-export const FAILED_LOAD_CATEGORIES_MSG = 'Failed to load categories:';
-
+export const FAILED_LOAD_CATEGORIES_MSG = "Couldn't load categories. Please try again later.";
 const headers = new HttpHeaders({
   Authorization: `Bearer ${TOKEN}`,
   'Accept-Language': 'en',
@@ -40,6 +39,7 @@ export class CategoryService {
       .pipe(
         map(res => res.data.items),
         catchError(err => {
+          this.errorMsg.set(FAILED_LOAD_CATEGORIES_MSG);
           console.error(FAILED_LOAD_CATEGORIES_MSG, err);
           return of([]);
         })
@@ -47,17 +47,17 @@ export class CategoryService {
 
   }
 
-
   getAllWordsInGroup(groupId: number): Observable<WordItem[]> {
     const url = `${this.baseUrl}${API_ENDPOINTS.ALL_WORDS_IN_GROUP(groupId)}`;
 
-    return this.http.get<ApiResponse<WordItem[]>>(url, {headers}).pipe(
-      map(res => res.data ?? []),
-      catchError(err => {
-        console.error('Failed to load words in group:', err);
-        return of([]); // prevents undefined in forkJoin
-      })
-    );
+    return this.http.get<ApiResponse<WordItem[]>>(
+      url, {
+        headers
+      }
+    )
+      .pipe(
+        map(res => res.data)
+        //   todo test for error and fall back
+      )
   }
-
 }

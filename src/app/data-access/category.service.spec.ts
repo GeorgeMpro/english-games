@@ -1,6 +1,6 @@
 import {provideHttpClient} from '@angular/common/http';
-import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
-import {HttpTestingController, provideHttpClientTesting} from '@angular/common/http/testing';
+import {ComponentFixture, fakeAsync, flushMicrotasks, TestBed, tick} from '@angular/core/testing';
+import {HttpTestingController, provideHttpClientTesting, TestRequest} from '@angular/common/http/testing';
 
 import {CategoryService, FAILED_LOAD_CATEGORIES_MSG} from './category.service';
 
@@ -11,7 +11,8 @@ import {
   CategoryChooserModalComponent
 } from '../shared/components/category-chooser-modal/category-chooser-modal.component';
 import {MatchWordsService} from '../age-category/kids/match-words-game/match-words.service';
-import {WordItem} from './api.models';
+import {mockWord} from './mocks/mock-data';
+import {getElementByDataTestId} from '../shared/tests/dom-test-utils';
 
 const getAllCategoriesUrl: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;
 
@@ -64,7 +65,7 @@ describe('CategoryService', () => {
         }
       );
       const testReq = httpTesting.expectOne(getAllCategoriesUrl);
-      testReq.flush('Internal Server Error', {status: 500, statusText: 'Server Error'});
+      flushError(testReq);
     });
 
     it('should return an empty array and error message if response structure is invalid', () => {
@@ -99,13 +100,7 @@ describe('CategoryService', () => {
         expect(result).toEqual(validWordGroupResponse.data.items);
       });
 
-      const req = httpTesting.expectOne(expectedUrl);
-      expect(req.request.method).toBe('GET');
-
-      expect(req.request.headers.get('Authorization')).toContain('Bearer');
-      expect(req.request.headers.get('Accept-Language')).toBe('en');
-      expect(req.request.headers.get('X-Requested-With')).toBe('XMLHttpRequest');
-      expect(req.request.headers.get('Accept')).toBe('application/json');
+      const req = expectedHeaders(httpTesting, expectedUrl);
 
       req.flush(validWordGroupResponse);
     });
@@ -126,7 +121,7 @@ describe('Integration with chooser service', () => {
   let fixture: ComponentFixture<CategoryChooserModalComponent>;
   let chooser: CategoryChooserModalComponent;
   let httpTesting: HttpTestingController;
-  beforeEach(() => {
+  beforeEach(fakeAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         CategoryChooserModalComponent,
@@ -140,7 +135,7 @@ describe('Integration with chooser service', () => {
     fixture = TestBed.createComponent(CategoryChooserModalComponent);
     chooser = fixture.componentInstance;
     httpTesting = TestBed.inject(HttpTestingController);
-  });
+  }));
 
   afterEach(() => {
     // Verify that none of the tests make any extra HTTP requests.
@@ -163,22 +158,19 @@ describe('Integration with chooser service', () => {
     chooser.ngOnInit();
 
     const req = httpTesting.expectOne(getAllCategoriesUrl);
-    req.flush('Server error', {status: 500, statusText: 'Internal Server Error'});
+    flushError(req);
 
     tick();
     fixture.detectChanges();
 
-    const errorMsg = fixture.nativeElement.querySelector('[data-testid="category-error"]');
+    const errorMsg = getElementByDataTestId(fixture, 'error-msg');
     expect(errorMsg).toBeTruthy();
     expect(errorMsg.textContent).toContain(FAILED_LOAD_CATEGORIES_MSG);
-
   }));
+
   xit('should handle malformed category data with fallback and message to user', () => {
 
   });
-
-  // it('should ',()=>{});
-  // it('should ',()=>{})
 });
 
 
@@ -210,23 +202,7 @@ describe('getAllWordsInGroup', () => {
 
   it('should GET and return all words in a specific group', () => {
     const groupId = 123;
-    const expectedUrl = `${BASE_URL}/api/v1/words/groups/${groupId}/words`;
-
-    const mockWord: WordItem = {
-      id: 1,
-      title: 'Example',
-      transcription: 'example',
-      sentence: 'This is an example.',
-      translate: null,
-      date_created: '2024-01-01 00:00:00',
-      date_learned: null,
-      status: 1,
-      cover: {
-        id: 101,
-        name: 'cover_example.png',
-        url: 'https://example.com/image.png'
-      }
-    };
+    const expectedUrl = `${BASE_URL}/words/by-group/${groupId}/all`;
 
     const mockResponse = {
       success: true,
@@ -243,21 +219,35 @@ describe('getAllWordsInGroup', () => {
     req.flush(mockResponse);
   });
 
-
   it('should GET all words in group with auth headers', () => {
     const groupId = 20;
-    const expectedUrl = `${BASE_URL}/api/v1/words/groups/${groupId}/words`;
+    const expectedUrl = `${BASE_URL}/words/by-group/${groupId}/all`;
+
 
     catService.getAllWordsInGroup(groupId).subscribe();
 
-    const req = httpTesting.expectOne(expectedUrl);
-    expect(req.request.method).toBe('GET');
-
-    expect(req.request.headers.get('Authorization')).toContain('Bearer');
-    expect(req.request.headers.get('Accept-Language')).toBe('en');
-    expect(req.request.headers.get('X-Requested-With')).toBe('XMLHttpRequest');
-    expect(req.request.headers.get('Accept')).toBe('application/json');
+    const req = expectedHeaders(httpTesting, expectedUrl);
 
     req.flush({success: true, message: '', data: {items: []}});
   });
 });
+
+function flushError(req: TestRequest, opts?: {
+  status?: number,
+  statusText?: string,
+  body?: any
+}) {
+  const {status = 500, statusText = 'Internal Server Error', body = statusText} = opts ?? {};
+  req.flush(body, {status, statusText});
+}
+
+function expectedHeaders(httpTesting: HttpTestingController, expectedUrl: string) {
+  const req = httpTesting.expectOne(expectedUrl);
+  expect(req.request.method).toBe('GET');
+
+  expect(req.request.headers.get('Authorization')).toContain('Bearer');
+  expect(req.request.headers.get('Accept-Language')).toBe('en');
+  expect(req.request.headers.get('X-Requested-With')).toBe('XMLHttpRequest');
+  expect(req.request.headers.get('Accept')).toBe('application/json');
+  return req;
+}

@@ -16,6 +16,7 @@ import {getElementByDataTestId} from '../../tests/dom-test-utils';
 import {WordGroup} from '../../../data-access/api.models';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
+import {FAILED_LOAD_CATEGORIES_MSG} from '../../../data-access/category.service';
 
 
 describe('Functionality', () => {
@@ -47,10 +48,10 @@ describe('Functionality', () => {
       spyOn(component, 'getChosenCategories').and.callThrough();
 
       const result = component.setupCategories();
-      const msg = component.errorMessage;
+      const msg = component.errorMessage();
 
       expect(result.length).toBe(1);
-      expect(msg).toBe(ERROR_CATEGORIES_MESSAGE);
+      expect(msg).toBe(FAILED_LOAD_CATEGORIES_MSG);
       // todo remove default dummy categories from the component
       expect(result).toEqual([DEFAULT_CATEGORY]);
 
