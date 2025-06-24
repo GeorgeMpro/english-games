@@ -42,20 +42,6 @@ describe('Functionality', () => {
 
   describe('Handling categories', () => {
 
-    it('should handle empty categories', () => {
-      expect(component.chosenCategories()).toEqual([]);
-      component.availableCategories = [];
-      spyOn(component, 'getChosenCategories').and.callThrough();
-
-      const result = component.setupCategories();
-      const msg = component.errorMessage();
-
-      expect(result.length).toBe(1);
-      expect(msg).toBe(FAILED_LOAD_CATEGORIES_MSG);
-      // todo remove default dummy categories from the component
-      expect(result).toEqual([DEFAULT_CATEGORY]);
-
-    });
     it('should be able to update categories', () => {
       expectUpdated(component, fakeCategories, fakeCategories);
     });

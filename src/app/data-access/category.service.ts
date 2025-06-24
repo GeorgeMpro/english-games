@@ -5,6 +5,7 @@ import {BASE_URL, TOKEN} from '../../environments/environment.local';
 import {API_ENDPOINTS} from './api-endpoints';
 import {ApiResponse, ListData, WordGroup, WordItem} from './api.models';
 import {map} from 'rxjs/operators';
+import {animalsGroup} from '../shared/game-config.constants';
 
 // todo move to msg comp or interceptor
 export const FAILED_LOAD_CATEGORIES_MSG = "Couldn't load categories. Please try again later.";
@@ -41,7 +42,7 @@ export class CategoryService {
         catchError(err => {
           this.errorMsg.set(FAILED_LOAD_CATEGORIES_MSG);
           console.error(FAILED_LOAD_CATEGORIES_MSG, err);
-          return of([]);
+          return of([animalsGroup]);
         })
       );
 

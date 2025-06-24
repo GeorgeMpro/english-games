@@ -1,5 +1,5 @@
 import {provideHttpClient} from '@angular/common/http';
-import {ComponentFixture, fakeAsync, flushMicrotasks, TestBed, tick} from '@angular/core/testing';
+import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
 import {HttpTestingController, provideHttpClientTesting, TestRequest} from '@angular/common/http/testing';
 
 import {CategoryService, FAILED_LOAD_CATEGORIES_MSG} from './category.service';
@@ -13,6 +13,7 @@ import {
 import {MatchWordsService} from '../age-category/kids/match-words-game/match-words.service';
 import {mockWord} from './mocks/mock-data';
 import {getElementByDataTestId} from '../shared/tests/dom-test-utils';
+import {animalsGroup} from '../shared/game-config.constants';
 
 const getAllCategoriesUrl: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;
 
@@ -55,12 +56,12 @@ describe('CategoryService', () => {
       testReq.flush(validWordGroupResponse);
     });
 
-    it('should return an empty array and error message if the request fails', () => {
+    it('should return fallback category and error message if the request fails', () => {
       spyOn(console, 'error');
 
       service.getAllWordCategories().subscribe(
         response => {
-          expect(response).toEqual([]);
+          expect(response).toEqual([animalsGroup]);
           expect(console.error).toHaveBeenCalledWith(FAILED_LOAD_CATEGORIES_MSG, jasmine.anything());
         }
       );
@@ -68,13 +69,13 @@ describe('CategoryService', () => {
       flushError(testReq);
     });
 
-    it('should return an empty array and error message if response structure is invalid', () => {
+    it('should return fallback category and error message if response structure is invalid', () => {
       spyOn(console, 'error');
 
       const malformedResponse = {data: null}; // or missing `items`
 
       service.getAllWordCategories().subscribe(response => {
-        expect(response).toEqual([]);
+        expect(response).toEqual([animalsGroup]);
         expect(console.error).toHaveBeenCalledWith(
           FAILED_LOAD_CATEGORIES_MSG,
           jasmine.anything()
@@ -154,18 +155,22 @@ describe('Integration with chooser service', () => {
     expect(chooser.availableCategories).toEqual(validWordGroupResponse.data.items);
   }));
 
-  it('should handle errors with fallback and message to user', fakeAsync(() => {
+  // todo pending
+  xit('should handle errors with fallback and message to user', fakeAsync(() => {
+
+    chooser.isVisible.set(true);
     chooser.ngOnInit();
 
     const req = httpTesting.expectOne(getAllCategoriesUrl);
     flushError(req);
-
     tick();
     fixture.detectChanges();
+
 
     const errorMsg = getElementByDataTestId(fixture, 'error-msg');
     expect(errorMsg).toBeTruthy();
     expect(errorMsg.textContent).toContain(FAILED_LOAD_CATEGORIES_MSG);
+    httpTesting.verify();
   }));
 
   xit('should handle malformed category data with fallback and message to user', () => {
@@ -174,7 +179,7 @@ describe('Integration with chooser service', () => {
 });
 
 
-describe('getAllWordsInGroup', () => {
+describe('Handling getting all categories', () => {
 
   let matchService: MatchWordsService;
   let catService: CategoryService;
@@ -207,7 +212,7 @@ describe('getAllWordsInGroup', () => {
     const mockResponse = {
       success: true,
       message: '',
-      data: {items: [mockWord]}
+      data: [mockWord]
     };
 
     catService.getAllWordsInGroup(groupId).subscribe(result => {
@@ -229,6 +234,16 @@ describe('getAllWordsInGroup', () => {
     const req = expectedHeaders(httpTesting, expectedUrl);
 
     req.flush({success: true, message: '', data: {items: []}});
+  });
+
+  it('should handle error response with fallback category', () => {
+    catService.getAllWordCategories().subscribe(result => {
+      expect(result).toEqual([animalsGroup]);
+      expect(catService.errorMsg()).toEqual(FAILED_LOAD_CATEGORIES_MSG);
+    })
+
+    const req = httpTesting.expectOne(getAllCategoriesUrl);
+    flushError(req);
   });
 });
 

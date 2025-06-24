@@ -14,7 +14,7 @@ import {CategoryService} from '../../../data-access/category.service';
     @if (isVisible()) {
       <div class="app-modal" data-testid="category-chooser-modal">
         <div class="modal-content">
-          @defer (when errorMessage()) {
+          @if (errorMessage()) {
             <div data-testid="error-msg" class="modal-error">
               {{ errorMessage() }}
             </div>
@@ -73,15 +73,6 @@ export class CategoryChooserModalComponent implements OnInit {
     this.catService.getAllWordCategories().subscribe(
       categories => this.availableCategories = categories
     );
-
-  }
-
-
-  setupCategories(): WordGroup[] {
-    if (this.availableCategories.length === 0) {
-      this.availableCategories = [animalsGroup];
-    }
-    return this.availableCategories;
   }
 
   updateChosenCategories(cat: WordGroup[]): void {
