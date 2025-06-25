@@ -48,10 +48,6 @@ describe('handling words flow in creating item', () => {
     expect(matchItems.length).toBe(words.length);
   });
 
-  it('should use item url for image for backend', () => {
-  });
-  it('should create match items from SeeGuru word item', () => {
-  });
   it('should use wiki service as fallback for images', () => {
   });
   xit('should display loader while waiting for images to load', () => {
