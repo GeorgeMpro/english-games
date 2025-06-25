@@ -1,10 +1,12 @@
 import {inject, Injectable, signal} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {catchError, Observable, of} from 'rxjs';
-import {BASE_URL, TOKEN} from '../../environments/environment.local';
-import {API_ENDPOINTS} from './api-endpoints';
-import {ApiResponse, ListData, WordGroup, WordItem} from './api.models';
+
 import {map} from 'rxjs/operators';
+import {catchError, Observable, of} from 'rxjs';
+
+import {ApiResponse, ListData, WordGroup, WordItem} from './api.models';
+import {API_ENDPOINTS} from './api-endpoints';
+import {BASE_URL, TOKEN} from '../../environments/environment.local';
 import {animalsGroup} from '../shared/game-config.constants';
 
 import wordsFromAnimals from './mocks/valid-words-from-animals-category.json'

@@ -8,26 +8,17 @@ import {HttpClient, HttpParams} from '@angular/common/http';
   providedIn: 'root'
 })
 export class WikiService {
-  private readonly apiUrl = 'https://en.wikipedia.org/w/api.php';
+  private readonly apiUrl: string = 'https://en.wikipedia.org/w/api.php';
 
-  constructor(
-    private readonly http: HttpClient,
-  ) {
+  constructor(private readonly http: HttpClient,) {
   }
 
-  // todo cleanup and add doc
-  // getItems(words: string[]): Observable<MatchItem[]> {
-  //   const params = this.buildParams(words);
-  //   return this.http.get<WikiQueryResponse>(this.apiUrl, {params}).pipe(
-  //     map(response => this.mapPagesToItems(response.query.pages)),
-  //     // todo notice: filters items without images without testing
-  //     map(items => items.filter(item => !!item.imageUrl)),
-  //
-  //     // todo keep or remove?
-  //     // catchError(() => of([]))
-  //   );
-  // }
-
+  /**
+   * Fetches Wikipedia page data for an array of words, batching requests to avoid long queries.
+   * Each batch retrieves up to 25 words, and items with failing images are filtered out.
+   * @param words Array of words to search for on Wikipedia.
+   * @returns Observable emitting a flat array of MatchItem objects with image URLs.
+   */
   getItems(words: string[]): Observable<MatchItem[]> {
     // Notice: silent fail when long queries to wikipedia
     const batchSize = 25;

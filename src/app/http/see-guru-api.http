@@ -1,5 +1,17 @@
 
 ### Get token and save it
+POST https://api.see.guru/api/v1/auth/qa
+Content-Type: application/x-www-form-urlencoded
+
+email=george.merenzon@gmail.com&
+password=SHasse@123&
+fingerprint=web-client-default
+
+> {%
+  client.global.set("token", response.body.data.access_token)
+%}
+
+### Get token and save it
 POST {{baseUrl}}/auth/qa
 Content-Type: application/x-www-form-urlencoded
 

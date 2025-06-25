@@ -3,7 +3,7 @@ export interface MatchItem {
   id: number;
   word: string;
   imageUrl: string;
-  wikiUrl: string;
+  wikiUrl?: string;
   matched: boolean;
 }
 

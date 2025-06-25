@@ -16,6 +16,7 @@ import {
 } from '../../../shared/game-config.constants';
 import {WordGroup, WordItem} from '../../../data-access/api.models';
 import {CategoryService} from '../../../data-access/category.service';
+import {ItemConverterService} from '../../../shared/services/item-converter.service';
 
 // todo does too much - split
 @Injectable({providedIn: 'root'})
@@ -27,6 +28,7 @@ export class MatchWordsService {
     private readonly wikiService: WikiService,
     private readonly vocabularyService: VocabularyService,
     private readonly categoryService: CategoryService,
+    private readonly converterService: ItemConverterService,
   ) {
 
   }
@@ -406,7 +408,7 @@ export class MatchWordsService {
     ).subscribe({
         next: (items: MatchItem[]) => {
           this.setGameItems(
-            this.assignUniqueIds(items)
+            this.converterService.assignUniqueIds(items)
           );
           this.initializeGamePlay();
         }
@@ -422,23 +424,5 @@ export class MatchWordsService {
     return this.store.items();
   }
 
-  /**
-   * Assigns unique sequential IDs to a list of MatchItems.
-   *
-   * This function ensures that each MatchItem in the array has a unique `id` field,
-   * regardless of its original value. This is critical when combining items from
-   * multiple categories, where duplicate IDs may exist and cause matching conflicts.
-   *
-   * The new IDs start from 1 and increment by 1 for each item.
-   * All other fields are preserved via object spreading.
-   *
-   * @param items - The array of MatchItem objects (possibly with duplicate IDs).
-   * @returns A new array of MatchItems with unique `id` values assigned.
-   */
-  private assignUniqueIds(items: MatchItem[]): MatchItem[] {
-    return items.map((item, index) => ({
-      ...item,
-      id: index + 1
-    }));
-  }
+
 }
