@@ -262,6 +262,15 @@ describe('Handling getting words from categories', () => {
     flushError(req);
   });
 
+  describe('handling words flow in creating item', () => {
+
+    it('should use item url for image for backend', () => { });
+    it('should create game items from SeeGuru word item', () => { });
+    it('should use wiki service as fallback for images', () => { });
+    xit('should display loader while waiting for images to load', () => { });
+    xit('should ', () => { });
+  });
+
 });
 
 function flushError(req: TestRequest, opts?: {

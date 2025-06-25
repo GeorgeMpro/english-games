@@ -2,36 +2,11 @@
 
 ## Now Active
 
-### Category Button
+### Connecting to backend
 
-- use or create a category service
-- testing
-  - modal harness ?
-- functionality
-  - pop up modal
-    - take 1 or many categories
-    - pass them on
-  - multi select > 0 chosen
-    - pass that to match word service
-- add button
-  - end game modal
-  - landing page of games
-- logic
-  - when single category - only those items
-  - when multiple categories
-    - get all into one array
-    - mix them all ( already have a function for that)
-  - handle not enough items in category
-- start game - after choosing a category
-- add a "mix" words from categories option
-  - mix all categories
-  - mix selected categories
-- ? use ["chips"](https://material.angular.dev/components/chips/examples) for selecting multiple categories for the game.
-
-### SeeGuru Backend
-
+- fallback to wiki when fail to load images from backend
+- loader while loading
 - display read categories from seeguru
-- display My Collection
 - display My Collection
   - if not enough Word On Study - add from new words
 
@@ -59,7 +34,9 @@
 
 - when offline but has items shows error message - cannot get items - clean this up
   - disable/don't display
-- central error handling
+- interceptor - central error handling
+  - error message component?
+  - error for modal and error in general by context
 - backend error
 - server error
 - error message service

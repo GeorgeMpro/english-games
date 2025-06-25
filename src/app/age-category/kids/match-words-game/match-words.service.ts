@@ -394,6 +394,8 @@ export class MatchWordsService {
 
   }
 
+  // todo update to use the real backend
+  // todo add a fallback to use wiki
   startGameFromChosenCategories() {
     // todo extract subscribe for all init funcs here
     // todo update to word item
