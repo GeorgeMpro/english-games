@@ -67,6 +67,7 @@ export class CategoryService {
       .pipe(
         map(res => res.data),
         catchError(err => {
+          // todo pass error?
           console.error(FAILED_LOAD_WORDS_MSG);
           return of(wordsFromAnimals.data)
         })

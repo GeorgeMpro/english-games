@@ -44,6 +44,7 @@ export class MatchWordsService {
    * @param category - The category of items to fetch.
    * @returns An observable that emits `true` on success or `false` on failure.
    */
+  // todo update to current backend
   initializeGameData(category: Category): Observable<boolean> {
     return this.fetchItemsByCategory(category).pipe(
       take(1),

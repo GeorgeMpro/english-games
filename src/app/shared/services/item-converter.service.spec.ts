@@ -48,10 +48,4 @@ describe('handling words flow in creating item', () => {
     expect(matchItems.length).toBe(words.length);
   });
 
-  it('should use wiki service as fallback for images', () => {
-  });
-  xit('should display loader while waiting for images to load', () => {
-  });
-  xit('should ', () => {
-  });
 });
