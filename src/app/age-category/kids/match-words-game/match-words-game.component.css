@@ -141,6 +141,9 @@
   object-position: center;
   display: block;
 }
+.image-card.selected {
+  border-color: var(--color-accent);
+}
 
 /*todo extract*/
 .state-placeholder {
