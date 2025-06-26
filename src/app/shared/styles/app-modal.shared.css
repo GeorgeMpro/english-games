@@ -94,3 +94,29 @@
     0 0 10px #fdd835;
   }
 }
+
+
+/*Mat Chips*/
+.modal-content mat-chip-listbox {
+  min-height: 200px;
+}
+
+:host ::ng-deep .mat-mdc-chip .mdc-evolution-chip__text-label {
+  font-size: 18px !important;
+}
+
+/* Mat Paginator*/
+:host ::ng-deep .mat-mdc-paginator-container {
+  justify-content: center !important;
+}
+
+:host ::ng-deep .mat-mdc-paginator-navigation {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+:host ::ng-deep .mat-mdc-paginator-page-size,
+:host ::ng-deep .mat-mdc-paginator-range-label {
+  display: none;
+}

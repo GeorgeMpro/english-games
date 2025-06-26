@@ -1,6 +1,8 @@
-import {Component, QueryList, ViewChildren, signal, output, OnInit, computed, effect} from '@angular/core';
+import {Component, QueryList, ViewChildren, signal, output, OnInit, effect, ViewChild, computed} from '@angular/core';
+
 import {MatChipListbox, MatChipOption} from '@angular/material/chips';
-import {animalsGroup} from '../../game-config.constants';
+import {MatPaginator, PageEvent} from '@angular/material/paginator';
+
 import {WordGroup} from '../../../data-access/api.models';
 import {CategoryService} from '../../../data-access/category.service';
 
@@ -8,7 +10,8 @@ import {CategoryService} from '../../../data-access/category.service';
   selector: 'app-category-chooser-modal',
   imports: [
     MatChipListbox,
-    MatChipOption
+    MatChipOption,
+    MatPaginator,
   ],
   template: `
     @if (isVisible()) {
@@ -20,7 +23,7 @@ import {CategoryService} from '../../../data-access/category.service';
             </div>
           }
           <mat-chip-listbox [multiple]="true">
-            @for (category of availableCategories; track category) {
+            @for (category of currentPageCategories(); track category) {
               <mat-chip-option
                 [selected]="chosenCategories().includes(category)"
                 [attr.data-testid]="'category-'+ category"
@@ -30,6 +33,14 @@ import {CategoryService} from '../../../data-access/category.service';
               </mat-chip-option>
             }
           </mat-chip-listbox>
+
+          <mat-paginator
+            [length]="availableCategories.length"
+            [pageSize]="PAGE_SIZE"
+            [hidePageSize]="true"
+            [pageSizeOptions]="[]"
+            (page)="onPageChange($event)">
+          </mat-paginator>
 
           <button data-testid="cancel-button"
                   (click)="onCancelClick()">
@@ -49,17 +60,28 @@ import {CategoryService} from '../../../data-access/category.service';
 })
 export class CategoryChooserModalComponent implements OnInit {
 
+  readonly PAGE_SIZE: number = 13;
+  readonly currentPage = signal(0);
+  readonly currentPageCategories = computed(() =>
+    this.availableCategories.slice(
+      this.currentPage() * this.PAGE_SIZE,
+      (this.currentPage() + 1) * this.PAGE_SIZE
+    )
+  );
+
   readonly errorMessage = signal<string | null>(null);
 
   availableCategories: WordGroup[] = [];
 
   readonly chosenCategories = signal<WordGroup[]>([]);
+
   readonly isVisible = signal<boolean>(false);
   readonly isOkEnabled = signal(false);
-
   submit = output<WordGroup[]>();
 
   @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
+
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
 
   constructor(private catService: CategoryService) {
     effect(() => {
@@ -73,6 +95,10 @@ export class CategoryChooserModalComponent implements OnInit {
     this.catService.getAllWordCategories().subscribe(
       categories => this.availableCategories = categories
     );
+  }
+
+  onPageChange(event: PageEvent): void {
+    this.currentPage.set(event.pageIndex);
   }
 
   updateChosenCategories(cat: WordGroup[]): void {
@@ -115,7 +141,6 @@ export class CategoryChooserModalComponent implements OnInit {
 
     this.submittedCategories(selected);
 
-    // emit the event
     this.submit.emit(selected);
 
     this.isVisible.set(false);

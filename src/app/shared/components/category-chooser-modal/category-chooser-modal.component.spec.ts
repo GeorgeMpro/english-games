@@ -9,14 +9,12 @@ import {CategoryChooserModalComponent} from './category-chooser-modal.component'
 import {
   animalsGroup, colorsGroup,
   DEFAULT_CATEGORIES,
-  DEFAULT_CATEGORY,
-  ERROR_CATEGORIES_MESSAGE, sportsGroup
+  sportsGroup
 } from '../../game-config.constants';
 import {getElementByDataTestId} from '../../tests/dom-test-utils';
 import {WordGroup} from '../../../data-access/api.models';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-import {FAILED_LOAD_CATEGORIES_MSG} from '../../../data-access/category.service';
 
 
 describe('Functionality', () => {
@@ -36,6 +34,7 @@ describe('Functionality', () => {
 
     fixture = TestBed.createComponent(CategoryChooserModalComponent);
     component = fixture.componentInstance;
+    component.availableCategories = fakeCategories; // <-- Ensure this is set
     component.isVisible.set(true);
     fixture.detectChanges();
   });
@@ -150,6 +149,28 @@ describe('Functionality', () => {
         // Internal state should NOT be updated yet
         expect(component.chosenCategories()).toEqual([]);
       });
+
+
+    });
+
+    describe('Pagination and chips', () => {
+      //   todo after adding pagination
+      it('should keep temp copy of selected chips between pages', async () => {
+
+      });
+
+      xit('should clear temp chips on new game', () => {
+
+      });
+
+      xit('should clear all selections when reset is called');
+
+      xit('should persist selections when navigating back and forth');
+      xit('should enable/disable OK button based on selections across pages');
+
+      xit('should handle edge case of no selections with pagination navigation');
+
+      xit('should emit selected categories correctly on New Game click');
 
     });
 

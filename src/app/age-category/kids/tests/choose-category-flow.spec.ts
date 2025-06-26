@@ -37,6 +37,7 @@ describe('Choose category flow', () => {
       fixture = TestBed.createComponent(EndGameModalComponent);
       fixture.detectChanges();
 
+
       chooseBtn = getElementByDataTestId(fixture, 'choose-button');
     });
 

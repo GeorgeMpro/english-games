@@ -76,16 +76,17 @@ export function simulateButtonClick(fixture: ComponentFixture<any>, dataTestId: 
 
 export async function triggerNewGameWithSelectedCategories(
   fixture: ComponentFixture<MatchWordsGameComponent>,
-  ancestorTestId: string) {
-  // set available categories
+  ancestorTestId: string
+) {
   const modalInstance = setupOpenChosenCategoryModal(fixture);
 
   modalInstance.availableCategories = DEFAULT_CATEGORIES;
   fixture.detectChanges();
-
-  await toggleAllChips(fixture, ancestorTestId);
+  await fixture.whenStable(); // Ensure chips are rendered
 
   const spy = spyOn(fixture.componentInstance, 'onNewGameWithCategories').and.callThrough();
+
+  await toggleAllChips(fixture, ancestorTestId);
   clickButtonByTestId(fixture, 'new-categories-game-button');
 
   return {modalInstance, spy};

@@ -1,4 +1,4 @@
-import {WordItem} from '../api.models';
+import {WordItem} from '../../../../data-access/api.models';
 
 export const mockWord: WordItem = {
   id: 1,

@@ -2,7 +2,7 @@ import {TestBed} from '@angular/core/testing';
 
 import {ItemConverterService} from './item-converter.service';
 
-import wordsFromAnimals from '../../data-access/mocks/valid-words-from-animals-category.json';
+import wordsFromAnimals from '../../age-category/kids/tests/mocks/valid-words-from-animals-category.json';
 
 describe('handling words flow in creating item', () => {
   let conService: ItemConverterService;

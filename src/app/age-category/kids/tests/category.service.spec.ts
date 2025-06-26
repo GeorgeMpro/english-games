@@ -2,18 +2,18 @@ import {provideHttpClient} from '@angular/common/http';
 import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
 import {HttpTestingController, provideHttpClientTesting, TestRequest} from '@angular/common/http/testing';
 
-import {CategoryService, FAILED_LOAD_CATEGORIES_MSG, FAILED_LOAD_WORDS_MSG} from './category.service';
+import {CategoryService, FAILED_LOAD_CATEGORIES_MSG, FAILED_LOAD_WORDS_MSG} from '../../../data-access/category.service';
 
-import {BASE_URL} from '../../environments/environment.local';
-import {API_ENDPOINTS} from './api-endpoints';
+import {BASE_URL} from '../../../../environments/environment.local';
+import {API_ENDPOINTS} from '../../../data-access/api-endpoints';
 import validWordGroupResponse from './mocks/valid-word-groups.json';
 import {
   CategoryChooserModalComponent
-} from '../shared/components/category-chooser-modal/category-chooser-modal.component';
-import {MatchWordsService} from '../age-category/kids/match-words-game/match-words.service';
+} from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
+import {MatchWordsService} from '../match-words-game/match-words.service';
 import {mockWord} from './mocks/mock-data';
-import {getElementByDataTestId} from '../shared/tests/dom-test-utils';
-import {animalsGroup} from '../shared/game-config.constants';
+import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
+import {animalsGroup} from '../../../shared/game-config.constants';
 import wordsFromAnimals from './mocks/valid-words-from-animals-category.json'
 
 const getAllCategoriesUrl: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;

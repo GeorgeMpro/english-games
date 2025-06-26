@@ -7,9 +7,9 @@ import {catchError, Observable, of} from 'rxjs';
 import {ApiResponse, ListData, WordGroup, WordItem} from './api.models';
 import {API_ENDPOINTS} from './api-endpoints';
 import {BASE_URL, TOKEN} from '../../environments/environment.local';
-import {animalsGroup} from '../shared/game-config.constants';
+import {DEFAULT_CATEGORY} from '../shared/game-config.constants';
 
-import wordsFromAnimals from './mocks/valid-words-from-animals-category.json'
+import wordsFromAnimals from '../age-category/kids/tests/mocks/valid-words-from-animals-category.json'
 
 // todo move to msg comp or interceptor
 export const FAILED_LOAD_CATEGORIES_MSG = "Couldn't load categories. Please try again later.";
@@ -50,7 +50,7 @@ export class CategoryService {
         catchError(err => {
           this.errorMsg.set(FAILED_LOAD_CATEGORIES_MSG);
           console.error(FAILED_LOAD_CATEGORIES_MSG, err);
-          return of([animalsGroup]);
+          return of([DEFAULT_CATEGORY]);
         })
       );
 

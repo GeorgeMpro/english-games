@@ -12,6 +12,10 @@ import {WikiService} from '../../../shared/services/wiki.service';
 import {provideRouter} from '@angular/router';
 import {MatchItem} from '../../../shared/models/kids.models';
 import {provideHttpClient} from '@angular/common/http';
+import {CategoryService} from '../../../data-access/category.service';
+import {DEFAULT_CATEGORIES} from '../../../shared/game-config.constants';
+import wordsFromAnimals from './mocks/valid-words-from-animals-category.json'
+import {signal} from '@angular/core';
 
 const baseProviders = [
   MatchWordsStore,
@@ -53,6 +57,13 @@ export async function setupMatchComponent
 }
 
 export async function setupMatchWordComponent() {
+
+  const mockCategoryService = {
+    getAllWordCategories: () => of(DEFAULT_CATEGORIES),
+    getAllWordsInGroup: (groupId: number) => of(wordsFromAnimals.data),
+    errorMsg: signal(null)
+  };
+
   const moduleDef = {
     imports: [
       MatchWordsGameComponent,
@@ -71,7 +82,8 @@ export async function setupMatchWordComponent() {
       {
         provide: WikiService,
         useValue: {getItems: () => of(structuredClone(matchItems))}
-      }
+      },
+      {provide: CategoryService, useValue: mockCategoryService}
     ],
     deferBlockBehavior: DeferBlockBehavior.Manual,
   };
