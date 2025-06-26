@@ -6,15 +6,17 @@ import {HarnessLoader} from '@angular/cdk/testing';
 import {MatChipOptionHarness} from '@angular/material/chips/testing';
 
 import {CategoryChooserModalComponent} from './category-chooser-modal.component';
-import {
-  animalsGroup, colorsGroup,
-  DEFAULT_CATEGORIES,
-  sportsGroup
-} from '../../game-config.constants';
 import {getElementByDataTestId} from '../../tests/dom-test-utils';
 import {WordGroup} from '../../../data-access/api.models';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
+import {
+  animalsGroup, colorsGroup,
+  DEFAULT_CATEGORIES, DEFAULT_PAGINATION_NUMBER_OF_ITEMS,
+  sportsGroup
+} from '../../game-config.constants';
+import validCategoriesMock from '../../../age-category/kids/tests/mocks/valid-word-groups.json'
+import {MatPaginatorHarness} from '@angular/material/paginator/testing';
 
 
 describe('Functionality', () => {
@@ -153,26 +155,6 @@ describe('Functionality', () => {
 
     });
 
-    describe('Pagination and chips', () => {
-      //   todo after adding pagination
-      it('should keep temp copy of selected chips between pages', async () => {
-
-      });
-
-      xit('should clear temp chips on new game', () => {
-
-      });
-
-      xit('should clear all selections when reset is called');
-
-      xit('should persist selections when navigating back and forth');
-      xit('should enable/disable OK button based on selections across pages');
-
-      xit('should handle edge case of no selections with pagination navigation');
-
-      xit('should emit selected categories correctly on New Game click');
-
-    });
 
     describe('New Categories Game and Cancel', () => {
       const newCtgGameBtnId = "new-categories-game-button";
@@ -250,6 +232,75 @@ describe('Functionality', () => {
 
   });
 });
+
+describe('Pagination and chips', () => {
+  const allCategoriesMock: WordGroup[] = validCategoriesMock.data.items;
+
+  let component: CategoryChooserModalComponent;
+  let fixture: ComponentFixture<CategoryChooserModalComponent>;
+  let loader: HarnessLoader;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [CategoryChooserModalComponent],
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    })
+      .compileComponents();
+
+    fixture = TestBed.createComponent(CategoryChooserModalComponent);
+    component = fixture.componentInstance;
+    component.availableCategories = allCategoriesMock;
+    component.isVisible.set(true);
+    loader = TestbedHarnessEnvironment.loader(fixture);
+    fixture.detectChanges();
+  });
+
+  it('should keep temp copy of selected chips between pages', async () => {
+    const chips: MatChipOptionHarness[] = await loader.getAllHarnesses(MatChipOptionHarness);
+    const labels = await Promise.all(chips.map(chip => chip.getText()));
+
+    const paginator: MatPaginatorHarness = await loader.getHarness(MatPaginatorHarness.with({selector: '[data-testid="chips-paginator"]'}));
+
+
+    expect(chips.length)
+      .withContext('should display default number of items per page')
+      .toBe(DEFAULT_PAGINATION_NUMBER_OF_ITEMS);
+
+    await chips[0].select();
+    await chips[1].select();
+
+    // change page
+    await paginator.goToNextPage();
+
+    await paginator.goToPreviousPage();
+
+    //   todo
+    //    select chip/s
+    //    move page
+    //     >>
+    //     > <
+    //    expect stay selected ( temp?)
+
+  });
+
+  xit('should clear temp chips on new game', () => {
+
+  });
+
+  xit('should clear all selections when reset is called');
+
+  xit('should persist selections when navigating back and forth');
+  xit('should enable/disable OK button based on selections across pages');
+
+  xit('should handle edge case of no selections with pagination navigation');
+
+  xit('should emit selected categories correctly on New Game click');
+
+});
+
 
 function expectUpdated(component: CategoryChooserModalComponent, catUpdate: WordGroup[], expected: WordGroup[]): void {
   component.updateChosenCategories(catUpdate);

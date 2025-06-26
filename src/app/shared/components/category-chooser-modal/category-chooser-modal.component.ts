@@ -1,15 +1,15 @@
 import {Component, QueryList, ViewChildren, signal, output, OnInit, effect, ViewChild, computed} from '@angular/core';
 
-import {MatChipListbox, MatChipOption} from '@angular/material/chips';
+import { MatChipOption} from '@angular/material/chips';
 import {MatPaginator, PageEvent} from '@angular/material/paginator';
 
 import {WordGroup} from '../../../data-access/api.models';
 import {CategoryService} from '../../../data-access/category.service';
+import {DEFAULT_PAGINATION_NUMBER_OF_ITEMS} from '../../game-config.constants';
 
 @Component({
   selector: 'app-category-chooser-modal',
   imports: [
-    MatChipListbox,
     MatChipOption,
     MatPaginator,
   ],
@@ -22,19 +22,21 @@ import {CategoryService} from '../../../data-access/category.service';
               {{ errorMessage() }}
             </div>
           }
-          <mat-chip-listbox [multiple]="true">
-            @for (category of currentPageCategories(); track category) {
+          <!--         Notice: <mat-chip-listbox> breaks consistency with pagination-->
+          <div class="chip-row">
+            @for (category of currentPageCategories(); track category.id) {
               <mat-chip-option
-                [selected]="chosenCategories().includes(category)"
-                [attr.data-testid]="'category-'+ category"
-                [value]="category"
-                (selectionChange)="onSelectionChange()">
+                [selected]="selectedIds().has(category.id)"
+                [attr.data-testid]="'category-'+ category.id"
+                [value]="category.id"
+                (selectionChange)="onChipToggle(category.id, $event.selected)">
                 {{ category.title }}
               </mat-chip-option>
             }
-          </mat-chip-listbox>
+          </div>
 
           <mat-paginator
+            data-testid="chips-paginator"
             [length]="availableCategories.length"
             [pageSize]="PAGE_SIZE"
             [hidePageSize]="true"
@@ -60,7 +62,7 @@ import {CategoryService} from '../../../data-access/category.service';
 })
 export class CategoryChooserModalComponent implements OnInit {
 
-  readonly PAGE_SIZE: number = 13;
+  readonly PAGE_SIZE: number = DEFAULT_PAGINATION_NUMBER_OF_ITEMS;
   readonly currentPage = signal(0);
   readonly currentPageCategories = computed(() =>
     this.availableCategories.slice(
@@ -68,6 +70,7 @@ export class CategoryChooserModalComponent implements OnInit {
       (this.currentPage() + 1) * this.PAGE_SIZE
     )
   );
+  readonly selectedIds = signal<Set<number>>(new Set());
 
   readonly errorMessage = signal<string | null>(null);
 
@@ -97,6 +100,25 @@ export class CategoryChooserModalComponent implements OnInit {
     );
   }
 
+  onChipToggle(categoryId: number, selected: boolean): void {
+    const ids = new Set(this.selectedIds());
+    selected ? ids.add(categoryId) : ids.delete(categoryId);
+    this.selectedIds.set(ids);
+    this.isOkEnabled.set(ids.size > 0);
+  }
+
+  onNewCategoriesGameClick(): void {
+    const selected = this.availableCategories.filter(cat => this.selectedIds().has(cat.id));
+    this.submit.emit(selected);
+    this.isVisible.set(false);
+    this.selectedIds.set(new Set()); // Optionally reset
+  }
+
+  resetChosenCategories(): void {
+    this.selectedIds.set(new Set());
+    this.isOkEnabled.set(false);
+  }
+
   onPageChange(event: PageEvent): void {
     this.currentPage.set(event.pageIndex);
   }
@@ -115,10 +137,6 @@ export class CategoryChooserModalComponent implements OnInit {
     return this.chosenCategories();
   }
 
-  resetChosenCategories(): void {
-    this.chosenCategories.set([]);
-    this.isOkEnabled.set(false);
-  }
 
   submittedCategories(chosenCat: WordGroup | WordGroup[]): void {
     const catArr = Array.isArray(chosenCat) ? chosenCat : [chosenCat];
@@ -129,22 +147,6 @@ export class CategoryChooserModalComponent implements OnInit {
     this.updateChosenCategories(selectedWordGroups);
   }
 
-  onSelectionChange(): void {
-    const anySelected = this.chips?.toArray().some(chip => chip.selected) ?? false;
-    this.isOkEnabled.set(anySelected);
-  }
-
-  onNewCategoriesGameClick(): void {
-    const selected = this.chips.toArray()
-      .filter(chip => chip.selected)
-      .map(chip => chip.value);
-
-    this.submittedCategories(selected);
-
-    this.submit.emit(selected);
-
-    this.isVisible.set(false);
-  }
 
   onCancelClick() {
     this.isVisible.set(false);

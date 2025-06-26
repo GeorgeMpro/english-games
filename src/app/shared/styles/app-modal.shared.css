@@ -97,8 +97,13 @@
 
 
 /*Mat Chips*/
-.modal-content mat-chip-listbox {
-  min-height: 200px;
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1em 0.3em;
+  justify-content: left;
+  margin-bottom: 1.0em;
+  min-height: 210px; /* for stable layout */
 }
 
 :host ::ng-deep .mat-mdc-chip .mdc-evolution-chip__text-label {
