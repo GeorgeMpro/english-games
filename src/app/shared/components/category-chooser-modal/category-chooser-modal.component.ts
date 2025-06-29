@@ -1,6 +1,6 @@
 import {Component, QueryList, ViewChildren, signal, output, OnInit, effect, ViewChild, computed} from '@angular/core';
 
-import { MatChipOption} from '@angular/material/chips';
+import {MatChipOption} from '@angular/material/chips';
 import {MatPaginator, PageEvent} from '@angular/material/paginator';
 
 import {WordGroup} from '../../../data-access/api.models';
@@ -63,23 +63,15 @@ import {DEFAULT_PAGINATION_NUMBER_OF_ITEMS} from '../../game-config.constants';
 export class CategoryChooserModalComponent implements OnInit {
 
   readonly PAGE_SIZE: number = DEFAULT_PAGINATION_NUMBER_OF_ITEMS;
-  readonly currentPage = signal(0);
-  readonly currentPageCategories = computed(() =>
-    this.availableCategories.slice(
-      this.currentPage() * this.PAGE_SIZE,
-      (this.currentPage() + 1) * this.PAGE_SIZE
-    )
-  );
-  readonly selectedIds = signal<Set<number>>(new Set());
-
-  readonly errorMessage = signal<string | null>(null);
-
   availableCategories: WordGroup[] = [];
 
-  readonly chosenCategories = signal<WordGroup[]>([]);
-
+  readonly currentPage = signal(0);
+  readonly selectedIds = signal<Set<number>>(new Set());
+  readonly errorMessage = signal<string | null>(null);
   readonly isVisible = signal<boolean>(false);
   readonly isOkEnabled = signal(false);
+  readonly currentPageCategories = computed(() => this.currentPageCategoriesSlice());
+
   submit = output<WordGroup[]>();
 
   @ViewChildren(MatChipOption) chips!: QueryList<MatChipOption>;
@@ -88,9 +80,7 @@ export class CategoryChooserModalComponent implements OnInit {
 
   constructor(private catService: CategoryService) {
     effect(() => {
-      this.errorMessage.set(
-        this.catService.errorMsg()
-      );
+      this.errorMessage.set(this.catService.errorMsg());
     });
   }
 
@@ -98,6 +88,13 @@ export class CategoryChooserModalComponent implements OnInit {
     this.catService.getAllWordCategories().subscribe(
       categories => this.availableCategories = categories
     );
+  }
+
+  private currentPageCategoriesSlice(): WordGroup[] {
+    return this.availableCategories.slice(
+      this.currentPage() * this.PAGE_SIZE,
+      (this.currentPage() + 1) * this.PAGE_SIZE
+    )
   }
 
   onChipToggle(categoryId: number, selected: boolean): void {
@@ -123,31 +120,6 @@ export class CategoryChooserModalComponent implements OnInit {
     this.currentPage.set(event.pageIndex);
   }
 
-  updateChosenCategories(cat: WordGroup[]): void {
-    if (cat.length !== 0) {
-      this.chosenCategories.set(
-        Array.from(
-          new Map(cat.map(c => [c.id, c])).values()
-        ) as WordGroup[]
-      );
-    }
-  }
-
-  getChosenCategories(): WordGroup[] {
-    return this.chosenCategories();
-  }
-
-
-  submittedCategories(chosenCat: WordGroup | WordGroup[]): void {
-    const catArr = Array.isArray(chosenCat) ? chosenCat : [chosenCat];
-    // Convert string[] to WordGroup[] by matching titles in availableCategories
-    const selectedWordGroups = this.availableCategories.filter(cat =>
-      catArr.includes(cat)
-    );
-    this.updateChosenCategories(selectedWordGroups);
-  }
-
-
   onCancelClick() {
     this.isVisible.set(false);
   }
@@ -163,4 +135,7 @@ export class CategoryChooserModalComponent implements OnInit {
 
 //   TODO
 //    add disabled css to the OK button when the button is disabled to notify the user
+  getChosenCategories(): WordGroup[] {
+    return this.availableCategories.filter(category => this.selectedIds().has(category.id));
+  }
 }

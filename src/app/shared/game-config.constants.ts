@@ -8,7 +8,7 @@ export const DEFAULT_TOTAL_ITEMS = DEFAULT_STAGE_COUNT * DEFAULT_ITEMS_PER_STAGE
 export const MATCH_RESET_TIMEOUT_DELAY = 300;
 
 // chooser and categories
-export const DEFAULT_PAGINATION_NUMBER_OF_ITEMS = 13;
+export const DEFAULT_PAGINATION_NUMBER_OF_ITEMS = 11;
 
 //todo move to error
 export const ERROR_CATEGORIES_MESSAGE = 'Could not load categories.';

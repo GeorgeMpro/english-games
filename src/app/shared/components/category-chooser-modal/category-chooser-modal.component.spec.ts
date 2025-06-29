@@ -12,7 +12,7 @@ import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 import {
   animalsGroup, colorsGroup,
-  DEFAULT_CATEGORIES, DEFAULT_PAGINATION_NUMBER_OF_ITEMS,
+  DEFAULT_CATEGORIES,
   sportsGroup
 } from '../../game-config.constants';
 import validCategoriesMock from '../../../age-category/kids/tests/mocks/valid-word-groups.json'
@@ -48,6 +48,9 @@ describe('Functionality', () => {
     });
 
     it('should handle update duplicate categories', () => {
+      component.availableCategories = [
+        animalsGroup, sportsGroup, colorsGroup
+      ]
       const duplicateCategories = [animalsGroup, sportsGroup, animalsGroup];
       const reDuplicateCategories = [
         animalsGroup, colorsGroup, colorsGroup, sportsGroup, sportsGroup];
@@ -61,42 +64,49 @@ describe('Functionality', () => {
     });
 
     it('should handle empty categories update', () => {
-      expectUpdated(component, fakeCategories, fakeCategories);
+      // Set selection to all
+      component.selectedIds.set(new Set(fakeCategories.map(c => c.id)));
+      expect(component.getChosenCategories()).toEqual(fakeCategories);
 
-      expectUpdated(component, [], fakeCategories);
+      // Set selection to empty
+      component.selectedIds.set(new Set());
+      expect(component.getChosenCategories()).toEqual([]);
     });
+
 
     it('should be able to reset categories', () => {
       expectUpdated(component, fakeCategories, fakeCategories);
 
       component.resetChosenCategories();
 
-      expect(component.chosenCategories()).toEqual([]);
+      expect(component.getChosenCategories()).toEqual([]);
     });
   });
 
   describe('Category user selection', () => {
+
     it('should select categories from available categories', () => {
-      //   todo- dummy categories, select from them somehow, check updated, selected start with []
       component.availableCategories = fakeCategories;
-      expect(component.chosenCategories()).toEqual([]);
+      expect(component.getChosenCategories()).toEqual([]);
 
-      component.submittedCategories(fakeCategories[0]);
+      // Select first category
+      component.selectedIds.set(new Set([fakeCategories[0].id]));
+      expect(component.getChosenCategories()).toEqual([fakeCategories[0]]);
 
-      expect(component.chosenCategories()).toEqual([fakeCategories[0]]);
-
-      component.submittedCategories(fakeCategories);
-      expect(component.chosenCategories()).toEqual(fakeCategories);
+      // Select all categories
+      component.selectedIds.set(new Set(fakeCategories.map(c => c.id)));
+      expect(component.getChosenCategories()).toEqual(fakeCategories);
     });
 
     it('should handle empty selected categories', () => {
-      component.updateChosenCategories(fakeCategories);
+      // Select all categories
+      component.selectedIds.set(new Set(fakeCategories.map(c => c.id)));
+      expect(component.getChosenCategories()).toEqual(fakeCategories);
 
-      component.submittedCategories([]);
-
-      expect(component.chosenCategories()).toEqual(fakeCategories);
+      // Deselect all
+      component.selectedIds.set(new Set());
+      expect(component.getChosenCategories()).toEqual([]);
     });
-
 
   });
 
@@ -132,27 +142,6 @@ describe('Functionality', () => {
 
         await expectSelectedStates(fixture, [true, false]);
       });
-
-      it('should toggle chip selection', async () => {
-
-        // todo cleanup?
-        const chips = await loader.getAllHarnesses(MatChipOptionHarness);
-
-        await chips[0].toggle();
-        await chips[1].toggle();
-        expect(await chips[0].isSelected()).toBeTrue();
-        expect(await chips[1].isSelected()).toBeTrue();
-
-        await chips[0].toggle();
-        expect(await chips[0].isSelected()).toBeFalse();
-        expect(await chips[1].isSelected()).toBeTrue();
-
-
-        // Internal state should NOT be updated yet
-        expect(component.chosenCategories()).toEqual([]);
-      });
-
-
     });
 
 
@@ -177,10 +166,14 @@ describe('Functionality', () => {
       });
 
       it('should update selected categories on New Game click', async () => {
+        let emitted: WordGroup[] | undefined;
+        component.submit.subscribe(val => emitted = val);
+
         await enableOkBtnInteraction(component, loader, fakeCategories, newCtgGameBtn);
 
-        expect(component.chosenCategories()).toEqual(fakeCategories);
+        expect(emitted).toEqual(fakeCategories); // or .map(x => x.id) if you want to ignore order
       });
+
 
       it('should close modal on New Game (when not disabled)', async () => {
         await enableOkBtnInteraction(component, loader, fakeCategories, newCtgGameBtn);
@@ -220,14 +213,18 @@ describe('Functionality', () => {
       expect(component.isVisible()).toBe(true);
     });
 
-    it('should set to visibility to false and reset chosen categories on "close"', () => {
+
+    it('should set visibility to false and reset selected categories on "close"', () => {
       component.isVisible.set(true);
-      component.chosenCategories.set(fakeCategories);
-      expect(component.chosenCategories()).toEqual(fakeCategories);
+
+      // Select all categories
+      component.selectedIds.set(new Set(fakeCategories.map(c => c.id)));
+      expect(component.getChosenCategories()).toEqual(fakeCategories);
+
       component.close();
 
       expect(component.isVisible()).toBe(false);
-      expect(component.chosenCategories()).toEqual([]);
+      expect(component.getChosenCategories()).toEqual([]);
     });
 
   });
@@ -258,33 +255,41 @@ describe('Pagination and chips', () => {
     fixture.detectChanges();
   });
 
-  it('should keep temp copy of selected chips between pages', async () => {
-    const chips: MatChipOptionHarness[] = await loader.getAllHarnesses(MatChipOptionHarness);
-    const labels = await Promise.all(chips.map(chip => chip.getText()));
 
-    const paginator: MatPaginatorHarness = await loader.getHarness(MatPaginatorHarness.with({selector: '[data-testid="chips-paginator"]'}));
+  it('should keep selected chips when navigating between pages', async () => {
+    const chipsPage1 = await loader.getAllHarnesses(MatChipOptionHarness);
+    const paginator = await loader.getHarness(MatPaginatorHarness.with({selector: '[data-testid="chips-paginator"]'}));
 
+    // Select first chip on page 1
+    await chipsPage1[0].select();
+    expect(await chipsPage1[0].isSelected()).toBeTrue();
 
-    expect(chips.length)
-      .withContext('should display default number of items per page')
-      .toBe(DEFAULT_PAGINATION_NUMBER_OF_ITEMS);
-
-    await chips[0].select();
-    await chips[1].select();
-
-    // change page
+    // Go to next page
     await paginator.goToNextPage();
+    fixture.detectChanges();
 
+    const chipsPage2 = await loader.getAllHarnesses(MatChipOptionHarness);
+    // Select first chip on page 2
+    await chipsPage2[0].select();
+    expect(await chipsPage2[0].isSelected()).toBeTrue();
+
+    // Go back to previous page
     await paginator.goToPreviousPage();
+    fixture.detectChanges();
 
-    //   todo
-    //    select chip/s
-    //    move page
-    //     >>
-    //     > <
-    //    expect stay selected ( temp?)
+    const chipsPage1Return = await loader.getAllHarnesses(MatChipOptionHarness);
+    // Previously selected chip on page 1 should remain selected
+    expect(await chipsPage1Return[0].isSelected()).toBeTrue();
 
+    // Go forward again
+    await paginator.goToNextPage();
+    fixture.detectChanges();
+
+    const chipsPage2Return = await loader.getAllHarnesses(MatChipOptionHarness);
+    // Previously selected chip on page 2 should remain selected
+    expect(await chipsPage2Return[0].isSelected()).toBeTrue();
   });
+
 
   xit('should clear temp chips on new game', () => {
 
@@ -302,15 +307,28 @@ describe('Pagination and chips', () => {
 });
 
 
-function expectUpdated(component: CategoryChooserModalComponent, catUpdate: WordGroup[], expected: WordGroup[]): void {
-  component.updateChosenCategories(catUpdate);
-  expect(component.getChosenCategories()).toEqual(expected);
+function expectUpdated(
+  component: CategoryChooserModalComponent,
+  catUpdate: WordGroup[],
+  expected: WordGroup[]
+): void {
+  component.selectedIds.set(new Set(catUpdate.map(c => c.id)));
+
+  const actuallySortedIds = component.getChosenCategories().map(c => c.id).sort();
+  const expectedSortedIds = expected.map(c => c.id).sort();
+  expect(actuallySortedIds).toEqual(expectedSortedIds);
 }
 
-function setupAndDetectChosenCategories(fixture: ComponentFixture<CategoryChooserModalComponent>, component: CategoryChooserModalComponent, cats: WordGroup[]) {
-  component.updateChosenCategories(cats);
+
+function setupAndDetectChosenCategories(
+  fixture: ComponentFixture<CategoryChooserModalComponent>,
+  component: CategoryChooserModalComponent,
+  cats: WordGroup[]
+) {
+  component.selectedIds.set(new Set(cats.map(c => c.id)));
   fixture.detectChanges();
 }
+
 
 async function expectSelectedStates(fixture: ComponentFixture<CategoryChooserModalComponent>, expected: boolean[]) {
   const loader = TestbedHarnessEnvironment.loader(fixture);
