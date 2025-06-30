@@ -35,6 +35,9 @@ export class MatchWordsGameComponent implements OnInit {
   readonly currentStage;
   readonly gameOver;
 
+  // todo
+  allImagesLoaded = signal<boolean>(false);
+
   readonly numberOfStages = DEFAULT_STAGE_COUNT;
 
   @ViewChild(CategoryChooserModalComponent, {static: true})
@@ -70,7 +73,6 @@ export class MatchWordsGameComponent implements OnInit {
       }
     });
   }
-
 
   ngOnInit(): void {
     this.matchWordService.initializeGameData(animalsGroup).subscribe(() => {

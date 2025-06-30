@@ -25,47 +25,62 @@
     }
 
     @if (!gameOver()) {
-      <div class="boards"
-           data-testid="game-grid">
-        <div class="words-board">
-          @for (word of words(); track word.id; let index = $index) {
-            <div class="card word-card"
-                 data-testid="word-card"
-                 [style.--index]="index + 1"
-                 [class.selected]="word.id === selectedWordId()"
-                 [class.matched]="word.matched"
-                 (click)="onSelectWord(word)">
-              {{ word.text }}
-            </div>
-          }
+      @if (!allImagesLoaded()) {
+        <div class="boards" data-testid="game-grid">
+          <div class="words-board">
+            @for (word of words(); track word.id) {
+              <div class="card-placeholder word" data-testid="card-placeholder"></div>
+            }
+          </div>
+          <div class="images-board">
+            @for (image of images(); track image.id) {
+              <div class="card-placeholder image" data-testid="card-placeholder"></div>
+            }
+          </div>
         </div>
+      } @else {
+        <div class="boards"
+             data-testid="game-grid">
 
-        <!-- Images board -->
-        <div class="images-board">
-          @for (image of images(); track image.id; let i = $index) {
-            <div class="card image-card"
-                 data-testid="image-card"
-                 [class.selected]="image.id === selectedImageId()"
-                 [class.matched]="image.matched"
-                 (click)="onSelectImage(image)">
+          <div class="words-board">
+            @for (word of words(); track word.id; let index = $index) {
+              <div class="card word-card"
+                   data-testid="word-card"
+                   [style.--index]="index + 1"
+                   [class.selected]="word.id === selectedWordId()"
+                   [class.matched]="word.matched"
+                   (click)="onSelectWord(word)">
+                {{ word.text }}
+              </div>
+            }
+          </div>
 
-              @if (i === 0) {
-                <img [ngSrc]="image.url"
-                     [alt]="'Image of ' + image.text"
-                     draggable="false"
-                     fill
-                     priority/>
-              } @else {
-                <img [ngSrc]="image.url"
-                     [alt]="'Image of ' + image.text"
-                     draggable="false"
-                     fill/>
-              }
-            </div>
-          }
+          <div class="images-board">
+            @for (image of images(); track image.id; let i = $index) {
+              <div class="card image-card"
+                   data-testid="image-card"
+                   [class.selected]="image.id === selectedImageId()"
+                   [class.matched]="image.matched"
+                   (click)="onSelectImage(image)">
 
+                @if (i === 0) {
+                  <img [ngSrc]="image.url"
+                       [alt]="'Image of ' + image.text"
+                       draggable="false"
+                       fill
+                       priority/>
+                } @else {
+                  <img [ngSrc]="image.url"
+                       [alt]="'Image of ' + image.text"
+                       draggable="false"
+                       fill/>
+                }
+              </div>
+            }
+
+          </div>
         </div>
-      </div>
+      }
     } @else {
       <app-end-game-modal data-testid="end-game-modal"
                           class="fade-in"

@@ -141,6 +141,7 @@
   object-position: center;
   display: block;
 }
+
 .image-card.selected {
   border-color: var(--color-accent);
 }
@@ -229,4 +230,43 @@
 .choose-category-button:hover {
   background-color: var(--color-accent);
   box-shadow: var(--shadow-hover);
+}
+
+/* Card Place Holder*/
+.card-placeholder {
+  width: 120px;
+  height: 160px;
+  background: #f5f7fa;
+  border-radius: 16px;
+  margin: 8px;
+  border: 1.5px solid #ced6f6;
+  box-shadow: 0 2px 8px 0 rgba(60, 80, 180, 0.05);
+  overflow: hidden;
+  position: relative;
+}
+
+.card-placeholder::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 60%,
+    #e6eafd 80%,
+    transparent 100%
+  );
+  animation: shimmer 1.8s infinite;
+  z-index: 1;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
