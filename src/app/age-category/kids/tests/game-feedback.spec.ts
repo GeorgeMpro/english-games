@@ -10,9 +10,10 @@ import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {WikiService} from '../../../shared/services/wiki.service';
 
 import {matchItems} from '../../../../assets/test-data/match-items';
-import {animalsGroup, DEFAULT_ITEMS_PER_STAGE, DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
+import {DEFAULT_ITEMS_PER_STAGE, DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
 import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
+import {setupMatchComponent} from './test-setup-util';
 
 const stages = DEFAULT_STAGE_COUNT;
 const itemsPerStage = DEFAULT_ITEMS_PER_STAGE;
@@ -23,33 +24,14 @@ describe('Feedback functionality', () => {
   let store: MatchWordsStore;
 
   // todo extract setup in multiple files
-  beforeEach((done) => {
-    TestBed.configureTestingModule({
-      providers: [
-        provideHttpClient(),
-        provideHttpClientTesting(),
-        MatchWordsService,
-        MatchWordsStore,
-        {
-          provide: VocabularyService,
-          useValue: {getList: () => of(matchItems.map(i => i.word))}
-        },
-        {
-          provide: WikiService,
-          useValue: {getItems: () => of(structuredClone(matchItems))}
-        }
-      ]
-    });
-
-    service = TestBed.inject(MatchWordsService);
-    store = TestBed.inject(MatchWordsStore);
+  beforeEach(async () => {
+    ({service, store} = await setupMatchComponent({
+      withDefer: true,
+      withMockServices: true
+    }));
     store.items.set(structuredClone(matchItems));
-    store.stageItems.set([structuredClone(matchItems.slice(0, 6)), structuredClone(matchItems.slice(6, 12))]);
-    store.currentStage.set(0);
-    service.initializeGameData(animalsGroup).subscribe(() => {
-      service.initializeGamePlay(stages, itemsPerStage);
-      done();
-    });
+    service.initializeGamePlay();
+
   });
 
   describe('match attempt counter', () => {
@@ -163,6 +145,9 @@ describe('MatchWordsGameComponent - End Game Feedback', () => {
     const [deferBlock] = await fixture.getDeferBlocks();
     await deferBlock.render(DeferBlockState.Complete);
     fixture.detectChanges();
+    const store = TestBed.inject(MatchWordsStore);
+    store.stageItems.set([matchItems.slice(0, 6)]); // 6 items with ids 1-6
+    store.currentStage.set(0);
   });
 
   it('should display correct attempts in modal on game over', () => {

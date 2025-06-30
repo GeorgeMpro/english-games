@@ -8,7 +8,7 @@ import {
   MatchWordsService
 } from '../match-words-game/match-words.service';
 import {MatchWordsStore} from '../match-words-game/match-words.store';
-import {VocabularyService, Category} from '../../../shared/services/vocabulary.service';
+import {VocabularyService} from '../../../shared/services/vocabulary.service';
 import {WikiService} from '../../../shared/services/wiki.service';
 import {GameLogicService} from '../../../shared/services/game-logic.service';
 
@@ -50,34 +50,36 @@ describe('MatchWordsService', () => {
     service = TestBed.inject(MatchWordsService);
     store = TestBed.inject(MatchWordsStore);
     store.items.set(structuredClone(matchItems));
+    store.stageItems.set([
+      structuredClone(matchItems.slice(0, itemsPerStage)),
+      structuredClone(matchItems.slice(itemsPerStage, 2 * itemsPerStage)),
+      structuredClone(matchItems.slice(2 * itemsPerStage, 3 * itemsPerStage)),
+    ]);
+    store.currentStage.set(0);
   });
+
 
   describe('Game Setup', () => {
-    it('should setup game data from category', (done) => {
-      service.initializeGameData(animalsGroup).subscribe(success => {
-        expect(success).toBeTrue();
-        expect(store.items().length).toBe(matchItems.length);
-        done();
-      });
+    it('should setup game data from category', () => {
+      service.initializeGameData(animalsGroup).subscribe();
+      expect(store.items().length).toBe(matchItems.length);
     });
 
-    it('should initialize game correctly', (done) => {
-      service.initializeGameData(animalsGroup).subscribe(() => {
-        service.initializeGamePlay(stages, itemsPerStage);
-        expect(store.shuffledItemsSlice().length).toBe(totalItems);
-        expect(store.stageItems().length).toBe(stages);
-        done();
-      });
+    it('should initialize game correctly', () => {
+      service.initializeGameData(animalsGroup).subscribe();
+      service.initializeGamePlay(stages, itemsPerStage);
+      expect(store.shuffledItemsSlice().length).toBe(totalItems);
+      expect(store.stageItems().length).toBe(stages);
     });
   });
 
+
   describe('Stage Management', () => {
-    beforeEach((done) => {
-      service.initializeGameData(animalsGroup).subscribe(() => {
-        service.initializeGamePlay(stages, itemsPerStage);
-        done();
-      });
+    beforeEach(() => {
+      service.initializeGameData(animalsGroup).subscribe();
+      service.initializeGamePlay(stages, itemsPerStage);
     });
+
 
     it('should start at stage 0', () => {
       expect(service.getCurrentStage()).toBe(0);
@@ -104,16 +106,15 @@ describe('MatchWordsService', () => {
     let image: ImageCard;
     let gameLogicService: GameLogicService;
 
-    beforeEach((done) => {
+    beforeEach(() => {
       gameLogicService = TestBed.inject(GameLogicService);
 
-      service.initializeGameData(animalsGroup).subscribe(() => {
-        service.initializeGamePlay(stages, itemsPerStage);
-        item = service.getCurrentStageItems()[0];
-        word = store.wordCards().find(w => w.id === item.id)!;
-        image = store.imageCards().find(i => i.id === item.id)!;
-        done();
-      });
+      service.initializeGameData(animalsGroup).subscribe();
+      service.initializeGamePlay(stages, itemsPerStage);
+
+      item = service.getCurrentStageItems()[0];
+      word = store.wordCards().find(w => w.id === item.id)!;
+      image = store.imageCards().find(i => i.id === item.id)!;
     });
 
     it('should store selected word ID in signal', () => {

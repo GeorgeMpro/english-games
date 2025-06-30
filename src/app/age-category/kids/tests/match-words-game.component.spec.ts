@@ -1,7 +1,5 @@
 import {ComponentFixture, DeferBlockState} from '@angular/core/testing';
 
-import {lastValueFrom} from 'rxjs';
-
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
 import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {MatchWordsService} from '../match-words-game/match-words.service';
@@ -178,17 +176,16 @@ describe('CSS Match class logic', () => {
   let service: MatchWordsService;
   let store: MatchWordsStore;
 
+
   beforeEach(async () => {
     ({fixture, component, store, service} = await setupMatchComponent({withMockServices: true}));
 
-    // Initialize game data before the component is initialized
-    await lastValueFrom(service.initializeGameData(animalsGroup));
-    service.initializeGamePlay();
-
     store.items.set(matchItems);
+    service.initializeGamePlay();
     component.gameReady.set(true);
     fixture.detectChanges();
   });
+
 
   it('should remove "matched" class from all cards after replaying the game', async () => {
     // manually patch test data and simulate matched state
