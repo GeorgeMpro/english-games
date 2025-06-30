@@ -5,12 +5,12 @@ import {provideHttpClient} from '@angular/common/http';
 import {of} from 'rxjs';
 
 import {MatchWordsService} from '../match-words-game/match-words.service';
-import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
+import {VocabularyService} from '../../../shared/services/vocabulary.service';
 import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {WikiService} from '../../../shared/services/wiki.service';
 
 import {matchItems} from '../../../../assets/test-data/match-items';
-import {DEFAULT_ITEMS_PER_STAGE, DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
+import {animalsGroup, DEFAULT_ITEMS_PER_STAGE, DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
 import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
 
@@ -44,7 +44,9 @@ describe('Feedback functionality', () => {
     service = TestBed.inject(MatchWordsService);
     store = TestBed.inject(MatchWordsStore);
     store.items.set(structuredClone(matchItems));
-    service.initializeGameData(Category.Animals).subscribe(() => {
+    store.stageItems.set([structuredClone(matchItems.slice(0, 6)), structuredClone(matchItems.slice(6, 12))]);
+    store.currentStage.set(0);
+    service.initializeGameData(animalsGroup).subscribe(() => {
       service.initializeGamePlay(stages, itemsPerStage);
       done();
     });

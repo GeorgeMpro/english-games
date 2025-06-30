@@ -18,7 +18,7 @@ import {matchItems} from '../../../../assets/test-data/match-items';
 import {
   DEFAULT_STAGE_COUNT,
   DEFAULT_ITEMS_PER_STAGE,
-  MATCH_RESET_TIMEOUT_DELAY
+  MATCH_RESET_TIMEOUT_DELAY, animalsGroup
 } from '../../../shared/game-config.constants';
 
 const stages = DEFAULT_STAGE_COUNT;
@@ -54,7 +54,7 @@ describe('MatchWordsService', () => {
 
   describe('Game Setup', () => {
     it('should setup game data from category', (done) => {
-      service.initializeGameData(Category.Animals).subscribe(success => {
+      service.initializeGameData(animalsGroup).subscribe(success => {
         expect(success).toBeTrue();
         expect(store.items().length).toBe(matchItems.length);
         done();
@@ -62,7 +62,7 @@ describe('MatchWordsService', () => {
     });
 
     it('should initialize game correctly', (done) => {
-      service.initializeGameData(Category.Animals).subscribe(() => {
+      service.initializeGameData(animalsGroup).subscribe(() => {
         service.initializeGamePlay(stages, itemsPerStage);
         expect(store.shuffledItemsSlice().length).toBe(totalItems);
         expect(store.stageItems().length).toBe(stages);
@@ -73,7 +73,7 @@ describe('MatchWordsService', () => {
 
   describe('Stage Management', () => {
     beforeEach((done) => {
-      service.initializeGameData(Category.Animals).subscribe(() => {
+      service.initializeGameData(animalsGroup).subscribe(() => {
         service.initializeGamePlay(stages, itemsPerStage);
         done();
       });
@@ -107,7 +107,7 @@ describe('MatchWordsService', () => {
     beforeEach((done) => {
       gameLogicService = TestBed.inject(GameLogicService);
 
-      service.initializeGameData(Category.Animals).subscribe(() => {
+      service.initializeGameData(animalsGroup).subscribe(() => {
         service.initializeGamePlay(stages, itemsPerStage);
         item = service.getCurrentStageItems()[0];
         word = store.wordCards().find(w => w.id === item.id)!;

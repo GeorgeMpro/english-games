@@ -1,11 +1,11 @@
 import {Injectable} from '@angular/core';
 
-import {catchError, forkJoin, Observable, of, switchMap, take, tap} from 'rxjs';
+import {catchError, forkJoin, Observable, of, take, tap} from 'rxjs';
 import {map} from 'rxjs/operators';
 
 import {GameLogicService} from '../../../shared/services/game-logic.service';
 import {WikiService} from '../../../shared/services/wiki.service';
-import {Category, VocabularyService} from '../../../shared/services/vocabulary.service';
+import {VocabularyService} from '../../../shared/services/vocabulary.service';
 import {MatchWordsStore} from './match-words.store';
 import {ImageCard, MatchAttempt, MatchItem, MatchResult, WordCard} from '../../../shared/models/kids.models';
 import {
@@ -45,28 +45,46 @@ export class MatchWordsService {
    * @returns An observable that emits `true` on success or `false` on failure.
    */
   // todo update to current backend
-  initializeGameData(category: Category): Observable<boolean> {
-    return this.fetchItemsByCategory(category).pipe(
+  // initializeGameData(category: Category): Observable<boolean> {
+  //   return this.fetchItemsByCategory(category).pipe(
+  //     take(1),
+  //     tap(items => {
+  //       // this.store.items.set(items);
+  //       this.setGameItems(items);
+  //     }),
+  //     map(() => true),
+  //     catchError(() => {
+  //       // todo extract to message service
+  //       //todo displays error when already loaded items but is not connected to the internet
+  //       this.store.matchAttemptMessage.set('⚠️ Failed to load items.');
+  //       return of(false);
+  //     })
+  //   );
+  // }
+// todo
+  // private fetchItemsByCategory(category: Category): Observable<MatchItem[]> {
+  //   return this.vocabularyService.getList(category).pipe(
+  //     switchMap(words => this.wikiService.getItems(words))
+  //   );
+  // }
+
+  initializeGameData(category: WordGroup): Observable<boolean> {
+
+    return this.categoryService.getAllWordsInGroup(category.id).pipe(
       take(1),
       tap(items => {
-        // this.store.items.set(items);
-        this.setGameItems(items);
+        const matchItems = this.converterService.wordItemsToMatchItems(items);
+        this.store.items.set(matchItems)
+        this.setGameItems(matchItems);
       }),
       map(() => true),
       catchError(() => {
-        // todo extract to message service
-        //todo displays error when already loaded items but is not connected to the internet
         this.store.matchAttemptMessage.set('⚠️ Failed to load items.');
         return of(false);
       })
     );
   }
 
-  private fetchItemsByCategory(category: Category): Observable<MatchItem[]> {
-    return this.vocabularyService.getList(category).pipe(
-      switchMap(words => this.wikiService.getItems(words))
-    );
-  }
 
   /**
    * Initializes shuffled items, dividing them into stages,
@@ -269,6 +287,8 @@ export class MatchWordsService {
   private updateStageItemsMatched(ids: number[]): void {
     const currentStage = this.getCurrentStage();
     const stageItems = [...this.store.stageItems()];
+    // todo add guard?
+    if (!Array.isArray(stageItems[currentStage])) return;
     stageItems[currentStage] = stageItems[currentStage].map(item =>
       ids.includes(item.id) ? {...item, matched: true} : item
     );
@@ -434,6 +454,4 @@ export class MatchWordsService {
   private getStoreItems() {
     return this.store.items();
   }
-
-
 }

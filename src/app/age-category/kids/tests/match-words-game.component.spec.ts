@@ -5,7 +5,6 @@ import {lastValueFrom} from 'rxjs';
 import {MatchWordsGameComponent} from '../match-words-game/match-words-game.component';
 import {MatchWordsStore} from '../match-words-game/match-words.store';
 import {MatchWordsService} from '../match-words-game/match-words.service';
-import {Category} from '../../../shared/services/vocabulary.service';
 
 import {matchItems} from '../../../../assets/test-data/match-items';
 import {
@@ -15,6 +14,7 @@ import {
   simulateButtonClick
 } from '../../../shared/tests/dom-test-utils';
 import {setupMatchComponent} from './test-setup-util';
+import {animalsGroup} from '../../../shared/game-config.constants';
 
 
 describe('MatchWordsGameComponent', () => {
@@ -24,7 +24,9 @@ describe('MatchWordsGameComponent', () => {
   let store: MatchWordsStore;
 
   beforeEach(async () => {
-    ({fixture, component, store} = await setupMatchComponent({withDefer: true}));
+
+    ({fixture, component, store} = await setupMatchComponent({withDefer: true, withMockServices: true}));
+
 
     component.ngOnInit();
     component.gameReady.set(true);
@@ -115,7 +117,9 @@ describe('Effect: currentStage triggers generateGameCardsFromItems', () => {
   let service: MatchWordsService;
 
   beforeEach(async () => {
-    ({fixture, component, store, service} = await setupMatchComponent());
+
+    ({fixture, component, store, service} = await setupMatchComponent({withMockServices: true}));
+
 
     // force ready state
     component.gameReady.set(true);
@@ -178,7 +182,7 @@ describe('CSS Match class logic', () => {
     ({fixture, component, store, service} = await setupMatchComponent({withMockServices: true}));
 
     // Initialize game data before the component is initialized
-    await lastValueFrom(service.initializeGameData(Category.Animals));
+    await lastValueFrom(service.initializeGameData(animalsGroup));
     service.initializeGamePlay();
 
     store.items.set(matchItems);

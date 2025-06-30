@@ -16,6 +16,7 @@ import {CategoryService} from '../../../data-access/category.service';
 import {DEFAULT_CATEGORIES} from '../../../shared/game-config.constants';
 import wordsFromAnimals from './mocks/valid-words-from-animals-category.json'
 import {signal} from '@angular/core';
+import {ItemConverterService} from '../../../shared/services/item-converter.service';
 
 const baseProviders = [
   MatchWordsStore,
@@ -31,14 +32,32 @@ export async function setupMatchComponent
   withMockServices?: boolean
 } = {}) {
   const {withDefer = false, withMockServices = false} = options;
-  const mockServices = [{
-    provide: VocabularyService,
-    useValue: {getList: () => of(matchItems.map(i => i.word))}
-  },
+  // todo
+  // const mockServices = [{
+  //   provide: VocabularyService,
+  //   useValue: {getList: () => of(matchItems.map(i => i.word))}
+  // },
+  //   {
+  //     provide: WikiService,
+  //     useValue: {getItems: () => of(structuredClone(matchItems))}
+  //   }];
+  const mockServices = [
+    {
+      provide: VocabularyService,
+      useValue: {getList: () => of(matchItems.map(i => i.word))}
+    },
     {
       provide: WikiService,
       useValue: {getItems: () => of(structuredClone(matchItems))}
-    }];
+    },
+    {
+      provide: ItemConverterService,
+      useValue: {
+        wordItemsToMatchItems: (items: any) => structuredClone(matchItems),
+        assignUniqueIds: (items: any) => structuredClone(matchItems)
+      }
+    }
+  ]
 
   await TestBed.configureTestingModule({
     imports: [MatchWordsGameComponent],
@@ -64,6 +83,7 @@ export async function setupMatchWordComponent() {
     errorMsg: signal(null)
   };
 
+
   const moduleDef = {
     imports: [
       MatchWordsGameComponent,
@@ -83,10 +103,18 @@ export async function setupMatchWordComponent() {
         provide: WikiService,
         useValue: {getItems: () => of(structuredClone(matchItems))}
       },
-      {provide: CategoryService, useValue: mockCategoryService}
+      {provide: CategoryService, useValue: mockCategoryService},
+      {
+        provide: ItemConverterService,
+        useValue: {
+          wordItemsToMatchItems: (items: any) => structuredClone(matchItems),
+          assignUniqueIds: (items: any) => structuredClone(matchItems)
+        }
+      }
     ],
     deferBlockBehavior: DeferBlockBehavior.Manual,
   };
+
   TestBed.configureTestingModule(moduleDef);
 
   const fixture = TestBed.createComponent(MatchWordsGameComponent);

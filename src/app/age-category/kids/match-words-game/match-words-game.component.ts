@@ -6,7 +6,7 @@ import {MatchWordsStore} from './match-words.store';
 import {ImageCard, WordCard} from '../../../shared/models/kids.models';
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
 import {Category} from '../../../shared/services/vocabulary.service';
-import {DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
+import {animalsGroup, DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
 import {
   CategoryChooserModalComponent
 } from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
@@ -73,7 +73,7 @@ export class MatchWordsGameComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.matchWordService.initializeGameData(Category.Animals).subscribe(() => {
+    this.matchWordService.initializeGameData(animalsGroup).subscribe(() => {
       this.matchWordService.initializeGamePlay();
       this.gameReady.set(true);
     });
