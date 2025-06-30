@@ -48,4 +48,18 @@ describe('handling words flow in creating item', () => {
     expect(matchItems.length).toBe(words.length);
   });
 
+
+  it('should filter out words with missing or invalid cover url', () => {
+    const input = [
+      {...wordsFromAnimals.data[0], cover: null} as any,
+      {...wordsFromAnimals.data[1], cover: {url: null}},
+      {...wordsFromAnimals.data[2]}, // valid
+    ];
+
+    const result = conService.wordItemsToMatchItems(input as any);
+
+    expect(result.length).toBe(1);
+    expect(result[0].word).toBe(input[2].title);
+  });
+
 });

@@ -20,10 +20,12 @@ export class ItemConverterService {
   }
 
   wordItemsToMatchItems(words: WordItem[]): MatchItem[] {
-    const rawItems = words.map(word => {
-        return this.wordItemToMatchItem(word);
-      }
-    );
+    const rawItems = words
+      .filter(word => word.cover && !!word.cover.url)
+      .map(word => {
+          return this.wordItemToMatchItem(word);
+        }
+      );
 
     return this.assignUniqueIds(rawItems);
   }

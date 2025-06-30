@@ -399,18 +399,12 @@ export class MatchWordsService {
     const fetches = categories.map((cat: WordGroup) => {
 
       const obs = this.categoryService.getAllWordsInGroup(cat.id)
-      // todo del
-      console.log('fetch:', cat.id, obs);
       return obs;
 
     });
 
     forkJoin(fetches).subscribe((allCategoryWords: WordItem[][]) => {
       const mergedWords: WordItem[] = allCategoryWords.flat();
-      // todo dell
-      console.log(fetches);
-      console.log(mergedWords)
-
       this.store.wordsFromChosenCategories.set(mergedWords);
       this.startGameFromChosenCategories();
     });

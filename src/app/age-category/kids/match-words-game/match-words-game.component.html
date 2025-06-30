@@ -24,63 +24,62 @@
       <h2>Stage {{ this.currentStage() + 1 }} of {{ numberOfStages }}</h2>
     }
 
+
     @if (!gameOver()) {
-      @if (!allImagesLoaded()) {
-        <div class="boards" data-testid="game-grid">
-          <div class="words-board">
-            @for (word of words(); track word.id) {
-              <div class="card-placeholder word" data-testid="card-placeholder"></div>
-            }
-          </div>
-          <div class="images-board">
-            @for (image of images(); track image.id) {
-              <div class="card-placeholder image" data-testid="card-placeholder"></div>
-            }
-          </div>
+      <div class="boards" data-testid="game-grid">
+        <div class="words-board">
+          @for (word of words(); track word.id; let index = $index) {
+            <div class="card word-card" data-testid="word-card"
+                 [style.--index]="index + 1"
+                 [class.selected]="word.id === selectedWordId()"
+                 [class.matched]="word.matched"
+                 (click)="onSelectWord(word)"
+                 style="position:relative;">
+              {{ word.text }}
+              @if (!allImagesLoaded()) {
+                <div class="card-placeholder word" data-testid="card-placeholder"
+                     style="position:absolute; inset:0; z-index:2;"></div>
+              }
+            </div>
+          }
         </div>
-      } @else {
-        <div class="boards"
-             data-testid="game-grid">
 
-          <div class="words-board">
-            @for (word of words(); track word.id; let index = $index) {
-              <div class="card word-card"
-                   data-testid="word-card"
-                   [style.--index]="index + 1"
-                   [class.selected]="word.id === selectedWordId()"
-                   [class.matched]="word.matched"
-                   (click)="onSelectWord(word)">
-                {{ word.text }}
-              </div>
-            }
-          </div>
+        <div class="images-board">
 
-          <div class="images-board">
-            @for (image of images(); track image.id; let i = $index) {
-              <div class="card image-card"
-                   data-testid="image-card"
-                   [class.selected]="image.id === selectedImageId()"
-                   [class.matched]="image.matched"
-                   (click)="onSelectImage(image)">
 
-                @if (i === 0) {
-                  <img [ngSrc]="image.url"
-                       [alt]="'Image of ' + image.text"
-                       draggable="false"
-                       fill
-                       priority/>
-                } @else {
-                  <img [ngSrc]="image.url"
-                       [alt]="'Image of ' + image.text"
-                       draggable="false"
-                       fill/>
-                }
-              </div>
-            }
+          @for (image of images(); track image.id; let i = $index) {
+            <div class="card image-card"
+                 data-testid="image-card"
+                 [class.selected]="image.id === selectedImageId()"
+                 [class.matched]="image.matched"
+                 (click)="onSelectImage(image)"
+                 style="position:relative;">
+              @if (i === 0) {
+                <img [ngSrc]="image.url"
+                     [alt]="'Image of ' + image.text"
+                     draggable="false"
+                     fill
+                     priority
+                     (load)="onImageLoad()"/>
+              } @else {
+                <img [ngSrc]="image.url"
+                     [alt]="'Image of ' + image.text"
+                     draggable="false"
+                     fill
+                     (load)="onImageLoad()"/>
+              }
 
-          </div>
+              @if (!allImagesLoaded()) {
+                <div class="card-placeholder word"
+                     data-testid="card-placeholder"
+                     style="position:absolute; inset:0; z-index:2;"
+                     [class.fade-out]="fadePlaceholders()"></div>
+              }
+            </div>
+          }
+
         </div>
-      }
+      </div>
     } @else {
       <app-end-game-modal data-testid="end-game-modal"
                           class="fade-in"
@@ -92,12 +91,12 @@
     }
   </section>
 
-} @loading (minimum 250ms) {
-  <ng-container
-    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Loading game UI…' }"></ng-container>
-} @placeholder (minimum 250ms) {
-  <ng-container
-    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Fetching items...' }"></ng-container>
+<!--} @loading (minimum 250ms) {-->
+<!--  <ng-container-->
+<!--    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Loading game UI…' }"></ng-container>-->
+<!--} @placeholder (minimum 250ms) {-->
+<!--  <ng-container-->
+<!--    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Fetching items...' }"></ng-container>-->
 } @error {
   <ng-container
     *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Failed to load game UI. Please try again.' }"></ng-container>

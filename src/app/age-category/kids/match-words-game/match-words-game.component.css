@@ -234,15 +234,25 @@
 
 /* Card Place Holder*/
 .card-placeholder {
-  width: 120px;
-  height: 160px;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   background: #f5f7fa;
-  border-radius: 16px;
-  margin: 8px;
-  border: 1.5px solid #ced6f6;
+  border-radius: var(--card-radius);
+  border: var(--border-playing-card);
   box-shadow: 0 2px 8px 0 rgba(60, 80, 180, 0.05);
+  pointer-events: none;
+  z-index: 2;
+  margin: 0;
   overflow: hidden;
-  position: relative;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+
+.card-placeholder.fade-out {
+  opacity: 0;
 }
 
 .card-placeholder::before {
