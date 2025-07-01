@@ -10,6 +10,8 @@ import {BASE_URL, TOKEN} from '../../environments/environment.local';
 import {DEFAULT_CATEGORY} from '../shared/game-config.constants';
 
 import wordsFromAnimals from '../age-category/kids/tests/mocks/valid-words-from-animals-category.json'
+import catBodyPartsItems from '../age-category/kids/tests/mocks/body-parts-items.json'
+
 
 // todo move to msg comp or interceptor
 export const FAILED_LOAD_CATEGORIES_MSG = "Couldn't load categories. Please try again later.";
@@ -67,8 +69,7 @@ export class CategoryService {
       .pipe(
         map(res => res.data),
         catchError(err => {
-          // todo pass error?
-          console.error(FAILED_LOAD_WORDS_MSG);
+          console.error(FAILED_LOAD_WORDS_MSG, err);
           return of(wordsFromAnimals.data)
         })
       );

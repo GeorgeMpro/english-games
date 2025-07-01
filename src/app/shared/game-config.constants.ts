@@ -1,5 +1,7 @@
 import {WordGroup} from '../data-access/api.models';
 
+import validWordGroups from '../age-category/kids/tests/mocks/valid-word-groups.json';
+
 export const DEFAULT_FIRST_STAGE = 0;
 export const DEFAULT_STAGE_COUNT = 3;
 export const DEFAULT_LAST_STAGE = DEFAULT_STAGE_COUNT - 1;
@@ -55,3 +57,5 @@ export const colorsGroup = {
 export const DEFAULT_CATEGORY: WordGroup = animalsGroup;
 
 export const DEFAULT_CATEGORIES = [animalsGroup, colorsGroup];
+
+export const ALL_CATEGORIES: WordGroup[] = validWordGroups.data.items;
