@@ -1,0 +1,872 @@
+[
+  {
+    "id": 894,
+    "title": "Happiness",
+    "transcription": "The little girl's face lit up with happiness when she saw her birthday presents.",
+    "sentence": "/ˈhæpi.nəs/",
+    "translate": "אושר",
+    "date_created": "2024-02-22 15:32:25",
+    "cover": {
+      "id": 88455,
+      "name": "cover_6841e34d8cc79.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491484935837.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 895,
+    "title": "Sadness",
+    "transcription": "Her eyes were filled with sadness as she said goodbye to her best friend.",
+    "sentence": "/ˈsædnəs/",
+    "translate": "עצב",
+    "date_created": "2024-02-22 15:32:26",
+    "cover": {
+      "id": 88456,
+      "name": "cover_6841e37585d6f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491485335553.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 896,
+    "title": "Joy",
+    "transcription": "Her face lit up with joy when she saw her family waiting for her at the airport.",
+    "sentence": "dʒɔɪ",
+    "translate": "שמחה",
+    "date_created": "2024-02-22 15:32:29",
+    "cover": {
+      "id": 88457,
+      "name": "cover_6841e39799014.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491485676337.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 897,
+    "title": "Fear",
+    "transcription": "She was paralyzed with fear as the storm approached.",
+    "sentence": "fɪr",
+    "translate": "פחד",
+    "date_created": "2024-02-22 15:32:29",
+    "cover": {
+      "id": 88458,
+      "name": "cover_6841e3c48c335.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491486125809.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 898,
+    "title": "Anger",
+    "transcription": "She couldn't hide her anger when she found out her flight had been cancelled.",
+    "sentence": "ˈæŋɡər",
+    "translate": "כעס",
+    "date_created": "2024-02-22 15:32:29",
+    "cover": {
+      "id": 88459,
+      "name": "cover_6841e3eec9196.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491486548308.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 899,
+    "title": "Surprise",
+    "transcription": "I planned a surprise party for my best friend's birthday.",
+    "sentence": "/sə(r)ˈpraɪz/",
+    "translate": "הִפתעָה",
+    "date_created": "2024-02-22 15:32:30",
+    "cover": {
+      "id": 88460,
+      "name": "cover_6841e4181da20.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491486961280.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 900,
+    "title": "Disgust",
+    "transcription": "The smell of rotten eggs filled the room with disgust.",
+    "sentence": "/dɪsˈɡʌst/",
+    "translate": "גידוף",
+    "date_created": "2024-02-22 15:32:31",
+    "cover": {
+      "id": 88461,
+      "name": "cover_6841e4446c123.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491487404501.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 901,
+    "title": "Trust",
+    "transcription": "I trust my best friend to keep my secrets.",
+    "sentence": "trʌst",
+    "translate": "אמון",
+    "date_created": "2024-02-22 15:32:32",
+    "cover": {
+      "id": 88462,
+      "name": "cover_6841e46bb5f01.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491487797525.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 902,
+    "title": "Anticipation",
+    "transcription": "The feeling of anticipation was palbable as the team waited to hear the final results.",
+    "sentence": "ænˌtɪsɪˈpeɪʃən",
+    "translate": "ציפייה",
+    "date_created": "2024-02-22 15:32:33",
+    "cover": {
+      "id": 88463,
+      "name": "cover_6841e4907f699.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491488165293.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 903,
+    "title": "Love",
+    "transcription": "I love spending time with my family.",
+    "sentence": "/lʌv/",
+    "translate": "אהבה",
+    "date_created": "2024-02-22 15:32:35",
+    "cover": {
+      "id": 88464,
+      "name": "cover_6841e4bb389ab.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491488592399.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 904,
+    "title": "Hatred",
+    "transcription": "His hatred towards his former friend was evident in the way he spoke about him.",
+    "sentence": "/ˈheɪtrɪd/",
+    "translate": "שִׂנְאָה",
+    "date_created": "2024-02-22 15:32:35",
+    "cover": {
+      "id": 88466,
+      "name": "cover_6841e4e16fc5d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491488974648.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 905,
+    "title": "Desire",
+    "transcription": "She had a strong desire to travel the world and experience new cultures.",
+    "sentence": "dɪˈzaɪər",
+    "translate": "תשוקה",
+    "date_created": "2024-02-22 15:32:36",
+    "cover": {
+      "id": 88467,
+      "name": "cover_6841e509a2641.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491489376723.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 906,
+    "title": "Envy",
+    "transcription": "She couldn't help but feel envy towards her friend's new promotion.",
+    "sentence": "/ˈɛnvi/",
+    "translate": "קִנְאָה",
+    "date_created": "2024-02-22 15:32:37",
+    "cover": {
+      "id": 88468,
+      "name": "cover_6841e52f5cfaf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491489753878.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 907,
+    "title": "Jealousy",
+    "transcription": "His jealousy over her success was causing tension in their relationship.",
+    "sentence": "/ˈdʒɛləsi/",
+    "translate": "קִנְאָה",
+    "date_created": "2024-02-22 15:32:37",
+    "cover": {
+      "id": 88469,
+      "name": "cover_6841e55937e93.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491490172362.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 908,
+    "title": "Admiration",
+    "transcription": "She looked at the beautiful painting with admiration.",
+    "sentence": "/ˌæd.məˈreɪ.ʃən/",
+    "translate": "הערצה",
+    "date_created": "2024-02-22 15:32:39",
+    "cover": {
+      "id": 88471,
+      "name": "cover_6841e5815fa71.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491490573996.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 909,
+    "title": "Relief",
+    "transcription": "The medication provided quick relief from his headache.",
+    "sentence": "rɪˈliːf",
+    "translate": "הַקלָה",
+    "date_created": "2024-02-22 15:32:40",
+    "cover": {
+      "id": 88472,
+      "name": "cover_6841e5adbd370.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491491017818.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 910,
+    "title": "Hope",
+    "transcription": "I hope my favorite team wins the game tonight.",
+    "sentence": "hoʊp",
+    "translate": "תִקְוָה",
+    "date_created": "2024-02-22 15:32:40",
+    "cover": {
+      "id": 88473,
+      "name": "cover_6841e5d5760ba.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491491414908.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 911,
+    "title": "Despair",
+    "transcription": "She sank into a pit of despair after losing her job.",
+    "sentence": "/dɪˈsper/",
+    "translate": "יֵאוּשׁ",
+    "date_created": "2024-02-22 15:32:40",
+    "cover": {
+      "id": 88474,
+      "name": "cover_6841e5fb102a2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491491790736.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 912,
+    "title": "Guilt",
+    "transcription": "She felt overwhelming guilt for not being able to attend her best friend's wedding.",
+    "sentence": "/ɡɪlt/",
+    "translate": "אשמה",
+    "date_created": "2024-02-22 15:32:43",
+    "cover": {
+      "id": 88475,
+      "name": "cover_6841e62414821.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491492200914.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 913,
+    "title": "Pride",
+    "transcription": "She felt a surge of pride when her artwork was displayed in the gallery.",
+    "sentence": "praɪd",
+    "translate": "גאווה",
+    "date_created": "2024-02-22 15:32:43",
+    "cover": {
+      "id": 88477,
+      "name": "cover_6841e6523b74a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491492662503.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 914,
+    "title": "Shame",
+    "transcription": "She felt a deep sense of shame after failing the exam.",
+    "sentence": "ʃeɪm",
+    "translate": "בושה",
+    "date_created": "2024-02-22 15:32:43",
+    "cover": {
+      "id": 88478,
+      "name": "cover_6841e67c54d35.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491493083551.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 915,
+    "title": "Loneliness",
+    "transcription": "She felt a deep sense of loneliness after moving to a new city where she didn't know anyone.",
+    "sentence": "/ˈloʊnli.nəs/",
+    "translate": "בדידות",
+    "date_created": "2024-02-22 15:32:44",
+    "cover": {
+      "id": 88479,
+      "name": "cover_6841e6a7e31eb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491493519386.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 916,
+    "title": "Calm",
+    "transcription": "Taking a few deep breaths can help to calm your nerves before the big presentation.",
+    "sentence": "/kɑːm/",
+    "translate": "רגוע",
+    "date_created": "2024-02-22 15:32:45",
+    "cover": {
+      "id": 88480,
+      "name": "cover_6841e6c89017c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491493845971.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 917,
+    "title": "Peace",
+    "transcription": "She felt a sense of peace when she visited the tranquil beach.",
+    "sentence": "piːs",
+    "translate": "שלום",
+    "date_created": "2024-02-22 15:32:46",
+    "cover": {
+      "id": 88481,
+      "name": "cover_6841e6f1db4b5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491494259050.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 918,
+    "title": "Satisfaction",
+    "transcription": "His hard work finally brought him satisfaction when he achieved his long-term goals.",
+    "sentence": "/ˌsæt.ɪsˈfæk.ʃən/",
+    "translate": "שביעות רצון",
+    "date_created": "2024-02-22 15:32:47",
+    "cover": {
+      "id": 88482,
+      "name": "cover_6841e7145411a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491494603515.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 919,
+    "title": "Curiosity",
+    "transcription": "Her curiosity led her to explore the abandoned house.",
+    "sentence": "ˌkjʊər_iˈɒsəti",
+    "translate": "סקרנות",
+    "date_created": "2024-02-22 15:32:48",
+    "cover": {
+      "id": 88483,
+      "name": "cover_6841e73dd8877.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491495018938.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 920,
+    "title": "Gratitude",
+    "transcription": "I feel a deep sense of gratitude towards my co-workers for helping me meet the project deadline.",
+    "sentence": "/ˈɡratɪˌtud/",
+    "translate": "הכרת טוב",
+    "date_created": "2024-02-22 15:32:48",
+    "cover": {
+      "id": 88484,
+      "name": "cover_6841e76162cf8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491495374124.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 921,
+    "title": "Boredom",
+    "transcription": "She was filled with boredom as she sat through the three-hour lecture.",
+    "sentence": "/ˈbɔːrdəm/",
+    "translate": "שַׁעֲמוּמִיוּת",
+    "date_created": "2024-02-22 15:32:49",
+    "cover": {
+      "id": 88485,
+      "name": "cover_6841e78b56db7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491495793625.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 922,
+    "title": "Excitement",
+    "transcription": "The excitement of going on a rollercoaster was evident on her face.",
+    "sentence": "/ɪkˈsaɪtmənt/",
+    "translate": "תְהִלָּה",
+    "date_created": "2024-02-22 15:32:50",
+    "cover": {
+      "id": 88486,
+      "name": "cover_6841e7af82cfb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491496155431.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 923,
+    "title": "Embarrassment",
+    "transcription": "She blushed with embarrassment when she realized she had been wearing her shirt inside out all day.",
+    "sentence": "ɪmˈbærəsmənt",
+    "translate": "בושה",
+    "date_created": "2024-02-22 15:32:52",
+    "cover": {
+      "id": 88487,
+      "name": "cover_6841e7d49a211.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491496526385.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 924,
+    "title": "Sympathy",
+    "transcription": "I have great sympathy for those who have lost loved ones in the recent tragedy.",
+    "sentence": "/ˈsɪmpəθi/",
+    "translate": "שכיבה",
+    "date_created": "2024-02-22 15:32:52",
+    "cover": {
+      "id": 88488,
+      "name": "cover_6841e7ffdd410.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491496959136.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 925,
+    "title": "Compassion",
+    "transcription": "She showed great compassion towards the victims of the natural disaster.",
+    "sentence": "kəmˈpæʃən",
+    "translate": "רחמים",
+    "date_created": "2024-02-22 15:32:53",
+    "cover": {
+      "id": 88489,
+      "name": "cover_6841e824ede74.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491497329821.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 926,
+    "title": "Contentment",
+    "transcription": "After years of searching for happiness, she finally found contentment in the simple pleasures of life.",
+    "sentence": "/kənˈtɛntmənt/",
+    "translate": "סְמִיכָה",
+    "date_created": "2024-02-22 15:32:54",
+    "cover": {
+      "id": 88490,
+      "name": "cover_6841e8493c66e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491497692542.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 927,
+    "title": "Empathy",
+    "transcription": "She showed empathy towards her friend who was going through a tough time.",
+    "sentence": "ˈɛmpəθi",
+    "translate": "רגישות",
+    "date_created": "2024-02-22 15:32:54",
+    "cover": {
+      "id": 88492,
+      "name": "cover_6841e86e25569.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491498061608.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 928,
+    "title": "Awe",
+    "transcription": "The sight of the Grand Canyon filled her with awe.",
+    "sentence": "ɔː",
+    "translate": "הֵפָלָה",
+    "date_created": "2024-02-22 15:32:56",
+    "cover": {
+      "id": 88493,
+      "name": "cover_6841e89db170e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491498537336.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 929,
+    "title": "Humiliation",
+    "transcription": "Her public humiliation made her want to hide away from the world.",
+    "sentence": "hjuːˌmɪliˈeɪʃən",
+    "translate": "בזיון",
+    "date_created": "2024-02-22 15:32:57",
+    "cover": {
+      "id": 88494,
+      "name": "cover_6841e8c7798bc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491498955053.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 930,
+    "title": "Confusion",
+    "transcription": "There was a lot of confusion at the airport due to the canceled flights.",
+    "sentence": "kənˈfjuːʒən",
+    "translate": "בְּלִיגוּן",
+    "date_created": "2024-02-22 15:32:58",
+    "cover": {
+      "id": 88495,
+      "name": "cover_6841e8f35c72a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491499393855.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 931,
+    "title": "Frustration",
+    "transcription": "She felt frustration when her computer crashed right before her presentation.",
+    "sentence": "frʌˈstreɪʃən",
+    "translate": "אֱכַזְבּוּנוּת",
+    "date_created": "2024-02-22 15:32:58",
+    "cover": {
+      "id": 88496,
+      "name": "cover_6841e91bb5af6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491499797546.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 932,
+    "title": "Euphoria",
+    "transcription": "The taste of victory filled her with euphoria.",
+    "sentence": "juh-FOHR-ee-uh",
+    "translate": "אופוריה",
+    "date_created": "2024-02-22 15:32:59",
+    "cover": {
+      "id": 88497,
+      "name": "cover_6841e93f6c277.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491500154498.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 933,
+    "title": "Melancholy",
+    "transcription": "She sat by the window, gazing out at the rain with a deep sense of melancholy.",
+    "sentence": "/ˈmɛlənkɒli/",
+    "translate": "מְלַנְכוֹלְיָה",
+    "date_created": "2024-02-22 15:33:00",
+    "cover": {
+      "id": 88498,
+      "name": "cover_6841e966b60b1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491500547526.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 934,
+    "title": "Nostalgia",
+    "transcription": "Looking at old photos always fills me with nostalgia for my childhood.",
+    "sentence": "/nɒˈstældʒə/",
+    "translate": " נוסטלגיה",
+    "date_created": "2024-02-22 15:33:02",
+    "cover": {
+      "id": 88500,
+      "name": "cover_6841e98950fcd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491500893405.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 935,
+    "title": "Rage",
+    "transcription": "He was consumed by rage when he saw the damage to his car.",
+    "sentence": "/reɪdʒ/",
+    "translate": "זעם",
+    "date_created": "2024-02-22 15:33:03",
+    "cover": {
+      "id": 88502,
+      "name": "cover_6841e9b183e2b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491501295478.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 936,
+    "title": "Serenity",
+    "transcription": "She found peace and serenity by the lake, watching the sunset.",
+    "sentence": "/səˈrɛnəti/",
+    "translate": "שקט",
+    "date_created": "2024-02-22 15:33:03",
+    "cover": {
+      "id": 88503,
+      "name": "cover_6841e9d26565f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491501624257.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 937,
+    "title": "Vulnerability",
+    "transcription": "She showed great vulnerability when she opened up about her struggles with anxiety.",
+    "sentence": "ˌvʌlnərəˈbɪlɪti",
+    "translate": "רִגְרָגוּזִיָות",
+    "date_created": "2024-02-22 15:33:04",
+    "cover": {
+      "id": 88504,
+      "name": "cover_6841e9f94958b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491502013074.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 938,
+    "title": "Indifference",
+    "transcription": "She showed complete indifference towards his rude comments.",
+    "sentence": "/ɪnˈdɪfrəns/",
+    "translate": "בידוד",
+    "date_created": "2024-02-22 15:33:06",
+    "cover": {
+      "id": 88505,
+      "name": "cover_6841ea2027c4f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491502401710.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 939,
+    "title": "Resentment",
+    "transcription": "She couldn't help but feel a sense of resentment towards her coworker for taking credit for her idea.",
+    "sentence": "rɪˈzɛntmənt",
+    "translate": "כעס",
+    "date_created": "2024-02-22 15:33:06",
+    "cover": {
+      "id": 88506,
+      "name": "cover_6841ea41eb28c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491502739711.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 940,
+    "title": "Passion",
+    "transcription": "She pursued her passion for painting and became a successful artist.",
+    "sentence": "/ˈpæʃ(ə)n/",
+    "translate": "תשוקה",
+    "date_created": "2024-02-22 15:33:07",
+    "cover": {
+      "id": 88507,
+      "name": "cover_6841ea65a48ba.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491503096813.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 941,
+    "title": "Bliss",
+    "transcription": "As she looked out at the sunset, she felt a sense of pure bliss wash over her.",
+    "sentence": "/blɪs/",
+    "translate": "אושר",
+    "date_created": "2024-02-22 15:33:07",
+    "cover": {
+      "id": 88508,
+      "name": "cover_6841ea8b16dc4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491503471007.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 942,
+    "title": "Disappointment",
+    "transcription": "He felt a deep sense of disappointment when his team lost the championship game.",
+    "sentence": "dɪsəˈpɔɪntmənt",
+    "translate": "אָן",
+    "date_created": "2024-02-22 15:33:08",
+    "cover": {
+      "id": 88509,
+      "name": "cover_6841eab998e12.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491503936337.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 943,
+    "title": "Ecstasy",
+    "transcription": "The feeling of ecstasy overwhelmed her as she reached the mountain's summit.",
+    "sentence": "ˈɛkstəsi",
+    "translate": "אֶקְסְטַזִיָה",
+    "date_created": "2024-02-22 15:33:10",
+    "cover": {
+      "id": 88510,
+      "name": "cover_6841eadc65e0c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491504284239.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 944,
+    "title": "Inferiority",
+    "transcription": "His constant comparisons to others led to feelings of inferiority.",
+    "sentence": "ɪnˌfɪəriˈɔrəti",
+    "translate": "נמוכות",
+    "date_created": "2024-02-22 15:33:11",
+    "cover": {
+      "id": 88511,
+      "name": "cover_6841eb03c2013.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491504678019.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 945,
+    "title": "Sorrow",
+    "transcription": "She was filled with sorrow when she heard the news of her friend's passing.",
+    "sentence": "/ˈsɒr.oʊ/",
+    "translate": "צער",
+    "date_created": "2024-02-22 15:33:11",
+    "cover": {
+      "id": 88512,
+      "name": "cover_6841eb2a8055b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491505065331.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 946,
+    "title": "Optimism",
+    "transcription": "Despite the challenges, she maintained her optimism and continued to pursue her dreams.",
+    "sentence": "/ˈɑptəˌmɪzəm/",
+    "translate": "אופטימיות",
+    "date_created": "2024-02-22 15:33:11",
+    "cover": {
+      "id": 88513,
+      "name": "cover_6841eb50e0c08.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491505449277.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 947,
+    "title": "Pessimism",
+    "transcription": "Her constant pessimism about the future was starting to bring everyone down.",
+    "sentence": "/ˈpesɪˌmɪzəm/",
+    "translate": "פֶּסִימִיּוּת",
+    "date_created": "2024-02-22 15:33:12",
+    "cover": {
+      "id": 88514,
+      "name": "cover_6841eb7dcd261.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491505898479.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 948,
+    "title": "Regret",
+    "transcription": "She lived with regret for not following her dreams sooner.",
+    "sentence": "rɪˈɡret",
+    "translate": "חרטה",
+    "date_created": "2024-02-22 15:33:15",
+    "cover": {
+      "id": 88515,
+      "name": "cover_6841eba655368.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491506303567.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 949,
+    "title": "Worry",
+    "transcription": "Don't worry about the test, I'm sure you'll do well.",
+    "sentence": "/ˈwʌri/",
+    "translate": "דאגה",
+    "date_created": "2024-02-22 15:33:15",
+    "cover": {
+      "id": 88516,
+      "name": "cover_6841ebcb29c27.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491506671780.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 950,
+    "title": "Tenderness",
+    "transcription": "The tenderness of his touch brought her comfort during a difficult time.",
+    "sentence": "/ˈtɛndərnəs/",
+    "translate": "חמלה",
+    "date_created": "2024-02-22 15:33:15",
+    "cover": {
+      "id": 88517,
+      "name": "cover_6841ebf159644.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491507053737.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 951,
+    "title": "Shock",
+    "transcription": "The news of the accident came as a shock to everyone.",
+    "sentence": "/ʃɑk/",
+    "translate": "הַפָּתָעָה",
+    "date_created": "2024-02-22 15:33:16",
+    "cover": {
+      "id": 88518,
+      "name": "cover_6841ec1545b21.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491507412929.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

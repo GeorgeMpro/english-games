@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 1755,
+    "title": "Hypothesis",
+    "transcription": "The scientist tested his hypothesis by conducting an experiment.",
+    "sentence": "/haɪˈpɑːθəsɪs/",
+    "translate": "השערה",
+    "date_created": "2024-02-22 15:48:09",
+    "cover": {
+      "id": 89558,
+      "name": "cover_68488b14cab12.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495846608364.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1757,
+    "title": "Methodology",
+    "transcription": "The researcher outlined the methodology used in the study during the presentation.",
+    "sentence": "ˌmeθ.əˈdɒl.ə.dʒi",
+    "translate": "מתודולוגיה",
+    "date_created": "2024-02-22 15:48:11",
+    "cover": {
+      "id": 89560,
+      "name": "cover_68488b5f24df9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495847351578.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1758,
+    "title": "Data analysis",
+    "transcription": "Data analysis is the process of inspecting, cleaning, and modeling data in order to discover useful information.",
+    "sentence": "ˈdeɪtə əˈnæləsɪs",
+    "translate": "ניתוח נתונים",
+    "date_created": "2024-02-22 15:48:12",
+    "cover": {
+      "id": 89561,
+      "name": "cover_68488b87ad783.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495847757181.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1759,
+    "title": "Results",
+    "transcription": "The results of the experiment showed a significant increase in performance.",
+    "sentence": "rɪˈzʌlts",
+    "translate": "תוצאות",
+    "date_created": "2024-02-22 15:48:13",
+    "cover": {
+      "id": 89562,
+      "name": "cover_68488bd40e4c1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495848520653.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1760,
+    "title": "Conclusion",
+    "transcription": "In conclusion, I would like to thank all the participants for their contributions.",
+    "sentence": "kənˈkluːʒən",
+    "translate": "מסקנה",
+    "date_created": "2024-02-22 15:48:14",
+    "cover": {
+      "id": 89563,
+      "name": "cover_68488c035f39f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495848993986.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1761,
+    "title": "Literature review",
+    "transcription": "The literature review is a crucial part of any academic research paper.",
+    "sentence": "ˈlɪtərətʃər ˈrɛvjuː",
+    "translate": "סקירת ספרות",
+    "date_created": "2024-02-22 15:48:16",
+    "cover": {
+      "id": 89564,
+      "name": "cover_68488c3043283.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495849442818.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1762,
+    "title": "Experiment",
+    "transcription": "She conducted an interesting experiment to test her hypothesis.",
+    "sentence": "ɪkˈsperəmənt",
+    "translate": "ניסוי",
+    "date_created": "2024-02-22 15:48:16",
+    "cover": {
+      "id": 89565,
+      "name": "cover_68488c603c0ed.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495849922529.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1763,
+    "title": "Variables",
+    "transcription": "In this experiment, the independent variable is the temperature and the dependent variable is the growth rate of the plants.",
+    "sentence": "ˈvɛriəbəlz",
+    "translate": "משתנים",
+    "date_created": "2024-02-22 15:48:16",
+    "cover": {
+      "id": 89566,
+      "name": "cover_68488c82c5012.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495850268129.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1764,
+    "title": "Control group",
+    "transcription": "The control group received a placebo instead of the actual medication during the experiment.",
+    "sentence": "[kənˈtroʊl ɡruːp]",
+    "translate": "קבוצת ביקורת",
+    "date_created": "2024-02-22 15:48:17",
+    "cover": {
+      "id": 89567,
+      "name": "cover_68488cb2b2fc1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495850747404.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1765,
+    "title": "Sample size",
+    "transcription": "The researcher needed to increase the sample size in order to make more accurate conclusions.",
+    "sentence": "ˈsæmpl saɪz",
+    "translate": "גודל דוגמה",
+    "date_created": "2024-02-22 15:48:18",
+    "cover": {
+      "id": 89568,
+      "name": "cover_68488cd56a374.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495851094419.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1766,
+    "title": "Statistical significance",
+    "transcription": "The results showed a high level of statistical significance, indicating a strong relationship between the two variables.",
+    "sentence": "stəˈtɪstɪkl sɪɡˈnɪfɪkəns",
+    "translate": "חשיבות סטטיסטית",
+    "date_created": "2024-02-22 15:48:20",
+    "cover": {
+      "id": 89569,
+      "name": "cover_68488cfe9b9e6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495851506438.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1767,
+    "title": "Peer review",
+    "transcription": "Before the article is published, it undergoes a peer review process to ensure its quality and accuracy.",
+    "sentence": "ˈpɪər rɪˈvjuː",
+    "translate": "סקירת עמיתים",
+    "date_created": "2024-02-22 15:48:21",
+    "cover": {
+      "id": 89570,
+      "name": "cover_68488d341b25d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495852041191.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1768,
+    "title": "Citation",
+    "transcription": "She received a citation for driving through a red light.",
+    "sentence": "saɪˈteɪʃən",
+    "translate": "ציטוט",
+    "date_created": "2024-02-22 15:48:21",
+    "cover": {
+      "id": 89571,
+      "name": "cover_68488d65b6bd9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495852537555.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1769,
+    "title": "Research question",
+    "transcription": "The research question asked in the study was whether there was a correlation between sleep duration and academic performance.",
+    "sentence": "rɪˈsɜːtʃ ˈkwɛstʃən",
+    "translate": "שאלת מחקר",
+    "date_created": "2024-02-22 15:48:22",
+    "cover": {
+      "id": 89572,
+      "name": "cover_68488d8ee20f0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495852949332.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1770,
+    "title": "Theory",
+    "transcription": "The theory that humans evolved from apes is widely accepted in the scientific community.",
+    "sentence": "ˈθɪəri",
+    "translate": "תיאוריה",
+    "date_created": "2024-02-22 15:48:23",
+    "cover": {
+      "id": 89573,
+      "name": "cover_68488dbd7c3f8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495853415157.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1771,
+    "title": "Empirical",
+    "transcription": "The scientist conducted an empirical study to gather data on the effects of the new medication.",
+    "sentence": "ɛmˈpɪrɪkəl",
+    "translate": "אמפירי",
+    "date_created": "2024-02-22 15:48:25",
+    "cover": {
+      "id": 89574,
+      "name": "cover_68488dee4d10f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495853903228.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1772,
+    "title": "Validity",
+    "transcription": "The validity of the research findings was confirmed by multiple sources.",
+    "sentence": "vəˈlɪdəti",
+    "translate": "תוקף",
+    "date_created": "2024-02-22 15:48:26",
+    "cover": {
+      "id": 89575,
+      "name": "cover_68488e1a1a333.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495854341179.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1773,
+    "title": "Reliability",
+    "transcription": "The reliability of the new software was questioned after multiple crashes occurred during testing.",
+    "sentence": "rɪˌlaɪəˈbɪlɪti",
+    "translate": "אמינות",
+    "date_created": "2024-02-22 15:48:26",
+    "cover": {
+      "id": 89576,
+      "name": "cover_68488e48125d9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495854800881.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1774,
+    "title": "Correlation",
+    "transcription": "There is a correlation between studying consistently and getting good grades.",
+    "sentence": "ˌkɒr.əˈleɪ.ʃən",
+    "translate": null,
+    "date_created": "2024-02-22 15:48:27",
+    "cover": {
+      "id": 89577,
+      "name": "cover_68488e71be31a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495855217863.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1775,
+    "title": "Regression analysis",
+    "transcription": "The researchers conducted a regression analysis to determine the relationship between variables.",
+    "sentence": "rɪˈɡreʃən əˈnæləsɪs",
+    "translate": "ניתוח רגרסיה",
+    "date_created": "2024-02-22 15:48:28",
+    "cover": {
+      "id": 89578,
+      "name": "cover_68488e953c223.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495855572530.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1776,
+    "title": "Experimentation",
+    "transcription": "The scientist conducted several rounds of experimentation before reaching a conclusion.",
+    "sentence": "ɪkˌsperəˌmenˈteɪʃən",
+    "translate": "ניסויים",
+    "date_created": "2024-02-22 15:48:30",
+    "cover": {
+      "id": 89579,
+      "name": "cover_68488ec663085.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495856064126.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1777,
+    "title": "Survey",
+    "transcription": "The company conducted a survey to gather customers' feedback on their products.",
+    "sentence": "ˈsɜrˌveɪ",
+    "translate": "סקר",
+    "date_created": "2024-02-22 15:48:30",
+    "cover": {
+      "id": 89580,
+      "name": "cover_68488ef350fb1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495856513389.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1778,
+    "title": "Qualitative",
+    "transcription": "The study used qualitative methods to analyze the participants' responses.",
+    "sentence": "/ˈkwä-lə-ˌtā-tiv/",
+    "translate": "איכותי",
+    "date_created": "2024-02-22 15:48:30",
+    "cover": {
+      "id": 89581,
+      "name": "cover_68488f1facaa7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495856957140.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1779,
+    "title": "Quantitative",
+    "transcription": "The research study used quantitative data analysis to measure the impact of the new policy.",
+    "sentence": "ˈkwɒntɪˌteɪtɪv",
+    "translate": "כמותי",
+    "date_created": "2024-02-22 15:48:31",
+    "cover": {
+      "id": 89582,
+      "name": "cover_68488f4c44644.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495857402860.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1780,
+    "title": "Ethics",
+    "transcription": "It is important to uphold high ethical standards in all business dealings.",
+    "sentence": "ˈɛθɪks",
+    "translate": "אתיקה",
+    "date_created": "2024-02-22 15:48:33",
+    "cover": {
+      "id": 89583,
+      "name": "cover_68488f78a8560.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495857846957.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1781,
+    "title": "Control variable",
+    "transcription": "In order to determine the effect of temperature on plant growth, light intensity must be kept as a control variable.",
+    "sentence": "kənˈtroʊl ˈvɛriəbl",
+    "translate": "משתנה שליטה",
+    "date_created": "2024-02-22 15:48:34",
+    "cover": {
+      "id": 89584,
+      "name": "cover_68488f9f1f43b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495858231352.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1782,
+    "title": "Independent variable",
+    "transcription": "In the experiment, the independent variable is the amount of sunlight the plants receive.",
+    "sentence": "ˌɪndɪˈpɛndənt ˌvɛˌrɪəbl",
+    "translate": "משתנה תלוי",
+    "date_created": "2024-02-22 15:48:35",
+    "cover": {
+      "id": 89585,
+      "name": "cover_68488fc990a90.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495858655994.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1783,
+    "title": "Population",
+    "transcription": "The population of the small town has been steadily increasing over the past few years.",
+    "sentence": "ˌpɑp.jəˈleɪ.ʃən",
+    "translate": "אוכלוסיה",
+    "date_created": "2024-02-22 15:48:37",
+    "cover": {
+      "id": 89586,
+      "name": "cover_68488ff814bd8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495859120925.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1784,
+    "title": "Sample",
+    "transcription": "Can I have a sample of the perfume before I decide to buy it?",
+    "sentence": "ˈsæmpəl",
+    "translate": "דוגמה",
+    "date_created": "2024-02-22 15:48:37",
+    "cover": {
+      "id": 89587,
+      "name": "cover_6848901e8db65.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495859505867.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1785,
+    "title": "Probability",
+    "transcription": "There is a high probability of rain tomorrow according to the weather forecast.",
+    "sentence": "ˌprɒb.əˈbɪl.ɪ.ti",
+    "translate": "הסתברות",
+    "date_created": "2024-02-22 15:48:39",
+    "cover": {
+      "id": 89588,
+      "name": "cover_6848903fb2a0f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495859837443.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1786,
+    "title": "Population density",
+    "transcription": "Tokyo has a very high population density with over 6,000 people per square kilometer.",
+    "sentence": "ˌpɑːpjəˈleɪʃən ˈdɛnsəti",
+    "translate": "צפיפות אוכלוסין",
+    "date_created": "2024-02-22 15:48:39",
+    "cover": {
+      "id": 89589,
+      "name": "cover_684890760ffa0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495860380724.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1787,
+    "title": "Analysis",
+    "transcription": "The analysis showed that there was a correlation between the two variables.",
+    "sentence": "/əˈnæləsɪs/",
+    "translate": "ניתוח",
+    "date_created": "2024-02-22 15:48:41",
+    "cover": {
+      "id": 89590,
+      "name": "cover_6848909f8f8f2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495860795953.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1788,
+    "title": "Synthesis",
+    "transcription": "The new drug was created through the synthesis of various chemical compounds.",
+    "sentence": "ˈsɪnθəsɪs",
+    "translate": "סינתזה",
+    "date_created": "2024-02-22 15:48:41",
+    "cover": {
+      "id": 89591,
+      "name": "cover_684890ce09aea.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495861260501.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1789,
+    "title": "Methodological approach",
+    "transcription": "The researchers adopted a methodological approach that involved collecting and analyzing quantitative data.",
+    "sentence": "ˌmeθ.əˈdɑːl.ə.dʒɪ.kəl əˈproʊtʃ",
+    "translate": "גישת מתודולוגית",
+    "date_created": "2024-02-22 15:48:42",
+    "cover": {
+      "id": 89592,
+      "name": "cover_684890f57dcc9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495861655213.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1790,
+    "title": "Controlled experiment",
+    "transcription": "The scientists conducted a controlled experiment to test the effects of the new drug.",
+    "sentence": "kənˈtroʊld ɪkˈsperəmənt",
+    "translate": "ניסוי שליטה",
+    "date_created": "2024-02-22 15:48:43",
+    "cover": {
+      "id": 89593,
+      "name": "cover_6848912a6d825.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495862184553.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1791,
+    "title": "Hypothesis testing",
+    "transcription": "The scientist used hypothesis testing to determine whether the results were statistically significant.",
+    "sentence": "haɪˈpɒθəsɪs ˈtɛstɪŋ",
+    "translate": "בדיקת השערה",
+    "date_created": "2024-02-22 15:48:45",
+    "cover": {
+      "id": 89594,
+      "name": "cover_6848915684fda.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495862625517.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1792,
+    "title": "Null hypothesis",
+    "transcription": "In a scientific experiment, the null hypothesis is the default assumption that there is no significant difference between groups being tested.",
+    "sentence": "nʌl haɪˈpɒθəsɪs",
+    "translate": "השערת אפס",
+    "date_created": "2024-02-22 15:48:45",
+    "cover": {
+      "id": 89595,
+      "name": "cover_6848917d778f7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495863014960.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1793,
+    "title": "Alternative hypothesis",
+    "transcription": "The alternative hypothesis suggests that there is a significant difference between the groups being compared.",
+    "sentence": "ɔːlˈtɜːrnətɪv haɪˈpɒθəsɪs",
+    "translate": "השערה אלטרנטיבית",
+    "date_created": "2024-02-22 15:48:46",
+    "cover": {
+      "id": 89596,
+      "name": "cover_684891a271615.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495863384759.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1794,
+    "title": "Dependent variable",
+    "transcription": "In the experiment, the dependent variable was the amount of sunlight each plant received.",
+    "sentence": "dɪˈpɛndənt ˈvɛriəbl",
+    "translate": "משתנה תלות",
+    "date_created": "2024-02-22 15:48:47",
+    "cover": {
+      "id": 89597,
+      "name": "cover_684891d426ddd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495863881696.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1795,
+    "title": "Statistical analysis",
+    "transcription": "The researchers used statistical analysis to determine the correlation between variables.",
+    "sentence": "stəˈtɪstɪkl əˈnæləsɪs",
+    "translate": "ניתוח סטטיסטי",
+    "date_created": "2024-02-22 15:48:50",
+    "cover": {
+      "id": 89598,
+      "name": "cover_684892057beb0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495864375148.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1796,
+    "title": "Probability distribution",
+    "transcription": "The probability distribution of rolling a fair six-sided die is uniform, with each outcome having a 1/6 chance of occurring.",
+    "sentence": "ˌprɒbəˈbɪlɪti dɪstrɪˈbjuːʃən",
+    "translate": "התפלגות סמכויות",
+    "date_created": "2024-02-22 15:48:51",
+    "cover": {
+      "id": 89599,
+      "name": "cover_6848922e8a524.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495864785728.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1797,
+    "title": "Descriptive statistics",
+    "transcription": "Descriptive statistics are used to summarize and describe the main features of a data set.",
+    "sentence": "dɪˈskrɪptɪv stəˈtɪstɪks",
+    "translate": "סטטיסטיקה תיאורית",
+    "date_created": "2024-02-22 15:48:51",
+    "cover": {
+      "id": 89600,
+      "name": "cover_68489261c9ffb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495865298352.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1798,
+    "title": "Inferential statistics",
+    "transcription": "Inferential statistics involves making inferences or predictions about a population based on a sample of data.",
+    "sentence": "ˌɪn.fəˈren.ʃəl stəˈtɪs.tɪks",
+    "translate": "סטטיסטיקה סקרנית",
+    "date_created": "2024-02-22 15:48:51",
+    "cover": {
+      "id": 89601,
+      "name": "cover_68489287e2842.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495865679338.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1799,
+    "title": "Median",
+    "transcription": "The median age of the group was 35 years old.",
+    "sentence": "/ˈmiːdiən/",
+    "translate": "חציון",
+    "date_created": "2024-02-22 15:48:52",
+    "cover": {
+      "id": 89602,
+      "name": "cover_684892ac22138.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495866041456.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1800,
+    "title": "Standard deviation",
+    "transcription": "The standard deviation is a measure of how spread out the values in a data set are from the mean.",
+    "sentence": "/ˈstændərd dɛviˈeɪʃən/",
+    "translate": "סטיית תקן",
+    "date_created": "2024-02-22 15:48:52",
+    "cover": {
+      "id": 89603,
+      "name": "cover_684892cc9dd0f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495866366535.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1801,
+    "title": "Mode",
+    "transcription": "The car has an eco mode that helps conserve fuel.",
+    "sentence": "moʊd",
+    "translate": "מצב",
+    "date_created": "2024-02-22 15:48:56",
+    "cover": {
+      "id": 89604,
+      "name": "cover_684892f8de484.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495866809173.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1802,
+    "title": "Skewness",
+    "transcription": "The data distribution showed a positive skewness, indicating that the majority of values were concentrated towards the lower end of the scale.",
+    "sentence": "/skjuːnəs/",
+    "translate": "שקולות",
+    "date_created": "2024-02-22 15:48:56",
+    "cover": {
+      "id": 89605,
+      "name": "cover_6848931d3db59.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495867172587.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1803,
+    "title": "Kurtosis",
+    "transcription": "The kurtosis of the data set indicated a peak in the distribution of the values.",
+    "sentence": "/kərˈtoʊsɪs/",
+    "translate": "קורטוז",
+    "date_created": "2024-02-22 15:48:56",
+    "cover": {
+      "id": 89606,
+      "name": "cover_6848934500703.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495867570077.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1804,
+    "title": "Probability density function",
+    "transcription": "The probability density function of a normal distribution is the bell-shaped curve.",
+    "sentence": "ˌprɒbəˈbɪlɪti ˈdensəti ˈfʌŋkʃən",
+    "translate": "פונקציית הצפיפות של ההסתברות",
+    "date_created": "2024-02-22 15:48:57",
+    "cover": {
+      "id": 89607,
+      "name": "cover_6848936dbf52f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495867977901.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1805,
+    "title": "Normal distribution",
+    "transcription": "In a normal distribution, the data is symmetrically distributed around the mean.",
+    "sentence": "ˈnɔːrməl ˌdɪstrɪˈbjuːʃən",
+    "translate": "התפלגות נורמלית",
+    "date_created": "2024-02-22 15:48:57",
+    "cover": {
+      "id": 89608,
+      "name": "cover_684893966c6ee.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495868384495.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1806,
+    "title": "Chi-square test",
+    "transcription": "The researchers used a Chi-square test to determine if there was a significant association between the two variables.",
+    "sentence": "ˈkaɪ ˌskwɛər tɛst",
+    "translate": "בדיקת כי ריבוע",
+    "date_created": "2024-02-22 15:48:58",
+    "cover": {
+      "id": 89609,
+      "name": "cover_684893bf63d07.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495868794158.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1807,
+    "title": "T-test",
+    "transcription": "The researcher used a T-test to compare the means of two groups in the study.",
+    "sentence": "ˈti ˌtest",
+    "translate": "בדיקת טי",
+    "date_created": "2024-02-22 15:48:59",
+    "cover": {
+      "id": 89610,
+      "name": "cover_684893ee55110.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495869263537.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1808,
+    "title": "Pearson correlation coefficient",
+    "transcription": "The Pearson correlation coefficient measures the strength and direction of the linear relationship between two variables.",
+    "sentence": "ˈpɪərsən kɔːrəˈleɪʃən koʊˈɛfɪʃənt",
+    "translate": "מקדם השימוש הפירסון",
+    "date_created": "2024-02-22 15:49:01",
+    "cover": {
+      "id": 89611,
+      "name": "cover_68489415d1812.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495869658649.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1809,
+    "title": "Sample size determination",
+    "transcription": "The sample size determination for the study was calculated to be 100 participants in order to achieve a statistically significant result.",
+    "sentence": "ˈsæmpəl saɪz dɪˌtɜrmɪˈneɪʃən",
+    "translate": "קביעת גודל דוגמה",
+    "date_created": "2024-02-22 15:49:02",
+    "cover": {
+      "id": 89612,
+      "name": "cover_684894442d1a2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495870121915.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1810,
+    "title": "Confidence interval",
+    "transcription": "The researchers calculated a confidence interval for the average height of the students in the school.",
+    "sentence": "ˈkɑnfɪdəns ˈɪntərvəl",
+    "translate": "מַרְוִיחַ אָמָן",
+    "date_created": "2024-02-22 15:49:03",
+    "cover": {
+      "id": 89613,
+      "name": "cover_68489469630d2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495870494126.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1811,
+    "title": "Margin of error",
+    "transcription": "The survey results have a margin of error of plus or minus 3 percentage points.",
+    "sentence": "ˈmɑːrdʒɪn ʌv ˈɛrər",
+    "translate": "שולי שגיאה",
+    "date_created": "2024-02-22 15:49:03",
+    "cover": {
+      "id": 89614,
+      "name": "cover_6848949110148.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495870890854.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1812,
+    "title": "Random sample",
+    "transcription": "The researchers selected a random sample of participants for the study.",
+    "sentence": "ˈrændəm ˈsæmpəl",
+    "translate": "ערימה אקראית",
+    "date_created": "2024-02-22 15:49:04",
+    "cover": {
+      "id": 89615,
+      "name": "cover_684894b6b8491.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495871267662.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1813,
+    "title": "Systematic sampling",
+    "transcription": "The researchers used systematic sampling to select every 10th patient from the hospital database.",
+    "sentence": "ˌsɪstəˈmætɪk ˈsæmplɪŋ",
+    "translate": "בחירה סיסטמטית",
+    "date_created": "2024-02-22 15:49:08",
+    "cover": {
+      "id": 89616,
+      "name": "cover_684894e375a27.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495871714883.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1814,
+    "title": "Convenience sampling",
+    "transcription": "The researchers used convenience sampling to select participants from the university campus.",
+    "sentence": "kənˈviːniəns ˈsæmplɪŋ",
+    "translate": "שיטת חיפוש אקראית",
+    "date_created": "2024-02-22 15:49:08",
+    "cover": {
+      "id": 89617,
+      "name": "cover_6848951233514.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495872182170.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1815,
+    "title": "Stratified sampling",
+    "transcription": "The researchers used stratified sampling to ensure that each demographic group was represented in the study.",
+    "sentence": "/ˈstrætɪˌfaɪd ˈsæmplɪŋ/",
+    "translate": "דַמוּיוּת מְקוּבָעֵת",
+    "date_created": "2024-02-22 15:49:09",
+    "cover": {
+      "id": 89618,
+      "name": "cover_6848953ab3fa2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495872587439.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1816,
+    "title": "Qualitative research",
+    "transcription": "Qualitative research involves collecting and analyzing non-numerical data, such as interviews, observations, and open-ended survey responses.",
+    "sentence": "ˈkwɑləˌteɪtɪv ˈriːsɜːrtʃ",
+    "translate": "מחקר איכותני",
+    "date_created": "2024-02-22 15:49:10",
+    "cover": {
+      "id": 89619,
+      "name": "cover_684895628d3cc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495872985866.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1817,
+    "title": "Grounded theory",
+    "transcription": "The researcher used grounded theory to develop a theory based on data collected from interviews.",
+    "sentence": "ˈɡraʊndɪd ˈθɪri",
+    "translate": "תאורית מוצקה",
+    "date_created": "2024-02-22 15:49:10",
+    "cover": {
+      "id": 89620,
+      "name": "cover_68489593775eb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495873474955.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1818,
+    "title": "Case study",
+    "transcription": "The professor assigned a case study on consumer behavior for us to analyze.",
+    "sentence": "ˈkeɪs ˈstʌdi",
+    "translate": "חקירת מקרה",
+    "date_created": "2024-02-22 15:49:13",
+    "cover": {
+      "id": 89621,
+      "name": "cover_684895bbecedb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495873879772.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1819,
+    "title": "Content analysis",
+    "transcription": "The researchers conducted a content analysis of the news articles to identify common themes.",
+    "sentence": "ˈkɒntɛnt əˈnæləsɪs",
+    "translate": "ניתוח תוכן",
+    "date_created": "2024-02-22 15:49:14",
+    "cover": {
+      "id": 89622,
+      "name": "cover_684895e2d66a7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495874268848.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1820,
+    "title": "Phenomenology",
+    "transcription": "Phenomenology is a philosophical approach that focuses on the study of conscious experience and the ways in which people experience the world.",
+    "sentence": "/ˌfiː.nəˈmɑː.nəˌlə.dʒi/",
+    "translate": "פנומנולוגיה",
+    "date_created": "2024-02-22 15:49:14",
+    "cover": {
+      "id": 89623,
+      "name": "cover_68489608950af.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495874646199.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1821,
+    "title": "Action research",
+    "transcription": "She decided to conduct action research to improve classroom engagement among her students.",
+    "sentence": "[ˈækʃən ˈriːsɜːrtʃ]",
+    "translate": "מחקר פעולה",
+    "date_created": "2024-02-22 15:49:15",
+    "cover": {
+      "id": 89624,
+      "name": "cover_6848963a5c513.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495875143852.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1822,
+    "title": "Content validity",
+    "transcription": "The survey has high content validity because it accurately measures the key aspects of the topic being studied.",
+    "sentence": "ˈkɑntɛnt vəˈlɪdəti",
+    "translate": "אותנטיות התוכן",
+    "date_created": "2024-02-22 15:49:16",
+    "cover": {
+      "id": 89625,
+      "name": "cover_684896607feb4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495875525309.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1823,
+    "title": "Construct validity",
+    "transcription": "The study aimed to establish the construct validity of the new intelligence test by comparing it to existing measures of intelligence.",
+    "sentence": "kənˈstrʌkt ˌvælɪˈdɪti",
+    "translate": "תוקינות הבנאי",
+    "date_created": "2024-02-22 15:49:17",
+    "cover": {
+      "id": 89626,
+      "name": "cover_6848968f25b83.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495875991618.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1824,
+    "title": "Concurrent validity",
+    "transcription": "To assess the concurrent validity of the new test, we compared its results with those of a well-established assessment tool.",
+    "sentence": "kənˈkʌrənt vəˈlɪdəti",
+    "translate": "תוקף משותף",
+    "date_created": "2024-02-22 15:49:20",
+    "cover": {
+      "id": 89627,
+      "name": "cover_684896b8cf0d2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495876408553.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1825,
+    "title": "Face validity",
+    "transcription": "The researchers assessed the face validity of the survey by having a group of participants review the questions for clarity.",
+    "sentence": "feɪs vəˈlɪdəti",
+    "translate": "תוקף פנים",
+    "date_created": "2024-02-22 15:49:20",
+    "cover": {
+      "id": 89628,
+      "name": "cover_684896e409786.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495876840459.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1826,
+    "title": "Internal consistency",
+    "transcription": "The survey questions were designed to measure internal consistency in participants' answers.",
+    "sentence": "ɪnˈtɜːrnəl kənˈsɪstənsi",
+    "translate": "איחוד פנימי",
+    "date_created": "2024-02-22 15:49:21",
+    "cover": {
+      "id": 89629,
+      "name": "cover_6848970f66f26.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495877274289.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1827,
+    "title": "Interrater reliability",
+    "transcription": "The study measured the interrater reliability of the scoring system by comparing ratings from multiple independent raters.",
+    "sentence": "ˌɪntəˈreɪtər rɪˌlaɪəˈbɪləti",
+    "translate": "אמינות בין-שחקאית",
+    "date_created": "2024-02-22 15:49:21",
+    "cover": {
+      "id": 89630,
+      "name": "cover_6848973a92eed.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495877706087.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1828,
+    "title": "Test-retest reliability",
+    "transcription": "The test-retest reliability of the survey questions was high, indicating that the results were consistent over time.",
+    "sentence": "ˈtɛst-riˌtɛst rɪˌlaɪəˈbɪlɪti",
+    "translate": "אמינות ניסוי-ניסוי",
+    "date_created": "2024-02-22 15:49:22",
+    "cover": {
+      "id": 89631,
+      "name": "cover_68489766e6702.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495878149505.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1829,
+    "title": "Factor analysis",
+    "transcription": "Factor analysis is a statistical method used to reduce data by grouping variables into factors based on their correlations.",
+    "sentence": "ˈfæktər əˈnæləsɪs",
+    "translate": "ניתוח פקטורים",
+    "date_created": "2024-02-22 15:49:25",
+    "cover": {
+      "id": 89632,
+      "name": "cover_68489790171de.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495878561016.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1830,
+    "title": "Meta-analysis",
+    "transcription": "The researchers conducted a meta-analysis of multiple studies to determine if there was a significant effect of the treatment on patient outcomes.",
+    "sentence": "ˌmetəˈanələsɪs",
+    "translate": "ניתוח מטא-",
+    "date_created": "2024-02-22 15:49:26",
+    "cover": {
+      "id": 89633,
+      "name": "cover_684897b5ab5ee.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495878937089.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1831,
+    "title": "Replication",
+    "transcription": "Scientists conducted a study to analyze the replication of DNA in cells.",
+    "sentence": "ˌreplɪˈkeɪʃən",
+    "translate": "שיכפול",
+    "date_created": "2024-02-22 15:49:27",
+    "cover": {
+      "id": 89634,
+      "name": "cover_684897dbdb93f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495879319063.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1832,
+    "title": "Peer-reviewed journal",
+    "transcription": "The study was published in a peer-reviewed journal, ensuring that the research was rigorously evaluated by experts in the field.",
+    "sentence": "ˈpɪr rɪˈvjud ˈʤɜrnəl",
+    "translate": "יומן עם סקירה מומחית",
+    "date_created": "2024-02-22 15:49:27",
+    "cover": {
+      "id": 89635,
+      "name": "cover_68489802e619d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495879709489.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1833,
+    "title": "Academic publication",
+    "transcription": "Her research paper was accepted for academic publication in a prestigious journal.",
+    "sentence": "ˌækəˈdemɪk ˌpʌblɪˈkeɪʃən",
+    "translate": "פרסום אקדמי",
+    "date_created": "2024-02-22 15:49:29",
+    "cover": {
+      "id": 89636,
+      "name": "cover_6848982cd3c85.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495880128747.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1834,
+    "title": "Scholarly article",
+    "transcription": "She spent months researching and writing a scholarly article on the history of modern art.",
+    "sentence": "ˈskɒlərli ˈɑːtɪkəl",
+    "translate": "מאמר מחקרי",
+    "date_created": "2024-02-22 15:49:30",
+    "cover": {
+      "id": 89637,
+      "name": "cover_684898597a581.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495880575080.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1835,
+    "title": "Citation index",
+    "transcription": "Researchers use the citation index to track how often their work is referenced by other academic papers.",
+    "sentence": "saɪˈteɪʃən ˈɪndɛks",
+    "translate": "מדד ציטוטים",
+    "date_created": "2024-02-22 15:49:32",
+    "cover": {
+      "id": 89638,
+      "name": "cover_6848987c9ee6d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495880926578.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1836,
+    "title": "Open access",
+    "transcription": "Open access to scientific research allows for greater dissemination of knowledge to the public.",
+    "sentence": "ˈoʊpən ˈækˌsɛs",
+    "translate": "גישה פתוחה",
+    "date_created": "2024-02-22 15:49:32",
+    "cover": {
+      "id": 89639,
+      "name": "cover_684898a7e76d4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495881359547.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1837,
+    "title": "Impact factor",
+    "transcription": "The impact factor of the journal has been steadily increasing over the years.",
+    "sentence": "ˈɪmpækt ˌfæktər",
+    "translate": "גורם השפעה",
+    "date_created": "2024-02-22 15:49:33",
+    "cover": {
+      "id": 89640,
+      "name": "cover_684898cb03044.png",
+      "url": "https://cdn.see.guru/words/2025/06/17495881710187.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1838,
+    "title": "Bibliography",
+    "transcription": "Make sure to include a bibliography at the end of your research paper listing all the sources you used.",
+    "sentence": "/bɪbliˈɒɡrəfi/",
+    "translate": "ביבליוגרפיה",
+    "date_created": "2024-02-22 15:49:34",
+    "cover": {
+      "id": 89776,
+      "name": "cover_684c57f00dc91.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498337120640.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1839,
+    "title": "Academic conference",
+    "transcription": "She will be presenting her research at the academic conference next week.",
+    "sentence": "ˌækəˈdɛmɪk ˈkɒnfərəns",
+    "translate": "כנס אקדמי",
+    "date_created": "2024-02-22 15:49:37",
+    "cover": {
+      "id": 89777,
+      "name": "cover_684c581a863ba.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498337545569.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1840,
+    "title": "Abstracting and indexing",
+    "transcription": "The journal has been included in various abstracting and indexing services to increase its visibility among researchers.",
+    "sentence": "ˈæbstræktɪŋ ænd ˈɪndeksɪŋ",
+    "translate": "התרגשות ואינדוקסציה",
+    "date_created": "2024-02-22 15:49:37",
+    "cover": {
+      "id": 89778,
+      "name": "cover_684c5842647e7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498337944186.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1841,
+    "title": "Plagiarism",
+    "transcription": "The student was expelled for plagiarism after copying an essay from the internet without citing the source.",
+    "sentence": "ˈpleɪdʒəˌrɪzəm",
+    "translate": "עֲתַר",
+    "date_created": "2024-02-22 15:49:37",
+    "cover": {
+      "id": 89779,
+      "name": "cover_684c586a8214e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498338345399.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1842,
+    "title": "Intellectual property",
+    "transcription": "Protecting intellectual property is crucial for businesses to prevent their ideas from being stolen.",
+    "sentence": "ˌɪntəˈlɛktʃuəl ˈprɒpəti",
+    "translate": "רכוש רוחני",
+    "date_created": "2024-02-22 15:49:39",
+    "cover": {
+      "id": 89780,
+      "name": "cover_684c588cb66d7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498338687580.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1843,
+    "title": "Research ethics",
+    "transcription": "Researchers must adhere to strict research ethics when conducting experiments involving human subjects.",
+    "sentence": "ˈriːˌsɜːrtʃ ˈɛθɪks",
+    "translate": "אתיקת מחקר",
+    "date_created": "2024-02-22 15:49:39",
+    "cover": {
+      "id": 89781,
+      "name": "cover_684c58b3c6724.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498339078201.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1844,
+    "title": "Informed consent",
+    "transcription": "Before participating in the study, the participants were required to sign a form indicating their informed consent.",
+    "sentence": "/ɪnˈfɔːrmd kənˈsent/",
+    "translate": "הסכמה מודעת",
+    "date_created": "2024-02-22 15:49:42",
+    "cover": {
+      "id": 89782,
+      "name": "cover_684c58d9eb4cf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498339459710.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1845,
+    "title": "Conflict of interest",
+    "transcription": "There is a conflict of interest when a lawyer represents both the plaintiff and the defendant in a case.",
+    "sentence": "ˈkɒnflɪkt əv ˈɪntrɪst",
+    "translate": "סכסוך ביניים",
+    "date_created": "2024-02-22 15:49:42",
+    "cover": {
+      "id": 89783,
+      "name": "cover_684c59035f0c7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498339873966.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1846,
+    "title": "Data management",
+    "transcription": "Proper data management is essential for effectively running a business.",
+    "sentence": "ˈdeɪtə ˈmænɪdʒmənt",
+    "translate": "ניהול נתונים",
+    "date_created": "2024-02-22 15:49:44",
+    "cover": {
+      "id": 89784,
+      "name": "cover_684c592ee1966.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498340309320.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1847,
+    "title": "Research integrity",
+    "transcription": "Maintaining research integrity is essential in order to uphold the credibility of scientific findings.",
+    "sentence": "rɪˈsɜːrtʃ ˌɪnˈtɛɡrɪti",
+    "translate": "יִשׁרוּת הֶחָקִיר",
+    "date_created": "2024-02-22 15:49:45",
+    "cover": {
+      "id": 89785,
+      "name": "cover_684c59551bfa9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498340691219.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

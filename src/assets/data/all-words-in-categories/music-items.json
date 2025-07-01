@@ -1,0 +1,542 @@
+[
+  {
+    "id": 735,
+    "title": "Music",
+    "transcription": "I love listening to music while I work.",
+    "sentence": "ˈmjuːzɪk",
+    "translate": "מוזיקה",
+    "date_created": "2024-02-22 15:29:46",
+    "cover": {
+      "id": 88225,
+      "name": "cover_684067f11e35b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490513771308.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 736,
+    "title": "Song",
+    "transcription": "She sang a beautiful song at the talent show.",
+    "sentence": "sɔŋ",
+    "translate": "שיר",
+    "date_created": "2024-02-22 15:29:48",
+    "cover": {
+      "id": 88226,
+      "name": "cover_68406815abccc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490514137111.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 737,
+    "title": "Melody",
+    "transcription": "The melody of the song was so beautiful that it brought tears to my eyes.",
+    "sentence": "/ˈmɛlədi/",
+    "translate": "נגינה",
+    "date_created": "2024-02-22 15:29:48",
+    "cover": {
+      "id": 88227,
+      "name": "cover_684068405b8ef.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490514563821.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 738,
+    "title": "Rhythm",
+    "transcription": "She had a natural sense of rhythm and was always the first to start dancing at parties.",
+    "sentence": "/ˈrɪðəm/",
+    "translate": "רִיתְמָה",
+    "date_created": "2024-02-22 15:29:49",
+    "cover": {
+      "id": 88228,
+      "name": "cover_6840686b849d3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490514995499.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 739,
+    "title": "Note",
+    "transcription": "She wrote a note to remind herself to pick up milk at the store.",
+    "sentence": "/noʊt/",
+    "translate": "הערה",
+    "date_created": "2024-02-22 15:29:50",
+    "cover": {
+      "id": 88229,
+      "name": "cover_6840689469b38.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490515404392.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 740,
+    "title": "Beat",
+    "transcription": "She could hear the beat of the drums from far away.",
+    "sentence": "biːt",
+    "translate": "לְהָכוֹת",
+    "date_created": "2024-02-22 15:29:50",
+    "cover": {
+      "id": 88230,
+      "name": "cover_684068bb55ba3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490515793603.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 741,
+    "title": "Chord",
+    "transcription": "He strummed the chord on his guitar and the sweet sound filled the room.",
+    "sentence": "kɔːrd",
+    "translate": "צ'ורד",
+    "date_created": "2024-02-22 15:29:50",
+    "cover": {
+      "id": 88231,
+      "name": "cover_684068f6dcfa7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490516389121.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 742,
+    "title": "Harmony",
+    "transcription": "The choir sang in perfect harmony, creating a beautiful and soothing melody.",
+    "sentence": "/ˈhɑːrməni/",
+    "translate": "הרמוניה",
+    "date_created": "2024-02-22 15:29:51",
+    "cover": {
+      "id": 88232,
+      "name": "cover_6840691e2ceb1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490516781946.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 743,
+    "title": "Scale",
+    "transcription": "She had to weigh the ingredients on a scale before adding them to the recipe.",
+    "sentence": "skeɪl",
+    "translate": "סוֹל",
+    "date_created": "2024-02-22 15:29:51",
+    "cover": {
+      "id": 88233,
+      "name": "cover_68406940c08d5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490517127953.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 744,
+    "title": "Genre",
+    "transcription": "I enjoy reading books of different genres, from science fiction to mystery.",
+    "sentence": "/ˈʒɑːnrə/",
+    "translate": "סוג",
+    "date_created": "2024-02-22 15:29:53",
+    "cover": {
+      "id": 88234,
+      "name": "cover_68406964225bc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490517481475.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 745,
+    "title": "Classical",
+    "transcription": "Mozart composed many classical pieces that are still famous today.",
+    "sentence": "/ˈklæsɪkl/",
+    "translate": "קלאסי",
+    "date_created": "2024-02-22 15:29:53",
+    "cover": {
+      "id": 88235,
+      "name": "cover_6840698d6e05d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490517894632.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 746,
+    "title": "Jazz",
+    "transcription": "She enjoyed listening to jazz music in the evenings.",
+    "sentence": "/dʒæz/",
+    "translate": "ג'אז",
+    "date_created": "2024-02-22 15:29:53",
+    "cover": {
+      "id": 88236,
+      "name": "cover_684069b4815a6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490518285371.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 747,
+    "title": "Pop",
+    "transcription": "She heard a pop and the balloon burst.",
+    "sentence": "pɒp",
+    "translate": "פופ",
+    "date_created": "2024-02-22 15:29:53",
+    "cover": {
+      "id": 88237,
+      "name": "cover_684069e275471.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490518744870.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 748,
+    "title": "Hip-hop",
+    "transcription": "She loves to dance to hip-hop music.",
+    "sentence": "ˈhɪpˌhɑp",
+    "translate": "היפ הופ",
+    "date_created": "2024-02-22 15:29:54",
+    "cover": {
+      "id": 88238,
+      "name": "cover_68406a0c970fd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490519166261.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 749,
+    "title": "Country",
+    "transcription": "I live in the country and enjoy the peace and quiet.",
+    "sentence": "ˈkʌntri",
+    "translate": "מדינה",
+    "date_created": "2024-02-22 15:29:55",
+    "cover": {
+      "id": 88239,
+      "name": "cover_68406a3e9468c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490519666152.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 750,
+    "title": "Electronic",
+    "transcription": "I bought a new electronic gadget yesterday.",
+    "sentence": "/ɪˌlɛkˈtrɒnɪk/",
+    "translate": "אלקטרוני",
+    "date_created": "2024-02-22 15:29:55",
+    "cover": {
+      "id": 88240,
+      "name": "cover_68406a654d0e0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490520053246.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 751,
+    "title": "Folk",
+    "transcription": "She enjoys listening to traditional folk music from different cultures.",
+    "sentence": "/foʊk/",
+    "translate": "עָם",
+    "date_created": "2024-02-22 15:29:55",
+    "cover": {
+      "id": 88243,
+      "name": "cover_68406a8db85c5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490520457667.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 752,
+    "title": "Blues",
+    "transcription": "She sang the blues with so much emotion that everyone in the audience was moved to tears.",
+    "sentence": "/bluːz/",
+    "translate": "בלוז",
+    "date_created": "2024-02-22 15:29:57",
+    "cover": {
+      "id": 88244,
+      "name": "cover_68406ab99f56b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490520896603.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 753,
+    "title": "Symphony",
+    "transcription": "We went to see a beautiful symphony performed by the local orchestra.",
+    "sentence": "/ˈsɪm.fə.ni/",
+    "translate": "סימפוניה",
+    "date_created": "2024-02-22 15:29:57",
+    "cover": {
+      "id": 88245,
+      "name": "cover_68406ae43c9f8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490521322560.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 754,
+    "title": "Band",
+    "transcription": "I am in a band that plays at local pubs every weekend.",
+    "sentence": "bænd",
+    "translate": "להקה",
+    "date_created": "2024-02-22 15:29:57",
+    "cover": {
+      "id": 88246,
+      "name": "cover_68406b0f74100.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490521754818.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 755,
+    "title": "Opera",
+    "transcription": "She had never been to the opera before, but decided to go with her friends for a night out.",
+    "sentence": "/ˈɒpərə/",
+    "translate": null,
+    "date_created": "2024-02-22 15:29:57",
+    "cover": {
+      "id": 88247,
+      "name": "cover_68406b3c7653b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490522204920.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 756,
+    "title": "Choir",
+    "transcription": "She sings in the church choir every Sunday.",
+    "sentence": "/ˈkwʌɪər/",
+    "translate": "מקהלה",
+    "date_created": "2024-02-22 15:29:58",
+    "cover": {
+      "id": 88248,
+      "name": "cover_68406b75eb942.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490522779727.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 757,
+    "title": "Composer",
+    "transcription": "Mozart was a famous composer who wrote many symphonies and operas.",
+    "sentence": "kəmˈpoʊzər",
+    "translate": "מְלַחֵן",
+    "date_created": "2024-02-22 15:29:59",
+    "cover": {
+      "id": 88249,
+      "name": "cover_68406b9ebae6c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490523187731.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 758,
+    "title": "Guitar",
+    "transcription": "He played the guitar at the concert last night.",
+    "sentence": "/ɡɪˈtɑːr/",
+    "translate": "גיטרה",
+    "date_created": "2024-02-22 15:29:59",
+    "cover": {
+      "id": 88250,
+      "name": "cover_68406bc907852.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490523610372.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 759,
+    "title": "Piano",
+    "transcription": "He played the piano beautifully at the concert.",
+    "sentence": "/piˈænoʊ/",
+    "translate": "פִּיָנִו",
+    "date_created": "2024-02-22 15:30:01",
+    "cover": {
+      "id": 88251,
+      "name": "cover_68406bfa75be0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490524104888.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 760,
+    "title": "Drum",
+    "transcription": "The drummer played a powerful drum solo during the concert.",
+    "sentence": "drʌm",
+    "translate": "תוף",
+    "date_created": "2024-02-22 15:30:02",
+    "cover": {
+      "id": 88252,
+      "name": "cover_68406c20e53f5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490524489458.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 761,
+    "title": "Violin",
+    "transcription": "She played the violin beautifully at the concert.",
+    "sentence": "/ˌvaɪəˈlɪn/",
+    "translate": "כינור",
+    "date_created": "2024-02-22 15:30:02",
+    "cover": {
+      "id": 88253,
+      "name": "cover_68406c44ef4d1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490524849865.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 762,
+    "title": "Trumpet",
+    "transcription": "The musician played a beautiful melody on his trumpet.",
+    "sentence": "ˈtrʌmpɪt",
+    "translate": null,
+    "date_created": "2024-02-22 15:30:03",
+    "cover": {
+      "id": 88254,
+      "name": "cover_68406c6f545c7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490525273514.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 763,
+    "title": "Saxophone",
+    "transcription": "He played a beautiful melody on the saxophone during the jazz concert.",
+    "sentence": "/ˈsæksəfoʊn/",
+    "translate": "סקסופון",
+    "date_created": "2024-02-22 15:30:03",
+    "cover": {
+      "id": 88255,
+      "name": "cover_68406c97b5c98.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490525677528.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 764,
+    "title": "Flute",
+    "transcription": "Sarah played a beautiful melody on her flute during the school concert.",
+    "sentence": "/fluːt/",
+    "translate": "חליל",
+    "date_created": "2024-02-22 15:30:03",
+    "cover": {
+      "id": 88256,
+      "name": "cover_68406cb8c6b8a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490526008198.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 765,
+    "title": "Cello",
+    "transcription": "She played the cello beautifully in the orchestra concert.",
+    "sentence": "ˈtʃɛloʊ",
+    "translate": "צ'לו",
+    "date_created": "2024-02-22 15:30:06",
+    "cover": {
+      "id": 88257,
+      "name": "cover_68406cdca5fd7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490526366861.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 766,
+    "title": "Keyboard",
+    "transcription": "She was typing furiously on her keyboard to finish the report on time.",
+    "sentence": "/ˈkiːˌbɔːrd/",
+    "translate": "מקלדת",
+    "date_created": "2024-02-22 15:30:06",
+    "cover": {
+      "id": 88258,
+      "name": "cover_68406cfd6ada0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490526694507.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 767,
+    "title": "Harp",
+    "transcription": "She played a beautiful melody on the harp during the wedding ceremony.",
+    "sentence": "hɑːrp",
+    "translate": "כִּנּוֹר",
+    "date_created": "2024-02-22 15:30:06",
+    "cover": {
+      "id": 88259,
+      "name": "cover_68406d1fc2e79.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490527038048.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 768,
+    "title": "Bass",
+    "transcription": "The bass guitar player in the band lays down a solid groove.",
+    "sentence": "beɪs",
+    "translate": "בָּס",
+    "date_created": "2024-02-22 15:30:07",
+    "cover": {
+      "id": 88260,
+      "name": "cover_68406d5ae831e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490527629597.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 769,
+    "title": "Microphone",
+    "transcription": "The singer held the microphone close to her mouth as she began to sing.",
+    "sentence": "/ˈmaɪkrəˌfoʊn/",
+    "translate": "מיקרופון",
+    "date_created": "2024-02-22 15:30:08",
+    "cover": {
+      "id": 88261,
+      "name": "cover_68406d831f68f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490528031468.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 770,
+    "title": "Amplifier",
+    "transcription": "The guitarist used an amplifier to make their electric guitar sound louder.",
+    "sentence": "/ˈæmplɪˌfaɪər/",
+    "translate": "מגבר",
+    "date_created": "2024-02-22 15:30:10",
+    "cover": {
+      "id": 88262,
+      "name": "cover_68406da56ec88.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490528374620.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

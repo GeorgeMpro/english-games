@@ -1,0 +1,1280 @@
+[
+  {
+    "id": 2023,
+    "title": "Media",
+    "transcription": "The media plays a crucial role in delivering news and information to the public.",
+    "sentence": "ˈmiːdiə",
+    "translate": "מדיה",
+    "date_created": "2024-02-22 15:53:57",
+    "cover": {
+      "id": 89961,
+      "name": "cover_684c747aa2187.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498410186709.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2024,
+    "title": "News",
+    "transcription": "I read the news every morning to stay updated on current events.",
+    "sentence": "nuz",
+    "translate": "איהוד",
+    "date_created": "2024-02-22 15:53:58",
+    "cover": {
+      "id": 89962,
+      "name": "cover_684c74a68b8f0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498410625792.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2025,
+    "title": "Journalism",
+    "transcription": "She decided to pursue a career in journalism after writing for her school newspaper.",
+    "sentence": "ˈdʒɜːrnəˌlɪzəm",
+    "translate": "עיתונאות",
+    "date_created": "2024-02-22 15:54:01",
+    "cover": {
+      "id": 89963,
+      "name": "cover_684c74d0d13e0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498411048638.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2026,
+    "title": "Reporter",
+    "transcription": "The reporter interviewed the mayor for the evening news.",
+    "sentence": "/rɪˈpɔːrtər/",
+    "translate": "כתב",
+    "date_created": "2024-02-22 15:54:01",
+    "cover": {
+      "id": 89964,
+      "name": "cover_684c7501d097b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498411538614.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2027,
+    "title": "Anchor",
+    "transcription": "The ship dropped anchor in the harbor.",
+    "sentence": "/ˈæŋ.kər/",
+    "translate": "עוגן",
+    "date_created": "2024-02-22 15:54:03",
+    "cover": {
+      "id": 89965,
+      "name": "cover_684c7525dedf5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498411899201.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2028,
+    "title": "Correspondent",
+    "transcription": "The war correspondent reported live from the front lines.",
+    "sentence": "/ˌkɔːr.əˈspɒn.dənt/",
+    "translate": "תיקון",
+    "date_created": "2024-02-22 15:54:04",
+    "cover": {
+      "id": 89966,
+      "name": "cover_684c754d1edce.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498412291339.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2029,
+    "title": "Broadcast",
+    "transcription": "The news will be broadcast on all major television networks at 6:00 PM.",
+    "sentence": "ˈbrɔːdkɑːst",
+    "translate": "שידור",
+    "date_created": "2024-02-22 15:54:05",
+    "cover": {
+      "id": 89967,
+      "name": "cover_684c75732771e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498412671687.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2030,
+    "title": "Television (TV)",
+    "transcription": "I enjoy watching the news on television every evening.",
+    "sentence": "/ˈtɛlɪˌvɪʒən/ or /ˈtɛləˌvɪʒən/",
+    "translate": "טלוויזיה",
+    "date_created": "2024-02-22 15:54:06",
+    "cover": {
+      "id": 89968,
+      "name": "cover_684c7593b9dc3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498412997682.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2031,
+    "title": "Radio",
+    "transcription": "I like to listen to the radio while driving.",
+    "sentence": "/ˈreɪdiəʊ/",
+    "translate": "רדיו",
+    "date_created": "2024-02-22 15:54:07",
+    "cover": {
+      "id": 89969,
+      "name": "cover_684c75b957edc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498413373670.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2032,
+    "title": "Newspaper",
+    "transcription": "I read the newspaper every morning to stay informed about current events.",
+    "sentence": "/ˈnuːzˌpeɪpər/",
+    "translate": "עיתון",
+    "date_created": "2024-02-22 15:54:08",
+    "cover": {
+      "id": 89970,
+      "name": "cover_684c75df2b719.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498413751845.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2033,
+    "title": "Magazine",
+    "transcription": "She enjoys reading fashion magazines to keep up with the latest trends.",
+    "sentence": "/ˌmæɡ.əˈziːn/",
+    "translate": "מגזין",
+    "date_created": "2024-02-22 15:54:09",
+    "cover": {
+      "id": 89971,
+      "name": "cover_684c7608429e5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498414162797.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2034,
+    "title": "Press",
+    "transcription": "She pressed the button to start the machine.",
+    "sentence": "prɛs",
+    "translate": "לִכּוֹפֵּף",
+    "date_created": "2024-02-22 15:54:10",
+    "cover": {
+      "id": 89972,
+      "name": "cover_684c762e8d1c1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498414545844.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2035,
+    "title": "Headline",
+    "transcription": "The headline of the newspaper caught my attention as soon as I picked it up.",
+    "sentence": "ˈhedˌlaɪn",
+    "translate": "כתובת ראשית",
+    "date_created": "2024-02-22 15:54:10",
+    "cover": {
+      "id": 89973,
+      "name": "cover_684c765190710.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498414895992.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2036,
+    "title": "Article",
+    "transcription": "She wrote an article about the benefits of meditation for a health magazine.",
+    "sentence": "ˈɑːrtɪkl",
+    "translate": "מאמר",
+    "date_created": "2024-02-22 15:54:12",
+    "cover": {
+      "id": 89974,
+      "name": "cover_684c76752f499.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498415252004.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2037,
+    "title": "Column",
+    "transcription": "The newspaper column discussed local politics.",
+    "sentence": "/ˈkɒləm/",
+    "translate": "עמוד",
+    "date_created": "2024-02-22 15:54:14",
+    "cover": {
+      "id": 89975,
+      "name": "cover_684c76aa758fa.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498415784879.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2038,
+    "title": "Editorial",
+    "transcription": "The editorial in the newspaper criticized the government's handling of the crisis.",
+    "sentence": "/ˌɛdəˈtɔriəl/",
+    "translate": "עורך",
+    "date_created": "2024-02-22 15:54:14",
+    "cover": {
+      "id": 89976,
+      "name": "cover_684c76d3c0225.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498416197945.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2039,
+    "title": "Feature",
+    "transcription": "The new smartphone has a unique feature that allows it to take high-quality photos in low light.",
+    "sentence": "ˈfiːtʃər",
+    "translate": "תכונה",
+    "date_created": "2024-02-22 15:54:18",
+    "cover": {
+      "id": 89977,
+      "name": "cover_684c76faaa160.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498416587039.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2040,
+    "title": "Op-ed",
+    "transcription": "She wrote an op-ed piece for the newspaper discussing current social issues.",
+    "sentence": "ˈɒpˌɛd",
+    "translate": "כתבת דעת",
+    "date_created": "2024-02-22 15:54:18",
+    "cover": {
+      "id": 89978,
+      "name": "cover_684c772d77fc7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498417094982.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2041,
+    "title": "Current affairs",
+    "transcription": "She stays updated on current affairs by reading the newspaper every morning.",
+    "sentence": "ˈkərənt əˈfers",
+    "translate": "עניינים נוכחיים",
+    "date_created": "2024-02-22 15:54:18",
+    "cover": {
+      "id": 89979,
+      "name": "cover_684c774f365e1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498417432299.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2042,
+    "title": "Breaking news",
+    "transcription": "The breaking news about the earthquake sent shockwaves through the city.",
+    "sentence": "ˈbreɪkɪŋ nuːz",
+    "translate": "חדשות חמות",
+    "date_created": "2024-02-22 15:54:18",
+    "cover": {
+      "id": 89980,
+      "name": "cover_684c77724d232.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498417783234.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2043,
+    "title": "Interview",
+    "transcription": "She has an interview for a job at the company next week.",
+    "sentence": "/ˈɪntərˌvjuː/",
+    "translate": "ראיון",
+    "date_created": "2024-02-22 15:54:22",
+    "cover": {
+      "id": 89981,
+      "name": "cover_684c7799165d6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498418170987.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2044,
+    "title": "Press conference",
+    "transcription": "The coach held a press conference to address the team's recent performance.",
+    "sentence": "ˈpres ˌkɑn·frəns",
+    "translate": "מסיבת עיתונאים",
+    "date_created": "2024-02-22 15:54:23",
+    "cover": {
+      "id": 89982,
+      "name": "cover_684c77c22f06e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498418581997.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2045,
+    "title": "Press release",
+    "transcription": "The company issued a press release to announce their new product launch.",
+    "sentence": "ˈprɛs rɪˌlis",
+    "translate": "הצהרת עיתון",
+    "date_created": "2024-02-22 15:54:24",
+    "cover": {
+      "id": 89983,
+      "name": "cover_684c77e7680c8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498418954328.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2046,
+    "title": "Public relations (PR)",
+    "transcription": "The company hired a PR firm to handle the media coverage of their new product launch.",
+    "sentence": "ˈpəblɪk rɪˈleɪʃənz",
+    "translate": "יחסי ציבור (PR)",
+    "date_created": "2024-02-22 15:54:24",
+    "cover": {
+      "id": 89984,
+      "name": "cover_684c780f0cbd7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498419350599.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2047,
+    "title": "Coverage",
+    "transcription": "The insurance plan provides extensive coverage for medical expenses.",
+    "sentence": "ˈkʌvərɪdʒ",
+    "translate": "סִקְרָה",
+    "date_created": "2024-02-22 15:54:27",
+    "cover": {
+      "id": 89985,
+      "name": "cover_684c7835ee9c4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498419739837.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2048,
+    "title": "Reportage",
+    "transcription": "Her reportage on the local election was thorough and unbiased.",
+    "sentence": "ˈrɛpərˌtɑʒ",
+    "translate": "ריאוורטאז'",
+    "date_created": "2024-02-22 15:54:28",
+    "cover": {
+      "id": 89986,
+      "name": "cover_684c78595d6a7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498420093901.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2049,
+    "title": "Investigative journalism",
+    "transcription": "The journalist's investigative journalism uncovered corruption within the government.",
+    "sentence": "ɪnˈvɛstɪˌɡeɪtɪv ˈdʒɜrnəˌlɪzəm",
+    "translate": "עיתונאות חקירה",
+    "date_created": "2024-02-22 15:54:30",
+    "cover": {
+      "id": 89987,
+      "name": "cover_684c7883f01da.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498420519912.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2050,
+    "title": "Fact-checking",
+    "transcription": "The journalist spent hours fact-checking the information before publishing the article.",
+    "sentence": "ˈfæktˌtʃɛkɪŋ",
+    "translate": "בדיקת עובדות",
+    "date_created": "2024-02-22 15:54:30",
+    "cover": {
+      "id": 89988,
+      "name": "cover_684c78adb3251.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498420937408.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2051,
+    "title": "Censorship",
+    "transcription": "The government imposed strict censorship laws on media outlets.",
+    "sentence": "/ˈsɛnsərʃɪp/",
+    "translate": "צנזורה",
+    "date_created": "2024-02-22 15:54:32",
+    "cover": {
+      "id": 89989,
+      "name": "cover_684c78d4b26d6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498421327379.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2052,
+    "title": "Freedom of the press",
+    "transcription": "Freedom of the press is essential for a healthy democracy.",
+    "sentence": "ˈfriːdəm əv ðə pres",
+    "translate": "חופש העיתונות",
+    "date_created": "2024-02-22 15:54:34",
+    "cover": {
+      "id": 89990,
+      "name": "cover_684c78f738ec1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498421672402.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2053,
+    "title": "Media bias",
+    "transcription": "The news outlet was accused of media bias for consistently favoring one political party over another.",
+    "sentence": "ˈmiːdiə ˈbaɪəs",
+    "translate": "תחושת חוסר אינטגרציה מקצועית בתקשורת",
+    "date_created": "2024-02-22 15:54:35",
+    "cover": {
+      "id": 89991,
+      "name": "cover_684c791c4ca55.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498422043224.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2054,
+    "title": "Spin",
+    "transcription": "She watched the dancer spin gracefully across the stage.",
+    "sentence": "spɪn",
+    "translate": "סְבִיבָה",
+    "date_created": "2024-02-22 15:54:36",
+    "cover": {
+      "id": 89992,
+      "name": "cover_684c793e3456b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498422382212.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2055,
+    "title": "Sensationalism",
+    "transcription": "The tabloid newspaper is known for its sensationalism, often exaggerating stories to attract more readers.",
+    "sentence": "/ˌsenˈsāSH(ə)n(ə)ˌlizəm/",
+    "translate": "סנסציונליזם",
+    "date_created": "2024-02-22 15:54:40",
+    "cover": {
+      "id": 89993,
+      "name": "cover_684c796245f01.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498422742941.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2056,
+    "title": "Clickbait",
+    "transcription": "The article's headline was clearly clickbait, promising shocking revelations that turned out to be completely false.",
+    "sentence": "ˈklɪkˌbeɪt",
+    "translate": "כילקבייט",
+    "date_created": "2024-02-22 15:54:41",
+    "cover": {
+      "id": 89994,
+      "name": "cover_684c79884a4ba.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498423123125.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2057,
+    "title": "Fake news",
+    "transcription": "The spread of fake news on social media platforms can have serious consequences.",
+    "sentence": "ˈfeɪk nuz",
+    "translate": "חדשות שקר",
+    "date_created": "2024-02-22 15:54:41",
+    "cover": {
+      "id": 89995,
+      "name": "cover_684c79ac1f849.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498423481364.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2058,
+    "title": "Misinformation",
+    "transcription": "The spread of misinformation on social media can have dangerous consequences.",
+    "sentence": "/ˌmɪsɪnfərˈmeɪʃən/",
+    "translate": "מידע שגוי",
+    "date_created": "2024-02-22 15:54:42",
+    "cover": {
+      "id": 89996,
+      "name": "cover_684c79d09f33a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498423846601.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2059,
+    "title": "Disinformation",
+    "transcription": "The spread of disinformation on social media has become a major concern for governments and organizations around the world.",
+    "sentence": "dɪsˌɪnfərˈmeɪʃən",
+    "translate": "שקרנות",
+    "date_created": "2024-02-22 15:54:44",
+    "cover": {
+      "id": 89997,
+      "name": "cover_684c79f6914ba.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498424226011.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2060,
+    "title": "Propaganda",
+    "transcription": "The government used propaganda to manipulate public opinion during the war.",
+    "sentence": "/ˌprɒp.əˈɡæn.də/",
+    "translate": "פרופגנדה",
+    "date_created": "2024-02-22 15:54:45",
+    "cover": {
+      "id": 89998,
+      "name": "cover_684c7a1cdf2d6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498424609203.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2061,
+    "title": "Citizen journalism",
+    "transcription": "Citizen journalism allows ordinary people to report news and share information through social media platforms.",
+    "sentence": "ˈsɪtɪzən ˈdʒɜrnəˌlɪzəm",
+    "translate": "עיתונות אזרחית",
+    "date_created": "2024-02-22 15:54:46",
+    "cover": {
+      "id": 89999,
+      "name": "cover_684c7a3f028fd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498424950183.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2062,
+    "title": "Vlog",
+    "transcription": "She vlogs about fashion and makeup on her YouTube channel.",
+    "sentence": "/vlɔːɡ/",
+    "translate": "וידאו בלוג",
+    "date_created": "2024-02-22 15:54:48",
+    "cover": {
+      "id": 90000,
+      "name": "cover_684c7a61200f0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498425291388.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2063,
+    "title": "Livestream",
+    "transcription": "I love watching livestreams of concerts on my computer.",
+    "sentence": "/ˈlaɪvˌstriːm/",
+    "translate": "שידור חי",
+    "date_created": "2024-02-22 15:54:49",
+    "cover": {
+      "id": 90001,
+      "name": "cover_684c7a89b9275.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498425697659.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2064,
+    "title": "Podcast",
+    "transcription": "I listen to a podcast on my way to work every morning.",
+    "sentence": "/ˈpɒdˌkɑːst/",
+    "translate": "פודקאסט",
+    "date_created": "2024-02-22 15:54:49",
+    "cover": {
+      "id": 90002,
+      "name": "cover_684c7ab35ff62.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498426114005.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2065,
+    "title": "Viral",
+    "transcription": "The video of the cute puppy went viral on social media, receiving millions of views within hours.",
+    "sentence": "/ˈvaɪrəl/",
+    "translate": "וויראַל",
+    "date_created": "2024-02-22 15:54:52",
+    "cover": {
+      "id": 90003,
+      "name": "cover_684c7ad86a377.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498426484426.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2066,
+    "title": "Trending",
+    "transcription": "The latest trends in fashion are constantly changing and evolving, making it hard to keep up with what's trending.",
+    "sentence": "ˈtrɛndɪŋ",
+    "translate": "מָגִיעַ לַחֲסַך",
+    "date_created": "2024-02-22 15:54:53",
+    "cover": {
+      "id": 90004,
+      "name": "cover_684c7afdf14aa.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498426859950.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2067,
+    "title": "Hashtag",
+    "transcription": "I posted a picture of my cat with the hashtag #caturday.",
+    "sentence": "ˈhæʃtæɡ",
+    "translate": "תג השימוש",
+    "date_created": "2024-02-22 15:54:54",
+    "cover": {
+      "id": 90005,
+      "name": "cover_684c7b1d6923a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498427174370.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2068,
+    "title": "Influencer",
+    "transcription": "She is a popular fashion influencer on Instagram.",
+    "sentence": "/ˈɪn.flu.ən.sər/",
+    "translate": "משפיע",
+    "date_created": "2024-02-22 15:54:54",
+    "cover": {
+      "id": 90006,
+      "name": "cover_684c7b41949b5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498427536160.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2069,
+    "title": "Subscriber",
+    "transcription": "As a subscriber to the magazine, she receives a new issue in the mail every month.",
+    "sentence": "/səbˈskraɪbər/",
+    "translate": "מנוי",
+    "date_created": "2024-02-22 15:54:57",
+    "cover": {
+      "id": 90007,
+      "name": "cover_684c7b6771e0b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498427914741.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2070,
+    "title": "Follower",
+    "transcription": "She gained a new follower on her social media account after posting a funny video.",
+    "sentence": "ˈfɒləʊər",
+    "translate": "חֲבֵר",
+    "date_created": "2024-02-22 15:54:57",
+    "cover": {
+      "id": 90008,
+      "name": "cover_684c7b900b33d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498428320531.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2071,
+    "title": "Viewer",
+    "transcription": "The viewer was captivated by the stunning cinematography of the film.",
+    "sentence": "ˈvjuːər",
+    "translate": "צופה",
+    "date_created": "2024-02-22 15:54:57",
+    "cover": {
+      "id": 90009,
+      "name": "cover_684c7bc2c983e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498428828325.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2072,
+    "title": "Listener",
+    "transcription": "He was a keen listener, always paying attention to what others had to say.",
+    "sentence": "/ˈlɪsənər/",
+    "translate": "מאזין",
+    "date_created": "2024-02-22 15:54:59",
+    "cover": {
+      "id": 90010,
+      "name": "cover_684c7bea8aa20.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498429225747.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2073,
+    "title": "Audience",
+    "transcription": "The comedian had the entire audience laughing at his jokes.",
+    "sentence": "/ˈɔːdiəns/",
+    "translate": "קהל יעילות",
+    "date_created": "2024-02-22 15:55:01",
+    "cover": {
+      "id": 90011,
+      "name": "cover_684c7c14e3def.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498429649409.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2074,
+    "title": "Reader",
+    "transcription": "The reader was engrossed in the book from start to finish.",
+    "sentence": "ˈriːdər",
+    "translate": "קורא",
+    "date_created": "2024-02-22 15:55:01",
+    "cover": {
+      "id": 90012,
+      "name": "cover_684c7c3d2a827.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498430051812.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2075,
+    "title": "Ratings",
+    "transcription": "The movie received high ratings from critics and audiences alike.",
+    "sentence": "ˈreɪtɪŋz",
+    "translate": "דירוגים",
+    "date_created": "2024-02-22 15:55:01",
+    "cover": {
+      "id": 90013,
+      "name": "cover_684c7c63bcc5e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498430437799.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2076,
+    "title": "Circulation",
+    "transcription": "Proper circulation of blood is essential for good health.",
+    "sentence": "/ˌsəːkjuˈleɪʃ(ə)n/",
+    "translate": "זִרְקוּן",
+    "date_created": "2024-02-22 15:55:03",
+    "cover": {
+      "id": 90014,
+      "name": "cover_684c7c906503d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498430884207.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2077,
+    "title": "Engagement",
+    "transcription": "The couple announced their engagement to their friends and family.",
+    "sentence": "ɪnˈɡeɪdʒmənt",
+    "translate": "התארכות",
+    "date_created": "2024-02-22 15:55:04",
+    "cover": {
+      "id": 90015,
+      "name": "cover_684c7cb9c66e3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498431298201.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2078,
+    "title": "Click-through rate (CTR)",
+    "transcription": "The click-through rate (CTR) is calculated by dividing the number of clicks an ad receives by the number of times it was shown, expressed as a percentage.",
+    "sentence": "ˈklɪk-θruː raɪt (CTR)",
+    "translate": "קצב קליקים (CTR)",
+    "date_created": "2024-02-22 15:55:05",
+    "cover": {
+      "id": 90016,
+      "name": "cover_684c7cdd3fb17.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498431652688.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2079,
+    "title": "Comment",
+    "transcription": "Please leave a comment below the video.",
+    "sentence": "ˈkɒmɛnt",
+    "translate": "תגובה",
+    "date_created": "2024-02-22 15:55:08",
+    "cover": {
+      "id": 90017,
+      "name": "cover_684c7d051ee1c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498432051368.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2080,
+    "title": "Retweet",
+    "transcription": "I just had to retweet that funny meme my friend posted on Twitter.",
+    "sentence": "riːˈtwiːt",
+    "translate": "ציוץ מחדש",
+    "date_created": "2024-02-22 15:55:08",
+    "cover": {
+      "id": 90018,
+      "name": "cover_684c7d34b71b2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498432527565.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2081,
+    "title": "Media conglomerate",
+    "transcription": "The media conglomerate owns several major news outlets and entertainment companies.",
+    "sentence": "ˈmidiə kəŋˈɡlɒmərət",
+    "translate": "קונגלומרט מדיה",
+    "date_created": "2024-02-22 15:55:09",
+    "cover": {
+      "id": 90019,
+      "name": "cover_684c7d5837445.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498432882326.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2082,
+    "title": "Mainstream media",
+    "transcription": "The mainstream media has been covering the presidential election extensively.",
+    "sentence": "ˈmeɪn.striːm ˈmiː.di.ə",
+    "translate": "עיתונות ראשייתית",
+    "date_created": "2024-02-22 15:55:10",
+    "cover": {
+      "id": 90020,
+      "name": "cover_684c7d79e8780.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498433219582.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2083,
+    "title": "Alternative media",
+    "transcription": "Many people rely on alternative media sources for news and information not covered by mainstream outlets.",
+    "sentence": "ɔːlˈtɜːrnətɪv ˈmiːdiə",
+    "translate": "מדיה אלטרנטיבית",
+    "date_created": "2024-02-22 15:55:12",
+    "cover": {
+      "id": 90021,
+      "name": "cover_684c7d9fea70c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498433599664.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2084,
+    "title": "Digital media",
+    "transcription": "Digital media refers to electronic devices and platforms that allow people to create, communicate and engage with content.",
+    "sentence": "ˈdɪdʒɪtl ˈmidiə",
+    "translate": "מדיה דיגיטלית",
+    "date_created": "2024-02-22 15:55:13",
+    "cover": {
+      "id": 90022,
+      "name": "cover_684c7dc1c04f8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498433937935.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2085,
+    "title": "Multimedia",
+    "transcription": "The museum featured an exhibit that used multimedia elements such as videos, sound clips, and interactive displays.",
+    "sentence": "/ˌmʌltiˈmiːdiə/",
+    "translate": "מולטימדיה",
+    "date_created": "2024-02-22 15:55:15",
+    "cover": {
+      "id": 90023,
+      "name": "cover_684c7de4efc78.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498434289888.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2086,
+    "title": "Interactive media",
+    "transcription": "The website features a variety of interactive media, such as games and quizzes.",
+    "sentence": "ˌɪntərˈæktɪv ˈmiːdiə",
+    "translate": "מדיה אינטראקטיבית",
+    "date_created": "2024-02-22 15:55:17",
+    "cover": {
+      "id": 90024,
+      "name": "cover_684c7e18a5e39.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498434806859.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2087,
+    "title": "Broadcast media",
+    "transcription": "Broadcast media such as television and radio reach a wide audience.",
+    "sentence": "ˈbrɔːdkæst ˈmiːdiə",
+    "translate": "מדיה רדיו וטלוויזיה",
+    "date_created": "2024-02-22 15:55:17",
+    "cover": {
+      "id": 90025,
+      "name": "cover_684c7e4114ad4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498435210915.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2088,
+    "title": "Print media",
+    "transcription": "Print media such as newspapers and magazines are starting to decline in popularity with the rise of digital news outlets.",
+    "sentence": "prɪnt ˈmidiə",
+    "translate": "תקשורת מודפסת",
+    "date_created": "2024-02-22 15:55:19",
+    "cover": {
+      "id": 90026,
+      "name": "cover_684c7e644621f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498435562940.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2089,
+    "title": "Online media",
+    "transcription": "Online media has become the main source of news and entertainment for many people.",
+    "sentence": "ˈɒnˌlaɪn ˈmiːdiə",
+    "translate": "מדיה מקוונת",
+    "date_created": "2024-02-22 15:55:19",
+    "cover": {
+      "id": 90027,
+      "name": "cover_684c7e8d2ad87.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498435971821.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2090,
+    "title": "New media",
+    "transcription": "The rise of new media platforms has revolutionized the way we consume news and entertainment.",
+    "sentence": "nju ˈmidiə",
+    "translate": "מדיה חדשים",
+    "date_created": "2024-02-22 15:55:22",
+    "cover": {
+      "id": 90028,
+      "name": "cover_684c7eaee3c22.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498436309396.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2091,
+    "title": "Traditional media",
+    "transcription": "Many people still rely on traditional media outlets such as newspapers and television for their news.",
+    "sentence": "truh-DIH-shuh-nl MEE-dee-uh",
+    "translate": "תקשורת מסורתית",
+    "date_created": "2024-02-22 15:55:23",
+    "cover": {
+      "id": 90029,
+      "name": "cover_684c7ed754e05.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498436713540.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2092,
+    "title": "Mobile journalism (mojo)",
+    "transcription": "Mobile journalism, or mojo, is the practice of using mobile devices to capture and report news stories.",
+    "sentence": "ˈmoʊbəl ˈdʒɜrnəˌlɪzəm (ˈmoʊdʒoʊ)",
+    "translate": "עיתונאות ניידת (mojo)",
+    "date_created": "2024-02-22 15:55:25",
+    "cover": {
+      "id": 90030,
+      "name": "cover_684c7f00eecf9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498437129849.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2093,
+    "title": "Photojournalism",
+    "transcription": "She decided to pursue a career in photojournalism after traveling to third-world countries and witnessing the power of images to tell important stories.",
+    "sentence": "ˌfoʊ.toʊˈdʒɜrn.əl.ɪz.əm",
+    "translate": "צילום עיתונאי",
+    "date_created": "2024-02-22 15:55:25",
+    "cover": {
+      "id": 90031,
+      "name": "cover_684c7f2dd24d2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498437578685.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2094,
+    "title": "War correspondent",
+    "transcription": "The war correspondent filed a report from the front lines of the conflict.",
+    "sentence": "wɔr ˌkɒr.əˈspɒn.dənt",
+    "translate": "עיתונאי מלחמה",
+    "date_created": "2024-02-22 15:55:28",
+    "cover": {
+      "id": 90032,
+      "name": "cover_684c7f573ed9c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498437992646.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2095,
+    "title": "Press freedom",
+    "transcription": "Press freedom is essential for a well-functioning democracy.",
+    "sentence": "ˈprɛs ˈfriːdəm",
+    "translate": "חופש העיתונות",
+    "date_created": "2024-02-22 15:55:30",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2096,
+    "title": "Media literacy",
+    "transcription": "Media literacy is the ability to analyze, evaluate, and create media messages in various forms.",
+    "sentence": "ˈmiːdiə ˈlɪtərəsi",
+    "translate": "תרבות תקשורת",
+    "date_created": "2024-02-22 15:55:31",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2097,
+    "title": "Media ethics",
+    "transcription": "It is important for journalists to adhere to media ethics in order to maintain credibility and trust with their audience.",
+    "sentence": "ˈmiːdiə ˈɛθɪks",
+    "translate": "אתיקת תקשורת",
+    "date_created": "2024-02-22 15:55:31",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2098,
+    "title": "Gatekeeper",
+    "transcription": "The guard at the gate acted as the gatekeeper, only allowing authorized personnel to enter.",
+    "sentence": "/ˈɡeɪtˌkiːpər/",
+    "translate": "שומר שערים",
+    "date_created": "2024-02-22 15:55:32",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2099,
+    "title": "Newsroom",
+    "transcription": "The reporters crowded into the busy newsroom, working on their latest stories.",
+    "sentence": "/ˈnuzˌrum/",
+    "translate": "חדר חדשות",
+    "date_created": "2024-02-22 15:55:35",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2100,
+    "title": "Deadline",
+    "transcription": "The deadline for the project is Friday at 5pm.",
+    "sentence": "ˈdɛdˌlaɪn",
+    "translate": "מועד אחרון",
+    "date_created": "2024-02-22 15:55:36",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2101,
+    "title": "Scoop",
+    "transcription": "She used a scoop to serve the ice cream into the bowl.",
+    "sentence": "skuːp",
+    "translate": "כף",
+    "date_created": "2024-02-22 15:55:36",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2102,
+    "title": "Byline",
+    "transcription": "The byline at the top of the article indicated that the author was a Pulitzer-prize winning journalist.",
+    "sentence": "ˈbaɪˌlaɪn",
+    "translate": "שׁוּרָה",
+    "date_created": "2024-02-22 15:55:38",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2103,
+    "title": "Attribution",
+    "transcription": "Proper attribution of sources is crucial in academic writing to avoid plagiarism.",
+    "sentence": "ˌætrɪˈbjuːʃən",
+    "translate": "ידיעה",
+    "date_created": "2024-02-22 15:55:40",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2104,
+    "title": "Source",
+    "transcription": "I need to find a reliable source for this information.",
+    "sentence": "/sɔːrs/",
+    "translate": "מָקוֹר",
+    "date_created": "2024-02-22 15:55:40",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2105,
+    "title": "Fact",
+    "transcription": "It is a fact that the sun rises in the east every morning.",
+    "sentence": "fækt",
+    "translate": "עובדה",
+    "date_created": "2024-02-22 15:55:40",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2106,
+    "title": "Accuracy",
+    "transcription": "She checked the measurements with great accuracy to ensure they were correct.",
+    "sentence": "ˈækjərəsi",
+    "translate": "דיוק",
+    "date_created": "2024-02-22 15:55:43",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2107,
+    "title": "Objectivity",
+    "transcription": "Journalists strive for objectivity in their reporting, presenting facts without bias or personal opinion.",
+    "sentence": "əbˌdʒɛkˈtɪvɪti",
+    "translate": "אובייקטיביות",
+    "date_created": "2024-02-22 15:55:44",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2108,
+    "title": "Editorial independence",
+    "transcription": "The news organization maintains its editorial independence and does not bow to pressure from advertisers or politicians.",
+    "sentence": "ˌedəˈtôrēəl ˌindəˈpendəns",
+    "translate": "עצמאות עיתונאית",
+    "date_created": "2024-02-22 15:55:44",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2109,
+    "title": "Fairness",
+    "transcription": "It's important to uphold fairness in all decisions and actions.",
+    "sentence": "/ˈfernəs/",
+    "translate": "הַגיוֹן",
+    "date_created": "2024-02-22 15:55:47",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2110,
+    "title": "Accountability",
+    "transcription": "Accountability is important in a team setting to ensure that everyone is taking responsibility for their actions.",
+    "sentence": "uh-koun-tuh-bil-i-tee",
+    "translate": "אחריות",
+    "date_created": "2024-02-22 15:55:48",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2111,
+    "title": "Libel",
+    "transcription": "The celebrity sued the tabloid for libel after they published false accusations about him.",
+    "sentence": "/ˈlaɪ·bəl/",
+    "translate": "פִּסוּק־דִּין",
+    "date_created": "2024-02-22 15:55:50",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 2112,
+    "title": "Defamation",
+    "transcription": "The celebrity sued the tabloid for defamation after they published false accusations about him.",
+    "sentence": "/ˌdefəˈmeɪʃən/",
+    "translate": "דיבה",
+    "date_created": "2024-02-22 15:55:51",
+    "cover": null,
+    "is_added": false,
+    "status": null
+  }
+]

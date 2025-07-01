@@ -1,0 +1,1307 @@
+[
+  {
+    "id": 1048,
+    "title": "Big",
+    "transcription": "That is a really big sandwich.",
+    "sentence": "bɪɡ",
+    "translate": "גדול",
+    "date_created": "2024-02-22 15:35:40",
+    "cover": {
+      "id": 88617,
+      "name": "cover_6841fb5147967.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491546413011.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1049,
+    "title": "Small",
+    "transcription": "I prefer living in a small town rather than a big city.",
+    "sentence": "/smɔl/",
+    "translate": "קָטָן",
+    "date_created": "2024-02-22 15:35:40",
+    "cover": {
+      "id": 88618,
+      "name": "cover_6841fb732bad3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491546751853.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1050,
+    "title": "Large",
+    "transcription": "The large crowd cheered as the parade passed by.",
+    "sentence": "/lɑːrdʒ/",
+    "translate": "גדול",
+    "date_created": "2024-02-22 15:35:42",
+    "cover": {
+      "id": 88619,
+      "name": "cover_6841fb9722267.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491547111467.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1051,
+    "title": "Tall",
+    "transcription": "He was tall enough to reach the top shelf.",
+    "sentence": "/tɔːl/",
+    "translate": "גבוה",
+    "date_created": "2024-02-22 15:35:44",
+    "cover": {
+      "id": 88620,
+      "name": "cover_6841fbb755466.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491547433556.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1052,
+    "title": "Tiny",
+    "transcription": "The tiny puppy fit in the palm of my hand.",
+    "sentence": "ˈtaɪni",
+    "translate": "קָטָן",
+    "date_created": "2024-02-22 15:35:44",
+    "cover": {
+      "id": 88621,
+      "name": "cover_6841fbddf238e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491547819990.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1053,
+    "title": "Short",
+    "transcription": "She always wears short skirts to work.",
+    "sentence": "/ʃɔrt/",
+    "translate": "קצר",
+    "date_created": "2024-02-22 15:35:44",
+    "cover": {
+      "id": 88622,
+      "name": "cover_6841fbfba3c60.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491548116770.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1054,
+    "title": "Long",
+    "transcription": "The hike was long, but the beautiful views made it worth it.",
+    "sentence": "lɔŋ",
+    "translate": "ארוך",
+    "date_created": "2024-02-22 15:35:44",
+    "cover": {
+      "id": 88623,
+      "name": "cover_6841fc19113e8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491548410775.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1055,
+    "title": "Wide",
+    "transcription": "The river was wide, making it difficult to swim across.",
+    "sentence": "waɪd",
+    "translate": "רחב",
+    "date_created": "2024-02-22 15:35:45",
+    "cover": {
+      "id": 88624,
+      "name": "cover_6841fc3a0dca9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491548740635.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1056,
+    "title": "Thick",
+    "transcription": "The fog was so thick that I could barely see in front of me.",
+    "sentence": "/θɪk/",
+    "translate": "עבה",
+    "date_created": "2024-02-22 15:35:48",
+    "cover": {
+      "id": 88625,
+      "name": "cover_6841fc62900ab.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491549145966.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1057,
+    "title": "Narrow",
+    "transcription": "The narrow path through the woods was only wide enough for one person to walk at a time.",
+    "sentence": "ˈnæroʊ",
+    "translate": "צר",
+    "date_created": "2024-02-22 15:35:48",
+    "cover": {
+      "id": 88626,
+      "name": "cover_6841fc869fb15.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491549506606.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1058,
+    "title": "Thin",
+    "transcription": "She had a thin frame and delicate features.",
+    "sentence": "θɪn",
+    "translate": "דַק",
+    "date_created": "2024-02-22 15:35:48",
+    "cover": {
+      "id": 88627,
+      "name": "cover_6841fca7cc686.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491549838435.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1059,
+    "title": "Heavy",
+    "transcription": "She struggled to lift the heavy box all by herself.",
+    "sentence": "/ˈhɛvi/",
+    "translate": "כבד",
+    "date_created": "2024-02-22 15:35:49",
+    "cover": {
+      "id": 88628,
+      "name": "cover_6841fccf1fd87.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491550231381.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1060,
+    "title": "Bright",
+    "transcription": "The sun was shining brightly in the clear blue sky.",
+    "sentence": "/braɪt/",
+    "translate": "בהיר",
+    "date_created": "2024-02-22 15:35:49",
+    "cover": {
+      "id": 88629,
+      "name": "cover_6841fcf5d09a8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491550618604.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1061,
+    "title": "Dark",
+    "transcription": "The room was so dark that I couldn't see anything.",
+    "sentence": "dɑːrk",
+    "translate": "אפל",
+    "date_created": "2024-02-22 15:35:51",
+    "cover": {
+      "id": 88630,
+      "name": "cover_6841fd16bed03.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491550947883.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1062,
+    "title": "Colorful",
+    "transcription": "The garden was filled with colorful flowers in every shade imaginable.",
+    "sentence": "/ˈkʌlərfʊl/",
+    "translate": "צבעוני",
+    "date_created": "2024-02-22 15:35:52",
+    "cover": {
+      "id": 88631,
+      "name": "cover_6841fd3b0bd0e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491551310554.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1063,
+    "title": "Plain",
+    "transcription": "He prefers to wear plain t-shirts without any logos or designs.",
+    "sentence": "/pleɪn/",
+    "translate": "פָּשׁוּט",
+    "date_created": "2024-02-22 15:35:52",
+    "cover": {
+      "id": 88632,
+      "name": "cover_6841fd5f71277.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491551674699.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1064,
+    "title": "New",
+    "transcription": "I bought a new dress for the party.",
+    "sentence": "/njuː/",
+    "translate": "חָדָשׁ",
+    "date_created": "2024-02-22 15:35:52",
+    "cover": {
+      "id": 88633,
+      "name": "cover_6841fd8751072.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491552073394.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1065,
+    "title": "Old",
+    "transcription": "My grandmother lives in an old house that has been in our family for generations.",
+    "sentence": "oʊld",
+    "translate": "ישן",
+    "date_created": "2024-02-22 15:35:53",
+    "cover": {
+      "id": 88634,
+      "name": "cover_6841fdac7f248.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491552445286.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1066,
+    "title": "Elderly",
+    "transcription": "The elderly man enjoys taking walks in the park every morning.",
+    "sentence": "/ˈɛldərli/",
+    "translate": "זְקֵנִים",
+    "date_created": "2024-02-22 15:35:55",
+    "cover": {
+      "id": 88635,
+      "name": "cover_6841fdd59caf0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491552856493.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1067,
+    "title": "Beautiful",
+    "transcription": "She looked absolutely beautiful in her wedding dress.",
+    "sentence": "ˈbjuːtɪfəl",
+    "translate": "יפה",
+    "date_created": "2024-02-22 15:35:56",
+    "cover": {
+      "id": 88636,
+      "name": "cover_6841fdf8f4104.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491553210061.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1068,
+    "title": "Young",
+    "transcription": "The young puppy was full of energy and playfulness.",
+    "sentence": "jʌŋ",
+    "translate": "צעיר",
+    "date_created": "2024-02-22 15:35:57",
+    "cover": {
+      "id": 88637,
+      "name": "cover_6841fe1dcddc3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491553578507.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1069,
+    "title": "Ugly",
+    "transcription": "She considered the painting to be ugly and wanted to take it down.",
+    "sentence": "/ˈʌɡli/",
+    "translate": "מכוער",
+    "date_created": "2024-02-22 15:35:57",
+    "cover": {
+      "id": 88638,
+      "name": "cover_6841fe46765ba.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491553984966.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1070,
+    "title": "Happy",
+    "transcription": "She was happy to see her old friends at the party.",
+    "sentence": "ˈhæpi",
+    "translate": "מְאוֹרָג",
+    "date_created": "2024-02-22 15:35:57",
+    "cover": {
+      "id": 88639,
+      "name": "cover_6841fe7a6833d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491554504337.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1071,
+    "title": "Sad",
+    "transcription": "She felt sad after hearing the news about her grandmother.",
+    "sentence": "/sæd/",
+    "translate": "עָצוּב",
+    "date_created": "2024-02-22 15:35:59",
+    "cover": {
+      "id": 88640,
+      "name": "cover_6841fea072afc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491554884769.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1072,
+    "title": "Easy",
+    "transcription": "The math problem was so easy that I finished it in a few minutes.",
+    "sentence": "/ˈizi/",
+    "translate": "קל",
+    "date_created": "2024-02-22 15:36:00",
+    "cover": {
+      "id": 88641,
+      "name": "cover_6841fec48d9bd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491555245870.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1073,
+    "title": "Difficult",
+    "transcription": "Learning a new language can be difficult, but with practice, it can become easier.",
+    "sentence": "/ˈdɪfɪkəlt/",
+    "translate": "קָשֶׁה",
+    "date_created": "2024-02-22 15:36:00",
+    "cover": {
+      "id": 88642,
+      "name": "cover_6841feed6e48d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491555654586.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1074,
+    "title": "Slow",
+    "transcription": "The snail moved slowly across the garden.",
+    "sentence": "sləʊ",
+    "translate": "איטי",
+    "date_created": "2024-02-22 15:36:02",
+    "cover": {
+      "id": 88643,
+      "name": "cover_6841ff0e2c4f5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491555981885.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1075,
+    "title": "Soft",
+    "transcription": "She felt the soft blanket against her skin as she cuddled up on the couch.",
+    "sentence": "/sɒft/",
+    "translate": "רך",
+    "date_created": "2024-02-22 15:36:03",
+    "cover": {
+      "id": 88644,
+      "name": "cover_6841ff3a9f3a7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491556426593.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1076,
+    "title": "Hard",
+    "transcription": "The test was too hard for me to complete in the time given.",
+    "sentence": "/hɑːrd/",
+    "translate": "קשה",
+    "date_created": "2024-02-22 15:36:04",
+    "cover": {
+      "id": 88645,
+      "name": "cover_6841ff5d64b4a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491556774198.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1077,
+    "title": "Rough",
+    "transcription": "The hiker had a rough time navigating through the rocky terrain.",
+    "sentence": "/rʌf/",
+    "translate": "גרוס",
+    "date_created": "2024-02-22 15:36:05",
+    "cover": {
+      "id": 88646,
+      "name": "cover_6841ff8376c3d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491557154938.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1078,
+    "title": "Clean",
+    "transcription": "She always keeps her house clean and organized.",
+    "sentence": "kliːn",
+    "translate": "נָקִי",
+    "date_created": "2024-02-22 15:36:06",
+    "cover": {
+      "id": 88647,
+      "name": "cover_6841ffb523995.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491557651565.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1079,
+    "title": "Dirty",
+    "transcription": "His dirty shoes left footprints all over the clean floor.",
+    "sentence": "ˈdɜːr.t̬i",
+    "translate": "מְלֹלֶל",
+    "date_created": "2024-02-22 15:36:07",
+    "cover": {
+      "id": 88686,
+      "name": "cover_68440232821f6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492874745418.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1080,
+    "title": "Strong",
+    "transcription": "She has a strong will to succeed in her career.",
+    "sentence": "strɔːŋ",
+    "translate": "חזק",
+    "date_created": "2024-02-22 15:36:08",
+    "cover": {
+      "id": 88687,
+      "name": "cover_6844025b9a656.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492875156395.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1081,
+    "title": "Weak",
+    "transcription": "She felt weak after running a marathon.",
+    "sentence": "wiːk",
+    "translate": "חלש",
+    "date_created": "2024-02-22 15:36:09",
+    "cover": {
+      "id": 88688,
+      "name": "cover_6844027bac210.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492875477121.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1082,
+    "title": "Rich",
+    "transcription": "He grew up in a rich family and never had to worry about money.",
+    "sentence": "/rɪtʃ/",
+    "translate": "עשיר",
+    "date_created": "2024-02-22 15:36:09",
+    "cover": {
+      "id": 88689,
+      "name": "cover_6844029d5305e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492875813471.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1083,
+    "title": "Poor",
+    "transcription": "She felt sorry for the poor child begging on the street.",
+    "sentence": "/pʊr/",
+    "translate": "עני",
+    "date_created": "2024-02-22 15:36:11",
+    "cover": {
+      "id": 88690,
+      "name": "cover_684402c3ee9f6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492876199850.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1084,
+    "title": "Loud",
+    "transcription": "The music at the concert was so loud that it could be heard from several blocks away.",
+    "sentence": "/laʊd/",
+    "translate": "בְּקוֹל רָם",
+    "date_created": "2024-02-22 15:36:13",
+    "cover": {
+      "id": 88691,
+      "name": "cover_684402e5c9076.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492876538304.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1085,
+    "title": "Quiet",
+    "transcription": "Please be quiet during the movie so everyone can enjoy it.",
+    "sentence": "ˈkwaɪ.ət",
+    "translate": "שקט",
+    "date_created": "2024-02-22 15:36:13",
+    "cover": {
+      "id": 88692,
+      "name": "cover_6844030553e9f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492876853503.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1086,
+    "title": "Noisy",
+    "transcription": "The neighbors were being very noisy last night with their loud music.",
+    "sentence": "/ˈnɔɪzi/",
+    "translate": "רועש",
+    "date_created": "2024-02-22 15:36:13",
+    "cover": {
+      "id": 88693,
+      "name": "cover_6844032ca774c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492877246931.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1087,
+    "title": "Silent",
+    "transcription": "The library was so silent that you could hear a pin drop.",
+    "sentence": "/ˈsaɪlənt/",
+    "translate": "שקט",
+    "date_created": "2024-02-22 15:36:14",
+    "cover": {
+      "id": 88694,
+      "name": "cover_6844034b9d1c1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492877556503.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1088,
+    "title": "Free",
+    "transcription": "The concert tickets were free of charge.",
+    "sentence": "friː",
+    "translate": "חופשי",
+    "date_created": "2024-02-22 15:36:17",
+    "cover": {
+      "id": 88695,
+      "name": "cover_684403765aa37.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492877983779.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1089,
+    "title": "Full",
+    "transcription": "The glass was full of water.",
+    "sentence": "fʊl",
+    "translate": "מלא",
+    "date_created": "2024-02-22 15:36:18",
+    "cover": {
+      "id": 88696,
+      "name": "cover_6844039a815a6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492878345367.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1090,
+    "title": "Busy",
+    "transcription": "I'm so busy with work that I don't have time for anything else.",
+    "sentence": "ˈbɪzi",
+    "translate": "עָסוּק",
+    "date_created": "2024-02-22 15:36:18",
+    "cover": {
+      "id": 88697,
+      "name": "cover_684403bfdea27.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492878719191.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1091,
+    "title": "Empty",
+    "transcription": "The room was empty except for a single chair in the corner.",
+    "sentence": "/ˈɛmpti/",
+    "translate": "ריק",
+    "date_created": "2024-02-22 15:36:18",
+    "cover": {
+      "id": 88698,
+      "name": "cover_684403e879f52.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492879125069.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1092,
+    "title": "High",
+    "transcription": "The high jumpers cleared the bar with ease.",
+    "sentence": "/haɪ/",
+    "translate": "גבוה",
+    "date_created": "2024-02-22 15:36:21",
+    "cover": {
+      "id": 88699,
+      "name": "cover_6844040dde23a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492879499165.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1093,
+    "title": "Low",
+    "transcription": "The temperature was low on the mountain, making it difficult for the climbers to continue.",
+    "sentence": "loʊ",
+    "translate": "נמוך",
+    "date_created": "2024-02-22 15:36:22",
+    "cover": {
+      "id": 88700,
+      "name": "cover_68440431b4c22.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492879857475.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1094,
+    "title": "Expensive",
+    "transcription": "These designer shoes are very expensive.",
+    "sentence": "/ɪkˈspɛnsɪv/",
+    "translate": "יקר",
+    "date_created": "2024-02-22 15:36:22",
+    "cover": {
+      "id": 88701,
+      "name": "cover_6844045297b5d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492880186277.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1095,
+    "title": "Cheap",
+    "transcription": "I found a cheap dress at the thrift store.",
+    "sentence": "/tʃiːp/",
+    "translate": "זול",
+    "date_created": "2024-02-22 15:36:22",
+    "cover": {
+      "id": 88702,
+      "name": "cover_6844047677f31.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492880544984.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1096,
+    "title": "Good",
+    "transcription": "The movie was really good, I enjoyed it a lot.",
+    "sentence": "ɡʊd",
+    "translate": "טוב",
+    "date_created": "2024-02-22 15:36:24",
+    "cover": {
+      "id": 88703,
+      "name": "cover_684404967342c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492880864789.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1097,
+    "title": "Bad",
+    "transcription": "He had a bad cold and had to stay home from work.",
+    "sentence": "bæd",
+    "translate": "רע",
+    "date_created": "2024-02-22 15:36:24",
+    "cover": {
+      "id": 88704,
+      "name": "cover_684404b8b6434.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492881207538.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1098,
+    "title": "Excellent",
+    "transcription": "She did an excellent job on the project.",
+    "sentence": "ˈɛksələnt",
+    "translate": "מְצוּיָן",
+    "date_created": "2024-02-22 15:36:25",
+    "cover": {
+      "id": 88705,
+      "name": "cover_684404d753a82.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492881513493.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1099,
+    "title": "Terrible",
+    "transcription": "The movie was so terrible that I walked out halfway through.",
+    "sentence": "ˈterəbl",
+    "translate": "נוראי",
+    "date_created": "2024-02-22 15:36:26",
+    "cover": {
+      "id": 88706,
+      "name": "cover_684404f86f09f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492881844616.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1100,
+    "title": "Important",
+    "transcription": "It is important to remember to wear a face mask in public places.",
+    "sentence": "ɪmˈpɔːrtnt",
+    "translate": "חָשׁוּב",
+    "date_created": "2024-02-22 15:36:28",
+    "cover": {
+      "id": 88707,
+      "name": "cover_684405178789c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492882155617.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1101,
+    "title": "Unimportant",
+    "transcription": "The minor mistake was unimportant and did not affect the overall outcome.",
+    "sentence": "ˌʌnɪmˈpɔːrtnt",
+    "translate": "לֹא חָשׁוּב",
+    "date_created": "2024-02-22 15:36:29",
+    "cover": {
+      "id": 88708,
+      "name": "cover_6844053ce9d08.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492882529646.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1102,
+    "title": "Interesting",
+    "transcription": "The book was so interesting that I couldn't put it down.",
+    "sentence": "/ˈɪn.təˌrɛs.tɪŋ/",
+    "translate": "מעניין",
+    "date_created": "2024-02-22 15:36:30",
+    "cover": {
+      "id": 88709,
+      "name": "cover_6844056042a19.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492882882794.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1103,
+    "title": "Boring",
+    "transcription": "The movie was so boring that I fell asleep halfway through.",
+    "sentence": "/ˈbɔːrɪŋ/",
+    "translate": "מַשִׁעִים",
+    "date_created": "2024-02-22 15:36:31",
+    "cover": {
+      "id": 88710,
+      "name": "cover_68440581319ce.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492883212101.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1104,
+    "title": "Famous",
+    "transcription": "Leonardo da Vinci is a famous artist known for his iconic painting, the Mona Lisa.",
+    "sentence": "ˈfeɪməs",
+    "translate": "מַפּוּרָס",
+    "date_created": "2024-02-22 15:36:33",
+    "cover": {
+      "id": 88711,
+      "name": "cover_684405ad28cef.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492883651749.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1105,
+    "title": "Unknown",
+    "transcription": "The treasure buried in the forest remains unknown to most people.",
+    "sentence": "/ʌnˈnoʊn/",
+    "translate": "לא ידוע",
+    "date_created": "2024-02-22 15:36:33",
+    "cover": {
+      "id": 88712,
+      "name": "cover_684405d13c16e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492884012533.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1106,
+    "title": "Delicious",
+    "transcription": "The cake was so delicious that I had to have seconds.",
+    "sentence": "dɪˈlɪʃəs",
+    "translate": "טעים",
+    "date_created": "2024-02-22 15:36:34",
+    "cover": {
+      "id": 88713,
+      "name": "cover_684405f626cb2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492884381652.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1107,
+    "title": "Tasteless",
+    "transcription": "The soup was so tasteless that I couldn't even finish it.",
+    "sentence": "/ˈteɪstləs/",
+    "translate": "חסר טעם",
+    "date_created": "2024-02-22 15:36:37",
+    "cover": {
+      "id": 88714,
+      "name": "cover_6844061e3cecd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492884782563.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1108,
+    "title": "Sweet",
+    "transcription": "She baked a batch of sweet cookies for the event.",
+    "sentence": "/swiːt/",
+    "translate": "מתוק",
+    "date_created": "2024-02-22 15:36:37",
+    "cover": {
+      "id": 88715,
+      "name": "cover_68440642c9e2a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492885148332.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1109,
+    "title": "Sour",
+    "transcription": "The lemonade was so sour that it made my face pucker.",
+    "sentence": "saʊər",
+    "translate": "חָמוּץ",
+    "date_created": "2024-02-22 15:36:37",
+    "cover": {
+      "id": 88716,
+      "name": "cover_6844066a2bf71.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492885541874.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1110,
+    "title": "Bitter",
+    "transcription": "She took a sip of the bitter coffee and made a face.",
+    "sentence": "/ˈbɪtər/",
+    "translate": "מַר",
+    "date_created": "2024-02-22 15:36:39",
+    "cover": {
+      "id": 88717,
+      "name": "cover_6844069111731.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492885930789.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1111,
+    "title": "Salty",
+    "transcription": "The chips were too salty for my taste.",
+    "sentence": "ˈsɒlti",
+    "translate": "מְלוּחִי",
+    "date_created": "2024-02-22 15:36:40",
+    "cover": {
+      "id": 88718,
+      "name": "cover_684406b4029b6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492886280174.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1112,
+    "title": "Spicy",
+    "transcription": "I ordered the spicy curry, but it was too hot for me to handle.",
+    "sentence": "/ˈspaɪsi/",
+    "translate": "חָרִיף",
+    "date_created": "2024-02-22 15:36:41",
+    "cover": {
+      "id": 88719,
+      "name": "cover_684406dd9b4e4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492886696429.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1113,
+    "title": "Fresh",
+    "transcription": "I bought some fresh vegetables from the farmer's market.",
+    "sentence": " /frɛʃ/",
+    "translate": "טרי",
+    "date_created": "2024-02-22 15:36:41",
+    "cover": {
+      "id": 88720,
+      "name": "cover_68440700f20d4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492887049978.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1114,
+    "title": "Stale",
+    "transcription": "The bread had gone stale after being left out all night.",
+    "sentence": "/steɪl/",
+    "translate": "עתיק",
+    "date_created": "2024-02-22 15:36:42",
+    "cover": {
+      "id": 88721,
+      "name": "cover_68440720245cd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492887361569.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1115,
+    "title": "Dry",
+    "transcription": "Make sure to hang your clothes outside to dry in the sun.",
+    "sentence": "drahy",
+    "translate": "יבש",
+    "date_created": "2024-02-22 15:36:44",
+    "cover": {
+      "id": 88722,
+      "name": "cover_684407415f680.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492887693979.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1116,
+    "title": "Wet",
+    "transcription": "The rain made his clothes wet and muddy.",
+    "sentence": "/wɛt/",
+    "translate": "רטוב",
+    "date_created": "2024-02-22 15:36:45",
+    "cover": {
+      "id": 88723,
+      "name": "cover_68440764e0b6b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492888049279.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1117,
+    "title": "Healthy",
+    "transcription": "Eating fruits and vegetables every day is important for maintaining a healthy lifestyle.",
+    "sentence": "/ˈhɛlθi/",
+    "translate": "בריא",
+    "date_created": "2024-02-22 15:36:45",
+    "cover": {
+      "id": 88724,
+      "name": "cover_68440786bfb13.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492888387913.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1118,
+    "title": "Safe",
+    "transcription": "Make sure to lock the safe before leaving the office.",
+    "sentence": "/seɪf/",
+    "translate": "בטוח",
+    "date_created": "2024-02-22 15:36:48",
+    "cover": {
+      "id": 88725,
+      "name": "cover_684407ace1c9a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492888769320.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1119,
+    "title": "Dangerous",
+    "transcription": "Swimming in the ocean during a hurricane is very dangerous.",
+    "sentence": "/ˈdeɪndʒərəs/",
+    "translate": "מסוכן",
+    "date_created": "2024-02-22 15:36:49",
+    "cover": {
+      "id": 88726,
+      "name": "cover_684407d55af1e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492889173803.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1120,
+    "title": "Early",
+    "transcription": "I woke up early this morning to watch the sunrise.",
+    "sentence": "/ˈɜːrli/",
+    "translate": "מוקדם",
+    "date_created": "2024-02-22 15:36:50",
+    "cover": {
+      "id": 88727,
+      "name": "cover_684407f77faae.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492889515298.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1121,
+    "title": "Late",
+    "transcription": "I'm sorry but I'll be late for the meeting.",
+    "sentence": "/leɪt/",
+    "translate": "מאוחר",
+    "date_created": "2024-02-22 15:36:51",
+    "cover": {
+      "id": 88728,
+      "name": "cover_6844081d14fa1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492889890931.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1122,
+    "title": "Traditional",
+    "transcription": "They celebrated Christmas in a traditional manner with the whole family.",
+    "sentence": "truh-DIH-shuh-nl",
+    "translate": "מסורתי",
+    "date_created": "2024-02-22 15:36:54",
+    "cover": {
+      "id": 88729,
+      "name": "cover_68440840e11f3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492890249289.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1123,
+    "title": "Foreign",
+    "transcription": "I love trying foreign foods from different cultures.",
+    "sentence": "/ˈfɔːrɪn/",
+    "translate": "זָר",
+    "date_created": "2024-02-22 15:36:55",
+    "cover": {
+      "id": 88730,
+      "name": "cover_68440865271a6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492890611674.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1124,
+    "title": "Domestic",
+    "transcription": "He has a domestic cat as a pet.",
+    "sentence": "dəˈmɛstɪk",
+    "translate": "מקום",
+    "date_created": "2024-02-22 15:36:58",
+    "cover": {
+      "id": 88731,
+      "name": "cover_6844088e03bcf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492891020233.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1125,
+    "title": "Public",
+    "transcription": "The public is outraged over the government's decision to raise taxes.",
+    "sentence": "ˈpʌblɪk",
+    "translate": "ציבורי",
+    "date_created": "2024-02-22 15:36:59",
+    "cover": {
+      "id": 88732,
+      "name": "cover_684408b208f51.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492891380439.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1126,
+    "title": "Private",
+    "transcription": "Please respect my privacy and do not share this information with anyone else.",
+    "sentence": "/ˈpraɪvət/",
+    "translate": "פּריוואַט",
+    "date_created": "2024-02-22 15:37:02",
+    "cover": {
+      "id": 88733,
+      "name": "cover_684408d295ac5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492891706192.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1127,
+    "title": "Natural",
+    "transcription": "Spending time outdoors in the natural beauty of the mountains always makes me feel calm and rejuvenated.",
+    "sentence": "ˈnætʃərəl",
+    "translate": "טבעי",
+    "date_created": "2024-02-22 15:37:03",
+    "cover": {
+      "id": 88734,
+      "name": "cover_684408f40183b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492892040128.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1128,
+    "title": "Unhealthy",
+    "transcription": "Eating fast food every day is an unhealthy habit.",
+    "sentence": "/ʌnˈhɛlθi/",
+    "translate": "לא בריא",
+    "date_created": "2024-02-22 15:37:04",
+    "cover": {
+      "id": 88735,
+      "name": "cover_6844091623dd8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492892381547.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1129,
+    "title": "Alive",
+    "transcription": "She felt more alive than she ever had before.",
+    "sentence": "/əˈlaɪv/",
+    "translate": "חַי",
+    "date_created": "2024-02-22 15:37:07",
+    "cover": {
+      "id": 88736,
+      "name": "cover_684409392ab85.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492892731812.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1130,
+    "title": "Artificial",
+    "transcription": "The company used artificial intelligence to improve their customer service.",
+    "sentence": "/ˌɑːr.tɪˈfɪʃ.əl/",
+    "translate": "מלאכותי",
+    "date_created": "2024-02-22 15:37:08",
+    "cover": {
+      "id": 88737,
+      "name": "cover_6844095b1bde7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492893071209.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1131,
+    "title": "Dead",
+    "transcription": "The flowers in the vase are dead.",
+    "sentence": "/dɛd/",
+    "translate": "מת",
+    "date_created": "2024-02-22 15:37:08",
+    "cover": {
+      "id": 88738,
+      "name": "cover_6844097f48dbb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492893433052.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1132,
+    "title": "Closed",
+    "transcription": "The store is closed on Sundays.",
+    "sentence": "/kloʊzd/",
+    "translate": "סגור",
+    "date_created": "2024-02-22 15:37:11",
+    "cover": {
+      "id": 88739,
+      "name": "cover_684409a45930e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492893803717.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1133,
+    "title": "Open",
+    "transcription": "The store is open from 9 AM to 5 PM.",
+    "sentence": "ˈoʊpən",
+    "translate": "לפתוח",
+    "date_created": "2024-02-22 15:37:11",
+    "cover": {
+      "id": 88740,
+      "name": "cover_684409c76ee67.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492894154609.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1134,
+    "title": "Ancient",
+    "transcription": "The ancient ruins of the Mayan civilization are a popular tourist attraction.",
+    "sentence": "/ˈeɪnʃənt/",
+    "translate": "עתיק",
+    "date_created": "2024-02-22 15:37:12",
+    "cover": {
+      "id": 88741,
+      "name": "cover_684409e983e56.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492894495472.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

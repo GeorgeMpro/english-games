@@ -6,7 +6,7 @@ import {CategoryService, FAILED_LOAD_CATEGORIES_MSG, FAILED_LOAD_WORDS_MSG} from
 
 import {BASE_URL} from '../../../../environments/environment.local';
 import {API_ENDPOINTS} from '../../../data-access/api-endpoints';
-import validWordGroupResponse from './mocks/valid-word-groups.json';
+import validWordGroupResponse from '../../../../assets/data/all-words-in-categories/all-word-groups.json';
 import {
   CategoryChooserModalComponent
 } from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';

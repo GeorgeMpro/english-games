@@ -1,0 +1,887 @@
+[
+  {
+    "id": 13,
+    "title": "Egg",
+    "transcription": "She cracked an egg into the frying pan to start making breakfast.",
+    "sentence": "/ɛɡ/",
+    "translate": "ביצה",
+    "date_created": "2024-02-22 15:17:19",
+    "cover": {
+      "id": 87066,
+      "name": "cover_6838b867e53c3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485476879453.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 14,
+    "title": "Milk",
+    "transcription": "She poured a glass of milk to go with her cookies.",
+    "sentence": "mɪlk",
+    "translate": "חָלָב",
+    "date_created": "2024-02-22 15:17:19",
+    "cover": {
+      "id": 87067,
+      "name": "cover_6838b893f320c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485477320019.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 16,
+    "title": "Cream",
+    "transcription": "She likes her coffee with a little cream.",
+    "sentence": "/kriːm/",
+    "translate": "קרם",
+    "date_created": "2024-02-22 15:17:19",
+    "cover": {
+      "id": 87069,
+      "name": "cover_6838b8dba8d46.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485478036971.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 17,
+    "title": "Yogurt",
+    "transcription": "She enjoyed a bowl of yogurt with fresh berries for breakfast.",
+    "sentence": "ˈjoʊɡərt",
+    "translate": "יוגורט",
+    "date_created": "2024-02-22 15:17:22",
+    "cover": {
+      "id": 87070,
+      "name": "cover_6838b8fd86e16.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485478375590.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 18,
+    "title": "Coffee",
+    "transcription": "I can't function without my morning coffee.",
+    "sentence": "ˈkɔfi",
+    "translate": "קפה",
+    "date_created": "2024-02-22 15:17:23",
+    "cover": {
+      "id": 87071,
+      "name": "cover_6838b924da27e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485478769005.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 19,
+    "title": "Tea",
+    "transcription": "Would you like some tea with your breakfast?",
+    "sentence": "/tiː/",
+    "translate": "תה",
+    "date_created": "2024-02-22 15:17:23",
+    "cover": {
+      "id": 87072,
+      "name": "cover_6838b94fd126a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485479198632.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 20,
+    "title": "Water",
+    "transcription": "She filled up her water bottle before heading out for a run.",
+    "sentence": "/ˈwɔːtər/",
+    "translate": "מים",
+    "date_created": "2024-02-22 15:17:23",
+    "cover": {
+      "id": 87073,
+      "name": "cover_6838b97060614.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485479524010.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 21,
+    "title": "Soda",
+    "transcription": "I bought a can of soda from the vending machine.",
+    "sentence": "ˈsoʊdə",
+    "translate": "סודה",
+    "date_created": "2024-02-22 15:17:23",
+    "cover": {
+      "id": 87074,
+      "name": "cover_6838b98fcc315.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485479838419.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 22,
+    "title": "Wine",
+    "transcription": "She poured herself a glass of red wine to enjoy with her dinner.",
+    "sentence": "/waɪn/",
+    "translate": "יין",
+    "date_created": "2024-02-22 15:17:23",
+    "cover": {
+      "id": 87075,
+      "name": "cover_6838b9b31885a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485480191064.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 23,
+    "title": "Beer",
+    "transcription": "I like to relax by watching a movie and having a cold beer.",
+    "sentence": "/bɪər/",
+    "translate": "בירה",
+    "date_created": "2024-02-22 15:17:23",
+    "cover": {
+      "id": 87076,
+      "name": "cover_6838b9d66d5bd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485480544545.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 24,
+    "title": "Juice",
+    "transcription": "I like to have a glass of orange juice with breakfast every morning.",
+    "sentence": "dʒuːs",
+    "translate": "מִיץ",
+    "date_created": "2024-02-22 15:17:24",
+    "cover": {
+      "id": 87077,
+      "name": "cover_6838ba023258f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485480982124.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 60,
+    "title": "Apple",
+    "transcription": "She enjoyed a delicious apple after her workout.",
+    "sentence": "ˈæpəl",
+    "translate": "תפוח",
+    "date_created": "2024-02-22 15:18:53",
+    "cover": {
+      "id": 87111,
+      "name": "cover_6838bfb543714.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485495572816.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 61,
+    "title": "Banana",
+    "transcription": "I had a banana with my breakfast this morning.",
+    "sentence": "/bəˈnænə/",
+    "translate": "בננה",
+    "date_created": "2024-02-22 15:18:53",
+    "cover": {
+      "id": 87112,
+      "name": "cover_6838bfd8473eb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485495922976.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 62,
+    "title": "Orange",
+    "transcription": "The orange juice was freshly squeezed and delicious.",
+    "sentence": "ˈɔrɪndʒ",
+    "translate": "כתום",
+    "date_created": "2024-02-22 15:18:56",
+    "cover": {
+      "id": 87113,
+      "name": "cover_6838bffc4db3e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485496283244.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 63,
+    "title": "Pear",
+    "transcription": "She enjoyed a juicy pear as a snack.",
+    "sentence": "pɛr",
+    "translate": "אַפּעל",
+    "date_created": "2024-02-22 15:18:56",
+    "cover": {
+      "id": 87114,
+      "name": "cover_6838c01c65d79.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485496604233.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 64,
+    "title": "Peach",
+    "transcription": "She took a juicy bite of the ripe peach and savored its sweet flavor.",
+    "sentence": "piːtʃ",
+    "translate": "אפרסק",
+    "date_created": "2024-02-22 15:18:57",
+    "cover": {
+      "id": 87115,
+      "name": "cover_6838c04244e80.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485496982933.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 65,
+    "title": "Strawberry",
+    "transcription": "I love eating fresh strawberries during the summer.",
+    "sentence": "/ˈstrɔˌbɛri/",
+    "translate": "תות",
+    "date_created": "2024-02-22 15:18:57",
+    "cover": {
+      "id": 87116,
+      "name": "cover_6838c064cabb7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485497328364.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 66,
+    "title": "Blueberry",
+    "transcription": "I had a delicious blueberry muffin for breakfast this morning.",
+    "sentence": "ˈbluˌbɛri",
+    "translate": "תוּת",
+    "date_created": "2024-02-22 15:18:58",
+    "cover": {
+      "id": 87117,
+      "name": "cover_6838c08c9c656.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485497726477.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 67,
+    "title": "Lemon",
+    "transcription": "She squeezed some lemon juice into her water for added flavor.",
+    "sentence": "/ˈlɛmən/",
+    "translate": "לימון",
+    "date_created": "2024-02-22 15:19:00",
+    "cover": {
+      "id": 87118,
+      "name": "cover_6838c0af7aedd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485498075091.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 68,
+    "title": "Lime",
+    "transcription": "I like to add lime juice to my water for extra flavor.",
+    "sentence": "/laɪm/",
+    "translate": "לימון",
+    "date_created": "2024-02-22 15:19:01",
+    "cover": {
+      "id": 87119,
+      "name": "cover_6838c0d0217ad.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485498401427.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 69,
+    "title": "Watermelon",
+    "transcription": "I love eating refreshing watermelon on a hot summer day.",
+    "sentence": "/ˈwɔːtərmelən/",
+    "translate": "דְלִיל",
+    "date_created": "2024-02-22 15:19:01",
+    "cover": {
+      "id": 87120,
+      "name": "cover_6838c0f755cee.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485498793576.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 70,
+    "title": "Grape",
+    "transcription": "She snacked on a handful of grapes while studying for her exam.",
+    "sentence": "greyp",
+    "translate": "ענב",
+    "date_created": "2024-02-22 15:19:01",
+    "cover": {
+      "id": 87121,
+      "name": "cover_6838c11c48225.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485499163026.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 71,
+    "title": "Pineapple",
+    "transcription": "I love eating pineapple in the summertime.",
+    "sentence": "/ˈpaɪnˌæpl/",
+    "translate": "אַנָנָאֶס",
+    "date_created": "2024-02-22 15:19:02",
+    "cover": {
+      "id": 87122,
+      "name": "cover_6838c142d8892.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485499548941.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 72,
+    "title": "Mango",
+    "transcription": "I love eating ripe mangoes in the summer.",
+    "sentence": " /ˈmæŋɡoʊ/",
+    "translate": "מנגו",
+    "date_created": "2024-02-22 15:19:05",
+    "cover": {
+      "id": 87123,
+      "name": "cover_6838c1617c134.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485499855140.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 73,
+    "title": "Carrot",
+    "transcription": "She chopped up a carrot to put in the salad.",
+    "sentence": "/ˈkærət/",
+    "translate": "גזר",
+    "date_created": "2024-02-22 15:19:05",
+    "cover": {
+      "id": 87124,
+      "name": "cover_6838c188096c9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485500240438.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 74,
+    "title": "Potato",
+    "transcription": "I made mashed potatoes for dinner last night.",
+    "sentence": "/pəˈteɪ.toʊ/",
+    "translate": "תַפּוּחַ אֲדָמָה",
+    "date_created": "2024-02-22 15:19:06",
+    "cover": {
+      "id": 87125,
+      "name": "cover_6838c1abeed82.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485500599845.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 75,
+    "title": "Onion",
+    "transcription": "I like to caramelize onions to add a sweet flavor to my dishes.",
+    "sentence": "/ˈʌn.jən/",
+    "translate": "בצל",
+    "date_created": "2024-02-22 15:19:06",
+    "cover": {
+      "id": 87126,
+      "name": "cover_6838c1d528078.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485501011692.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 76,
+    "title": "Lettuce",
+    "transcription": "I like to put lettuce on my sandwiches for some extra crunch.",
+    "sentence": "ˈlɛtɪs",
+    "translate": "סָלָט",
+    "date_created": "2024-02-22 15:19:08",
+    "cover": {
+      "id": 87127,
+      "name": "cover_6838c203dfb18.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485501479217.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 77,
+    "title": "Tomato",
+    "transcription": "She sliced a ripe tomato to put on her sandwich.",
+    "sentence": "/təˈmeɪ.toʊ/",
+    "translate": "עגבניה",
+    "date_created": "2024-02-22 15:19:09",
+    "cover": {
+      "id": 87128,
+      "name": "cover_6838c22a7bc07.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485501865125.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 78,
+    "title": "Cucumber",
+    "transcription": "I love eating fresh cucumbers in my salads.",
+    "sentence": "ˈkjuːkʌmbər",
+    "translate": "מלפפון",
+    "date_created": "2024-02-22 15:19:10",
+    "cover": {
+      "id": 87129,
+      "name": "cover_6838c24d1f9f5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485502211348.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 79,
+    "title": "Pepper",
+    "transcription": "She sprinkled some pepper on her salad for added flavor.",
+    "sentence": "ˈpɛpər",
+    "translate": "פלפל",
+    "date_created": "2024-02-22 15:19:11",
+    "cover": {
+      "id": 87130,
+      "name": "cover_6838c274f2f97.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485502610006.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 80,
+    "title": "Broccoli",
+    "transcription": "I love steamed broccoli with garlic and lemon on top.",
+    "sentence": "ˈbrɑːkəli",
+    "translate": "ברוקולי",
+    "date_created": "2024-02-22 15:19:11",
+    "cover": {
+      "id": 87131,
+      "name": "cover_6838c2af524d8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485503193438.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 81,
+    "title": "Spinach",
+    "transcription": "I like to add spinach to my salad for extra nutrients.",
+    "sentence": "/ˈspɪnɪtʃ/",
+    "translate": "סְלָט",
+    "date_created": "2024-02-22 15:19:13",
+    "cover": {
+      "id": 87132,
+      "name": "cover_6838c2d4c3d38.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485503568085.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 82,
+    "title": "Mushroom",
+    "transcription": "She sautéed the mushrooms with garlic and butter.",
+    "sentence": "ˈmʌʃruːm",
+    "translate": "פטריה",
+    "date_created": "2024-02-22 15:19:13",
+    "cover": {
+      "id": 87133,
+      "name": "cover_6838c2fe58eae.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485503983698.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 83,
+    "title": "Rice",
+    "transcription": "I always have rice with my stir-fry dishes.",
+    "sentence": "/raɪs/",
+    "translate": "אורז",
+    "date_created": "2024-02-22 15:19:14",
+    "cover": {
+      "id": 87134,
+      "name": "cover_6838c32310643.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485504350723.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 84,
+    "title": "Corn",
+    "transcription": "She picked some fresh corn from the field for dinner.",
+    "sentence": "kɔːrn",
+    "translate": "תירס",
+    "date_created": "2024-02-22 15:19:14",
+    "cover": {
+      "id": 87135,
+      "name": "cover_6838c34d6a8e7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485504774415.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 85,
+    "title": "Pasta",
+    "transcription": "I'm craving a big bowl of pasta for dinner tonight.",
+    "sentence": "ˈpæstə",
+    "translate": "פַּסְטָה",
+    "date_created": "2024-02-22 15:19:17",
+    "cover": {
+      "id": 87136,
+      "name": "cover_6838c370bbe97.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485505127763.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 86,
+    "title": "Bread",
+    "transcription": "I love eating homemade bread with butter.",
+    "sentence": "/brɛd/",
+    "translate": "לֶחֶם",
+    "date_created": "2024-02-22 15:19:17",
+    "cover": {
+      "id": 87137,
+      "name": "cover_6838c39993c1c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485505536116.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 87,
+    "title": "Cheese",
+    "transcription": "I love adding cheese to my pasta sauce.",
+    "sentence": " /tʃiːz/",
+    "translate": "גבינה",
+    "date_created": "2024-02-22 15:19:18",
+    "cover": {
+      "id": 87138,
+      "name": "cover_6838c3b8d907a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485505848942.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 88,
+    "title": "Butter",
+    "transcription": "She spread butter on her toast before eating it.",
+    "sentence": "ˈbʌtər",
+    "translate": "חמאה",
+    "date_created": "2024-02-22 15:19:18",
+    "cover": {
+      "id": 87139,
+      "name": "cover_6838c3dd32cf6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485506212132.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 89,
+    "title": "Beef",
+    "transcription": "I ordered a juicy steak made from prime beef at the restaurant.",
+    "sentence": "/biːf/",
+    "translate": "בשר בקר",
+    "date_created": "2024-02-22 15:19:22",
+    "cover": {
+      "id": 87140,
+      "name": "cover_6838c401a0f46.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485506576656.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 90,
+    "title": "Chicken",
+    "transcription": "She made a delicious chicken stir fry for dinner.",
+    "sentence": "/ˈtʃɪkən/",
+    "translate": "תרנגול",
+    "date_created": "2024-02-22 15:19:22",
+    "cover": {
+      "id": 87141,
+      "name": "cover_6838c423727d3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485506914756.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 91,
+    "title": "Pork",
+    "transcription": "I cooked a delicious pork chop for dinner last night.",
+    "sentence": "pɔːrk",
+    "translate": "חזיר",
+    "date_created": "2024-02-22 15:19:22",
+    "cover": {
+      "id": 87142,
+      "name": "cover_6838c445ef0ff.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485507259861.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 92,
+    "title": "Fish",
+    "transcription": "We caught a lot of fish while fishing at the lake.",
+    "sentence": "/fɪʃ/",
+    "translate": "דג",
+    "date_created": "2024-02-22 15:19:22",
+    "cover": {
+      "id": 87143,
+      "name": "cover_6838c46ec8f59.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485507668296.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 93,
+    "title": "Shrimp",
+    "transcription": "I ordered the shrimp dish at the seafood restaurant.",
+    "sentence": "/ʃrɪmp/",
+    "translate": "גֶבֶר",
+    "date_created": "2024-02-22 15:19:26",
+    "cover": {
+      "id": 87144,
+      "name": "cover_6838c48f0dfc9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485507990637.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 94,
+    "title": "Lobster",
+    "transcription": "I ordered a whole lobster at the seafood restaurant.",
+    "sentence": "/ˈlɒbstər/",
+    "translate": "לובסטר",
+    "date_created": "2024-02-22 15:19:26",
+    "cover": {
+      "id": 87145,
+      "name": "cover_6838c4b22baa4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485508341849.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 95,
+    "title": "Chocolate",
+    "transcription": "I love to eat chocolate ice cream on a hot summer day.",
+    "sentence": "ˈtʃɒklət",
+    "translate": "שוקולד",
+    "date_created": "2024-02-22 15:19:26",
+    "cover": {
+      "id": 87146,
+      "name": "cover_6838c4d514859.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485508690906.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 96,
+    "title": "Cake",
+    "transcription": "I baked a delicious chocolate cake for my friend's birthday.",
+    "sentence": "keɪk",
+    "translate": "עוגה",
+    "date_created": "2024-02-22 15:19:31",
+    "cover": {
+      "id": 87147,
+      "name": "cover_6838c4f72d79f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485509031923.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 97,
+    "title": "Cookie",
+    "transcription": "I love to bake chocolate chip cookies for my friends.",
+    "sentence": "/ˈkʊki/",
+    "translate": "עוגייה",
+    "date_created": "2024-02-22 15:19:31",
+    "cover": {
+      "id": 87148,
+      "name": "cover_6838c51739b16.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485509352430.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 98,
+    "title": "Ice cream",
+    "transcription": "I love to eat ice cream on hot summer days.",
+    "sentence": " /ˈaɪs kriːm/",
+    "translate": "גלידה",
+    "date_created": "2024-02-22 15:19:33",
+    "cover": {
+      "id": 87149,
+      "name": "cover_6838c53c38b13.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485509722382.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 99,
+    "title": "Pie",
+    "transcription": "She made a delicious apple pie for dessert.",
+    "sentence": " /paɪ/",
+    "translate": "עוגה",
+    "date_created": "2024-02-22 15:19:33",
+    "cover": {
+      "id": 87150,
+      "name": "cover_6838c5605c859.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485510083850.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 100,
+    "title": "Sandwich",
+    "transcription": "I made a ham and cheese sandwich for lunch.",
+    "sentence": "/ˈsæn.wɪdʒ/",
+    "translate": "סנדויץ'",
+    "date_created": "2024-02-22 15:19:35",
+    "cover": {
+      "id": 87151,
+      "name": "cover_6838c584a97ac.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485510447009.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 101,
+    "title": "Salad",
+    "transcription": "I am having a Greek salad for lunch.",
+    "sentence": "/ˈsæləd/",
+    "translate": "סָלָט",
+    "date_created": "2024-02-22 15:19:36",
+    "cover": {
+      "id": 87152,
+      "name": "cover_6838c5ae42348.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485510862774.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 102,
+    "title": "Soup",
+    "transcription": "I ordered a bowl of chicken noodle soup for lunch.",
+    "sentence": "suːp",
+    "translate": "מרק",
+    "date_created": "2024-02-22 15:19:37",
+    "cover": {
+      "id": 87153,
+      "name": "cover_6838c5d1e8baf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485511219591.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 103,
+    "title": "Steak",
+    "transcription": "I ordered a juicy steak for dinner last night.",
+    "sentence": "/steɪk/",
+    "translate": "סטייק",
+    "date_created": "2024-02-22 15:19:39",
+    "cover": {
+      "id": 87154,
+      "name": "cover_6838c60b36cdb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485511792312.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 104,
+    "title": "Hamburger",
+    "transcription": "I feel like having a juicy hamburger for lunch.",
+    "sentence": "ˈhæmˌbɜːrɡər",
+    "translate": "המבורגר",
+    "date_created": "2024-02-22 15:19:39",
+    "cover": {
+      "id": 87155,
+      "name": "cover_6838c641ac049.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485512337109.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 105,
+    "title": "Pizza",
+    "transcription": "I ordered a large pizza with extra cheese and pepperoni for dinner.",
+    "sentence": "/ˈpiːtsə/",
+    "translate": "פיצה",
+    "date_created": "2024-02-22 15:19:39",
+    "cover": {
+      "id": 87156,
+      "name": "cover_6838c6660a5ca.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485512700492.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 106,
+    "title": "Sushi",
+    "transcription": "I ordered a variety of sushi rolls for lunch.",
+    "sentence": "/ˈsuːʃi/",
+    "translate": "סושי",
+    "date_created": "2024-02-22 15:19:40",
+    "cover": {
+      "id": 87157,
+      "name": "cover_6838c693ce800.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485513158531.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 107,
+    "title": "Curry",
+    "transcription": "I'm making a chicken curry for dinner tonight.",
+    "sentence": "ˈkʌri",
+    "translate": "כרי",
+    "date_created": "2024-02-22 15:19:40",
+    "cover": {
+      "id": 87158,
+      "name": "cover_6838c6b86ef29.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485513524607.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

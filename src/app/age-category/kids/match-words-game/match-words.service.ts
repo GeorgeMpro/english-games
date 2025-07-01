@@ -17,6 +17,7 @@ import {
 import {WordGroup, WordItem} from '../../../data-access/api.models';
 import {CategoryService} from '../../../data-access/category.service';
 import {ItemConverterService} from '../../../shared/services/item-converter.service';
+import {categoryJsonMap} from './category-json-mapper';
 
 // todo does too much - split
 @Injectable({providedIn: 'root'})
@@ -410,6 +411,7 @@ export class MatchWordsService {
     });
 
   }
+
 
   // todo update to use the real backend
   // todo add a fallback to use wiki

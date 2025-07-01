@@ -1,0 +1,827 @@
+[
+  {
+    "id": 632,
+    "title": "College",
+    "transcription": "I graduated from college last year.",
+    "sentence": "ˈkɒlɪdʒ",
+    "translate": "קולג'",
+    "date_created": "2024-02-22 15:28:44",
+    "cover": {
+      "id": 87785,
+      "name": "cover_6839a146c0674.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486073027986.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 634,
+    "title": "Academy",
+    "transcription": "She was accepted into a prestigious academy for gifted students.",
+    "sentence": "/əˈkædəmi/",
+    "translate": "אַקאַדעמיע",
+    "date_created": "2024-02-22 15:28:45",
+    "cover": {
+      "id": 87787,
+      "name": "cover_6839a198a3121.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486073846742.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 635,
+    "title": "Institute",
+    "transcription": "She decided to enroll in an institute to further her education.",
+    "sentence": "/ˈɪnstɪˌt(j)uːt/",
+    "translate": "מוסד",
+    "date_created": "2024-02-22 15:28:47",
+    "cover": {
+      "id": 87788,
+      "name": "cover_6839a1c57651e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486074294909.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 636,
+    "title": "Classroom",
+    "transcription": "The teacher entered the classroom and greeted the students.",
+    "sentence": "ˈklæsˌrum",
+    "translate": "כיתה",
+    "date_created": "2024-02-22 15:28:47",
+    "cover": {
+      "id": 87789,
+      "name": "cover_6839a1f367f17.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486074754547.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 637,
+    "title": "Student",
+    "transcription": "The student was eager to learn about the new topic in class.",
+    "sentence": "/ˈstjuːdənt/",
+    "translate": "תלמיד",
+    "date_created": "2024-02-22 15:28:47",
+    "cover": {
+      "id": 87790,
+      "name": "cover_6839a223a1f60.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486075236709.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 638,
+    "title": "Lecturer",
+    "transcription": "The lecturer explained the complex topic to the students during the lecture.",
+    "sentence": "/ˈlek.tʃər.ər/",
+    "translate": "מרצה",
+    "date_created": "2024-02-22 15:28:49",
+    "cover": {
+      "id": 87791,
+      "name": "cover_6839a25037c7e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486075682366.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 639,
+    "title": "Dean",
+    "transcription": "Dean is the head of the department at the university.",
+    "sentence": "diːn",
+    "translate": "דין",
+    "date_created": "2024-02-22 15:28:49",
+    "cover": {
+      "id": 87792,
+      "name": "cover_6839a273e3fad.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486076039446.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 640,
+    "title": "Textbook",
+    "transcription": "The teacher asked the students to bring their textbooks to class for the next lesson.",
+    "sentence": "/ˈtɛkstˌbʊk/",
+    "translate": "ספר לימוד",
+    "date_created": "2024-02-22 15:28:50",
+    "cover": {
+      "id": 87793,
+      "name": "cover_6839a29b1c20c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486076431215.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 641,
+    "title": "Principal",
+    "transcription": "The principal of the school is responsible for making important decisions.",
+    "sentence": "/ˈprɪnsəpəl/",
+    "translate": "רֹאשׁ",
+    "date_created": "2024-02-22 15:28:50",
+    "cover": {
+      "id": 87794,
+      "name": "cover_6839a2c7868ca.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486076875622.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 642,
+    "title": "Notebook",
+    "transcription": "She always carries her notebook with her to jot down important ideas.",
+    "sentence": "ˈnoʊtˌbʊk",
+    "translate": "מחברת",
+    "date_created": "2024-02-22 15:28:51",
+    "cover": {
+      "id": 87795,
+      "name": "cover_6839a2ecd975b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486077249009.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 643,
+    "title": "Pencil",
+    "transcription": "She used a pencil to sketch a beautiful landscape.",
+    "sentence": "ˈpɛnsəl",
+    "translate": "עפעף",
+    "date_created": "2024-02-22 15:28:51",
+    "cover": {
+      "id": 87796,
+      "name": "cover_6839a30c1ecba.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486077561346.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 644,
+    "title": "Pen",
+    "transcription": "She used a blue pen to write her notes.",
+    "sentence": "/pɛn/",
+    "translate": "עט",
+    "date_created": "2024-02-22 15:28:53",
+    "cover": {
+      "id": 87797,
+      "name": "cover_6839a32d7fa1c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486077895286.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 645,
+    "title": "Ruler",
+    "transcription": "The ruler on my desk helps me draw straight lines.",
+    "sentence": "ˈruːlər",
+    "translate": "שָׁלִיט",
+    "date_created": "2024-02-22 15:28:53",
+    "cover": {
+      "id": 87798,
+      "name": "cover_6839a351c89c4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486078258281.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 646,
+    "title": "Eraser",
+    "transcription": "I used an eraser to fix my mistake on the test.",
+    "sentence": "/ɪˈreɪsər/",
+    "translate": "מחק",
+    "date_created": "2024-02-22 15:28:53",
+    "cover": {
+      "id": 87799,
+      "name": "cover_6839a37e7daef.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486078705212.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 647,
+    "title": "Calculator",
+    "transcription": "He used a calculator to help him solve the complex math problem.",
+    "sentence": "ˈkælkyəˌleɪtər",
+    "translate": "מחשבון",
+    "date_created": "2024-02-22 15:28:54",
+    "cover": {
+      "id": 87800,
+      "name": "cover_6839a3a4b5a50.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486079087532.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 648,
+    "title": "Blackboard",
+    "transcription": "The teacher wrote the assignment on the blackboard for all the students to see.",
+    "sentence": "ˈblækˌbɔrd",
+    "translate": "לוח שחור",
+    "date_created": "2024-02-22 15:28:54",
+    "cover": {
+      "id": 87801,
+      "name": "cover_6839a3cbb818f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486079477607.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 649,
+    "title": "Whiteboard",
+    "transcription": "The teacher wrote the math problem on the whiteboard for the class to solve.",
+    "sentence": "ˈwaɪtˌbɔrd",
+    "translate": "לוח לבן",
+    "date_created": "2024-02-22 15:28:55",
+    "cover": {
+      "id": 87802,
+      "name": "cover_6839a3f15f953.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486079854032.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 650,
+    "title": "Chalk",
+    "transcription": "The teacher used chalk to write on the blackboard.",
+    "sentence": "/tʃɔːk/",
+    "translate": "גיר",
+    "date_created": "2024-02-22 15:28:56",
+    "cover": {
+      "id": 87803,
+      "name": "cover_6839a412bfde8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486080187923.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 651,
+    "title": "Exam",
+    "transcription": "I have an important exam tomorrow that I need to study for.",
+    "sentence": "ɪɡˈzæm",
+    "translate": "מבחן",
+    "date_created": "2024-02-22 15:28:56",
+    "cover": {
+      "id": 87804,
+      "name": "cover_6839a43b324bc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486080592120.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 652,
+    "title": "Marker",
+    "transcription": "She used a red marker to highlight important information in her notes.",
+    "sentence": "/ˈmɑːrkər/",
+    "translate": "סמל",
+    "date_created": "2024-02-22 15:28:57",
+    "cover": {
+      "id": 87805,
+      "name": "cover_6839a45ed9014.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486080948950.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 653,
+    "title": "Test",
+    "transcription": "She studied for days in preparation for her final exam, hoping to get a perfect test score.",
+    "sentence": "test /tɛst/",
+    "translate": "מבחן",
+    "date_created": "2024-02-22 15:28:57",
+    "cover": {
+      "id": 87806,
+      "name": "cover_6839a48eeb335.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486081429696.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 654,
+    "title": "Quiz",
+    "transcription": "She had to take a quiz in her math class today.",
+    "sentence": "/kwɪz/",
+    "translate": "חידון",
+    "date_created": "2024-02-22 15:28:57",
+    "cover": {
+      "id": 87807,
+      "name": "cover_6839a4b642b7e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486081822805.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 655,
+    "title": "Homework",
+    "transcription": "I have a lot of homework to finish tonight.",
+    "sentence": "/ˈhoʊmˌwɜrk/",
+    "translate": "שעורים ביתיים",
+    "date_created": "2024-02-22 15:28:57",
+    "cover": {
+      "id": 87808,
+      "name": "cover_6839a4e37e451.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486082275246.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 656,
+    "title": "Assignment",
+    "transcription": "The teacher handed out the assignment to all the students in the class.",
+    "sentence": "əˈsaɪnmənt",
+    "translate": "מַטָלָה",
+    "date_created": "2024-02-22 15:28:58",
+    "cover": {
+      "id": 87809,
+      "name": "cover_6839a50cb08b1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486082687294.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 657,
+    "title": "Course",
+    "transcription": "I am taking a course on computer programming this semester.",
+    "sentence": "/kɔːrs/",
+    "translate": "קורס",
+    "date_created": "2024-02-22 15:29:00",
+    "cover": {
+      "id": 87811,
+      "name": "cover_6839a540c0098.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486083207970.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 658,
+    "title": "Lecture",
+    "transcription": "The professor gave a long lecture on the history of psychology.",
+    "sentence": "ˈlɛk.tʃər",
+    "translate": "הרצאה",
+    "date_created": "2024-02-22 15:29:00",
+    "cover": {
+      "id": 87812,
+      "name": "cover_6839a568c476b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486083608122.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 659,
+    "title": "Seminar",
+    "transcription": "I attended a seminar on time management yesterday.",
+    "sentence": "/ˈsɛm.ɪ.nɑːr/",
+    "translate": "סמינר",
+    "date_created": "2024-02-22 15:29:00",
+    "cover": {
+      "id": 87813,
+      "name": "cover_6839a59691ac4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486084066069.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 660,
+    "title": "Workshop",
+    "transcription": "I attended a photography workshop to improve my skills.",
+    "sentence": "/ˈwɜːrkʃɒp/",
+    "translate": "סדנה",
+    "date_created": "2024-02-22 15:29:01",
+    "cover": {
+      "id": 87814,
+      "name": "cover_6839a5bf2a3cd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486084471832.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 661,
+    "title": "Laboratory",
+    "transcription": "She spent hours in the laboratory conducting experiments for her science project.",
+    "sentence": "/ˈlæb·rə·tɔr·i/",
+    "translate": "מעבדה",
+    "date_created": "2024-02-22 15:29:01",
+    "cover": {
+      "id": 87815,
+      "name": "cover_6839a5e8b35d3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486084887456.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 662,
+    "title": "Study",
+    "transcription": "I need to study for my upcoming exam.",
+    "sentence": "/ˈstʌdi/",
+    "translate": "לִימוֹד",
+    "date_created": "2024-02-22 15:29:01",
+    "cover": {
+      "id": 87816,
+      "name": "cover_6839a6174ddb5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486085353260.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 663,
+    "title": "Education",
+    "transcription": "Education is the key to unlocking a brighter future for individuals and societies.",
+    "sentence": "ˌɛdʒəˈkeɪʃən",
+    "translate": "חינוך",
+    "date_created": "2024-02-22 15:29:02",
+    "cover": {
+      "id": 87817,
+      "name": "cover_6839a643ecc84.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486085799765.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 664,
+    "title": "Scholarship",
+    "transcription": "She was awarded a full scholarship to attend the prestigious university.",
+    "sentence": "/ˈskɒləʃɪp/",
+    "translate": "ברכה",
+    "date_created": "2024-02-22 15:29:03",
+    "cover": {
+      "id": 87818,
+      "name": "cover_6839a66b15aba.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486086190957.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 665,
+    "title": "Diploma",
+    "transcription": "She proudly hung her diploma on the wall.",
+    "sentence": "/dəˈploʊmə/",
+    "translate": "תעודת לימוד",
+    "date_created": "2024-02-22 15:29:03",
+    "cover": {
+      "id": 87819,
+      "name": "cover_6839a6a56f45a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486086774619.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 666,
+    "title": "Degree",
+    "transcription": "He obtained a degree in Economics from the university.",
+    "sentence": "ˈdiːɡriː",
+    "translate": "מעלה",
+    "date_created": "2024-02-22 15:29:04",
+    "cover": {
+      "id": 87820,
+      "name": "cover_6839a6cd4134d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486087172763.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 667,
+    "title": "Graduation",
+    "transcription": "She received her diploma at the graduation ceremony.",
+    "sentence": "ˌɡrædʒ.uˈeɪ.ʃən",
+    "translate": "סיום לימודים",
+    "date_created": "2024-02-22 15:29:04",
+    "cover": {
+      "id": 87821,
+      "name": "cover_6839a6f18d69d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486087535887.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 668,
+    "title": "Curriculum",
+    "transcription": "The school's curriculum includes courses in math, science, history, and English.",
+    "sentence": "kəˈrɪkjələm",
+    "translate": "מַלמֵד",
+    "date_created": "2024-02-22 15:29:05",
+    "cover": {
+      "id": 87822,
+      "name": "cover_6839a71e3e15a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486087982609.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 669,
+    "title": "Syllabus",
+    "transcription": "The syllabus for the English literature course outlines the topics to be covered each week.",
+    "sentence": "ˈsɪləbəs",
+    "translate": "סילבוס",
+    "date_created": "2024-02-22 15:29:06",
+    "cover": {
+      "id": 87823,
+      "name": "cover_6839a74187135.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486088335600.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 670,
+    "title": "Thesis",
+    "transcription": "She spent hours researching and writing her thesis on the impact of social media on mental health.",
+    "sentence": "/ˈθiːsɪs/",
+    "translate": "תֶזִית",
+    "date_created": "2024-02-22 15:29:06",
+    "cover": {
+      "id": 87824,
+      "name": "cover_6839a764b285c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486088687383.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 671,
+    "title": "Dissertation",
+    "transcription": "She spent months conducting research for her dissertation on environmental sustainability.",
+    "sentence": "ˌdɪsərˈteɪʃən",
+    "translate": "תיאוריה",
+    "date_created": "2024-02-22 15:29:07",
+    "cover": {
+      "id": 87825,
+      "name": "cover_6839a79249e4f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486089143133.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 672,
+    "title": "Research",
+    "transcription": "She spent months conducting research for her thesis on climate change.",
+    "sentence": "rɪˈsɜrtʃ",
+    "translate": "מחקר",
+    "date_created": "2024-02-22 15:29:07",
+    "cover": {
+      "id": 87826,
+      "name": "cover_6839a7be69264.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486089584382.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 673,
+    "title": "Project",
+    "transcription": "The school science project was due next week.",
+    "sentence": "ˈprɒdʒekt",
+    "translate": "פּרויקט",
+    "date_created": "2024-02-22 15:29:08",
+    "cover": {
+      "id": 87827,
+      "name": "cover_6839a7ed096ea.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486090050486.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 674,
+    "title": "Presentation",
+    "transcription": "She gave an excellent presentation on climate change to the class.",
+    "sentence": "ˌprɛzənˈteɪʃən",
+    "translate": "הַצגָה",
+    "date_created": "2024-02-22 15:29:09",
+    "cover": {
+      "id": 87828,
+      "name": "cover_6839a819b651b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486090497536.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 675,
+    "title": "Essay",
+    "transcription": "She was up all night writing her essay for English class.",
+    "sentence": "/ˈɛˌseɪ/",
+    "translate": "מאמר",
+    "date_created": "2024-02-22 15:29:09",
+    "cover": {
+      "id": 87829,
+      "name": "cover_6839a84a870d2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486090985600.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 676,
+    "title": "Report",
+    "transcription": "She needs to submit her report by the end of the week.",
+    "sentence": "/rɪˈpɔrt/",
+    "translate": "דו\"ח",
+    "date_created": "2024-02-22 15:29:09",
+    "cover": {
+      "id": 87830,
+      "name": "cover_6839a87c1245e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486091480817.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 677,
+    "title": "Study group",
+    "transcription": "The study group met at the library to work on their project together.",
+    "sentence": "ˈstʌdi ɡruːp",
+    "translate": "קבוצת לימוד",
+    "date_created": "2024-02-22 15:29:10",
+    "cover": {
+      "id": 87831,
+      "name": "cover_6839a8ae50813.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486091983374.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 678,
+    "title": "Online course",
+    "transcription": "I am taking an online course on digital marketing to improve my skills.",
+    "sentence": "ˈɒnˌlaɪn kɔrs",
+    "translate": "קורס מקוון",
+    "date_created": "2024-02-22 15:29:10",
+    "cover": {
+      "id": 87832,
+      "name": "cover_6839a8d674e96.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486092384857.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 679,
+    "title": "E-learning",
+    "transcription": "The university offers a variety of e-learning courses for students who prefer online learning.",
+    "sentence": "[ee-lur-ning]",
+    "translate": "למידה מקוונת",
+    "date_created": "2024-02-22 15:29:11",
+    "cover": {
+      "id": 87833,
+      "name": "cover_6839a902bf9dc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486092827969.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 680,
+    "title": "Distance learning",
+    "transcription": "Distance learning allows students to complete their coursework online without attending classes in person.",
+    "sentence": "ˈdɪs.təns ˈlɜr.nɪŋ",
+    "translate": "למידה מרחוק",
+    "date_created": "2024-02-22 15:29:12",
+    "cover": {
+      "id": 87834,
+      "name": "cover_6839a92c5e056.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486093244056.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 681,
+    "title": "Tutor",
+    "transcription": "She hired a tutor to help her daughter with their math homework.",
+    "sentence": "ˈtuːtər",
+    "translate": "מדריך",
+    "date_created": "2024-02-22 15:29:13",
+    "cover": {
+      "id": 87835,
+      "name": "cover_6839a96f7599e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486093914891.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 682,
+    "title": "Tutoring",
+    "transcription": "She decided to seek tutoring after struggling with her math assignments.",
+    "sentence": "ˈtuːtərɪŋ",
+    "translate": "שיעורים פרטיים",
+    "date_created": "2024-02-22 15:29:13",
+    "cover": {
+      "id": 87836,
+      "name": "cover_6839a99c9ce13.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486094366504.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 683,
+    "title": "Knowledge",
+    "transcription": "She has a lot of knowledge about ancient history.",
+    "sentence": "/ˈnɑlɪdʒ/",
+    "translate": "ידע",
+    "date_created": "2024-02-22 15:29:14",
+    "cover": {
+      "id": 87837,
+      "name": "cover_6839a9c5594c0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486094773761.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 684,
+    "title": "Science",
+    "transcription": "She studied biology and chemistry in college because she was interested in science.",
+    "sentence": "ˈsaɪəns",
+    "translate": "מדע",
+    "date_created": "2024-02-22 15:29:14",
+    "cover": {
+      "id": 87839,
+      "name": "cover_6839a9eecfea3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486095188617.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 685,
+    "title": "Arts",
+    "transcription": "She excels in the performing arts, such as acting and dancing.",
+    "sentence": "/ɑːrts/",
+    "translate": "אמנויות",
+    "date_created": "2024-02-22 15:29:15",
+    "cover": {
+      "id": 87840,
+      "name": "cover_6839aa14e1624.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486095569301.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 686,
+    "title": "Humanities",
+    "transcription": "Studying the humanities allows us to explore the complexities of human culture and history.",
+    "sentence": "/ˈhjuːmænɪtiz/",
+    "translate": "מדעי הרוח",
+    "date_created": "2024-02-22 15:29:16",
+    "cover": {
+      "id": 87841,
+      "name": "cover_6839aa4c13f22.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486096120921.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 726,
+    "title": "Learning",
+    "transcription": "Learning a new language can be challenging but rewarding.",
+    "sentence": "/ˈlərnɪŋ/",
+    "translate": "למידה",
+    "date_created": "2024-02-22 15:29:41",
+    "cover": {
+      "id": 88216,
+      "name": "cover_6840668e29c6f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490510221828.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

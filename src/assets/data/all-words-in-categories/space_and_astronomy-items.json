@@ -1,0 +1,827 @@
+[
+  {
+    "id": 1378,
+    "title": "Universe",
+    "transcription": "There are billions of galaxies in the universe.",
+    "sentence": "/ˈjuːnɪvərs/",
+    "translate": "יקום",
+    "date_created": "2024-02-22 15:41:44",
+    "cover": {
+      "id": 88989,
+      "name": "cover_684452d67049e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493081184668.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1379,
+    "title": "Galaxy",
+    "transcription": "The Milky Way is a spiral galaxy containing our solar system.",
+    "sentence": "ˈɡæləksi",
+    "translate": "גלקסיה",
+    "date_created": "2024-02-22 15:41:45",
+    "cover": {
+      "id": 88990,
+      "name": "cover_684452fec27df.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493081588079.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1380,
+    "title": "Planet",
+    "transcription": "Mars is the fourth planet from the Sun.",
+    "sentence": "ˈplænɪt",
+    "translate": "כוכב לכת",
+    "date_created": "2024-02-22 15:41:46",
+    "cover": {
+      "id": 88991,
+      "name": "cover_6844532470b94.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493081964697.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1381,
+    "title": "Asteroid",
+    "transcription": "An asteroid is a small rocky body that orbits the sun, usually found in between Mars and Jupiter.",
+    "sentence": "/ˈæs.tər.ɔɪd/",
+    "translate": "אסטרואיד",
+    "date_created": "2024-02-22 15:41:48",
+    "cover": {
+      "id": 88992,
+      "name": "cover_6844534a109ed.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493082340753.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1382,
+    "title": "Comet",
+    "transcription": "A comet is a celestial object that orbits the sun and develops a bright, fuzzy coma and, sometimes, a tail.",
+    "sentence": "/ˈkɒmɪt/",
+    "translate": "כוכב שביט",
+    "date_created": "2024-02-22 15:41:48",
+    "cover": {
+      "id": 88993,
+      "name": "cover_6844536b57797.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493082673647.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1383,
+    "title": "Meteor",
+    "transcription": "The bright meteor streaked across the night sky, leaving a trail of light behind it.",
+    "sentence": "ˈmiːtiər",
+    "translate": "שֵׁדֶּה בָּרָק",
+    "date_created": "2024-02-22 15:41:49",
+    "cover": {
+      "id": 88994,
+      "name": "cover_68445392a7c86.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493083066978.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1384,
+    "title": "Meteorite",
+    "transcription": "A meteorite found in the desert was believed to have originated from Mars.",
+    "sentence": "/ˈmiː.ti.ə.raɪt/",
+    "translate": "מטאוריט",
+    "date_created": "2024-02-22 15:41:50",
+    "cover": {
+      "id": 88995,
+      "name": "cover_684453b8c17b8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493083447993.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1385,
+    "title": "Meteoroid",
+    "transcription": "A meteoroid is a small rocky or metallic body moving through space.",
+    "sentence": "/ˈmiːtiərɔɪd/",
+    "translate": "שֵׁירָה",
+    "date_created": "2024-02-22 15:41:50",
+    "cover": {
+      "id": 88996,
+      "name": "cover_684453dd1e612.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493083811317.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1386,
+    "title": "Nebula",
+    "transcription": "Astronomers were studying a massive nebula that stretches across 50 light-years.",
+    "sentence": "/ˈnɛbjʊlə/",
+    "translate": "שְׁחָקִיָּה",
+    "date_created": "2024-02-22 15:41:52",
+    "cover": {
+      "id": 88997,
+      "name": "cover_684453fe1c9c0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493084141242.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1387,
+    "title": "Black hole",
+    "transcription": "Scientists believe that a black hole is a region in space where the gravitational pull is so strong that nothing, not even light, can escape.",
+    "sentence": "blæk hoʊl",
+    "translate": "חור שחור",
+    "date_created": "2024-02-22 15:41:53",
+    "cover": {
+      "id": 88998,
+      "name": "cover_6844541db3f1d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493084457439.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1388,
+    "title": "Supernova",
+    "transcription": "Astronomers studied the supernova to learn more about the life cycle of stars.",
+    "sentence": "ˌsuː.pəˈnoʊ.və",
+    "translate": "סוּפֶּרנוֹבָה",
+    "date_created": "2024-02-22 15:41:53",
+    "cover": {
+      "id": 88999,
+      "name": "cover_6844544a1d248.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493084901251.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1389,
+    "title": "Constellation",
+    "transcription": "Orion is a well-known constellation in the night sky.",
+    "sentence": "ˌkɑnstəˈleɪʃən",
+    "translate": "קביעה",
+    "date_created": "2024-02-22 15:41:54",
+    "cover": {
+      "id": 89000,
+      "name": "cover_68445469100aa.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493085210724.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1390,
+    "title": "Solar system",
+    "transcription": "The Solar System consists of the Sun, eight planets, and various other celestial bodies.",
+    "sentence": "ˈsoʊlər ˈsɪstəm",
+    "translate": "מערכת השמש",
+    "date_created": "2024-02-22 15:41:55",
+    "cover": {
+      "id": 89001,
+      "name": "cover_6844548cf225a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493085569979.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1391,
+    "title": "Mars",
+    "transcription": "The rover sent back amazing images from its exploration of Mars.",
+    "sentence": "/mɑːrz/",
+    "translate": "מאדים",
+    "date_created": "2024-02-22 15:41:57",
+    "cover": {
+      "id": 89002,
+      "name": "cover_684454b1e6e93.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493085939525.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1392,
+    "title": "Venus",
+    "transcription": "Venus is the second planet from the Sun in our solar system.",
+    "sentence": "/ˈviːnəs/",
+    "translate": "פנוס",
+    "date_created": "2024-02-22 15:41:58",
+    "cover": {
+      "id": 89003,
+      "name": "cover_684454d22d5ef.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493086261927.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1393,
+    "title": "Jupiter",
+    "transcription": "Jupiter is the largest planet in our solar system.",
+    "sentence": "/ˈdʒuːpɪtər/",
+    "translate": "צדק",
+    "date_created": "2024-02-22 15:41:58",
+    "cover": {
+      "id": 89004,
+      "name": "cover_684454f5ca88a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493086618361.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1394,
+    "title": "Saturn",
+    "transcription": "Saturn is the sixth planet from the Sun in our solar system.",
+    "sentence": "/ˈsætɜrn/",
+    "translate": "שבתאי",
+    "date_created": "2024-02-22 15:42:00",
+    "cover": {
+      "id": 89010,
+      "name": "cover_6844551bbca4d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493086997787.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1395,
+    "title": "Uranus",
+    "transcription": "Uranus is the seventh planet from the sun in our solar system.",
+    "sentence": "/ˈjʊərənəs/",
+    "translate": "אוראנוס",
+    "date_created": "2024-02-22 15:42:00",
+    "cover": {
+      "id": 89012,
+      "name": "cover_6844554176e00.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493087374929.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1396,
+    "title": "Neptune",
+    "transcription": "Neptune is the eighth and farthest known planet from the Sun in the Solar System.",
+    "sentence": "/ˈnɛptun/",
+    "translate": "נֶפְטוּן",
+    "date_created": "2024-02-22 15:42:01",
+    "cover": {
+      "id": 89013,
+      "name": "cover_6844557722ebf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493087911492.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1397,
+    "title": "Pluto",
+    "transcription": "Pluto used to be considered the ninth planet in our solar system before it was reclassified as a dwarf planet.",
+    "sentence": "/ˈpluː.toʊ/",
+    "translate": "פלוטו",
+    "date_created": "2024-02-22 15:42:01",
+    "cover": {
+      "id": 89015,
+      "name": "cover_684455a1253e9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493088331595.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1398,
+    "title": "Space station",
+    "transcription": "The astronauts on the space station conducted important experiments.",
+    "sentence": "ˈspeɪs ˈsteɪʃən",
+    "translate": "תחנת חלל",
+    "date_created": "2024-02-22 15:42:02",
+    "cover": {
+      "id": 89016,
+      "name": "cover_684455cd310f8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493088772074.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1399,
+    "title": "Astronaut",
+    "transcription": "The astronaut floated weightlessly in the spacecraft.",
+    "sentence": "/ˈæstrəˌnɔt/",
+    "translate": "טיסת חלל",
+    "date_created": "2024-02-22 15:42:03",
+    "cover": {
+      "id": 89017,
+      "name": "cover_684455f5d95e8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493089178974.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1400,
+    "title": "Telescope",
+    "transcription": "I looked at the stars through the telescope.",
+    "sentence": "/ˈtɛlɪˌskoʊp/",
+    "translate": "טלסקופ",
+    "date_created": "2024-02-22 15:42:03",
+    "cover": {
+      "id": 89018,
+      "name": "cover_684456208a99e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493089605747.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1401,
+    "title": "Orbit",
+    "transcription": "The Earth orbits around the sun.",
+    "sentence": "/ˈɔːr.bɪt/",
+    "translate": "אורביט",
+    "date_created": "2024-02-22 15:42:06",
+    "cover": {
+      "id": 89019,
+      "name": "cover_6844564758c94.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493089993702.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1402,
+    "title": "Light year",
+    "transcription": "A light year is the distance that light travels in one year, approximately 5.88 trillion miles.",
+    "sentence": "/ˈlaɪt jɪər/",
+    "translate": "שנת אור",
+    "date_created": "2024-02-22 15:42:06",
+    "cover": {
+      "id": 89020,
+      "name": "cover_68445667e72fc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493090319530.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1403,
+    "title": "Gravity",
+    "transcription": "The force of gravity pulls objects toward the center of the Earth.",
+    "sentence": "/ˈɡrævəti/",
+    "translate": "כבידה",
+    "date_created": "2024-02-22 15:42:08",
+    "cover": {
+      "id": 89021,
+      "name": "cover_68445687c4bd9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493090638125.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1404,
+    "title": "Eclipse",
+    "transcription": "The eclipse darkened the sky for a few minutes.",
+    "sentence": "/ɪˈklɪps/",
+    "translate": "ליקוי",
+    "date_created": "2024-02-22 15:42:08",
+    "cover": {
+      "id": 89022,
+      "name": "cover_684456a65872d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493090943684.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1405,
+    "title": "Lunar eclipse",
+    "transcription": "Many people gathered to watch the lunar eclipse last night.",
+    "sentence": "ˈluːnər ˈɪklɪps",
+    "translate": "ליקוי ירח",
+    "date_created": "2024-02-22 15:42:08",
+    "cover": {
+      "id": 89023,
+      "name": "cover_684456c4d9d32.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493091248993.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1406,
+    "title": "Solar eclipse",
+    "transcription": "The next solar eclipse will be visible from North America in 2024.",
+    "sentence": "ˈsoʊ.lər ɪˌklɪps",
+    "translate": "ליקוי שמש",
+    "date_created": "2024-02-22 15:42:10",
+    "cover": {
+      "id": 89024,
+      "name": "cover_684456e2224dd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493091541466.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1407,
+    "title": "Aurora",
+    "transcription": "The aurora borealis is a beautiful natural light display in the Earth's sky.",
+    "sentence": "uh-ROHR-uh",
+    "translate": "אורורה",
+    "date_created": "2024-02-22 15:42:11",
+    "cover": {
+      "id": 89025,
+      "name": "cover_684457082be87.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493091921866.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1408,
+    "title": "Space shuttle",
+    "transcription": "The space shuttle launched into orbit with seven astronauts on board.",
+    "sentence": "/ˈspeɪs ˈʃʌtəl/",
+    "translate": "עִגְלוֹן חָלָל",
+    "date_created": "2024-02-22 15:42:11",
+    "cover": {
+      "id": 89026,
+      "name": "cover_6844572eaec10.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493092307219.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1409,
+    "title": "Rocket",
+    "transcription": "The rocket blasted off into space.",
+    "sentence": "ˈrɑkɪt",
+    "translate": "רקטה",
+    "date_created": "2024-02-22 15:42:12",
+    "cover": {
+      "id": 89027,
+      "name": "cover_6844575366d91.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493092674284.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1410,
+    "title": "Spacecraft",
+    "transcription": "The spacecraft successfully landed on Mars after a year-long journey.",
+    "sentence": "/ˈspeɪsˌkræft/",
+    "translate": "מטוס חלל",
+    "date_created": "2024-02-22 15:42:13",
+    "cover": {
+      "id": 89028,
+      "name": "cover_684457760f4d4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493093020693.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1411,
+    "title": "Hubble Space Telescope",
+    "transcription": "The Hubble Space Telescope has provided stunning images of the universe for decades.",
+    "sentence": "/ˈhʌbəl speɪs ˈtɛlɪˌskoʊp/",
+    "translate": "טלסקופ האבל",
+    "date_created": "2024-02-22 15:42:16",
+    "cover": {
+      "id": 89029,
+      "name": "cover_6844579c20dbb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493093401412.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1412,
+    "title": "International Space Station (ISS)",
+    "transcription": "The astronauts on the International Space Station conduct various scientific experiments.",
+    "sentence": "ˌɪntərˈnæʃənl speɪs ˈsteɪʃən",
+    "translate": "תחנת החלל הבינלאומית (ISS)",
+    "date_created": "2024-02-22 15:42:16",
+    "cover": {
+      "id": 89030,
+      "name": "cover_684457bddbdd5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493093739072.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1413,
+    "title": "Milky Way",
+    "transcription": "The Milky Way is a spiral galaxy in which the Solar System is located.",
+    "sentence": "/ˈmɪlki weɪ/",
+    "translate": "דרך לקטוס",
+    "date_created": "2024-02-22 15:42:17",
+    "cover": {
+      "id": 89031,
+      "name": "cover_684457e09d73c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493094086517.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1414,
+    "title": "Andromeda",
+    "transcription": "Andromeda is the nearest spiral galaxy to our Milky Way.",
+    "sentence": "/ænˈdrɒmɪdə/",
+    "translate": "אנדרומדה",
+    "date_created": "2024-02-22 15:42:17",
+    "cover": {
+      "id": 89032,
+      "name": "cover_6844581115b70.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493094570960.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1415,
+    "title": "Big Bang",
+    "transcription": "The Big Bang theory is the prevailing cosmological model that explains the origins of the universe.",
+    "sentence": "bɪɡ bæŋ",
+    "translate": "פַּצְפּוּן גָדוֹל",
+    "date_created": "2024-02-22 15:42:17",
+    "cover": {
+      "id": 89033,
+      "name": "cover_6844583ae312f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493094989364.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1416,
+    "title": "Dark matter",
+    "transcription": "Scientists believe that dark matter makes up most of the mass in the universe, even though it cannot be seen.",
+    "sentence": " /dɑːrk ˈmætər / ",
+    "translate": "חומר כהה",
+    "date_created": "2024-02-22 15:42:22",
+    "cover": {
+      "id": 89034,
+      "name": "cover_6844585ece0a1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493095348501.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1417,
+    "title": "Dark energy",
+    "transcription": "Scientists believe that dark energy is responsible for the accelerating expansion of the universe.",
+    "sentence": " /dɑːrk ˈɛnərdʒi/",
+    "translate": "אנרגיה כהה",
+    "date_created": "2024-02-22 15:42:22",
+    "cover": {
+      "id": 89035,
+      "name": "cover_68445880b0843.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493095687296.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1418,
+    "title": "Red dwarf",
+    "transcription": "The red dwarf star is much cooler and dimmer than the Sun.",
+    "sentence": "/rɛd dwɔrf/",
+    "translate": "גמד אדום",
+    "date_created": "2024-02-22 15:42:22",
+    "cover": {
+      "id": 89036,
+      "name": "cover_684458a3d491f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493096038777.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1419,
+    "title": "White dwarf",
+    "transcription": "A white dwarf is a small, dense star formed from the remnants of a sun-like star.",
+    "sentence": "waɪt dwɔrf",
+    "translate": "קובה לבן",
+    "date_created": "2024-02-22 15:42:22",
+    "cover": {
+      "id": 89037,
+      "name": "cover_684458c4aee21.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493096367237.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1420,
+    "title": "Exoplanet",
+    "transcription": "Scientists discovered an exoplanet orbiting a distant star.",
+    "sentence": "/ˈɛk.soʊˌplæn.ɪt/",
+    "translate": "כוכב חדש מחוץ למערכת השמש",
+    "date_created": "2024-02-22 15:42:23",
+    "cover": {
+      "id": 89038,
+      "name": "cover_684458e752751.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493096713441.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1421,
+    "title": "Neutron star",
+    "transcription": "A neutron star is a dense, rapidly rotating star composed almost entirely of neutrons.",
+    "sentence": "ˈn(j)uːtrɒn stɑːr",
+    "translate": "כוכב ניוטרוני",
+    "date_created": "2024-02-22 15:42:26",
+    "cover": {
+      "id": 89039,
+      "name": "cover_6844590e00981.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493097100090.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1422,
+    "title": "Pulsar",
+    "transcription": "The astronomers studied the pulsar to learn more about its properties and behavior.",
+    "sentence": "ˈpʌlsɑːr",
+    "translate": "פולסר",
+    "date_created": "2024-02-22 15:42:27",
+    "cover": {
+      "id": 89040,
+      "name": "cover_6844592f00ea2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493097430093.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1423,
+    "title": "Quasar",
+    "transcription": "A quasar is a powerful and remote celestial object that emits massive amounts of energy.",
+    "sentence": "ˈkweɪzɑːr",
+    "translate": "קוואזאר",
+    "date_created": "2024-02-22 15:42:27",
+    "cover": {
+      "id": 89041,
+      "name": "cover_68445953c6d51.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493097798214.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1424,
+    "title": "Cosmos",
+    "transcription": "She gazed up at the stars, contemplating the vastness of the cosmos.",
+    "sentence": "/ˈkɒzmɒs/",
+    "translate": "כוסמוס",
+    "date_created": "2024-02-22 15:42:27",
+    "cover": {
+      "id": 89042,
+      "name": "cover_6844597da7c26.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493098216934.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1425,
+    "title": "Space exploration",
+    "transcription": "Space exploration has led to many important discoveries about our universe.",
+    "sentence": "ˈspeɪs ˌɛkspləˈreɪʃən",
+    "translate": "חקירת החלל",
+    "date_created": "2024-02-22 15:42:28",
+    "cover": {
+      "id": 89043,
+      "name": "cover_684459a6332cf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493098622163.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1426,
+    "title": "Astrophysics",
+    "transcription": "Astrophysics is the branch of astronomy that deals with the physical properties and phenomena of celestial bodies.",
+    "sentence": "ˌæstroʊˈfɪzɪks",
+    "translate": "astrofizika",
+    "date_created": "2024-02-22 15:42:31",
+    "cover": {
+      "id": 89044,
+      "name": "cover_684459cfe65b0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493099039512.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1427,
+    "title": "Space probe",
+    "transcription": "The space probe successfully gathered data on Mars' atmosphere.",
+    "sentence": "ˈspeɪs ˌproʊb",
+    "translate": "גלגלת",
+    "date_created": "2024-02-22 15:42:32",
+    "cover": {
+      "id": 89046,
+      "name": "cover_684459f236e21.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493099382305.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1428,
+    "title": "Cosmology",
+    "transcription": "She is studying cosmology, the branch of astronomy that deals with the origin and evolution of the universe.",
+    "sentence": "/kɒzˈmɒlədʒi/",
+    "translate": "קוסמולוגיה",
+    "date_created": "2024-02-22 15:42:32",
+    "cover": {
+      "id": 89047,
+      "name": "cover_68445a160c9b7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493099740585.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1429,
+    "title": "Alien",
+    "transcription": "The spaceship landed on Earth, and out stepped a strange-looking alien.",
+    "sentence": "/ˈeɪ.li.ən/",
+    "translate": "חיצוני",
+    "date_created": "2024-02-22 15:42:34",
+    "cover": {
+      "id": 89048,
+      "name": "cover_68445a3933f45.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493100092200.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1430,
+    "title": "Zero gravity",
+    "transcription": "The astronauts experienced zero gravity while in orbit around the Earth.",
+    "sentence": "ˈzɪəroʊ ˈɡrævɪti",
+    "translate": "כפית כבידה",
+    "date_created": "2024-02-22 15:42:36",
+    "cover": {
+      "id": 89049,
+      "name": "cover_68445a5d7e200.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493100455241.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1431,
+    "title": "UFO (Unidentified Flying Object)",
+    "transcription": "The pilot reported seeing a UFO flying at high speeds through the sky.",
+    "sentence": "ˈjuːˌɛfˌoʊ (ˌʌnˈaɪˌdɛntɪˌfaɪd ˈflaɪɪŋ ˈɑːbdʒɪkt)",
+    "translate": "עב.נ.ל.",
+    "date_created": "2024-02-22 15:42:37",
+    "cover": {
+      "id": 89050,
+      "name": "cover_68445a81e8712.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493100819599.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1432,
+    "title": "Wormhole",
+    "transcription": "Some scientists theorize that wormholes could serve as shortcuts for interstellar travel.",
+    "sentence": "/ˈwɜːrmhoʊl/",
+    "translate": "חור תנין",
+    "date_created": "2024-02-22 15:42:37",
+    "cover": {
+      "id": 89051,
+      "name": "cover_68445aa44ac39.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493101163129.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

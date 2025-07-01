@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 1848,
+    "title": "Profit",
+    "transcription": "The company made a large profit this quarter.",
+    "sentence": "ˈprɒfɪt",
+    "translate": "רווח",
+    "date_created": "2024-02-22 15:49:46",
+    "cover": {
+      "id": 89786,
+      "name": "cover_684c597e0c56a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498341100570.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1849,
+    "title": "Loss",
+    "transcription": "She felt a deep sense of loss after her beloved pet passed away.",
+    "sentence": "lɔːs",
+    "translate": "אובדן",
+    "date_created": "2024-02-22 15:49:47",
+    "cover": {
+      "id": 89787,
+      "name": "cover_684c59a2b8591.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498341467627.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1850,
+    "title": "Expenses",
+    "transcription": "She keeps track of all her expenses in a budgeting app.",
+    "sentence": "ɪkˈspɛnsɪz",
+    "translate": "הוצאות",
+    "date_created": "2024-02-22 15:49:48",
+    "cover": {
+      "id": 89788,
+      "name": "cover_684c59c69aeb1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498341826414.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1851,
+    "title": "Competition",
+    "transcription": "There was fierce competition among the companies bidding for the project.",
+    "sentence": "ˌkɑːm.pəˈtɪʃ.ən",
+    "translate": "תחרות",
+    "date_created": "2024-02-22 15:49:49",
+    "cover": {
+      "id": 89789,
+      "name": "cover_684c59f14dc30.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498342253257.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1852,
+    "title": "Strategy",
+    "transcription": "The company CEO outlined a new strategy to increase profits and market share.",
+    "sentence": "ˈstrætədʒi",
+    "translate": "אסטרטגיה",
+    "date_created": "2024-02-22 15:49:49",
+    "cover": {
+      "id": 89790,
+      "name": "cover_684c5a1a8ebaf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498342665950.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1853,
+    "title": "Sales",
+    "transcription": "The company saw an increase in sales after launching their new product line.",
+    "sentence": "seɪlz",
+    "translate": "מכירות",
+    "date_created": "2024-02-22 15:49:50",
+    "cover": {
+      "id": 89791,
+      "name": "cover_684c5a4239b3c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498343062439.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1854,
+    "title": "Marketing",
+    "transcription": "The company hired a marketing team to help promote their new product.",
+    "sentence": "/ˈmɑːrkɪtɪŋ/",
+    "translate": "שיווק",
+    "date_created": "2024-02-22 15:49:51",
+    "cover": {
+      "id": 89792,
+      "name": "cover_684c5a6a0fd5c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498343460719.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1855,
+    "title": "Advertising",
+    "transcription": "She works in advertising and creates marketing campaigns for various products.",
+    "sentence": "ˈædvərˌtaɪzɪŋ",
+    "translate": "פרסום",
+    "date_created": "2024-02-22 15:49:52",
+    "cover": {
+      "id": 89793,
+      "name": "cover_684c5a94609be.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498343884025.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1856,
+    "title": "Brand",
+    "transcription": "I prefer to buy brand name products because they are usually higher quality.",
+    "sentence": "/brænd/",
+    "translate": "מותג",
+    "date_created": "2024-02-22 15:49:53",
+    "cover": {
+      "id": 89794,
+      "name": "cover_684c5ab5039af.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498344210208.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1857,
+    "title": "Service",
+    "transcription": "The restaurant provided excellent service to its customers.",
+    "sentence": "ˈsɜːrvɪs",
+    "translate": "שירות",
+    "date_created": "2024-02-22 15:49:54",
+    "cover": {
+      "id": 89795,
+      "name": "cover_684c5adde0cd1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498344619275.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1858,
+    "title": "Product",
+    "transcription": "The new company released a revolutionary product that quickly gained popularity.",
+    "sentence": "ˈprɒdʌkt",
+    "translate": "מוצר",
+    "date_created": "2024-02-22 15:49:54",
+    "cover": {
+      "id": 89796,
+      "name": "cover_684c5b0382116.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498344995394.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1859,
+    "title": "Customer",
+    "transcription": "The customer complained about the quality of the product.",
+    "sentence": "ˈkʌstəmər",
+    "translate": "לקוח",
+    "date_created": "2024-02-22 15:49:55",
+    "cover": {
+      "id": 89797,
+      "name": "cover_684c5b272860d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498345351724.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1860,
+    "title": "Client",
+    "transcription": "The law firm is dedicated to providing top-notch service to each client.",
+    "sentence": "/ˈklaɪənt/",
+    "translate": "לקוח",
+    "date_created": "2024-02-22 15:49:56",
+    "cover": {
+      "id": 89798,
+      "name": "cover_684c5b4e49f1d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498345743107.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1861,
+    "title": "Supplier",
+    "transcription": "Our main supplier of raw materials is located overseas.",
+    "sentence": "suh-PLIE-er",
+    "translate": "ספק",
+    "date_created": "2024-02-22 15:49:58",
+    "cover": {
+      "id": 89799,
+      "name": "cover_684c5b773afae.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498346152488.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1862,
+    "title": "Vendor",
+    "transcription": "The street vendor sells fresh fruits and vegetables every morning.",
+    "sentence": "/ˈvɛndər/",
+    "translate": "ספק",
+    "date_created": "2024-02-22 15:49:58",
+    "cover": {
+      "id": 89800,
+      "name": "cover_684c5ba4635d3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498346604140.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1863,
+    "title": "Contract",
+    "transcription": "We signed a contract to purchase the house.",
+    "sentence": "ˈkɒntrækt",
+    "translate": "חוזה",
+    "date_created": "2024-02-22 15:49:59",
+    "cover": {
+      "id": 89801,
+      "name": "cover_684c5bca5d985.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498346983901.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1864,
+    "title": "Agreement",
+    "transcription": "They reached an agreement to split the cost of the groceries evenly.",
+    "sentence": "/əˈɡriːmənt/",
+    "translate": "הסכם",
+    "date_created": "2024-02-22 15:50:00",
+    "cover": {
+      "id": 89802,
+      "name": "cover_684c5bed4dce3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498347333250.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1865,
+    "title": "Deal",
+    "transcription": "They made a deal to split the profits evenly.",
+    "sentence": "diːl",
+    "translate": "עֲסָקָה",
+    "date_created": "2024-02-22 15:50:02",
+    "cover": {
+      "id": 89803,
+      "name": "cover_684c5c18ee8b1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498347769836.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1866,
+    "title": "Negotiation",
+    "transcription": "The negotiation between the two companies resulted in a mutually beneficial agreement.",
+    "sentence": "/nɪˌɡoʊʃiˈeɪʃən/",
+    "translate": "מַווָה",
+    "date_created": "2024-02-22 15:50:02",
+    "cover": {
+      "id": 89804,
+      "name": "cover_684c5c3d0fc04.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498348130748.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1867,
+    "title": "Partnership",
+    "transcription": "The two companies formed a partnership to collaborate on a new project.",
+    "sentence": "ˈpɑːrtnərʃɪp",
+    "translate": "שותפות",
+    "date_created": "2024-02-22 15:50:03",
+    "cover": {
+      "id": 89805,
+      "name": "cover_684c5c69618b5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498348574069.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1868,
+    "title": "Collaboration",
+    "transcription": "The successful project was a result of effective collaboration between the two companies.",
+    "sentence": "/kəˌlæbəˈreɪʃən/",
+    "translate": "שיתוף פעולה",
+    "date_created": "2024-02-22 15:50:03",
+    "cover": {
+      "id": 89806,
+      "name": "cover_684c5c98f0b7b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498349049929.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1869,
+    "title": "Corporation",
+    "transcription": "The corporation was formed in 1998 and has since grown into a global giant.",
+    "sentence": "ˌkɔːr.pəˈreɪ.ʃən",
+    "translate": "תאגיד",
+    "date_created": "2024-02-22 15:50:04",
+    "cover": {
+      "id": 89807,
+      "name": "cover_684c5cc99532b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498349536178.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1870,
+    "title": "Company",
+    "transcription": "I work for a software company in Silicon Valley.",
+    "sentence": "ˈkʌmpəni",
+    "translate": "חֶברָה",
+    "date_created": "2024-02-22 15:50:06",
+    "cover": {
+      "id": 89808,
+      "name": "cover_684c5cf336b90.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498349952326.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1871,
+    "title": "Business",
+    "transcription": "She runs her own successful business selling handmade jewelry online.",
+    "sentence": "/ˈbɪznəs/",
+    "translate": "עֲסָקִים",
+    "date_created": "2024-02-22 15:50:07",
+    "cover": {
+      "id": 89809,
+      "name": "cover_684c5d1adfc4d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498350349244.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1872,
+    "title": "Startup",
+    "transcription": "The new startup company developed an innovative app that quickly became popular.",
+    "sentence": "ˈstɑːrtʌp",
+    "translate": "סְטַארט־אַפּ",
+    "date_created": "2024-02-22 15:50:08",
+    "cover": {
+      "id": 89810,
+      "name": "cover_684c5d49cd048.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498350818470.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1873,
+    "title": "Limited liability company (LLC)",
+    "transcription": "Emily and Sara decided to form a limited liability company (LLC) for their new business venture.",
+    "sentence": "ˈlɪmətɪd laɪəˈbɪlɪti ˈkʌmpəni",
+    "translate": "חברה באחריות מוגבלת",
+    "date_created": "2024-02-22 15:50:08",
+    "cover": {
+      "id": 89811,
+      "name": "cover_684c5d6f274b5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498351191671.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1874,
+    "title": "Sole proprietorship",
+    "transcription": "Jane started her own business as a sole proprietorship, allowing her to have complete control over all decisions and profits.",
+    "sentence": "/soʊl prəˈpraɪətərʃɪp/",
+    "translate": "עסק פרטי",
+    "date_created": "2024-02-22 15:50:08",
+    "cover": {
+      "id": 89812,
+      "name": "cover_684c5d902e165.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498351521960.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1875,
+    "title": "Board of directors",
+    "transcription": "The board of directors of the company meets once a month to discuss strategic decisions.",
+    "sentence": "ˈbɔrd əv dəˈrɛktərz",
+    "translate": "הנהלת כלכלה",
+    "date_created": "2024-02-22 15:50:11",
+    "cover": {
+      "id": 89813,
+      "name": "cover_684c5dbcad01f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498351967158.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1876,
+    "title": "Shareholder",
+    "transcription": "As a shareholder in the company, she was entitled to attend the annual meeting and vote on major decisions.",
+    "sentence": "ˈʃɛərˌhoʊldər",
+    "translate": "תַייר",
+    "date_created": "2024-02-22 15:50:11",
+    "cover": {
+      "id": 89814,
+      "name": "cover_684c5de1d1b59.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498352338658.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1877,
+    "title": "Stakeholder",
+    "transcription": "The stakeholders will meet tomorrow to discuss the future of the company.",
+    "sentence": "/ˈsteɪkˌhoʊl.dər/",
+    "translate": "אייר",
+    "date_created": "2024-02-22 15:50:13",
+    "cover": {
+      "id": 89815,
+      "name": "cover_684c5e0646adf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498352702962.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1878,
+    "title": "CEO (Chief Executive Officer)",
+    "transcription": "The CEO of the company made an important announcement during the meeting.",
+    "sentence": "ˌsiː.iːˈoʊ",
+    "translate": "מנכ\"ל",
+    "date_created": "2024-02-22 15:50:13",
+    "cover": {
+      "id": 89816,
+      "name": "cover_684c5e2d48b1b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498353093043.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1879,
+    "title": "CFO (Chief Financial Officer)",
+    "transcription": "The CFO is responsible for the financial strategy and management of the company.",
+    "sentence": "siː.ɛf.oʊ",
+    "translate": "ממונה כספי ראשי",
+    "date_created": "2024-02-22 15:50:16",
+    "cover": {
+      "id": 89817,
+      "name": "cover_684c5e5a52eb4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498353543470.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1880,
+    "title": "COO (Chief Operating Officer)",
+    "transcription": "The COO is responsible for managing the day-to-day operations of the company.",
+    "sentence": "kuː",
+    "translate": "מנכ\"ל מבצעי (Chief Operating Officer)",
+    "date_created": "2024-02-22 15:50:16",
+    "cover": {
+      "id": 89818,
+      "name": "cover_684c5e7df0453.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498353899916.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1881,
+    "title": "CMO (Chief Marketing Officer)",
+    "transcription": "The CMO is responsible for developing and implementing marketing strategies to promote the company's products and services.",
+    "sentence": "si-ɛm-oʊ (Chief Marketing Officer)",
+    "translate": "מנהל שיווק ראשי (Chief Marketing Officer)",
+    "date_created": "2024-02-22 15:50:17",
+    "cover": {
+      "id": 89819,
+      "name": "cover_684c5ea5ae10b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498354297197.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1882,
+    "title": "CTO (Chief Technology Officer)",
+    "transcription": "The CTO is responsible for overseeing the technology strategy and development of the company.",
+    "sentence": "ˌˌsiːˈtiːˈoʊ",
+    "translate": "ממונה טכנולוגיה ראשי",
+    "date_created": "2024-02-22 15:50:18",
+    "cover": {
+      "id": 89820,
+      "name": "cover_684c5ed1f03a3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498354739908.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1883,
+    "title": "HR (Human Resources)",
+    "transcription": "The HR department is responsible for hiring new employees and managing employee relations.",
+    "sentence": "ˌeɪtʃˈɑr ˈ(hjuːmən rɪˈsɔːrsɪz)",
+    "translate": "משאבי אנוש",
+    "date_created": "2024-02-22 15:50:19",
+    "cover": {
+      "id": 89821,
+      "name": "cover_684c5ef9add9a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498355137185.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1884,
+    "title": "Employee",
+    "transcription": "The employee worked diligently to meet the deadline.",
+    "sentence": "/ɪmˈplɔɪˌiː/",
+    "translate": "עובד",
+    "date_created": "2024-02-22 15:50:23",
+    "cover": {
+      "id": 89822,
+      "name": "cover_684c5f1d86150.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498355495560.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1885,
+    "title": "Management",
+    "transcription": "Good management is essential for the success of any organization.",
+    "sentence": "/ˈmænɪdʒmənt/",
+    "translate": "ניהול",
+    "date_created": "2024-02-22 15:50:24",
+    "cover": {
+      "id": 89823,
+      "name": "cover_684c5f46a088a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498355906647.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1886,
+    "title": "Employer",
+    "transcription": "The employer offered a competitive salary and benefits to attract top talent.",
+    "sentence": "ɪmˈplɔɪər",
+    "translate": "מְעוֹסֵד",
+    "date_created": "2024-02-22 15:50:24",
+    "cover": {
+      "id": 89824,
+      "name": "cover_684c5f6cf3580.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498356290158.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1887,
+    "title": "Leadership",
+    "transcription": "He showed great leadership by guiding his team through a challenging project.",
+    "sentence": "/ˈliːdərʃɪp/",
+    "translate": "מנהיגות",
+    "date_created": "2024-02-22 15:50:25",
+    "cover": {
+      "id": 89825,
+      "name": "cover_684c5f8da22ca.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498356616706.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1888,
+    "title": "Teamwork",
+    "transcription": "Effective teamwork is essential for the success of this project.",
+    "sentence": "/ˈtiːmwɜːrk/",
+    "translate": "עבודת צוות",
+    "date_created": "2024-02-22 15:50:27",
+    "cover": {
+      "id": 89826,
+      "name": "cover_684c5fba4c3b3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498357063200.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1889,
+    "title": "Problem-solving",
+    "transcription": "Problem-solving skills are essential in every aspect of life.",
+    "sentence": "ˈprɒbləm-ˌsɒlvɪŋ",
+    "translate": "פיתרון בעיה",
+    "date_created": "2024-02-22 15:50:27",
+    "cover": {
+      "id": 89827,
+      "name": "cover_684c5fe358ac6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498357473739.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1890,
+    "title": "Decision-making",
+    "transcription": "Effective decision-making is essential for the success of any project.",
+    "sentence": "/dɪˈsɪʒənˌmeɪkɪŋ/",
+    "translate": "קבלת החלטות",
+    "date_created": "2024-02-22 15:50:27",
+    "cover": {
+      "id": 89828,
+      "name": "cover_684c60072c364.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498357831889.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1891,
+    "title": "Innovation",
+    "transcription": "The company is known for its constant innovation in the tech industry.",
+    "sentence": "/ˌɪnəˈveɪʃən/",
+    "translate": "חידוש",
+    "date_created": "2024-02-22 15:50:29",
+    "cover": {
+      "id": 89829,
+      "name": "cover_684c60269a860.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498358146395.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1892,
+    "title": "Efficiency",
+    "transcription": "The new system increased the efficiency of our production process.",
+    "sentence": "/ɪˈfɪʃənsi/",
+    "translate": "יעילות",
+    "date_created": "2024-02-22 15:50:30",
+    "cover": {
+      "id": 89830,
+      "name": "cover_684c60486ac7a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498358484451.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1893,
+    "title": "Productivity",
+    "transcription": "Improving productivity in the office will help us meet our quarterly goals.",
+    "sentence": "/ˌprɒdʌkˈtɪvɪti/",
+    "translate": "יעילות",
+    "date_created": "2024-02-22 15:50:32",
+    "cover": {
+      "id": 89831,
+      "name": "cover_684c6070e2a12.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498358889357.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1894,
+    "title": "Quality",
+    "transcription": "The restaurant is known for its high quality food.",
+    "sentence": "ˈkwɒləti",
+    "translate": "איכות",
+    "date_created": "2024-02-22 15:50:32",
+    "cover": {
+      "id": 89832,
+      "name": "cover_684c60948443d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498359245490.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1895,
+    "title": "Customer satisfaction",
+    "transcription": "The company prioritizes customer satisfaction by providing excellent service and addressing any issues promptly.",
+    "sentence": "ˈkʌstəmər ˌsætɪsˈfækʃən",
+    "translate": "שביעות רצון לקוחות",
+    "date_created": "2024-02-22 15:50:33",
+    "cover": {
+      "id": 89833,
+      "name": "cover_684c60b88c883.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498359605861.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1896,
+    "title": "Client retention",
+    "transcription": "Improving client retention is essential for the long-term success of any business.",
+    "sentence": "ˈklaɪənt rɪˈtɛnʃən",
+    "translate": "שמירת לקוחות",
+    "date_created": "2024-02-22 15:50:33",
+    "cover": {
+      "id": 89834,
+      "name": "cover_684c60dcc78ad.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498359968244.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1897,
+    "title": "Employee satisfaction",
+    "transcription": "The company conducted a survey to assess employee satisfaction levels.",
+    "sentence": "ɪmˈplɔɪi ˌsætɪsˈfækʃən",
+    "translate": "שביעות רצון של עובדים",
+    "date_created": "2024-02-22 15:50:34",
+    "cover": {
+      "id": 89835,
+      "name": "cover_684c61008f87f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498360325990.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1898,
+    "title": "Work-life balance",
+    "transcription": "It's important to maintain a work-life balance in order to avoid burnout and maintain overall well-being.",
+    "sentence": "ˈwɜːrkˌlaɪf ˈbæləns",
+    "translate": "איזון בין עבודה לחיים אישיים",
+    "date_created": "2024-02-22 15:50:36",
+    "cover": {
+      "id": 89836,
+      "name": "cover_684c6127805c3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498360715330.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1899,
+    "title": "Remote work",
+    "transcription": "Many companies are now embracing remote work as a permanent option for employees.",
+    "sentence": "ˈriːmoʊt wɜːrk",
+    "translate": "עבודה מרחוק",
+    "date_created": "2024-02-22 15:50:36",
+    "cover": {
+      "id": 89837,
+      "name": "cover_684c614dea527.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498361099704.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1900,
+    "title": "Virtual meeting",
+    "transcription": "Due to the pandemic, we had a virtual meeting instead of meeting in person.",
+    "sentence": "/ˈvərʧuəl ˈmiːtɪŋ/",
+    "translate": "פגישה וירטואלית",
+    "date_created": "2024-02-22 15:50:38",
+    "cover": {
+      "id": 89838,
+      "name": "cover_684c617224183.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498361461550.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1901,
+    "title": "Telecommuting",
+    "transcription": "With advances in technology, many companies are offering telecommuting options to their employees.",
+    "sentence": "/ˌtelɪˈkɒmjutɪŋ/",
+    "translate": "עבודה מרחוק",
+    "date_created": "2024-02-22 15:50:38",
+    "cover": {
+      "id": 89839,
+      "name": "cover_684c61987fcad.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498361845313.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1902,
+    "title": "Conference call",
+    "transcription": "We had a conference call with the overseas team to discuss the project timeline.",
+    "sentence": "ˈkɒnfrəns kɔːl",
+    "translate": "שיחה טלפונית",
+    "date_created": "2024-02-22 15:50:40",
+    "cover": {
+      "id": 89840,
+      "name": "cover_684c61bf1e27e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498362231298.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1903,
+    "title": "Memo",
+    "transcription": "I received a memo from the boss about the upcoming meeting.",
+    "sentence": "ˈmɛmoʊ",
+    "translate": "ממו",
+    "date_created": "2024-02-22 15:50:41",
+    "cover": {
+      "id": 89841,
+      "name": "cover_684c61e438323.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498362602360.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1904,
+    "title": "Proposal",
+    "transcription": "He got down on one knee and made a romantic proposal in front of all their friends and family.",
+    "sentence": "/prəˈpoʊzəl/",
+    "translate": "הצעה",
+    "date_created": "2024-02-22 15:50:42",
+    "cover": {
+      "id": 89842,
+      "name": "cover_684c620e05df3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498363020309.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1905,
+    "title": "Business plan",
+    "transcription": "He presented his detailed business plan to the investors.",
+    "sentence": "ˈbɪznəs ˌplæn",
+    "translate": "תוכנית עסקית",
+    "date_created": "2024-02-22 15:50:43",
+    "cover": {
+      "id": 89843,
+      "name": "cover_684c62439922e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498363556344.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1906,
+    "title": "Financial statement",
+    "transcription": "The company prepares its financial statements quarterly to track its financial performance.",
+    "sentence": "faɪˈnænʃəl ˈsteɪtmənt",
+    "translate": "הצהרת דוחות כספיים",
+    "date_created": "2024-02-22 15:50:45",
+    "cover": {
+      "id": 89844,
+      "name": "cover_684c626c7b66b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498363965123.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1907,
+    "title": "Income statement",
+    "transcription": "The company prepared an income statement to show their revenues and expenses for the year.",
+    "sentence": "ˈɪnˌkʌm ˈsteɪtmənt",
+    "translate": "הצהרת רווחים",
+    "date_created": "2024-02-22 15:50:46",
+    "cover": {
+      "id": 89845,
+      "name": "cover_684c62943979b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498364362414.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1908,
+    "title": "Balance sheet",
+    "transcription": "The company's balance sheet shows a summary of its assets, liabilities, and shareholders' equity at a specific point in time.",
+    "sentence": "ˈbæləns ʃiːt",
+    "translate": "דוח תזכורת",
+    "date_created": "2024-02-22 15:50:46",
+    "cover": {
+      "id": 89846,
+      "name": "cover_684c62c0d6b0b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498364808866.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1909,
+    "title": "Return on Investment (ROI)",
+    "transcription": "The return on investment for that project was 20%, which exceeded our expectations.",
+    "sentence": "rɪˈtɜrn ɒn ɪnˈvɛstmənt",
+    "translate": "החזר על השקעה (ROI)",
+    "date_created": "2024-02-22 15:50:51",
+    "cover": {
+      "id": 89847,
+      "name": "cover_684c62e958de5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498365213711.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1910,
+    "title": "Net profit",
+    "transcription": "After all expenses were deducted, the company reported a net profit of $1 million.",
+    "sentence": "net ˈprɒfɪt",
+    "translate": "רווח נטו",
+    "date_created": "2024-02-22 15:50:51",
+    "cover": {
+      "id": 89848,
+      "name": "cover_684c631109427.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498365610450.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1911,
+    "title": "Gross profit",
+    "transcription": "The company's gross profit is calculated by subtracting the cost of goods sold from total revenue.",
+    "sentence": "ɡroʊs ˈprɒfɪt",
+    "translate": "רווח גולמי",
+    "date_created": "2024-02-22 15:50:51",
+    "cover": {
+      "id": 89849,
+      "name": "cover_684c6331ac20f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498365937171.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1912,
+    "title": "Break-even point",
+    "transcription": "The company needs to sell at least 100 units to reach the break-even point.",
+    "sentence": "ˈbreɪk-ˈiːvən pɔɪnt",
+    "translate": "נקודת השוויון",
+    "date_created": "2024-02-22 15:50:51",
+    "cover": {
+      "id": 89850,
+      "name": "cover_684c6358b9afe.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498366327671.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1913,
+    "title": "Assets",
+    "transcription": "The company's most valuable assets include real estate properties and intellectual property.",
+    "sentence": "ˈæsɛts",
+    "translate": "נכסים",
+    "date_created": "2024-02-22 15:50:54",
+    "cover": {
+      "id": 89851,
+      "name": "cover_684c637abd462.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498366667819.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1914,
+    "title": "Liabilities",
+    "transcription": "The company's liabilities include outstanding loans and unpaid bills.",
+    "sentence": "/ˌlaɪəˈbɪlətiz/",
+    "translate": "התחייבויות",
+    "date_created": "2024-02-22 15:50:55",
+    "cover": {
+      "id": 89852,
+      "name": "cover_684c63a4eea3d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498367089847.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1915,
+    "title": "Cash flow",
+    "transcription": "It's important for businesses to maintain a positive cash flow to ensure they can cover expenses and grow their operations.",
+    "sentence": "ˈkæʃ floʊ",
+    "translate": "תזרים מזומנים",
+    "date_created": "2024-02-22 15:50:56",
+    "cover": {
+      "id": 89853,
+      "name": "cover_684c63cf9debd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498367516538.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1916,
+    "title": "Inventory",
+    "transcription": "The store manager conducted an inventory of all the products in stock.",
+    "sentence": "/ˈɪnvənˌtɔri/",
+    "translate": "מִלֶאִין",
+    "date_created": "2024-02-22 15:50:56",
+    "cover": {
+      "id": 89854,
+      "name": "cover_684c63f4da1af.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498367889004.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1917,
+    "title": "Accounts receivable",
+    "transcription": "The company keeps track of its accounts receivable to monitor its outstanding balances.",
+    "sentence": "əˈkaʊnts rɪˈsivəbəl",
+    "translate": "חובות נציג",
+    "date_created": "2024-02-22 15:50:58",
+    "cover": {
+      "id": 89855,
+      "name": "cover_684c641a8f4d7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498368265943.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1918,
+    "title": "Accounts payable",
+    "transcription": "The company's accounts payable increased significantly due to an increase in vendor invoices.",
+    "sentence": "əˈkaʊnts peɪəbəl",
+    "translate": "חשבונות נכסים",
+    "date_created": "2024-02-22 15:50:59",
+    "cover": {
+      "id": 89856,
+      "name": "cover_684c64470e8b0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498368710662.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1919,
+    "title": "Project management",
+    "transcription": "Effective project management requires careful planning, organization, and execution of tasks to ensure successful outcomes.",
+    "sentence": "prä-ˈjektˌ ma-nij-mənt",
+    "translate": "ניהול פרויקטים",
+    "date_created": "2024-02-22 15:51:03",
+    "cover": {
+      "id": 89857,
+      "name": "cover_684c646f37ee7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498369112437.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1920,
+    "title": "Risk management",
+    "transcription": "Effective risk management is essential for the success of any business.",
+    "sentence": "/rɪsk ˈmæn.ədʒ.mənt/",
+    "translate": "ניהול סיכונים",
+    "date_created": "2024-02-22 15:51:03",
+    "cover": {
+      "id": 89858,
+      "name": "cover_684c64a10ae0a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498369610519.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1921,
+    "title": "Logistics",
+    "transcription": "Proper logistics management is crucial for the success of any business.",
+    "sentence": "ləˈdʒɪstɪks",
+    "translate": "לוגיסטיקה",
+    "date_created": "2024-02-22 15:51:03",
+    "cover": {
+      "id": 89859,
+      "name": "cover_684c64c9538a2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498370013489.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1922,
+    "title": "Supply chain",
+    "transcription": "The company is working to optimize their supply chain to reduce costs and improve efficiency.",
+    "sentence": "səˈplaɪ ʧeɪn",
+    "translate": "רשת אספקה",
+    "date_created": "2024-02-22 15:51:06",
+    "cover": {
+      "id": 89860,
+      "name": "cover_684c64ed283cc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498370371723.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1923,
+    "title": "Procurement",
+    "transcription": "The procurement department is responsible for sourcing and purchasing materials for the company.",
+    "sentence": "prəˈkjʊərmənt",
+    "translate": "רכש",
+    "date_created": "2024-02-22 15:51:08",
+    "cover": {
+      "id": 89861,
+      "name": "cover_684c650fef07c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498370719856.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1924,
+    "title": "Outsourcing",
+    "transcription": "The company decided to outsource its customer service to a call center in India.",
+    "sentence": "ˈaʊtˌsɔːrsɪŋ",
+    "translate": "חיצוני",
+    "date_created": "2024-02-22 15:51:09",
+    "cover": {
+      "id": 89862,
+      "name": "cover_684c653abf08a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498371147896.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1925,
+    "title": "Offshoring",
+    "transcription": "The company decided to save costs by offshoring their customer service operations to a call center in India.",
+    "sentence": "/ˈɔːfˌʃɔːrɪŋ/",
+    "translate": "גַלוּט",
+    "date_created": "2024-02-22 15:51:11",
+    "cover": {
+      "id": 89863,
+      "name": "cover_684c656251a99.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498371543413.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1926,
+    "title": "Onshoring",
+    "transcription": "Many companies are choosing onshoring as a way to bring jobs back to their home country.",
+    "sentence": "/ˈɒnˌʃɔrɪŋ/",
+    "translate": "N/А",
+    "date_created": "2024-02-22 15:51:12",
+    "cover": {
+      "id": 89864,
+      "name": "cover_684c6590bdda5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498372007841.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1927,
+    "title": "Customer relationship management (CRM)",
+    "transcription": "The company uses customer relationship management software to keep track of their interactions with clients.",
+    "sentence": "ˈkʌstəmər rɪˈleɪʃənʃɪp ˈmænɪdʒmənt",
+    "translate": "ניהול קשרי לקוחות (CRM)",
+    "date_created": "2024-02-22 15:51:13",
+    "cover": {
+      "id": 89865,
+      "name": "cover_684c65bae32af.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498372429380.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1928,
+    "title": "Business intelligence (BI)",
+    "transcription": "The company uses business intelligence software to analyze customer data and make informed decisions.",
+    "sentence": "ˈbɪznəs ˈɪntələdʒəns",
+    "translate": "ידע עסקי",
+    "date_created": "2024-02-22 15:51:14",
+    "cover": {
+      "id": 89866,
+      "name": "cover_684c65e2a8b3c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498372827007.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1929,
+    "title": "Retail",
+    "transcription": "She decided to buy the shoes at the retail store instead of online.",
+    "sentence": "ˈriːteɪl",
+    "translate": "קְמִחַ",
+    "date_created": "2024-02-22 15:51:15",
+    "cover": {
+      "id": 89867,
+      "name": "cover_684c6609143f6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498373210897.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1930,
+    "title": "Wholesale",
+    "transcription": "The store bought their inventory wholesale in order to offer competitive prices to their customers.",
+    "sentence": "/ˈhoʊlˌseɪl/",
+    "translate": "סיטונאי",
+    "date_created": "2024-02-22 15:51:16",
+    "cover": {
+      "id": 89868,
+      "name": "cover_684c662a9384b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498373546108.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1964,
+    "title": "Cash flow statement",
+    "transcription": "She reviewed the cash flow statement to analyze the company's financial performance.",
+    "sentence": "ˈkæʃ floʊ ˈsteɪtmənt",
+    "translate": "דו''ח זרימת מזומנים",
+    "date_created": "2024-02-22 15:52:25",
+    "cover": {
+      "id": 89902,
+      "name": "cover_684c6b763ea34.png",
+      "url": "https://cdn.see.guru/words/2025/06/17498387102645.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

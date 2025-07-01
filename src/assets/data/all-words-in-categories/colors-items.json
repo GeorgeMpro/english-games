@@ -1,0 +1,542 @@
+[
+  {
+    "id": 267,
+    "title": "Red",
+    "transcription": "The roses in her garden were a vibrant shade of red.",
+    "sentence": "/rɛd/",
+    "translate": "אדום",
+    "date_created": "2024-02-22 15:22:03",
+    "cover": {
+      "id": 88163,
+      "name": "cover_68405e45d9cb9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490489022036.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 268,
+    "title": "Yellow",
+    "transcription": "The sunflower is a bright yellow color.",
+    "sentence": "/ˈjɛloʊ/",
+    "translate": "צהוב",
+    "date_created": "2024-02-22 15:22:04",
+    "cover": {
+      "id": 88164,
+      "name": "cover_68405e78799da.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490489526113.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 269,
+    "title": "Green",
+    "transcription": "The grass is green in the summer.",
+    "sentence": "/ɡriːn/",
+    "translate": "ירוק",
+    "date_created": "2024-02-22 15:22:04",
+    "cover": {
+      "id": 88165,
+      "name": "cover_68405ea45c784.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490489965072.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 270,
+    "title": "Blue",
+    "transcription": "She wore a beautiful blue dress to the party.",
+    "sentence": "/bluː/",
+    "translate": "כחול",
+    "date_created": "2024-02-22 15:22:06",
+    "cover": {
+      "id": 88166,
+      "name": "cover_68405ed278969.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490490426105.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 271,
+    "title": "Pink",
+    "transcription": "She wore a pink dress to the party.",
+    "sentence": "/pɪŋk/",
+    "translate": "ורוד",
+    "date_created": "2024-02-22 15:22:07",
+    "cover": {
+      "id": 88167,
+      "name": "cover_68405f01620b6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490490895171.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 272,
+    "title": "Purple",
+    "transcription": "She wore a beautiful purple dress to the party.",
+    "sentence": "ˈpɜːrpl",
+    "translate": "סָגוֹל",
+    "date_created": "2024-02-22 15:22:07",
+    "cover": {
+      "id": 88168,
+      "name": "cover_68405f273484d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490491273357.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 273,
+    "title": "Brown",
+    "transcription": "She has beautiful brown hair.",
+    "sentence": "/braʊn/",
+    "translate": "חום",
+    "date_created": "2024-02-22 15:22:08",
+    "cover": {
+      "id": 88169,
+      "name": "cover_68405f4bdf4a0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490491640389.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 274,
+    "title": "Black",
+    "transcription": "The black cat crossed the street at night.",
+    "sentence": "blæk",
+    "translate": "שחור",
+    "date_created": "2024-02-22 15:22:09",
+    "cover": {
+      "id": 88170,
+      "name": "cover_68405f7499e9f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490492047447.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 275,
+    "title": "White",
+    "transcription": "She wore a beautiful white dress to the wedding.",
+    "sentence": "/waɪt/",
+    "translate": "לָבָן",
+    "date_created": "2024-02-22 15:22:09",
+    "cover": {
+      "id": 88171,
+      "name": "cover_68405fa3772f0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490492516151.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 276,
+    "title": "Gold",
+    "transcription": "She wore a beautiful gold necklace to the party.",
+    "sentence": "/ɡoʊld/",
+    "translate": "זהב",
+    "date_created": "2024-02-22 15:22:12",
+    "cover": {
+      "id": 88172,
+      "name": "cover_68405fc90be94.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490492891781.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 277,
+    "title": "Gray (Grey)",
+    "transcription": "The sky turned gray as the storm approached.",
+    "sentence": "/ɡreɪ/ (BrE) /ɡreɪ/ (AmE)",
+    "translate": "אפור",
+    "date_created": "2024-02-22 15:22:12",
+    "cover": {
+      "id": 88173,
+      "name": "cover_68405ff453b7e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490493324649.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 278,
+    "title": "Beige",
+    "transcription": "She painted her living room walls beige to create a warm and neutral space.",
+    "sentence": "/beɪʒ/",
+    "translate": "בֵּיז'",
+    "date_created": "2024-02-22 15:22:12",
+    "cover": {
+      "id": 88176,
+      "name": "cover_6840602118c46.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490493772181.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 279,
+    "title": "Ivory",
+    "transcription": "The intricate carvings on the ivory figurine were truly exquisite.",
+    "sentence": "ˈaɪvəri",
+    "translate": "שֵׁן הָאֶלֶף",
+    "date_created": "2024-02-22 15:22:13",
+    "cover": {
+      "id": 88177,
+      "name": "cover_6840604b66aa2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490494195370.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 280,
+    "title": "Silver",
+    "transcription": "She wore a beautiful silver necklace to the party.",
+    "sentence": "/ˈsɪlvər/",
+    "translate": "כסף",
+    "date_created": "2024-02-22 15:22:15",
+    "cover": {
+      "id": 88178,
+      "name": "cover_684060793de8e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490494653811.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 281,
+    "title": "Tan",
+    "transcription": "After spending all day at the beach, she had a nice tan.",
+    "sentence": "tæn",
+    "translate": "חום",
+    "date_created": "2024-02-22 15:22:16",
+    "cover": {
+      "id": 88179,
+      "name": "cover_684060a7092b0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490495111531.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 282,
+    "title": "Maroon",
+    "transcription": "The maroon sweater she was wearing looked cozy and stylish.",
+    "sentence": "/məˈrun/",
+    "translate": "מָרוּן",
+    "date_created": "2024-02-22 15:22:17",
+    "cover": {
+      "id": 88180,
+      "name": "cover_684060d4d6276.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490495569907.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 283,
+    "title": "Burgundy",
+    "transcription": "She wore a beautiful burgundy dress to the party.",
+    "sentence": "/ˈbɜːrɡəndi/",
+    "translate": "בורגונדי",
+    "date_created": "2024-02-22 15:22:17",
+    "cover": {
+      "id": 88181,
+      "name": "cover_68406100475f8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490496004125.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 284,
+    "title": "Crimson",
+    "transcription": "The sky turned a deep crimson as the sun began to set.",
+    "sentence": "ˈkrɪm.zən",
+    "translate": "אַדמוֹן",
+    "date_created": "2024-02-22 15:22:18",
+    "cover": {
+      "id": 88182,
+      "name": "cover_684061281886f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490496402237.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 285,
+    "title": "Scarlet",
+    "transcription": "She wore a vibrant scarlet dress to the fancy gala.",
+    "sentence": "/ˈskɑrlɪt/",
+    "translate": "שני",
+    "date_created": "2024-02-22 15:22:19",
+    "cover": {
+      "id": 88183,
+      "name": "cover_684061565cdb4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490496865000.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 286,
+    "title": "Magenta",
+    "transcription": "She picked out a beautiful magenta dress for the wedding.",
+    "sentence": "/məˈdʒɛntə/",
+    "translate": "מג'נטה",
+    "date_created": "2024-02-22 15:22:21",
+    "cover": {
+      "id": 88184,
+      "name": "cover_684061787ce42.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490497206344.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 287,
+    "title": "Violet",
+    "transcription": "She picked a beautiful bouquet of violets from the garden.",
+    "sentence": "/ˈvaɪələt/",
+    "translate": "סָגוֹל",
+    "date_created": "2024-02-22 15:22:22",
+    "cover": {
+      "id": 88185,
+      "name": "cover_684061a56e399.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490497655755.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 288,
+    "title": "Indigo",
+    "transcription": "The artist used indigo dye to create a beautiful shade of blue in her painting.",
+    "sentence": "ˈɪndɪɡoʊ",
+    "translate": "אינדיגו",
+    "date_created": "2024-02-22 15:22:22",
+    "cover": {
+      "id": 88186,
+      "name": "cover_684061d1c2be7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490498099129.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 289,
+    "title": "Cyan",
+    "transcription": "The artist used shades of cyan and green to create a peaceful seascape.",
+    "sentence": "/ˈsaɪ.ən/",
+    "translate": "ציאן",
+    "date_created": "2024-02-22 15:22:23",
+    "cover": {
+      "id": 88187,
+      "name": "cover_684061f9b25f2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490498498543.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 290,
+    "title": "Turquoise",
+    "transcription": "She wore a beautiful turquoise necklace with her evening gown.",
+    "sentence": "/ˈtɜːrkɔɪz/",
+    "translate": "תכלת",
+    "date_created": "2024-02-22 15:22:24",
+    "cover": {
+      "id": 88188,
+      "name": "cover_68406220e49c3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490498890589.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 291,
+    "title": "Teal",
+    "transcription": "She painted her bedroom walls a beautiful teal color.",
+    "sentence": "/tiːl/",
+    "translate": "תֵּיל",
+    "date_created": "2024-02-22 15:22:24",
+    "cover": {
+      "id": 88189,
+      "name": "cover_6840624327aa9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490499232787.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 292,
+    "title": "Olive",
+    "transcription": "I added sliced olives to my salad for extra flavor.",
+    "sentence": "ˈɑlɪv",
+    "translate": "זַיִת",
+    "date_created": "2024-02-22 15:22:26",
+    "cover": {
+      "id": 88190,
+      "name": "cover_6840626de289a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490499660405.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 293,
+    "title": "Charcoal",
+    "transcription": "The artist used charcoal to create a beautiful portrait.",
+    "sentence": "ˈtʃɑːrˌkoʊl",
+    "translate": "פחם פרוס",
+    "date_created": "2024-02-22 15:22:26",
+    "cover": {
+      "id": 88191,
+      "name": "cover_6840629bce42c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490500119595.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 294,
+    "title": "Navy",
+    "transcription": "My cousin serves in the Navy and travels all over the world.",
+    "sentence": "/ˈneɪvi/",
+    "translate": "צי",
+    "date_created": "2024-02-22 15:22:28",
+    "cover": {
+      "id": 88192,
+      "name": "cover_684062c5cfb67.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490500539756.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 295,
+    "title": "Lavender",
+    "transcription": "The smell of lavender filled the room, creating a relaxing atmosphere.",
+    "sentence": "/ˈlæv.ən.dər/",
+    "translate": "שמינית",
+    "date_created": "2024-02-22 15:22:28",
+    "cover": {
+      "id": 88193,
+      "name": "cover_684062eeaf9dd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490500948350.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 296,
+    "title": "Coral",
+    "transcription": "The diver loves exploring the vibrant coral reefs off the coast of Australia.",
+    "sentence": "/ˈkɒrəl/",
+    "translate": "קורל",
+    "date_created": "2024-02-22 15:22:29",
+    "cover": {
+      "id": 88194,
+      "name": "cover_6840631c3bdd0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490501403594.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 297,
+    "title": "Salmon",
+    "transcription": "I ordered the grilled salmon for dinner.",
+    "sentence": "/ˈsæmən/",
+    "translate": "סלמון",
+    "date_created": "2024-02-22 15:22:30",
+    "cover": {
+      "id": 88195,
+      "name": "cover_6840634441cc3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490501803832.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 298,
+    "title": "Mint",
+    "transcription": "I added some fresh mint leaves to my iced tea.",
+    "sentence": "/mɪnt/",
+    "translate": "נָעֳמַנְעץ",
+    "date_created": "2024-02-22 15:22:30",
+    "cover": {
+      "id": 88196,
+      "name": "cover_684063803b8cb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490502405822.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 299,
+    "title": "Mustard",
+    "transcription": "I like to put mustard on my hot dog.",
+    "sentence": "/ˈmʌstərd/",
+    "translate": "חרדל",
+    "date_created": "2024-02-22 15:22:31",
+    "cover": {
+      "id": 88197,
+      "name": "cover_684063a93216f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490502813321.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 300,
+    "title": "Emerald",
+    "transcription": "She wore a stunning emerald necklace to the gala event.",
+    "sentence": "/ˈɛmərəld/",
+    "translate": "ברקת",
+    "date_created": "2024-02-22 15:22:32",
+    "cover": {
+      "id": 88198,
+      "name": "cover_684063d317e2a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490503232274.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 301,
+    "title": "Jade",
+    "transcription": "She wore a beautiful jade necklace to the gala.",
+    "sentence": "/dʒeɪd/",
+    "translate": "ידע",
+    "date_created": "2024-02-22 15:22:33",
+    "cover": {
+      "id": 88199,
+      "name": "cover_684063ff71be1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490503675926.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 302,
+    "title": "Aqua",
+    "transcription": "I love the color aqua because it reminds me of the ocean.",
+    "sentence": "/ˈɑːkwə/",
+    "translate": null,
+    "date_created": "2024-02-22 15:22:34",
+    "cover": {
+      "id": 88200,
+      "name": "cover_6840642c6961c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490504125605.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

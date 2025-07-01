@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1576,
+    "title": "Laptop",
+    "transcription": "I use my laptop to work on assignments and watch movies.",
+    "sentence": "/ˈlæpˌtɒp/",
+    "translate": "מחשב נייד",
+    "date_created": "2024-02-22 15:45:18",
+    "cover": {
+      "id": 89196,
+      "name": "cover_6844704d761aa.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493156614898.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1577,
+    "title": "Tablet",
+    "transcription": "She uses her tablet to read books.",
+    "sentence": "/ˈtæblət/",
+    "translate": "טאבלט",
+    "date_created": "2024-02-22 15:45:19",
+    "cover": {
+      "id": 89197,
+      "name": "cover_6844707129e8f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493156971779.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1578,
+    "title": "Monitor",
+    "transcription": "She used a monitor to keep track of her heart rate during the exercise.",
+    "sentence": "/ˈmɒnɪtə/",
+    "translate": "מסך",
+    "date_created": "2024-02-22 15:45:19",
+    "cover": {
+      "id": 89198,
+      "name": "cover_68447098c6213.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493157368183.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1579,
+    "title": "Router",
+    "transcription": "The router directs traffic between different devices on a network.",
+    "sentence": "/ˈruːtər/",
+    "translate": "נתב",
+    "date_created": "2024-02-22 15:45:21",
+    "cover": {
+      "id": 89199,
+      "name": "cover_684470b8a1129.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493157686657.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1580,
+    "title": "Modem",
+    "transcription": "The modem allows your computer to connect to the internet wirelessly.",
+    "sentence": "/ˈmoʊdəm/",
+    "translate": "מודם",
+    "date_created": "2024-02-22 15:45:21",
+    "cover": {
+      "id": 89200,
+      "name": "cover_684470d8d55c8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493158008804.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1581,
+    "title": "Email",
+    "transcription": "I sent you an email with the latest updates.",
+    "sentence": "ˈiˌmeɪl",
+    "translate": "דואר אלקטרוני",
+    "date_created": "2024-02-22 15:45:23",
+    "cover": {
+      "id": 89201,
+      "name": "cover_6844711b45fe6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493158672937.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1582,
+    "title": "Website",
+    "transcription": "I visited the company's website to learn more about their products.",
+    "sentence": "ˈwɛbˌsaɪt",
+    "translate": "אתר אינטרנט",
+    "date_created": "2024-02-22 15:45:23",
+    "cover": {
+      "id": 89202,
+      "name": "cover_6844713936b03.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493158972299.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1583,
+    "title": "Blog",
+    "transcription": "I love reading her fashion blog for style inspiration.",
+    "sentence": "/blɒɡ/",
+    "translate": "בלוג",
+    "date_created": "2024-02-22 15:45:25",
+    "cover": {
+      "id": 89203,
+      "name": "cover_6844715b48aa0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493159313049.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1584,
+    "title": "Forum",
+    "transcription": "The event will be held in the main forum of the university.",
+    "sentence": "/ˈfɔːrəm/",
+    "translate": "פורום",
+    "date_created": "2024-02-22 15:45:25",
+    "cover": {
+      "id": 89204,
+      "name": "cover_68447182b704e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493159707569.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1585,
+    "title": "Search engine",
+    "transcription": "Google is a popular search engine used by billions of people worldwide.",
+    "sentence": " /sɜːrtʃ ˈɛndʒɪn /",
+    "translate": "מנוע חיפושים",
+    "date_created": "2024-02-22 15:45:27",
+    "cover": {
+      "id": 89205,
+      "name": "cover_684471a4e5912.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493160049471.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1586,
+    "title": "SEO (Search Engine Optimization)",
+    "transcription": "The company hired a digital marketing agency to improve their SEO and increase their website traffic.",
+    "sentence": "ˌɛs iː ˈoʊ (sɜːrtʃ ˈɛndʒən ˌɒptɪmɪˈzeɪʃən)",
+    "translate": "אופטימיזציה למנועי חיפוש",
+    "date_created": "2024-02-22 15:45:27",
+    "cover": {
+      "id": 89206,
+      "name": "cover_684471cf82597.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493160475399.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1587,
+    "title": "Download",
+    "transcription": "I need to download the new software update for my computer.",
+    "sentence": "ˌdaʊnˈloʊd",
+    "translate": "הורד",
+    "date_created": "2024-02-22 15:45:28",
+    "cover": {
+      "id": 89207,
+      "name": "cover_684471f49c125.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493160846474.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1588,
+    "title": "Streaming",
+    "transcription": "I enjoy streaming movies and TV shows on my favorite platform.",
+    "sentence": "ˈstriːmɪŋ",
+    "translate": "זרימה",
+    "date_created": "2024-02-22 15:45:30",
+    "cover": {
+      "id": 89208,
+      "name": "cover_6844721b6393f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493161234151.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1589,
+    "title": "Data",
+    "transcription": "The research team collected data from various sources to analyze trends in consumer behavior.",
+    "sentence": "ˈdeɪtə",
+    "translate": "נתונים",
+    "date_created": "2024-02-22 15:45:30",
+    "cover": {
+      "id": 89209,
+      "name": "cover_68447241e7062.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493161619528.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1590,
+    "title": "Server",
+    "transcription": "The restaurant server brought us our food promptly.",
+    "sentence": "ˈsɜːrvər",
+    "translate": "שרת",
+    "date_created": "2024-02-22 15:45:31",
+    "cover": {
+      "id": 89210,
+      "name": "cover_6844726705e2b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493161990315.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1591,
+    "title": "Wi-Fi",
+    "transcription": "I need to connect to the Wi-Fi to check my email.",
+    "sentence": "ˈwaɪfaɪ",
+    "translate": "ווי-פיי",
+    "date_created": "2024-02-22 15:45:32",
+    "cover": {
+      "id": 89211,
+      "name": "cover_6844728b2dbc2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493162351932.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1592,
+    "title": "Bluetooth",
+    "transcription": "I connected my phone to the speaker using Bluetooth.",
+    "sentence": "ˈbluːtuːθ",
+    "translate": "בלוטות'",
+    "date_created": "2024-02-22 15:45:33",
+    "cover": {
+      "id": 89212,
+      "name": "cover_684472af7b72b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493162715128.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1593,
+    "title": "Firewall",
+    "transcription": "The company's network is protected by a strong firewall to prevent unauthorized access.",
+    "sentence": "ˈfaɪərˌwɔl",
+    "translate": "חומת אש",
+    "date_created": "2024-02-22 15:45:34",
+    "cover": {
+      "id": 89213,
+      "name": "cover_684472d3c42a2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493163078109.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1594,
+    "title": "Malware",
+    "transcription": "The company's computer network was infected with malware, causing a data breach.",
+    "sentence": "ˈmælˌweər",
+    "translate": "תוכנת זיהום",
+    "date_created": "2024-02-22 15:45:35",
+    "cover": {
+      "id": 89214,
+      "name": "cover_684472f562c82.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493163414116.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1595,
+    "title": "VPN (Virtual Private Network)",
+    "transcription": "I use a VPN to securely access the company's internal network while working remotely.",
+    "sentence": "ˌviː.piː.ˈɛn (ˌvɜː.tʃu.əl ˈpraɪ.vət ˈnɛt.wɜːrk)",
+    "translate": "רשת פרטית וירטואלית (VPN)",
+    "date_created": "2024-02-22 15:45:35",
+    "cover": {
+      "id": 89215,
+      "name": "cover_6844731652385.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493163743432.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1596,
+    "title": "Spyware",
+    "transcription": "The spyware on his computer was tracking his online activity without his knowledge.",
+    "sentence": "ˈspaɪˌwɛər",
+    "translate": "גיזום",
+    "date_created": "2024-02-22 15:45:37",
+    "cover": {
+      "id": 89216,
+      "name": "cover_6844733fa6e77.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493164156905.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1597,
+    "title": "Phishing",
+    "transcription": "Be careful not to click on any suspicious links in emails to avoid falling victim to phishing scams.",
+    "sentence": "ˈfiʃɪŋ",
+    "translate": "פישינג",
+    "date_created": "2024-02-22 15:45:37",
+    "cover": {
+      "id": 89217,
+      "name": "cover_684473653ec62.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493164532644.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1598,
+    "title": "Cryptography",
+    "transcription": "Cryptography is the practice and study of techniques for secure communication in the presence of third parties.",
+    "sentence": "kriyp-tog-ruh-fee",
+    "translate": "קריפטוגרפיה",
+    "date_created": "2024-02-22 15:45:39",
+    "cover": {
+      "id": 89218,
+      "name": "cover_6844738795f96.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493164876210.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1599,
+    "title": "Windows",
+    "transcription": "She opened the windows to let in some fresh air.",
+    "sentence": "ˈwɪndoʊz",
+    "translate": "חלונות",
+    "date_created": "2024-02-22 15:45:39",
+    "cover": {
+      "id": 89219,
+      "name": "cover_684473aad1c93.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493165228658.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1600,
+    "title": "macOS",
+    "transcription": "The latest version of macOS includes new features and improvements for users.",
+    "sentence": "ˌmak ˌō ˈes",
+    "translate": "macOS",
+    "date_created": "2024-02-22 15:45:41",
+    "cover": {
+      "id": 89220,
+      "name": "cover_684473ca34314.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493165542207.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1601,
+    "title": "Linux",
+    "transcription": "He prefers using Linux over Windows for his programming projects.",
+    "sentence": "/ˈlɪnʌks/",
+    "translate": "לינוקס",
+    "date_created": "2024-02-22 15:45:42",
+    "cover": {
+      "id": 89221,
+      "name": "cover_684473ecb45f0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493165887458.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1602,
+    "title": "Android",
+    "transcription": "She downloaded a new app on her Android phone.",
+    "sentence": "/ˈændrɔɪd/",
+    "translate": "אנדרואיד",
+    "date_created": "2024-02-22 15:45:43",
+    "cover": {
+      "id": 89222,
+      "name": "cover_68447413abd5b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493166277110.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1603,
+    "title": "iOS",
+    "transcription": "I prefer using iOS over Android for its user-friendly interface.",
+    "sentence": "ˌaɪ ˌoʊ ˈɛs",
+    "translate": "iOS",
+    "date_created": "2024-02-22 15:45:43",
+    "cover": {
+      "id": 89223,
+      "name": "cover_684474395aded.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493166653815.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1604,
+    "title": "Programming",
+    "transcription": "She has a strong interest in programming and enjoys learning new coding languages.",
+    "sentence": "ˈproʊˌɡræmɪŋ",
+    "translate": "תכנות",
+    "date_created": "2024-02-22 15:45:45",
+    "cover": {
+      "id": 89224,
+      "name": "cover_6844745b1a24b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493166991146.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1605,
+    "title": "HTML",
+    "transcription": "She learned how to create websites using HTML in her computer science class.",
+    "sentence": "ˌeɪtʃ tiː ɛm ɛl",
+    "translate": "HTML",
+    "date_created": "2024-02-22 15:45:45",
+    "cover": {
+      "id": 89225,
+      "name": "cover_6844747acab4d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493167308368.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1606,
+    "title": "CSS",
+    "transcription": "The web designer used CSS to style the website's layout and color scheme.",
+    "sentence": "ˈsiː.ɛs.ɛs",
+    "translate": "CSS",
+    "date_created": "2024-02-22 15:45:46",
+    "cover": {
+      "id": 89226,
+      "name": "cover_68447499b15ae.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493167617329.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1607,
+    "title": "JavaScript",
+    "transcription": "The website was built using HTML, CSS, and JavaScript to enhance user interaction.",
+    "sentence": "/ˈdʒɑːvəˌskrɪpt/",
+    "translate": "ג'אווה סקריפט",
+    "date_created": "2024-02-22 15:45:47",
+    "cover": {
+      "id": 89227,
+      "name": "cover_684474bb460e6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493167952930.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1608,
+    "title": "Python",
+    "transcription": "I am learning how to program in Python.",
+    "sentence": "/ˈpaɪθən/",
+    "translate": "פִייתוֹן",
+    "date_created": "2024-02-22 15:45:47",
+    "cover": {
+      "id": 89228,
+      "name": "cover_684474dc72174.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493168284742.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1609,
+    "title": "Java",
+    "transcription": "She learned to code in Java during her computer science class in college.",
+    "sentence": "ˈdʒɑːvə",
+    "translate": "ג'אווה",
+    "date_created": "2024-02-22 15:45:48",
+    "cover": {
+      "id": 89229,
+      "name": "cover_684474ff11d53.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493168630801.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1610,
+    "title": "SQL",
+    "transcription": "Many companies use SQL to manage their databases.",
+    "sentence": "ɛskjuːˈɛl",
+    "translate": "SQL",
+    "date_created": "2024-02-22 15:45:49",
+    "cover": {
+      "id": 89230,
+      "name": "cover_6844751e8dace.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493168945871.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1611,
+    "title": "C++",
+    "transcription": "She is attending a class to learn C++ programming language.",
+    "sentence": "ˈsē ˈpləs ˈpləs",
+    "translate": "סי פלוס פלוס",
+    "date_created": "2024-02-22 15:45:49",
+    "cover": {
+      "id": 89231,
+      "name": "cover_6844753cb66ad.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493169247536.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1612,
+    "title": "PHP",
+    "transcription": "I am learning PHP to develop dynamic websites.",
+    "sentence": "ˈpiː.eɪtʃ.piː",
+    "translate": "PHP",
+    "date_created": "2024-02-22 15:45:50",
+    "cover": {
+      "id": 89232,
+      "name": "cover_6844755a9118f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493169546010.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1613,
+    "title": "Ruby",
+    "transcription": "She received a beautiful ruby necklace for her birthday.",
+    "sentence": "/ˈruːbi/",
+    "translate": "יָהֲלוּם",
+    "date_created": "2024-02-22 15:45:51",
+    "cover": {
+      "id": 89233,
+      "name": "cover_6844757f898ad.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493169915696.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1614,
+    "title": "Git",
+    "transcription": "He needs to learn how to use Git for version control in his programming projects.",
+    "sentence": "ɡɪt",
+    "translate": "גיט",
+    "date_created": "2024-02-22 15:45:52",
+    "cover": {
+      "id": 89234,
+      "name": "cover_684475a9e0e4e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493170339282.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1616,
+    "title": "GitHub",
+    "transcription": "I uploaded my code to GitHub so my team members can review it.",
+    "sentence": "ˈɡɪtˌhʌb",
+    "translate": "גיטהאב",
+    "date_created": "2024-02-22 15:45:54",
+    "cover": {
+      "id": 89236,
+      "name": "cover_684475f8903de.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493171125976.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

@@ -1,0 +1,707 @@
+[
+  {
+    "id": 420,
+    "title": "Building",
+    "transcription": "The new building in town is a state-of-the-art facility.",
+    "sentence": "ˈbɪldɪŋ",
+    "translate": null,
+    "date_created": "2024-02-22 15:25:20",
+    "cover": {
+      "id": 87547,
+      "name": "cover_68397f482e592.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485986002838.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 421,
+    "title": "Skyscraper",
+    "transcription": "The new office building is going to be a 50-story skyscraper in the heart of the city.",
+    "sentence": "/ˈskaɪˌskreɪ.pər/",
+    "translate": "גורד שחקים",
+    "date_created": "2024-02-22 15:25:20",
+    "cover": {
+      "id": 87549,
+      "name": "cover_68397f7520499.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485986452346.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 422,
+    "title": "Apartment",
+    "transcription": "She lives in a one-bedroom apartment in the city.",
+    "sentence": "əˈpɑːrtmənt",
+    "translate": "דירה",
+    "date_created": "2024-02-22 15:25:20",
+    "cover": {
+      "id": 87551,
+      "name": "cover_68397f9aa6a71.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485986827858.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 423,
+    "title": "House",
+    "transcription": "I live in a house with a red door.",
+    "sentence": "haʊs",
+    "translate": "בית",
+    "date_created": "2024-02-22 15:25:23",
+    "cover": {
+      "id": 87553,
+      "name": "cover_68397fbb4521c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485987153758.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 424,
+    "title": "Office",
+    "transcription": "She works at the office from 9 to 5 every day.",
+    "sentence": "/ˈɔːfɪs/",
+    "translate": "משרד",
+    "date_created": "2024-02-22 15:25:24",
+    "cover": {
+      "id": 87555,
+      "name": "cover_68397fe32415e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485987552398.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 425,
+    "title": "School",
+    "transcription": "I have to go to school tomorrow.",
+    "sentence": "skuːl",
+    "translate": "בית ספר",
+    "date_created": "2024-02-22 15:25:26",
+    "cover": {
+      "id": 87557,
+      "name": "cover_683980109fdee.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485988007458.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 426,
+    "title": "University",
+    "transcription": "She studied medicine at the University of California.",
+    "sentence": "ˌjuːnɪˈvɜːrsəti",
+    "translate": "אוניברסיטה",
+    "date_created": "2024-02-22 15:25:27",
+    "cover": {
+      "id": 87559,
+      "name": "cover_6839803357d07.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485988354549.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 427,
+    "title": "Hospital",
+    "transcription": "She was taken to the hospital after the accident.",
+    "sentence": "ˈhɑː.spɪ.təl",
+    "translate": "ביהונט",
+    "date_created": "2024-02-22 15:25:27",
+    "cover": {
+      "id": 87561,
+      "name": "cover_683980605714e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485988804480.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 428,
+    "title": "Church",
+    "transcription": "We went to church on Sunday morning to attend the weekly service.",
+    "sentence": "tʃərtʃ",
+    "translate": "כנסייה",
+    "date_created": "2024-02-22 15:25:30",
+    "cover": {
+      "id": 87563,
+      "name": "cover_68398087e0b25.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485989200147.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 429,
+    "title": "Temple",
+    "transcription": "She visited the ancient temple in Kyoto, Japan.",
+    "sentence": "ˈtɛmpəl",
+    "translate": "מִקְדָּשׁ",
+    "date_created": "2024-02-22 15:25:31",
+    "cover": {
+      "id": 87565,
+      "name": "cover_683980adf1d8d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485989580955.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 430,
+    "title": "Synagogue",
+    "transcription": "He attends services at the synagogue every Saturday.",
+    "sentence": "/ˈsɪnəɡɒɡ/",
+    "translate": "ב־ּשגורה",
+    "date_created": "2024-02-22 15:25:31",
+    "cover": {
+      "id": 87567,
+      "name": "cover_683980dbe1928.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485990040266.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 431,
+    "title": "Mosque",
+    "transcription": "Every Friday, the worshippers gather at the mosque for the weekly prayers.",
+    "sentence": "/mɒsk/",
+    "translate": "מִסגַד",
+    "date_created": "2024-02-22 15:25:31",
+    "cover": {
+      "id": 87569,
+      "name": "cover_6839810225f94.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485990422466.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 432,
+    "title": "Library",
+    "transcription": "He spent hours at the library researching for his thesis.",
+    "sentence": "/ˈlʌɪˌbrɛri/",
+    "translate": "ספרייה",
+    "date_created": "2024-02-22 15:25:34",
+    "cover": {
+      "id": 87571,
+      "name": "cover_6839812d469a8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485990853821.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 433,
+    "title": "Museum",
+    "transcription": "I visited the Museum of Modern Art to see the latest exhibition.",
+    "sentence": "myoo-zee-uhm",
+    "translate": "מוזיאון",
+    "date_created": "2024-02-22 15:25:35",
+    "cover": {
+      "id": 87572,
+      "name": "cover_6839815c6508b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485991325059.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 434,
+    "title": "Theater",
+    "transcription": "I am going to the theater tonight to see a play.",
+    "sentence": "ˈθiːətər",
+    "translate": "תיאטרון",
+    "date_created": "2024-02-22 15:25:36",
+    "cover": {
+      "id": 87574,
+      "name": "cover_6839818044979.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485991683846.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 435,
+    "title": "Cinema",
+    "transcription": "Let's go to the cinema to see the new movie.",
+    "sentence": "/ˈsɪn·ə·mə/",
+    "translate": "בית קולנוע",
+    "date_created": "2024-02-22 15:25:36",
+    "cover": {
+      "id": 87575,
+      "name": "cover_683981ab903b1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485992116007.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 436,
+    "title": "Stadium",
+    "transcription": "The stadium was packed with cheering fans for the championship game.",
+    "sentence": "/ˈsteɪdiəm/",
+    "translate": "אצטדיון",
+    "date_created": "2024-02-22 15:25:40",
+    "cover": {
+      "id": 87576,
+      "name": "cover_683981da17d30.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485992581047.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 437,
+    "title": "Park",
+    "transcription": "Let's go to the park and have a picnic.",
+    "sentence": "/pɑːrk/",
+    "translate": "פארק",
+    "date_created": "2024-02-22 15:25:40",
+    "cover": {
+      "id": 87577,
+      "name": "cover_683981fbe3972.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485992919396.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 438,
+    "title": "Arena",
+    "transcription": "The basketball game was held at the arena downtown.",
+    "sentence": "/əˈriːnə/",
+    "translate": "אֲרֶנָה",
+    "date_created": "2024-02-22 15:25:40",
+    "cover": {
+      "id": 87578,
+      "name": "cover_6839822090451.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485993285980.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 439,
+    "title": "Square",
+    "transcription": "The park had a beautiful fountain in the center square.",
+    "sentence": "skwɛr",
+    "translate": "ריבוע",
+    "date_created": "2024-02-22 15:25:41",
+    "cover": {
+      "id": 87579,
+      "name": "cover_68398240ee313.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485993609859.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 440,
+    "title": "Street",
+    "transcription": "I live on a quiet street in the city.",
+    "sentence": "striːt",
+    "translate": "רחוב",
+    "date_created": "2024-02-22 15:25:43",
+    "cover": {
+      "id": 87582,
+      "name": "cover_6839826249eff.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485993943096.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 441,
+    "title": "Road",
+    "transcription": "The road was long and winding, but they finally reached their destination.",
+    "sentence": "roʊd",
+    "translate": "כביש",
+    "date_created": "2024-02-22 15:25:43",
+    "cover": {
+      "id": 87583,
+      "name": "cover_683982899e6f1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485994336568.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 442,
+    "title": "Avenue",
+    "transcription": "The shops on Fifth Avenue are always crowded with tourists.",
+    "sentence": "/ˈævəˌnjuː/",
+    "translate": "שְׁדֵר",
+    "date_created": "2024-02-22 15:25:44",
+    "cover": {
+      "id": 87584,
+      "name": "cover_683982af95a76.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485994716206.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 443,
+    "title": "Boulevard",
+    "transcription": "The shops on Rodeo Drive in Beverly Hills are located along a wide, tree-lined boulevard.",
+    "sentence": "/ˈbuləˌvɑrd/",
+    "translate": "בולוורד",
+    "date_created": "2024-02-22 15:25:45",
+    "cover": {
+      "id": 87585,
+      "name": "cover_683982de43b35.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485995182859.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 444,
+    "title": "Tunnel",
+    "transcription": "The train disappeared into the dark tunnel.",
+    "sentence": "ˈtʌnəl",
+    "translate": "מנהרה",
+    "date_created": "2024-02-22 15:25:47",
+    "cover": {
+      "id": 87586,
+      "name": "cover_683983003b787.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485995522495.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 445,
+    "title": "Bridge",
+    "transcription": "The old stone bridge spanned the river, allowing travelers to cross safely.",
+    "sentence": "brɪdʒ",
+    "translate": "גשר",
+    "date_created": "2024-02-22 15:25:47",
+    "cover": {
+      "id": 87587,
+      "name": "cover_683983226b1fd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485995864449.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 446,
+    "title": "Subway station",
+    "transcription": "The subway station was crowded with commuters rushing to catch their trains.",
+    "sentence": "ˈsʌbˌweɪ ˈsteɪʃən",
+    "translate": "תחנת הרכבת התחתית",
+    "date_created": "2024-02-22 15:25:48",
+    "cover": {
+      "id": 87588,
+      "name": "cover_6839834c132e2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485996280856.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 447,
+    "title": "Port",
+    "transcription": "The ship docked at the port to unload its cargo.",
+    "sentence": "pɔːrt",
+    "translate": "נמל",
+    "date_created": "2024-02-22 15:25:49",
+    "cover": {
+      "id": 87589,
+      "name": "cover_68398378b76d3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485996727596.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 448,
+    "title": "Shopping mall",
+    "transcription": "I went to the shopping mall to buy new clothes for the party.",
+    "sentence": "ˈʃɑpɪŋ mɔl",
+    "translate": "מרכז קניות",
+    "date_created": "2024-02-22 15:25:51",
+    "cover": {
+      "id": 87590,
+      "name": "cover_683983a4110ef.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485997160804.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 449,
+    "title": "Market",
+    "transcription": "She goes to the market every Saturday to buy fresh fruits and vegetables.",
+    "sentence": "ˈmɑːrkɪt",
+    "translate": "שׁוּק",
+    "date_created": "2024-02-22 15:25:51",
+    "cover": {
+      "id": 87591,
+      "name": "cover_683983cce35f3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485997569387.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 450,
+    "title": "Cafe",
+    "transcription": "Let's meet at the cafe for some coffee this afternoon.",
+    "sentence": "/ˈkæˌfeɪ/",
+    "translate": "קפה",
+    "date_created": "2024-02-22 15:25:52",
+    "cover": {
+      "id": 87592,
+      "name": "cover_683983f08a795.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485997925734.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 451,
+    "title": "Restaurant",
+    "transcription": "She decided to take her family out to a restaurant for dinner.",
+    "sentence": "ˈrɛstəˌrɑnt",
+    "translate": "מסעדה",
+    "date_created": "2024-02-22 15:25:53",
+    "cover": {
+      "id": 87593,
+      "name": "cover_6839841a7c2ff.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485998345186.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 452,
+    "title": "Bar",
+    "transcription": "Let's meet at the bar for drinks after work.",
+    "sentence": "/bɑːr/",
+    "translate": "בר",
+    "date_created": "2024-02-22 15:25:55",
+    "cover": {
+      "id": 87594,
+      "name": "cover_68398441c82b2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485998738258.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 453,
+    "title": "Club",
+    "transcription": "She joined the photography club at school.",
+    "sentence": "klʌb",
+    "translate": "מועדון",
+    "date_created": "2024-02-22 15:25:56",
+    "cover": {
+      "id": 87595,
+      "name": "cover_6839846a5bf04.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485999143871.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 454,
+    "title": "Bank",
+    "transcription": "I need to go to the bank to deposit this check.",
+    "sentence": "/bæŋk/",
+    "translate": "בנק",
+    "date_created": "2024-02-22 15:25:56",
+    "cover": {
+      "id": 87596,
+      "name": "cover_6839849e71a67.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485999664746.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 455,
+    "title": "Courthouse",
+    "transcription": "The trial will take place at the courthouse tomorrow.",
+    "sentence": "/ˈkɔrthaʊs/",
+    "translate": "בית משפט",
+    "date_created": "2024-02-22 15:25:57",
+    "cover": {
+      "id": 87597,
+      "name": "cover_683984c3804cf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486000035316.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 456,
+    "title": "Police station",
+    "transcription": "The suspect was taken to the police station for questioning.",
+    "sentence": "pəˈliːs ˈsteɪʃən",
+    "translate": "תחנת משטרה",
+    "date_created": "2024-02-22 15:25:58",
+    "cover": {
+      "id": 87600,
+      "name": "cover_683984f335614.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486000512260.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 457,
+    "title": "Fire station",
+    "transcription": "The fire station is located just around the corner from our house.",
+    "sentence": "/ˈfaɪər ˈsteɪʃən/",
+    "translate": "תחנת כיבוי",
+    "date_created": "2024-02-22 15:25:59",
+    "cover": {
+      "id": 87601,
+      "name": "cover_6839851de1def.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486000939322.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 458,
+    "title": "Post office",
+    "transcription": "I need to mail this package, so I'm going to the post office.",
+    "sentence": "ˈpoʊst ˈɔfɪs",
+    "translate": "דואר",
+    "date_created": "2024-02-22 15:25:59",
+    "cover": {
+      "id": 87602,
+      "name": "cover_68398546d7cd6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486001348911.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 459,
+    "title": "City hall",
+    "transcription": "The citizens gathered at city hall to protest the proposed budget cuts.",
+    "sentence": "/ˈsɪti hɔːl/",
+    "translate": "עִיריָּה",
+    "date_created": "2024-02-22 15:26:00",
+    "cover": {
+      "id": 87603,
+      "name": "cover_68398575db957.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486001819108.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 460,
+    "title": "Monument",
+    "transcription": "The Statue of Liberty is a famous monument in New York City.",
+    "sentence": "/ˈmɑːnjəmənt/",
+    "translate": "נצחון",
+    "date_created": "2024-02-22 15:26:00",
+    "cover": {
+      "id": 87604,
+      "name": "cover_683985974d361.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486002153222.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 461,
+    "title": "Statue",
+    "transcription": "The bronze statue of the famous politician stood tall in the center of the park.",
+    "sentence": "/ˈstætʃuː/",
+    "translate": "פסל",
+    "date_created": "2024-02-22 15:26:03",
+    "cover": {
+      "id": 87605,
+      "name": "cover_683985c49700e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486002606251.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 462,
+    "title": "Fountain",
+    "transcription": "The water shot high into the air from the fountain in the center of the park.",
+    "sentence": "/ˈfaʊntən/",
+    "translate": "מַעְיָן",
+    "date_created": "2024-02-22 15:26:03",
+    "cover": {
+      "id": 87606,
+      "name": "cover_683985ed1967e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486003011102.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 463,
+    "title": "Garden",
+    "transcription": "I spent the afternoon planting flowers in my garden.",
+    "sentence": "ˈɡɑːrdn",
+    "translate": "גן",
+    "date_created": "2024-02-22 15:26:04",
+    "cover": {
+      "id": 87607,
+      "name": "cover_683986147d1f2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486003405195.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 464,
+    "title": "Playground",
+    "transcription": "The children were having fun on the playground after school.",
+    "sentence": "ˈpleɪɡraʊnd",
+    "translate": "גַלְגַּל יְלָדִים",
+    "date_created": "2024-02-22 15:26:05",
+    "cover": {
+      "id": 87608,
+      "name": "cover_6839863c72381.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486003804737.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 465,
+    "title": "Parking lot",
+    "transcription": "I couldn't find a parking lot close to the mall, so I had to park on the street.",
+    "sentence": "/ˈpɑrkɪŋ lɒt/",
+    "translate": "חניון",
+    "date_created": "2024-02-22 15:26:05",
+    "cover": {
+      "id": 87609,
+      "name": "cover_68398663be23f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486004197849.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 467,
+    "title": "Skypark",
+    "transcription": "The Skypark at Marina Bay Sands offers a stunning rooftop view of Singapore's skyline.",
+    "sentence": "/ˈskaɪˌpɑrk/",
+    "translate": "סקייפארק",
+    "date_created": "2024-02-22 15:26:08",
+    "cover": {
+      "id": 87611,
+      "name": "cover_683986ba98ded.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486005066323.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

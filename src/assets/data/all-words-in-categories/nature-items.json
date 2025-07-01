@@ -1,0 +1,452 @@
+[
+  {
+    "id": 237,
+    "title": "Tree",
+    "transcription": "The tree in our backyard provides shade on hot summer days.",
+    "sentence": "triː",
+    "translate": "עֵץ",
+    "date_created": "2024-02-22 15:21:39",
+    "cover": {
+      "id": 87343,
+      "name": "cover_683963019d405.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485913616518.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 238,
+    "title": "Bush",
+    "transcription": "The family decided to go on a hike through the bush to explore the wildlife.",
+    "sentence": "/bʊʃ/",
+    "translate": "שיח",
+    "date_created": "2024-02-22 15:21:40",
+    "cover": {
+      "id": 87344,
+      "name": "cover_68396328ddd60.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485914009198.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 239,
+    "title": "Grass",
+    "transcription": "The sheep were happily grazing on the lush green grass in the meadow.",
+    "sentence": "ɡræs",
+    "translate": "דֶשֶׁא",
+    "date_created": "2024-02-22 15:21:41",
+    "cover": {
+      "id": 87345,
+      "name": "cover_6839634e9c0eb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485914386447.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 240,
+    "title": "Flower",
+    "transcription": "She picked a beautiful flower from the garden.",
+    "sentence": "ˈflaʊər",
+    "translate": "פֶּרַח",
+    "date_created": "2024-02-22 15:21:41",
+    "cover": {
+      "id": 87346,
+      "name": "cover_68396371ec996.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485914739739.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 241,
+    "title": "Leaf",
+    "transcription": "The tree's leaves turned a beautiful shade of orange in the fall.",
+    "sentence": "/liːf/",
+    "translate": "אהב",
+    "date_created": "2024-02-22 15:21:42",
+    "cover": {
+      "id": 87347,
+      "name": "cover_683963924b968.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485915063179.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 242,
+    "title": "Mountain",
+    "transcription": "They hiked to the top of the mountain to watch the sunrise.",
+    "sentence": "ˈmaʊntən",
+    "translate": "הַר",
+    "date_created": "2024-02-22 15:21:42",
+    "cover": {
+      "id": 87348,
+      "name": "cover_683963bcb60ac.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485915487583.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 243,
+    "title": "Hill",
+    "transcription": "The little boy ran up the hill to catch his kite.",
+    "sentence": "/hɪl/",
+    "translate": "גבעה",
+    "date_created": "2024-02-22 15:21:45",
+    "cover": {
+      "id": 87349,
+      "name": "cover_683963dd673d7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485915814296.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 244,
+    "title": "Lake",
+    "transcription": "We went fishing at the lake last weekend.",
+    "sentence": "/leɪk/",
+    "translate": "אגם",
+    "date_created": "2024-02-22 15:21:45",
+    "cover": {
+      "id": 87350,
+      "name": "cover_683964028d160.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485916185849.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 245,
+    "title": "River",
+    "transcription": "We went fishing in the river yesterday.",
+    "sentence": "ˈrɪvər",
+    "translate": "נָהָר",
+    "date_created": "2024-02-22 15:21:45",
+    "cover": {
+      "id": 87351,
+      "name": "cover_6839642b6b5c8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485916594476.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 246,
+    "title": "Sea",
+    "transcription": "The sound of the waves crashing against the shore gave a sense of peace and tranquility by the sea.",
+    "sentence": "siː",
+    "translate": "ים",
+    "date_created": "2024-02-22 15:21:46",
+    "cover": {
+      "id": 87352,
+      "name": "cover_683964543cc62.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485917002605.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 247,
+    "title": "Ocean",
+    "transcription": "The ocean waves were crashing against the rocks.",
+    "sentence": "ˈoʊʃən",
+    "translate": "אוקיינוס",
+    "date_created": "2024-02-22 15:21:46",
+    "cover": {
+      "id": 87353,
+      "name": "cover_6839647bdff8c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485917399231.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 248,
+    "title": "Beach",
+    "transcription": "I love walking along the beach and listening to the sound of the waves.",
+    "sentence": "biːtʃ",
+    "translate": "חוף הים",
+    "date_created": "2024-02-22 15:21:48",
+    "cover": {
+      "id": 87354,
+      "name": "cover_683964aa70f2b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485917864683.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 249,
+    "title": "Forest",
+    "transcription": "The forest was full of tall trees and chirping birds.",
+    "sentence": "/ˈfɔrɪst/",
+    "translate": "יער",
+    "date_created": "2024-02-22 15:21:49",
+    "cover": {
+      "id": 87355,
+      "name": "cover_683964d9d0efa.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485918338631.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 250,
+    "title": "Jungle",
+    "transcription": "We explored the dense jungle in search of rare plant species.",
+    "sentence": "ˈdʒʌŋɡəl",
+    "translate": "ג'ונגל",
+    "date_created": "2024-02-22 15:21:49",
+    "cover": {
+      "id": 87356,
+      "name": "cover_6839650871081.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485918804716.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 251,
+    "title": "Desert",
+    "transcription": "The camel lumbered through the hot desert, searching for water.",
+    "sentence": "ˈdez.ɚt",
+    "translate": "מדבר",
+    "date_created": "2024-02-22 15:21:50",
+    "cover": {
+      "id": 87357,
+      "name": "cover_6839652ae4789.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485919149434.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 252,
+    "title": "Sky",
+    "transcription": "The sky was clear and blue, with not a cloud in sight.",
+    "sentence": "skaɪ",
+    "translate": "שמים",
+    "date_created": "2024-02-22 15:21:50",
+    "cover": {
+      "id": 87358,
+      "name": "cover_68396553584aa.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485919553694.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 253,
+    "title": "Sun",
+    "transcription": "The sun is shining brightly in the sky.",
+    "sentence": "sʌn",
+    "translate": "שמש",
+    "date_created": "2024-02-22 15:21:52",
+    "cover": {
+      "id": 87359,
+      "name": "cover_6839658415b84.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485920040997.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 254,
+    "title": "Moon",
+    "transcription": "The moon was full and bright in the night sky.",
+    "sentence": " /muːn /",
+    "translate": "ירח",
+    "date_created": "2024-02-22 15:21:53",
+    "cover": {
+      "id": 87360,
+      "name": "cover_683965a863eac.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485920404161.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 255,
+    "title": "Star",
+    "transcription": "She wished upon a star for her dreams to come true.",
+    "sentence": "/stɑːr/",
+    "translate": "כוכב",
+    "date_created": "2024-02-22 15:21:54",
+    "cover": {
+      "id": 87361,
+      "name": "cover_683965cd1e06c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485920771281.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 256,
+    "title": "Rain",
+    "transcription": "It's raining outside, so don't forget your umbrella.",
+    "sentence": "[reɪn]",
+    "translate": "גשם",
+    "date_created": "2024-02-22 15:21:54",
+    "cover": {
+      "id": 87362,
+      "name": "cover_683965f426449.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485921161635.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 257,
+    "title": "Cloud",
+    "transcription": "The clouds in the sky were fluffy and white.",
+    "sentence": "/klaʊd/",
+    "translate": "ענן",
+    "date_created": "2024-02-22 15:21:55",
+    "cover": {
+      "id": 87363,
+      "name": "cover_683966146b3d9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485921484445.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 258,
+    "title": "Snow",
+    "transcription": "The snow was gently falling outside, covering the ground in a blanket of white.",
+    "sentence": "/snoʊ/",
+    "translate": "שלג",
+    "date_created": "2024-02-22 15:21:56",
+    "cover": {
+      "id": 87364,
+      "name": "cover_68396640304e8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485921922036.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 259,
+    "title": "Wind",
+    "transcription": "The wind was strong, blowing leaves all over the yard.",
+    "sentence": "/wɪnd/",
+    "translate": "רוּחַ",
+    "date_created": "2024-02-22 15:21:56",
+    "cover": {
+      "id": 87530,
+      "name": "cover_68397ddbbd25a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485982357819.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 260,
+    "title": "Earth",
+    "transcription": "The Earth is the third planet from the sun in our solar system.",
+    "sentence": "/ərθ/",
+    "translate": "אֶרֶץ",
+    "date_created": "2024-02-22 15:21:58",
+    "cover": {
+      "id": 87365,
+      "name": "cover_6839667c3a91e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485922522469.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 261,
+    "title": "Storm",
+    "transcription": "The storm last night caused a lot of damage to the village.",
+    "sentence": "stɔːrm",
+    "translate": "סופה",
+    "date_created": "2024-02-22 15:21:58",
+    "cover": {
+      "id": 87366,
+      "name": "cover_6839669cd2cf0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485922848692.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 262,
+    "title": "Rock",
+    "transcription": "The children played on the rock at the beach.",
+    "sentence": "rɑk",
+    "translate": "סלע",
+    "date_created": "2024-02-22 15:22:00",
+    "cover": {
+      "id": 87367,
+      "name": "cover_683966c0dc50c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485923209097.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 263,
+    "title": "Island",
+    "transcription": "He moved to a small island in the Pacific Ocean to live a simpler life.",
+    "sentence": "/ˈaɪlənd/",
+    "translate": "אי",
+    "date_created": "2024-02-22 15:22:00",
+    "cover": {
+      "id": 87368,
+      "name": "cover_683966e39182c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485923556024.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 264,
+    "title": "Volcano",
+    "transcription": "The volcano erupted, spewing ash and lava into the sky.",
+    "sentence": "/vɒlˈkeɪ.noʊ/",
+    "translate": "הר געש",
+    "date_created": "2024-02-22 15:22:00",
+    "cover": {
+      "id": 87369,
+      "name": "cover_6839670496226.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485923886221.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 265,
+    "title": "Waterfall",
+    "transcription": "The hike led us to a beautiful waterfall at the end of the trail.",
+    "sentence": "ˈwɔː.tə.fɔːl",
+    "translate": "מַפֵּל",
+    "date_created": "2024-02-22 15:22:02",
+    "cover": {
+      "id": 87370,
+      "name": "cover_6839672b98108.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485924276294.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 266,
+    "title": "Glacier",
+    "transcription": "The glacier slowly crept down the mountainside, carving a path through the valley.",
+    "sentence": "/ˈɡleɪʃər/",
+    "translate": "קרחון",
+    "date_created": "2024-02-22 15:22:02",
+    "cover": {
+      "id": 87371,
+      "name": "cover_6839675742af3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485924712798.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

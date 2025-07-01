@@ -1,0 +1,632 @@
+[
+  {
+    "id": 4,
+    "title": "Hair",
+    "transcription": "She dyed her hair blonde for the summer.",
+    "sentence": "/hɛr/",
+    "translate": "שֵׂעָר",
+    "date_created": "2024-02-22 15:17:14",
+    "cover": {
+      "id": 87036,
+      "name": "cover_683867b07acd8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485270245101.png"
+    },
+    "is_added": true,
+    "status": 2
+  },
+  {
+    "id": 5,
+    "title": "Forehead",
+    "transcription": "She wiped the sweat off her forehead after running a mile.",
+    "sentence": "/ˈfɔrˌhɛd/",
+    "translate": "מֵצַח",
+    "date_created": "2024-02-22 15:17:15",
+    "cover": {
+      "id": 87058,
+      "name": "cover_6838b72e994e0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485473746352.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 6,
+    "title": "Head",
+    "transcription": "She shook her head in disbelief.",
+    "sentence": "hed",
+    "translate": "ראש",
+    "date_created": "2024-02-22 15:17:15",
+    "cover": {
+      "id": 87059,
+      "name": "cover_6838b75281489.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485474105359.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 7,
+    "title": "Eye",
+    "transcription": "She gave him a suspicious eye.",
+    "sentence": "/aɪ/",
+    "translate": "עין",
+    "date_created": "2024-02-22 15:17:15",
+    "cover": {
+      "id": 87060,
+      "name": "cover_6838b78204497.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485474580276.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 8,
+    "title": "Eyebrow",
+    "transcription": "She raised an eyebrow in skepticism.",
+    "sentence": "/ˈaɪbraʊ/",
+    "translate": "גבה",
+    "date_created": "2024-02-22 15:17:15",
+    "cover": {
+      "id": 87061,
+      "name": "cover_6838b7a9e0119.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485474979246.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 9,
+    "title": "Eyelash",
+    "transcription": "She applied mascara to her eyelashes to make them appear longer and fuller.",
+    "sentence": "/ˈaɪˌlæʃ/",
+    "translate": "ריס",
+    "date_created": "2024-02-22 15:17:18",
+    "cover": {
+      "id": 87062,
+      "name": "cover_6838b7d19ea3c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485475376566.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 10,
+    "title": "Nose",
+    "transcription": "She could smell the delicious aroma with her nose.",
+    "sentence": "noʊz",
+    "translate": "אֹף",
+    "date_created": "2024-02-22 15:17:18",
+    "cover": {
+      "id": 87063,
+      "name": "cover_6838b7f6b21ec.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485475747363.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 25,
+    "title": "Cheek",
+    "transcription": "She planted a soft kiss on his cheek.",
+    "sentence": "/tʃiːk/",
+    "translate": "לחי",
+    "date_created": "2024-02-22 15:18:30",
+    "cover": {
+      "id": 87078,
+      "name": "cover_6838ba2ae18e1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485481389308.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 26,
+    "title": "Ear",
+    "transcription": "She whispered something in his ear.",
+    "sentence": "ɪr",
+    "translate": "אוזן",
+    "date_created": "2024-02-22 15:18:30",
+    "cover": {
+      "id": 87079,
+      "name": "cover_6838ba525197f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485481783414.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 27,
+    "title": "Mouth",
+    "transcription": "She had a big smile on her mouth.",
+    "sentence": "/maʊθ/",
+    "translate": "פה",
+    "date_created": "2024-02-22 15:18:31",
+    "cover": {
+      "id": 87080,
+      "name": "cover_6838ba7ea6a65.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485482226898.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 28,
+    "title": "Lip",
+    "transcription": "She applied some lip balm to soothe her chapped lips.",
+    "sentence": "/lɪp/",
+    "translate": "שפה",
+    "date_created": "2024-02-22 15:18:32",
+    "cover": {
+      "id": 87081,
+      "name": "cover_6838baa7ed496.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485482639783.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 29,
+    "title": "Tongue",
+    "transcription": "She burned her tongue on the hot coffee.",
+    "sentence": "tʌŋ",
+    "translate": "לָשׁוֹן",
+    "date_created": "2024-02-22 15:18:33",
+    "cover": {
+      "id": 87082,
+      "name": "cover_6838bad1d4ab0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485483058776.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 30,
+    "title": "Tooth (Teeth)",
+    "transcription": "I need to brush my teeth before going to bed.",
+    "sentence": "/tuːθ/ (singular) /tiːθ/ (plural)",
+    "translate": "שֵׁן (שִׁנַיִם)",
+    "date_created": "2024-02-22 15:18:33",
+    "cover": {
+      "id": 87083,
+      "name": "cover_6838baf3d0ad3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485483398608.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 31,
+    "title": "Chin",
+    "transcription": "She rested her chin on her hand while thinking.",
+    "sentence": "/tʃɪn/",
+    "translate": "סַנְטֶר",
+    "date_created": "2024-02-22 15:18:35",
+    "cover": {
+      "id": 87084,
+      "name": "cover_6838bb1c7fd14.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485483805301.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 32,
+    "title": "Shoulder",
+    "transcription": "She wore a green dress that had cut-out shoulders.",
+    "sentence": "ˈʃoʊl.dər",
+    "translate": "כתף",
+    "date_created": "2024-02-22 15:18:35",
+    "cover": {
+      "id": 87085,
+      "name": "cover_6838bb558a139.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485484375726.png"
+    },
+    "is_added": true,
+    "status": 3
+  },
+  {
+    "id": 33,
+    "title": "Neck",
+    "transcription": "She wore a scarf around her neck to keep warm.",
+    "sentence": "/nɛk/",
+    "translate": "צוואר",
+    "date_created": "2024-02-22 15:18:35",
+    "cover": {
+      "id": 87086,
+      "name": "cover_6838bb7960d22.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485484734046.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 34,
+    "title": "Arm",
+    "transcription": "She injured her arm playing tennis.",
+    "sentence": "/ɑrm/",
+    "translate": "זרוע",
+    "date_created": "2024-02-22 15:18:35",
+    "cover": {
+      "id": 87087,
+      "name": "cover_6838bba246866.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485485142945.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 35,
+    "title": "Elbow",
+    "transcription": "He accidentally bumped his elbow against the door frame.",
+    "sentence": "ˈɛlboʊ",
+    "translate": "מרפק",
+    "date_created": "2024-02-22 15:18:36",
+    "cover": {
+      "id": 87088,
+      "name": "cover_6838bbce31342.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485485582079.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 36,
+    "title": "Wrist",
+    "transcription": "She wore a beautiful bracelet on her wrist.",
+    "sentence": "rɪst",
+    "translate": "מַרְפֵּק",
+    "date_created": "2024-02-22 15:18:36",
+    "cover": {
+      "id": 87089,
+      "name": "cover_6838bbfa02d25.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485486020180.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 37,
+    "title": "Hand",
+    "transcription": "She gently placed the ring in his hand.",
+    "sentence": "hænd",
+    "translate": "יד",
+    "date_created": "2024-02-22 15:18:38",
+    "cover": {
+      "id": 87090,
+      "name": "cover_6838bc1bc2ddf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485486358044.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 38,
+    "title": "Finger",
+    "transcription": "She cut her finger while chopping vegetables.",
+    "sentence": "/ˈfɪŋɡər/",
+    "translate": "אצבע",
+    "date_created": "2024-02-22 15:18:39",
+    "cover": {
+      "id": 87296,
+      "name": "cover_68395b99aa125.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485894657031.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 39,
+    "title": "Thumb",
+    "transcription": "She sucked her thumb while watching TV.",
+    "sentence": "/θʌm/",
+    "translate": "אגודל",
+    "date_created": "2024-02-22 15:18:39",
+    "cover": {
+      "id": 87091,
+      "name": "cover_6838bc62df7bb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485487069211.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 40,
+    "title": "Nail",
+    "transcription": "She painted her nails with a bright red polish for the party.",
+    "sentence": "/neɪl/",
+    "translate": "מסמר",
+    "date_created": "2024-02-22 15:18:39",
+    "cover": {
+      "id": 87092,
+      "name": "cover_6838bc87bba0b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485487437746.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 41,
+    "title": "Chest",
+    "transcription": "He placed the heavy box on the chest at the foot of the bed.",
+    "sentence": "tʃɛst",
+    "translate": "חזה",
+    "date_created": "2024-02-22 15:18:39",
+    "cover": {
+      "id": 87093,
+      "name": "cover_6838bca84d729.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485487763239.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 42,
+    "title": "Stomach",
+    "transcription": "She had a stomach ache after eating too much ice cream.",
+    "sentence": "/ˈstʌmək/",
+    "translate": "בטן",
+    "date_created": "2024-02-22 15:18:40",
+    "cover": {
+      "id": 87094,
+      "name": "cover_6838bcdbc4984.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485488278123.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 43,
+    "title": "Back",
+    "transcription": "I hurt my back while lifting a heavy box.",
+    "sentence": "bæk",
+    "translate": "חָזַר",
+    "date_created": "2024-02-22 15:18:40",
+    "cover": {
+      "id": 87095,
+      "name": "cover_6838bd0771999.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485488714721.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 44,
+    "title": "Waist",
+    "transcription": "She wrapped a belt around her waist to cinch the dress.",
+    "sentence": "/weɪst/",
+    "translate": "מותניים",
+    "date_created": "2024-02-22 15:18:42",
+    "cover": {
+      "id": 87096,
+      "name": "cover_6838bd304846c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485489123033.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 45,
+    "title": "Leg",
+    "transcription": "She injured her leg while running in the park.",
+    "sentence": "leɡ",
+    "translate": "רגל",
+    "date_created": "2024-02-22 15:18:43",
+    "cover": {
+      "id": 87097,
+      "name": "cover_6838bd565e342.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485489503912.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 46,
+    "title": "Knee",
+    "transcription": "She fell down and hurt her knee while playing soccer.",
+    "sentence": "/niː/",
+    "translate": "ברך",
+    "date_created": "2024-02-22 15:18:43",
+    "cover": {
+      "id": 87098,
+      "name": "cover_6838bd7f9cb30.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485489916486.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 47,
+    "title": "Thigh",
+    "transcription": "She pulled her skirt up, revealing a long scar on her right thigh.",
+    "sentence": " /θaɪ/ ",
+    "translate": "ירך",
+    "date_created": "2024-02-22 15:18:43",
+    "cover": {
+      "id": 87099,
+      "name": "cover_6838bdaf57961.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485490393650.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 48,
+    "title": "Hip",
+    "transcription": "She hurt her hip while dancing.",
+    "sentence": "/hɪp/",
+    "translate": "ירך",
+    "date_created": "2024-02-22 15:18:43",
+    "cover": {
+      "id": 87100,
+      "name": "cover_6838bdd787cf2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485490795629.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 49,
+    "title": "Ankle",
+    "transcription": "She sprained her ankle while playing soccer.",
+    "sentence": "/ˈæŋ.kəl/",
+    "translate": "קַרְסָל",
+    "date_created": "2024-02-22 15:18:44",
+    "cover": {
+      "id": 87101,
+      "name": "cover_6838bdfa05d6e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485491140294.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 50,
+    "title": "Toe",
+    "transcription": "He stubbed his toe on the table.",
+    "sentence": "/toʊ/",
+    "translate": "אֶצְבַּע רֶגֶל",
+    "date_created": "2024-02-22 15:18:47",
+    "cover": {
+      "id": 87102,
+      "name": "cover_6838be1b0b03b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485491470512.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 51,
+    "title": "Heart",
+    "transcription": "Her heart was pounding as she waited for the test results.",
+    "sentence": "hɑrt",
+    "translate": "לֵב",
+    "date_created": "2024-02-22 15:18:47",
+    "cover": {
+      "id": 87103,
+      "name": "cover_6838be44ed63c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485491889787.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 52,
+    "title": "Lung",
+    "transcription": "She was having trouble breathing because of a blockage in her lung.",
+    "sentence": "/lʌŋ/",
+    "translate": "רִיאָה",
+    "date_created": "2024-02-22 15:18:47",
+    "cover": {
+      "id": 87104,
+      "name": "cover_6838be6b6fdc7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485492274646.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 53,
+    "title": "Liver",
+    "transcription": "Eating too much fatty food can harm your liver.",
+    "sentence": "/ˈlɪvər/",
+    "translate": "כבד",
+    "date_created": "2024-02-22 15:18:48",
+    "cover": {
+      "id": 87105,
+      "name": "cover_6838be9af2d7a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485492750019.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 54,
+    "title": "Kidney",
+    "transcription": "Her doctor told her that she had a kidney infection.",
+    "sentence": "ˈkɪdni",
+    "translate": "כליון",
+    "date_created": "2024-02-22 15:18:48",
+    "cover": {
+      "id": 87106,
+      "name": "cover_6838bec4a516b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485493166821.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 55,
+    "title": "Brain",
+    "transcription": "The brain is the most complex part of the human body.",
+    "sentence": "breɪn",
+    "translate": "מוֹח",
+    "date_created": "2024-02-22 15:18:49",
+    "cover": {
+      "id": 87297,
+      "name": "cover_68395bc44c431.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485895083241.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 56,
+    "title": "Intestine",
+    "transcription": "The food travels through the small intestine where most of the nutrients are absorbed.",
+    "sentence": "ɪnˈtɛstɪn",
+    "translate": "מעי",
+    "date_created": "2024-02-22 15:18:51",
+    "cover": {
+      "id": 87107,
+      "name": "cover_6838bf14318ca.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485493962085.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 57,
+    "title": "Skin",
+    "transcription": "She has sensitive skin that easily gets sunburned.",
+    "sentence": "/skɪn/",
+    "translate": "עור",
+    "date_created": "2024-02-22 15:18:52",
+    "cover": {
+      "id": 87108,
+      "name": "cover_6838bf3eb5ba4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485494387544.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 58,
+    "title": "Muscle",
+    "transcription": "He strained a muscle in his leg while running.",
+    "sentence": "/ˈmʌsəl/",
+    "translate": "שריר",
+    "date_created": "2024-02-22 15:18:52",
+    "cover": {
+      "id": 87109,
+      "name": "cover_6838bf6828bef.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485494801733.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 59,
+    "title": "Bone",
+    "transcription": "The doctor said the patient had a broken bone in his leg.",
+    "sentence": "bohn",
+    "translate": "עֶצֶם",
+    "date_created": "2024-02-22 15:18:53",
+    "cover": {
+      "id": 87110,
+      "name": "cover_6838bf917fda4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485495215294.png"
+    },
+    "is_added": true,
+    "status": 1
+  }
+]

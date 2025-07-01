@@ -1,0 +1,707 @@
+[
+  {
+    "id": 687,
+    "title": "Soccer",
+    "transcription": "I love playing soccer with my friends on the weekends.",
+    "sentence": "/ˈsɑkər/",
+    "translate": "כדורגל",
+    "date_created": "2024-02-22 15:29:17",
+    "cover": {
+      "id": 87842,
+      "name": "cover_6839aa7098d97.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486096486323.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 688,
+    "title": "Basketball",
+    "transcription": "I love to play basketball with my friends at the park.",
+    "sentence": "ˈbæs.kɪtˌbɔːl",
+    "translate": "כדורסל",
+    "date_created": "2024-02-22 15:29:17",
+    "cover": {
+      "id": 87843,
+      "name": "cover_6839aa976bc22.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486096874515.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 689,
+    "title": "Volleyball",
+    "transcription": "She's been playing volleyball since high school and is now on the college team.",
+    "sentence": "/ˈvɑliˌbɔl/",
+    "translate": "כדורעף",
+    "date_created": "2024-02-22 15:29:18",
+    "cover": {
+      "id": 87844,
+      "name": "cover_6839aac75ff09.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486097354092.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 690,
+    "title": "Tennis",
+    "transcription": "I enjoy playing tennis with my friends on weekends.",
+    "sentence": "/ˈtɛnɪs/",
+    "translate": "טניס",
+    "date_created": "2024-02-22 15:29:18",
+    "cover": {
+      "id": 87845,
+      "name": "cover_6839aaf1764a4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486097774901.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 691,
+    "title": "Golf",
+    "transcription": "He enjoyed spending his weekends playing golf with his friends.",
+    "sentence": "ɡɒlf",
+    "translate": "גולף",
+    "date_created": "2024-02-22 15:29:18",
+    "cover": {
+      "id": 87846,
+      "name": "cover_6839ab1cabb27.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486098207120.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 692,
+    "title": "Baseball",
+    "transcription": "I'm going to the ballpark to watch a baseball game tonight.",
+    "sentence": "/ˈbeɪsˌbɔl/",
+    "translate": "בייסבול",
+    "date_created": "2024-02-22 15:29:20",
+    "cover": {
+      "id": 87847,
+      "name": "cover_6839ab4ae30ca.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486098669365.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 693,
+    "title": "Rugby",
+    "transcription": "He used to play rugby in college.",
+    "sentence": "/ˈrʌɡbi/",
+    "translate": "רֻגבי",
+    "date_created": "2024-02-22 15:29:21",
+    "cover": {
+      "id": 87849,
+      "name": "cover_6839ab78ceeaf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486099128545.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 694,
+    "title": "Cricket",
+    "transcription": "I enjoy playing cricket with my friends on the weekends.",
+    "sentence": "/ˈkrɪkɪt/",
+    "translate": "קריקט",
+    "date_created": "2024-02-22 15:29:21",
+    "cover": {
+      "id": 87850,
+      "name": "cover_6839ab9e08a76.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486099500414.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 695,
+    "title": "Football",
+    "transcription": "I love playing football with my friends on the weekends.",
+    "sentence": "/ˈfʊtˌbɔl/",
+    "translate": "כַדוּרגַל",
+    "date_created": "2024-02-22 15:29:21",
+    "cover": {
+      "id": 87851,
+      "name": "cover_6839abbd2f2bf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486099811993.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 696,
+    "title": "Hockey",
+    "transcription": "I love playing hockey with my friends on the weekends.",
+    "sentence": "/ˈhɒki/",
+    "translate": "הוקי",
+    "date_created": "2024-02-22 15:29:22",
+    "cover": {
+      "id": 87852,
+      "name": "cover_6839abe183d97.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486100175464.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 697,
+    "title": "Ice hockey",
+    "transcription": "I enjoy watching ice hockey games with my friends.",
+    "sentence": "aɪs ˈhɒki",
+    "translate": "הוקי קרח",
+    "date_created": "2024-02-22 15:29:22",
+    "cover": {
+      "id": 87853,
+      "name": "cover_6839ac0c948e9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486100606165.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 698,
+    "title": "Diving",
+    "transcription": "He enjoys diving into the deep blue ocean to explore marine life.",
+    "sentence": "/ˈdaɪvɪŋ/",
+    "translate": "צלילה",
+    "date_created": "2024-02-22 15:29:23",
+    "cover": {
+      "id": 87854,
+      "name": "cover_6839ac395465c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486101053533.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 699,
+    "title": "Jogging",
+    "transcription": "She goes jogging in the park every morning to stay fit.",
+    "sentence": "/ˈdʒɑːɡɪŋ/",
+    "translate": "ריצה",
+    "date_created": "2024-02-22 15:29:25",
+    "cover": {
+      "id": 87855,
+      "name": "cover_6839ac5f568ca.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486101433605.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 700,
+    "title": "Climbing",
+    "transcription": "She always enjoyed climbing mountains during her summer vacations.",
+    "sentence": "/ˈklaɪmɪŋ/",
+    "translate": "טיפוס",
+    "date_created": "2024-02-22 15:29:25",
+    "cover": {
+      "id": 87856,
+      "name": "cover_6839ac8b7ec76.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486101875260.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 701,
+    "title": "Pilates",
+    "transcription": "She attends Pilates classes three times a week to improve her flexibility and core strength.",
+    "sentence": "/pɪˈlɑːtiːz/",
+    "translate": "פילאטיס",
+    "date_created": "2024-02-22 15:29:25",
+    "cover": {
+      "id": 87857,
+      "name": "cover_6839acb7e1dca.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486102319345.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 702,
+    "title": "Bodybuilding",
+    "transcription": "He spends hours at the gym every day, working on his bodybuilding routine.",
+    "sentence": "ˈbɒdiˌbɪldɪŋ",
+    "translate": "בּוֹדִיבִילדִינג",
+    "date_created": "2024-02-22 15:29:26",
+    "cover": {
+      "id": 87858,
+      "name": "cover_6839aceaed2d7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486102829792.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 703,
+    "title": "Aerobics",
+    "transcription": "I'm going to an aerobics class after work to get some exercise.",
+    "sentence": "ˌɛr.oʊˈbɪks",
+    "translate": "אֵירוֹבִּיקָה",
+    "date_created": "2024-02-22 15:29:26",
+    "cover": {
+      "id": 87859,
+      "name": "cover_6839ad16234c7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486103261572.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 704,
+    "title": "Zumba",
+    "transcription": "I had so much fun at the Zumba class yesterday!",
+    "sentence": "/ˈzuːmbə/",
+    "translate": "זומבה",
+    "date_created": "2024-02-22 15:29:27",
+    "cover": {
+      "id": 87860,
+      "name": "cover_6839ad3fdd8f7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486103679146.png"
+    },
+    "is_added": true,
+    "status": 1
+  },
+  {
+    "id": 705,
+    "title": "Wrestling",
+    "transcription": "He has been training in wrestling for over ten years.",
+    "sentence": "/ˈrɛslɪŋ/",
+    "translate": "הֵימוּנוּת",
+    "date_created": "2024-02-22 15:29:28",
+    "cover": {
+      "id": 87861,
+      "name": "cover_6839ad6c55bae.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486104123590.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 706,
+    "title": "Judo",
+    "transcription": "She started taking judo classes to learn self-defense.",
+    "sentence": "ˈdʒuːdoʊ",
+    "translate": "ג'ודו",
+    "date_created": "2024-02-22 15:29:29",
+    "cover": {
+      "id": 88201,
+      "name": "cover_684064594af37.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490504573138.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 707,
+    "title": "Karate",
+    "transcription": "He has been practicing Karate for over five years and has earned a black belt.",
+    "sentence": "/kəˈrɑːti/",
+    "translate": "קאראטה",
+    "date_created": "2024-02-22 15:29:29",
+    "cover": {
+      "id": 87862,
+      "name": "cover_6839adae3cf4a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486104782574.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 708,
+    "title": "Taekwondo",
+    "transcription": "She has been practicing Taekwondo for over 10 years.",
+    "sentence": "ˌtaɪˈkwɒn doʊ",
+    "translate": "טאקוונדו",
+    "date_created": "2024-02-22 15:29:29",
+    "cover": {
+      "id": 87863,
+      "name": "cover_6839add595e1c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486105176202.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 709,
+    "title": "Archery",
+    "transcription": "She practiced archery every weekend at the local range.",
+    "sentence": "/ˈɑːrtʃəri/",
+    "translate": "קֶשֶׁת",
+    "date_created": "2024-02-22 15:29:31",
+    "cover": {
+      "id": 87864,
+      "name": "cover_6839adffd213a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486105598676.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 710,
+    "title": "Fencing",
+    "transcription": "He trained for years to compete in fencing competitions.",
+    "sentence": "/ˈfɛnsɪŋ/",
+    "translate": "מחיתון",
+    "date_created": "2024-02-22 15:29:31",
+    "cover": {
+      "id": 87865,
+      "name": "cover_6839ae266150c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486105984127.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 711,
+    "title": "Horse riding",
+    "transcription": "She enjoyed horse riding in the countryside.",
+    "sentence": "ˈhɔːrs ˈraɪdɪŋ",
+    "translate": "רכיבה על סוסים",
+    "date_created": "2024-02-22 15:29:32",
+    "cover": {
+      "id": 87867,
+      "name": "cover_6839ae53a48b1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486106436808.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 712,
+    "title": "Dance",
+    "transcription": "She loves to dance salsa on the weekends.",
+    "sentence": "dæns",
+    "translate": "ריקוד",
+    "date_created": "2024-02-22 15:29:33",
+    "cover": {
+      "id": 87868,
+      "name": "cover_6839ae76d02b2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486106788590.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 713,
+    "title": "Table tennis",
+    "transcription": "I play table tennis with my friends every weekend.",
+    "sentence": "/ˈteɪbəl ˈtɛnɪs/",
+    "translate": "טניס שולחן",
+    "date_created": "2024-02-22 15:29:34",
+    "cover": {
+      "id": 88202,
+      "name": "cover_6840647b07b9d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490504910423.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 714,
+    "title": "Squash",
+    "transcription": "She made a delicious butternut squash soup for dinner.",
+    "sentence": "/skwɒʃ/",
+    "translate": "קישוא",
+    "date_created": "2024-02-22 15:29:35",
+    "cover": {
+      "id": 88203,
+      "name": "cover_684064a2bffb5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490505307932.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 715,
+    "title": "Badminton",
+    "transcription": "She enjoys playing badminton in the park with her friends.",
+    "sentence": "ˈbædˌmɪntən",
+    "translate": "באדמינטון",
+    "date_created": "2024-02-22 15:29:35",
+    "cover": {
+      "id": 88204,
+      "name": "cover_684064c8c31e0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490505688079.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 716,
+    "title": "Bowling",
+    "transcription": "I went bowling with my friends last night and had a great time.",
+    "sentence": "/ˈboʊlɪŋ/",
+    "translate": "בולינג",
+    "date_created": "2024-02-22 15:29:36",
+    "cover": {
+      "id": 88205,
+      "name": "cover_684064eeb0d05.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490506067315.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 717,
+    "title": "Golfing",
+    "transcription": "He enjoys golfing on the weekends with his friends.",
+    "sentence": "/ˈɡɒlfɪŋ/",
+    "translate": "גולף",
+    "date_created": "2024-02-22 15:29:36",
+    "cover": {
+      "id": 88206,
+      "name": "cover_6840651e4cbc4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490506543198.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 718,
+    "title": "Gym",
+    "transcription": "I go to the gym every morning before work to stay in shape.",
+    "sentence": "dʒɪm",
+    "translate": "מכון כושר",
+    "date_created": "2024-02-22 15:29:36",
+    "cover": {
+      "id": 88207,
+      "name": "cover_6840654bbcacb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490506997797.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 719,
+    "title": "Treadmill",
+    "transcription": "She uses the treadmill at the gym for her daily cardio workout.",
+    "sentence": "/ˈtredˌmɪl/",
+    "translate": "סורג דרך",
+    "date_created": "2024-02-22 15:29:37",
+    "cover": {
+      "id": 88208,
+      "name": "cover_68406576032ea.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490507420198.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 720,
+    "title": "Elliptical",
+    "transcription": "She used the elliptical machine at the gym for her cardio workout.",
+    "sentence": "/ɪˈlɪptɪkl/",
+    "translate": "אֱלִיפְטִי",
+    "date_created": "2024-02-22 15:29:39",
+    "cover": {
+      "id": 88209,
+      "name": "cover_684065a06a925.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490507844420.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 721,
+    "title": "Exercise bike",
+    "transcription": "She decided to start using her exercise bike to get in shape for summer.",
+    "sentence": "ˈɛksərˌsaɪz baɪk",
+    "translate": "אופני כושר",
+    "date_created": "2024-02-22 15:29:39",
+    "cover": {
+      "id": 88211,
+      "name": "cover_684065cb5d652.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490508273892.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 722,
+    "title": "Dumbbell",
+    "transcription": "She used the dumbbell for her arm workout at the gym.",
+    "sentence": "/ˈdʌmˌbɛl/",
+    "translate": "מֵתֵפַת",
+    "date_created": "2024-02-22 15:29:39",
+    "cover": {
+      "id": 88212,
+      "name": "cover_684065f5b1146.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490508697311.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 723,
+    "title": "Barbell",
+    "transcription": "She added more weight to the barbell before starting her next set of squats.",
+    "sentence": "/ˈbɑːrˌbɛl/",
+    "translate": "מֵתֶק",
+    "date_created": "2024-02-22 15:29:40",
+    "cover": {
+      "id": 88213,
+      "name": "cover_68406616bbf1a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490509027751.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 724,
+    "title": "Kettlebell",
+    "transcription": "She completed her workout with a set of kettlebell swings.",
+    "sentence": "/ˈkɛtlˌbɛl/",
+    "translate": "כדור פלדה",
+    "date_created": "2024-02-22 15:29:40",
+    "cover": {
+      "id": 88214,
+      "name": "cover_6840663de138a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490509419312.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 725,
+    "title": "Medicine ball",
+    "transcription": "She uses a medicine ball to strengthen her core muscles during her workout.",
+    "sentence": "/ˈmɛdəsən bɔːl/",
+    "translate": "כדור רפואי",
+    "date_created": "2024-02-22 15:29:40",
+    "cover": {
+      "id": 88215,
+      "name": "cover_6840666299043.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490509786356.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 727,
+    "title": "Fitness tracker",
+    "transcription": "She uses her fitness tracker to monitor her daily steps and calories burned.",
+    "sentence": "ˈfɪtnəs ˈtrækər",
+    "translate": "מעקב כושר",
+    "date_created": "2024-02-22 15:29:41",
+    "cover": {
+      "id": 88217,
+      "name": "cover_684066b9273ae.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490510651726.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 728,
+    "title": "Yoga mat",
+    "transcription": "She unrolled her yoga mat and began her daily practice.",
+    "sentence": "ˈjoʊɡə mæt",
+    "translate": "שטיח יוגה",
+    "date_created": "2024-02-22 15:29:43",
+    "cover": {
+      "id": 88218,
+      "name": "cover_684066e38a4f7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490511075731.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 729,
+    "title": "Resistance bands",
+    "transcription": "She uses resistance bands in her home workouts to add extra strength training.",
+    "sentence": "rɪˈzɪstəns bændz",
+    "translate": "רצועות התנגדות",
+    "date_created": "2024-02-22 15:29:44",
+    "cover": {
+      "id": 88219,
+      "name": "cover_6840671082f5d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490511525435.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 730,
+    "title": "Swimming pool",
+    "transcription": "I love going to the swimming pool to cool off in the summer.",
+    "sentence": "ˈswɪmɪŋ puːl",
+    "translate": "בריכה",
+    "date_created": "2024-02-22 15:29:44",
+    "cover": {
+      "id": 88220,
+      "name": "cover_68406739d81fd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490511938925.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 731,
+    "title": "Skate park",
+    "transcription": "The skate park is a popular spot for skateboarders to practice their tricks.",
+    "sentence": "/ˈskeɪt pɑːrk/",
+    "translate": "גן סקייטבורד",
+    "date_created": "2024-02-22 15:29:45",
+    "cover": {
+      "id": 88221,
+      "name": "cover_6840675e8c39c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490512305806.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 732,
+    "title": "Ski resort",
+    "transcription": "We decided to spend the weekend at a ski resort in the mountains.",
+    "sentence": "ski ˈrizɔrt",
+    "translate": "פארק שקי",
+    "date_created": "2024-02-22 15:29:45",
+    "cover": {
+      "id": 88222,
+      "name": "cover_68406784b1185.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490512687349.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 733,
+    "title": "Sports field",
+    "transcription": "The soccer team practiced on the sports field after school.",
+    "sentence": "ˈspɔrts fiːld",
+    "translate": "שדה ספורט",
+    "date_created": "2024-02-22 15:29:45",
+    "cover": {
+      "id": 88223,
+      "name": "cover_684067aa67adf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490513064317.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 734,
+    "title": "Running track",
+    "transcription": "I jog around the running track at the park every morning to stay in shape.",
+    "sentence": "ˈrʌnɪŋ træk",
+    "translate": "מסלול הרצה",
+    "date_created": "2024-02-22 15:29:45",
+    "cover": {
+      "id": 88224,
+      "name": "cover_684067cc54512.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490513403528.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

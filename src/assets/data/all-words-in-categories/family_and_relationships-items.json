@@ -1,0 +1,767 @@
+[
+  {
+    "id": 149,
+    "title": "Mother",
+    "transcription": "My mother baked a delicious cake for my birthday.",
+    "sentence": "/ˈmʌðər/",
+    "translate": "אמא",
+    "date_created": "2024-02-22 15:20:19",
+    "cover": {
+      "id": 87200,
+      "name": "cover_6838cd518e669.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485530415905.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 150,
+    "title": "Father",
+    "transcription": "My father taught me how to ride a bike when I was a child.",
+    "sentence": "ˈfɑːðər",
+    "translate": "אב",
+    "date_created": "2024-02-22 15:20:20",
+    "cover": {
+      "id": 87201,
+      "name": "cover_6838cd7d77906.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485530854968.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 151,
+    "title": "Son",
+    "transcription": "His son was very excited to start school.",
+    "sentence": "/sʌn/",
+    "translate": "בן",
+    "date_created": "2024-02-22 15:20:22",
+    "cover": {
+      "id": 87202,
+      "name": "cover_6838cda0a5fbf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485531206862.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 152,
+    "title": "Parent",
+    "transcription": "My parents are coming to visit next weekend.",
+    "sentence": "ˈpɛrənt",
+    "translate": "הורה",
+    "date_created": "2024-02-22 15:20:22",
+    "cover": {
+      "id": 87203,
+      "name": "cover_6838cdc8a5486.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485531606845.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 153,
+    "title": "Child (Children)",
+    "transcription": "The children were playing in the park.",
+    "sentence": "ˈtʃaɪld (ˈtʃɪldrən)",
+    "translate": "ילד",
+    "date_created": "2024-02-22 15:20:23",
+    "cover": {
+      "id": 87204,
+      "name": "cover_6838cdf61f2f3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485532061348.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 154,
+    "title": "Daughter",
+    "transcription": "She is the oldest daughter in the family.",
+    "sentence": "ˈdɔːtər",
+    "translate": "בת",
+    "date_created": "2024-02-22 15:20:23",
+    "cover": {
+      "id": 87205,
+      "name": "cover_6838ce20b4ce1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485532487476.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 155,
+    "title": "Brother",
+    "transcription": "My brother and I are going to the movies tonight.",
+    "sentence": "/ˈbrʌðər/",
+    "translate": "אָח",
+    "date_created": "2024-02-22 15:20:24",
+    "cover": {
+      "id": 87206,
+      "name": "cover_6838ce4e79104.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485532945025.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 156,
+    "title": "Sister",
+    "transcription": "My sister is younger than me.",
+    "sentence": "/ˈsɪstər/",
+    "translate": "אחות",
+    "date_created": "2024-02-22 15:20:26",
+    "cover": {
+      "id": 87207,
+      "name": "cover_6838ce7bb6636.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485533397545.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 157,
+    "title": "Grandmother",
+    "transcription": "My grandmother always tells the best stories from her youth.",
+    "sentence": "ˈɡræn(d)ˌmʌðər",
+    "translate": "סבתא",
+    "date_created": "2024-02-22 15:20:27",
+    "cover": {
+      "id": 87208,
+      "name": "cover_6838cea9e950c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485533859628.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 158,
+    "title": "Grandfather",
+    "transcription": "My grandfather told me stories about his childhood.",
+    "sentence": "/ˈɡrændˌfɑːðər/",
+    "translate": "סבא",
+    "date_created": "2024-02-22 15:20:27",
+    "cover": {
+      "id": 87209,
+      "name": "cover_6838ced91426a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485534330901.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 159,
+    "title": "Grandparents",
+    "transcription": "I love spending time with my grandparents during the holidays.",
+    "sentence": "/ˈɡrændˌperənts/",
+    "translate": "סבים וסבתות",
+    "date_created": "2024-02-22 15:20:28",
+    "cover": {
+      "id": 87212,
+      "name": "cover_6838ceffe6787.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485534719521.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 160,
+    "title": "Grandson",
+    "transcription": "My grandson is coming to stay with us for the weekend.",
+    "sentence": "ˈɡrænsʌn",
+    "translate": "נכד",
+    "date_created": "2024-02-22 15:20:28",
+    "cover": {
+      "id": 87213,
+      "name": "cover_6838cf2bf33f2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485535160051.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 161,
+    "title": "Granddaughter",
+    "transcription": "My granddaughter just turned six years old.",
+    "sentence": "/ˈɡrændˌdɔːtər/",
+    "translate": "נכדה",
+    "date_created": "2024-02-22 15:20:30",
+    "cover": {
+      "id": 87214,
+      "name": "cover_6838cf564a3bb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485535583115.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 162,
+    "title": "Aunt",
+    "transcription": "My aunt is coming over for dinner tonight.",
+    "sentence": "/ænt/",
+    "translate": "דודה",
+    "date_created": "2024-02-22 15:20:30",
+    "cover": {
+      "id": 87215,
+      "name": "cover_6838cf7d809b4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485535975336.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 163,
+    "title": "Uncle",
+    "transcription": "My Uncle John is visiting us this weekend.",
+    "sentence": "ˈʌŋkəl",
+    "translate": "דוד",
+    "date_created": "2024-02-22 15:20:31",
+    "cover": {
+      "id": 87216,
+      "name": "cover_6838cfa920a45.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485536411411.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 164,
+    "title": "Cousin",
+    "transcription": "My cousin is visiting us this weekend.",
+    "sentence": "/ˈkʌzən/",
+    "translate": "בן דוד/בת דוד",
+    "date_created": "2024-02-22 15:20:33",
+    "cover": {
+      "id": 87217,
+      "name": "cover_6838cfd2ece6b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485536829795.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 165,
+    "title": "Nephew",
+    "transcription": "My nephew, who is six years old, is coming to visit us next weekend.",
+    "sentence": "ˈnɛfjuː",
+    "translate": "בֶּן-אָח",
+    "date_created": "2024-02-22 15:20:34",
+    "cover": {
+      "id": 87218,
+      "name": "cover_6838cff960ee5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485537214057.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 166,
+    "title": "Niece",
+    "transcription": "My niece is coming over for dinner tonight.",
+    "sentence": "niːs",
+    "translate": "נית",
+    "date_created": "2024-02-22 15:20:34",
+    "cover": {
+      "id": 87219,
+      "name": "cover_6838d02b97495.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485537716261.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 167,
+    "title": "Husband",
+    "transcription": "My husband surprised me with flowers on our anniversary.",
+    "sentence": "/ˈhʌzbənd/",
+    "translate": "בעל",
+    "date_created": "2024-02-22 15:20:36",
+    "cover": {
+      "id": 87220,
+      "name": "cover_6838d04fe1f37.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485538079322.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 168,
+    "title": "Wife",
+    "transcription": "My wife and I are going on a vacation next week.",
+    "sentence": "/waɪf/",
+    "translate": "אישה",
+    "date_created": "2024-02-22 15:20:36",
+    "cover": {
+      "id": 87221,
+      "name": "cover_6838d075741ee.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485538454828.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 169,
+    "title": "Spouse",
+    "transcription": "My spouse and I have been married for ten years.",
+    "sentence": "/spaʊs/",
+    "translate": "בַּעְלַת אוֹ בַּעַל",
+    "date_created": "2024-02-22 15:20:38",
+    "cover": {
+      "id": 87222,
+      "name": "cover_6838d0a3ec36e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485538919750.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 170,
+    "title": "Partner",
+    "transcription": "She is my business partner and we work on projects together.",
+    "sentence": "ˈpɑːrtnər",
+    "translate": "שותף",
+    "date_created": "2024-02-22 15:20:39",
+    "cover": {
+      "id": 87223,
+      "name": "cover_6838d0ccc0b83.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485539327969.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 171,
+    "title": "Fiancé",
+    "transcription": "My fiancé and I are getting married next month.",
+    "sentence": "ˌfiːˈɑːnˌseɪ",
+    "translate": "חֲתָן",
+    "date_created": "2024-02-22 15:20:39",
+    "cover": {
+      "id": 87224,
+      "name": "cover_6838d0f37a7fe.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485539715088.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 172,
+    "title": "Fiancée",
+    "transcription": "He proposed to his fiancée on a romantic trip to Paris.",
+    "sentence": "/ˌfiː.ɑːnˈseɪ/",
+    "translate": "אִרוּסִין",
+    "date_created": "2024-02-22 15:20:40",
+    "cover": {
+      "id": 87225,
+      "name": "cover_6838d1162e59c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485540061969.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 173,
+    "title": "Boyfriend",
+    "transcription": "My boyfriend surprised me with flowers on our anniversary.",
+    "sentence": "ˈbɔɪˌfrɛnd",
+    "translate": "חבר בן",
+    "date_created": "2024-02-22 15:20:41",
+    "cover": {
+      "id": 87226,
+      "name": "cover_6838d13a8960f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485540425700.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 174,
+    "title": "Girlfriend",
+    "transcription": "My girlfriend and I are going out for dinner tonight.",
+    "sentence": "ˈɡɜrlˌfrɛnd",
+    "translate": "חֲבֶרֶת",
+    "date_created": "2024-02-22 15:20:42",
+    "cover": {
+      "id": 87227,
+      "name": "cover_6838d16619632.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485540861111.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 175,
+    "title": "Friend",
+    "transcription": "I have known my best friend since we were in kindergarten.",
+    "sentence": " /frend/ ",
+    "translate": "חבר",
+    "date_created": "2024-02-22 15:20:43",
+    "cover": {
+      "id": 87228,
+      "name": "cover_6838d19192e95.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485541296090.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 176,
+    "title": "Best friend",
+    "transcription": "My best friend and I have known each other since kindergarten.",
+    "sentence": "ˈbɛst frɛnd",
+    "translate": "החבר הטוב ביותר",
+    "date_created": "2024-02-22 15:20:45",
+    "cover": {
+      "id": 87229,
+      "name": "cover_6838d1c0a868a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485541766974.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 177,
+    "title": "Neighbor",
+    "transcription": "She borrowed a cup of sugar from her neighbor.",
+    "sentence": "/ˈneɪbər/",
+    "translate": "שכן",
+    "date_created": "2024-02-22 15:20:46",
+    "cover": {
+      "id": 87230,
+      "name": "cover_6838d1eb47f63.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485542193017.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 178,
+    "title": "Colleague",
+    "transcription": "I have a meeting with my colleagues tomorrow morning.",
+    "sentence": "ˈkɒliːɡ",
+    "translate": "עמית",
+    "date_created": "2024-02-22 15:20:46",
+    "cover": {
+      "id": 87231,
+      "name": "cover_6838d21ede7d4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485542709193.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 179,
+    "title": "Acquaintance",
+    "transcription": "I bumped into an old acquaintance at the grocery store.",
+    "sentence": "uh-kweyn-tns",
+    "translate": "מֵרַע",
+    "date_created": "2024-02-22 15:20:46",
+    "cover": {
+      "id": 87232,
+      "name": "cover_6838d2430555c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485543070291.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 180,
+    "title": "Roommate",
+    "transcription": "My roommate is very neat and organized.",
+    "sentence": "ˈruːmˌmeɪt",
+    "translate": "שותף דירה",
+    "date_created": "2024-02-22 15:20:47",
+    "cover": {
+      "id": 87233,
+      "name": "cover_6838d26c7c665.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485543485168.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 181,
+    "title": "Guardian",
+    "transcription": "She appointed her grandparents as legal guardians of her children in case anything happened to her.",
+    "sentence": "ˈɡɑːrdiən",
+    "translate": "שומר",
+    "date_created": "2024-02-22 15:20:50",
+    "cover": {
+      "id": 87234,
+      "name": "cover_6838d28f9d131.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485543836503.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 182,
+    "title": "Adoptive parent",
+    "transcription": "The adoptive parent provided a loving and stable home for the child.",
+    "sentence": "əˈdɑptɪv ˈpɛrənt",
+    "translate": "הורה מאמץ",
+    "date_created": "2024-02-22 15:20:51",
+    "cover": {
+      "id": 87235,
+      "name": "cover_6838d2c1958ab.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485544336194.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 183,
+    "title": "Stepmother",
+    "transcription": "Her stepmother is a kind and supportive woman who has always been there for her.",
+    "sentence": "/ˈstɛpˌmʌðər/",
+    "translate": "אִמָּא מַאגְרֶת",
+    "date_created": "2024-02-22 15:20:51",
+    "cover": {
+      "id": 87236,
+      "name": "cover_6838d2e3a9808.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485544677011.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 184,
+    "title": "Stepson",
+    "transcription": "She has a stepson from her husband's previous marriage.",
+    "sentence": "/ˈstɛpsən/",
+    "translate": "בן זוגי",
+    "date_created": "2024-02-22 15:20:51",
+    "cover": {
+      "id": 87237,
+      "name": "cover_6838d30b989c1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485545076324.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 185,
+    "title": "Stepfather",
+    "transcription": "My stepfather is always there to support me no matter what.",
+    "sentence": "ˈstɛpˌfɑðər",
+    "translate": "אָטציים",
+    "date_created": "2024-02-22 15:20:51",
+    "cover": {
+      "id": 87239,
+      "name": "cover_6838d3327b38c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485545465119.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 186,
+    "title": "Stepdaughter",
+    "transcription": "His stepdaughter is graduating from college next month.",
+    "sentence": "/ˈstɛpˌdɔtər/",
+    "translate": "בת זוג",
+    "date_created": "2024-02-22 15:20:56",
+    "cover": {
+      "id": 87240,
+      "name": "cover_6838d35881656.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485545845377.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 187,
+    "title": "Stepbrother",
+    "transcription": "My stepbrother and I get along really well, even though we didn't grow up together.",
+    "sentence": "/ˈstɛpˌbrʌðər/",
+    "translate": "אח חולה",
+    "date_created": "2024-02-22 15:20:56",
+    "cover": {
+      "id": 87241,
+      "name": "cover_6838d37e74928.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485546224852.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 188,
+    "title": "Stepsister",
+    "transcription": "My stepsister is older than me and always helps me with my homework.",
+    "sentence": "/ˈstɛpˌsɪstər/",
+    "translate": "אחות צעדים",
+    "date_created": "2024-02-22 15:20:56",
+    "cover": {
+      "id": 87242,
+      "name": "cover_6838d3a717f1f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485546631052.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 189,
+    "title": "Half-brother",
+    "transcription": "My half-brother and I share the same father but have different mothers.",
+    "sentence": "/ˈhæfˌbrʌðər/",
+    "translate": "אח חצי",
+    "date_created": "2024-02-22 15:20:56",
+    "cover": {
+      "id": 87243,
+      "name": "cover_6838d3ccd7694.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485547008898.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 190,
+    "title": "Half-sister",
+    "transcription": "She has a half-sister from her father's previous marriage.",
+    "sentence": "/hæf ˈsɪs.tər/",
+    "translate": "אחות חצי",
+    "date_created": "2024-02-22 15:20:57",
+    "cover": {
+      "id": 87244,
+      "name": "cover_6838d3f5f36c8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485547420050.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 191,
+    "title": "In-laws",
+    "transcription": "I am going to spend the weekend with my in-laws.",
+    "sentence": "/ˈɪnˌlɔːz/",
+    "translate": "חותנים",
+    "date_created": "2024-02-22 15:21:00",
+    "cover": {
+      "id": 87245,
+      "name": "cover_6838d41c86042.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485547805571.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 192,
+    "title": "Mother-in-law",
+    "transcription": "I get along really well with my mother-in-law.",
+    "sentence": "/ˈmʌðər ɪn ˌlɔː/",
+    "translate": "חמות",
+    "date_created": "2024-02-22 15:21:01",
+    "cover": {
+      "id": 87246,
+      "name": "cover_6838d44cbfc80.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485548287930.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 193,
+    "title": "Father-in-law",
+    "transcription": "My father-in-law is coming over for dinner tonight.",
+    "sentence": "ˈfɑːðər ɪn lɔː",
+    "translate": "חמ",
+    "date_created": "2024-02-22 15:21:01",
+    "cover": {
+      "id": 87298,
+      "name": "cover_68395bec42d38.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485895482807.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 194,
+    "title": "Sister-in-law",
+    "transcription": "My sister-in-law is coming to visit us this weekend.",
+    "sentence": "/ˈsɪs.tər ɪn lɔː/",
+    "translate": "כַלָה",
+    "date_created": "2024-02-22 15:21:02",
+    "cover": {
+      "id": 87299,
+      "name": "cover_68395c1a337ca.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485895942184.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 195,
+    "title": "Brother-in-law",
+    "transcription": "My brother-in-law is coming to visit us this weekend.",
+    "sentence": "ˈbrʌðər ɪn lɔː",
+    "translate": "גְּרוּשִׁין",
+    "date_created": "2024-02-22 15:21:02",
+    "cover": {
+      "id": 87300,
+      "name": "cover_68395c40dc2c3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485896329091.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 196,
+    "title": "Godfather",
+    "transcription": "He asked his uncle to be his daughter's godfather.",
+    "sentence": "/ˈɡɒdfɑːðər/",
+    "translate": "אב החתן",
+    "date_created": "2024-02-22 15:21:04",
+    "cover": {
+      "id": 87301,
+      "name": "cover_68395c6c2fb9f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485896762029.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 197,
+    "title": "Godmother",
+    "transcription": "She asked her godmother to be her child's guardian in case anything happened to her.",
+    "sentence": "ˈɡɒdmʌðər",
+    "translate": "אָמאַ",
+    "date_created": "2024-02-22 15:21:05",
+    "cover": {
+      "id": 87302,
+      "name": "cover_68395c93dc2b2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485897159088.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 198,
+    "title": "Godson",
+    "transcription": "My godson just celebrated his first birthday last week.",
+    "sentence": "ˈɡɒd.sʌn",
+    "translate": "בן דוד",
+    "date_created": "2024-02-22 15:21:06",
+    "cover": {
+      "id": 87303,
+      "name": "cover_68395cb95da21.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485897533900.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 200,
+    "title": "Goddaughter",
+    "transcription": "She is my goddaughter, and I love her as if she were my own daughter.",
+    "sentence": "/ˈɡɒdˌdɔːtər/",
+    "translate": "בת מעונה",
+    "date_created": "2024-02-22 15:21:07",
+    "cover": {
+      "id": 87305,
+      "name": "cover_68395d129b3a6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485898426427.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

@@ -1,0 +1,737 @@
+[
+  {
+    "id": 371,
+    "title": "Car",
+    "transcription": "I need to put gas in my car before driving to work.",
+    "sentence": " /kɑːr / ",
+    "translate": "מכונית",
+    "date_created": "2024-02-22 15:24:03",
+    "cover": {
+      "id": 87484,
+      "name": "cover_683977720d1bc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485965940602.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 372,
+    "title": "Bus",
+    "transcription": "I need to catch the bus to go downtown.",
+    "sentence": "/bʌs/",
+    "translate": "אוטובוס",
+    "date_created": "2024-02-22 15:24:03",
+    "cover": {
+      "id": 87485,
+      "name": "cover_68397792b14d3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485966267325.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 373,
+    "title": "Train",
+    "transcription": "I will take the train to work tomorrow.",
+    "sentence": "treɪn",
+    "translate": "רַכֶּבֶת",
+    "date_created": "2024-02-22 15:24:06",
+    "cover": {
+      "id": 87486,
+      "name": "cover_683977b445827.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485966602905.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 374,
+    "title": "Plane",
+    "transcription": "The plane took off from the airport and flew towards its destination.",
+    "sentence": "/pleɪn/",
+    "translate": "מטוס",
+    "date_created": "2024-02-22 15:24:07",
+    "cover": {
+      "id": 87487,
+      "name": "cover_683977d6a956d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485966946997.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 375,
+    "title": "Bicycle",
+    "transcription": "I rode my bicycle to work today.",
+    "sentence": "/ˈbaɪsɪkəl/",
+    "translate": "אופניים",
+    "date_created": "2024-02-22 15:24:10",
+    "cover": {
+      "id": 87488,
+      "name": "cover_683977fb558c6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485967313564.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 376,
+    "title": "Scooter",
+    "transcription": "She rode her electric scooter to work every day.",
+    "sentence": "/ˈskuːtər/",
+    "translate": "קורקינט",
+    "date_created": "2024-02-22 15:24:11",
+    "cover": {
+      "id": 87489,
+      "name": "cover_6839781c5de68.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485967643908.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 377,
+    "title": "Motorcycle",
+    "transcription": "I enjoy taking my motorcycle out for a ride on sunny days.",
+    "sentence": "/ˈmoʊtərsaɪkəl/",
+    "translate": "אוֹפַנִיעִיה",
+    "date_created": "2024-02-22 15:24:12",
+    "cover": {
+      "id": 87490,
+      "name": "cover_683978473fdea.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485968072690.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 378,
+    "title": "Boat",
+    "transcription": "We went fishing on the boat yesterday.",
+    "sentence": "boʊt",
+    "translate": "סירה",
+    "date_created": "2024-02-22 15:24:14",
+    "cover": {
+      "id": 87491,
+      "name": "cover_6839786ea5ed5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485968466859.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 379,
+    "title": "Ship",
+    "transcription": "The ship sailed across the ocean.",
+    "sentence": "ʃɪp",
+    "translate": "ספינה",
+    "date_created": "2024-02-22 15:24:15",
+    "cover": {
+      "id": 87492,
+      "name": "cover_68397890bf87e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485968807899.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 380,
+    "title": "Ferry",
+    "transcription": "We took a ferry across the river to get to the island.",
+    "sentence": "/ˈferi/",
+    "translate": "מעבורה",
+    "date_created": "2024-02-22 15:24:16",
+    "cover": {
+      "id": 87493,
+      "name": "cover_683978b82021d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485969201381.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 381,
+    "title": "Subway",
+    "transcription": "I took the subway to work this morning because my car was in the shop.",
+    "sentence": "/ˈsʌb.weɪ/",
+    "translate": "תַת־רְכֶּבֶת",
+    "date_created": "2024-02-22 15:24:18",
+    "cover": {
+      "id": 87494,
+      "name": "cover_683978d980686.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485969535322.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 382,
+    "title": "Tram",
+    "transcription": "I take the tram to work every morning.",
+    "sentence": "/træm/",
+    "translate": "רֶכֶב רַכְבָּה",
+    "date_created": "2024-02-22 15:24:19",
+    "cover": {
+      "id": 87495,
+      "name": "cover_6839790214827.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485969940901.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 383,
+    "title": "Taxi",
+    "transcription": "I took a taxi to the airport this morning.",
+    "sentence": "ˈtæk.si",
+    "translate": "מונית",
+    "date_created": "2024-02-22 15:24:20",
+    "cover": {
+      "id": 87496,
+      "name": "cover_68397925d4324.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485970298780.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 384,
+    "title": "Uber",
+    "transcription": "I used Uber to get home from the airport.",
+    "sentence": "/ˈuːbər/",
+    "translate": "אובר",
+    "date_created": "2024-02-22 15:24:22",
+    "cover": {
+      "id": 87497,
+      "name": "cover_6839794dce780.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485970698532.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 385,
+    "title": "Lyft",
+    "transcription": "I decided to order a Lyft instead of taking public transportation to the airport.",
+    "sentence": "/lɪft/",
+    "translate": "מעלית",
+    "date_created": "2024-02-22 15:24:23",
+    "cover": {
+      "id": 87498,
+      "name": "cover_6839797266160.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485971064251.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 386,
+    "title": "Helicopter",
+    "transcription": "The helicopter landed in the field to rescue the injured hiker.",
+    "sentence": "/ˈhɛlɪˌkɒptər/",
+    "translate": "מסוק",
+    "date_created": "2024-02-22 15:24:26",
+    "cover": {
+      "id": 87499,
+      "name": "cover_68397999872b3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485971455604.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 387,
+    "title": "Airplane",
+    "transcription": "The airplane soared through the clouds at high speed.",
+    "sentence": "/ˈɛr.plen/",
+    "translate": "מטוס",
+    "date_created": "2024-02-22 15:24:26",
+    "cover": {
+      "id": 87500,
+      "name": "cover_683979bbc3794.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485971798064.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 388,
+    "title": "Airport",
+    "transcription": "I arrived at the airport just in time for my flight.",
+    "sentence": "/ˈɛərˌpɔrt/",
+    "translate": "תריפת נהון",
+    "date_created": "2024-02-22 15:24:28",
+    "cover": {
+      "id": 87501,
+      "name": "cover_683979dfa2d45.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485972156766.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 389,
+    "title": "Train station",
+    "transcription": "I will meet you at the train station at 3pm.",
+    "sentence": "treɪn ˈsteɪʃən",
+    "translate": "תחנת רכבת",
+    "date_created": "2024-02-22 15:24:30",
+    "cover": {
+      "id": 87502,
+      "name": "cover_68397a075389f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485972553495.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 390,
+    "title": "Bus station",
+    "transcription": "I will meet you at the bus station at 3 PM.",
+    "sentence": "/ˈbʌs ˌsteɪʃən/",
+    "translate": "תחנת אוטובוס",
+    "date_created": "2024-02-22 15:24:30",
+    "cover": {
+      "id": 87503,
+      "name": "cover_68397a31221e4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485972971464.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 391,
+    "title": "Ticket",
+    "transcription": "I bought a ticket to the concert next week.",
+    "sentence": "/ˈtɪkɪt/",
+    "translate": "כרטיס",
+    "date_created": "2024-02-22 15:24:34",
+    "cover": {
+      "id": 87504,
+      "name": "cover_68397a5215f1a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485973300965.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 392,
+    "title": "Passport",
+    "transcription": "She had to renew her passport before going on her trip to Europe.",
+    "sentence": "/ˈpæs.pɔːrt/",
+    "translate": "דַרכּוֹן",
+    "date_created": "2024-02-22 15:24:35",
+    "cover": {
+      "id": 87505,
+      "name": "cover_68397a7c47dd7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485973723046.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 393,
+    "title": "Visa",
+    "transcription": "I need to renew my visa before it expires.",
+    "sentence": "ˈviːzə",
+    "translate": "וִיזָה",
+    "date_created": "2024-02-22 15:24:38",
+    "cover": {
+      "id": 87506,
+      "name": "cover_68397aab087d5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485974190414.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 394,
+    "title": "Luggage",
+    "transcription": "I struggled with carrying all of my luggage through the airport.",
+    "sentence": "ˈlʌɡɪdʒ",
+    "translate": "מזוודות",
+    "date_created": "2024-02-22 15:24:39",
+    "cover": {
+      "id": 87507,
+      "name": "cover_68397ad0bfd6b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485974567922.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 395,
+    "title": "Suitcase",
+    "transcription": "She packed her clothes and toiletries into her suitcase before heading to the airport.",
+    "sentence": "/ˈsuːtˌkeɪs/",
+    "translate": "תיק",
+    "date_created": "2024-02-22 15:24:40",
+    "cover": {
+      "id": 87508,
+      "name": "cover_68397af8ece66.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485974969768.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 396,
+    "title": "Map",
+    "transcription": "I use a map to navigate when I'm driving in a new city.",
+    "sentence": "mæp",
+    "translate": "מפה",
+    "date_created": "2024-02-22 15:24:42",
+    "cover": {
+      "id": 87509,
+      "name": "cover_68397b21e6931.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485975379510.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 397,
+    "title": "Compass",
+    "transcription": "He used a compass to find his way back to the campsite.",
+    "sentence": "ˈkəmpəs",
+    "translate": "מצפן",
+    "date_created": "2024-02-22 15:24:44",
+    "cover": {
+      "id": 87510,
+      "name": "cover_68397b46ca3e1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485975748354.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 398,
+    "title": "GPS",
+    "transcription": "Please enter the destination address into the GPS to get driving directions.",
+    "sentence": "dʒiː piː ɛs",
+    "translate": "GPS",
+    "date_created": "2024-02-22 15:24:46",
+    "cover": {
+      "id": 87511,
+      "name": "cover_68397b6a45be9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485976102963.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 399,
+    "title": "Destination",
+    "transcription": "Our destination for the weekend is a beach house in Malibu.",
+    "sentence": "ˌdɛstəˈneɪʃən",
+    "translate": "יעד",
+    "date_created": "2024-02-22 15:24:47",
+    "cover": {
+      "id": 87513,
+      "name": "cover_68397b8da797e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485976456927.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 400,
+    "title": "Tourist",
+    "transcription": "The city was packed with tourists visiting all the local landmarks.",
+    "sentence": "/ˈtʊərɪst/",
+    "translate": "תייר",
+    "date_created": "2024-02-22 15:24:48",
+    "cover": {
+      "id": 87514,
+      "name": "cover_68397bb5d6071.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485976858875.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 401,
+    "title": "Traveler",
+    "transcription": "The weary traveler finally arrived at their destination after a long journey.",
+    "sentence": "/ˈtræv·əl·ər/",
+    "translate": "נוסע",
+    "date_created": "2024-02-22 15:24:50",
+    "cover": {
+      "id": 87515,
+      "name": "cover_68397be49ef22.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485977326579.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 402,
+    "title": "Guide",
+    "transcription": "The tour guide was very knowledgeable about the history of the city.",
+    "sentence": "/ɡaɪd/",
+    "translate": "מדריך",
+    "date_created": "2024-02-22 15:24:52",
+    "cover": {
+      "id": 87516,
+      "name": "cover_68397c0b21bec.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485977711457.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 403,
+    "title": "Tour",
+    "transcription": "I went on a tour of the city to learn more about its history.",
+    "sentence": "/tʊər/",
+    "translate": "סיור",
+    "date_created": "2024-02-22 15:24:52",
+    "cover": {
+      "id": 87517,
+      "name": "cover_68397c31c5fb3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485978098176.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 404,
+    "title": "Reservation",
+    "transcription": "I made a reservation for two at the fancy restaurant downtown.",
+    "sentence": "ˌrɛzərˈveɪʃən",
+    "translate": "הזמנה מראש",
+    "date_created": "2024-02-22 15:24:54",
+    "cover": {
+      "id": 87518,
+      "name": "cover_68397c587ea60.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485978485252.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 405,
+    "title": "Accommodation",
+    "transcription": "The hotel offers luxurious accommodation for its guests.",
+    "sentence": "əˌkɑːməˈdeɪʃən",
+    "translate": "אירוח",
+    "date_created": "2024-02-22 15:24:57",
+    "cover": {
+      "id": 87519,
+      "name": "cover_68397c7ce4d58.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485978849447.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 406,
+    "title": "Hotel",
+    "transcription": "They stayed at a luxurious hotel during their vacation.",
+    "sentence": "həʊˈtɛl",
+    "translate": "מלון",
+    "date_created": "2024-02-22 15:24:57",
+    "cover": {
+      "id": 87520,
+      "name": "cover_68397ca1b2390.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485979217407.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 407,
+    "title": "Hostel",
+    "transcription": "I booked a bed in a hostel for my stay in the city.",
+    "sentence": "/ˈhɑːstl̩/",
+    "translate": "הוֹסְטֵל",
+    "date_created": "2024-02-22 15:24:58",
+    "cover": {
+      "id": 87521,
+      "name": "cover_68397cccd3b6c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485979648734.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 408,
+    "title": "Campsite",
+    "transcription": "We set up our tent at the campsite by the lake.",
+    "sentence": "/ˈkæmpsaɪt/",
+    "translate": "קרוואן סיור",
+    "date_created": "2024-02-22 15:25:01",
+    "cover": {
+      "id": 87522,
+      "name": "cover_68397cf53c9b5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485980052577.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 409,
+    "title": "Itinerary",
+    "transcription": "My itinerary for the trip includes visits to five different countries.",
+    "sentence": "/aɪˈtɪnəˌreri/",
+    "translate": "מסלול",
+    "date_created": "2024-02-22 15:25:01",
+    "cover": {
+      "id": 87523,
+      "name": "cover_68397d1da5b4c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485980456854.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 410,
+    "title": "Flight",
+    "transcription": "I missed my flight to Paris because of traffic.",
+    "sentence": "flaɪt",
+    "translate": "טיסה",
+    "date_created": "2024-02-22 15:25:02",
+    "cover": {
+      "id": 87526,
+      "name": "cover_68397d4cc16c1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485980927979.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 411,
+    "title": "Departure",
+    "transcription": "The train's departure was delayed by an hour.",
+    "sentence": "/dɪˈpɑːrtʃər/",
+    "translate": "יציאה",
+    "date_created": "2024-02-22 15:25:06",
+    "cover": {
+      "id": 87527,
+      "name": "cover_68397d71570dd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485981293635.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 412,
+    "title": "Check-in",
+    "transcription": "Please follow me to the front desk for check-in.",
+    "sentence": "ˈtʃɛkˌɪn",
+    "translate": "צ'ק אין",
+    "date_created": "2024-02-22 15:25:06",
+    "cover": {
+      "id": 87528,
+      "name": "cover_68397d965020c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485981663339.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 413,
+    "title": "Arrival",
+    "transcription": "The train's arrival was delayed by twenty minutes.",
+    "sentence": "/əˈraɪvəl/",
+    "translate": "הגעה",
+    "date_created": "2024-02-22 15:25:06",
+    "cover": {
+      "id": 87532,
+      "name": "cover_68397e05acf23.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485982778378.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 414,
+    "title": "Boarding pass",
+    "transcription": "Please make sure to keep your boarding pass handy during your flight.",
+    "sentence": "ˈbɔːrdɪŋ pɑːs",
+    "translate": "כרטיס עלייה",
+    "date_created": "2024-02-22 15:25:10",
+    "cover": {
+      "id": 87534,
+      "name": "cover_68397e2be2b84.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485983160495.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 415,
+    "title": "Security check",
+    "transcription": "All passengers must go through a security check before boarding the plane.",
+    "sentence": "sɪˈkjʊərɪti tʃɛk",
+    "translate": "בדיקת אבטחה",
+    "date_created": "2024-02-22 15:25:10",
+    "cover": {
+      "id": 87536,
+      "name": "cover_68397e5d03649.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485983651418.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 416,
+    "title": "Customs",
+    "transcription": "All goods brought into the country must go through customs before being allowed in.",
+    "sentence": "ˈkʌstəmz",
+    "translate": "מכלול רגליים",
+    "date_created": "2024-02-22 15:25:11",
+    "cover": {
+      "id": 87538,
+      "name": "cover_68397e8670fd1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485984065986.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 417,
+    "title": "Duty-free",
+    "transcription": "I bought some duty-free perfume at the airport.",
+    "sentence": "ˈdjuːti-friː",
+    "translate": "חופשי ממכס",
+    "date_created": "2024-02-22 15:25:15",
+    "cover": {
+      "id": 87540,
+      "name": "cover_68397ead56925.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485984454772.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 418,
+    "title": "Souvenir",
+    "transcription": "I bought a keychain as a souvenir from my trip to Italy.",
+    "sentence": "ˌsuː.vəˈnɪr",
+    "translate": "סובניר",
+    "date_created": "2024-02-22 15:25:15",
+    "cover": {
+      "id": 87543,
+      "name": "cover_68397ee88b9cb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485985048350.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 419,
+    "title": "Landmark",
+    "transcription": "The Eiffel Tower is a famous landmark in Paris.",
+    "sentence": "ˈlændˌmɑːrk",
+    "translate": "נקודת עניין",
+    "date_created": "2024-02-22 15:25:16",
+    "cover": {
+      "id": 87545,
+      "name": "cover_68397f1aa9c12.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485985547911.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

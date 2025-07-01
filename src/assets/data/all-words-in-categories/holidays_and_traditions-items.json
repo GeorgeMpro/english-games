@@ -1,0 +1,602 @@
+[
+  {
+    "id": 952,
+    "title": "Shabbat (Sabbath)",
+    "transcription": "Jewish people observe Shabbat from Friday at sunset to Saturday at nightfall.",
+    "sentence": "ˈʃabət",
+    "translate": "שבת",
+    "date_created": "2024-02-22 15:33:19",
+    "cover": {
+      "id": 88519,
+      "name": "cover_6841ec3a277bd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491507781690.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 953,
+    "title": "Yom Kippur",
+    "transcription": "Yom Kippur is considered the holiest day of the year in Judaism.",
+    "sentence": "ˌyɒm kɪˈpʊər",
+    "translate": "יום כיפור",
+    "date_created": "2024-02-22 15:33:19",
+    "cover": {
+      "id": 88520,
+      "name": "cover_6841ec6586267.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491508215570.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 954,
+    "title": "Rosh Hashanah",
+    "transcription": "We celebrated Rosh Hashanah with a big family dinner.",
+    "sentence": "/ˈrəʊʃ həˈʃɑːnə/",
+    "translate": "ראש השנה",
+    "date_created": "2024-02-22 15:33:19",
+    "cover": {
+      "id": 88521,
+      "name": "cover_6841ec8e75c55.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491508624885.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 955,
+    "title": "Sukkot",
+    "transcription": "During Sukkot, Jewish people build temporary outdoor shelters called sukkahs to celebrate the harvest festival.",
+    "sentence": "ˈsʊkət",
+    "translate": "סוכות",
+    "date_created": "2024-02-22 15:33:23",
+    "cover": {
+      "id": 88522,
+      "name": "cover_6841ecb288639.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491508985657.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 956,
+    "title": "Hanukkah",
+    "transcription": "We light the menorah for eight nights during Hanukkah.",
+    "sentence": "/ˈhɑːnəkə/",
+    "translate": "חֲנֻכָּה",
+    "date_created": "2024-02-22 15:33:25",
+    "cover": {
+      "id": 88523,
+      "name": "cover_6841ecd8d38d4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491509368727.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 957,
+    "title": "Simchat Torah",
+    "transcription": "The Jewish community celebrates Simchat Torah by finishing the yearly cycle of Torah readings and starting over again from the beginning.",
+    "sentence": "ˌsɪm.khɑt ˈtɔː.rə",
+    "translate": "שִׂמְחַת תּוֹרָה",
+    "date_created": "2024-02-22 15:33:25",
+    "cover": {
+      "id": 88524,
+      "name": "cover_6841ecfd52ef6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491509733456.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 958,
+    "title": "Tu B'Shevat",
+    "transcription": "Tu B'Shevat is a Jewish holiday that marks the new year for trees.",
+    "sentence": "too b'she-vaht",
+    "translate": "טו בשבט",
+    "date_created": "2024-02-22 15:33:27",
+    "cover": {
+      "id": 88525,
+      "name": "cover_6841ed241e4eb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491510121308.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 959,
+    "title": "Purim",
+    "transcription": "We celebrated Purim by reading the Megillah and giving gifts of food to friends and family.",
+    "sentence": "/ˈpʊərɪm/",
+    "translate": "פורים",
+    "date_created": "2024-02-22 15:33:28",
+    "cover": {
+      "id": 88526,
+      "name": "cover_6841ed4c3ba1f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491510522511.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 960,
+    "title": "Passover (Pesach)",
+    "transcription": "Jewish families around the world celebrate Passover (Pesach) by hosting a Seder meal.",
+    "sentence": "/ˈpasˌoʊvər/ (Pesach)",
+    "translate": "פֶּסַח",
+    "date_created": "2024-02-22 15:33:30",
+    "cover": {
+      "id": 88527,
+      "name": "cover_6841ed77983eb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491510956305.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 961,
+    "title": "Shavuot",
+    "transcription": "We celebrate Shavuot by eating dairy foods and reading the Book of Ruth.",
+    "sentence": "ʃəˈvu.oʊt",
+    "translate": "שבועות",
+    "date_created": "2024-02-22 15:33:30",
+    "cover": {
+      "id": 88528,
+      "name": "cover_6841ed9fd947a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491511358965.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 962,
+    "title": "Tisha B'Av",
+    "transcription": "On Tisha B'Av, Jews fast and mourn the destruction of the Temples in Jerusalem.",
+    "sentence": "ˈtɪʃə bɑv",
+    "translate": "ט'ישע בּאַווע",
+    "date_created": "2024-02-22 15:33:31",
+    "cover": {
+      "id": 88529,
+      "name": "cover_6841edc4cfc54.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491511728568.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 963,
+    "title": "Lag BaOmer",
+    "transcription": "Jewish people typically celebrate Lag BaOmer by lighting bonfires, playing music, and having picnics.",
+    "sentence": "lɑːɡ bɑːˈoʊmər",
+    "translate": "ל״ג בעומר",
+    "date_created": "2024-02-22 15:33:32",
+    "cover": {
+      "id": 88530,
+      "name": "cover_6841eded46267.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491512132936.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 964,
+    "title": "Yom HaShoah (Holocaust Remembrance Day)",
+    "transcription": "Yom HaShoah is a day of remembrance for the six million Jews who died in the Holocaust.",
+    "sentence": "yo m həˈʃoʊ.ə",
+    "translate": "יום השואה",
+    "date_created": "2024-02-22 15:33:33",
+    "cover": {
+      "id": 88531,
+      "name": "cover_6841ee1591fe3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491512536052.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 965,
+    "title": "Yom HaZikaron (Memorial Day)",
+    "transcription": "Yom HaZikaron is a day of remembrance in Israel for fallen soldiers and victims of terrorism.",
+    "sentence": "yōm hə zi kɑˈron",
+    "translate": "יום הזיכרון",
+    "date_created": "2024-02-22 15:33:34",
+    "cover": {
+      "id": 88532,
+      "name": "cover_6841ee37954c5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491512876185.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 966,
+    "title": "Yom HaAtzmaut (Independence Day)",
+    "transcription": "During Yom HaAtzmaut, Israelis celebrate their independence with parades and festivities.",
+    "sentence": "jəm haˈʔatsˌma.ut",
+    "translate": "יום העצמאות",
+    "date_created": "2024-02-22 15:33:36",
+    "cover": {
+      "id": 88533,
+      "name": "cover_6841ee5be7626.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491513239551.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 967,
+    "title": "Jerusalem Day (Yom Yerushalayim)",
+    "transcription": "Israel celebrates Jerusalem Day (Yom Yerushalayim) as a national holiday on the 28th of Iyar.",
+    "sentence": "ˈjɛruˌʃaləm deɪ (ˈjoʊm ˌjɛruʃəˈlaɪɪm)",
+    "translate": "יום ירושלים",
+    "date_created": "2024-02-22 15:33:38",
+    "cover": {
+      "id": 88534,
+      "name": "cover_6841ee849fd27.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491513646619.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 968,
+    "title": "Christmas",
+    "transcription": "I can't wait to decorate the Christmas tree with my family.",
+    "sentence": "ˈkrɪsməs",
+    "translate": "חג המולד",
+    "date_created": "2024-02-22 15:33:39",
+    "cover": {
+      "id": 88535,
+      "name": "cover_6841eeaad7be7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491514028908.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 969,
+    "title": "Easter",
+    "transcription": "We always painted Easter eggs with colorful designs.",
+    "sentence": "ˈiːstər",
+    "translate": "פֶּסַח",
+    "date_created": "2024-02-22 15:33:42",
+    "cover": {
+      "id": 88536,
+      "name": "cover_6841eed205715.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491514420291.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 970,
+    "title": "Good Friday",
+    "transcription": "Many Christians observe Good Friday as a day of prayer and solemn reflection on the crucifixion of Jesus Christ.",
+    "sentence": "ˈɡʊd ˈfraɪdeɪ",
+    "translate": "יום שישי הטוב",
+    "date_created": "2024-02-22 15:33:44",
+    "cover": {
+      "id": 88537,
+      "name": "cover_6841eef862d1f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491514804118.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 971,
+    "title": "Palm Sunday",
+    "transcription": "Many Christians celebrate Palm Sunday by attending church and waving palm branches as a symbol of Jesus' triumphal entry into Jerusalem.",
+    "sentence": "/pɑːm ˈsʌndeɪ/",
+    "translate": "ראש פסחא",
+    "date_created": "2024-02-22 15:33:44",
+    "cover": {
+      "id": 88538,
+      "name": "cover_6841ef1e50846.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491515183374.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 972,
+    "title": "Ascension Day",
+    "transcription": "Ascension Day is a Christian holiday that commemorates the ascension of Jesus Christ into heaven.",
+    "sentence": "əˈsɛnʃən deɪ",
+    "translate": "יום עליית המשיח",
+    "date_created": "2024-02-22 15:33:45",
+    "cover": {
+      "id": 88539,
+      "name": "cover_6841ef47ee3fe.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491515599818.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 973,
+    "title": "Pentecost",
+    "transcription": "The Christian feast of Pentecost is held on the seventh Sunday after Easter.",
+    "sentence": "/ˈpɛntɪˌkɒst/",
+    "translate": "שבועות",
+    "date_created": "2024-02-22 15:33:46",
+    "cover": {
+      "id": 88540,
+      "name": "cover_6841ef6eb4416.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491515987447.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 974,
+    "title": "Epiphany (Three Kings Day)",
+    "transcription": "On Epiphany, also known as Three Kings Day, we celebrate the visit of the Magi to the baby Jesus.",
+    "sentence": "ɪˈpɪfəni",
+    "translate": "הווי תהילת אלוהים (יום שלושת המלכים)",
+    "date_created": "2024-02-22 15:33:48",
+    "cover": {
+      "id": 88541,
+      "name": "cover_6841ef9eb72b7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491516467644.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 975,
+    "title": "Advent",
+    "transcription": "The advent of the internet has transformed the way we communicate and access information.",
+    "sentence": "ˈæd.vənt",
+    "translate": "הַצפָּה",
+    "date_created": "2024-02-22 15:33:49",
+    "cover": {
+      "id": 88542,
+      "name": "cover_6841efc8016b4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491516880127.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 976,
+    "title": "All Saints' Day",
+    "transcription": "All Saints' Day is a Christian festival on November 1st celebrating all the saints, known and unknown.",
+    "sentence": "/ɔːl seɪnts deɪ/",
+    "translate": "יום כל הקדושים",
+    "date_created": "2024-02-22 15:33:50",
+    "cover": {
+      "id": 88543,
+      "name": "cover_6841efec63824.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491517244136.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 977,
+    "title": "Lent",
+    "transcription": "During Lent, many Christians choose to fast or give up something meaningful to them as a form of sacrifice.",
+    "sentence": "/lɛnt/",
+    "translate": "צום גדול",
+    "date_created": "2024-02-22 15:33:50",
+    "cover": {
+      "id": 88544,
+      "name": "cover_6841f01863855.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491517684145.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 978,
+    "title": "Eid al-Fitr",
+    "transcription": "Eid al-Fitr is a Muslim holiday that marks the end of Ramadan.",
+    "sentence": "iːd æl ˈfɪtər",
+    "translate": "עיד אל-פיטר",
+    "date_created": "2024-02-22 15:33:55",
+    "cover": {
+      "id": 88545,
+      "name": "cover_6841f03d418b2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491518052748.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 979,
+    "title": "Eid al-Adha",
+    "transcription": "Eid al-Adha is known as the Festival of Sacrifice and is celebrated by Muslims around the world.",
+    "sentence": "/iːd əl ˈæd.ə/",
+    "translate": "עיד אל-אדהא",
+    "date_created": "2024-02-22 15:33:55",
+    "cover": {
+      "id": 88546,
+      "name": "cover_6841f06483bac.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491518445465.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 980,
+    "title": "Mawlid al-Nabi",
+    "transcription": "Muslims around the world celebrate Mawlid al-Nabi as the birthday of the Prophet Muhammad.",
+    "sentence": "Mawlid al-Nabi",
+    "translate": "מולד אלנבי",
+    "date_created": "2024-02-22 15:33:55",
+    "cover": {
+      "id": 88547,
+      "name": "cover_6841f08dc9043.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491518858299.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 981,
+    "title": "Laylat al-Qadr",
+    "transcription": "Muslims believe that Laylat al-Qadr occurs during the last ten days of Ramadan.",
+    "sentence": "ˈlaɪlæt əlˈkɑːdər",
+    "translate": "לילה הגזר",
+    "date_created": "2024-02-22 15:33:56",
+    "cover": {
+      "id": 88548,
+      "name": "cover_6841f0af68949.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491519194349.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 982,
+    "title": "Hijra (Islamic New Year)",
+    "transcription": "Hijra is the Islamic New Year celebrated by Muslims around the world.",
+    "sentence": "hij-rah",
+    "translate": "הג'ירה (השנה החדשה האיסלמית)",
+    "date_created": "2024-02-22 15:34:00",
+    "cover": {
+      "id": 88549,
+      "name": "cover_6841f0d6dabdb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491519589018.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 983,
+    "title": "Ashura",
+    "transcription": "Muslims around the world commemorate Ashura as a day of mourning for the martyrdom of Hussain ibn Ali.",
+    "sentence": "/əˈʃuːrə/",
+    "translate": "עשורה",
+    "date_created": "2024-02-22 15:34:01",
+    "cover": {
+      "id": 88550,
+      "name": "cover_6841f0f8cce04.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491519928458.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 984,
+    "title": "New Year's Day",
+    "transcription": "We always celebrate New Year's Day with a big party and fireworks.",
+    "sentence": "/ˈnjuː ˈjɪərz deɪ/",
+    "translate": "ראש השנה",
+    "date_created": "2024-02-22 15:34:01",
+    "cover": {
+      "id": 88551,
+      "name": "cover_6841f11beea67.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491520279842.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 985,
+    "title": "International Women's Day",
+    "transcription": "March 8th is International Women's Day, a day dedicated to celebrating the social, economic, cultural, and political achievements of women around the world.",
+    "sentence": "ˌɪntərˈnæʃənl ˈwɪmɪnz deɪ",
+    "translate": "יום האישה הבינלאומי",
+    "date_created": "2024-02-22 15:34:02",
+    "cover": {
+      "id": 88552,
+      "name": "cover_6841f13deb30c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491520619704.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 986,
+    "title": "Labor Day",
+    "transcription": "Labor Day is a federal holiday in the United States that celebrates the contributions of workers.",
+    "sentence": "ˈleɪbər deɪ",
+    "translate": "יום העבודה",
+    "date_created": "2024-02-22 15:34:06",
+    "cover": {
+      "id": 88553,
+      "name": "cover_6841f166533f6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491521023482.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 987,
+    "title": "Valentine's Day",
+    "transcription": "My boyfriend surprised me with roses and chocolates on Valentine's Day.",
+    "sentence": "ˈvæləntaɪnz deɪ",
+    "translate": "יוֹם הָאַהֲבָה",
+    "date_created": "2024-02-22 15:34:06",
+    "cover": {
+      "id": 88554,
+      "name": "cover_6841f18e8242f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491521425406.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 988,
+    "title": "Mother's Day",
+    "transcription": "I bought flowers for my mom on Mother's Day.",
+    "sentence": "ˈmʌðərz deɪ",
+    "translate": "יוֹם הָאֵם",
+    "date_created": "2024-02-22 15:34:07",
+    "cover": {
+      "id": 88555,
+      "name": "cover_6841f1b84e312.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491521843279.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 989,
+    "title": "Father's Day",
+    "transcription": "I bought my dad a nice tie for Father's Day.",
+    "sentence": "ˈfɑː.ðərz deɪ",
+    "translate": "יום האב",
+    "date_created": "2024-02-22 15:34:10",
+    "cover": {
+      "id": 88556,
+      "name": "cover_6841f1dfabc03.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491522237108.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 990,
+    "title": "Halloween",
+    "transcription": "Every year, the neighborhood children go trick or treating on Halloween.",
+    "sentence": "ˌhæl.əˈwiːn",
+    "translate": "הלווין",
+    "date_created": "2024-02-22 15:34:11",
+    "cover": {
+      "id": 88557,
+      "name": "cover_6841f203e130b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491522599291.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 991,
+    "title": "Thanksgiving",
+    "transcription": "Every year on Thanksgiving, my family gathers together to enjoy a delicious meal.",
+    "sentence": "/ˈθæŋksˌɡɪvɪŋ/",
+    "translate": "חג ההודיה",
+    "date_created": "2024-02-22 15:34:12",
+    "cover": {
+      "id": 88558,
+      "name": "cover_6841f22d5b375.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491523013827.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

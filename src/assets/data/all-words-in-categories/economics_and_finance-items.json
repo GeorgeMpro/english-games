@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1527,
+    "title": "Finance",
+    "transcription": "She studied finance in college and now works as a financial analyst.",
+    "sentence": "/fəˈnæns/",
+    "translate": "פיננס",
+    "date_created": "2024-02-22 15:44:21",
+    "cover": {
+      "id": 89146,
+      "name": "cover_684468d88b546.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493137525775.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1528,
+    "title": "Capital",
+    "transcription": "Tokyo is the capital of Japan.",
+    "sentence": "/ˈkæpɪtl/",
+    "translate": "הון",
+    "date_created": "2024-02-22 15:44:23",
+    "cover": {
+      "id": 89147,
+      "name": "cover_684469013ca9b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493137932552.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1529,
+    "title": "Investment",
+    "transcription": "He made a wise investment in technology stocks.",
+    "sentence": "ɪnˈvɛstmənt",
+    "translate": "השקעה",
+    "date_created": "2024-02-22 15:44:23",
+    "cover": {
+      "id": 89148,
+      "name": "cover_6844693599a16.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493138456361.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1530,
+    "title": "Stock",
+    "transcription": "I bought some stocks in a company that I believe will perform well.",
+    "sentence": "/stɒk/",
+    "translate": "מניות",
+    "date_created": "2024-02-22 15:44:24",
+    "cover": {
+      "id": 89149,
+      "name": "cover_6844695832804.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493138802136.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1531,
+    "title": "Bond",
+    "transcription": "The strong bond between the two siblings was unbreakable.",
+    "sentence": "bɒnd",
+    "translate": "קשר",
+    "date_created": "2024-02-22 15:44:26",
+    "cover": {
+      "id": 89286,
+      "name": "cover_68447d3438cdc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493189642407.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1532,
+    "title": "Share",
+    "transcription": "Let's share this pizza.",
+    "sentence": " /ʃɛr/",
+    "translate": "לְשַׁתֵּף",
+    "date_created": "2024-02-22 15:44:27",
+    "cover": {
+      "id": 89150,
+      "name": "cover_684469a0c3362.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493139528062.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1533,
+    "title": "Interest",
+    "transcription": "She has a keen interest in photography.",
+    "sentence": "/ˈɪntrəst/",
+    "translate": "עניין",
+    "date_created": "2024-02-22 15:44:27",
+    "cover": {
+      "id": 89151,
+      "name": "cover_684469c6e70c3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493139909537.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1534,
+    "title": "Dividend",
+    "transcription": "The company announced a quarterly dividend of 50 cents per share.",
+    "sentence": "/ˈdɪvɪdɛnd/",
+    "translate": "דיבידנד",
+    "date_created": "2024-02-22 15:44:28",
+    "cover": {
+      "id": 89152,
+      "name": "cover_684469f1eeed9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493140339854.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1535,
+    "title": "Loan",
+    "transcription": "She took out a loan to buy a new car.",
+    "sentence": "loʊn",
+    "translate": "הלוואה",
+    "date_created": "2024-02-22 15:44:32",
+    "cover": {
+      "id": 89153,
+      "name": "cover_68446a1b04215.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493140750241.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1536,
+    "title": "Debt",
+    "transcription": "He is struggling to pay off his debt from college.",
+    "sentence": "/dɛt/",
+    "translate": "חוב",
+    "date_created": "2024-02-22 15:44:32",
+    "cover": {
+      "id": 89154,
+      "name": "cover_68446a3f2783a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493141111777.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1537,
+    "title": "Credit",
+    "transcription": "She received a high credit score after consistently paying off her bills on time.",
+    "sentence": "/ˈkrɛdɪt/",
+    "translate": "אשראי",
+    "date_created": "2024-02-22 15:44:33",
+    "cover": {
+      "id": 89155,
+      "name": "cover_68446a666d364.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493141504542.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1538,
+    "title": "Currency",
+    "transcription": "The exchange rate for this currency is constantly fluctuating.",
+    "sentence": "ˈkʌrənsi",
+    "translate": "מטבע",
+    "date_created": "2024-02-22 15:44:34",
+    "cover": {
+      "id": 89156,
+      "name": "cover_68446a885524a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493141843560.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1539,
+    "title": "Inflation",
+    "transcription": "The inflation rate in the country has been steadily increasing over the past few months.",
+    "sentence": "/ɪnˈfleɪʃən/",
+    "translate": "אינפלציה",
+    "date_created": "2024-02-22 15:44:36",
+    "cover": {
+      "id": 89157,
+      "name": "cover_68446aad01c89.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493142210146.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1540,
+    "title": "Deflation",
+    "transcription": "The deflation of the economy led to decreased prices for goods and services.",
+    "sentence": "dih-fley-shuhn",
+    "translate": "דלילציה",
+    "date_created": "2024-02-22 15:44:36",
+    "cover": {
+      "id": 89158,
+      "name": "cover_68446ae14f93e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493142733327.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1541,
+    "title": "Recession",
+    "transcription": "The economy entered a recession after the stock market crash.",
+    "sentence": "rɪˈsɛʃən",
+    "translate": "משבר כלכלי",
+    "date_created": "2024-02-22 15:44:37",
+    "cover": {
+      "id": 89159,
+      "name": "cover_68446b0c19a50.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493143161116.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1542,
+    "title": "Growth",
+    "transcription": "The company experienced steady growth over the past year.",
+    "sentence": "ɡroʊθ",
+    "translate": "צמיחה",
+    "date_created": "2024-02-22 15:44:39",
+    "cover": {
+      "id": 89160,
+      "name": "cover_68446b2f6a967.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493143514431.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1543,
+    "title": "Export",
+    "transcription": "The company is looking to export their products to new markets.",
+    "sentence": "ˈɛkˌspɔrt",
+    "translate": null,
+    "date_created": "2024-02-22 15:44:40",
+    "cover": {
+      "id": 89161,
+      "name": "cover_68446b530a1c4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493143870508.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1544,
+    "title": "GDP (Gross Domestic Product)",
+    "transcription": "The GDP of a country is a measure of its economic performance.",
+    "sentence": "ˌɡrəʊs dəˈmɛstɪk ˈprɒdʌkt",
+    "translate": "תמותה",
+    "date_created": "2024-02-22 15:44:40",
+    "cover": {
+      "id": 89162,
+      "name": "cover_68446b7730596.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493144232056.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1545,
+    "title": "Import",
+    "transcription": "The company will need to import more raw materials in order to meet demand.",
+    "sentence": "ɪmˈpɔrt",
+    "translate": "יבוא",
+    "date_created": "2024-02-22 15:44:42",
+    "cover": {
+      "id": 89163,
+      "name": "cover_68446b9c682bc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493144604333.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1546,
+    "title": "Balance of trade",
+    "transcription": "The balance of trade measures the difference in value between a country's exports and imports of goods.",
+    "sentence": "ˈbæləns ʌv treɪd",
+    "translate": "איזון מסחר",
+    "date_created": "2024-02-22 15:44:43",
+    "cover": {
+      "id": 89164,
+      "name": "cover_68446bc40b103.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493145000559.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1547,
+    "title": "Budget",
+    "transcription": "We need to create a budget in order to track our spending and savings.",
+    "sentence": "ˈbʌdʒɪt",
+    "translate": "תַקָצָה",
+    "date_created": "2024-02-22 15:44:45",
+    "cover": {
+      "id": 89165,
+      "name": "cover_68446be5287ae.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493145331728.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1548,
+    "title": "Deficit",
+    "transcription": "The country is facing a budget deficit of $1 trillion.",
+    "sentence": "ˈdefɪsɪt",
+    "translate": "גַּרְמִין",
+    "date_created": "2024-02-22 15:44:46",
+    "cover": {
+      "id": 89166,
+      "name": "cover_68446c07a2205.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493145676701.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1549,
+    "title": "Surplus",
+    "transcription": "The company had a surplus of inventory after the busy holiday season.",
+    "sentence": "ˈsɜːpləs",
+    "translate": "עודף",
+    "date_created": "2024-02-22 15:44:48",
+    "cover": {
+      "id": 89169,
+      "name": "cover_68446c2a0cfa2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493146020601.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1550,
+    "title": "Revenue",
+    "transcription": "The company's revenue has been steadily increasing over the past few years.",
+    "sentence": "ˈrɛvəˌnjuː",
+    "translate": "הכנסה",
+    "date_created": "2024-02-22 15:44:49",
+    "cover": {
+      "id": 89170,
+      "name": "cover_68446c52b37d0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493146427419.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1551,
+    "title": "Expense",
+    "transcription": "The company incurred a significant expense when purchasing new equipment.",
+    "sentence": "/ɪkˈspɛns/",
+    "translate": "הוֹצָאָה",
+    "date_created": "2024-02-22 15:44:49",
+    "cover": {
+      "id": 89171,
+      "name": "cover_68446c7be7555.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493146839542.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1552,
+    "title": "Insurance",
+    "transcription": "He purchased insurance to protect his new car from any accidents.",
+    "sentence": "/ɪnˈʃʊərəns/",
+    "translate": "בִּיטוּח",
+    "date_created": "2024-02-22 15:44:51",
+    "cover": {
+      "id": 89172,
+      "name": "cover_68446ca1e421b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493147219409.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1553,
+    "title": "Risk",
+    "transcription": "Investing in the stock market carries a certain level of risk.",
+    "sentence": "/rɪsk/",
+    "translate": "סיכון",
+    "date_created": "2024-02-22 15:44:53",
+    "cover": {
+      "id": 89173,
+      "name": "cover_68446cc28730d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493147545603.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1554,
+    "title": "Hedge",
+    "transcription": "The farmer planted a hedge of bushes along the perimeter of his property to create privacy.",
+    "sentence": "hedʒ",
+    "translate": "גדר",
+    "date_created": "2024-02-22 15:44:53",
+    "cover": {
+      "id": 89174,
+      "name": "cover_68446ced6d5bf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493147974549.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1555,
+    "title": "Derivative",
+    "transcription": "The word 'run' is a derivative of the word 'runner'.",
+    "sentence": "dəˈrɪv.ə.tɪv",
+    "translate": "נגזרת",
+    "date_created": "2024-02-22 15:44:55",
+    "cover": {
+      "id": 89175,
+      "name": "cover_68446d120da6a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493148340621.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1556,
+    "title": "Futures",
+    "transcription": "He made a lot of money trading futures in the stock market.",
+    "sentence": "ˈfjuːtʃərz",
+    "translate": "עתיד",
+    "date_created": "2024-02-22 15:44:55",
+    "cover": {
+      "id": 89176,
+      "name": "cover_68446d3672bcf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493148704815.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1557,
+    "title": "Options",
+    "transcription": "You have several options to choose from when planning your vacation.",
+    "sentence": "ˈɑpʃənz",
+    "translate": "אפשרויות",
+    "date_created": "2024-02-22 15:44:57",
+    "cover": {
+      "id": 89177,
+      "name": "cover_68446d5e29a52.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493149101767.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1558,
+    "title": "Exchange rate",
+    "transcription": "The exchange rate between the US Dollar and Euro is currently 1.18.",
+    "sentence": "ɪksˈʧeɪndʒ reɪt",
+    "translate": "שער חליפין",
+    "date_created": "2024-02-22 15:44:58",
+    "cover": {
+      "id": 89178,
+      "name": "cover_68446d80d91b9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493149448964.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1559,
+    "title": "Savings",
+    "transcription": "I set aside a portion of my income for savings each month.",
+    "sentence": "ˈseɪvɪŋz",
+    "translate": "חַסְכוֹן",
+    "date_created": "2024-02-22 15:44:59",
+    "cover": {
+      "id": 89179,
+      "name": "cover_68446dad40e4e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493149892721.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1560,
+    "title": "Forex (Foreign Exchange Market)",
+    "transcription": "I am thinking about investing in the Forex market as a way to diversify my portfolio.",
+    "sentence": "[ˈfɒreks ˈfɒrɪn ɪksˈʧeɪndʒ ˈmɑːrkɪt]",
+    "translate": "פורקס (שוק ההון הזר)",
+    "date_created": "2024-02-22 15:45:00",
+    "cover": {
+      "id": 89180,
+      "name": "cover_68446dd172641.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493150254788.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1561,
+    "title": "Pension",
+    "transcription": "She receives a pension from the government after retiring from her job.",
+    "sentence": "/ˈpɛnʃən/",
+    "translate": "פֶּנסְיָה",
+    "date_created": "2024-02-22 15:45:00",
+    "cover": {
+      "id": 89181,
+      "name": "cover_68446df7d0de9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493150638632.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1562,
+    "title": "Retirement",
+    "transcription": "After working hard for many years, he finally reached retirement and was able to relax and enjoy his free time.",
+    "sentence": "/rɪˈtaɪərmənt/",
+    "translate": "פרישה",
+    "date_created": "2024-02-22 15:45:03",
+    "cover": {
+      "id": 89182,
+      "name": "cover_68446e1e70b8a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493151024686.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1563,
+    "title": "Accounting",
+    "transcription": "She decided to study accounting in college to pursue a career in financial management.",
+    "sentence": "/əˈkaʊntɪŋ/",
+    "translate": "חשבונאות",
+    "date_created": "2024-02-22 15:45:03",
+    "cover": {
+      "id": 89183,
+      "name": "cover_68446e4f1c348.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493151511220.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1564,
+    "title": "Audit",
+    "transcription": "The company hired an external firm to conduct an audit of their financial records.",
+    "sentence": "ˈɔdɪt",
+    "translate": "חשבוא",
+    "date_created": "2024-02-22 15:45:06",
+    "cover": {
+      "id": 89184,
+      "name": "cover_68446e79d982a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493151938970.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1565,
+    "title": "Asset",
+    "transcription": "The building was listed as a valuable asset on the company's balance sheet.",
+    "sentence": "/ˈæsɛt/",
+    "translate": "נכס",
+    "date_created": "2024-02-22 15:45:07",
+    "cover": {
+      "id": 89185,
+      "name": "cover_68446e9fa7bd3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493152316935.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1566,
+    "title": "Liability",
+    "transcription": "The liability of the company is limited to the amount invested by each shareholder.",
+    "sentence": "/ˌlaɪəˈbɪləti/",
+    "translate": "אַחריות",
+    "date_created": "2024-02-22 15:45:07",
+    "cover": {
+      "id": 89186,
+      "name": "cover_68446ec8091c5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493152720450.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1567,
+    "title": "Equity",
+    "transcription": "The company's success was built on the principles of fairness and equity for all employees.",
+    "sentence": "/ˈɛkwɪti/",
+    "translate": "שוויון",
+    "date_created": "2024-02-22 15:45:07",
+    "cover": {
+      "id": 89187,
+      "name": "cover_68446ef152f71.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493153133468.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1568,
+    "title": "Portfolio",
+    "transcription": "She showed her design portfolio to the company during her job interview.",
+    "sentence": "pawr-tfol-ee-oh",
+    "translate": "תיק",
+    "date_created": "2024-02-22 15:45:10",
+    "cover": {
+      "id": 89188,
+      "name": "cover_68446f1712891.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493153510827.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1569,
+    "title": "Diversification",
+    "transcription": "Diversification is an important strategy for reducing risk in an investment portfolio.",
+    "sentence": "dahy-ver-suh-fi-key-shuhn",
+    "translate": "הַתיַיחֵסוּת",
+    "date_created": "2024-02-22 15:45:11",
+    "cover": {
+      "id": 89189,
+      "name": "cover_68446f3b6a283.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493153874412.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1570,
+    "title": "Yield",
+    "transcription": "The farmer's crops yielded a bountiful harvest this year.",
+    "sentence": "jiːld",
+    "translate": "עניבה",
+    "date_created": "2024-02-22 15:45:12",
+    "cover": {
+      "id": 89190,
+      "name": "cover_68446f6196439.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493154256224.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1571,
+    "title": "Liquidity",
+    "transcription": "The company's financial health improved due to its strong liquidity position.",
+    "sentence": "lɪˈkwɪdəti",
+    "translate": "נזילות",
+    "date_created": "2024-02-22 15:45:12",
+    "cover": {
+      "id": 89191,
+      "name": "cover_68446f8761b18.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493154634070.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1572,
+    "title": "Solvency",
+    "transcription": "The company's solvency was called into question after they failed to pay their debts.",
+    "sentence": "ˈsɒlvənsi",
+    "translate": "סולידיות",
+    "date_created": "2024-02-22 15:45:15",
+    "cover": {
+      "id": 89192,
+      "name": "cover_68446fb4776e4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493155084952.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1573,
+    "title": "Valuation",
+    "transcription": "The valuation of the company was estimated at $1 million.",
+    "sentence": "/ˌvæljuˈeɪʃən/",
+    "translate": "הַעֲרָכָה",
+    "date_created": "2024-02-22 15:45:16",
+    "cover": {
+      "id": 89193,
+      "name": "cover_68446fddda67b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493155499003.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1574,
+    "title": "Merger",
+    "transcription": "The merger of the two companies created a powerful new player in the industry.",
+    "sentence": "/ˈmərdʒər/",
+    "translate": "מְהוּנָה",
+    "date_created": "2024-02-22 15:45:16",
+    "cover": {
+      "id": 89194,
+      "name": "cover_684470040ae12.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493155880509.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1575,
+    "title": "Acquisition",
+    "transcription": "The company announced the acquisition of a small startup to expand their services.",
+    "sentence": "ˌæk.wəˈzɪʃ.ən",
+    "translate": "רכישה",
+    "date_created": "2024-02-22 15:45:16",
+    "cover": {
+      "id": 89195,
+      "name": "cover_684470278bb94.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493156235790.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

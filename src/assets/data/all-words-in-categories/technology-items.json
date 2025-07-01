@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1010,
+    "title": "Internet",
+    "transcription": "He spends hours surfing the internet every day.",
+    "sentence": "/ˈɪntərnɛt/",
+    "translate": "אינטרנט",
+    "date_created": "2024-02-22 15:34:43",
+    "cover": {
+      "id": 88578,
+      "name": "cover_6841f5aa0271f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491531940168.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1011,
+    "title": "Smartphone",
+    "transcription": "She uses her smartphone to check emails and browse the internet.",
+    "sentence": "ˈsmɑrtˌfoʊn",
+    "translate": "טלפון חכם",
+    "date_created": "2024-02-22 15:34:44",
+    "cover": {
+      "id": 88579,
+      "name": "cover_6841f5ca7656e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491532264908.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1012,
+    "title": "Software",
+    "transcription": "The new software update improves performance and adds new features.",
+    "sentence": "ˈsɒftweər",
+    "translate": "תוכנה",
+    "date_created": "2024-02-22 15:34:47",
+    "cover": {
+      "id": 88580,
+      "name": "cover_6841f5eeb0928.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491532627291.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1013,
+    "title": "Hardware",
+    "transcription": "The new computer comes with the latest hardware components.",
+    "sentence": "/ˈhɑrdˌwɛr/",
+    "translate": "חומרה",
+    "date_created": "2024-02-22 15:34:48",
+    "cover": {
+      "id": 88581,
+      "name": "cover_6841f6125c836.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491532983855.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1014,
+    "title": "Application (App)",
+    "transcription": "I downloaded a new application (app) that helps me track my daily water intake.",
+    "sentence": "ˌæplɪˈkeɪʃən (æp)",
+    "translate": "אפליקציה",
+    "date_created": "2024-02-22 15:34:49",
+    "cover": {
+      "id": 88582,
+      "name": "cover_6841f63ca3e76.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491533406788.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1015,
+    "title": "Artificial Intelligence (AI)",
+    "transcription": "Some popular examples of Artificial Intelligence (AI) include virtual assistants like Siri and Alexa.",
+    "sentence": "ˌɑːr.tɪˈfɪʃ.əl ɪnˈtel.ə.dʒəns",
+    "translate": "בינה מלאכותית",
+    "date_created": "2024-02-22 15:34:52",
+    "cover": {
+      "id": 88584,
+      "name": "cover_6841f663e3818.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491533799389.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1016,
+    "title": "Machine Learning",
+    "transcription": "Machine learning is a type of artificial intelligence that provides computers with the ability to learn without being explicitly programmed.",
+    "sentence": "/məˈʃiːn ˈlɜːrnɪŋ/",
+    "translate": "למידת מכונה",
+    "date_created": "2024-02-22 15:34:52",
+    "cover": {
+      "id": 88585,
+      "name": "cover_6841f68b48b7e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491534193057.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1017,
+    "title": "Data Science",
+    "transcription": "Data science is the field that deals with extracting knowledge and insights from data.",
+    "sentence": "ˈdeɪtə ˈsaɪəns",
+    "translate": "מדע הנתונים",
+    "date_created": "2024-02-22 15:34:53",
+    "cover": {
+      "id": 88586,
+      "name": "cover_6841f6b225da3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491534581620.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1018,
+    "title": "Robotics",
+    "transcription": "She decided to study robotics in college to pursue a career in cutting-edge technology.",
+    "sentence": "roh-BAH-tiks",
+    "translate": "רובוטיקה",
+    "date_created": "2024-02-22 15:34:57",
+    "cover": {
+      "id": 88587,
+      "name": "cover_6841f6d844c69.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491534962884.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1019,
+    "title": "Virtual Reality (VR)",
+    "transcription": "Virtual Reality (VR) allows users to immerse themselves in a computer-generated environment and interact with it as if it were real.",
+    "sentence": "ˈvərtʃuəl riˈæləti",
+    "translate": "מציאות וירטואלית (VR)",
+    "date_created": "2024-02-22 15:34:57",
+    "cover": {
+      "id": 88588,
+      "name": "cover_6841f6fe0e4f1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491535340647.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1020,
+    "title": "Blockchain",
+    "transcription": "The company is using blockchain technology to securely store its customers' data.",
+    "sentence": "ˈblɒktʃeɪn",
+    "translate": "שַׁרשְׁת בלוקים",
+    "date_created": "2024-02-22 15:35:01",
+    "cover": {
+      "id": 88589,
+      "name": "cover_6841f7229ca02.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491535706481.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1021,
+    "title": "Augmented Reality (AR)",
+    "transcription": "The game Pokemon Go uses augmented reality to allow players to catch virtual creatures in real-world settings.",
+    "sentence": "ˈɔːɡmɛntɪd rɪˈæləti",
+    "translate": "מציאות מדומה מוגברת (AR)",
+    "date_created": "2024-02-22 15:35:01",
+    "cover": {
+      "id": 88590,
+      "name": "cover_6841f746ab5be.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491536067091.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1022,
+    "title": "Cryptocurrency",
+    "transcription": "Investing in cryptocurrency is becoming more popular among young investors.",
+    "sentence": "ˈkrɪptoʊˌkʌrənsi",
+    "translate": "מטבע ספורט",
+    "date_created": "2024-02-22 15:35:03",
+    "cover": {
+      "id": 88591,
+      "name": "cover_6841f76db427a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491536457448.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1023,
+    "title": "Cloud Computing",
+    "transcription": "Many businesses now use cloud computing services to store and access their data remotely.",
+    "sentence": "ˈklaʊd kəmˈpjuːtɪŋ",
+    "translate": "חישוב ענן",
+    "date_created": "2024-02-22 15:35:05",
+    "cover": {
+      "id": 88592,
+      "name": "cover_6841f78ddb69a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491536779046.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1024,
+    "title": "3D Printing",
+    "transcription": "The company specializes in 3D printing personalized prototypes for clients.",
+    "sentence": "ˌθriː ˈdiː ˈprɪntɪŋ",
+    "translate": "הדפסה תלת מימד",
+    "date_created": "2024-02-22 15:35:07",
+    "cover": {
+      "id": 88593,
+      "name": "cover_6841f7b67e85d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491537185249.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1025,
+    "title": "Nanotechnology",
+    "transcription": "Nanotechnology is a field of science and technology that works with particles on the scale of one billionth of a meter.",
+    "sentence": "ˌnæn.oʊˈtɛk.nɑːl.ə.dʒi",
+    "translate": "טכנולוגיית ננו",
+    "date_created": "2024-02-22 15:35:09",
+    "cover": {
+      "id": 88594,
+      "name": "cover_6841f7e2348d4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491537622217.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1026,
+    "title": "Renewable Energy",
+    "transcription": "Renewable energy sources such as wind and solar power are gaining popularity as a sustainable alternative to fossil fuels.",
+    "sentence": "riˈnjuːəbl ˈɛnərdʒi",
+    "translate": "אנרגיה מתחדשת",
+    "date_created": "2024-02-22 15:35:11",
+    "cover": {
+      "id": 88595,
+      "name": "cover_6841f8056718b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491537974316.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1027,
+    "title": "Electric Vehicle",
+    "transcription": "The electric vehicle has a range of 300 miles on a single charge.",
+    "sentence": "ɪˈlɛktrɪk ˈviːɪkəl",
+    "translate": "רכב חשמלי",
+    "date_created": "2024-02-22 15:35:13",
+    "cover": {
+      "id": 88596,
+      "name": "cover_6841f82e930d0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491538386096.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1028,
+    "title": "Satellite",
+    "transcription": "The satellite orbits around the earth gathering data and transmitting signals.",
+    "sentence": "ˈsætəlaɪt",
+    "translate": "לווין",
+    "date_created": "2024-02-22 15:35:14",
+    "cover": {
+      "id": 88597,
+      "name": "cover_6841f856b9b45.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491538787671.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1029,
+    "title": "Drone",
+    "transcription": "The drone flew high above the field, capturing stunning aerial footage.",
+    "sentence": "drohn",
+    "translate": "רחפן",
+    "date_created": "2024-02-22 15:35:17",
+    "cover": {
+      "id": 88598,
+      "name": "cover_6841f87b8b28f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491539155750.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1030,
+    "title": "Quantum Computing",
+    "transcription": "Quantum computing utilizes the principles of quantum mechanics to perform computations at much faster speeds than traditional computers.",
+    "sentence": "ˈkwɒntəm kəmˈpjuːtɪŋ",
+    "translate": "חישוב קוונטי",
+    "date_created": "2024-02-22 15:35:18",
+    "cover": {
+      "id": 88599,
+      "name": "cover_6841f89d3b1f0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491539492489.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1031,
+    "title": "Big Data",
+    "transcription": "Big Data refers to large and complex data sets that are difficult to process using traditional data processing applications.",
+    "sentence": " /bɪɡ ˈdeɪtə/ ",
+    "translate": "נתונים גדולים",
+    "date_created": "2024-02-22 15:35:18",
+    "cover": {
+      "id": 88600,
+      "name": "cover_6841f8c3d2e8c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491539878701.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1032,
+    "title": "Cybersecurity",
+    "transcription": "It's important to have strong cybersecurity measures in place to protect your sensitive information online.",
+    "sentence": "ˈsaɪbərˌsɪˈkjʊrəti",
+    "translate": "סייברביטחון",
+    "date_created": "2024-02-22 15:35:18",
+    "cover": {
+      "id": 88601,
+      "name": "cover_6841f8e836b0a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491540242310.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1033,
+    "title": "Internet of Things (IoT)",
+    "transcription": "The Internet of Things (IoT) refers to the network of physical devices, vehicles, and appliances that are embedded with sensors, software, and connectivity to exchange data over the internet.",
+    "sentence": "ˈɪntərnɛt ʌv θɪŋz",
+    "translate": "אינטרנט של הדברים (IoT)",
+    "date_created": "2024-02-22 15:35:21",
+    "cover": {
+      "id": 88602,
+      "name": "cover_6841f90ba1a59.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491540596688.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1034,
+    "title": "Social Media",
+    "transcription": "I spent way too much time on social media yesterday.",
+    "sentence": "ˈsoʊʃəl ˈmidiə",
+    "translate": "רשתות חברתיות",
+    "date_created": "2024-02-22 15:35:22",
+    "cover": {
+      "id": 88603,
+      "name": "cover_6841f93743a41.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491541032837.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1035,
+    "title": "E-commerce",
+    "transcription": "She prefers shopping online through e-commerce websites rather than going to physical stores.",
+    "sentence": "ˈiːˌkɒmɜːs",
+    "translate": "מסחר אלקטרוני",
+    "date_created": "2024-02-22 15:35:23",
+    "cover": {
+      "id": 88604,
+      "name": "cover_6841f95b60770.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491541394020.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1036,
+    "title": "Digital Marketing",
+    "transcription": "Digital marketing has become increasingly important for businesses to reach their target audience online.",
+    "sentence": "ˈdɪdʒɪtl ˈmɑrkətɪŋ",
+    "translate": null,
+    "date_created": "2024-02-22 15:35:23",
+    "cover": {
+      "id": 88605,
+      "name": "cover_6841f9808d0ea.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491541765849.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1037,
+    "title": "User Interface (UI)",
+    "transcription": "The user interface of the app is very user-friendly and intuitive.",
+    "sentence": "ˈjuːzər ˈɪntərfeɪs",
+    "translate": "ממשק משתמש (UI)",
+    "date_created": "2024-02-22 15:35:27",
+    "cover": {
+      "id": 88606,
+      "name": "cover_6841f9acb2bb9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491542207391.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1038,
+    "title": "User Experience (UX)",
+    "transcription": "Improving the user experience on our website will lead to higher engagement and conversion rates.",
+    "sentence": "ˈjuːzər ɪkˈspɪəriəns (ˌjuː ˈeks)",
+    "translate": "חוויית משתמש (UX)",
+    "date_created": "2024-02-22 15:35:29",
+    "cover": {
+      "id": 88607,
+      "name": "cover_6841f9d0ebc0e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491542569725.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1039,
+    "title": "Operating System",
+    "transcription": "Windows and MacOS are examples of popular operating systems used in computers.",
+    "sentence": "ˈɒpəreɪtɪŋ ˌsɪstəm",
+    "translate": "מערכת הפעלה",
+    "date_created": "2024-02-22 15:35:30",
+    "cover": {
+      "id": 88608,
+      "name": "cover_6841f9f837f33.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491542962353.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1040,
+    "title": "Network",
+    "transcription": "The company has a wide network of suppliers around the world.",
+    "sentence": "/ˈnɛtˌwɜrk/",
+    "translate": "רשת",
+    "date_created": "2024-02-22 15:35:30",
+    "cover": {
+      "id": 88609,
+      "name": "cover_6841fa1fc3605.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491543358069.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1041,
+    "title": "Database",
+    "transcription": "The company stores all their customer information in a database for easy access.",
+    "sentence": "/ˈdeɪtəbeɪs/",
+    "translate": "מסד נתונים",
+    "date_created": "2024-02-22 15:35:33",
+    "cover": {
+      "id": 88610,
+      "name": "cover_6841fa3ee6a7e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491543669515.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1042,
+    "title": "Programming Language",
+    "transcription": "Python and JavaScript are popular programming languages used for web development.",
+    "sentence": "ˈproʊˌɡræmɪŋ ˈlæŋɡwɪdʒ",
+    "translate": "שפת תכנות",
+    "date_created": "2024-02-22 15:35:35",
+    "cover": {
+      "id": 88611,
+      "name": "cover_6841fa64c7bd1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491544048252.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1043,
+    "title": "Coding",
+    "transcription": "She decided to pursue a career in coding and enrolled in a programming course.",
+    "sentence": "ˈkoʊdɪŋ",
+    "translate": "קידוד",
+    "date_created": "2024-02-22 15:35:35",
+    "cover": {
+      "id": 88612,
+      "name": "cover_6841fa893dd7f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491544412613.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1044,
+    "title": "Algorithm",
+    "transcription": "The search algorithm quickly found the most relevant results for my query.",
+    "sentence": "/ˈæl·ɡəˌrɪð·əm/",
+    "translate": "אלגוריתם",
+    "date_created": "2024-02-22 15:35:37",
+    "cover": {
+      "id": 88613,
+      "name": "cover_6841faac1e92e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491544761319.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1045,
+    "title": "Encryption",
+    "transcription": "The data was transmitted securely thanks to the encryption technology used.",
+    "sentence": "/ɪnˈkrɪp.ʃən/",
+    "translate": "הצפנה",
+    "date_created": "2024-02-22 15:35:37",
+    "cover": {
+      "id": 88614,
+      "name": "cover_6841fad5ba6ca.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491545177709.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1046,
+    "title": "Sensor",
+    "transcription": "The motion sensor detected movement outside the house.",
+    "sentence": "ˈsɛnsər",
+    "translate": "חיישן",
+    "date_created": "2024-02-22 15:35:38",
+    "cover": {
+      "id": 88615,
+      "name": "cover_6841fafcc66cb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491545568192.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1047,
+    "title": "Biotechnology",
+    "transcription": "Biotechnology has revolutionized the field of medicine, enabling the development of new drugs and treatments.",
+    "sentence": "/ˌbaɪ.oʊˌtekˈnɑlədʒi/",
+    "translate": "ביוטכנולוגיה",
+    "date_created": "2024-02-22 15:35:40",
+    "cover": {
+      "id": 88616,
+      "name": "cover_6841fb2b21a63.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491546031451.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

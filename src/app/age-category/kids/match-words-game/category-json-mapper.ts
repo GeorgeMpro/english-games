@@ -1,0 +1,181 @@
+import academicAndScientificEnglishJson
+  from '../../../../assets/data/all-words-in-categories/academic_and_scientific_english-items.json';
+import adjectivesJson
+  from '../../../../assets/data/all-words-in-categories/adjectives-items.json';
+import adverbsJson
+  from '../../../../assets/data/all-words-in-categories/adverbs-items.json';
+import aiJson
+  from '../../../../assets/data/all-words-in-categories/ai-items.json';
+import animalsJson
+  from '../../../../assets/data/all-words-in-categories/animals-items.json';
+import artJson
+  from '../../../../assets/data/all-words-in-categories/art-items.json';
+import basicNumbersJson
+  from '../../../../assets/data/all-words-in-categories/basic_numbers-items.json';
+import bodyPartsJson
+  from '../../../../assets/data/all-words-in-categories/body_parts-items.json';
+import businessEnglishJson
+  from '../../../../assets/data/all-words-in-categories/business_english-items.json';
+import cityAndArchitectureJson
+  from '../../../../assets/data/all-words-in-categories/city_and_architecture-items.json';
+import clothingAndAccessoriesJson
+  from '../../../../assets/data/all-words-in-categories/clothing_and_accessories-items.json';
+import colorsJson
+  from '../../../../assets/data/all-words-in-categories/colors-items.json';
+import computersAndInternetJson
+  from '../../../../assets/data/all-words-in-categories/computers_and_internet-items.json';
+import ecologyAndEnvironmentJson
+  from '../../../../assets/data/all-words-in-categories/ecology_and_environment-items.json';
+import economicsAndFinanceJson
+  from '../../../../assets/data/all-words-in-categories/economics_and_finance-items.json';
+import educationAndStudyJson
+  from '../../../../assets/data/all-words-in-categories/education_and_study-items.json';
+import emotionsAndFeelingsJson
+  from '../../../../assets/data/all-words-in-categories/emotions_and_feelings-items.json';
+import familyAndRelationshipsJson
+  from '../../../../assets/data/all-words-in-categories/family_and_relationships-items.json';
+import foodAndDrinksJson
+  from '../../../../assets/data/all-words-in-categories/food_and_drinks-items.json';
+import healthAndMedicineJson
+  from '../../../../assets/data/all-words-in-categories/health_and_medicine-items.json';
+import historyAndCultureJson
+  from '../../../../assets/data/all-words-in-categories/history_and_culture-items.json';
+import hobbiesAndLeisureJson
+  from '../../../../assets/data/all-words-in-categories/hobbies_and_leisure-items.json';
+import holidaysAndTraditionsJson
+  from '../../../../assets/data/all-words-in-categories/holidays_and_traditions-items.json';
+import homeAndHouseholdJson
+  from '../../../../assets/data/all-words-in-categories/home_and_household-items.json';
+import idiomsAndExpressionsJson
+  from '../../../../assets/data/all-words-in-categories/idioms_and_expressions-items.json';
+import legalEnglishJson
+  from '../../../../assets/data/all-words-in-categories/legal_english-items.json';
+import mediaAndNewsEnglishJson
+  from '../../../../assets/data/all-words-in-categories/media_and_news_english-items.json';
+import musicJson
+  from '../../../../assets/data/all-words-in-categories/music-items.json';
+import natureJson
+  from '../../../../assets/data/all-words-in-categories/nature-items.json';
+import ordinalNumbersJson
+  from '../../../../assets/data/all-words-in-categories/ordinal_numbers-items.json';
+import phrasalVerbsJson
+  from '../../../../assets/data/all-words-in-categories/phrasal_verbs-items.json';
+import politicsAndSocietyJson
+  from '../../../../assets/data/all-words-in-categories/politics_and_society-items.json';
+import prepositionsJson
+  from '../../../../assets/data/all-words-in-categories/prepositions-items.json';
+import quantityTermsJson
+  from '../../../../assets/data/all-words-in-categories/quantity_terms-items.json';
+import scienceJson
+  from '../../../../assets/data/all-words-in-categories/science-items.json';
+import seasonsOfTheYearJson
+  from '../../../../assets/data/all-words-in-categories/seasons_of_the_year-items.json';
+import spaceAndAstronomyJson
+  from '../../../../assets/data/all-words-in-categories/space_and_astronomy-items.json';
+import sportsAndFitnessJson
+  from '../../../../assets/data/all-words-in-categories/sports_and_fitness-items.json';
+import technologyJson
+  from '../../../../assets/data/all-words-in-categories/technology-items.json';
+import technologyAndInnovationJson
+  from '../../../../assets/data/all-words-in-categories/technology_and_innovation-items.json';
+import travelAndTransportationJson
+  from '../../../../assets/data/all-words-in-categories/travel_and_transportation-items.json';
+import verbsJson
+  from '../../../../assets/data/all-words-in-categories/verbs-items.json';
+import weatherAndClimateJson
+  from '../../../../assets/data/all-words-in-categories/weather_and_climate-items.json';
+import workAndProfessionsJson
+  from '../../../../assets/data/all-words-in-categories/work_and_professions-items.json';
+
+export const fallbackDataMap: Record<number, any[]> = {
+  4: bodyPartsJson,
+  5: clothingAndAccessoriesJson,
+  6: foodAndDrinksJson,
+  7: familyAndRelationshipsJson,
+  8: animalsJson,
+  9: natureJson,
+  10: colorsJson,
+  11: basicNumbersJson,
+  12: ordinalNumbersJson,
+  13: quantityTermsJson,
+  14: travelAndTransportationJson,
+  15: cityAndArchitectureJson,
+  16: homeAndHouseholdJson,
+  17: workAndProfessionsJson,
+  18: hobbiesAndLeisureJson,
+  19: educationAndStudyJson,
+  20: sportsAndFitnessJson,
+  21: musicJson,
+  22: artJson,
+  23: healthAndMedicineJson,
+  24: weatherAndClimateJson,
+  25: emotionsAndFeelingsJson,
+  26: holidaysAndTraditionsJson,
+  27: scienceJson,
+  28: technologyJson,
+  29: adjectivesJson,
+  30: verbsJson,
+  31: adverbsJson,
+  32: prepositionsJson,
+  33: seasonsOfTheYearJson,
+  34: spaceAndAstronomyJson,
+  35: historyAndCultureJson,
+  36: politicsAndSocietyJson,
+  37: economicsAndFinanceJson,
+  38: computersAndInternetJson,
+  39: phrasalVerbsJson,
+  40: idiomsAndExpressionsJson,
+  41: academicAndScientificEnglishJson,
+  42: businessEnglishJson,
+  43: legalEnglishJson,
+  44: mediaAndNewsEnglishJson,
+  45: ecologyAndEnvironmentJson,
+  46: technologyAndInnovationJson,
+};
+
+export const categoryJsonMap: Record<string, string> = {
+  'academic_and_scientific_english': 'assets/data/all-words-in-categories/academic_and_scientific_english-items.json',
+  'adjectives': 'assets/data/all-words-in-categories/adjectives-items.json',
+  'adverbs': 'assets/data/all-words-in-categories/adverbs-items.json',
+  'ai': 'assets/data/all-words-in-categories/ai-items.json',
+  'animals': 'assets/data/all-words-in-categories/animals-items.json',
+  'art': 'assets/data/all-words-in-categories/art-items.json',
+  'basic_numbers': 'assets/data/all-words-in-categories/basic_numbers-items.json',
+  'body_parts': 'assets/data/all-words-in-categories/body_parts-items.json',
+  'business_english': 'assets/data/all-words-in-categories/business_english-items.json',
+  'city_and_architecture': 'assets/data/all-words-in-categories/city_and_architecture-items.json',
+  'clothing_and_accessories': 'assets/data/all-words-in-categories/clothing_and_accessories-items.json',
+  'colors': 'assets/data/all-words-in-categories/colors-items.json',
+  'computers_and_internet': 'assets/data/all-words-in-categories/computers_and_internet-items.json',
+  'ecology_and_environment': 'assets/data/all-words-in-categories/ecology_and_environment-items.json',
+  'economics_and_finance': 'assets/data/all-words-in-categories/economics_and_finance-items.json',
+  'education_and_study': 'assets/data/all-words-in-categories/education_and_study-items.json',
+  'emotions_and_feelings': 'assets/data/all-words-in-categories/emotions_and_feelings-items.json',
+  'family_and_relationships': 'assets/data/all-words-in-categories/family_and_relationships-items.json',
+  'food_and_drinks': 'assets/data/all-words-in-categories/food_and_drinks-items.json',
+  'health_and_medicine': 'assets/data/all-words-in-categories/health_and_medicine-items.json',
+  'history_and_culture': 'assets/data/all-words-in-categories/history_and_culture-items.json',
+  'hobbies_and_leisure': 'assets/data/all-words-in-categories/hobbies_and_leisure-items.json',
+  'holidays_and_traditions': 'assets/data/all-words-in-categories/holidays_and_traditions-items.json',
+  'home_and_household': 'assets/data/all-words-in-categories/home_and_household-items.json',
+  'idioms_and_expressions': 'assets/data/all-words-in-categories/idioms_and_expressions-items.json',
+  'legal_english': 'assets/data/all-words-in-categories/legal_english-items.json',
+  'media_and_news_english': 'assets/data/all-words-in-categories/media_and_news_english-items.json',
+  'music': 'assets/data/all-words-in-categories/music-items.json',
+  'nature': 'assets/data/all-words-in-categories/nature-items.json',
+  'ordinal_numbers': 'assets/data/all-words-in-categories/ordinal_numbers-items.json',
+  'phrasal_verbs': 'assets/data/all-words-in-categories/phrasal_verbs-items.json',
+  'politics_and_society': 'assets/data/all-words-in-categories/politics_and_society-items.json',
+  'prepositions': 'assets/data/all-words-in-categories/prepositions-items.json',
+  'quantity_terms': 'assets/data/all-words-in-categories/quantity_terms-items.json',
+  'science': 'assets/data/all-words-in-categories/science-items.json',
+  'seasons_of_the_year': 'assets/data/all-words-in-categories/seasons_of_the_year-items.json',
+  'space_and_astronomy': 'assets/data/all-words-in-categories/space_and_astronomy-items.json',
+  'sports_and_fitness': 'assets/data/all-words-in-categories/sports_and_fitness-items.json',
+  'technology': 'assets/data/all-words-in-categories/technology-items.json',
+  'technology_and_innovation': 'assets/data/all-words-in-categories/technology_and_innovation-items.json',
+  'travel_and_transportation': 'assets/data/all-words-in-categories/travel_and_transportation-items.json',
+  'verbs': 'assets/data/all-words-in-categories/verbs-items.json',
+  'weather_and_climate': 'assets/data/all-words-in-categories/weather_and_climate-items.json',
+  'work_and_professions': 'assets/data/all-words-in-categories/work_and_professions-items.json',
+};

@@ -1,0 +1,752 @@
+[
+  {
+    "id": 583,
+    "title": "Writing",
+    "transcription": "She has a talent for writing beautiful poetry.",
+    "sentence": "ˈraɪtɪŋ",
+    "translate": "כתיבה",
+    "date_created": "2024-02-22 15:28:00",
+    "cover": {
+      "id": 87734,
+      "name": "cover_6839990e74730.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486051984842.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 584,
+    "title": "Reading",
+    "transcription": "She enjoys reading novels in her free time.",
+    "sentence": "/ˈriːdɪŋ/",
+    "translate": "קריאה",
+    "date_created": "2024-02-22 15:28:00",
+    "cover": {
+      "id": 87735,
+      "name": "cover_683999353c9e3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486052372589.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 585,
+    "title": "Drawing",
+    "transcription": "She spends hours a day drawing in her sketchbook.",
+    "sentence": "ˈdrɔɪŋ",
+    "translate": "ציור",
+    "date_created": "2024-02-22 15:28:00",
+    "cover": {
+      "id": 87736,
+      "name": "cover_6839996d3113f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486052932086.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 586,
+    "title": "Painting",
+    "transcription": "She spent all weekend painting her bedroom a bright shade of blue.",
+    "sentence": "/ˈpeɪntɪŋ/",
+    "translate": "ציור",
+    "date_created": "2024-02-22 15:28:04",
+    "cover": {
+      "id": 87737,
+      "name": "cover_68399999ce221.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486053378512.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 587,
+    "title": "Cooking",
+    "transcription": "I love cooking dinner for my family every evening.",
+    "sentence": "ˈkʊkɪŋ",
+    "translate": "בישול",
+    "date_created": "2024-02-22 15:28:04",
+    "cover": {
+      "id": 87738,
+      "name": "cover_683999d2b34c4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486053947409.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 588,
+    "title": "Baking",
+    "transcription": "She enjoys baking cookies for her friends.",
+    "sentence": "ˈbeɪkɪŋ",
+    "translate": "אפייה",
+    "date_created": "2024-02-22 15:28:05",
+    "cover": {
+      "id": 87739,
+      "name": "cover_68399a0091d86.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486054406047.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 589,
+    "title": "Gardening",
+    "transcription": "My grandmother has a passion for gardening and her yard is always filled with beautiful flowers and vegetables.",
+    "sentence": "/ˈɡɑːrdnɪŋ/",
+    "translate": "גינון",
+    "date_created": "2024-02-22 15:28:06",
+    "cover": {
+      "id": 87740,
+      "name": "cover_68399a2fafa43.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486054877261.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 590,
+    "title": "Knitting",
+    "transcription": "She spends her evenings knitting scarves and hats for her friends.",
+    "sentence": "ˈnɪtɪŋ",
+    "translate": "רישום",
+    "date_created": "2024-02-22 15:28:08",
+    "cover": {
+      "id": 87741,
+      "name": "cover_68399a565522b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486055263586.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 591,
+    "title": "Sewing",
+    "transcription": "She enjoyed sewing her own clothes and creating unique designs.",
+    "sentence": "ˈsoʊɪŋ",
+    "translate": "תפירה",
+    "date_created": "2024-02-22 15:28:08",
+    "cover": {
+      "id": 87742,
+      "name": "cover_68399a8943ad9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486055772839.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 592,
+    "title": "Photography",
+    "transcription": "She studied photography in college and now works as a professional photographer.",
+    "sentence": "fəˈtɑːɡrəfi",
+    "translate": "צילום",
+    "date_created": "2024-02-22 15:28:09",
+    "cover": {
+      "id": 87743,
+      "name": "cover_68399aafb49bc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486056157468.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 593,
+    "title": "Singing",
+    "transcription": "She loved singing in the choir at her church.",
+    "sentence": "/ˈsɪŋɪŋ/",
+    "translate": "שירה",
+    "date_created": "2024-02-22 15:28:11",
+    "cover": {
+      "id": 87744,
+      "name": "cover_68399ad628e76.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486056541745.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 594,
+    "title": "Playing musical instruments",
+    "transcription": "Playing musical instruments is a great way to relax and unwind after a long day.",
+    "sentence": "ˈpleɪɪŋ ˈmjuːzɪkəl ˈɪnstrəmənts",
+    "translate": "נגינה על כלי נגינה",
+    "date_created": "2024-02-22 15:28:11",
+    "cover": {
+      "id": 87745,
+      "name": "cover_68399b0206a84.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486056980350.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 595,
+    "title": "Dancing",
+    "transcription": "She loves dancing so much that she takes classes every week.",
+    "sentence": "/ˈdænsɪŋ/",
+    "translate": "לְרַקוֹד",
+    "date_created": "2024-02-22 15:28:11",
+    "cover": {
+      "id": 87746,
+      "name": "cover_68399b23dfe6e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486057319252.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 596,
+    "title": "Acting",
+    "transcription": "She has been taking acting classes to improve her skills.",
+    "sentence": "ˈæktɪŋ",
+    "translate": "פעול",
+    "date_created": "2024-02-22 15:28:12",
+    "cover": {
+      "id": 87747,
+      "name": "cover_68399b4f807f9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486057755335.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 597,
+    "title": "Watching movies",
+    "transcription": "I love watching movies on Friday nights.",
+    "sentence": "ˈwɑtʃɪŋ ˈmuːviz",
+    "translate": "צפייה בסרטים",
+    "date_created": "2024-02-22 15:28:14",
+    "cover": {
+      "id": 87748,
+      "name": "cover_68399b777c3ce.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486058155160.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 598,
+    "title": "Listening to music",
+    "transcription": "I love listening to music while I study. It helps me focus and relax.",
+    "sentence": "ˈlɪsnɪŋ tuː ˈmjuːzɪk",
+    "translate": "האזנה למוזיקה",
+    "date_created": "2024-02-22 15:28:15",
+    "cover": {
+      "id": 87749,
+      "name": "cover_68399ba7a6887.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486058636888.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 599,
+    "title": "Board games",
+    "transcription": "I enjoy playing board games with my friends on weekends.",
+    "sentence": "ˈbɔːrd ɡeɪmz",
+    "translate": "משחקי לוח",
+    "date_created": "2024-02-22 15:28:16",
+    "cover": {
+      "id": 87750,
+      "name": "cover_68399bd024afa.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486059041571.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 600,
+    "title": "Playing video games",
+    "transcription": "My brother spends hours playing video games every day.",
+    "sentence": "ˈpleɪɪŋ ˈvɪdiəʊ ˌɡeɪmz",
+    "translate": "מְשַׂחֵק בְּמִשׂחָקֵי וִידֵאוֹ",
+    "date_created": "2024-02-22 15:28:16",
+    "cover": {
+      "id": 87751,
+      "name": "cover_68399bfa775b9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486059464963.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 601,
+    "title": "Card games",
+    "transcription": "We like to play card games like Poker and Bridge during family gatherings.",
+    "sentence": "ˈkɑːrd ɡeɪmz",
+    "translate": "משחקי קלפים",
+    "date_created": "2024-02-22 15:28:17",
+    "cover": {
+      "id": 87752,
+      "name": "cover_68399c227c22e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486059865152.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 602,
+    "title": "Puzzle solving",
+    "transcription": "She enjoys the challenge of puzzle solving and spends hours working on crosswords and jigsaw puzzles.",
+    "sentence": "ˈpʌzəl ˈsɒlvɪŋ",
+    "translate": "פתרון פאזל",
+    "date_created": "2024-02-22 15:28:18",
+    "cover": {
+      "id": 87753,
+      "name": "cover_68399c544b3ec.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486060363170.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 603,
+    "title": "Hiking",
+    "transcription": "I enjoy hiking in the mountains during the summer.",
+    "sentence": "ˈhaɪkɪŋ",
+    "translate": "טיול רגלי",
+    "date_created": "2024-02-22 15:28:19",
+    "cover": {
+      "id": 87754,
+      "name": "cover_68399c798b793.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486060735775.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 604,
+    "title": "Camping",
+    "transcription": "We decided to go camping in the national park for the weekend.",
+    "sentence": "/ˈkæmpɪŋ/",
+    "translate": "קמפינג",
+    "date_created": "2024-02-22 15:28:21",
+    "cover": {
+      "id": 87755,
+      "name": "cover_68399ca2af63b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486061147252.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 605,
+    "title": "Fishing",
+    "transcription": "We went fishing at the lake and caught a bunch of trout.",
+    "sentence": "ˈfɪʃɪŋ",
+    "translate": "דיג",
+    "date_created": "2024-02-22 15:28:21",
+    "cover": {
+      "id": 87756,
+      "name": "cover_68399cc75c72b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486061513857.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 606,
+    "title": "Hunting",
+    "transcription": "He loves going hunting for deer in the forest.",
+    "sentence": "/ˈhʌntɪŋ/",
+    "translate": "ציד",
+    "date_created": "2024-02-22 15:28:22",
+    "cover": {
+      "id": 87757,
+      "name": "cover_68399cf2c8807.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486061948289.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 607,
+    "title": "Swimming",
+    "transcription": "I enjoy going swimming at the beach during the summer.",
+    "sentence": "/ˈswɪmɪŋ/",
+    "translate": "שחייה",
+    "date_created": "2024-02-22 15:28:23",
+    "cover": {
+      "id": 87758,
+      "name": "cover_68399d1fcda9e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486062398486.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 608,
+    "title": "Cycling",
+    "transcription": "I enjoy cycling on the weekends for exercise and relaxation.",
+    "sentence": "ˈsaɪklɪŋ",
+    "translate": "רכיבה",
+    "date_created": "2024-02-22 15:28:23",
+    "cover": {
+      "id": 87759,
+      "name": "cover_68399d47e8080.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486062799573.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 609,
+    "title": "Running",
+    "transcription": "She has been running every morning to train for the marathon.",
+    "sentence": "/ˈrʌnɪŋ/",
+    "translate": "ריצה",
+    "date_created": "2024-02-22 15:28:24",
+    "cover": {
+      "id": 87760,
+      "name": "cover_68399d6de0595.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486063179250.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 610,
+    "title": "Yoga",
+    "transcription": "She practices yoga every morning to stay healthy and reduce stress.",
+    "sentence": "ˈjoʊɡə",
+    "translate": "יוגה",
+    "date_created": "2024-02-22 15:28:25",
+    "cover": {
+      "id": 87761,
+      "name": "cover_68399d9c55159.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486063643594.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 611,
+    "title": "Gymnastics",
+    "transcription": "She has been practicing gymnastics since she was five years old.",
+    "sentence": "/dʒɪmˈnæs.tɪks/",
+    "translate": "הגמנסטיקה",
+    "date_created": "2024-02-22 15:28:25",
+    "cover": {
+      "id": 87764,
+      "name": "cover_68399dc42235d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486064041499.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 612,
+    "title": "Weightlifting",
+    "transcription": "She enjoys weightlifting at the gym to build muscle strength.",
+    "sentence": "/ˈweɪtˌlɪftɪŋ/",
+    "translate": "מראת משקולות",
+    "date_created": "2024-02-22 15:28:26",
+    "cover": {
+      "id": 87765,
+      "name": "cover_68399ded1248e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486064450820.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 613,
+    "title": "Martial arts",
+    "transcription": "He has been practicing martial arts for ten years and has earned a black belt in karate.",
+    "sentence": "ˈmɑːrʃəl ɑːrts",
+    "translate": "אמנויות לחימה",
+    "date_created": "2024-02-22 15:28:27",
+    "cover": {
+      "id": 87766,
+      "name": "cover_68399e176c188.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486064874491.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 614,
+    "title": "Boxing",
+    "transcription": "He has been training in boxing for years and hopes to become a professional boxer one day.",
+    "sentence": "ˈbɑksɪŋ",
+    "translate": "איגרוף",
+    "date_created": "2024-02-22 15:28:28",
+    "cover": {
+      "id": 87767,
+      "name": "cover_68399e4339b07.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486065312465.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 615,
+    "title": "Skateboarding",
+    "transcription": "I love to watch professional skateboarders perform amazing tricks at the skate park.",
+    "sentence": "ˈskeɪtˌbɔrdɪŋ",
+    "translate": "סְקֵיְטְבוֹרְדִינְג",
+    "date_created": "2024-02-22 15:28:28",
+    "cover": {
+      "id": 87768,
+      "name": "cover_68399e726d4a8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486065784537.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 616,
+    "title": "Surfing",
+    "transcription": "He enjoys surfing on the weekends to relax and unwind.",
+    "sentence": "/ˈsɜːrfɪŋ/",
+    "translate": "גלישת גלים",
+    "date_created": "2024-02-22 15:28:31",
+    "cover": {
+      "id": 87769,
+      "name": "cover_68399e9700bd2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486066150099.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 617,
+    "title": "Skiing",
+    "transcription": "I love skiing down the slopes in the winter.",
+    "sentence": "/ˈskiːɪŋ/",
+    "translate": "סְקִי",
+    "date_created": "2024-02-22 15:28:31",
+    "cover": {
+      "id": 87770,
+      "name": "cover_68399eba6daa1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486066504585.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 618,
+    "title": "Snowboarding",
+    "transcription": "I went snowboarding in the mountains for the first time this winter.",
+    "sentence": "/ˈsnoʊˌbɔːrdɪŋ/",
+    "translate": "סנובורד",
+    "date_created": "2024-02-22 15:28:32",
+    "cover": {
+      "id": 87771,
+      "name": "cover_68399ee326f1b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486066911655.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 619,
+    "title": "Traveling",
+    "transcription": "I love traveling to new places and experiencing different cultures.",
+    "sentence": "ˈtrævəlɪŋ",
+    "translate": "נסיעה",
+    "date_created": "2024-02-22 15:28:32",
+    "cover": {
+      "id": 87772,
+      "name": "cover_68399f09c8fb6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486067298329.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 620,
+    "title": "Bird watching",
+    "transcription": "My hobby is bird watching; I love going to the park with my binoculars to spot different species.",
+    "sentence": " /ˈbɜrd ˈwɑtʃɪŋ/",
+    "translate": "צפיית עופות",
+    "date_created": "2024-02-22 15:28:33",
+    "cover": {
+      "id": 87773,
+      "name": "cover_68399f4381a0d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486067875498.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 621,
+    "title": "Collecting (stamps, coins, etc.)",
+    "transcription": "I enjoy collecting stamps from different countries to add to my collection.",
+    "sentence": "kəˈlɛktɪŋ (stamps, coins, etc.)",
+    "translate": "איסוף (בולים, מטבעות, וכו ')",
+    "date_created": "2024-02-22 15:28:33",
+    "cover": {
+      "id": 87774,
+      "name": "cover_68399f7c094ce.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486068440508.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 622,
+    "title": "Model building",
+    "transcription": "He enjoyed spending hours working on his model building project. ",
+    "sentence": "ˈmɒdəl ˈbɪldɪŋ",
+    "translate": "בניית מודל",
+    "date_created": "2024-02-22 15:28:36",
+    "cover": {
+      "id": 87775,
+      "name": "cover_68399fa7478ac.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486068873022.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 623,
+    "title": "Pottery",
+    "transcription": "She enjoys creating beautiful pottery pieces in her studio.",
+    "sentence": "/ˈpɒtəri/",
+    "translate": "כלי קרמיקה",
+    "date_created": "2024-02-22 15:28:36",
+    "cover": {
+      "id": 87776,
+      "name": "cover_68399fd32d781.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486069311930.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 624,
+    "title": "Scrapbooking",
+    "transcription": "My mom enjoys scrapbooking as a way to preserve our family's memories.",
+    "sentence": "ˈskrapˌbʊkɪŋ",
+    "translate": "סקראפבוקינג",
+    "date_created": "2024-02-22 15:28:38",
+    "cover": {
+      "id": 87777,
+      "name": "cover_68399fff0eacb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486069750727.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 625,
+    "title": "Blogging",
+    "transcription": "She started blogging about her travels and gained a large following online.",
+    "sentence": "ˈblɔgɪŋ",
+    "translate": "בלוגינג",
+    "date_created": "2024-02-22 15:28:38",
+    "cover": {
+      "id": 87778,
+      "name": "cover_6839a02202aad.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486070100274.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 626,
+    "title": "Podcasting",
+    "transcription": "She enjoys creating her own podcasts and listening to other people's podcasts as well.",
+    "sentence": "/ˈpɒdˌkɑːstɪŋ/",
+    "translate": "פודקאסטינג",
+    "date_created": "2024-02-22 15:28:39",
+    "cover": {
+      "id": 87779,
+      "name": "cover_6839a04979241.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486070495091.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 627,
+    "title": "Playing chess",
+    "transcription": "I enjoy playing chess with my friends on the weekends.",
+    "sentence": "/ˈpleɪɪŋ tʃɛs/",
+    "translate": "שחמט",
+    "date_created": "2024-02-22 15:28:40",
+    "cover": {
+      "id": 87780,
+      "name": "cover_6839a073a3a2a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486070916774.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 628,
+    "title": "Astronomy",
+    "transcription": "Studying astronomy allows us to learn about the stars, planets, and other celestial objects in the universe.",
+    "sentence": "əˈstrɒnəmi",
+    "translate": "אַסטראָנאָמיע",
+    "date_created": "2024-02-22 15:28:41",
+    "cover": {
+      "id": 87781,
+      "name": "cover_6839a09930adc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486071292057.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 629,
+    "title": "Magic tricks",
+    "transcription": "The magician performed amazing magic tricks that left the audience in awe.",
+    "sentence": "ˈmædʒɪk trɪks",
+    "translate": "תעלומות קסם",
+    "date_created": "2024-02-22 15:28:42",
+    "cover": {
+      "id": 87782,
+      "name": "cover_6839a0c4039c0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486071720212.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 630,
+    "title": "Origami",
+    "transcription": "I learned how to make a paper crane using origami techniques.",
+    "sentence": "ˌɔrəˈɡɑːmi",
+    "translate": "אוריגאמי",
+    "date_created": "2024-02-22 15:28:43",
+    "cover": {
+      "id": 87783,
+      "name": "cover_6839a0ea969c8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486072106265.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 631,
+    "title": "DIY projects",
+    "transcription": "She enjoys working on DIY projects in her spare time, like building furniture or painting walls.",
+    "sentence": "ˌdiː.aɪ ˈprɑː.dʒekt",
+    "translate": "פרוייקטים בשי לעשות",
+    "date_created": "2024-02-22 15:28:44",
+    "cover": {
+      "id": 87784,
+      "name": "cover_6839a11eee680.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486072629833.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 633,
+    "title": "Learning languages",
+    "transcription": "Learning languages is an important skill that can open up new opportunities for you.",
+    "sentence": "ˈlɜrnɪŋ ˈlæŋɡwɪʤɪz",
+    "translate": "לימוד שפות",
+    "date_created": "2024-02-22 15:28:44",
+    "cover": {
+      "id": 87786,
+      "name": "cover_6839a173ea124.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486073479698.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

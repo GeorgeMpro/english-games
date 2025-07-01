@@ -1,0 +1,902 @@
+[
+  {
+    "id": 523,
+    "title": "Accountant",
+    "transcription": "The accountant was responsible for preparing the company's financial statements.",
+    "sentence": "əˈkaʊntənt",
+    "translate": "מנהל חשבונות",
+    "date_created": "2024-02-22 15:26:57",
+    "cover": {
+      "id": 87667,
+      "name": "cover_68398f3cc465b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486026848117.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 524,
+    "title": "Artist",
+    "transcription": "She is a talented artist who specializes in watercolor paintings.",
+    "sentence": "/ˈɑrtɪst/",
+    "translate": "אמן",
+    "date_created": "2024-02-22 15:26:58",
+    "cover": {
+      "id": 87668,
+      "name": "cover_68398f64b04eb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486027247335.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 525,
+    "title": "Architect",
+    "transcription": "The architect designed a beautiful new office building with lots of natural light.",
+    "sentence": "ˈɑːrkɪˌtekt",
+    "translate": "אדריכל",
+    "date_created": "2024-02-22 15:26:58",
+    "cover": {
+      "id": 87669,
+      "name": "cover_68398f90276c8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486027681685.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 526,
+    "title": "Baker",
+    "transcription": "The baker wakes up early every morning to start baking fresh bread for the day.",
+    "sentence": "ˈbeɪ.kər",
+    "translate": "אופה",
+    "date_created": "2024-02-22 15:26:59",
+    "cover": {
+      "id": 87670,
+      "name": "cover_68398fbc0b4bb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486028120529.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 527,
+    "title": "Banker",
+    "transcription": "My dad works as a banker at a local financial institution.",
+    "sentence": "/ˈbæŋkər/",
+    "translate": "בנקאי",
+    "date_created": "2024-02-22 15:27:01",
+    "cover": {
+      "id": 87671,
+      "name": "cover_68398fe77c089.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486028555154.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 528,
+    "title": "Barber",
+    "transcription": "I need to go to the barber to get a haircut.",
+    "sentence": "/ˈbɑːrbər/",
+    "translate": "ספר",
+    "date_created": "2024-02-22 15:27:01",
+    "cover": {
+      "id": 87672,
+      "name": "cover_6839900e3ce6a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486028942603.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 529,
+    "title": "Bartender",
+    "transcription": "The bartender served us two margaritas at the bar last night.",
+    "sentence": "/ˈbɑːrtendər/",
+    "translate": "משקה",
+    "date_created": "2024-02-22 15:27:02",
+    "cover": {
+      "id": 87673,
+      "name": "cover_6839903d0cdf8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486029410630.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 530,
+    "title": "Chef",
+    "transcription": "The chef prepared a delicious meal for the guests.",
+    "sentence": "/ʃɛf/",
+    "translate": "שֵׁף",
+    "date_created": "2024-02-22 15:27:03",
+    "cover": {
+      "id": 87674,
+      "name": "cover_6839906757e74.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486029833710.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 531,
+    "title": "Chemist",
+    "transcription": "She went to the chemist to pick up her prescription.",
+    "sentence": "/ˈkɛmɪst/",
+    "translate": "כימאי",
+    "date_created": "2024-02-22 15:27:04",
+    "cover": {
+      "id": 87675,
+      "name": "cover_6839909075b6d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486030244893.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 532,
+    "title": "Cleaner",
+    "transcription": "The cleaner did a great job of tidying up the office after hours.",
+    "sentence": "/ˈkliː.nər/",
+    "translate": "מְנַק",
+    "date_created": "2024-02-22 15:27:05",
+    "cover": {
+      "id": 87676,
+      "name": "cover_683990b8e12cc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486030649295.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 533,
+    "title": "Dentist",
+    "transcription": "I have an appointment with my dentist tomorrow for a routine check-up.",
+    "sentence": "/ˈdɛntɪst/",
+    "translate": "רופא שיניים",
+    "date_created": "2024-02-22 15:27:06",
+    "cover": {
+      "id": 87677,
+      "name": "cover_683990e76cd20.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486031114576.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 534,
+    "title": "Designer",
+    "transcription": "The designer created a beautiful dress for the fashion show.",
+    "sentence": "/dɪˈzaɪnər/",
+    "translate": "מעצב",
+    "date_created": "2024-02-22 15:27:07",
+    "cover": {
+      "id": 87678,
+      "name": "cover_68399118d5224.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486031608794.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 535,
+    "title": "Doctor",
+    "transcription": "I have an appointment with the doctor tomorrow.",
+    "sentence": "ˈdɑːktər",
+    "translate": "רופא",
+    "date_created": "2024-02-22 15:27:08",
+    "cover": {
+      "id": 87679,
+      "name": "cover_6839913e3b4d2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486031982495.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 536,
+    "title": "Driver",
+    "transcription": "She hired a driver to take her to the airport.",
+    "sentence": "/ˈdraɪvər/",
+    "translate": "נהג",
+    "date_created": "2024-02-22 15:27:09",
+    "cover": {
+      "id": 87681,
+      "name": "cover_683991674c5fd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486032393246.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 537,
+    "title": "Engineer",
+    "transcription": "The engineer designed a new bridge for the city.",
+    "sentence": "ˌɛndʒəˈnɪr",
+    "translate": "מְהַנדֵס",
+    "date_created": "2024-02-22 15:27:09",
+    "cover": {
+      "id": 87682,
+      "name": "cover_6839918deb106.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486032779731.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 538,
+    "title": "Farmer",
+    "transcription": "The farmer woke up early to tend to his crops.",
+    "sentence": "/ˈfɑːrmər/",
+    "translate": "חָקֵל",
+    "date_created": "2024-02-22 15:27:10",
+    "cover": {
+      "id": 87683,
+      "name": "cover_683991b9b0a6e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486033217315.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 539,
+    "title": "Firefighter",
+    "transcription": "The firefighter bravely rescued the people trapped in the burning building.",
+    "sentence": "/ˈfaɪərˌfaɪ.tər/",
+    "translate": "כיבוי",
+    "date_created": "2024-02-22 15:27:11",
+    "cover": {
+      "id": 87684,
+      "name": "cover_683991e49af87.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486033646418.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 540,
+    "title": "Gardener",
+    "transcription": "The gardener planted a row of colorful flowers in the garden.",
+    "sentence": "/ˈɡɑːrdənər/",
+    "translate": "גנן",
+    "date_created": "2024-02-22 15:27:12",
+    "cover": {
+      "id": 87685,
+      "name": "cover_6839920bf35cb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486034040042.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 541,
+    "title": "Hairdresser",
+    "transcription": "I need to make an appointment with my hairdresser to get a trim.",
+    "sentence": "/ˈhɛərˌdrɛsər/",
+    "translate": "ספר לשיער",
+    "date_created": "2024-02-22 15:27:13",
+    "cover": {
+      "id": 87686,
+      "name": "cover_68399236474f0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486034463022.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 542,
+    "title": "Journalist",
+    "transcription": "The journalist conducted interviews with key witnesses to gather information for the article.",
+    "sentence": "/ˈdʒɜːrnəlɪst/",
+    "translate": "עיתונאי",
+    "date_created": "2024-02-22 15:27:14",
+    "cover": {
+      "id": 87687,
+      "name": "cover_683992615fce5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486034894031.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 543,
+    "title": "Judge",
+    "transcription": "The judge handed down a sentence of 10 years in prison.",
+    "sentence": "ˈdʒʌdʒ",
+    "translate": "שופט",
+    "date_created": "2024-02-22 15:27:15",
+    "cover": {
+      "id": 87688,
+      "name": "cover_68399286d8c1a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486035268952.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 544,
+    "title": "Lawyer",
+    "transcription": "I need to hire a lawyer to help me with my legal case.",
+    "sentence": "ˈlɔɪər",
+    "translate": "עבוק",
+    "date_created": "2024-02-22 15:27:17",
+    "cover": {
+      "id": 87689,
+      "name": "cover_683992ad50e67.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486035653381.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 545,
+    "title": "Librarian",
+    "transcription": "The librarian helped me find a book on ancient history.",
+    "sentence": "/laɪˈbrɛərɪən/",
+    "translate": "ספרן",
+    "date_created": "2024-02-22 15:27:18",
+    "cover": {
+      "id": 87690,
+      "name": "cover_683992cf4bd29.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486035993207.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 546,
+    "title": "Mechanic",
+    "transcription": "The mechanic fixed my car in no time.",
+    "sentence": "/məˈkænɪk/",
+    "translate": "מְכוּנִאִי",
+    "date_created": "2024-02-22 15:27:18",
+    "cover": {
+      "id": 87691,
+      "name": "cover_683992f6609db.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486036384039.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 547,
+    "title": "Musician",
+    "transcription": "She has been working as a musician for over 10 years, performing in various bands and solo shows.",
+    "sentence": "myu-zish-uhn",
+    "translate": "מוזיקאי",
+    "date_created": "2024-02-22 15:27:19",
+    "cover": {
+      "id": 87692,
+      "name": "cover_68399321db715.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486036819059.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 548,
+    "title": "Nurse",
+    "transcription": "The nurse checked the patient's vitals before administering medication.",
+    "sentence": "nɜrs",
+    "translate": "אחות",
+    "date_created": "2024-02-22 15:27:20",
+    "cover": {
+      "id": 87693,
+      "name": "cover_6839934788d20.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486037195673.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 549,
+    "title": "Painter",
+    "transcription": "The painter carefully mixed the colors on his palette before starting his artwork.",
+    "sentence": "ˈpeɪntər",
+    "translate": "צייר",
+    "date_created": "2024-02-22 15:27:22",
+    "cover": {
+      "id": 87694,
+      "name": "cover_68399374db1ae.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486037649043.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 550,
+    "title": "Pharmacist",
+    "transcription": "The pharmacist filled my prescription for antibiotics.",
+    "sentence": "ˈfɑːrməsɪst",
+    "translate": "רוקח",
+    "date_created": "2024-02-22 15:27:22",
+    "cover": {
+      "id": 87695,
+      "name": "cover_6839939a4b02d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486038023191.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 551,
+    "title": "Photographer",
+    "transcription": "The photographer took beautiful photos of the landscapes.",
+    "sentence": "/fəˈtɑːɡrəfər/",
+    "translate": "צלם",
+    "date_created": "2024-02-22 15:27:23",
+    "cover": {
+      "id": 87696,
+      "name": "cover_683993c733198.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486038472165.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 552,
+    "title": "Plumber",
+    "transcription": "The plumber fixed the leaky pipe in the kitchen.",
+    "sentence": "ˈplʌmər",
+    "translate": "שרברב",
+    "date_created": "2024-02-22 15:27:24",
+    "cover": {
+      "id": 87697,
+      "name": "cover_683993eef0bfa.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486038869934.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 553,
+    "title": "Pilot",
+    "transcription": "The pilot announced that the flight would be delayed due to bad weather.",
+    "sentence": "/ˈpaɪlət/",
+    "translate": "טייס",
+    "date_created": "2024-02-22 15:27:24",
+    "cover": {
+      "id": 87698,
+      "name": "cover_68399417b5a99.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486039277505.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 554,
+    "title": "Police officer",
+    "transcription": "The police officer quickly responded to the emergency call.",
+    "sentence": "pəˈliːs ˈɔːfɪsər",
+    "translate": "שוטר",
+    "date_created": "2024-02-22 15:27:26",
+    "cover": {
+      "id": 87699,
+      "name": "cover_6839943bf09fe.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486039639921.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 555,
+    "title": "Professor",
+    "transcription": "The professor taught a fascinating lecture on quantum physics.",
+    "sentence": "/prəˈfɛsər/",
+    "translate": "פרופסור",
+    "date_created": "2024-02-22 15:27:26",
+    "cover": {
+      "id": 87700,
+      "name": "cover_6839945e7df61.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486039985244.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 556,
+    "title": "Programmer",
+    "transcription": "The programmer was able to create a new software program in just a few days.",
+    "sentence": "/ˈproʊˌɡræmər/",
+    "translate": "מתכנת",
+    "date_created": "2024-02-22 15:27:27",
+    "cover": {
+      "id": 87701,
+      "name": "cover_683994834d5cc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486040353236.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 557,
+    "title": "Receptionist",
+    "transcription": "The receptionist greeted each guest with a smile as they entered the hotel.",
+    "sentence": "/rɪˈsɛpʃənɪst/",
+    "translate": "מַקְבִּלָן",
+    "date_created": "2024-02-22 15:27:28",
+    "cover": {
+      "id": 87702,
+      "name": "cover_683994a999c91.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486040736369.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 558,
+    "title": "Salesperson",
+    "transcription": "The salesperson was very persuasive and convinced me to buy the product.",
+    "sentence": "ˈseɪlzˌpɜːrsən",
+    "translate": "מוכר",
+    "date_created": "2024-02-22 15:27:30",
+    "cover": {
+      "id": 87703,
+      "name": "cover_683994d3ef68e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486041159920.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 559,
+    "title": "Scientist",
+    "transcription": "The scientist conducted an experiment to test their hypothesis.",
+    "sentence": "/ˈsaɪəntɪst/",
+    "translate": "מדען",
+    "date_created": "2024-02-22 15:27:31",
+    "cover": {
+      "id": 87704,
+      "name": "cover_683994fc283dc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486041561733.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 560,
+    "title": "Secretary",
+    "transcription": "The secretary scheduled all the meetings for the week.",
+    "sentence": "/ˈsɛkrəˌtɛri/",
+    "translate": "מַזכִּיר",
+    "date_created": "2024-02-22 15:27:31",
+    "cover": {
+      "id": 87705,
+      "name": "cover_683995233dede.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486041952648.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 561,
+    "title": "Security guard",
+    "transcription": "The security guard checked everyone's ID before allowing them into the building.",
+    "sentence": "/sɪˈkjʊərəti ɡɑːrd/",
+    "translate": "שומר אבטחה",
+    "date_created": "2024-02-22 15:27:35",
+    "cover": {
+      "id": 87706,
+      "name": "cover_6839954ae71cf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486042349530.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 562,
+    "title": "Singer",
+    "transcription": "The famous singer performed to a sold-out crowd at the concert last night.",
+    "sentence": "ˈsɪŋər",
+    "translate": "זמר",
+    "date_created": "2024-02-22 15:27:35",
+    "cover": {
+      "id": 87707,
+      "name": "cover_6839957d04843.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486042850290.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 563,
+    "title": "Soldier",
+    "transcription": "The soldier displayed great courage on the battlefield.",
+    "sentence": "ˈsoʊldʒər",
+    "translate": "חַיָל",
+    "date_created": "2024-02-22 15:27:35",
+    "cover": {
+      "id": 87708,
+      "name": "cover_683995a5768fc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486043254968.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 564,
+    "title": "Teacher",
+    "transcription": "The teacher explained the lesson to the students.",
+    "sentence": "ˈtiːtʃər",
+    "translate": "מורה",
+    "date_created": "2024-02-22 15:27:36",
+    "cover": {
+      "id": 87709,
+      "name": "cover_683995cf6f1b2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486043674624.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 565,
+    "title": "Technician",
+    "transcription": "The technician fixed the broken air conditioning unit in less than an hour.",
+    "sentence": "tɛkˈnɪʃən",
+    "translate": "טכנאי",
+    "date_created": "2024-02-22 15:27:39",
+    "cover": {
+      "id": 87710,
+      "name": "cover_683995fb8b633.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486044115849.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 566,
+    "title": "Veterinarian",
+    "transcription": "The veterinarian examined the injured dog and prescribed medication for its recovery.",
+    "sentence": "/ˌvɛtərɪˈnɛəriən/",
+    "translate": "וטרינר",
+    "date_created": "2024-02-22 15:27:39",
+    "cover": {
+      "id": 87713,
+      "name": "cover_68399626ba57a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486044547739.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 567,
+    "title": "Waiter",
+    "transcription": "The waiter brought us the menu as soon as we sat down at the table.",
+    "sentence": "/ˈweɪtər/",
+    "translate": "מלצר",
+    "date_created": "2024-02-22 15:27:40",
+    "cover": {
+      "id": 87715,
+      "name": "cover_6839964ca3531.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486044926758.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 568,
+    "title": "Waitress",
+    "transcription": "The waitress brought us our menus and took our drink orders.",
+    "sentence": "ˈweɪtrəs",
+    "translate": "מלצרית",
+    "date_created": "2024-02-22 15:27:40",
+    "cover": {
+      "id": 87716,
+      "name": "cover_6839967beed54.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486045399849.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 569,
+    "title": "Builder",
+    "transcription": "The builder worked tirelessly to construct the new office building.",
+    "sentence": "/ˈbɪldər/",
+    "translate": "בנאי",
+    "date_created": "2024-02-22 15:27:43",
+    "cover": {
+      "id": 87717,
+      "name": "cover_683996b2310a5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486045942085.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 570,
+    "title": "Writer",
+    "transcription": "The famous writer was signing books at the bookstore.",
+    "sentence": "/ˈraɪ.t̬ɚ/",
+    "translate": "סופר",
+    "date_created": "2024-02-22 15:27:43",
+    "cover": {
+      "id": 87718,
+      "name": "cover_683996db1fa8b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486046351419.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 571,
+    "title": "Electrician",
+    "transcription": "The electrician installed new wiring in the building.",
+    "sentence": "ɪˌlɛkˈtrɪʃən",
+    "translate": "חשמלאי",
+    "date_created": "2024-02-22 15:27:43",
+    "cover": {
+      "id": 87722,
+      "name": "cover_683997076c4b7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486046794533.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 572,
+    "title": "Translator",
+    "transcription": "She works as a freelance translator, helping to bridge the language barrier between people from different cultures.",
+    "sentence": "ˈtrænzˌleɪtər",
+    "translate": "מתרגם",
+    "date_created": "2024-02-22 15:27:44",
+    "cover": {
+      "id": 87723,
+      "name": "cover_6839973351302.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486047233393.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 573,
+    "title": "Consultant",
+    "transcription": "The company hired a consultant to help improve their marketing strategy.",
+    "sentence": "kənˈsʌltənt",
+    "translate": "יועץ",
+    "date_created": "2024-02-22 15:27:47",
+    "cover": {
+      "id": 87724,
+      "name": "cover_6839975a3ab0d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486047622507.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 574,
+    "title": "Entrepreneur",
+    "transcription": "She decided to become an entrepreneur and start her own business.",
+    "sentence": "ˌɑːn.trə.prəˈnɝː",
+    "translate": "יזם",
+    "date_created": "2024-02-22 15:27:47",
+    "cover": {
+      "id": 87725,
+      "name": "cover_6839978a59100.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486048103780.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 575,
+    "title": "Coach",
+    "transcription": "The coach gave his players a pep talk before the game.",
+    "sentence": "koʊtʃ",
+    "translate": "מאמן",
+    "date_created": "2024-02-22 15:27:48",
+    "cover": {
+      "id": 87726,
+      "name": "cover_683997bc00aa3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486048600127.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 576,
+    "title": "Flight attendant",
+    "transcription": "The flight attendant kindly offered beverages to the passengers during the flight.",
+    "sentence": "ˈflaɪt əˌtɛndənt",
+    "translate": "מאבק אוויר",
+    "date_created": "2024-02-22 15:27:48",
+    "cover": {
+      "id": 87727,
+      "name": "cover_683997dfa736c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486048956909.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 577,
+    "title": "Cashier",
+    "transcription": "The cashier at the grocery store rang up my items quickly.",
+    "sentence": "/ˈkæʃɪər/",
+    "translate": "קופאי",
+    "date_created": "2024-02-22 15:27:51",
+    "cover": {
+      "id": 87728,
+      "name": "cover_68399805eb964.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486049339770.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 578,
+    "title": "Editor",
+    "transcription": "The editor made several corrections to the manuscript before it was sent to print.",
+    "sentence": "/ˈɛdɪtər/",
+    "translate": "עורך",
+    "date_created": "2024-02-22 15:27:51",
+    "cover": {
+      "id": 87729,
+      "name": "cover_68399832aeaa1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486049787225.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 579,
+    "title": "Fitness trainer",
+    "transcription": "I have been working with a fitness trainer to help me reach my health goals.",
+    "sentence": "ˈfɪtnəs ˈtreɪnər",
+    "translate": "מאמן לכושר",
+    "date_created": "2024-02-22 15:27:53",
+    "cover": {
+      "id": 87730,
+      "name": "cover_6839985eef8d7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486050229882.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 580,
+    "title": "Graphic designer",
+    "transcription": "The graphic designer created a visually appealing logo for the company.",
+    "sentence": "/ˈɡrafɪk dɪˈzaɪnər/",
+    "translate": "מעצב גרפי",
+    "date_created": "2024-02-22 15:27:55",
+    "cover": {
+      "id": 87731,
+      "name": "cover_68399888cfef0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486050648584.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 581,
+    "title": "IT specialist",
+    "transcription": "The IT specialist fixed the computer issue in no time.",
+    "sentence": "ˈi ti ˈspeʃ.ə.lɪst",
+    "translate": "מומחה מערכות מידע",
+    "date_created": "2024-02-22 15:27:55",
+    "cover": {
+      "id": 87732,
+      "name": "cover_683998b22a64c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486051061807.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 582,
+    "title": "Marketing specialist",
+    "transcription": "As a marketing specialist, my job is to develop strategies to promote our products and services.",
+    "sentence": "ˈmɑːrkɪtɪŋ ˈspeʃəlɪst",
+    "translate": "מומחה שיווק",
+    "date_created": "2024-02-22 15:27:55",
+    "cover": {
+      "id": 87733,
+      "name": "cover_683998e2e329a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486051549418.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

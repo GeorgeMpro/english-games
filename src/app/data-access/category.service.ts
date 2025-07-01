@@ -9,9 +9,9 @@ import {API_ENDPOINTS} from './api-endpoints';
 import {BASE_URL, TOKEN} from '../../environments/environment.local';
 import {DEFAULT_CATEGORY} from '../shared/game-config.constants';
 
-import wordsFromAnimals from '../age-category/kids/tests/mocks/valid-words-from-animals-category.json'
-import catBodyPartsItems from '../age-category/kids/tests/mocks/body-parts-items.json'
+import {fallbackDataMap} from '../age-category/kids/match-words-game/category-json-mapper';
 
+import allWordGroups from '../../assets/data/all-words-in-categories/all-word-groups.json'
 
 // todo move to msg comp or interceptor
 export const FAILED_LOAD_CATEGORIES_MSG = "Couldn't load categories. Please try again later.";
@@ -52,26 +52,28 @@ export class CategoryService {
         catchError(err => {
           this.errorMsg.set(FAILED_LOAD_CATEGORIES_MSG);
           console.error(FAILED_LOAD_CATEGORIES_MSG, err);
-          return of([DEFAULT_CATEGORY]);
+          // todo
+          // return of([DEFAULT_CATEGORY]);
+          return of(allWordGroups.data.items);
         })
       );
 
   }
+
 
   getAllWordsInGroup(groupId: number): Observable<WordItem[]> {
     const url = `${this.baseUrl}${API_ENDPOINTS.ALL_WORDS_IN_GROUP(groupId)}`;
 
     return this.http.get<ApiResponse<WordItem[]>>(
-      url, {
-        headers
-      }
-    )
-      .pipe(
-        map(res => res.data),
-        catchError(err => {
-          console.error(FAILED_LOAD_WORDS_MSG, err);
-          return of(wordsFromAnimals.data)
-        })
-      );
+      url, {headers}
+    ).pipe(
+      map(res => res.data),
+      catchError(err => {
+        console.error(FAILED_LOAD_WORDS_MSG, err);
+        return of(fallbackDataMap[groupId] || []);
+      })
+    );
   }
+
+
 }

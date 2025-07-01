@@ -1,0 +1,617 @@
+[
+  {
+    "id": 1337,
+    "title": "About",
+    "transcription": "I'm excited about my new job.",
+    "sentence": "/əˈbaʊt/",
+    "translate": "על",
+    "date_created": "2024-02-22 15:41:16",
+    "cover": {
+      "id": 88945,
+      "name": "cover_6844276f28bf8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492970071785.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1338,
+    "title": "Across",
+    "transcription": "She walked across the street to get to the bakery.",
+    "sentence": "/əˈkrɒs/",
+    "translate": "מֵעֵבֶר",
+    "date_created": "2024-02-22 15:41:17",
+    "cover": {
+      "id": 88946,
+      "name": "cover_6844278e82280.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492970385436.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1339,
+    "title": "Against",
+    "transcription": "She fought against the injustice with unwavering determination.",
+    "sentence": "/əˈɡɛnst/",
+    "translate": "נגד",
+    "date_created": "2024-02-22 15:41:17",
+    "cover": {
+      "id": 88947,
+      "name": "cover_684427b94161e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492970812748.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1340,
+    "title": "Along",
+    "transcription": "We walked along the beach at sunset.",
+    "sentence": "/əˈlɔːŋ/",
+    "translate": "לְאוֹרֵךְ",
+    "date_created": "2024-02-22 15:41:17",
+    "cover": {
+      "id": 88948,
+      "name": "cover_684427dc6091f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492971164023.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1341,
+    "title": "Among",
+    "transcription": "She was among the top students in her class.",
+    "sentence": "/əˈmʌŋ/",
+    "translate": "בֵּין",
+    "date_created": "2024-02-22 15:41:20",
+    "cover": {
+      "id": 88949,
+      "name": "cover_6844280425c27.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492971561613.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1342,
+    "title": "As",
+    "transcription": "I will do as you say.",
+    "sentence": "/æz/",
+    "translate": "כמו",
+    "date_created": "2024-02-22 15:41:21",
+    "cover": {
+      "id": 88950,
+      "name": "cover_684428273788c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492971912344.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1343,
+    "title": "Around",
+    "transcription": "She looked around the room and spotted a familiar face.",
+    "sentence": "/əˈraʊnd/",
+    "translate": "סביב",
+    "date_created": "2024-02-22 15:41:21",
+    "cover": {
+      "id": 88951,
+      "name": "cover_6844284dc0bf3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492972297970.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1344,
+    "title": "At",
+    "transcription": "She arrived at the office at 9 in the morning.",
+    "sentence": "/æt/",
+    "translate": "ב",
+    "date_created": "2024-02-22 15:41:21",
+    "cover": {
+      "id": 88952,
+      "name": "cover_6844287288107.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492972665644.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1345,
+    "title": "Behind",
+    "transcription": "She hid behind the tree in hopes that no one would find her.",
+    "sentence": "/bɪˈhaɪnd/",
+    "translate": "מאחורי",
+    "date_created": "2024-02-22 15:41:22",
+    "cover": {
+      "id": 88953,
+      "name": "cover_68442897e3378.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492973039375.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1346,
+    "title": "Beneath",
+    "transcription": "The treasure was buried beneath the old oak tree.",
+    "sentence": "/bɪˈniːθ/",
+    "translate": "מתחת",
+    "date_created": "2024-02-22 15:41:22",
+    "cover": {
+      "id": 88954,
+      "name": "cover_684428c050673.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492973443368.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1347,
+    "title": "Beside",
+    "transcription": "She sat beside her friend during the movie.",
+    "sentence": "/bɪˈsaɪd/",
+    "translate": "ליד",
+    "date_created": "2024-02-22 15:41:24",
+    "cover": {
+      "id": 88955,
+      "name": "cover_684428e706666.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492973830334.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1348,
+    "title": "Between",
+    "transcription": "The store is located between the coffee shop and the bookstore.",
+    "sentence": "/bɪˈtwin/",
+    "translate": "בין",
+    "date_created": "2024-02-22 15:41:24",
+    "cover": {
+      "id": 88956,
+      "name": "cover_6844291072b76.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492974244772.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1349,
+    "title": "Beyond",
+    "transcription": "The view extends beyond the horizon.",
+    "sentence": "/bɪˈjɒnd/",
+    "translate": "מעבר",
+    "date_created": "2024-02-22 15:41:25",
+    "cover": {
+      "id": 88957,
+      "name": "cover_68442931b1687.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492974577331.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1350,
+    "title": "By",
+    "transcription": "He got to work by driving his car.",
+    "sentence": "baɪ",
+    "translate": "על ידי",
+    "date_created": "2024-02-22 15:41:26",
+    "cover": {
+      "id": 88958,
+      "name": "cover_6844295b881ed.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492974995650.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1351,
+    "title": "Despite",
+    "transcription": "Despite feeling nervous, she gave a confident presentation in front of the audience.",
+    "sentence": "dɪˈspaɪt",
+    "translate": "למרות",
+    "date_created": "2024-02-22 15:41:26",
+    "cover": {
+      "id": 88959,
+      "name": "cover_6844297c03853.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492975320213.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1352,
+    "title": "Down",
+    "transcription": "She put the book down on the table.",
+    "sentence": "daʊn",
+    "translate": "מִתַחַת",
+    "date_created": "2024-02-22 15:41:28",
+    "cover": {
+      "id": 88960,
+      "name": "cover_684429a30d8f4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492975710633.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1353,
+    "title": "For",
+    "transcription": "I bought a book for my friend.",
+    "sentence": "/fɔr/",
+    "translate": "ל",
+    "date_created": "2024-02-22 15:41:28",
+    "cover": {
+      "id": 88961,
+      "name": "cover_684429c35e1fa.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492976033923.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1354,
+    "title": "During",
+    "transcription": "I studied hard during the school year to get good grades.",
+    "sentence": "ˈdʊrɪŋ",
+    "translate": "במהלך",
+    "date_created": "2024-02-22 15:41:28",
+    "cover": {
+      "id": 88962,
+      "name": "cover_684429e6b9679.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492976387661.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1355,
+    "title": "Except",
+    "transcription": "I like all fruits except for bananas.",
+    "sentence": "ɪkˈsɛpt",
+    "translate": "למעט",
+    "date_created": "2024-02-22 15:41:28",
+    "cover": {
+      "id": 88963,
+      "name": "cover_68442a0a900b2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492976745962.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1356,
+    "title": "From",
+    "transcription": "I received a letter from my friend yesterday.",
+    "sentence": "frʌm",
+    "translate": "מ",
+    "date_created": "2024-02-22 15:41:29",
+    "cover": {
+      "id": 88967,
+      "name": "cover_68444f97b6ac0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493072877553.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1357,
+    "title": "In",
+    "transcription": "She is waiting in the car.",
+    "sentence": "ɪn",
+    "translate": "ב",
+    "date_created": "2024-02-22 15:41:31",
+    "cover": {
+      "id": 88968,
+      "name": "cover_68444fbf360a7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493073272326.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1358,
+    "title": "Into",
+    "transcription": "She jumped into the pool to cool off on a hot day.",
+    "sentence": "ˈɪn.tuː",
+    "translate": "ב־",
+    "date_created": "2024-02-22 15:41:31",
+    "cover": {
+      "id": 88969,
+      "name": "cover_68444fe07d976.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493073605203.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1359,
+    "title": "Off",
+    "transcription": "Please turn off the lights before leaving.",
+    "sentence": "/ɒf/",
+    "translate": "כבוי",
+    "date_created": "2024-02-22 15:41:32",
+    "cover": {
+      "id": 88970,
+      "name": "cover_6844500730e1c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493073992061.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1360,
+    "title": "Of",
+    "transcription": "She is a friend of mine.",
+    "sentence": "/ʌv/",
+    "translate": "של",
+    "date_created": "2024-02-22 15:41:32",
+    "cover": {
+      "id": 88971,
+      "name": "cover_684450252d43c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493074291911.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1361,
+    "title": "On",
+    "transcription": "She put the book on the table.",
+    "sentence": "ɒn",
+    "translate": "עַל",
+    "date_created": "2024-02-22 15:41:32",
+    "cover": {
+      "id": 88972,
+      "name": "cover_6844504478774.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493074605010.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1362,
+    "title": "Onto",
+    "transcription": "She jumped onto the bed.",
+    "sentence": "/ˈɒn.tuː/",
+    "translate": "על",
+    "date_created": "2024-02-22 15:41:34",
+    "cover": {
+      "id": 88973,
+      "name": "cover_6844506ba6342.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493074996871.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1363,
+    "title": "Out",
+    "transcription": "She ran out of the room before I could speak to her.",
+    "sentence": "/aʊt/",
+    "translate": "לִצֵּאת",
+    "date_created": "2024-02-22 15:41:34",
+    "cover": {
+      "id": 88974,
+      "name": "cover_68445092c844a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493075388268.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1364,
+    "title": "Over",
+    "transcription": "The cat jumped over the fence.",
+    "sentence": "/ˈoʊvər/",
+    "translate": "מעל",
+    "date_created": "2024-02-22 15:41:35",
+    "cover": {
+      "id": 88975,
+      "name": "cover_684450be7ca56.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493075825179.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1365,
+    "title": "Past",
+    "transcription": "She reminisced about her past life before moving to the city.",
+    "sentence": "/pæst/",
+    "translate": "עבר",
+    "date_created": "2024-02-22 15:41:35",
+    "cover": {
+      "id": 88976,
+      "name": "cover_684450e429356.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493076201765.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1366,
+    "title": "Since",
+    "transcription": "Since it is raining, we should bring umbrellas.",
+    "sentence": "/sɪns/",
+    "translate": "מאז ומתמיד",
+    "date_created": "2024-02-22 15:41:35",
+    "cover": {
+      "id": 88977,
+      "name": "cover_684451051272a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493076530827.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1367,
+    "title": "Through",
+    "transcription": "She walked through the forest to get to the other side.",
+    "sentence": "/θruː/",
+    "translate": "דרך",
+    "date_created": "2024-02-22 15:41:37",
+    "cover": {
+      "id": 88978,
+      "name": "cover_6844512d96ef3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493076936252.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1368,
+    "title": "To",
+    "transcription": "She went to the store to buy groceries.",
+    "sentence": "tʊ",
+    "translate": "אל",
+    "date_created": "2024-02-22 15:41:38",
+    "cover": {
+      "id": 88979,
+      "name": "cover_6844515661d65.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493077344075.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1369,
+    "title": "Throughout",
+    "transcription": "She wore sunscreen throughout the day to protect her skin from the sun.",
+    "sentence": "/θruːˈaʊt/",
+    "translate": "ב־אֵיך הוּא",
+    "date_created": "2024-02-22 15:41:38",
+    "cover": {
+      "id": 88980,
+      "name": "cover_6844517aa925f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493077707000.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1370,
+    "title": "Toward",
+    "transcription": "She walked toward the sunset, enjoying the beautiful colors in the sky.",
+    "sentence": "təˈwɔrd",
+    "translate": "לְעוֹבֵר",
+    "date_created": "2024-02-22 15:41:39",
+    "cover": {
+      "id": 88981,
+      "name": "cover_6844519a7a857.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493078025109.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1371,
+    "title": "Under",
+    "transcription": "The cat is hiding under the table.",
+    "sentence": "ˈʌndər",
+    "translate": "מתחת",
+    "date_created": "2024-02-22 15:41:40",
+    "cover": {
+      "id": 88982,
+      "name": "cover_684451c4e512b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493078449447.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1372,
+    "title": "Underneath",
+    "transcription": "The keys were hidden underneath the welcome mat.",
+    "sentence": "/ˌʌn.dərˈniːθ/",
+    "translate": "מתחת",
+    "date_created": "2024-02-22 15:41:40",
+    "cover": {
+      "id": 88983,
+      "name": "cover_684451e9ca790.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493078818368.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1373,
+    "title": "Until",
+    "transcription": "I will wait for you until you finish your work.",
+    "sentence": "/ʌnˈtɪl/",
+    "translate": "עד",
+    "date_created": "2024-02-22 15:41:40",
+    "cover": {
+      "id": 88984,
+      "name": "cover_6844521419d21.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493079241133.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1374,
+    "title": "Up",
+    "transcription": "Please look up the information online.",
+    "sentence": "/ʌp/",
+    "translate": "למעלה",
+    "date_created": "2024-02-22 15:41:41",
+    "cover": {
+      "id": 88985,
+      "name": "cover_6844523d4bdbb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493079653171.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1375,
+    "title": "With",
+    "transcription": "She arrived with her best friend.",
+    "sentence": "/wɪð/",
+    "translate": "עִם",
+    "date_created": "2024-02-22 15:41:43",
+    "cover": {
+      "id": 88986,
+      "name": "cover_6844525fd957a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493079998968.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1376,
+    "title": "Upon",
+    "transcription": "Upon arriving at the airport, he realized he forgot his passport.",
+    "sentence": "əˈpɒn",
+    "translate": "עַל",
+    "date_created": "2024-02-22 15:41:43",
+    "cover": {
+      "id": 88987,
+      "name": "cover_68445288a1257.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493080406667.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1377,
+    "title": "Within",
+    "transcription": "The keys are within the drawer.",
+    "sentence": "wɪˈðɪn",
+    "translate": "בְּתוֹך",
+    "date_created": "2024-02-22 15:41:43",
+    "cover": {
+      "id": 88988,
+      "name": "cover_684452b076e4d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493080804947.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

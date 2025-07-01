@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1433,
+    "title": "History",
+    "transcription": "Studying history helps us to understand the present and avoid making the same mistakes in the future.",
+    "sentence": "ˈhɪstəri",
+    "translate": "הִיסְטוֹרִיָה",
+    "date_created": "2024-02-22 15:42:37",
+    "cover": {
+      "id": 89052,
+      "name": "cover_68445ac401939.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493101480133.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1434,
+    "title": "Culture",
+    "transcription": "Learning about different cultures can broaden your perspective on the world.",
+    "sentence": "ˈkʌl.tʃər",
+    "translate": "תרבות",
+    "date_created": "2024-02-22 15:42:38",
+    "cover": {
+      "id": 89053,
+      "name": "cover_68445ae55bfb5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493101813834.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1435,
+    "title": "Civilization",
+    "transcription": "The ancient Egyptians were known for their advanced civilization and impressive architecture.",
+    "sentence": "/ˌsɪvəlaɪˈzeɪʃən/",
+    "translate": "Civilization",
+    "date_created": "2024-02-22 15:42:41",
+    "cover": {
+      "id": 89054,
+      "name": "cover_68445b08c067d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493102167961.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1436,
+    "title": "Empire",
+    "transcription": "The Roman Empire was one of the largest and most powerful empires in history.",
+    "sentence": "ˈɛmpaɪər",
+    "translate": "אָסמאַני",
+    "date_created": "2024-02-22 15:42:41",
+    "cover": {
+      "id": 89055,
+      "name": "cover_68445b2ea6908.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493102546893.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1437,
+    "title": "Kingdom",
+    "transcription": "The United Kingdom is composed of four countries: England, Scotland, Wales, and Northern Ireland.",
+    "sentence": "/ˈkɪŋdəm/",
+    "translate": "ממלכה",
+    "date_created": "2024-02-22 15:42:41",
+    "cover": {
+      "id": 89056,
+      "name": "cover_68445b533e4de.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493102912620.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1438,
+    "title": "Dynasty",
+    "transcription": "The Ming Dynasty ruled China from 1368 to 1644.",
+    "sentence": "ˈdaɪnəsti",
+    "translate": "דינסטיה",
+    "date_created": "2024-02-22 15:42:41",
+    "cover": {
+      "id": 89057,
+      "name": "cover_68445b7b1ee6f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493103311343.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1439,
+    "title": "Revolution",
+    "transcription": "The industrial revolution transformed society and economy in the 19th century.",
+    "sentence": "ˌrɛvəˈluʃən",
+    "translate": "מהפכה",
+    "date_created": "2024-02-22 15:42:42",
+    "cover": {
+      "id": 89058,
+      "name": "cover_68445baf78f85.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493103835025.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1440,
+    "title": "War",
+    "transcription": "The two countries were at war for over a decade.",
+    "sentence": "/wɔːr/",
+    "translate": "מלחמה",
+    "date_created": "2024-02-22 15:42:45",
+    "cover": {
+      "id": 89059,
+      "name": "cover_68445bd94dfb4.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493104253267.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1441,
+    "title": "Treaty",
+    "transcription": "The two countries signed a peace treaty to end the conflict.",
+    "sentence": "ˈtriːti",
+    "translate": "הסכם",
+    "date_created": "2024-02-22 15:42:45",
+    "cover": {
+      "id": 89060,
+      "name": "cover_68445bfd5efdb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493104613955.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1442,
+    "title": "Constitution",
+    "transcription": "The United States Constitution is the supreme law of the land.",
+    "sentence": "ˌkɑnstɪˈtuʃən",
+    "translate": "חוון יסוד",
+    "date_created": "2024-02-22 15:42:46",
+    "cover": {
+      "id": 89061,
+      "name": "cover_68445c25c8da7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493105018343.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1443,
+    "title": "Independence",
+    "transcription": "The country gained independence from colonial rule in 1947.",
+    "sentence": "/ˌɪndɪˈpɛndəns/",
+    "translate": "עַצמָאוּת",
+    "date_created": "2024-02-22 15:42:46",
+    "cover": {
+      "id": 89062,
+      "name": "cover_68445c46557e5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493105343567.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1444,
+    "title": "Democracy",
+    "transcription": "Democracy gives citizens the power to participate in decision-making processes.",
+    "sentence": "dɪˈmɑːkrəsi",
+    "translate": "דמוקרטיה",
+    "date_created": "2024-02-22 15:42:47",
+    "cover": {
+      "id": 89063,
+      "name": "cover_68445c6d7ce7d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493105735180.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1445,
+    "title": "Republic",
+    "transcription": "The United States of America is a federal republic.",
+    "sentence": "rɪˈpʌblɪk",
+    "translate": "רפובליקה",
+    "date_created": "2024-02-22 15:42:49",
+    "cover": {
+      "id": 89064,
+      "name": "cover_68445c90be420.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493106087856.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1446,
+    "title": "Monarchy",
+    "transcription": "The country's government is a monarchy, with the king as the head of state.",
+    "sentence": "/ˈmɒnəki/",
+    "translate": "מונרכיה",
+    "date_created": "2024-02-22 15:42:50",
+    "cover": {
+      "id": 89065,
+      "name": "cover_68445cb08a358.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493106405729.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1447,
+    "title": "Dictatorship",
+    "transcription": "The country lived under a dictatorship for over two decades, with no freedom of speech or political opposition allowed.",
+    "sentence": "dɪkˈteɪtərʃɪp",
+    "translate": "דיקטטוריה",
+    "date_created": "2024-02-22 15:42:50",
+    "cover": {
+      "id": 89066,
+      "name": "cover_68445cd4ed381.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493106769776.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1448,
+    "title": "Renaissance",
+    "transcription": "The Renaissance was a period in European history known for its cultural and artistic advancements.",
+    "sentence": "/ˌrɛn.əˈsɑːns/",
+    "translate": "רנסאנס",
+    "date_created": "2024-02-22 15:42:51",
+    "cover": {
+      "id": 89067,
+      "name": "cover_68445d0037313.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493107202337.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1449,
+    "title": "Enlightenment",
+    "transcription": "The Enlightenment era in Europe saw a rise in the importance of reason and individualism.",
+    "sentence": "ɪnˈlaɪtnmənt",
+    "translate": "התאורה",
+    "date_created": "2024-02-22 15:42:52",
+    "cover": {
+      "id": 89068,
+      "name": "cover_68445d205ab03.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493107523782.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1450,
+    "title": "Industrial Revolution",
+    "transcription": "The Industrial Revolution was a period of major industrialization that transformed economies and societies in the 18th and 19th centuries.",
+    "sentence": "ɪnˈdʌstriəl ˌrɛvəˈluːʃən",
+    "translate": "המהפכה התעשייתית",
+    "date_created": "2024-02-22 15:42:53",
+    "cover": {
+      "id": 89069,
+      "name": "cover_68445d4c9b7e8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493107966449.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1451,
+    "title": "World War I",
+    "transcription": "World War I, also known as the First World War, was a global war that lasted from 1914 to 1918.",
+    "sentence": "ˈwərld wɔr aɪ",
+    "translate": "מלחמת העולם הראשונה",
+    "date_created": "2024-02-22 15:42:55",
+    "cover": {
+      "id": 89070,
+      "name": "cover_68445d6fe1e63.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493108319324.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1452,
+    "title": "World War II",
+    "transcription": "World War II had a significant impact on the course of history.",
+    "sentence": "/wərld wɔr tuː/",
+    "translate": "מלחמת העולם השנייה",
+    "date_created": "2024-02-22 15:42:55",
+    "cover": {
+      "id": 89071,
+      "name": "cover_68445d948d520.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493108685856.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1453,
+    "title": "Cold War",
+    "transcription": "The Cold War was a period of political tension between the United States and the Soviet Union, without direct military confrontation.",
+    "sentence": "/ˈkoʊld wɔːr/",
+    "translate": "מלחמת הקור",
+    "date_created": "2024-02-22 15:42:55",
+    "cover": {
+      "id": 89072,
+      "name": "cover_68445dc1c793e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493109138252.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1454,
+    "title": "Reformation",
+    "transcription": "The Reformation was a schism in Western Christianity initiated by Martin Luther in the 16th century.",
+    "sentence": "/ˌrɛfərˈmeɪʃən/",
+    "translate": "הַרְפּוֹרְמָצְיָה",
+    "date_created": "2024-02-22 15:42:56",
+    "cover": {
+      "id": 89073,
+      "name": "cover_68445de5c69f9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493109498205.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1455,
+    "title": "Middle Ages",
+    "transcription": "Many historical events took place during the Middle Ages, such as the fall of the Roman Empire.",
+    "sentence": "ˈmɪdl ˈeɪʤɪz",
+    "translate": "העת הבינונית",
+    "date_created": "2024-02-22 15:42:59",
+    "cover": {
+      "id": 89074,
+      "name": "cover_68445e08ea964.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493109849681.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1456,
+    "title": "Modern",
+    "transcription": "The modern smartphone has many features not available on older models.",
+    "sentence": "/ˈmɒd.ən/",
+    "translate": "מודרני",
+    "date_created": "2024-02-22 15:43:00",
+    "cover": {
+      "id": 89075,
+      "name": "cover_68445e298e37b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493110175891.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1457,
+    "title": "Tradition",
+    "transcription": "It is a tradition in our family to open one present on Christmas Eve.",
+    "sentence": "/trəˈdɪʃən/",
+    "translate": "מסורת",
+    "date_created": "2024-02-22 15:43:00",
+    "cover": {
+      "id": 89076,
+      "name": "cover_68445e58cb686.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493110648407.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1458,
+    "title": "Religion",
+    "transcription": "She practices her religion by attending church every Sunday.",
+    "sentence": "/rɪˈlɪʤən/",
+    "translate": "דת",
+    "date_created": "2024-02-22 15:43:00",
+    "cover": {
+      "id": 89077,
+      "name": "cover_68445e7df2c0d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493111020083.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1459,
+    "title": "Philosophy",
+    "transcription": "Studying philosophy helps us to critically analyze and question our beliefs and assumptions.",
+    "sentence": "/fɪˈlɑː.sə.fi/",
+    "translate": "פילוסופיה",
+    "date_created": "2024-02-22 15:43:00",
+    "cover": {
+      "id": 89078,
+      "name": "cover_68445e9fa3944.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493111356765.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1460,
+    "title": "Literature",
+    "transcription": "She studied English Literature at university.",
+    "sentence": "/ˈlɪtərətʃər/",
+    "translate": "ספרות",
+    "date_created": "2024-02-22 15:43:03",
+    "cover": {
+      "id": 89079,
+      "name": "cover_68445ec24f466.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493111703314.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1461,
+    "title": "Architecture",
+    "transcription": "The design of the new museum embraces modern architecture with its sleek lines and minimalistic style.",
+    "sentence": "/ˈɑːrkɪtektʃər/",
+    "translate": "אדריכלות",
+    "date_created": "2024-02-22 15:43:03",
+    "cover": {
+      "id": 89080,
+      "name": "cover_68445ef0b1e65.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493112167348.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1462,
+    "title": "Language",
+    "transcription": "She is studying French as a second language.",
+    "sentence": "/ˈlæŋɡwɪdʒ/",
+    "translate": "שפה",
+    "date_created": "2024-02-22 15:43:04",
+    "cover": {
+      "id": 89081,
+      "name": "cover_68445f15acc28.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493112537154.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1463,
+    "title": "Festival",
+    "transcription": "I'm looking forward to attending the music festival next weekend.",
+    "sentence": "/ˈfɛstɪvəl/",
+    "translate": "פסטיבל",
+    "date_created": "2024-02-22 15:43:04",
+    "cover": {
+      "id": 89082,
+      "name": "cover_68445f3b9d304.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493112916515.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1464,
+    "title": "Ceremony",
+    "transcription": "The awards ceremony will be held next Thursday evening.",
+    "sentence": "ˈsɛrəˌmoʊni",
+    "translate": "טקס",
+    "date_created": "2024-02-22 15:43:04",
+    "cover": {
+      "id": 89083,
+      "name": "cover_68445f6340489.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493113312698.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1465,
+    "title": "Mythology",
+    "transcription": "Greek mythology includes stories about gods and heroes like Zeus and Hercules.",
+    "sentence": "/mɪˈθɑlədʒi/",
+    "translate": "מיתולוגיה",
+    "date_created": "2024-02-22 15:43:07",
+    "cover": {
+      "id": 89084,
+      "name": "cover_68445f888540d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493113685523.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1466,
+    "title": "Legend",
+    "transcription": "The legend of King Arthur has been passed down through generations.",
+    "sentence": "/ˈlɛdʒənd/",
+    "translate": "אגדה",
+    "date_created": "2024-02-22 15:43:07",
+    "cover": {
+      "id": 89085,
+      "name": "cover_68445fab879e3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493114035622.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1467,
+    "title": "Heritage",
+    "transcription": "She is proud of her Mexican heritage.",
+    "sentence": "ˈherɪtɪdʒ",
+    "translate": "מורשת",
+    "date_created": "2024-02-22 15:43:08",
+    "cover": {
+      "id": 89086,
+      "name": "cover_68445fd471a1f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493114444728.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1468,
+    "title": "Folklore",
+    "transcription": "The town's folklore speaks of a haunted mansion on the edge of the forest.",
+    "sentence": "/ˈfoʊkˌlɔr/",
+    "translate": "פולקלור",
+    "date_created": "2024-02-22 15:43:08",
+    "cover": {
+      "id": 89087,
+      "name": "cover_68445ffa16f9d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493114821019.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1469,
+    "title": "Artifact",
+    "transcription": "The museum displayed ancient artifacts from various civilizations.",
+    "sentence": "ˈɑːrtɪfækt",
+    "translate": "אַרטיפּאַקט",
+    "date_created": "2024-02-22 15:43:08",
+    "cover": {
+      "id": 89088,
+      "name": "cover_6844601c5ca0d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493115163867.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1470,
+    "title": "Ethnography",
+    "transcription": "The anthropologist conducted an ethnography of a remote tribe in the Amazon rainforest.",
+    "sentence": "ɛθˈnɒɡrəfi",
+    "translate": "אתנוגרפיה",
+    "date_created": "2024-02-22 15:43:11",
+    "cover": {
+      "id": 89089,
+      "name": "cover_68446053833a6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493115715446.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1471,
+    "title": "Globalization",
+    "transcription": "Globalization has led to increased interconnectedness between countries and cultures.",
+    "sentence": "ˌɡloʊbələˈzeɪʃən",
+    "translate": "גלובליזציה",
+    "date_created": "2024-02-22 15:43:12",
+    "cover": {
+      "id": 89090,
+      "name": "cover_6844607d7ff7b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493116135314.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1472,
+    "title": "Nationalism",
+    "transcription": "Nationalism is a strong feeling of pride and loyalty towards one's country.",
+    "sentence": "ˈnæʃənəˌlɪzəm",
+    "translate": "לאומנות",
+    "date_created": "2024-02-22 15:43:12",
+    "cover": {
+      "id": 89091,
+      "name": "cover_684460a5474ff.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493116532995.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1473,
+    "title": "Colonialism",
+    "transcription": "The impacts of colonialism can still be seen in many former colonies today.",
+    "sentence": "kəˈloʊniəlɪzm",
+    "translate": "קולוניאליזם",
+    "date_created": "2024-02-22 15:43:13",
+    "cover": {
+      "id": 89092,
+      "name": "cover_684460cc7fb53.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493116925301.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1474,
+    "title": "Imperialism",
+    "transcription": "The colonization of Africa by European powers in the 19th century is a prime example of imperialism.",
+    "sentence": "/ɪmˈpɪəriəˌlɪzəm/",
+    "translate": "אימפריאליזם",
+    "date_created": "2024-02-22 15:43:14",
+    "cover": {
+      "id": 89093,
+      "name": "cover_684460ee85750.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493117265536.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1475,
+    "title": "Migration",
+    "transcription": "The migration of birds south for the winter is a beautiful sight to see.",
+    "sentence": "maɪˈɡreɪʃən",
+    "translate": "הֲגָרָה",
+    "date_created": "2024-02-22 15:43:16",
+    "cover": {
+      "id": 89094,
+      "name": "cover_6844610f28b3d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493117591728.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1476,
+    "title": "Exploration",
+    "transcription": "The team went on an exploration of the ancient ruins deep in the jungle.",
+    "sentence": "ˌekspləˈreɪʃən",
+    "translate": "חֲקִירָה",
+    "date_created": "2024-02-22 15:43:16",
+    "cover": {
+      "id": 89095,
+      "name": "cover_684461394c89d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493118013208.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1477,
+    "title": "Conquest",
+    "transcription": "The ancient warriors embarked on a conquest to expand their empire.",
+    "sentence": "/ˈkɒŋ.kwest/",
+    "translate": "נֶצַח",
+    "date_created": "2024-02-22 15:43:16",
+    "cover": {
+      "id": 89096,
+      "name": "cover_684461641a174.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493118441140.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1478,
+    "title": "Trade",
+    "transcription": "She works in international trade, importing goods from Asia to sell in the US.",
+    "sentence": "treɪd",
+    "translate": "מסחר",
+    "date_created": "2024-02-22 15:43:19",
+    "cover": {
+      "id": 89097,
+      "name": "cover_68446182a8dac.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493118746976.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1479,
+    "title": "Silk Road",
+    "transcription": "Traders used the Silk Road to transport goods between Asia and Europe.",
+    "sentence": "sɪlk roʊd",
+    "translate": "הדרך של המשי",
+    "date_created": "2024-02-22 15:43:20",
+    "cover": {
+      "id": 89098,
+      "name": "cover_684461a579452.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493119095035.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1480,
+    "title": "Crusades",
+    "transcription": "The Crusades were a series of religious wars fought by Christians in the medieval period to take back control of the Holy Land from Muslims.",
+    "sentence": "kruˈseɪdz",
+    "translate": "צְלָבוֹת",
+    "date_created": "2024-02-22 15:43:21",
+    "cover": {
+      "id": 89099,
+      "name": "cover_684461cd6a348.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493119494468.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1481,
+    "title": "Renaissance Man",
+    "transcription": "Leonardo da Vinci is often considered a Renaissance Man due to his expertise in various fields such as art, science, and engineering.",
+    "sentence": "/ˈrɛnəˌsɑns ˌmæn/",
+    "translate": "אדם הרנסאנס",
+    "date_created": "2024-02-22 15:43:24",
+    "cover": {
+      "id": 89100,
+      "name": "cover_684461efa73fa.png",
+      "url": "https://cdn.see.guru/words/2025/06/17493119836984.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

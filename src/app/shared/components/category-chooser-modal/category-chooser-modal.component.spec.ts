@@ -15,7 +15,7 @@ import {
   DEFAULT_CATEGORIES,
   sportsGroup
 } from '../../game-config.constants';
-import validCategoriesMock from '../../../age-category/kids/tests/mocks/valid-word-groups.json'
+import validCategoriesMock from '../../../../assets/data/all-words-in-categories/all-word-groups.json'
 import {MatPaginatorHarness} from '@angular/material/paginator/testing';
 
 

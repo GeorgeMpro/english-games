@@ -1,0 +1,842 @@
+[
+  {
+    "id": 786,
+    "title": "Medicine",
+    "transcription": "He takes medicine every morning to help with his allergies.",
+    "sentence": "/ˈmɛdɪsən/",
+    "translate": "רפואה",
+    "date_created": "2024-02-22 15:30:28",
+    "cover": {
+      "id": 88285,
+      "name": "cover_6840704f23d7d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490535191531.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 787,
+    "title": "Health",
+    "transcription": "Regular exercise is important for maintaining good health.",
+    "sentence": "/hɛlθ/",
+    "translate": "בריאות",
+    "date_created": "2024-02-22 15:30:28",
+    "cover": {
+      "id": 88287,
+      "name": "cover_68407076cbf68.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490535588420.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 788,
+    "title": "Clinic",
+    "transcription": "I have an appointment at the clinic for my annual check-up.",
+    "sentence": "ˈklɪnɪk",
+    "translate": "קליניקה",
+    "date_created": "2024-02-22 15:30:28",
+    "cover": {
+      "id": 88288,
+      "name": "cover_68407099bc28f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490535937773.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 789,
+    "title": "Pharmacy",
+    "transcription": "I need to pick up my prescription at the pharmacy.",
+    "sentence": "/ˈfɑːrməsi/",
+    "translate": "בית מרקחת",
+    "date_created": "2024-02-22 15:30:29",
+    "cover": {
+      "id": 88289,
+      "name": "cover_684070c00e2ce.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490536320651.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 790,
+    "title": "Drug",
+    "transcription": "He was arrested for possession of illegal drugs.",
+    "sentence": "drʌɡ",
+    "translate": "תרופה",
+    "date_created": "2024-02-22 15:30:33",
+    "cover": {
+      "id": 88290,
+      "name": "cover_684070e77a997.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490536715087.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 791,
+    "title": "Prescription",
+    "transcription": "The doctor wrote a prescription for antibiotics to treat the infection.",
+    "sentence": "prɪˈskrɪpʃən",
+    "translate": "מֶרשוֹמ",
+    "date_created": "2024-02-22 15:30:33",
+    "cover": {
+      "id": 88291,
+      "name": "cover_6840710fee6b5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490537119827.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 792,
+    "title": "Pill",
+    "transcription": "She took a pill for her headache.",
+    "sentence": "/pɪl/",
+    "translate": "פיל",
+    "date_created": "2024-02-22 15:30:33",
+    "cover": {
+      "id": 88293,
+      "name": "cover_684071323c45c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490537462529.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 793,
+    "title": "Vaccine",
+    "transcription": "The scientist developed a new vaccine to protect against the flu.",
+    "sentence": "/ˈvæksiːn/",
+    "translate": "חיסון",
+    "date_created": "2024-02-22 15:30:37",
+    "cover": {
+      "id": 88294,
+      "name": "cover_6840716157736.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490537933646.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 794,
+    "title": "Treatment",
+    "transcription": "She is receiving chemotherapy as part of her cancer treatment.",
+    "sentence": "ˈtriːtmənt",
+    "translate": "טיפול",
+    "date_created": "2024-02-22 15:30:37",
+    "cover": {
+      "id": 88295,
+      "name": "cover_6840718a3851d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490538342379.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 795,
+    "title": "Surgery",
+    "transcription": "She will undergo surgery next week to remove the tumor.",
+    "sentence": "/ˈsɜːr.dʒər.i/",
+    "translate": "ניתוח",
+    "date_created": "2024-02-22 15:30:37",
+    "cover": {
+      "id": 88296,
+      "name": "cover_684071b4da86d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490538769020.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 796,
+    "title": "Operation",
+    "transcription": "The doctors performed a delicate heart operation on the patient.",
+    "sentence": "ˌɑːpəˈreɪʃən",
+    "translate": "פעולה",
+    "date_created": "2024-02-22 15:30:37",
+    "cover": {
+      "id": 88297,
+      "name": "cover_684071e6e923f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490539269615.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 797,
+    "title": "Diagnosis",
+    "transcription": "The doctor provided a diagnosis of the patient's illness.",
+    "sentence": "daɪˈɡ'noʊsɪs",
+    "translate": "אבחנה",
+    "date_created": "2024-02-22 15:30:41",
+    "cover": {
+      "id": 88298,
+      "name": "cover_68407213634ef.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490539714141.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 798,
+    "title": "Patient",
+    "transcription": "The doctor asked the patient to wait in the waiting room.",
+    "sentence": "ˈpeɪʃənt",
+    "translate": "סַבְלָן",
+    "date_created": "2024-02-22 15:30:41",
+    "cover": {
+      "id": 88299,
+      "name": "cover_68407238f31aa.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490540090033.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 799,
+    "title": "Illness",
+    "transcription": "She had to take time off work due to a prolonged illness.",
+    "sentence": "ˈɪlnəs",
+    "translate": "מַחֲלָה",
+    "date_created": "2024-02-22 15:30:42",
+    "cover": {
+      "id": 88300,
+      "name": "cover_68407260e0169.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490540489248.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 800,
+    "title": "Disease",
+    "transcription": "She was diagnosed with a rare genetic disease at a young age.",
+    "sentence": "dɪˈziːz",
+    "translate": "חוֹלֶה",
+    "date_created": "2024-02-22 15:30:45",
+    "cover": {
+      "id": 88301,
+      "name": "cover_6840728a783bd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490540905001.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 801,
+    "title": "Virus",
+    "transcription": "Her computer was infected with a virus and crashed.",
+    "sentence": "/ˈvaɪrəs/",
+    "translate": "וירוס",
+    "date_created": "2024-02-22 15:30:45",
+    "cover": {
+      "id": 88302,
+      "name": "cover_684072bb3b3e9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490541392491.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 802,
+    "title": "Infection",
+    "transcription": "She developed an infection after cutting her finger while cooking.",
+    "sentence": "/ɪnˈfɛkʃən/",
+    "translate": "דַלקָת",
+    "date_created": "2024-02-22 15:30:45",
+    "cover": {
+      "id": 88303,
+      "name": "cover_684072e04e39d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490541763276.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 803,
+    "title": "Bacteria",
+    "transcription": "The yogurt contains live bacteria that are good for your gut health.",
+    "sentence": "buhk-teer-ee-uh",
+    "translate": "חיידקים",
+    "date_created": "2024-02-22 15:30:49",
+    "cover": {
+      "id": 88304,
+      "name": "cover_684073059551b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490542136178.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 804,
+    "title": "Pain",
+    "transcription": "She winced in pain as she stubbed her toe on the table.",
+    "sentence": "/peɪn/",
+    "translate": "כאב",
+    "date_created": "2024-02-22 15:30:49",
+    "cover": {
+      "id": 88305,
+      "name": "cover_6840732a2d869.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490542501936.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 805,
+    "title": "Injury",
+    "transcription": "He suffered a serious injury while playing football.",
+    "sentence": "ˈɪnʤəri",
+    "translate": "פגיעה",
+    "date_created": "2024-02-22 15:30:49",
+    "cover": {
+      "id": 88306,
+      "name": "cover_6840734e96fe0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490542866261.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 806,
+    "title": "Fever",
+    "transcription": "She developed a fever after being out in the sun all day.",
+    "sentence": "/ˈfiː.vər/",
+    "translate": "חום",
+    "date_created": "2024-02-22 15:30:50",
+    "cover": {
+      "id": 88307,
+      "name": "cover_684073805499e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490543363539.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 807,
+    "title": "Cough",
+    "transcription": "She tried to muffle her cough with her handkerchief.",
+    "sentence": "/kɒf/",
+    "translate": "שִׁיעוּק",
+    "date_created": "2024-02-22 15:30:53",
+    "cover": {
+      "id": 88308,
+      "name": "cover_684073a83d06b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490543762619.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 808,
+    "title": "Cold",
+    "transcription": "The cold weather made it difficult to go outside.",
+    "sentence": "/koʊld/",
+    "translate": "קר",
+    "date_created": "2024-02-22 15:30:53",
+    "cover": {
+      "id": 88310,
+      "name": "cover_684073cf5b2fd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490544153804.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 809,
+    "title": "Flu",
+    "transcription": "She caught the flu and had to stay home from work for a week.",
+    "sentence": "/fluː/",
+    "translate": "פליאו",
+    "date_created": "2024-02-22 15:30:53",
+    "cover": {
+      "id": 88311,
+      "name": "cover_684073fc27e7e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490544601771.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 810,
+    "title": "Allergy",
+    "transcription": "She has an allergy to peanuts, so she can't eat them.",
+    "sentence": "ˈælərdʒi",
+    "translate": "אַלערגיע",
+    "date_created": "2024-02-22 15:30:54",
+    "cover": {
+      "id": 88313,
+      "name": "cover_6840742d3281e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490545092140.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 811,
+    "title": "Asthma",
+    "transcription": "She had to use her inhaler to control her asthma during the exercise class.",
+    "sentence": "ˈæz.mə",
+    "translate": "אָסְתְּמָא",
+    "date_created": "2024-02-22 15:30:57",
+    "cover": {
+      "id": 88314,
+      "name": "cover_684074561ca62.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490545501249.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 812,
+    "title": "Diabetes",
+    "transcription": "My mother has to monitor her blood sugar levels carefully due to her diabetes.",
+    "sentence": "/ˌdaɪəˈbiːtiːz/",
+    "translate": "סַכַּרְתָּ",
+    "date_created": "2024-02-22 15:30:57",
+    "cover": {
+      "id": 88315,
+      "name": "cover_684074790b7c6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490545850539.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 813,
+    "title": "Blood pressure",
+    "transcription": "It's important to monitor your blood pressure regularly to maintain good health.",
+    "sentence": "blʌd ˈprɛʃər",
+    "translate": "לחץ דם",
+    "date_created": "2024-02-22 15:30:58",
+    "cover": {
+      "id": 88316,
+      "name": "cover_684074a6a72bb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490546306955.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 814,
+    "title": "Stroke",
+    "transcription": "He suffered a stroke last year and had to undergo physical therapy.",
+    "sentence": "/stroʊk/",
+    "translate": "שבץ",
+    "date_created": "2024-02-22 15:31:00",
+    "cover": {
+      "id": 88317,
+      "name": "cover_684074ce59127.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490546703722.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 815,
+    "title": "Heart attack",
+    "transcription": "He survived a heart attack last year and has been taking better care of his health since then.",
+    "sentence": "ˈhɑrt əˌtæk",
+    "translate": "התקף לב",
+    "date_created": "2024-02-22 15:31:00",
+    "cover": {
+      "id": 88318,
+      "name": "cover_684074f95ef20.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490547133966.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 816,
+    "title": "Cancer",
+    "transcription": "My uncle was diagnosed with lung cancer last year.",
+    "sentence": "/ˈkænsər/",
+    "translate": "סרטן",
+    "date_created": "2024-02-22 15:31:02",
+    "cover": {
+      "id": 88319,
+      "name": "cover_6840751e919bc.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490547506047.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 817,
+    "title": "X-ray",
+    "transcription": "The doctor ordered an X-ray to determine if there were any broken bones.",
+    "sentence": "ˈɛksˌreɪ",
+    "translate": "קרני רנטגן",
+    "date_created": "2024-02-22 15:31:02",
+    "cover": {
+      "id": 88320,
+      "name": "cover_6840754cecac1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490547969769.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 818,
+    "title": "MRI",
+    "transcription": "The doctor ordered an MRI to get a better look at the injury.",
+    "sentence": "ˌemˌaɪˈraɪ",
+    "translate": "גירוד (ביקור)",
+    "date_created": "2024-02-22 15:31:03",
+    "cover": {
+      "id": 88321,
+      "name": "cover_68407575d6dad.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490548378871.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 819,
+    "title": "Ultrasound",
+    "transcription": "The doctor ordered an ultrasound to see if there were any abnormalities in the patient's abdomen.",
+    "sentence": "ˈʌltrəˌsaʊnd",
+    "translate": "סאונד",
+    "date_created": "2024-02-22 15:31:05",
+    "cover": {
+      "id": 88322,
+      "name": "cover_684075a5b95e5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490548857662.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 820,
+    "title": "Blood test",
+    "transcription": "The doctor ordered a blood test to check for any underlying health issues.",
+    "sentence": "blʌd tɛst",
+    "translate": "בדיקת דם",
+    "date_created": "2024-02-22 15:31:06",
+    "cover": {
+      "id": 88323,
+      "name": "cover_684075d43831c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490549322370.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 821,
+    "title": "Thermometer",
+    "transcription": "The nurse used a thermometer to check the patient's temperature.",
+    "sentence": "/θərˈmɒmɪtər/",
+    "translate": "טֶרמוֹמֶטֵר",
+    "date_created": "2024-02-22 15:31:06",
+    "cover": {
+      "id": 88324,
+      "name": "cover_684075f302528.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490549630161.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 822,
+    "title": "Stethoscope",
+    "transcription": "The doctor used a stethoscope to listen to the patient's heart and lungs.",
+    "sentence": "ˈstɛθəˌskoʊp",
+    "translate": "סְטֶתּוֹסְקוֹפּ",
+    "date_created": "2024-02-22 15:31:09",
+    "cover": {
+      "id": 88325,
+      "name": "cover_6840761a7ff6f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490550025305.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 823,
+    "title": "Bandage",
+    "transcription": "He wrapped a bandage around the injured knee.",
+    "sentence": "/ˈbændɪdʒ/",
+    "translate": "גיפס",
+    "date_created": "2024-02-22 15:31:10",
+    "cover": {
+      "id": 88326,
+      "name": "cover_684076401232b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490550400816.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 824,
+    "title": "Plaster",
+    "transcription": "I accidentally scraped my knee and had to put a plaster on it.",
+    "sentence": "/ˈplæs.tər/",
+    "translate": "גיפס",
+    "date_created": "2024-02-22 15:31:11",
+    "cover": {
+      "id": 88327,
+      "name": "cover_6840766b1583e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490550830951.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 825,
+    "title": "Injection",
+    "transcription": "The doctor administered an injection to numb the patient's pain.",
+    "sentence": "ɪnˈdʒɛkʃən",
+    "translate": "הִזרָקָה",
+    "date_created": "2024-02-22 15:31:14",
+    "cover": {
+      "id": 88328,
+      "name": "cover_68407690ad2f9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490551207166.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 826,
+    "title": "Antibiotic",
+    "transcription": "The doctor prescribed an antibiotic to help treat the bacterial infection.",
+    "sentence": "/ˌæntiˌbaɪˈɒtɪk/",
+    "translate": "אנטיביוטיק",
+    "date_created": "2024-02-22 15:31:15",
+    "cover": {
+      "id": 88329,
+      "name": "cover_684076b467d50.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490551564318.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 827,
+    "title": "Antiseptic",
+    "transcription": "The nurse applied antiseptic to the cut to prevent infection.",
+    "sentence": "/ˌæn.t̬ɪˈsep.tɪk/",
+    "translate": "אנטיספטי",
+    "date_created": "2024-02-22 15:31:15",
+    "cover": {
+      "id": 88330,
+      "name": "cover_684076d867a94.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490551924312.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 828,
+    "title": "Painkiller",
+    "transcription": "She took a painkiller to help with her headache.",
+    "sentence": "/ˈpeɪnˌkɪlər/",
+    "translate": "כאב שוחד",
+    "date_created": "2024-02-22 15:31:18",
+    "cover": {
+      "id": 88331,
+      "name": "cover_6840770c51065.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490552443396.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 829,
+    "title": "Vitamins",
+    "transcription": "It is important to get enough vitamins in your diet to maintain good health.",
+    "sentence": "ˈvaɪtəmɪnz",
+    "translate": "ויטמינים",
+    "date_created": "2024-02-22 15:31:20",
+    "cover": {
+      "id": 88333,
+      "name": "cover_684077332d3af.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490552831920.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 830,
+    "title": "Nutrition",
+    "transcription": "Nutrition plays a key role in maintaining good health and preventing diseases.",
+    "sentence": "n(j)uˈtrɪʃ(ə)n",
+    "translate": "תְזוּנָה",
+    "date_created": "2024-02-22 15:31:20",
+    "cover": {
+      "id": 88334,
+      "name": "cover_68407763f34e5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490553320036.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 831,
+    "title": "Diet",
+    "transcription": "She went on a strict diet to lose weight before her wedding.",
+    "sentence": "/ˈdaɪət/",
+    "translate": "דִּיוֵט",
+    "date_created": "2024-02-22 15:31:20",
+    "cover": {
+      "id": 88335,
+      "name": "cover_6840778c66ac5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490553724271.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 832,
+    "title": "Exercise",
+    "transcription": "I try to exercise at least three times a week by going for a run or doing yoga.",
+    "sentence": "ˈɛksərsaɪz",
+    "translate": "תרגול",
+    "date_created": "2024-02-22 15:31:23",
+    "cover": {
+      "id": 88336,
+      "name": "cover_684077b59b2dd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490554136426.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 833,
+    "title": "Fitness",
+    "transcription": "She goes to the gym regularly to improve her fitness levels.",
+    "sentence": "ˈfɪtnəs",
+    "translate": "כושר",
+    "date_created": "2024-02-22 15:31:25",
+    "cover": {
+      "id": 88337,
+      "name": "cover_684077d986471.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490554495613.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 834,
+    "title": "Therapy",
+    "transcription": "She has been going to therapy to help manage her anxiety.",
+    "sentence": "/ˈθerəpi/",
+    "translate": "טיפול",
+    "date_created": "2024-02-22 15:31:25",
+    "cover": {
+      "id": 88338,
+      "name": "cover_684078059c805.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490554936488.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 835,
+    "title": "Rehabilitation",
+    "transcription": "After her knee surgery, she had to undergo months of rehabilitation to regain her strength and mobility.",
+    "sentence": "ˌriːˌhəˈbɪlɪˈteɪʃən",
+    "translate": "ריאביליטציה",
+    "date_created": "2024-02-22 15:31:25",
+    "cover": {
+      "id": 88339,
+      "name": "cover_6840783175780.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490555374923.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 836,
+    "title": "Stress",
+    "transcription": "The constant stress from work is affecting my health.",
+    "sentence": "stres",
+    "translate": "לחץ",
+    "date_created": "2024-02-22 15:31:29",
+    "cover": {
+      "id": 88340,
+      "name": "cover_6840785b0864f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490555790465.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 837,
+    "title": "Mental health",
+    "transcription": "It is important to prioritize your mental health by taking time to relax and practice self-care.",
+    "sentence": "/ˈmɛntəl hɛlθ/",
+    "translate": "בריאות הנפש",
+    "date_created": "2024-02-22 15:31:29",
+    "cover": {
+      "id": 88341,
+      "name": "cover_6840788a5e963.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490556263951.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 838,
+    "title": "Depression",
+    "transcription": "She has been struggling with depression for years and finally sought help from a therapist.",
+    "sentence": "dɪˈprɛʃən",
+    "translate": "דיכאון",
+    "date_created": "2024-02-22 15:31:29",
+    "cover": {
+      "id": 88342,
+      "name": "cover_684078bf743d3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490556794836.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 839,
+    "title": "Anxiety",
+    "transcription": "She was overwhelmed by anxiety before the big presentation.",
+    "sentence": "æŋˈzaɪəti",
+    "translate": "חרדה",
+    "date_created": "2024-02-22 15:31:33",
+    "cover": {
+      "id": 88343,
+      "name": "cover_684078eba70e3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490557236920.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 840,
+    "title": "Sleep",
+    "transcription": "I need to get a good night's sleep to feel refreshed in the morning.",
+    "sentence": "sliːp",
+    "translate": "שינה",
+    "date_created": "2024-02-22 15:31:33",
+    "cover": {
+      "id": 88344,
+      "name": "cover_68407917e89a7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490557679605.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 841,
+    "title": "Hygiene",
+    "transcription": "Personal hygiene is essential for maintaining good health and preventing illness.",
+    "sentence": "/ˈhaɪdʒiːn/",
+    "translate": "היגיינה",
+    "date_created": "2024-02-22 15:31:34",
+    "cover": {
+      "id": 88345,
+      "name": "cover_6840795033680.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490558242178.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

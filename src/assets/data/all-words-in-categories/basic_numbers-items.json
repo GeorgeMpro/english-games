@@ -1,0 +1,482 @@
+[
+  {
+    "id": 303,
+    "title": "Zero",
+    "transcription": "My bank account balance is currently zero.",
+    "sentence": "/ˈzɪəroʊ/",
+    "translate": "אפס",
+    "date_created": "2024-02-22 15:22:35",
+    "cover": {
+      "id": 87409,
+      "name": "cover_68396ce4b49b4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485938927502.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 304,
+    "title": "One",
+    "transcription": "I would like one cup of coffee, please.",
+    "sentence": "wʌn",
+    "translate": "אחת",
+    "date_created": "2024-02-22 15:22:36",
+    "cover": {
+      "id": 87410,
+      "name": "cover_68396d0b4ec77.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485939313306.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 305,
+    "title": "Two",
+    "transcription": "I have two cats.",
+    "sentence": "tuː",
+    "translate": "שתיים",
+    "date_created": "2024-02-22 15:22:37",
+    "cover": {
+      "id": 87411,
+      "name": "cover_68396d360cdb3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485939740593.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 306,
+    "title": "Three",
+    "transcription": "I bought three apples at the grocery store.",
+    "sentence": "θriː",
+    "translate": "שְׁלוֹשָׁה",
+    "date_created": "2024-02-22 15:22:37",
+    "cover": {
+      "id": 87412,
+      "name": "cover_68396d58c82a5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485940088425.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 307,
+    "title": "Four",
+    "transcription": "There are four seasons in a year.",
+    "sentence": "fɔːr",
+    "translate": "ארבע",
+    "date_created": "2024-02-22 15:22:40",
+    "cover": {
+      "id": 87413,
+      "name": "cover_68396d8393ac8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485940516115.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 308,
+    "title": "Five",
+    "transcription": "There are five apples in the basket.",
+    "sentence": "/faɪv/",
+    "translate": "חמש",
+    "date_created": "2024-02-22 15:22:41",
+    "cover": {
+      "id": 87414,
+      "name": "cover_68396da5e1266.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485940859285.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 309,
+    "title": "Six",
+    "transcription": "There are six people in the room.",
+    "sentence": "sɪks",
+    "translate": "שֵׁשׁ",
+    "date_created": "2024-02-22 15:22:41",
+    "cover": {
+      "id": 87415,
+      "name": "cover_68396dcf63f92.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485941274153.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 310,
+    "title": "Seven",
+    "transcription": "There are seven continents in the world.",
+    "sentence": "/ˈsɛvən/",
+    "translate": "שֶׁבַע",
+    "date_created": "2024-02-22 15:22:44",
+    "cover": {
+      "id": 87418,
+      "name": "cover_68396dfd486bf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485941733029.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 311,
+    "title": "Eight",
+    "transcription": "There are eight planets in our solar system.",
+    "sentence": "/eɪt/",
+    "translate": "שְׁמוֹנֶה",
+    "date_created": "2024-02-22 15:22:44",
+    "cover": {
+      "id": 87419,
+      "name": "cover_68396e254c606.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485942133189.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 312,
+    "title": "Nine",
+    "transcription": "There are nine planets in our solar system.",
+    "sentence": "/naɪn/",
+    "translate": "תשע",
+    "date_created": "2024-02-22 15:22:45",
+    "cover": {
+      "id": 87420,
+      "name": "cover_68396e4f68c9b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485942554358.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 313,
+    "title": "Ten",
+    "transcription": "I have ten fingers on my hands.",
+    "sentence": "tɛn",
+    "translate": "עשר",
+    "date_created": "2024-02-22 15:22:45",
+    "cover": {
+      "id": 87421,
+      "name": "cover_68396e73bcafe.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485942917785.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 314,
+    "title": "Eleven",
+    "transcription": "I have eleven apples in my basket.",
+    "sentence": "/ɪˈlɛvən/",
+    "translate": "אחת-עשרה",
+    "date_created": "2024-02-22 15:22:48",
+    "cover": {
+      "id": 87422,
+      "name": "cover_68396e9b388a7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485943312373.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 315,
+    "title": "Twelve",
+    "transcription": "There are twelve months in a year.",
+    "sentence": "twɛlv",
+    "translate": "שְׁנֵים-עָשָׂר",
+    "date_created": "2024-02-22 15:22:49",
+    "cover": {
+      "id": 87423,
+      "name": "cover_68396ec1babbc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485943697711.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 316,
+    "title": "Fourteen",
+    "transcription": "There are fourteen students in my class.",
+    "sentence": "/ˈfɔːrˈtiːn/",
+    "translate": "ארבע עשרה",
+    "date_created": "2024-02-22 15:22:49",
+    "cover": {
+      "id": 87424,
+      "name": "cover_68396ee6b5634.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485944067517.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 317,
+    "title": "Thirteen",
+    "transcription": "There are thirteen people in the room.",
+    "sentence": "/ˈθɜːrtiːn/",
+    "translate": "שְׁלשָׁה־עָשָׂר",
+    "date_created": "2024-02-22 15:22:49",
+    "cover": {
+      "id": 87425,
+      "name": "cover_68396f0bd44fd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485944438759.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 318,
+    "title": "Fifteen",
+    "transcription": "She celebrated her fifteenth birthday with a big party.",
+    "sentence": "ˈfɪfˈtiːn",
+    "translate": "חֲמִישָׁה עֶשְׂרֵה",
+    "date_created": "2024-02-22 15:22:52",
+    "cover": {
+      "id": 87426,
+      "name": "cover_68396f34c0203.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485944847934.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 319,
+    "title": "Sixteen",
+    "transcription": "She celebrated her sweet sixteen birthday with a big party.",
+    "sentence": "ˈsɪkˈstiːn",
+    "translate": "שישה-עשר",
+    "date_created": "2024-02-22 15:22:53",
+    "cover": {
+      "id": 87429,
+      "name": "cover_68396f5bcb00f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485945238424.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 320,
+    "title": "Seventeen",
+    "transcription": "She turned seventeen last week, and now she can get her driver's license.",
+    "sentence": "ˌsɛvənˈtin",
+    "translate": "שבעה-עשר",
+    "date_created": "2024-02-22 15:22:54",
+    "cover": {
+      "id": 87430,
+      "name": "cover_68396f821f82f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485945621362.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 321,
+    "title": "Eighteen",
+    "transcription": "She will be turning eighteen next week and wants to have a big birthday party.",
+    "sentence": "ˈeɪˈtiːn",
+    "translate": "שמונה-עשרה",
+    "date_created": "2024-02-22 15:22:54",
+    "cover": {
+      "id": 87431,
+      "name": "cover_68396fa718529.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485945991057.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 322,
+    "title": "Nineteen",
+    "transcription": "She was nineteen years old when she graduated from college.",
+    "sentence": "/ˈnaɪnˈtiːn/",
+    "translate": "תשע עשרה",
+    "date_created": "2024-02-22 15:22:57",
+    "cover": {
+      "id": 87432,
+      "name": "cover_68396fcfb4dac.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485946397464.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 323,
+    "title": "Twenty",
+    "transcription": "He was twenty years old when he graduated from college.",
+    "sentence": "ˈtwɛnti",
+    "translate": "עשרים",
+    "date_created": "2024-02-22 15:22:57",
+    "cover": {
+      "id": 87433,
+      "name": "cover_68396ff4ee468.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485946769829.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 324,
+    "title": "Thirty",
+    "transcription": "I will be leaving the office at thirty minutes past the hour.",
+    "sentence": "/ˈθɜːr.ti/",
+    "translate": "שְׁלוֹשִׁים",
+    "date_created": "2024-02-22 15:22:58",
+    "cover": {
+      "id": 87434,
+      "name": "cover_68397023303fc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485947232045.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 325,
+    "title": "Forty",
+    "transcription": "She celebrated her fortieth birthday last week.",
+    "sentence": "ˈfɔrdi",
+    "translate": "ארבעים",
+    "date_created": "2024-02-22 15:22:59",
+    "cover": {
+      "id": 87437,
+      "name": "cover_6839704a09921.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485947620499.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 326,
+    "title": "Fifty",
+    "transcription": "There are fifty states in the United States of America.",
+    "sentence": "/ˈfɪfti/",
+    "translate": "חמישים",
+    "date_created": "2024-02-22 15:23:02",
+    "cover": {
+      "id": 87438,
+      "name": "cover_68397079ea401.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485948099681.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 327,
+    "title": "Sixty",
+    "transcription": "She celebrated her sixtieth birthday with a big party.",
+    "sentence": "ˈsɪksti",
+    "translate": "שישים",
+    "date_created": "2024-02-22 15:23:03",
+    "cover": {
+      "id": 87439,
+      "name": "cover_683970a05ad10.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485948483780.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 328,
+    "title": "Seventy",
+    "transcription": "She turned seventy last week and had a big birthday party.",
+    "sentence": "/ˈsɛvənti/",
+    "translate": "שִׁבְעִים",
+    "date_created": "2024-02-22 15:23:04",
+    "cover": {
+      "id": 87440,
+      "name": "cover_683970c272bd5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485948824864.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 329,
+    "title": "Eighty",
+    "transcription": "She has lived in the same house for eighty years.",
+    "sentence": "ˈeɪti",
+    "translate": "שמונים",
+    "date_created": "2024-02-22 15:23:04",
+    "cover": {
+      "id": 87441,
+      "name": "cover_683970eaabddd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485949227117.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 330,
+    "title": "Ninety",
+    "transcription": "She is ninety years old today.",
+    "sentence": "/ˈnaɪ.nə.ti/",
+    "translate": "תִשְׁעִים",
+    "date_created": "2024-02-22 15:23:06",
+    "cover": {
+      "id": 87442,
+      "name": "cover_6839711e1d9ec.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485949741293.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 331,
+    "title": "Hundred",
+    "transcription": "There are one hundred students in the auditorium.",
+    "sentence": "ˈhʌndrəd",
+    "translate": "מאה",
+    "date_created": "2024-02-22 15:23:08",
+    "cover": {
+      "id": 87443,
+      "name": "cover_6839714908858.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485950170414.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 332,
+    "title": "Thousand",
+    "transcription": "I counted to a thousand before realizing I had lost track.",
+    "sentence": "ˈθaʊzənd",
+    "translate": "אֶלֶף",
+    "date_created": "2024-02-22 15:23:08",
+    "cover": {
+      "id": 87444,
+      "name": "cover_68397176b04ea.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485950627284.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 333,
+    "title": "Million",
+    "transcription": "There are over a million books in the library.",
+    "sentence": "/ˈmɪljən/",
+    "translate": "מליון",
+    "date_created": "2024-02-22 15:23:08",
+    "cover": {
+      "id": 87445,
+      "name": "cover_683971a5be0f5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485951098030.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 334,
+    "title": "Billion",
+    "transcription": "The company made a profit of over a billion dollars last year.",
+    "sentence": "/ˈbɪljən/",
+    "translate": "מיליארד",
+    "date_created": "2024-02-22 15:23:12",
+    "cover": {
+      "id": 87446,
+      "name": "cover_683971c9d65a1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485951458849.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

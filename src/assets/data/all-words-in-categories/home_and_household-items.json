@@ -1,0 +1,842 @@
+[
+  {
+    "id": 466,
+    "title": "Room",
+    "transcription": "She walked into the room and immediately noticed the beautiful artwork on the walls.",
+    "sentence": "ruːm",
+    "translate": "חָדֶר",
+    "date_created": "2024-02-22 15:26:08",
+    "cover": {
+      "id": 87610,
+      "name": "cover_68398689ebedb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486004579722.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 468,
+    "title": "Kitchen",
+    "transcription": "She was baking cookies in the kitchen.",
+    "sentence": "/ˈkɪtʃən/",
+    "translate": "מטבח",
+    "date_created": "2024-02-22 15:26:09",
+    "cover": {
+      "id": 87612,
+      "name": "cover_683986ebc7191.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486005558250.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 469,
+    "title": "Bedroom",
+    "transcription": "I love decorating my bedroom with cozy blankets and pillows.",
+    "sentence": "/ˈbɛdˌrum/",
+    "translate": "חֶדֶר שְׁנָה",
+    "date_created": "2024-02-22 15:26:09",
+    "cover": {
+      "id": 87613,
+      "name": "cover_68398717ca826.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486005998393.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 470,
+    "title": "Bathroom",
+    "transcription": "Please remember to wash your hands after using the bathroom.",
+    "sentence": "ˈbæθˌruːm",
+    "translate": "חָדֶר אַמָבַּן",
+    "date_created": "2024-02-22 15:26:10",
+    "cover": {
+      "id": 87614,
+      "name": "cover_683987431bbe9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486006431201.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 471,
+    "title": "Living room",
+    "transcription": "Let's watch a movie in the living room tonight.",
+    "sentence": "ˈlɪvɪŋ rum",
+    "translate": "סלון",
+    "date_created": "2024-02-22 15:26:11",
+    "cover": {
+      "id": 87615,
+      "name": "cover_683987681f01f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486006801376.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 472,
+    "title": "Dining room",
+    "transcription": "We always have dinner together as a family in the dining room.",
+    "sentence": "/ˈdaɪnɪŋ ruːm/",
+    "translate": "סַלוֹן",
+    "date_created": "2024-02-22 15:26:13",
+    "cover": {
+      "id": 87616,
+      "name": "cover_6839878e79c37.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486007185053.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 473,
+    "title": "Garage",
+    "transcription": "I parked my car in the garage to protect it from the storm.",
+    "sentence": "/ˈɡærɪdʒ/",
+    "translate": "מוסך",
+    "date_created": "2024-02-22 15:26:13",
+    "cover": {
+      "id": 87617,
+      "name": "cover_683987b6b25a8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486007587369.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 474,
+    "title": "Balcony",
+    "transcription": "She enjoys sitting on the balcony with a cup of tea and watching the sunset.",
+    "sentence": "/ˈbæl.kən.i/",
+    "translate": "מרפסת",
+    "date_created": "2024-02-22 15:26:14",
+    "cover": {
+      "id": 87618,
+      "name": "cover_683987dd4d81b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486007973244.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 475,
+    "title": "Door",
+    "transcription": "Please remember to lock the door when you leave the house.",
+    "sentence": "dɔːr",
+    "translate": "דלת",
+    "date_created": "2024-02-22 15:26:14",
+    "cover": {
+      "id": 87619,
+      "name": "cover_68398802d7ea5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486008348904.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 476,
+    "title": "Window",
+    "transcription": "She looked out the window and saw birds flying by.",
+    "sentence": "/ˈwɪndəʊ/",
+    "translate": "חלון",
+    "date_created": "2024-02-22 15:26:16",
+    "cover": {
+      "id": 87620,
+      "name": "cover_68398822a0b47.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486008666674.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 477,
+    "title": "Floor",
+    "transcription": "The toddler was crawling on the floor.",
+    "sentence": "/flɔːr/",
+    "translate": "רצפה",
+    "date_created": "2024-02-22 15:26:18",
+    "cover": {
+      "id": 87621,
+      "name": "cover_683988457318b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486009014788.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 478,
+    "title": "Ceiling",
+    "transcription": "The ceiling of the room was painted a beautiful shade of blue.",
+    "sentence": "ˈsiːlɪŋ",
+    "translate": "תַּקַר",
+    "date_created": "2024-02-22 15:26:18",
+    "cover": {
+      "id": 87622,
+      "name": "cover_683988662bec9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486009341867.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 479,
+    "title": "Roof",
+    "transcription": "The rain was dripping through a hole in the roof.",
+    "sentence": "ruːf",
+    "translate": "גַג",
+    "date_created": "2024-02-22 15:26:18",
+    "cover": {
+      "id": 87623,
+      "name": "cover_6839888bce4ac.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486009718517.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 480,
+    "title": "Wall",
+    "transcription": "There is a beautiful painting hanging on the wall.",
+    "sentence": "wɔːl",
+    "translate": "קיר",
+    "date_created": "2024-02-22 15:26:20",
+    "cover": {
+      "id": 87624,
+      "name": "cover_683988b0d3ce1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486010088749.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 481,
+    "title": "Stairs",
+    "transcription": "She took the stairs instead of the elevator to get some exercise.",
+    "sentence": "/stɛrz/",
+    "translate": "סולמות",
+    "date_created": "2024-02-22 15:26:20",
+    "cover": {
+      "id": 87625,
+      "name": "cover_683988d9d2e06.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486010498729.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 482,
+    "title": "Bed",
+    "transcription": "I haven't made my bed yet.",
+    "sentence": "bed",
+    "translate": "מיטה",
+    "date_created": "2024-02-22 15:26:21",
+    "cover": {
+      "id": 87626,
+      "name": "cover_683988fb18629.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486010831062.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 483,
+    "title": "Sofa",
+    "transcription": "I love to relax on my comfortable sofa after a long day at work.",
+    "sentence": "/ˈsoʊ.fə/",
+    "translate": "ספה",
+    "date_created": "2024-02-22 15:26:22",
+    "cover": {
+      "id": 87627,
+      "name": "cover_6839891a86d03.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486011145592.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 484,
+    "title": "Chair",
+    "transcription": "Please have a seat on the chair in the corner.",
+    "sentence": "/tʃɛr/",
+    "translate": "כיסא",
+    "date_created": "2024-02-22 15:26:22",
+    "cover": {
+      "id": 87628,
+      "name": "cover_683989453b68c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486011572552.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 485,
+    "title": "Table",
+    "transcription": "She set the dishes on the table before the guests arrived.",
+    "sentence": "/ˈteɪbəl/",
+    "translate": "שולחן",
+    "date_created": "2024-02-22 15:26:24",
+    "cover": {
+      "id": 87629,
+      "name": "cover_6839896e84b7a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486011985503.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 486,
+    "title": "Desk",
+    "transcription": "She sat down at her desk to start working on her homework.",
+    "sentence": "desk",
+    "translate": "שולחן",
+    "date_created": "2024-02-22 15:26:25",
+    "cover": {
+      "id": 87630,
+      "name": "cover_68398991a6b79.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486012336927.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 487,
+    "title": "Dresser",
+    "transcription": "I put my clothes in the dresser to keep them organized.",
+    "sentence": "/ˈdrɛsər/",
+    "translate": "מדף",
+    "date_created": "2024-02-22 15:26:25",
+    "cover": {
+      "id": 87631,
+      "name": "cover_683989b5bd2e8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486012697814.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 488,
+    "title": "Closet",
+    "transcription": "She kept her winter clothes in the closet during the summer months.",
+    "sentence": "/ˈklɒzɪt/",
+    "translate": "אֲרוֹן",
+    "date_created": "2024-02-22 15:26:25",
+    "cover": {
+      "id": 87632,
+      "name": "cover_683989e071bf0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486013124724.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 489,
+    "title": "Cabinet",
+    "transcription": "The dishes were neatly organized in the kitchen cabinet.",
+    "sentence": "ˈkæbɪnɪt",
+    "translate": "אֲרוֹן",
+    "date_created": "2024-02-22 15:26:26",
+    "cover": {
+      "id": 87633,
+      "name": "cover_68398a0af3540.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486013550140.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 490,
+    "title": "Shelf",
+    "transcription": "She placed the book back on the shelf when she was finished reading it.",
+    "sentence": "/ʃɛlf/",
+    "translate": "מדף",
+    "date_created": "2024-02-22 15:26:28",
+    "cover": {
+      "id": 87634,
+      "name": "cover_68398a312781a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486013931719.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 491,
+    "title": "Lamp",
+    "transcription": "She turned on the lamp to read her book before going to sleep.",
+    "sentence": " /læmp/ ",
+    "translate": "מנורה",
+    "date_created": "2024-02-22 15:26:29",
+    "cover": {
+      "id": 87635,
+      "name": "cover_68398a5917ceb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486014331089.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 492,
+    "title": "Light",
+    "transcription": "The morning light filtering through the trees was breathtaking.",
+    "sentence": "/laɪt/",
+    "translate": "אוֹר",
+    "date_created": "2024-02-22 15:26:29",
+    "cover": {
+      "id": 87636,
+      "name": "cover_68398a7d889bb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486014695672.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 493,
+    "title": "Oven",
+    "transcription": "The cookies are baking in the oven.",
+    "sentence": "ˈʌvən",
+    "translate": "תנור",
+    "date_created": "2024-02-22 15:26:30",
+    "cover": {
+      "id": 87637,
+      "name": "cover_68398aa511c69.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486015090818.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 494,
+    "title": "Refrigerator",
+    "transcription": "She opened the refrigerator to grab a cold drink.",
+    "sentence": "rɪˈfrɪdʒəˌreɪtər",
+    "translate": "מקרר",
+    "date_created": "2024-02-22 15:26:30",
+    "cover": {
+      "id": 87638,
+      "name": "cover_68398acb54b26.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486015473531.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 495,
+    "title": "Stove",
+    "transcription": "She cooked dinner on the stove.",
+    "sentence": "stəʊv",
+    "translate": "כיריים",
+    "date_created": "2024-02-22 15:26:33",
+    "cover": {
+      "id": 87639,
+      "name": "cover_68398af729a51.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486015911764.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 496,
+    "title": "Microwave",
+    "transcription": "Please heat up your leftovers in the microwave for two minutes.",
+    "sentence": "/ˈmaɪkroʊˌweɪv/",
+    "translate": "קְרָמִיקָה",
+    "date_created": "2024-02-22 15:26:33",
+    "cover": {
+      "id": 87640,
+      "name": "cover_68398b1fd2a3e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486016318696.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 497,
+    "title": "Dishwasher",
+    "transcription": "She loaded the dirty dishes into the dishwasher and turned it on.",
+    "sentence": "ˈdɪʃˌwɒʃər",
+    "translate": "מדיח כלים",
+    "date_created": "2024-02-22 15:26:34",
+    "cover": {
+      "id": 87641,
+      "name": "cover_68398b4a5b3ed.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486016743841.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 498,
+    "title": "Washing machine",
+    "transcription": "She put her dirty clothes in the washing machine.",
+    "sentence": "/ˈwɒʃɪŋ məˌʃiːn/",
+    "translate": "מכונת כביסה",
+    "date_created": "2024-02-22 15:26:36",
+    "cover": {
+      "id": 87642,
+      "name": "cover_68398b777b1a1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486017195126.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 499,
+    "title": "Dryer",
+    "transcription": "I need to put my clothes in the dryer to make sure they are dry before I go out.",
+    "sentence": "ˈdraɪər",
+    "translate": "מייבש",
+    "date_created": "2024-02-22 15:26:36",
+    "cover": {
+      "id": 87643,
+      "name": "cover_68398b9b119b5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486017550780.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 500,
+    "title": "Vacuum cleaner",
+    "transcription": "I need to use the vacuum cleaner to clean up the dust and dirt on the carpet.",
+    "sentence": "ˈvækjuəm ˈkliːnər",
+    "translate": "מצמר",
+    "date_created": "2024-02-22 15:26:37",
+    "cover": {
+      "id": 87644,
+      "name": "cover_68398bbba651e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486017876985.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 501,
+    "title": "Heater",
+    "transcription": "The heater in our apartment broke, so it's freezing cold inside.",
+    "sentence": "/ˈhiːtər/",
+    "translate": "מחמם",
+    "date_created": "2024-02-22 15:26:38",
+    "cover": {
+      "id": 87645,
+      "name": "cover_68398be0ab555.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486018247084.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 502,
+    "title": "Air conditioner",
+    "transcription": "The air conditioner broke down on the hottest day of the year.",
+    "sentence": "ˈɛr kənˌdɪʃənər",
+    "translate": "מזגן",
+    "date_created": "2024-02-22 15:26:38",
+    "cover": {
+      "id": 87646,
+      "name": "cover_68398c07e1781.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486018639291.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 503,
+    "title": "Fan",
+    "transcription": "She is a big fan of the Harry Potter books.",
+    "sentence": "fæn",
+    "translate": "מעריץ",
+    "date_created": "2024-02-22 15:26:40",
+    "cover": {
+      "id": 87647,
+      "name": "cover_68398c31ace14.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486019057145.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 504,
+    "title": "Television",
+    "transcription": "I enjoy watching the news on television every morning.",
+    "sentence": "ˈtɛləˌvɪʒən",
+    "translate": "טלוויזיה",
+    "date_created": "2024-02-22 15:26:41",
+    "cover": {
+      "id": 87648,
+      "name": "cover_68398c5c97919.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486019486299.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 505,
+    "title": "Computer",
+    "transcription": "I use my computer to work on assignments and projects.",
+    "sentence": "kəmˈpjuːtər",
+    "translate": "מחשב",
+    "date_created": "2024-02-22 15:26:42",
+    "cover": {
+      "id": 87649,
+      "name": "cover_68398c8285a18.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486019865536.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 506,
+    "title": "Printer",
+    "transcription": "The printer is out of ink and needs to be refilled.",
+    "sentence": "/ˈprɪntər/",
+    "translate": "מדפסת",
+    "date_created": "2024-02-22 15:26:42",
+    "cover": {
+      "id": 87650,
+      "name": "cover_68398ca50bf8a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486020210553.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 507,
+    "title": "Phone",
+    "transcription": "She picked up the phone and dialed the number.",
+    "sentence": "fohn",
+    "translate": "טלפון",
+    "date_created": "2024-02-22 15:26:43",
+    "cover": {
+      "id": 87651,
+      "name": "cover_68398cca71b1a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486020584719.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 508,
+    "title": "Clock",
+    "transcription": "I looked at the clock and realized I was late for my meeting.",
+    "sentence": "klɒk",
+    "translate": "שעון",
+    "date_created": "2024-02-22 15:26:44",
+    "cover": {
+      "id": 87652,
+      "name": "cover_68398cee0064a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486020940108.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 509,
+    "title": "Picture",
+    "transcription": "I took a picture of the sunset at the beach.",
+    "sentence": "ˈpɪk.tʃər",
+    "translate": "תמונה",
+    "date_created": "2024-02-22 15:26:45",
+    "cover": {
+      "id": 87653,
+      "name": "cover_68398d13e2291.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486021319333.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 510,
+    "title": "Mirror",
+    "transcription": "She looked at herself in the mirror before leaving the house.",
+    "sentence": "/ˈmɪr.ər/",
+    "translate": "מראה",
+    "date_created": "2024-02-22 15:26:46",
+    "cover": {
+      "id": 87654,
+      "name": "cover_68398d3546ebb.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486021652968.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 511,
+    "title": "Carpet",
+    "transcription": "The carpet in the living room is soft and plush.",
+    "sentence": "/ˈkɑːrpɪt/",
+    "translate": "שטיח",
+    "date_created": "2024-02-22 15:26:46",
+    "cover": {
+      "id": 87655,
+      "name": "cover_68398d877d493.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486022475204.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 512,
+    "title": "Curtain",
+    "transcription": "She drew back the curtain to let in some sunlight.",
+    "sentence": "ˈkɜːr.tən",
+    "translate": "וילון",
+    "date_created": "2024-02-22 15:26:47",
+    "cover": {
+      "id": 87656,
+      "name": "cover_68398daa790ba.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486022825012.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 513,
+    "title": "Blanket",
+    "transcription": "I love to snuggle up on the couch with a warm blanket.",
+    "sentence": "ˈblæŋkɪt",
+    "translate": "שמיכה",
+    "date_created": "2024-02-22 15:26:47",
+    "cover": {
+      "id": 87657,
+      "name": "cover_68398dd05fcff.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486023204077.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 514,
+    "title": "Pillow",
+    "transcription": "She fluffed her pillow before going to bed.",
+    "sentence": "ˈpɪloʊ",
+    "translate": "כרית",
+    "date_created": "2024-02-22 15:26:49",
+    "cover": {
+      "id": 87658,
+      "name": "cover_68398df8a1bb1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486023606690.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 515,
+    "title": "Towel",
+    "transcription": "After swimming, she wrapped herself in a towel to dry off.",
+    "sentence": "ˈtaʊəl",
+    "translate": "מגבת",
+    "date_created": "2024-02-22 15:26:50",
+    "cover": {
+      "id": 87659,
+      "name": "cover_68398e2235414.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486024022249.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 516,
+    "title": "Plate",
+    "transcription": "She carefully placed the hot dish on the plate.",
+    "sentence": "/pleɪt/",
+    "translate": "צלחת",
+    "date_created": "2024-02-22 15:26:51",
+    "cover": {
+      "id": 87660,
+      "name": "cover_68398e42be942.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486024347859.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 517,
+    "title": "Cup",
+    "transcription": "She poured the tea into the cup.",
+    "sentence": "kʌp",
+    "translate": "גביע",
+    "date_created": "2024-02-22 15:26:51",
+    "cover": {
+      "id": 87661,
+      "name": "cover_68398e645ec57.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486024683940.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 518,
+    "title": "Fork",
+    "transcription": "He used a fork to eat his salad.",
+    "sentence": "fɔrk",
+    "translate": "מזלג",
+    "date_created": "2024-02-22 15:26:53",
+    "cover": {
+      "id": 87662,
+      "name": "cover_68398e8356208.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486024993588.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 519,
+    "title": "Knife",
+    "transcription": "She used a sharp knife to cut the vegetables.",
+    "sentence": "/naɪf/",
+    "translate": "סַכִּין",
+    "date_created": "2024-02-22 15:26:53",
+    "cover": {
+      "id": 87663,
+      "name": "cover_68398ea7aaf3a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486025357063.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 520,
+    "title": "Spoon",
+    "transcription": "She used a spoon to scoop out the ice cream.",
+    "sentence": "/spuːn/",
+    "translate": "כף",
+    "date_created": "2024-02-22 15:26:54",
+    "cover": {
+      "id": 87664,
+      "name": "cover_68398eca5ae62.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486025703800.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 521,
+    "title": "Pot",
+    "transcription": "She used a pot to boil water for pasta.",
+    "sentence": "pɒt",
+    "translate": "סִיר",
+    "date_created": "2024-02-22 15:26:55",
+    "cover": {
+      "id": 87665,
+      "name": "cover_68398eec60bb3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486026044055.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 522,
+    "title": "Pan",
+    "transcription": "I used a pan to cook dinner last night.",
+    "sentence": "pæn",
+    "translate": "פן",
+    "date_created": "2024-02-22 15:26:55",
+    "cover": {
+      "id": 87666,
+      "name": "cover_68398f0ce866a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17486026369667.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

@@ -1,0 +1,557 @@
+[
+  {
+    "id": 199,
+    "title": "Dog",
+    "transcription": "I took my dog for a walk in the park.",
+    "sentence": "/dɔɡ/",
+    "translate": "כֶּלֶב",
+    "date_created": "2024-02-22 15:21:07",
+    "cover": {
+      "id": 87304,
+      "name": "cover_68395ce63c4e5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485897982539.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 201,
+    "title": "Cat",
+    "transcription": "The cat chased a mouse.",
+    "sentence": "kæt",
+    "translate": "חתול",
+    "date_created": "2024-02-22 15:21:09",
+    "cover": {
+      "id": 87306,
+      "name": "cover_68395d3e1018b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485898860733.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 202,
+    "title": "Horse",
+    "transcription": "She went for a ride on her favorite horse.",
+    "sentence": "hɔːrs",
+    "translate": "סוּס",
+    "date_created": "2024-02-22 15:21:09",
+    "cover": {
+      "id": 87307,
+      "name": "cover_68395d6a8ec02.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485899305922.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 203,
+    "title": "Cow",
+    "transcription": "The cow was grazing in the field.",
+    "sentence": "kaw",
+    "translate": "פָרָה",
+    "date_created": "2024-02-22 15:21:10",
+    "cover": {
+      "id": 87308,
+      "name": "cover_68395d8f29f26.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485899671785.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 204,
+    "title": "Sheep",
+    "transcription": "The farmer herded the sheep into the barn for the night.",
+    "sentence": "/ʃiːp/",
+    "translate": "כֶּבֶשׂ",
+    "date_created": "2024-02-22 15:21:11",
+    "cover": {
+      "id": 87309,
+      "name": "cover_68395dba66701.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485900104261.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 205,
+    "title": "Pig",
+    "transcription": "The pig rolled around happily in the mud.",
+    "sentence": "pɪɡ",
+    "translate": "חֲזִיר",
+    "date_created": "2024-02-22 15:21:12",
+    "cover": {
+      "id": 87310,
+      "name": "cover_68395ddf585d9.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485900473686.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 206,
+    "title": "Duck",
+    "transcription": "The ducklings followed their mother to the pond.",
+    "sentence": "/dʌk/",
+    "translate": "בַּרוּבִּיא",
+    "date_created": "2024-02-22 15:21:12",
+    "cover": {
+      "id": 87311,
+      "name": "cover_68395e09d480d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485900898761.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 207,
+    "title": "Goose",
+    "transcription": "I saw a flock of geese flying overhead.",
+    "sentence": "/ɡuːs/",
+    "translate": "ברווז",
+    "date_created": "2024-02-22 15:21:13",
+    "cover": {
+      "id": 87312,
+      "name": "cover_68395e31f0a93.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485901299916.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 208,
+    "title": "Turkey",
+    "transcription": "I am looking forward to eating roast turkey on Thanksgiving.",
+    "sentence": "ˈtɜːrki",
+    "translate": "טורקיה",
+    "date_created": "2024-02-22 15:21:14",
+    "cover": {
+      "id": 87313,
+      "name": "cover_68395e5d9e32c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485901736565.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 209,
+    "title": "Rabbit",
+    "transcription": "I saw a rabbit hopping through the field.",
+    "sentence": "/ˈræbɪt/",
+    "translate": "ארנב",
+    "date_created": "2024-02-22 15:21:15",
+    "cover": {
+      "id": 87314,
+      "name": "cover_68395e80a8e75.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485902086988.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 210,
+    "title": "Deer",
+    "transcription": "I spotted a deer in the woods while hiking.",
+    "sentence": "/dɪr/",
+    "translate": "צבי",
+    "date_created": "2024-02-22 15:21:16",
+    "cover": {
+      "id": 87315,
+      "name": "cover_68395ea7b46a3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485902477459.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 211,
+    "title": "Bear",
+    "transcription": "I saw a bear in the forest while hiking last summer.",
+    "sentence": "bɛr",
+    "translate": "דב",
+    "date_created": "2024-02-22 15:21:17",
+    "cover": {
+      "id": 87316,
+      "name": "cover_68395ed2748a1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485902904844.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 212,
+    "title": "Wolf",
+    "transcription": "The wolf howled at the moon in the middle of the night.",
+    "sentence": "/wʊlf/",
+    "translate": "זאב",
+    "date_created": "2024-02-22 15:21:17",
+    "cover": {
+      "id": 87317,
+      "name": "cover_68395efb04a75.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485903310304.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 213,
+    "title": "Fox",
+    "transcription": "The quick brown fox jumps over the lazy dog.",
+    "sentence": "/fɑːks/",
+    "translate": "שׁוּעָל",
+    "date_created": "2024-02-22 15:21:19",
+    "cover": {
+      "id": 87318,
+      "name": "cover_68395f1f82a1b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485903675422.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 214,
+    "title": "Squirrel",
+    "transcription": "I saw a squirrel jumping from tree to tree in the park.",
+    "sentence": "/ˈskwɜː.rəl/",
+    "translate": "סנאי",
+    "date_created": "2024-02-22 15:21:19",
+    "cover": {
+      "id": 87319,
+      "name": "cover_68395f4ce8079.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485904129573.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 215,
+    "title": "Mouse",
+    "transcription": "I use a mouse to navigate my computer screen.",
+    "sentence": "/maʊs/",
+    "translate": "עכביש",
+    "date_created": "2024-02-22 15:21:20",
+    "cover": {
+      "id": 87320,
+      "name": "cover_68395f74545cf.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485904523566.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 216,
+    "title": "Rat",
+    "transcription": "The rat scurried across the kitchen floor.",
+    "sentence": "/ræt/",
+    "translate": "חולדה",
+    "date_created": "2024-02-22 15:21:21",
+    "cover": {
+      "id": 87321,
+      "name": "cover_68395f9bd43d4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485904918761.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 217,
+    "title": "Elephant",
+    "transcription": "I saw a herd of elephants while on safari in Africa.",
+    "sentence": "/ˈɛlɪfənt/",
+    "translate": "פִּיל",
+    "date_created": "2024-02-22 15:21:21",
+    "cover": {
+      "id": 87322,
+      "name": "cover_68395fc36dae5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485905314567.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 218,
+    "title": "Lion",
+    "transcription": "The lion roared fiercely in the savannah.",
+    "sentence": "ˈlaɪən",
+    "translate": "אריה",
+    "date_created": "2024-02-22 15:21:24",
+    "cover": {
+      "id": 87323,
+      "name": "cover_68395fe968585.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485905694357.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 219,
+    "title": "Monkey",
+    "transcription": "The monkey swung from branch to branch in the jungle.",
+    "sentence": "/ˈmʌŋki/",
+    "translate": "קוף",
+    "date_created": "2024-02-22 15:21:24",
+    "cover": {
+      "id": 87324,
+      "name": "cover_6839601a2f924.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485906182018.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 220,
+    "title": "Gorilla",
+    "transcription": "The gorilla pounded its chest aggressively, asserting its dominance.",
+    "sentence": "/ɡəˈrɪlə/",
+    "translate": "גורילה",
+    "date_created": "2024-02-22 15:21:24",
+    "cover": {
+      "id": 87326,
+      "name": "cover_6839603fb10c0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485906557329.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 221,
+    "title": "Tiger",
+    "transcription": "I went to the zoo yesterday and saw a majestic tiger roaming around in its enclosure.",
+    "sentence": "/ˈtaɪɡər/",
+    "translate": "טִיגְר",
+    "date_created": "2024-02-22 15:21:24",
+    "cover": {
+      "id": 87327,
+      "name": "cover_6839606a70838.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485906984693.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 222,
+    "title": "Giraffe",
+    "transcription": "The giraffe gracefully stretched its long neck to reach the leaves at the top of the tree.",
+    "sentence": "/dʒɪˈræf/",
+    "translate": "ג'ירף",
+    "date_created": "2024-02-22 15:21:27",
+    "cover": {
+      "id": 87328,
+      "name": "cover_6839608c4e441.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485907323272.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 223,
+    "title": "Zebra",
+    "transcription": "I saw a herd of zebras grazing in the field.",
+    "sentence": "/ˈziːbrə/",
+    "translate": "זֶבְרָה",
+    "date_created": "2024-02-22 15:21:27",
+    "cover": {
+      "id": 87329,
+      "name": "cover_683960afdea02.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485907679194.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 224,
+    "title": "Kangaroo",
+    "transcription": "The kangaroo hopped gracefully through the Outback.",
+    "sentence": "ˌkæŋɡəˈruː",
+    "translate": "קנגרו",
+    "date_created": "2024-02-22 15:21:28",
+    "cover": {
+      "id": 87330,
+      "name": "cover_683960d5dcf04.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485908059121.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 225,
+    "title": "Panda",
+    "transcription": "I went to the zoo and saw a cute panda eating bamboo.",
+    "sentence": "/ˈpændə/",
+    "translate": "פַנדָה",
+    "date_created": "2024-02-22 15:21:28",
+    "cover": {
+      "id": 87331,
+      "name": "cover_683960fd2a3d5.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485908451836.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 226,
+    "title": "Koala",
+    "transcription": "I saw a cute koala sleeping in a eucalyptus tree.",
+    "sentence": "koh-AH-luh",
+    "translate": "קואלה",
+    "date_created": "2024-02-22 15:21:29",
+    "cover": {
+      "id": 87332,
+      "name": "cover_6839612872a79.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485908884772.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 227,
+    "title": "Whale",
+    "transcription": "I saw a pod of whales breaching in the ocean.",
+    "sentence": "/weɪl/",
+    "translate": "לוויתן",
+    "date_created": "2024-02-22 15:21:32",
+    "cover": {
+      "id": 87333,
+      "name": "cover_68396166022a7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485909500146.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 228,
+    "title": "Dolphin",
+    "transcription": "The dolphin gracefully leaped out of the water, spinning in the air before diving back under.",
+    "sentence": "/ˈdɒlfɪn/",
+    "translate": "דּוֹלפִּין",
+    "date_created": "2024-02-22 15:21:32",
+    "cover": {
+      "id": 87334,
+      "name": "cover_68396189bf78f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485909857896.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 229,
+    "title": "Shark",
+    "transcription": "The shark swam gracefully through the ocean.",
+    "sentence": "/ʃɑːrk/",
+    "translate": "כריש",
+    "date_created": "2024-02-22 15:21:33",
+    "cover": {
+      "id": 87335,
+      "name": "cover_683961b3ba2b8.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485910277680.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 230,
+    "title": "Octopus",
+    "transcription": "The octopus is a fascinating sea creature known for its eight tentacles.",
+    "sentence": "ˈɒktəpəs",
+    "translate": "תמנון",
+    "date_created": "2024-02-22 15:21:33",
+    "cover": {
+      "id": 87336,
+      "name": "cover_683961df8e8c6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485910715908.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 231,
+    "title": "Crab",
+    "transcription": "I saw a crab crawling on the beach.",
+    "sentence": "/kræb/",
+    "translate": "סרטן",
+    "date_created": "2024-02-22 15:21:33",
+    "cover": {
+      "id": 87337,
+      "name": "cover_6839620f47797.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485911192987.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 232,
+    "title": "Butterfly",
+    "transcription": "The butterfly landed softly on the flower.",
+    "sentence": "ˈbʌtərflaɪ",
+    "translate": "פרפר",
+    "date_created": "2024-02-22 15:21:35",
+    "cover": {
+      "id": 87338,
+      "name": "cover_6839623207e99.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485911540426.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 233,
+    "title": "Bee",
+    "transcription": "The bee was buzzing around the flowers in the garden.",
+    "sentence": "biː",
+    "translate": "דבורה",
+    "date_created": "2024-02-22 15:21:35",
+    "cover": {
+      "id": 87339,
+      "name": "cover_683962567b99b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485911905125.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 234,
+    "title": "Ant",
+    "transcription": "I saw a line of ants marching towards the picnic table.",
+    "sentence": "ænt",
+    "translate": "נמלה",
+    "date_created": "2024-02-22 15:21:37",
+    "cover": {
+      "id": 87340,
+      "name": "cover_6839628483a51.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485912365448.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 235,
+    "title": "Spider",
+    "transcription": "She screamed when she saw a spider crawling on the wall.",
+    "sentence": "ˈspaɪ.dər",
+    "translate": "עַכָבִישׁ",
+    "date_created": "2024-02-22 15:21:37",
+    "cover": {
+      "id": 87341,
+      "name": "cover_683962a9941f2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485912736130.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 236,
+    "title": "Snail",
+    "transcription": "The snail slowly made its way across the garden path.",
+    "sentence": "sneɪl",
+    "translate": "חַמַם",
+    "date_created": "2024-02-22 15:21:38",
+    "cover": {
+      "id": 87342,
+      "name": "cover_683962d0bed46.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485913127875.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

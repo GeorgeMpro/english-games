@@ -1,0 +1,782 @@
+[
+  {
+    "id": 842,
+    "title": "Weather",
+    "transcription": "The weather is expected to be sunny and warm tomorrow.",
+    "sentence": "/ˈwɛðər/",
+    "translate": "מזג אוויר",
+    "date_created": "2024-02-22 15:31:34",
+    "cover": {
+      "id": 88346,
+      "name": "cover_684079756a542.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490558614421.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 843,
+    "title": "Temperature",
+    "transcription": "The temperature outside is 25 degrees Celsius.",
+    "sentence": "ˈtɛmpərəʧər",
+    "translate": "טמפרטורה",
+    "date_created": "2024-02-22 15:31:37",
+    "cover": {
+      "id": 88347,
+      "name": "cover_6840799aafc47.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490558987264.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 844,
+    "title": "Warm",
+    "transcription": "The sun feels warm on my skin.",
+    "sentence": "/wɔrm/",
+    "translate": "חַם",
+    "date_created": "2024-02-22 15:31:37",
+    "cover": {
+      "id": 88348,
+      "name": "cover_684079c46c614.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490559404512.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 845,
+    "title": "Hot",
+    "transcription": "The coffee was too hot to drink right away.",
+    "sentence": "hɑt",
+    "translate": "חם",
+    "date_created": "2024-02-22 15:31:37",
+    "cover": {
+      "id": 88349,
+      "name": "cover_684079e8d9715.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490559768980.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 846,
+    "title": "Climate",
+    "transcription": "The tropical climate of the region is perfect for growing bananas.",
+    "sentence": "ˈklaɪmət",
+    "translate": "אֲקִלִים",
+    "date_created": "2024-02-22 15:31:38",
+    "cover": {
+      "id": 88350,
+      "name": "cover_68407a0e8ce96.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490560145843.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 847,
+    "title": "Cool",
+    "transcription": "The weather is cool today, perfect for a hike.",
+    "sentence": "kuːl",
+    "translate": "מגניב",
+    "date_created": "2024-02-22 15:31:41",
+    "cover": {
+      "id": 88351,
+      "name": "cover_68407a3ca1b39.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490560606694.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 848,
+    "title": "Sunny",
+    "transcription": "It's such a beautiful day with clear blue skies and a sunny disposition.",
+    "sentence": "ˈsʌni",
+    "translate": "שָׁמֵשׁ",
+    "date_created": "2024-02-22 15:31:42",
+    "cover": {
+      "id": 88352,
+      "name": "cover_68407a6a8db4f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490561065868.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 849,
+    "title": "Cloudy",
+    "transcription": "The sky is cloudy today, it might rain later.",
+    "sentence": "ˈklaʊdi",
+    "translate": "כָּהָה",
+    "date_created": "2024-02-22 15:31:42",
+    "cover": {
+      "id": 88353,
+      "name": "cover_68407a8cab131.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490561407104.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 850,
+    "title": "Overcast",
+    "transcription": "The sky was overcast with thick clouds, blocking out the sunlight.",
+    "sentence": "/ˈoʊvərkæst/",
+    "translate": "כִּיסוּי עָנָן",
+    "date_created": "2024-02-22 15:31:44",
+    "cover": {
+      "id": 88354,
+      "name": "cover_68407ab7e0e19.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490561839281.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 851,
+    "title": "Rainfall",
+    "transcription": "The forecast predicts heavy rainfall over the weekend.",
+    "sentence": "ˈreɪnˌfɔl",
+    "translate": "גשם",
+    "date_created": "2024-02-22 15:31:46",
+    "cover": {
+      "id": 88356,
+      "name": "cover_68407ae4c1dea.png",
+      "url": "https://cdn.see.guru/words/2025/06/17490562288016.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 852,
+    "title": "Shower",
+    "transcription": "I need to take a shower before going to bed.",
+    "sentence": "/ˈʃaʊər/",
+    "translate": "מַקְלֶחַת",
+    "date_created": "2024-02-22 15:31:46",
+    "cover": {
+      "id": 88421,
+      "name": "cover_6841ddd6c9e5e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491470948352.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 853,
+    "title": "Drizzle",
+    "transcription": "It started to drizzle just as we were leaving the park.",
+    "sentence": "/ˈdrɪzəl/",
+    "translate": "זֶבֶל",
+    "date_created": "2024-02-22 15:31:46",
+    "cover": {
+      "id": 88414,
+      "name": "cover_6841dc937258f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491467714760.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 854,
+    "title": "Thunderstorm",
+    "transcription": "The loud thunderclaps during the thunderstorm made everyone jump.",
+    "sentence": "/ˈθʌndərˌstɔrm/",
+    "translate": "סופה ברקים",
+    "date_created": "2024-02-22 15:31:49",
+    "cover": {
+      "id": 88415,
+      "name": "cover_6841dcb954412.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491468093514.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 855,
+    "title": "Lightning",
+    "transcription": "The lightning struck the tree with a loud crack, startling everyone nearby.",
+    "sentence": "ˈlaɪt.nɪŋ",
+    "translate": "בָּרָק",
+    "date_created": "2024-02-22 15:31:49",
+    "cover": {
+      "id": 88416,
+      "name": "cover_6841dcdcccc5e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491468448447.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 856,
+    "title": "Thunder",
+    "transcription": "The thunder rumbled overhead as the storm approached.",
+    "sentence": "ˈθʌndər",
+    "translate": "רַעַם",
+    "date_created": "2024-02-22 15:31:50",
+    "cover": {
+      "id": 88417,
+      "name": "cover_6841dd04a6f2c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491468846896.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 857,
+    "title": "Snowflake",
+    "transcription": "Each snowflake is unique in shape and size.",
+    "sentence": "/ˈsnoʊfleɪk/",
+    "translate": "פָּג֖ע",
+    "date_created": "2024-02-22 15:31:51",
+    "cover": {
+      "id": 88418,
+      "name": "cover_6841dd2bdec52.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491469239196.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 858,
+    "title": "Blizzard",
+    "transcription": "The blizzard yesterday caused a lot of schools to close and roads to be blocked.",
+    "sentence": "ˈblɪzərd",
+    "translate": "סופה של שלגים",
+    "date_created": "2024-02-22 15:31:52",
+    "cover": {
+      "id": 88419,
+      "name": "cover_6841dd5ac1cdb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491469708011.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 859,
+    "title": "Ice",
+    "transcription": "She put some ice in her drink to keep it cold.",
+    "sentence": "aɪs",
+    "translate": "קרח",
+    "date_created": "2024-02-22 15:31:53",
+    "cover": {
+      "id": 88420,
+      "name": "cover_6841dd7d73d3a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491470054807.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 860,
+    "title": "Sleet",
+    "transcription": "The weather forecast predicts sleet in the afternoon, so make sure to bundle up.",
+    "sentence": "/sliːt/",
+    "translate": "ברד",
+    "date_created": "2024-02-22 15:31:54",
+    "cover": {
+      "id": 88422,
+      "name": "cover_6841de2a679b3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491471784318.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 861,
+    "title": "Frost",
+    "transcription": "The plants were covered in a layer of frost this morning.",
+    "sentence": "frɒst",
+    "translate": "קֶרַח",
+    "date_created": "2024-02-22 15:31:54",
+    "cover": {
+      "id": 88423,
+      "name": "cover_6841de4ea04f0.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491472146638.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 862,
+    "title": "Windy",
+    "transcription": "The windy weather made it difficult to keep my hat on.",
+    "sentence": "/ˈwɪndi/",
+    "translate": "רוחותי",
+    "date_created": "2024-02-22 15:31:57",
+    "cover": {
+      "id": 88424,
+      "name": "cover_6841de769bc69.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491472546454.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 863,
+    "title": "Breeze",
+    "transcription": "The gentle breeze rustled the leaves in the trees.",
+    "sentence": "briːz",
+    "translate": "רוח",
+    "date_created": "2024-02-22 15:31:58",
+    "cover": {
+      "id": 88425,
+      "name": "cover_6841de9fa738b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491472956952.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 864,
+    "title": "Gale",
+    "transcription": "The gale force winds knocked over several trees in the neighborhood.",
+    "sentence": "/ɡeɪl/",
+    "translate": "סופה",
+    "date_created": "2024-02-22 15:31:58",
+    "cover": {
+      "id": 88426,
+      "name": "cover_6841deca2a555.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491473381812.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 865,
+    "title": "Hurricane",
+    "transcription": "The hurricane caused widespread destruction along the coast.",
+    "sentence": "/ˈhɜːrɪkeɪn/",
+    "translate": "סופה חוזקה",
+    "date_created": "2024-02-22 15:31:59",
+    "cover": {
+      "id": 88427,
+      "name": "cover_6841deea8937a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491473705692.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 866,
+    "title": "Typhoon",
+    "transcription": "The typhoon caused widespread damage and flooding in the coastal town.",
+    "sentence": "ˌtaɪˈfuːn",
+    "translate": "טייפון",
+    "date_created": "2024-02-22 15:31:59",
+    "cover": {
+      "id": 88428,
+      "name": "cover_6841df15a20ee.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491474136707.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 867,
+    "title": "Cyclone",
+    "transcription": "The cyclone ripped through the town, causing widespread destruction.",
+    "sentence": "/ˈsaɪ.kloʊn/",
+    "translate": "ציקלון",
+    "date_created": "2024-02-22 15:32:01",
+    "cover": {
+      "id": 88429,
+      "name": "cover_6841df392d22c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491474491912.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 868,
+    "title": "Tornado",
+    "transcription": "A tornado touched down in the small town, causing extensive damage to homes and buildings.",
+    "sentence": "/tɔːrˈneɪdoʊ/",
+    "translate": "טורנדו",
+    "date_created": "2024-02-22 15:32:02",
+    "cover": {
+      "id": 88430,
+      "name": "cover_6841df5bb8a21.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491474837630.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 869,
+    "title": "Fog",
+    "transcription": "The thick fog obscured the view of the city skyline.",
+    "sentence": "fɒɡ",
+    "translate": "עָרָפֶל",
+    "date_created": "2024-02-22 15:32:02",
+    "cover": {
+      "id": 88431,
+      "name": "cover_6841df816a146.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491475214421.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 870,
+    "title": "Mist",
+    "transcription": "The cool morning mist hung low over the meadow.",
+    "sentence": "/mɪst/",
+    "translate": "ערפל",
+    "date_created": "2024-02-22 15:32:02",
+    "cover": {
+      "id": 88432,
+      "name": "cover_6841dfa8010e6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491475600108.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 871,
+    "title": "Haze",
+    "transcription": "The mountains were shrouded in a thick haze, making it difficult to see in the distance.",
+    "sentence": "heɪz",
+    "translate": "ערפל",
+    "date_created": "2024-02-22 15:32:04",
+    "cover": {
+      "id": 88433,
+      "name": "cover_6841dfd405298.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491476040284.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 872,
+    "title": "Humidity",
+    "transcription": "The humidity in the tropical rainforest made it feel like a sauna.",
+    "sentence": "hyoo-MID-i-tee",
+    "translate": "לחות",
+    "date_created": "2024-02-22 15:32:06",
+    "cover": {
+      "id": 88434,
+      "name": "cover_6841dff9db062.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491476419045.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 873,
+    "title": "Dew",
+    "transcription": "The grass glistened with dew in the early morning.",
+    "sentence": "djuː",
+    "translate": "טל",
+    "date_created": "2024-02-22 15:32:06",
+    "cover": {
+      "id": 88435,
+      "name": "cover_6841e02340ca8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491476832718.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 874,
+    "title": "Precipitation",
+    "transcription": "The forecast predicts heavy precipitation in the form of snow tomorrow.",
+    "sentence": "/prɪˌsɪp.əˈteɪ.ʃən/",
+    "translate": "רוטט",
+    "date_created": "2024-02-22 15:32:06",
+    "cover": {
+      "id": 88436,
+      "name": "cover_6841e046a9bd3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491477187015.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 875,
+    "title": "Drought",
+    "transcription": "The lack of rain has resulted in a severe drought in the region.",
+    "sentence": "draʊt",
+    "translate": "בקיץ",
+    "date_created": "2024-02-22 15:32:07",
+    "cover": {
+      "id": 88437,
+      "name": "cover_6841e068567ce.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491477523613.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 876,
+    "title": "Flood",
+    "transcription": "The heavy rain caused a flood in the streets, leading to traffic delays.",
+    "sentence": "flʌd",
+    "translate": "שֶׁטֶפ",
+    "date_created": "2024-02-22 15:32:08",
+    "cover": {
+      "id": 88438,
+      "name": "cover_6841e08d3bd7e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491477892518.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 877,
+    "title": "Season",
+    "transcription": "Fall is my favorite season because of the beautiful changing colors of the leaves.",
+    "sentence": "ˈsiːzən",
+    "translate": "עונה",
+    "date_created": "2024-02-22 15:32:10",
+    "cover": {
+      "id": 88439,
+      "name": "cover_6841e0b669047.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491478304368.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 878,
+    "title": "Spring",
+    "transcription": "Spring is my favorite season because of all the flowers in bloom.",
+    "sentence": "/sprɪŋ/",
+    "translate": "בְּאוֹב",
+    "date_created": "2024-02-22 15:32:10",
+    "cover": {
+      "id": 88440,
+      "name": "cover_6841e0d68ad0c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491478625766.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 879,
+    "title": "Summer",
+    "transcription": "I love going to the beach in the summer.",
+    "sentence": "/ˈsʌmər/",
+    "translate": "קיץ",
+    "date_created": "2024-02-22 15:32:12",
+    "cover": {
+      "id": 88441,
+      "name": "cover_6841e0fb07b4b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491478990387.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 880,
+    "title": "Autumn (Fall)",
+    "transcription": "The leaves on the trees change color during autumn.",
+    "sentence": "/ˈɔː.təm/",
+    "translate": "סְתָיו",
+    "date_created": "2024-02-22 15:32:12",
+    "cover": {
+      "id": 88442,
+      "name": "cover_6841e12442472.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491479402787.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 881,
+    "title": "Winter",
+    "transcription": "I love building snowmen in the winter.",
+    "sentence": "/ˈwɪntər/",
+    "translate": "חוֹרֶף",
+    "date_created": "2024-02-22 15:32:13",
+    "cover": {
+      "id": 88443,
+      "name": "cover_6841e1496d431.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491479774547.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 882,
+    "title": "Atmosphere",
+    "transcription": "The atmosphere at the party was lively and exciting.",
+    "sentence": "ˈæt·məs·fɪr",
+    "translate": "אטמוספירה",
+    "date_created": "2024-02-22 15:32:14",
+    "cover": {
+      "id": 88444,
+      "name": "cover_6841e171ca3bd.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491480178357.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 883,
+    "title": "Barometer",
+    "transcription": "The barometer is indicating that a storm is approaching.",
+    "sentence": "/bəˈrɒmɪtər/",
+    "translate": "בָּרוֹמֶטֶר",
+    "date_created": "2024-02-22 15:32:14",
+    "cover": {
+      "id": 88445,
+      "name": "cover_6841e19b98098.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491480596296.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 884,
+    "title": "Forecast",
+    "transcription": "The weather forecast predicts rain for tomorrow.",
+    "sentence": "ˈfɔːrkæst",
+    "translate": "תחזית",
+    "date_created": "2024-02-22 15:32:16",
+    "cover": {
+      "id": 88446,
+      "name": "cover_6841e1bdea8d8.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491480939695.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 885,
+    "title": "Meteorology",
+    "transcription": "Studying meteorology can help us understand and predict weather patterns.",
+    "sentence": "/ˌmiː.tiː.əˈrɒl.ə.dʒi/",
+    "translate": "מטאורולוגיה",
+    "date_created": "2024-02-22 15:32:17",
+    "cover": {
+      "id": 88447,
+      "name": "cover_6841e1eb5325c.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491481393466.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 886,
+    "title": "Climate change",
+    "transcription": "Scientists warn that continued greenhouse gas emissions will lead to more severe climate change.",
+    "sentence": "ˈklaɪmət tʃeɪndʒ",
+    "translate": "שינויי אקלים",
+    "date_created": "2024-02-22 15:32:17",
+    "cover": {
+      "id": 88448,
+      "name": "cover_6841e218bf088.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491481847897.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 887,
+    "title": "Global warming",
+    "transcription": "The effects of global warming on the environment are becoming more apparent.",
+    "sentence": "ˈɡloʊbəl ˈwɔrmɪŋ",
+    "translate": "התחממות גלובלית",
+    "date_created": "2024-02-22 15:32:19",
+    "cover": {
+      "id": 88449,
+      "name": "cover_6841e2409cf04.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491482246518.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 888,
+    "title": "Ozone layer",
+    "transcription": "The ozone layer in the Earth's stratosphere absorbs most of the sun's harmful ultraviolet radiation.",
+    "sentence": "/ˈoʊzoʊn ˌleɪər/",
+    "translate": "שכבת האוזון",
+    "date_created": "2024-02-22 15:32:20",
+    "cover": {
+      "id": 88450,
+      "name": "cover_6841e268dc58d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491482649096.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 889,
+    "title": "Greenhouse effect",
+    "transcription": "The greenhouse effect is the trapping of the sun's warmth in a planet's lower atmosphere, caused by gases like carbon dioxide.",
+    "sentence": "ˈɡriːnhaʊs ɪˌfɛkt",
+    "translate": "אפקט חממה",
+    "date_created": "2024-02-22 15:32:21",
+    "cover": {
+      "id": 88451,
+      "name": "cover_6841e290c7d92.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491483048252.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 890,
+    "title": "UV index",
+    "transcription": "It's important to check the UV index before going outside to protect your skin from sunburn.",
+    "sentence": "ˌjuː ˈvi ˈɪnˌdeks",
+    "translate": "מדד UV",
+    "date_created": "2024-02-22 15:32:21",
+    "cover": {
+      "id": 88452,
+      "name": "cover_6841e2b43e771.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491483402632.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 891,
+    "title": "Air quality",
+    "transcription": "The air quality in the city has improved since the new regulations were put in place.",
+    "sentence": "ˈɛr ˈkwɑləti",
+    "translate": "איכות האוויר",
+    "date_created": "2024-02-22 15:32:24",
+    "cover": {
+      "id": 88559,
+      "name": "cover_6841f2a77b571.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491524235124.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 892,
+    "title": "Pollution",
+    "transcription": "Industrial pollution is causing a lot of harm to the environment.",
+    "sentence": "pəˈluː.ʃən",
+    "translate": "זיהום",
+    "date_created": "2024-02-22 15:32:25",
+    "cover": {
+      "id": 88453,
+      "name": "cover_6841e2fe02ad5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491484140179.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 893,
+    "title": "Smog",
+    "transcription": "The city was covered in a thick blanket of smog, making it difficult to breathe.",
+    "sentence": "smɒɡ",
+    "translate": "סְמוֹג'",
+    "date_created": "2024-02-22 15:32:25",
+    "cover": {
+      "id": 88454,
+      "name": "cover_6841e32b1f8b3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17491484591416.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

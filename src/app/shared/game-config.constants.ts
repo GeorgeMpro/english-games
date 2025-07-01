@@ -1,6 +1,6 @@
 import {WordGroup} from '../data-access/api.models';
 
-import validWordGroups from '../age-category/kids/tests/mocks/valid-word-groups.json';
+import validWordGroups from '../../assets/data/all-words-in-categories/all-word-groups.json';
 
 export const DEFAULT_FIRST_STAGE = 0;
 export const DEFAULT_STAGE_COUNT = 3;

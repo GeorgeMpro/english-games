@@ -1,0 +1,662 @@
+[
+  {
+    "id": 11,
+    "title": "Shirt",
+    "transcription": "He wore a clean white shirt to the job interview.",
+    "sentence": "ʃɜrt",
+    "translate": "חולצה",
+    "date_created": "2024-02-22 15:17:19",
+    "cover": {
+      "id": 87064,
+      "name": "cover_6838b81b0f2dc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485476110678.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 12,
+    "title": "T-shirt",
+    "transcription": "She wore a black T-shirt to the concert.",
+    "sentence": "ˈtiʃɜːrt",
+    "translate": "חולצת טי",
+    "date_created": "2024-02-22 15:17:19",
+    "cover": {
+      "id": 87065,
+      "name": "cover_6838b84430e3a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485476522105.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 15,
+    "title": "Blouse",
+    "transcription": "She wore a pretty white blouse with a floral pattern to the party.",
+    "sentence": "/blaʊz/",
+    "translate": "חולצה",
+    "date_created": "2024-02-22 15:17:19",
+    "cover": {
+      "id": 87068,
+      "name": "cover_6838b8b9d8f87.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485477698952.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 108,
+    "title": "Pants",
+    "transcription": "She put on her favorite pair of pants before heading out.",
+    "sentence": "/pænts/",
+    "translate": "מִכְנָסַיִים",
+    "date_created": "2024-02-22 15:19:43",
+    "cover": {
+      "id": 87159,
+      "name": "cover_6838c6d9d7c72.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485513858909.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 109,
+    "title": "Jeans",
+    "transcription": "She wore a pair of blue jeans to the party.",
+    "sentence": "/dʒiːnz/",
+    "translate": "ג 'ינס",
+    "date_created": "2024-02-22 15:19:43",
+    "cover": {
+      "id": 87160,
+      "name": "cover_6838c6ffc3ad1.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485514238138.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 110,
+    "title": "Shorts",
+    "transcription": "She wore denim shorts to the beach.",
+    "sentence": "/ʃɔːrts/",
+    "translate": "מִכנס קָצָר",
+    "date_created": "2024-02-22 15:19:44",
+    "cover": {
+      "id": 87161,
+      "name": "cover_6838c73c3cdad.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485514842559.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 111,
+    "title": "Skirt",
+    "transcription": "She wore a flowy skirt to the party.",
+    "sentence": "/skɜːrt/",
+    "translate": "חצאית",
+    "date_created": "2024-02-22 15:19:44",
+    "cover": {
+      "id": 87162,
+      "name": "cover_6838c76290827.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485515225983.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 112,
+    "title": "Dress",
+    "transcription": "She decided to wear a pretty red dress to the party.",
+    "sentence": "/dres/",
+    "translate": "שמלה",
+    "date_created": "2024-02-22 15:19:44",
+    "cover": {
+      "id": 87163,
+      "name": "cover_6838c78537447.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485515572330.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 113,
+    "title": "Suit",
+    "transcription": "He wore a sharp navy blue suit to the business meeting.",
+    "sentence": " /suːt/",
+    "translate": "חָלִיפָה",
+    "date_created": "2024-02-22 15:19:47",
+    "cover": {
+      "id": 87164,
+      "name": "cover_6838c7aa93be4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485515946124.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 114,
+    "title": "Jacket",
+    "transcription": "She wore a denim jacket over her dress.",
+    "sentence": "/ˈdʒækɪt/",
+    "translate": "חפתית",
+    "date_created": "2024-02-22 15:19:47",
+    "cover": {
+      "id": 87165,
+      "name": "cover_6838c7d32f35b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485516352006.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 115,
+    "title": "Coat",
+    "transcription": "She wore a warm coat to protect herself from the cold weather.",
+    "sentence": "/koʊt/",
+    "translate": "מעיל",
+    "date_created": "2024-02-22 15:19:48",
+    "cover": {
+      "id": 87166,
+      "name": "cover_6838c7f4f175f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485516689966.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 116,
+    "title": "Sweater",
+    "transcription": "She wore a cozy sweater to stay warm in the cold weather.",
+    "sentence": "/ˈswɛtər/",
+    "translate": "סוודר",
+    "date_created": "2024-02-22 15:19:48",
+    "cover": {
+      "id": 87167,
+      "name": "cover_6838c81820657.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485517041393.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 117,
+    "title": "Hoodie",
+    "transcription": "He wore a hoodie to stay warm during the chilly evening.",
+    "sentence": "ˈhʊdi",
+    "translate": "סוודנה",
+    "date_created": "2024-02-22 15:19:48",
+    "cover": {
+      "id": 87168,
+      "name": "cover_6838c841ed0ce.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485517459771.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 118,
+    "title": "Cardigan",
+    "transcription": "She pulled on her cozy cardigan before heading out into the cold.",
+    "sentence": "/ˈkɑːrdɪɡən/",
+    "translate": "קרדיגן",
+    "date_created": "2024-02-22 15:19:51",
+    "cover": {
+      "id": 87169,
+      "name": "cover_6838c865bea7b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485517817890.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 119,
+    "title": "Vest",
+    "transcription": "He wore a denim vest over his white t-shirt.",
+    "sentence": "/vɛst/",
+    "translate": "וֶסְט",
+    "date_created": "2024-02-22 15:19:52",
+    "cover": {
+      "id": 87170,
+      "name": "cover_6838c89316789.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485518270984.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 120,
+    "title": "Underwear",
+    "transcription": "She folded her underwear neatly and packed them in her suitcase.",
+    "sentence": "/ˈʌndərˌwɛər/",
+    "translate": "הַלָבוּשׁ תַחתוֹן",
+    "date_created": "2024-02-22 15:19:52",
+    "cover": {
+      "id": 87171,
+      "name": "cover_6838c8ba1ffd6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485518661375.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 121,
+    "title": "Socks",
+    "transcription": "I need to buy a new pair of socks for the winter.",
+    "sentence": "sɑks",
+    "translate": "גרביים",
+    "date_created": "2024-02-22 15:19:52",
+    "cover": {
+      "id": 87172,
+      "name": "cover_6838c8e6ba074.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485519107684.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 122,
+    "title": "Shoes",
+    "transcription": "She bought a new pair of shoes to match her dress.",
+    "sentence": "ʃuz",
+    "translate": "נעליים",
+    "date_created": "2024-02-22 15:19:52",
+    "cover": {
+      "id": 87173,
+      "name": "cover_6838c91081b99.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485519525378.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 123,
+    "title": "Boots",
+    "transcription": "She wore a pair of stylish boots to the party.",
+    "sentence": "buːts",
+    "translate": "מגפיים",
+    "date_created": "2024-02-22 15:19:56",
+    "cover": {
+      "id": 87174,
+      "name": "cover_6838c93356286.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485519873602.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 124,
+    "title": "Sneakers",
+    "transcription": "I bought a new pair of sneakers for my daily runs.",
+    "sentence": "/ˈsniː.kərz/",
+    "translate": "נעלי ספורט",
+    "date_created": "2024-02-22 15:19:56",
+    "cover": {
+      "id": 87175,
+      "name": "cover_6838c95d1f1c7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485520291337.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 125,
+    "title": "Hat",
+    "transcription": "She wore a stylish hat to the horse race.",
+    "sentence": "/hæt/",
+    "translate": "כובע",
+    "date_created": "2024-02-22 15:19:57",
+    "cover": {
+      "id": 87176,
+      "name": "cover_6838c984e92e3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485520689618.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 126,
+    "title": "Sandals",
+    "transcription": "She wore a pair of comfortable sandals to the beach.",
+    "sentence": "/ˈsændəlz/",
+    "translate": "סנדלים",
+    "date_created": "2024-02-22 15:19:57",
+    "cover": {
+      "id": 87177,
+      "name": "cover_6838c9a84316a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485521042812.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 127,
+    "title": "Cap",
+    "transcription": "He put on his baseball cap before heading out to the game.",
+    "sentence": "kæp",
+    "translate": "כובע",
+    "date_created": "2024-02-22 15:19:57",
+    "cover": {
+      "id": 87178,
+      "name": "cover_6838c9cebe03c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485521427845.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 128,
+    "title": "Beanie",
+    "transcription": "She wore her favorite beanie to keep her head warm in the cold weather.",
+    "sentence": "/ˈbiːni/",
+    "translate": "ביני",
+    "date_created": "2024-02-22 15:20:00",
+    "cover": {
+      "id": 87179,
+      "name": "cover_6838c9f0c381e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485521768075.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 129,
+    "title": "Scarf",
+    "transcription": "She wrapped a colorful scarf around her neck to keep warm in the chilly weather.",
+    "sentence": "/skɑːrf/",
+    "translate": "צעיף",
+    "date_created": "2024-02-22 15:20:00",
+    "cover": {
+      "id": 87180,
+      "name": "cover_6838ca137bf77.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485522115139.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 130,
+    "title": "Glove",
+    "transcription": "She put on her gloves before heading out into the cold winter weather.",
+    "sentence": "/ɡlʌv/",
+    "translate": "כפפה",
+    "date_created": "2024-02-22 15:20:01",
+    "cover": {
+      "id": 87181,
+      "name": "cover_6838ca3d2ed62.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485522532016.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 131,
+    "title": "Belt",
+    "transcription": "She tightened her belt before going on a hike.",
+    "sentence": "/bɛlt/",
+    "translate": "חגורה",
+    "date_created": "2024-02-22 15:20:01",
+    "cover": {
+      "id": 87182,
+      "name": "cover_6838ca66b3a6b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485522947419.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 132,
+    "title": "Tie",
+    "transcription": "He wore a tie to the formal event.",
+    "sentence": "taɪ",
+    "translate": "קשר",
+    "date_created": "2024-02-22 15:20:04",
+    "cover": {
+      "id": 87183,
+      "name": "cover_6838ca909f01b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485523366586.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 133,
+    "title": "Bow tie",
+    "transcription": "He wore a stylish black suit with a matching bow tie to the wedding.",
+    "sentence": "ˈboʊ taɪ",
+    "translate": "קשר פרפר",
+    "date_created": "2024-02-22 15:20:05",
+    "cover": {
+      "id": 87184,
+      "name": "cover_6838cac73c483.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485523912531.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 134,
+    "title": "Bracelet",
+    "transcription": "She wore a beautiful gold bracelet on her wrist.",
+    "sentence": "ˈbreɪ.slət",
+    "translate": "צמיד",
+    "date_created": "2024-02-22 15:20:05",
+    "cover": {
+      "id": 87185,
+      "name": "cover_6838caf3f244b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485524359988.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 135,
+    "title": "Watch",
+    "transcription": "I always wear my watch when I go out.",
+    "sentence": "/wɑtʃ/",
+    "translate": "שָׁעוֹן",
+    "date_created": "2024-02-22 15:20:05",
+    "cover": {
+      "id": 87186,
+      "name": "cover_6838cb1fc1110.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485524797975.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 136,
+    "title": "Necklace",
+    "transcription": "She wore a beautiful necklace around her neck that sparkled in the sunlight.",
+    "sentence": "/ˈnɛkləs/",
+    "translate": "צמיד",
+    "date_created": "2024-02-22 15:20:09",
+    "cover": {
+      "id": 87187,
+      "name": "cover_6838cb45a2c50.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485525176734.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 137,
+    "title": "Ring",
+    "transcription": "She wears a beautiful diamond ring on her finger.",
+    "sentence": "rɪŋ",
+    "translate": "טבעת",
+    "date_created": "2024-02-22 15:20:09",
+    "cover": {
+      "id": 87188,
+      "name": "cover_6838cb66a83f4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485525506949.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 138,
+    "title": "Sunglasses",
+    "transcription": "She wore her favorite sunglasses to protect her eyes from the bright sun.",
+    "sentence": "/ˈsʌnˌɡlæsɪz/",
+    "translate": "משקפי שמש",
+    "date_created": "2024-02-22 15:20:10",
+    "cover": {
+      "id": 87189,
+      "name": "cover_6838cb89e80e0.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485525859570.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 139,
+    "title": "Earrings",
+    "transcription": "She bought a beautiful pair of earrings to wear to the party.",
+    "sentence": "ˈɪrɪŋz",
+    "translate": "עגילים",
+    "date_created": "2024-02-22 15:20:10",
+    "cover": {
+      "id": 87190,
+      "name": "cover_6838cbb39e620.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485526276559.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 140,
+    "title": "Handbag",
+    "transcription": "She carried her wallet and keys in her stylish handbag.",
+    "sentence": "/ˈhændˌbæɡ/",
+    "translate": "תיק יד",
+    "date_created": "2024-02-22 15:20:10",
+    "cover": {
+      "id": 87191,
+      "name": "cover_6838cbd96feb7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485526654651.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 141,
+    "title": "Wallet",
+    "transcription": "He reached into his pocket and pulled out his wallet to pay for the groceries.",
+    "sentence": "ˈwɒlɪt",
+    "translate": "ארנק",
+    "date_created": "2024-02-22 15:20:13",
+    "cover": {
+      "id": 87192,
+      "name": "cover_6838cc05b720d.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485527097570.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 142,
+    "title": "Backpack",
+    "transcription": "She packed her books into her backpack before heading to school.",
+    "sentence": "ˈbæk.pæk",
+    "translate": "תיק גב",
+    "date_created": "2024-02-22 15:20:13",
+    "cover": {
+      "id": 87193,
+      "name": "cover_6838cc299547a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485527456188.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 143,
+    "title": "Umbrella",
+    "transcription": "Don't forget to bring your umbrella, it's going to rain today.",
+    "sentence": "/ˌʌmˈbrɛlə/",
+    "translate": "מטרייה",
+    "date_created": "2024-02-22 15:20:15",
+    "cover": {
+      "id": 87194,
+      "name": "cover_6838cc4c867c6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485527805572.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 144,
+    "title": "Tights",
+    "transcription": "She wore black tights with her skirt to stay warm during the winter.",
+    "sentence": "/taɪts/",
+    "translate": "טייץ",
+    "date_created": "2024-02-22 15:20:15",
+    "cover": {
+      "id": 87195,
+      "name": "cover_6838cc83f0795.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485528359918.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 145,
+    "title": "Leggings",
+    "transcription": "She wore a pair of black leggings to the gym.",
+    "sentence": "ˈlɛɡɪŋz",
+    "translate": "מַכנָסֵי רֶגְלַייִם",
+    "date_created": "2024-02-22 15:20:15",
+    "cover": {
+      "id": 87196,
+      "name": "cover_6838cca7da27c.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485528719001.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 146,
+    "title": "Bathrobe",
+    "transcription": "She slipped on her fluffy bathrobe after taking a relaxing bath.",
+    "sentence": "/ˈbɑːθroʊb/",
+    "translate": "בגד רחצה",
+    "date_created": "2024-02-22 15:20:17",
+    "cover": {
+      "id": 87197,
+      "name": "cover_6838ccdaa516f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485529226831.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 147,
+    "title": "Swimwear",
+    "transcription": "She needed a new swimsuit for her vacation, so she went shopping for swimwear at the mall.",
+    "sentence": "swɪmˌwɛr",
+    "translate": "בגדי ים",
+    "date_created": "2024-02-22 15:20:18",
+    "cover": {
+      "id": 87198,
+      "name": "cover_6838cd01c6743.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485529618196.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 148,
+    "title": "Pajamas",
+    "transcription": "I like to wear comfortable pajamas when I go to sleep.",
+    "sentence": "pəˈdʒɑːməz",
+    "translate": "פיג'מה",
+    "date_created": "2024-02-22 15:20:19",
+    "cover": {
+      "id": 87199,
+      "name": "cover_6838cd26db5ed.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485529989047.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

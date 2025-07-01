@@ -1,0 +1,872 @@
+[
+  {
+    "id": 1279,
+    "title": "Quickly",
+    "transcription": "She quickly finished her homework before going out with her friends.",
+    "sentence": "/ˈkwɪkli/",
+    "translate": "במהירות",
+    "date_created": "2024-02-22 15:40:37",
+    "cover": {
+      "id": 88887,
+      "name": "cover_68441f0c5aec5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492948603785.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1280,
+    "title": "Slowly",
+    "transcription": "She walked slowly down the path, taking in the sights and sounds of the forest.",
+    "sentence": "/ˈsloʊ.li/",
+    "translate": "באט",
+    "date_created": "2024-02-22 15:40:38",
+    "cover": {
+      "id": 88888,
+      "name": "cover_68441f3171797.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492948974716.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1281,
+    "title": "Carefully",
+    "transcription": "She placed the fragile vase carefully on the shelf to avoid breaking it.",
+    "sentence": "/ˈkerfəli/",
+    "translate": "בזהירות",
+    "date_created": "2024-02-22 15:40:38",
+    "cover": {
+      "id": 88889,
+      "name": "cover_68441f6407cc9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492949480386.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1282,
+    "title": "Easily",
+    "transcription": "She completed the task easily and ahead of schedule.",
+    "sentence": "/ˈiːzɪli/",
+    "translate": "בקלות",
+    "date_created": "2024-02-22 15:40:39",
+    "cover": {
+      "id": 88890,
+      "name": "cover_68441f81b333a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492949777406.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1283,
+    "title": "Hardly",
+    "transcription": "I hardly had any time to finish my homework before the deadline.",
+    "sentence": "ˈhɑːrdli",
+    "translate": "בקושי",
+    "date_created": "2024-02-22 15:40:40",
+    "cover": {
+      "id": 88891,
+      "name": "cover_68441fa3649e6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492950114194.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1284,
+    "title": "Merely",
+    "transcription": "She was merely trying to help, not cause any harm.",
+    "sentence": "ˈmɪərli",
+    "translate": "בלבד",
+    "date_created": "2024-02-22 15:40:41",
+    "cover": {
+      "id": 88892,
+      "name": "cover_68441fcb4ba37.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492950513166.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1285,
+    "title": "Simply",
+    "transcription": "She explained the rules simply so that everyone could understand.",
+    "sentence": "/ˈsɪmpli/",
+    "translate": "פשוט",
+    "date_created": "2024-02-22 15:40:42",
+    "cover": {
+      "id": 88893,
+      "name": "cover_68441fefbed37.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492950877888.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1286,
+    "title": "Quietly",
+    "transcription": "She crept quietly across the room so as not to wake the sleeping baby.",
+    "sentence": "/ˈkwaɪətli/",
+    "translate": "שקט",
+    "date_created": "2024-02-22 15:40:42",
+    "cover": {
+      "id": 88894,
+      "name": "cover_68442017789fb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492951275010.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1287,
+    "title": "Loudly",
+    "transcription": "The band played loudly, waking up the whole neighborhood.",
+    "sentence": "/ˈlaʊdli/",
+    "translate": "בווה",
+    "date_created": "2024-02-22 15:40:42",
+    "cover": {
+      "id": 88895,
+      "name": "cover_6844203c540f9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492951643515.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1288,
+    "title": "Happily",
+    "transcription": "She danced happily in the rain.",
+    "sentence": "ˈhæpɪli",
+    "translate": "בשמחה",
+    "date_created": "2024-02-22 15:40:43",
+    "cover": {
+      "id": 88896,
+      "name": "cover_68442064305fe.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492952042055.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1289,
+    "title": "Sadly",
+    "transcription": "Sadly, the weather forecast predicts rain for the entire week.",
+    "sentence": "/ˈsædli/",
+    "translate": "בצער",
+    "date_created": "2024-02-22 15:40:44",
+    "cover": {
+      "id": 88897,
+      "name": "cover_68442086ef1e3.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492952389864.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1290,
+    "title": "Well",
+    "transcription": "She is feeling well enough to go back to work.",
+    "sentence": "/wɛl/",
+    "translate": "טוב",
+    "date_created": "2024-02-22 15:40:45",
+    "cover": {
+      "id": 88898,
+      "name": "cover_684420addf910.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492952779224.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1291,
+    "title": "Badly",
+    "transcription": "She was badly injured in the car accident.",
+    "sentence": "/ˈbædli/",
+    "translate": "בִּיזפִחוּת",
+    "date_created": "2024-02-22 15:40:45",
+    "cover": {
+      "id": 88899,
+      "name": "cover_684420cda6381.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492953096876.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1292,
+    "title": "Certainly",
+    "transcription": "Certainly, I can help you with that.",
+    "sentence": "/ˈsɜːrtənli/",
+    "translate": "בוודאות",
+    "date_created": "2024-02-22 15:40:46",
+    "cover": {
+      "id": 88900,
+      "name": "cover_684420f04a9ae.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492953443132.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1293,
+    "title": "Probably",
+    "transcription": "I will probably go to the store later today.",
+    "sentence": "ˈprɒbəbli",
+    "translate": "כנראה",
+    "date_created": "2024-02-22 15:40:46",
+    "cover": {
+      "id": 88901,
+      "name": "cover_68442116c2bfe.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492953828050.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1294,
+    "title": "Maybe",
+    "transcription": "Maybe we should go to the beach tomorrow.",
+    "sentence": "ˈmeɪbi",
+    "translate": "אולי",
+    "date_created": "2024-02-22 15:40:48",
+    "cover": {
+      "id": 88902,
+      "name": "cover_6844213b1fcc1.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492954191383.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1295,
+    "title": "Perhaps",
+    "transcription": "Perhaps we can meet for lunch later in the week.",
+    "sentence": "/pərˈhæps/",
+    "translate": "אולי",
+    "date_created": "2024-02-22 15:40:48",
+    "cover": {
+      "id": 88903,
+      "name": "cover_6844215cefbdf.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492954529891.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1296,
+    "title": "Always",
+    "transcription": "She always arrives early to work.",
+    "sentence": "ˈɔːlweɪz",
+    "translate": "תמיד",
+    "date_created": "2024-02-22 15:40:48",
+    "cover": {
+      "id": 88904,
+      "name": "cover_6844217f0e138.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492954870660.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1297,
+    "title": "Usually",
+    "transcription": "I usually go for a run in the mornings before work.",
+    "sentence": "ˈjuːʒuəli",
+    "translate": "בדרך כלל",
+    "date_created": "2024-02-22 15:40:50",
+    "cover": {
+      "id": 88905,
+      "name": "cover_6844219b326fe.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492955152135.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1298,
+    "title": "Often",
+    "transcription": "I often go for a walk in the park on Sundays.",
+    "sentence": "ˈɔfən",
+    "translate": "לעתים קרובות",
+    "date_created": "2024-02-22 15:40:50",
+    "cover": {
+      "id": 88906,
+      "name": "cover_684421bb54839.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492955473528.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1299,
+    "title": "Sometimes",
+    "transcription": "Sometimes I like to go for a walk in the park.",
+    "sentence": "/ˈsʌmˌtaɪmz/",
+    "translate": "לפעמים",
+    "date_created": "2024-02-22 15:40:51",
+    "cover": {
+      "id": 88907,
+      "name": "cover_684421e1a5d15.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492955856914.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1300,
+    "title": "Rarely",
+    "transcription": "She rarely goes to the gym because she prefers outdoor activities.",
+    "sentence": "/ˈrɛərli/",
+    "translate": "בְּנָדִי",
+    "date_created": "2024-02-22 15:40:51",
+    "cover": {
+      "id": 88908,
+      "name": "cover_6844220580b40.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492956215344.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1301,
+    "title": "Never",
+    "transcription": "She never thought she would win the competition, but with hard work and dedication, she proved herself wrong.",
+    "sentence": "ˈnevər",
+    "translate": "אף פעם",
+    "date_created": "2024-02-22 15:40:52",
+    "cover": {
+      "id": 88909,
+      "name": "cover_6844222cb74d9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492956607573.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1302,
+    "title": "Yesterday",
+    "transcription": "Yesterday was such a beautiful day.",
+    "sentence": "ˈjɛstərˌdeɪ",
+    "translate": "אתמול",
+    "date_created": "2024-02-22 15:40:53",
+    "cover": {
+      "id": 88910,
+      "name": "cover_68442253c3f5a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492956998094.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1303,
+    "title": "Today",
+    "transcription": "Today is Monday and I have a lot of work to do.",
+    "sentence": "təˈdeɪ",
+    "translate": "היום",
+    "date_created": "2024-02-22 15:40:53",
+    "cover": {
+      "id": 88911,
+      "name": "cover_6844227a562c2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492957383601.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1304,
+    "title": "Tomorrow",
+    "transcription": "I have a doctor's appointment scheduled for tomorrow.",
+    "sentence": "tuh-maw-roh",
+    "translate": "מחר",
+    "date_created": "2024-02-22 15:40:54",
+    "cover": {
+      "id": 88912,
+      "name": "cover_6844229ebc0fa.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492957747770.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1305,
+    "title": "Now",
+    "transcription": "Now is the time for us to take action.",
+    "sentence": "naʊ",
+    "translate": "עכשיו",
+    "date_created": "2024-02-22 15:40:55",
+    "cover": {
+      "id": 88913,
+      "name": "cover_684422c835a92.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492958162265.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1306,
+    "title": "Then",
+    "transcription": "I finished my homework, then I went for a walk.",
+    "sentence": "/ðɛn/",
+    "translate": "אז",
+    "date_created": "2024-02-22 15:40:56",
+    "cover": {
+      "id": 88914,
+      "name": "cover_684422eca8507.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492958526961.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1307,
+    "title": "Soon",
+    "transcription": "I will call you soon.",
+    "sentence": "soon",
+    "translate": "בקרוב",
+    "date_created": "2024-02-22 15:40:56",
+    "cover": {
+      "id": 88915,
+      "name": "cover_6844231691196.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492958946017.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1308,
+    "title": "Before",
+    "transcription": "Please finish your homework before you go outside to play.",
+    "sentence": "/bɪˈfɔr/",
+    "translate": "לפני",
+    "date_created": "2024-02-22 15:40:57",
+    "cover": {
+      "id": 88916,
+      "name": "cover_6844233f51d18.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492959353428.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1309,
+    "title": "After",
+    "transcription": "After finishing his meal, he went for a walk.",
+    "sentence": "ˈæftər",
+    "translate": "אחרי",
+    "date_created": "2024-02-22 15:40:57",
+    "cover": {
+      "id": 88917,
+      "name": "cover_68442363da662.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492959719017.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1310,
+    "title": "Here",
+    "transcription": "I am here waiting for you.",
+    "sentence": "/hɪər/",
+    "translate": "פה",
+    "date_created": "2024-02-22 15:40:57",
+    "cover": {
+      "id": 88918,
+      "name": "cover_6844238839f4d.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492960082437.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1311,
+    "title": "There",
+    "transcription": "There is a beautiful sunset happening right now.",
+    "sentence": "ðɛər",
+    "translate": "שם",
+    "date_created": "2024-02-22 15:40:58",
+    "cover": {
+      "id": 88919,
+      "name": "cover_684423ae06dcb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492960460354.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1312,
+    "title": "Everywhere",
+    "transcription": "There were flowers blooming everywhere in the garden.",
+    "sentence": "ˈɛvrɪwɛr",
+    "translate": "בכל מקום",
+    "date_created": "2024-02-22 15:40:59",
+    "cover": {
+      "id": 88920,
+      "name": "cover_684423d2a5023.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492960826824.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1313,
+    "title": "Nowhere",
+    "transcription": "I searched everywhere for my keys, but they were nowhere to be found.",
+    "sentence": "/ˈnoʊˌwɛər/",
+    "translate": "לְשׁוֹם מָקוֹם",
+    "date_created": "2024-02-22 15:41:00",
+    "cover": {
+      "id": 88921,
+      "name": "cover_684423fd41f93.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492961252766.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1314,
+    "title": "Inside",
+    "transcription": "The cat was hiding inside the box.",
+    "sentence": "/ɪnˈsaɪd/",
+    "translate": "בְּתוֹךְ",
+    "date_created": "2024-02-22 15:41:00",
+    "cover": {
+      "id": 88922,
+      "name": "cover_6844242347d06.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492961632997.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1315,
+    "title": "Outside",
+    "transcription": "The sun was shining brightly outside as we played in the yard.",
+    "sentence": "/ˈaʊtˈsaɪd/",
+    "translate": "מחוץ",
+    "date_created": "2024-02-22 15:41:00",
+    "cover": {
+      "id": 88923,
+      "name": "cover_684424485ae5e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492962003853.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1316,
+    "title": "Above",
+    "transcription": "The painting hung above the fireplace.",
+    "sentence": "/əˈbʌv/",
+    "translate": "מעל",
+    "date_created": "2024-02-22 15:41:01",
+    "cover": {
+      "id": 88924,
+      "name": "cover_6844247a639be.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492962504140.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1317,
+    "title": "Below",
+    "transcription": "The temperature dropped below freezing last night.",
+    "sentence": "bɪˈloʊ",
+    "translate": "מתחת",
+    "date_created": "2024-02-22 15:41:02",
+    "cover": {
+      "id": 88925,
+      "name": "cover_6844249ed812f.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492962868911.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1318,
+    "title": "Near",
+    "transcription": "The grocery store is near my house.",
+    "sentence": "nɪr",
+    "translate": "קרוב",
+    "date_created": "2024-02-22 15:41:04",
+    "cover": {
+      "id": 88926,
+      "name": "cover_684424c2ceb35.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492963228543.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1319,
+    "title": "Very",
+    "transcription": "She was very happy to see her old friend after so many years.",
+    "sentence": "ˈveri",
+    "translate": "מְאוֹד",
+    "date_created": "2024-02-22 15:41:04",
+    "cover": {
+      "id": 88927,
+      "name": "cover_684424e4967a2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492963566233.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1320,
+    "title": "Too",
+    "transcription": "She has had too much coffee today.",
+    "sentence": "/tuː/",
+    "translate": "גַם",
+    "date_created": "2024-02-22 15:41:04",
+    "cover": {
+      "id": 88928,
+      "name": "cover_6844250a26f3e.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492963941664.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1321,
+    "title": "Far",
+    "transcription": "The store is not far from here, we can walk there in a few minutes.",
+    "sentence": "fɑːr",
+    "translate": "רחוק",
+    "date_created": "2024-02-22 15:41:04",
+    "cover": {
+      "id": 88929,
+      "name": "cover_6844252c0fcb2.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492964280714.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1322,
+    "title": "Quite",
+    "transcription": "The weather was quite pleasant yesterday.",
+    "sentence": "kwaɪt",
+    "translate": "לגמור",
+    "date_created": "2024-02-22 15:41:05",
+    "cover": {
+      "id": 88930,
+      "name": "cover_6844255494766.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492964686147.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1323,
+    "title": "Almost",
+    "transcription": "I almost missed the bus this morning.",
+    "sentence": "ˈɔːlmoʊst",
+    "translate": "כמעט",
+    "date_created": "2024-02-22 15:41:06",
+    "cover": {
+      "id": 88931,
+      "name": "cover_6844257bccf05.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492965078462.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1324,
+    "title": "Completely",
+    "transcription": "She completely finished all her work ahead of schedule.",
+    "sentence": "kəmˈpliːtli",
+    "translate": "לחלוטין",
+    "date_created": "2024-02-22 15:41:07",
+    "cover": {
+      "id": 88932,
+      "name": "cover_684425a52e6d9.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492965491967.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1325,
+    "title": "Together",
+    "transcription": "Let's work together to finish this project on time.",
+    "sentence": "/təˈɡɛðər/",
+    "translate": "יחד",
+    "date_created": "2024-02-22 15:41:08",
+    "cover": {
+      "id": 88933,
+      "name": "cover_684425ce21718.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492965901440.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1326,
+    "title": "Absolutely",
+    "transcription": "I absolutely loved the movie we saw last night.",
+    "sentence": "ˈæbsəˌlutli",
+    "translate": "בהחלט",
+    "date_created": "2024-02-22 15:41:08",
+    "cover": {
+      "id": 88934,
+      "name": "cover_684425f5f2eb6.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492966300025.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1327,
+    "title": "Alone",
+    "transcription": "She preferred to be alone, enjoying the peace and quiet.",
+    "sentence": "əˈloʊn",
+    "translate": "בד",
+    "date_created": "2024-02-22 15:41:09",
+    "cover": {
+      "id": 88935,
+      "name": "cover_6844261a79188.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492966665035.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1328,
+    "title": "Enough",
+    "transcription": "I have had enough of your excuses.",
+    "sentence": "ɪˈnʌf",
+    "translate": "די",
+    "date_created": "2024-02-22 15:41:09",
+    "cover": {
+      "id": 88936,
+      "name": "cover_68442642a1ce7.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492967066696.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1329,
+    "title": "Especially",
+    "transcription": "I love all types of music, but I especially enjoy classical piano pieces.",
+    "sentence": "/ɪˈspɛʃəli/",
+    "translate": "במיוחד",
+    "date_created": "2024-02-22 15:41:10",
+    "cover": {
+      "id": 88937,
+      "name": "cover_6844266036dcb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492967362306.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1330,
+    "title": "Similarly",
+    "transcription": "Similarly, we should also consider other factors before making a decision.",
+    "sentence": "/ˈsɪm.ɪ.lər.li/",
+    "translate": "באופן דומה",
+    "date_created": "2024-02-22 15:41:12",
+    "cover": {
+      "id": 88938,
+      "name": "cover_684426803984b.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492967682418.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1331,
+    "title": "Likewise",
+    "transcription": "I am a vegetarian and my sister is a vegan; likewise, we both prefer plant-based food.",
+    "sentence": "/ˈlaɪkˌwaɪz/",
+    "translate": "ככה",
+    "date_created": "2024-02-22 15:41:12",
+    "cover": {
+      "id": 88939,
+      "name": "cover_684426a94e768.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492968093289.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1332,
+    "title": "Consequently",
+    "transcription": "She missed her flight, consequently she had to find another way to get to the conference.",
+    "sentence": "ˈkɒnsɪkwəntli",
+    "translate": "לפיכך",
+    "date_created": "2024-02-22 15:41:12",
+    "cover": {
+      "id": 88940,
+      "name": "cover_684426c696b70.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492968386248.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1333,
+    "title": "Therefore",
+    "transcription": "He didn't study for the test, therefore he didn't do well.",
+    "sentence": "/ˈðɛəˌfɔr/",
+    "translate": "לְכָן",
+    "date_created": "2024-02-22 15:41:13",
+    "cover": {
+      "id": 88941,
+      "name": "cover_684426e9a9de5.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492968737025.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1334,
+    "title": "However",
+    "transcription": "She wanted to go to the party; however, she ended up staying home to study for her exam.",
+    "sentence": "haw-ev-er",
+    "translate": "אך",
+    "date_created": "2024-02-22 15:41:13",
+    "cover": {
+      "id": 88942,
+      "name": "cover_6844270a4a2ab.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492969063120.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1335,
+    "title": "Moreover",
+    "transcription": "She was not only an excellent student, but moreover she was a talented athlete.",
+    "sentence": "mawr-oh-ver",
+    "translate": "בנוסף",
+    "date_created": "2024-02-22 15:41:14",
+    "cover": {
+      "id": 88943,
+      "name": "cover_6844272d4efeb.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492969413297.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 1336,
+    "title": "Furthermore",
+    "transcription": "Furthermore, it is important to consider the long-term effects of this decision.",
+    "sentence": "/ˈfərðərˌmɔˌr/",
+    "translate": "בנוסף",
+    "date_created": "2024-02-22 15:41:16",
+    "cover": {
+      "id": 88944,
+      "name": "cover_6844274e9e44a.png",
+      "url": "https://cdn.see.guru/words/2025/06/17492969746545.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]

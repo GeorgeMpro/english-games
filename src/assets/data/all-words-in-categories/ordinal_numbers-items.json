@@ -1,0 +1,347 @@
+[
+  {
+    "id": 335,
+    "title": "Second",
+    "transcription": "This is my second attempt at baking a cake.",
+    "sentence": "/ˈsɛkənd/",
+    "translate": "שני",
+    "date_created": "2024-02-22 15:23:13",
+    "cover": {
+      "id": 87447,
+      "name": "cover_683971f13e5ae.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485951852620.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 336,
+    "title": "Third",
+    "transcription": "She finished in third place in the race.",
+    "sentence": "/θɜːrd/",
+    "translate": "שְׁלִישִׁי",
+    "date_created": "2024-02-22 15:23:14",
+    "cover": {
+      "id": 87448,
+      "name": "cover_683972158894e.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485952215655.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 337,
+    "title": "First",
+    "transcription": "This is my first time visiting this city.",
+    "sentence": "fərst",
+    "translate": "ראשון",
+    "date_created": "2024-02-22 15:23:15",
+    "cover": {
+      "id": 87449,
+      "name": "cover_683972366f463.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485952544631.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 338,
+    "title": "Fourth",
+    "transcription": "This is my fourth time visiting New York City.",
+    "sentence": "/fɔːrθ/",
+    "translate": "רביעי",
+    "date_created": "2024-02-22 15:23:16",
+    "cover": {
+      "id": 87450,
+      "name": "cover_6839725a26417.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485952901626.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 339,
+    "title": "Fifth",
+    "transcription": "She placed fifth in the race.",
+    "sentence": "fɪfθ",
+    "translate": "חמישי",
+    "date_created": "2024-02-22 15:23:17",
+    "cover": {
+      "id": 87451,
+      "name": "cover_68397283ab1f2.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485953317098.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 340,
+    "title": "Sixth",
+    "transcription": "He finished sixth in the race.",
+    "sentence": "/sɪksθ/",
+    "translate": "שישי",
+    "date_created": "2024-02-22 15:23:17",
+    "cover": {
+      "id": 87452,
+      "name": "cover_683972af719b4.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485953754715.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 341,
+    "title": "Seventh",
+    "transcription": "She was born on the seventh of May.",
+    "sentence": "/ˈsɛvnθ/",
+    "translate": "שביעי",
+    "date_created": "2024-02-22 15:23:21",
+    "cover": {
+      "id": 87453,
+      "name": "cover_683972ce30189.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485954062031.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 342,
+    "title": "Eighth",
+    "transcription": "She finished in eighth place in the race.",
+    "sentence": "/eɪtθ/",
+    "translate": "שמיני",
+    "date_created": "2024-02-22 15:23:21",
+    "cover": {
+      "id": 87455,
+      "name": "cover_683972f1c7095.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485954418214.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 343,
+    "title": "Ninth",
+    "transcription": "This year, my son is in his ninth grade of school.",
+    "sentence": "/naɪnθ/",
+    "translate": "תְשִׁיעִי",
+    "date_created": "2024-02-22 15:23:22",
+    "cover": {
+      "id": 87456,
+      "name": "cover_6839731c8b551.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485954845772.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 344,
+    "title": "Tenth",
+    "transcription": "Today is the tenth day of the month.",
+    "sentence": "/tɛnθ/",
+    "translate": "עֲשִׂירִי",
+    "date_created": "2024-02-22 15:23:24",
+    "cover": {
+      "id": 87457,
+      "name": "cover_68397343a0bcc.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485955236672.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 345,
+    "title": "Eleventh",
+    "transcription": "The eleventh hour is usually when I start to panic about finishing my work on time.",
+    "sentence": "ˈɛləvənθ",
+    "translate": "אחת עשרה",
+    "date_created": "2024-02-22 15:23:25",
+    "cover": {
+      "id": 87458,
+      "name": "cover_6839736925bbd.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485955611611.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 346,
+    "title": "Twelfth",
+    "transcription": "The Twelfth of July is a public holiday in Northern Ireland.",
+    "sentence": "/twɛlfθ/",
+    "translate": "שְׁנֵים-עָשָׂר",
+    "date_created": "2024-02-22 15:23:26",
+    "cover": {
+      "id": 87459,
+      "name": "cover_6839738c51d2b.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485955963422.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 347,
+    "title": "Twentieth",
+    "transcription": "Today is the twentieth day of the month.",
+    "sentence": "ˈtwɛn tiəθ",
+    "translate": "עשירי",
+    "date_created": "2024-02-22 15:23:26",
+    "cover": {
+      "id": 87460,
+      "name": "cover_683973b4de9f7.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485956369181.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 348,
+    "title": "Thirtieth",
+    "transcription": "Her birthday falls on the thirtieth of October.",
+    "sentence": "/ˈθɜːrti.əθ/",
+    "translate": "שְׁלֹשִׁים",
+    "date_created": "2024-02-22 15:23:28",
+    "cover": {
+      "id": 87461,
+      "name": "cover_683973dac5e3f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485956748192.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 349,
+    "title": "Fortieth",
+    "transcription": "This year marks my fortieth birthday.",
+    "sentence": "/ˈfɔː.ti.əθ/",
+    "translate": "ארבעים",
+    "date_created": "2024-02-22 15:23:29",
+    "cover": {
+      "id": 87462,
+      "name": "cover_6839740416519.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485957161022.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 350,
+    "title": "Fiftieth",
+    "transcription": "My parents celebrated their fiftieth wedding anniversary last week.",
+    "sentence": "/ˈfɪftiɪθ/",
+    "translate": "חֲמִישִׁים",
+    "date_created": "2024-02-22 15:23:30",
+    "cover": {
+      "id": 87463,
+      "name": "cover_6839742e0e7d6.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485957580649.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 351,
+    "title": "Sixtieth",
+    "transcription": "I will be celebrating my sixtieth birthday next month.",
+    "sentence": "/ˈsɪkstiɪθ/",
+    "translate": "הַשִּׁשִּׁים",
+    "date_created": "2024-02-22 15:23:30",
+    "cover": {
+      "id": 87464,
+      "name": "cover_6839745894aa3.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485958006146.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 352,
+    "title": "Seventieth",
+    "transcription": "She celebrated her seventieth birthday with a big party.",
+    "sentence": "/ˈsɛvəntiɪθ/",
+    "translate": "הַשִּׁבְעִים",
+    "date_created": "2024-02-22 15:23:33",
+    "cover": {
+      "id": 87465,
+      "name": "cover_6839748406b69.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485958440338.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 353,
+    "title": "Eightieth",
+    "transcription": "Her eightieth birthday celebration was a grand event with family and friends.",
+    "sentence": "/ˈeɪtiəθ/",
+    "translate": "שמונים",
+    "date_created": "2024-02-22 15:23:35",
+    "cover": {
+      "id": 87466,
+      "name": "cover_683974a96c85a.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485958814541.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 354,
+    "title": "Ninetieth",
+    "transcription": "This year marks the ninetieth anniversary of the founding of our company.",
+    "sentence": "/ˈnaɪn.ti.əθ/",
+    "translate": "תְשִׁיַּע",
+    "date_created": "2024-02-22 15:23:36",
+    "cover": {
+      "id": 87467,
+      "name": "cover_683974cbe2950.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485959159361.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 355,
+    "title": "Hundredth",
+    "transcription": "It took him a hundredth attempt to finally solve the puzzle.",
+    "sentence": "/ˈhʌn.drədθ/",
+    "translate": "הַמֵאָה",
+    "date_created": "2024-02-22 15:23:37",
+    "cover": {
+      "id": 87468,
+      "name": "cover_683974ed3e773.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485959492651.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 356,
+    "title": "Thousandth",
+    "transcription": "This is the thousandth time I have told you to clean your room.",
+    "sentence": "ˈθaʊzənθ",
+    "translate": "אֶלֶף",
+    "date_created": "2024-02-22 15:23:37",
+    "cover": {
+      "id": 87469,
+      "name": "cover_68397529a4f55.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485960096821.png"
+    },
+    "is_added": false,
+    "status": null
+  },
+  {
+    "id": 357,
+    "title": "Millionth",
+    "transcription": "She just bought the millionth copy of that book.",
+    "sentence": "ˈmɪljənθ",
+    "translate": "מִלְיוֹן",
+    "date_created": "2024-02-22 15:23:40",
+    "cover": {
+      "id": 87470,
+      "name": "cover_6839755aa381f.png",
+      "url": "https://cdn.see.guru/words/2025/05/17485960586790.png"
+    },
+    "is_added": false,
+    "status": null
+  }
+]
