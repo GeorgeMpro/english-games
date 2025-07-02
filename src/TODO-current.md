@@ -2,12 +2,15 @@
 
 ## Now Active
 
+### Dark Mode
+- [ ] add dark mode toggle
+- [ ] extract css classes to dark mode
+- [ ] move to scss?
+
 ### Connecting to backend
 
-- fallback to wiki when fail to load images from backend
-- loader while loading
-- display read categories from seeguru
-- display My Collection
+Need Authentication:
+  - display My Collection
   - if not enough Word On Study - add from new words
 
 ### Testing & Cleanup
@@ -86,7 +89,7 @@ Create a mobile directive
 
 # Testing Methods From Official Documentation
 
-- [test routing](https://angular.dev/guide/testing/components-scenarios#routing-component)
+- [ ] [test routing](https://angular.dev/guide/testing/components-scenarios#routing-component)
 - [test component when hosted](https://angular.dev/guide/testing/components-scenarios#component-inside-a-test-host)
 - [test nested components](https://angular.dev/guide/testing/components-scenarios#nested-component-tests)
 - [test router link wired correctly](https://angular.dev/guide/testing/components-scenarios#bydirective-and-injected-directives)
