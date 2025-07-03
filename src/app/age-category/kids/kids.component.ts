@@ -9,8 +9,27 @@ import {IframeModeDirective} from '../../shared/directives/iframe-mode/iframe-mo
     RouterOutlet,
     GameGridComponent,
   ],
-  templateUrl: './kids.component.html',
-  styleUrl: './kids.component.css'
+  template: `
+    @if (!isEmbedded) {
+      <section class="kids-games"
+               data-testid="kids-games">
+        <h2>Select a Game</h2>
+        <app-game-grid [cards]="gameCards"/>
+      </section>
+    }
+    <router-outlet></router-outlet>
+  `,
+  styles: `
+    .kids-games {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .kids-games h2 {
+      color: #4e54c8;
+      margin-bottom: 1rem;
+    }
+  `
 })
 export class KidsComponent {
   readonly gameCards: GameCardDefinition[] = [

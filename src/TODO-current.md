@@ -2,16 +2,42 @@
 
 ## Now Active
 
+
+### Navigation
+- redirect kids or match words
+
+### Name change
+
+- change kids > vocabulary
+
 ### Dark Mode
+
 - [ ] add dark mode toggle
 - [ ] extract css classes to dark mode
 - [ ] move to scss?
+- [ ] use system settings to choose -dark or light mode
+- [ ] dim the images and cards
+  - can use the css filter:
+  - do not use bright shadows! do not just invert the colors
+    - more opacity - closer
+  - do not use too heavy a font
+- [ ] useful [link](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/?utm_source=chatgpt.com#aa-handling-user-agent-styles)
+- [ ] [link](https://css-tricks.com/dark-mode-and-variable-fonts/)
+- [ ] [link](https://css-tricks.com/understanding-web-accessibility-color-contrast-guidelines-and-ratios/)
+
+Flow:
+
+- need to save preference local storage
+- get system preference
+- able to change preference
+-
 
 ### Connecting to backend
 
 Need Authentication:
-  - display My Collection
-  - if not enough Word On Study - add from new words
+
+- display My Collection
+- if not enough Word On Study - add from new words
 
 ### Testing & Cleanup
 

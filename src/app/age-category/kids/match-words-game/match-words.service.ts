@@ -4,8 +4,6 @@ import {catchError, forkJoin, Observable, of, take, tap} from 'rxjs';
 import {map} from 'rxjs/operators';
 
 import {GameLogicService} from '../../../shared/services/game-logic.service';
-import {WikiService} from '../../../shared/services/wiki.service';
-import {VocabularyService} from '../../../shared/services/vocabulary.service';
 import {MatchWordsStore} from './match-words.store';
 import {ImageCard, MatchAttempt, MatchItem, MatchResult, WordCard} from '../../../shared/models/kids.models';
 import {
@@ -17,7 +15,6 @@ import {
 import {WordGroup, WordItem} from '../../../data-access/api.models';
 import {CategoryService} from '../../../data-access/category.service';
 import {ItemConverterService} from '../../../shared/services/item-converter.service';
-import {categoryJsonMap} from './category-json-mapper';
 
 // todo does too much - split
 @Injectable({providedIn: 'root'})
@@ -26,8 +23,9 @@ export class MatchWordsService {
   constructor(
     private readonly store: MatchWordsStore,
     private readonly gameLogicService: GameLogicService,
-    private readonly wikiService: WikiService,
-    private readonly vocabularyService: VocabularyService,
+    // todo del? fallback?
+    // private readonly wikiService: WikiService,
+    // private readonly vocabularyService: VocabularyService,
     private readonly categoryService: CategoryService,
     private readonly converterService: ItemConverterService,
   ) {

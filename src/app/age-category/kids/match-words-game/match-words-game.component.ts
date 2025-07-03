@@ -123,8 +123,8 @@ export class MatchWordsGameComponent implements OnInit {
   }
 
   onNewGameWithCategories(categories: WordGroup[]): void {
-    this.resetImageLoading();
     this.matchWordService.handleNewCategoriesGame(categories);
+    this.resetImageLoading();
   }
 
 

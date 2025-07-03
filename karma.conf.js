@@ -4,7 +4,11 @@
 // Karma configuration file, see link for more information
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 
-process.env.CHROME_BIN = '/usr/bin/google-chrome-stable';
+process.env.CHROME_BIN = process.env.CHROME_BIN ||
+  (process.platform === 'win32'
+    ? 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe'
+    : '/usr/bin/google-chrome');
+
 module.exports = function (config) {
   config.set({
     basePath: '',
