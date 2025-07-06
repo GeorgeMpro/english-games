@@ -46,3 +46,4 @@ Thumbs.db
 
 /src/environments/environment.local.ts
 /src/app/http/http-client.env.json
+/src/app/http/http-client.private.env.json

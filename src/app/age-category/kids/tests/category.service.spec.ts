@@ -2,7 +2,11 @@ import {provideHttpClient} from '@angular/common/http';
 import {ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
 import {HttpTestingController, provideHttpClientTesting, TestRequest} from '@angular/common/http/testing';
 
-import {CategoryService, FAILED_LOAD_CATEGORIES_MSG, FAILED_LOAD_WORDS_MSG} from '../../../data-access/category.service';
+import {
+  CategoryService,
+  FAILED_LOAD_CATEGORIES_MSG,
+  FAILED_LOAD_WORDS_MSG
+} from '../../../data-access/category.service';
 
 import {BASE_URL} from '../../../../environments/environment.local';
 import {API_ENDPOINTS} from '../../../data-access/api-endpoints';
@@ -15,8 +19,10 @@ import {mockWord} from './mocks/mock-data';
 import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
 import {animalsGroup} from '../../../shared/game-config.constants';
 import wordsFromAnimals from './mocks/valid-words-from-animals-category.json'
+import allWordGroups from '../../../../assets/data/all-words-in-categories/all-word-groups.json';
 
 const getAllCategoriesUrl: string = BASE_URL + API_ENDPOINTS.WORD_GROUPS;
+const allGroups = allWordGroups.data.items;
 
 
 describe('CategoryService', () => {
@@ -61,7 +67,7 @@ describe('CategoryService', () => {
 
       service.getAllWordCategories().subscribe(
         response => {
-          expect(response).toEqual([animalsGroup]);
+          expect(response).toEqual(allGroups);
           expect(console.error).toHaveBeenCalledWith(FAILED_LOAD_CATEGORIES_MSG, jasmine.anything());
         }
       );
@@ -75,7 +81,7 @@ describe('CategoryService', () => {
       const malformedResponse = {data: null}; // or missing `items`
 
       service.getAllWordCategories().subscribe(response => {
-        expect(response).toEqual([animalsGroup]);
+        expect(response).toEqual(allGroups);
         expect(console.error).toHaveBeenCalledWith(
           FAILED_LOAD_CATEGORIES_MSG,
           jasmine.anything()
@@ -206,7 +212,7 @@ describe('Handling getting words from categories', () => {
 
   it('should handle error response with fallback category', () => {
     catService.getAllWordCategories().subscribe(result => {
-      expect(result).toEqual([animalsGroup]);
+      expect(result).toEqual(allGroups);
       expect(catService.errorMsg()).toEqual(FAILED_LOAD_CATEGORIES_MSG);
     })
 
@@ -247,20 +253,23 @@ describe('Handling getting words from categories', () => {
 
 
   it('should handle error response and return fallback words and error message', () => {
-    const groupId = 123;
-    const expectedUrl = `${BASE_URL}/words/by-group/${groupId}/all`;
+    const animalsGroupId = 8; // known fallback: Animals
+    const expectedUrl = `${BASE_URL}/words/by-group/${animalsGroupId}/all`;
+    const fallbackWords = wordsFromAnimals.data;
+
 
     spyOn(console, 'error');
+    const spy = spyOn(catService, 'getFallbackWordsForGroup').and.returnValue(fallbackWords);
 
-    catService.getAllWordsInGroup(groupId).subscribe(result => {
-      expect(result).toEqual(wordsFromAnimals.data);
-      expect(console.error).toHaveBeenCalledWith(
-        FAILED_LOAD_WORDS_MSG);
-    })
+    catService.getAllWordsInGroup(animalsGroupId).subscribe(result => {
+      expect(result).toEqual(fallbackWords);
+      expect(console.error).toHaveBeenCalledWith(jasmine.stringMatching(FAILED_LOAD_WORDS_MSG), jasmine.anything());
+    });
 
     const req = httpTesting.expectOne(expectedUrl);
     flushError(req);
   });
+
 
 });
 

@@ -7,9 +7,9 @@ import {GameLogicService} from '../../../shared/services/game-logic.service';
 import {MatchWordsStore} from './match-words.store';
 import {ImageCard, MatchAttempt, MatchItem, MatchResult, WordCard} from '../../../shared/models/kids.models';
 import {
+  DEFAULT_FIRST_STAGE,
   DEFAULT_ITEMS_PER_STAGE,
   DEFAULT_STAGE_COUNT,
-  DEFAULT_FIRST_STAGE,
   MATCH_RESET_TIMEOUT_DELAY,
 } from '../../../shared/game-config.constants';
 import {WordGroup, WordItem} from '../../../data-access/api.models';
@@ -397,9 +397,7 @@ export class MatchWordsService {
     // todo update for word group
     const fetches = categories.map((cat: WordGroup) => {
 
-      const obs = this.categoryService.getAllWordsInGroup(cat.id)
-      return obs;
-
+      return this.categoryService.getAllWordsInGroup(cat.id);
     });
 
     forkJoin(fetches).subscribe((allCategoryWords: WordItem[][]) => {

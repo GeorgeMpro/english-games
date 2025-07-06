@@ -2,8 +2,11 @@
 
 ## Now Active
 
+- bug? when changing view the game does not reset but does not stay the same
+- ony empty category > show error message (when fallback is unsuccessful)
 
 ### Navigation
+
 - redirect kids or match words
 
 ### Name change
@@ -12,15 +15,20 @@
 
 ### Dark Mode
 
+
 - [ ] add dark mode toggle
+- [ ] extract colors to variables and allow for change on selector with overriding colors
+- [ ] remember - change font weight, shadow colors, etc
 - [ ] extract css classes to dark mode
 - [ ] move to scss?
 - [ ] use system settings to choose -dark or light mode
+- [ ] use hsl?
 - [ ] dim the images and cards
   - can use the css filter:
   - do not use bright shadows! do not just invert the colors
     - more opacity - closer
   - do not use too heavy a font
+- [ ] [to the point] (https://blog.angulartraining.com/how-to-implement-a-dark-theme-with-css-and-angular-2cfd98b9455d)
 - [ ] useful [link](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/?utm_source=chatgpt.com#aa-handling-user-agent-styles)
 - [ ] [link](https://css-tricks.com/dark-mode-and-variable-fonts/)
 - [ ] [link](https://css-tricks.com/understanding-web-accessibility-color-contrast-guidelines-and-ratios/)
@@ -38,6 +46,8 @@ Need Authentication:
 
 - display My Collection
 - if not enough Word On Study - add from new words
+- get a cookie or token 
+  - maybe by login then mail code?
 
 ### Testing & Cleanup
 

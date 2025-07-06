@@ -7,7 +7,6 @@ import {catchError, Observable, of} from 'rxjs';
 import {ApiResponse, ListData, WordGroup, WordItem} from './api.models';
 import {API_ENDPOINTS} from './api-endpoints';
 import {BASE_URL, TOKEN} from '../../environments/environment.local';
-import {DEFAULT_CATEGORY} from '../shared/game-config.constants';
 
 import {fallbackDataMap} from '../age-category/kids/match-words-game/category-json-mapper';
 
@@ -54,7 +53,7 @@ export class CategoryService {
           console.error(FAILED_LOAD_CATEGORIES_MSG, err);
           // todo
           // return of([DEFAULT_CATEGORY]);
-          return of(allWordGroups.data.items);
+          return of(this.getAllFallbackGroups());
         })
       );
 
@@ -70,10 +69,16 @@ export class CategoryService {
       map(res => res.data),
       catchError(err => {
         console.error(FAILED_LOAD_WORDS_MSG, err);
-        return of(fallbackDataMap[groupId] || []);
+        return of(this.getFallbackWordsForGroup(groupId));
       })
     );
   }
 
+  getFallbackWordsForGroup(groupId: number): WordItem[] {
+    return fallbackDataMap[groupId] || [];
+  }
 
+  private getAllFallbackGroups(): WordGroup[] {
+    return allWordGroups.data.items;
+  }
 }

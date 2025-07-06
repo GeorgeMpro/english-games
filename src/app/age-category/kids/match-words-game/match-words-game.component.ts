@@ -63,16 +63,6 @@ export class MatchWordsGameComponent implements OnInit {
 
     let lastStage = -1;
 
-    // todo test
-    // effect(() => {
-    //   const current = this.store.currentStage();
-    //   if (current !== lastStage) {
-    //     lastStage = current;
-    //     const items = this.store.currentStageItems();
-    //     this.matchWordService.generateGameCardsFromItems(items);
-    //   }
-    // });
-
     effect(() => {
       const current = this.store.currentStage();
       if (current !== lastStage) {
