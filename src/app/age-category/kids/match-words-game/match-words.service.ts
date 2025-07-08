@@ -23,9 +23,6 @@ export class MatchWordsService {
   constructor(
     private readonly store: MatchWordsStore,
     private readonly gameLogicService: GameLogicService,
-    // todo del? fallback?
-    // private readonly wikiService: WikiService,
-    // private readonly vocabularyService: VocabularyService,
     private readonly categoryService: CategoryService,
     private readonly converterService: ItemConverterService,
   ) {
@@ -66,7 +63,6 @@ export class MatchWordsService {
   //     switchMap(words => this.wikiService.getItems(words))
   //   );
   // }
-
   initializeGameData(category: WordGroup): Observable<boolean> {
 
     return this.categoryService.getAllWordsInGroup(category.id).pipe(
@@ -408,26 +404,6 @@ export class MatchWordsService {
 
   }
 
-
-  // todo update to use the real backend
-  // todo add a fallback to use wiki
-  // startGameFromChosenCategories() {
-  //   // todo extract subscribe for all init funcs here
-  //   // todo update to word item
-  //   this.wikiService.getItems(
-  //     this.store.wordsFromChosenCategories().map(
-  //       w => w.title
-  //     )
-  //   ).subscribe({
-  //       next: (items: MatchItem[]) => {
-  //         this.setGameItems(
-  //           this.converterService.assignUniqueIds(items)
-  //         );
-  //         this.initializeGamePlay();
-  //       }
-  //     }
-  //   );
-  // }
   startGameFromChosenCategories() {
     // todo extract subscribe for all init funcs here
     // todo update to word item
