@@ -1,3 +1,7 @@
+@use '../styles/variables' as *;
+
+$hero-gradient: linear-gradient(135deg, $color-primary, $color-accent-gradient);
+
 .content {
   flex: 1; /* take up remaining space */
 }
@@ -5,24 +9,24 @@
 /* hero banner wrapper */
 .hero {
   text-align: center;
-  padding: 3rem 1rem;
-  background: linear-gradient(135deg, #4e54c8, #8f94fb);
-  color: #fff;
+  padding: $space-xl $space-md;
+  background: $hero-gradient;
+  color: $text-color-on-gradient;
 }
 
 /* gradient-filled main title */
 .hero-title {
-  font-size: 2.75rem;
+  font-size: $font-size-xl;
   margin: 0;
-  background: linear-gradient(90deg, #ffe259, #ffa751);
+  background: $yellow-accent-gradient;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* subtitle with decorative underline */
 .hero-subtitle {
-  font-size: 1.25rem;
-  margin: 0.5rem 0 0;
+  font-size: $font-size-sm-md;
+  margin: $space-sm 0 0;
   position: relative;
 }
 
@@ -32,7 +36,7 @@
   display: block;
   width: 60px;
   height: 4px;
-  background: #ffe259;
-  border-radius: 2px;
-  margin: 0.75rem auto 0;
+  background: $color-yellow-accent;
+  border-radius: $radius-sm;
+  margin: $space-md-half auto 0;
 }

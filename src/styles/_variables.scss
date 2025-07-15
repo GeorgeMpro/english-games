@@ -1,8 +1,10 @@
 /*Fonts */
 $font-family-base: Roboto, "Helvetica Neue", sans-serif;
 $font-size-sm: 1rem;
+$font-size-sm-md: 1.25rem;
 $font-size-md: 1.5rem;
 $font-size-lg: 2.5rem;
+$font-size-xl: 2.75rem;
 
 /*Font weight*/
 $font-weight-medium: 500;
@@ -11,12 +13,15 @@ $font-weight-heavy: 700;
 /* Colors */
 $color-primary: #4e54c8;
 $color-accent: #ffa751;
+$color-yellow-accent: #ffe259;
 $color-text: #333;
 $color-bg-card: #fff;
-$color-accent-gradient: #8f94fb;
 
+/*Colors gradient*/
+$color-accent-gradient: #8f94fb;
 $text-color-on-gradient: #fff;
 $footer-gradient: linear-gradient(90deg, $color-primary, $color-accent-gradient);
+$yellow-accent-gradient: linear-gradient(90deg, $color-yellow-accent, $color-accent);
 
 
 /* Visual Feedback */
@@ -29,15 +34,18 @@ $space-md-half: 0.75rem;
 $space-md: 1rem;
 $space-md-lg: 1.5rem;
 $space-lg: 2rem;
+$space-xl: 3rem;
 
 /*Borders*/
-$radius-sm: 4px;
+$radius-sm: 2px;
+$radius-md: 4px;
+
 
 /* Transitions */
 $transition-bg-fast: background 0.3s;
 
 /* Shadows*/
-$shadow-header: 0 2px $radius-sm rgba(0, 0, 0, 0.1);
+$shadow-header: 0 2px $radius-md rgba(0, 0, 0, 0.1);
 $shadow-card: 0 2px 6px rgba(0, 0, 0, 0.1);
 
 /* Cards */
@@ -46,8 +54,3 @@ $card-size: 150px;
 $card-radius: 12px;
 $border-playing-card: 2px solid transparent;
 $card-transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-
-:root {
-  /*built in dark/light mode by system preference*/
-  color-scheme: light dark;
-}
