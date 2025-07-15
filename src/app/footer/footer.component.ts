@@ -7,12 +7,13 @@ import { Component } from '@angular/core';
     <footer class="app-footer">
       <div class="footer-content">
         <div class="footer-brand">
-          <span class="footer-text">© 2025 English Games</span>
+          <span class="footer-text">
+            © 2025 English Games</span>
         </div>
       </div>
     </footer>
   `,
-  styleUrl: './footer.component.css'
+  styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
 

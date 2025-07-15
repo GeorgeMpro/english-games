@@ -20,7 +20,7 @@ import {WordGroup} from '../../../data-access/api.models';
     EndGameModalComponent,
     CategoryChooserModalComponent],
   templateUrl: './match-words-game.component.html',
-  styleUrls: ['./match-words-game.component.css']
+  styleUrls: ['./match-words-game.component.scss']
 })
 export class MatchWordsGameComponent implements OnInit {
   readonly selectedWordId;
@@ -81,6 +81,11 @@ export class MatchWordsGameComponent implements OnInit {
     });
   }
 
+  getCardColor(index: number): string {
+    /* pastel hue via golden angle: index × 137.508° */
+    return `hsl(${index * 137.508}, 65%, 65%)`;
+  }
+
   onSelectWord(word: WordCard): void {
     this.matchWordService.handleWordSelection(word);
   }
@@ -134,7 +139,6 @@ export class MatchWordsGameComponent implements OnInit {
   }
 
 // And always call reset logic (see previous message) on stage change/new game.
-
 
 
   resetImageLoading() {

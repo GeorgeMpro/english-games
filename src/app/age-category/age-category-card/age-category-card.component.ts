@@ -13,7 +13,7 @@ import {AgeCategory} from '../../shared/models/kids.models';
     RouterLinkActive
   ],
   templateUrl: './age-category-card.component.html',
-  styleUrl: './age-category-card.component.css'
+  styleUrl: './age-category-card.component.scss'
 })
 export class AgeCategoryCardComponent {
   category = input<AgeCategory>();

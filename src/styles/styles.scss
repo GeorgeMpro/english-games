@@ -1,0 +1,6 @@
+@use './variables' as *;
+@use './layout';
+
+body {
+  font-family: $font-family-base;
+}

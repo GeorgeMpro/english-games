@@ -1,0 +1,26 @@
+@use '../styles/variables' as *;
+@use '../styles/layout' as *;
+
+:host {
+  display: block;
+}
+
+.app-footer {
+  @include flex-layout;
+  background: $footer-gradient;
+}
+
+.footer-content {
+  @include layout-max-width;
+  @include flex-layout(space-between);
+  font-size: $font-size-sm;
+}
+
+.footer-brand {
+  @include inline-center;
+}
+
+.footer-text {
+  color: $text-color-on-gradient;
+  font-weight: $font-weight-medium;
+}

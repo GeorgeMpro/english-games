@@ -1,6 +1,0 @@
-@import './_variables.css';
-@import './_layout.css';
-
-body {
-  font-family: var(--font-family-base);
-}

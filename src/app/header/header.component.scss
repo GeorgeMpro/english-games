@@ -1,0 +1,57 @@
+@use '../styles/variables' as *;
+@use '../styles/layout' as *;
+
+:host {
+  display: block;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.app-header {
+  background: $footer-gradient;
+  color: $text-color-on-gradient;
+  box-shadow: $shadow-header;
+}
+
+.header-content {
+  @include layout-max-width;
+  @include flex-layout(space-between);
+}
+
+
+.logo {
+  @include inline-center;
+  text-decoration: none;
+}
+
+.logo-text {
+  color: $text-color-on-gradient;
+  font-size: $font-size-md;
+  font-weight: $font-weight-heavy;
+}
+
+.nav-list {
+  font-size: $font-size-md;
+  list-style: none;
+  display: flex;
+  gap: $space-md-lg;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: $text-color-on-gradient;
+  font-weight: $font-weight-heavy;
+  padding: $space-sm $space-md-half;
+  border-radius: $radius-sm;
+  transition: $transition-bg-fast;
+}
+
+.nav-list a:hover,
+.nav-list a.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+

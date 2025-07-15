@@ -34,7 +34,9 @@
                  [class.selected]="word.id === selectedWordId()"
                  [class.matched]="word.matched"
                  (click)="onSelectWord(word)"
-                 style="position:relative;">
+                 style="position:relative;"
+                 [style.background]="getCardColor(index)"
+            >
               {{ word.text }}
               @if (!allImagesLoaded()) {
                 <div class="card-placeholder word" data-testid="card-placeholder"
@@ -91,12 +93,12 @@
     }
   </section>
 
-<!--} @loading (minimum 250ms) {-->
-<!--  <ng-container-->
-<!--    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Loading game UI…' }"></ng-container>-->
-<!--} @placeholder (minimum 250ms) {-->
-<!--  <ng-container-->
-<!--    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Fetching items...' }"></ng-container>-->
+  <!--} @loading (minimum 250ms) {-->
+    <!--  <ng-container-->
+    <!--    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Loading game UI…' }"></ng-container>-->
+    <!--} @placeholder (minimum 250ms) {-->
+    <!--  <ng-container-->
+    <!--    *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Fetching items...' }"></ng-container>-->
 } @error {
   <ng-container
     *ngTemplateOutlet="loadingSpinner; context: { $implicit: 'Failed to load game UI. Please try again.' }"></ng-container>

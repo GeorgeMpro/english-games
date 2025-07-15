@@ -8,7 +8,7 @@ import {AgeCategory} from '../shared/models/kids.models';
     AgeCategoryCardComponent,
   ],
   templateUrl: './age-category.component.html',
-  styleUrl: './age-category.component.css'
+  styleUrl: './age-category.component.scss'
 })
 export class AgeCategoryComponent {
   readonly ageCategories: AgeCategory[] = [

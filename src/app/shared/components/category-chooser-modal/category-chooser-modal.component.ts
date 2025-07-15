@@ -58,7 +58,7 @@ import {DEFAULT_PAGINATION_NUMBER_OF_ITEMS} from '../../game-config.constants';
       </div>
     }
   `,
-  styleUrl: '../../styles/app-modal.shared.css'
+  styleUrls: ['../../../../styles/modals/modal.shared.scss']
 })
 export class CategoryChooserModalComponent implements OnInit {
 

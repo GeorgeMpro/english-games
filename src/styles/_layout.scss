@@ -11,6 +11,7 @@
 }
  */
 
+
 /* 1. Base reset & 100% heights */
 html, body, app-root {
   height: 100%;
@@ -33,4 +34,28 @@ app-home {
 /* 4. Inside HomeComponent, let the main.content push the footer */
 .content {
   flex: 1; /* <-- take all available vertical space */
+}
+
+@mixin layout-max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+@mixin flex-layout( $justify: center,$align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin column-flex($flex: null) {
+  display: flex;
+  flex-direction: column;
+  @if $flex != null {
+    flex: $flex;
+  }
+}
+@mixin inline-center {
+  display: inline-flex;
+  align-items: center;
 }

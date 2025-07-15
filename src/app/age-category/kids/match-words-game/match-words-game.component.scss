@@ -1,13 +1,14 @@
+@use 'variables' as *;
 
 .match-words h2 {
-  color: var(--color-primary);
-  margin-bottom: var(--space-sm);
+  color: $color-primary;
+  margin-bottom: $space-sm;
 }
 
 /* make match-words a positioning context */
 .match-words {
   position: relative;
-  padding: var(--space-lg);
+  padding: $space-lg;
   text-align: center;
 }
 
@@ -22,7 +23,7 @@
   padding: 0.5rem 1rem;
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
-  border-radius: var(--card-radius);
+  border-radius: $card-radius;
   z-index: 10;
   pointer-events: none; /* if you don’t need clicks */
 }
@@ -31,7 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: var(--space-lg);
+  gap: $space-lg;
 
 }
 
@@ -57,27 +58,27 @@
 /* COMMON CARD LAYOUT */
 .card {
   aspect-ratio: 1; /* stay square */
-  width: var(--card-size);
-  height: var(--card-size);
-  border: var(--border-playing-card);
-  border-radius: var(--card-radius);
+  width: $card-size;
+  height: $card-size;
+  border: $border-playing-card;
+  border-radius: $card-radius;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: var(--card-transition);
+  transition: $card-transition;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
+  box-shadow: $shadow-hover;
 }
 
 /* SELECTED & MATCHED STATES */
 .selected {
-  border-color: var(--color-accent);
+  border-color: $color-accent;
 }
 
 .matched {
@@ -90,10 +91,10 @@
 /* base word‑card styling */
 .word-card {
   --index: 1;
-  width: var(--card-size);
-  height: var(--card-size);
-  border: var(--border-playing-card);
-  border-radius: var(--card-radius);
+  width: $card-size;
+  height: $card-size;
+  border: $border-playing-card;
+  border-radius: $card-radius;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,23 +103,17 @@
   color: white;
   cursor: pointer;
   user-select: none;
-  transition: var(--card-transition);
+  transition: $card-transition;
 
-  /* pastel hue via golden angle: index × 137.508° */
-  background: hsl(
-    calc(var(--index) * 137.508),
-    65%,
-    65%
-  );
 }
 
 .word-card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
+  box-shadow: $shadow-hover;
 }
 
 .word-card.selected {
-  border-color: var(--color-accent);
+  border-color: $color-accent;
 }
 
 .word-card.matched {
@@ -129,9 +124,9 @@
 
 /* IMAGE CARDS */
 .image-card {
-  background: var(--color-bg-card);
-  border: var(--border-playing-card);
-  border-radius: var(--card-radius);
+  background: $color-bg-card;
+  border: $border-playing-card;
+  border-radius: $card-radius;
 }
 
 .image-card img {
@@ -143,7 +138,7 @@
 }
 
 .image-card.selected {
-  border-color: var(--color-accent);
+  border-color: $color-accent;
 }
 
 /*todo extract*/
@@ -161,7 +156,7 @@
   width: 3rem;
   height: 3rem;
   border: 4px solid rgba(0, 0, 0, 0.1);
-  border-top-color: var(--color-accent);
+  border-top-color: $color-accent;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: auto; /* center horizontally in the flex container */
@@ -217,19 +212,19 @@
 
 /*choose button*/
 .choose-category-button {
-  font-size: var(--font-size-md);
-  padding: var(--space-sm) var(--space-md);
+  font-size: $font-size-md;
+  padding: $space-sm $space-md;
   border: none;
-  border-radius: var(--card-radius);
-  background-color: var(--color-primary);
+  border-radius: $card-radius;
+  background-color: $color-primary;
   color: white;
   cursor: pointer;
   transition: background-color 0.2s, box-shadow 0.2s;
 }
 
 .choose-category-button:hover {
-  background-color: var(--color-accent);
-  box-shadow: var(--shadow-hover);
+  background-color: $color-accent;
+  box-shadow: $shadow-hover;
 }
 
 /* Card Place Holder*/
@@ -239,8 +234,8 @@
   width: 100%;
   height: 100%;
   background: #f5f7fa;
-  border-radius: var(--card-radius);
-  border: var(--border-playing-card);
+  border-radius: $card-radius;
+  border: $border-playing-card;
   box-shadow: 0 2px 8px 0 rgba(60, 80, 180, 0.05);
   pointer-events: none;
   z-index: 2;
@@ -263,10 +258,10 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(
-    110deg,
-    transparent 60%,
-    #e6eafd 80%,
-    transparent 100%
+      110deg,
+      transparent 60%,
+      #e6eafd 80%,
+      transparent 100%
   );
   animation: shimmer 1.8s infinite;
   z-index: 1;

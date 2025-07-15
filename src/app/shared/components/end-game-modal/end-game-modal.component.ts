@@ -5,7 +5,7 @@ import {FeedbackMessages} from '../../../../assets/data/feedback-messages';
   selector: 'app-end-game-modal',
   imports: [],
   templateUrl: './end-game-modal.component.html',
-  styleUrl: '../../styles/app-modal.shared.css'
+  styleUrl: '../../../../styles/modals/modal.shared.scss'
 })
 export class EndGameModalComponent {
   readonly totalStars: number = 5;
