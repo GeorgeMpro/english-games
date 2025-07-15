@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 /*todo handling iframes
    after adding directive to handle the iframe-mode display logic*/
 /*
@@ -11,41 +13,20 @@
 }
  */
 
-
-/* 1. Base reset & 100% heights */
-html, body, app-root {
-  height: 100%;
-  margin: 0;
-}
-
-/* 2. Make the root a column flex container */
-app-root {
-  display: flex;
-  flex-direction: column;
-}
-
-/* 3. Let <app-home> take the remaining space */
-app-home {
-  display: flex;
-  flex-direction: column;
-  flex: 1; /* <-- fill what's left after header */
-}
-
-/* 4. Inside HomeComponent, let the main.content push the footer */
 .content {
   flex: 1; /* <-- take all available vertical space */
 }
 
 @mixin layout-max-width {
-  max-width: 1200px;
+  max-width: $max-width-wide;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: $space-md $space-lg;
 }
 
 @mixin flex-layout( $justify: center,$align: center) {
   display: flex;
-  justify-content: $justify;
-  align-items: $align;
+  justify-content: $justify; /*vertical*/
+  align-items: $align; /*horizontal*/
 }
 
 @mixin column-flex($flex: null) {
@@ -55,7 +36,22 @@ app-home {
     flex: $flex;
   }
 }
+
 @mixin inline-center {
   display: inline-flex;
   align-items: center;
+}
+
+/*Grids*/
+@mixin two-column-grid($gap: $space-md, $max-width: 600px) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: $gap;
+  padding: $space-lg;
+  max-width: $max-width-narrow;
+  margin: 0 auto;
+
+  /* ensure children stretch to fill their cell */
+  align-items: stretch;
 }

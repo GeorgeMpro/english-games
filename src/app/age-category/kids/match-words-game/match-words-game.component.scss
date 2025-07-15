@@ -1,4 +1,6 @@
 @use 'variables' as *;
+@use 'layout' as *;
+
 
 .match-words h2 {
   color: $color-primary;
@@ -16,31 +18,30 @@
 
 .message {
   position: absolute;
-  top: 0.5rem; /* tweak as needed */
+  top: $space-sm;
   left: 50%;
   transform: translateX(-50%);
   margin: 0; /* kill the old margin-bottom */
-  padding: 0.5rem 1rem;
+  padding: $space-sm $space-md;
   background: rgba(0, 0, 0, 0.75);
-  color: #fff;
+  color: $text-color-on-dark;
   border-radius: $card-radius;
   z-index: 10;
   pointer-events: none; /* if you don’t need clicks */
 }
 
 .boards {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  @include flex-layout();
   gap: $space-lg;
 
 }
 
+//todo update for mobile use
 /*mobile friendly*/
 .words-board,
 .images-board {
   display: grid;
-  gap: 0.75rem;
+  gap: $space-md-half;
 
   /* default = 1 column (mobile first) */
   grid-template-columns: 1fr;
@@ -57,6 +58,7 @@
 
 /* COMMON CARD LAYOUT */
 .card {
+  @include flex-layout();
   aspect-ratio: 1; /* stay square */
   width: $card-size;
   height: $card-size;
@@ -64,15 +66,12 @@
   border-radius: $card-radius;
   position: relative;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   transition: $card-transition;
 }
 
 .card:hover {
-  transform: translateY(-4px);
+  transform: $lift-on-hover;
   box-shadow: $shadow-hover;
 }
 
@@ -90,25 +89,22 @@
 /* WORD CARDS */
 /* base word‑card styling */
 .word-card {
+  @include flex-layout();
   --index: 1;
   width: $card-size;
   height: $card-size;
   border: $border-playing-card;
   border-radius: $card-radius;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: white;
+  font-size: $font-size-sm-md;
+  font-weight: $font-weight-semibold;
+  color: $text-color-on-dark;
   cursor: pointer;
   user-select: none;
   transition: $card-transition;
-
 }
 
 .word-card:hover {
-  transform: translateY(-4px);
+  transform: $lift-on-hover;
   box-shadow: $shadow-hover;
 }
 
@@ -143,12 +139,10 @@
 
 /*todo extract*/
 .state-placeholder {
-  display: flex;
+  @include flex-layout();
   flex-direction: column; /* stack text and any spinner */
-  align-items: center; /* horizontal centering */
-  justify-content: center; /* vertical centering */
-  min-height: 300px; /* or match the height of your .boards */
   text-align: center;
+  min-height: 300px; /* or match the height of your .boards */
 }
 
 /*spinner*/
@@ -158,7 +152,7 @@
   border: 4px solid rgba(0, 0, 0, 0.1);
   border-top-color: $color-accent;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
+  animation: $spinner-animation;
   margin: auto; /* center horizontally in the flex container */
 }
 
@@ -169,32 +163,27 @@
 }
 
 .state-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-layout();
   min-height: 300px;
 }
 
 /*todo update and test*/
 /*modal animation*/
 [data-testid="end-game-modal"] {
+  @include flex-layout();
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: 1000;
   backdrop-filter: blur(5px);
-  background-color: rgba(60, 40, 122, 0.85); /* deep eggplant / plum */
+  background-color: $color-modal-background;
 }
 
-/* 2. Modal fades in slowly */
 .modal-content {
   opacity: 0;
-  animation: fadeInModal 450ms ease-out forwards;
+  animation: $modal-fadein;
   animation-delay: 50ms; /* slight lag after backdrop */
 }
 
@@ -217,9 +206,9 @@
   border: none;
   border-radius: $card-radius;
   background-color: $color-primary;
-  color: white;
+  color: $text-color-on-dark;
   cursor: pointer;
-  transition: background-color 0.2s, box-shadow 0.2s;
+  transition: $transition-hover;
 }
 
 .choose-category-button:hover {
@@ -236,13 +225,13 @@
   background: #f5f7fa;
   border-radius: $card-radius;
   border: $border-playing-card;
-  box-shadow: 0 2px 8px 0 rgba(60, 80, 180, 0.05);
+  box-shadow: $shadow-placeholder;
   pointer-events: none;
   z-index: 2;
   margin: 0;
   overflow: hidden;
   opacity: 1;
-  transition: opacity 0.5s;
+  transition: $transition-opacity;
 }
 
 
@@ -257,13 +246,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      110deg,
-      transparent 60%,
-      #e6eafd 80%,
-      transparent 100%
-  );
-  animation: shimmer 1.8s infinite;
+  background: $placeholder-gradient;
+  animation: $card-placeholder-shimmer;
   z-index: 1;
 }
 

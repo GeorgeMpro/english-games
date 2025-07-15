@@ -1,5 +1,5 @@
-@use '../styles/variables' as *;
-@use '../styles/layout' as *;
+@use 'variables' as *;
+@use 'layout' as *;
 
 :host {
   display: block;

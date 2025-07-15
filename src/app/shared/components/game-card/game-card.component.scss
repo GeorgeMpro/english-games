@@ -1,0 +1,39 @@
+@use 'variables'as *;
+@use 'layout' as *;
+
+$border-card-default: 2px solid transparent;
+
+.game-card {
+  width: $card-game-icon-size;
+  height: $card-game-icon-size;
+  @include column-flex;
+  align-items: center;
+  justify-content: center;
+  background: $color-bg-card;
+  border: $border-card-default;
+  border-radius: $card-radius;
+  cursor: pointer;
+  transition: $card-transition;
+}
+
+.game-card .icon {
+  font-size: $font-size-lg;
+}
+
+.game-card .label {
+  margin-top: $space-sm;
+  font-weight: $font-weight-semibold;
+  color: $color-primary;
+  font-size: $font-size-sm;
+
+}
+
+.game-card:hover {
+  transform: $lift-on-hover;
+  box-shadow: $shadow-hover;
+}
+
+.game-card.active {
+  border-color: $color-accent;
+}
+

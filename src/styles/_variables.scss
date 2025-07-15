@@ -8,6 +8,7 @@ $font-size-xl: 2.75rem;
 
 /*Font weight*/
 $font-weight-medium: 500;
+$font-weight-semibold: 600;
 $font-weight-heavy: 700;
 
 /* Colors */
@@ -16,12 +17,24 @@ $color-accent: #ffa751;
 $color-yellow-accent: #ffe259;
 $color-text: #333;
 $color-bg-card: #fff;
+$text-color-on-dark: #fff;
+
+$color-placeholder-bg: #f5f7fa;
+
+$color-modal-background: rgba(60, 40, 122, 0.85);
+
 
 /*Colors gradient*/
 $color-accent-gradient: #8f94fb;
 $text-color-on-gradient: #fff;
 $footer-gradient: linear-gradient(90deg, $color-primary, $color-accent-gradient);
 $yellow-accent-gradient: linear-gradient(90deg, $color-yellow-accent, $color-accent);
+$placeholder-gradient: linear-gradient(
+    110deg,
+    transparent 60%,
+    #e6eafd 80%,
+    transparent 100%
+);
 
 
 /* Visual Feedback */
@@ -40,13 +53,26 @@ $space-xl: 3rem;
 $radius-sm: 2px;
 $radius-md: 4px;
 
+/*Width*/
+$max-width-narrow: 600px;
+$max-width-wide: 1200px;
+
 
 /* Transitions */
 $transition-bg-fast: background 0.3s;
+$lift-on-hover: translateY(-4px);
+$transition-hover: background-color 0.2s, box-shadow 0.2s;
+$transition-opacity: opacity 0.5s;
+$spinner-animation: spin 1s linear infinite;
+
+$modal-fadein: fadeInModal 450ms ease-out forwards;
+$card-placeholder-shimmer: shimmer 1.8s infinite;
 
 /* Shadows*/
 $shadow-header: 0 2px $radius-md rgba(0, 0, 0, 0.1);
 $shadow-card: 0 2px 6px rgba(0, 0, 0, 0.1);
+$shadow-placeholder: 0 2px 8px 0 rgba(60, 80, 180, 0.05);
+
 
 /* Cards */
 $card-game-icon-size: 130px;

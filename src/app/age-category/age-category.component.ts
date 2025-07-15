@@ -7,7 +7,15 @@ import {AgeCategory} from '../shared/models/kids.models';
   imports: [
     AgeCategoryCardComponent,
   ],
-  templateUrl: './age-category.component.html',
+  template:
+    `
+      <section class="age-categories">
+        @for (category of ageCategories; track category.label) {
+          <app-age-category-card
+            [category]="category"></app-age-category-card>
+        }
+      </section>
+    `,
   styleUrl: './age-category.component.scss'
 })
 export class AgeCategoryComponent {

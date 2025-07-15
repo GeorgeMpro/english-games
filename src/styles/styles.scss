@@ -1,5 +1,22 @@
-@use './variables' as *;
-@use './layout';
+@use 'variables' as *;
+@use 'layout' as *;
+
+
+/* 1. Base reset & 100% heights */
+html, body, app-root {
+  height: 100%;
+  margin: 0;
+}
+
+/* 2. Make the root a column flex container */
+app-root {
+  @include column-flex;
+}
+
+/* 3. Let <app-home> take the remaining space */
+app-home {
+  @include column-flex(1);
+}
 
 body {
   font-family: $font-family-base;

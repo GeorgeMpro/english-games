@@ -8,8 +8,17 @@ import {GameCardDefinition} from '../game-grid/game-grid.component';
     RouterLink,
     RouterLinkActive
   ],
-  templateUrl: './game-card.component.html',
-  styleUrl: './game-card.component.css'
+  template: `
+    <button
+      class="game-card"
+      [routerLink]="card()?.link"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      <div class="icon">{{ card()?.icon }}</div>
+      <div class="label">{{ card()?.label }}</div>
+    </button>`,
+  styleUrl: './game-card.component.scss'
 })
 export class GameCardComponent {
   card = input<GameCardDefinition>();
