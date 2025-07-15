@@ -16,7 +16,6 @@ import {WordGroup, WordItem} from '../../../data-access/api.models';
 import {CategoryService} from '../../../data-access/category.service';
 import {ItemConverterService} from '../../../shared/services/item-converter.service';
 
-// todo does too much - split
 @Injectable({providedIn: 'root'})
 export class MatchWordsService {
 
@@ -29,57 +28,31 @@ export class MatchWordsService {
 
   }
 
-  /**
-   * Initializes the game data by fetching items for the specified category.
-   *
-   * Steps:
-   * 1. Fetches match items based on the given category.
-   * 2. Stores the fetched items in the reactive store.
-   * 3. Returns an observable indicating success or failure.
-   *
-   * @param category - The category of items to fetch.
-   * @returns An observable that emits `true` on success or `false` on failure.
-   */
-  // todo update to current backend
-  // initializeGameData(category: Category): Observable<boolean> {
-  //   return this.fetchItemsByCategory(category).pipe(
-  //     take(1),
-  //     tap(items => {
-  //       // this.store.items.set(items);
-  //       this.setGameItems(items);
-  //     }),
-  //     map(() => true),
-  //     catchError(() => {
-  //       // todo extract to message service
-  //       //todo displays error when already loaded items but is not connected to the internet
-  //       this.store.matchAttemptMessage.set('⚠️ Failed to load items.');
-  //       return of(false);
-  //     })
-  //   );
-  // }
-// todo
-  // private fetchItemsByCategory(category: Category): Observable<MatchItem[]> {
-  //   return this.vocabularyService.getList(category).pipe(
-  //     switchMap(words => this.wikiService.getItems(words))
-  //   );
-  // }
+
   initializeGameData(category: WordGroup): Observable<boolean> {
 
     return this.categoryService.getAllWordsInGroup(category.id).pipe(
       take(1),
       tap(items => {
-        const matchItems = this.converterService.wordItemsToMatchItems(items);
-        this.store.items.set(matchItems)
-        this.setGameItems(matchItems);
+        this.initializeMatchItemsFromWords(items);
       }),
       map(() => true),
       catchError(() => {
-        this.store.matchAttemptMessage.set('⚠️ Failed to load items.');
-        return of(false);
+        return this.handleLoadItemsError();
       })
     );
   }
 
+
+  private initializeMatchItemsFromWords(items: WordItem[]): void {
+    const matchItems = this.converterService.wordItemsToMatchItems(items);
+    this.setGameItems(matchItems);
+  }
+
+  private handleLoadItemsError() {
+    this.store.matchAttemptMessage.set('⚠️ Failed to load items.');
+    return of(false);
+  }
 
   /**
    * Initializes shuffled items, dividing them into stages,
@@ -164,7 +137,6 @@ export class MatchWordsService {
       this.store.selectedWordId.set(word.id);
       this.processMatchAttempt();
     }
-
   }
 
   /**
@@ -182,7 +154,6 @@ export class MatchWordsService {
     }
   }
 
-  // todo working on feedback and counting match attempts
   /**
    * Coordinates a match attempt using the currently selected word and image.
    *
@@ -197,7 +168,6 @@ export class MatchWordsService {
    *    - Reset selections after a timeout.
    */
   private processMatchAttempt(): void {
-    // todo adding unique match tries
 
     const result: MatchResult | null = this.getMatchResult();
 
@@ -239,7 +209,7 @@ export class MatchWordsService {
   }
 
   private applyMatchResult(result: MatchResult) {
-    this.updateValues(result);
+    this.applyMatchResultsToStore(result);
     this.updateStageItemsMatched(
       result.updatedWords.filter(w => w.matched).map(w => w.id)
     );
@@ -252,8 +222,7 @@ export class MatchWordsService {
    * by updating the `currentStage` signal.
    */
   progressGameIfStageComplete(): void {
-    let areMatched = this.getCurrentStageItems().every(item => item.matched);
-    if (!areMatched) {
+    if (!this.areMatched()) {
       return
     }
     if (this.getCurrentStage() === DEFAULT_STAGE_COUNT - 1) {
@@ -263,11 +232,15 @@ export class MatchWordsService {
     }
   }
 
+  private areMatched(): boolean {
+    return this.getCurrentStageItems().every(item => item.matched);
+  }
+
   private executeReset(delay: number = MATCH_RESET_TIMEOUT_DELAY): void {
     setTimeout(() => this.store.resetSelections(), delay);
   }
 
-  private updateValues(result: {
+  private applyMatchResultsToStore(result: {
     updatedWords: WordCard[];
     updatedImages: ImageCard[];
     message: string;
@@ -303,25 +276,28 @@ export class MatchWordsService {
     return this.store.currentStage();
   }
 
-  // TODO Working on GAME OVER, FEEDBACK, REPLAY, NEW GAME
-  //  add doc
-  //  connect to component - buttons
-  //  connect to modal - display
   getGameOverSignal(): Readonly<boolean> {
     return this.store.gameOver() as Readonly<boolean>;
   }
 
   replayGame(): void {
+    this.resetGameStateForReplay();
+    this.prepareGameItemsForReplay();
+  }
+
+  private resetGameStateForReplay() {
     this.reshuffleCurrentGameItems();  // reshuffle slice
     this.resetMatchValues();           // clear matched flags
     this.resetGameSignals();
+  }
+
+  private prepareGameItemsForReplay() {
     this.reinitializeStageAndCards();
     this.store.resetSelections();
   }
 
   private resetGameSignals() {
     this.store.gameOver.set(false);
-
     this.store.currentStage.set(DEFAULT_FIRST_STAGE);
   }
 
@@ -329,7 +305,7 @@ export class MatchWordsService {
     // Notice: clears `matched` class from CSS classes in the cards
     this.initializeItemsForStage(DEFAULT_STAGE_COUNT, DEFAULT_ITEMS_PER_STAGE);
 
-    // 💥 now use the updated stage items to rebuild cards
+    // use the updated stage items to rebuild cards
     this.generateGameCardsFromItems(this.getCurrentStageItems());
   }
 
@@ -352,7 +328,6 @@ export class MatchWordsService {
     this.store.uniqueCorrectMatchAttemptCounter().clear();
   }
 
-  // todo extract choose modal
   /**
    * Resets all match-related values in the game state.
    *
@@ -387,7 +362,7 @@ export class MatchWordsService {
 
   // todo maybe extract choosing new category
   /*New Categories*/
-  handleNewCategoriesGame(categories: WordGroup[]) {
+  handleNewCategoriesGame(categories: WordGroup[]): void {
     this.resetGameState();
 
     // todo update for word group

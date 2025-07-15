@@ -87,6 +87,7 @@ import weatherAndClimateJson
 import workAndProfessionsJson
   from '../../../../assets/data/all-words-in-categories/work_and_professions-items.json';
 
+// todo move to shared
 export const fallbackDataMap: Record<number, any[]> = {
   4: bodyPartsJson,
   5: clothingAndAccessoriesJson,

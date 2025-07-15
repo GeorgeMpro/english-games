@@ -189,7 +189,7 @@ describe('MatchWordsService', () => {
         message: 'Great!'
       };
       spyOn(gameLogicService, 'tryMatchResult').and.returnValue(result);
-      const updateValuesSpy = spyOn(service as any, 'updateValues').and.callThrough();
+      const updateValuesSpy = spyOn(service as any, 'applyMatchResultsToStore').and.callThrough();
       const resetSpy = spyOn(service as any, 'executeReset').and.callThrough();
 
       service.handleWordSelection(word);

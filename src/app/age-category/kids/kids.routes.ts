@@ -5,6 +5,7 @@ import {MatchWordsGameComponent} from './match-words-game/match-words-game.compo
 import {MatchSoundsGameComponent} from './match-sounds-game/match-sounds-game.component';
 import {WriteBySoundGameComponent} from './write-by-sound-game/write-by-sound-game.component';
 
+// todo update to vocabulary
 export const KIDS_ROUTES: Routes = [
   {
     path: '',
@@ -17,6 +18,7 @@ export const KIDS_ROUTES: Routes = [
     //     component: KidsComponent, // 🎯 landing page
     //     title: 'Kids'
     //   },
+    // todo update to vocabulary
     component: KidsComponent,
     title: 'Kids',
     children: [
