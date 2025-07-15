@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center; /* instead of space-between */
   align-items: center;
-  background: linear-gradient(90deg, #8f94fb, #4e54c8);
+  background: linear-gradient(90deg, #8f94fb, var(--color-primary));
   color: #fff;
 }
 
