@@ -21,7 +21,6 @@ import {IframeModeDirective} from '../../shared/directives/iframe-mode/iframe-mo
   `,
   styles: `
     .kids-games {
-      padding: 2rem;
       text-align: center;
     }
 

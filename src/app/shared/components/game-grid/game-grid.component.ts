@@ -1,5 +1,6 @@
 import {Component, input} from '@angular/core';
 import {CommonModule} from '@angular/common';
+
 import {GameCardComponent} from '../game-card/game-card.component';
 
 export interface GameCardDefinition {
@@ -14,8 +15,14 @@ export interface GameCardDefinition {
     GameCardComponent,
     CommonModule,
   ],
-  templateUrl: './game-grid.component.html',
-  styleUrl: './game-grid.component.css'
+  template: `
+    <section class="games-grid">
+      @for (card of cards(); track card) {
+        <app-game-card [card]="card"></app-game-card>
+      }
+    </section>
+  `,
+  styleUrl: './game-grid.component.scss'
 })
 export class GameGridComponent {
   cards = input<GameCardDefinition[]>([]);

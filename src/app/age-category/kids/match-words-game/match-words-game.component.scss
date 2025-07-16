@@ -1,16 +1,20 @@
 @use 'variables' as *;
 @use 'layout' as *;
+@use 'components/card' as *;
+@use 'components/spinner' as *;
+@use 'components/button' as *;
 
 $height-placeholder: 300px;
 
 /* make match-words a positioning context */
 .match-words {
   position: relative;
-  padding: $space-lg;
+  padding: $space-md-half $space-lg;
   text-align: center;
 }
 
 .match-words h2 {
+  font-size: $font-size-md;
   color: $color-primary;
   margin-bottom: $space-sm;
 }
@@ -55,8 +59,6 @@ $height-placeholder: 300px;
   }
 }
 
-
-/*todo extract*/
 .state-placeholder {
   @include flex-layout();
   flex-direction: column; /* stack text and any spinner */
@@ -64,19 +66,17 @@ $height-placeholder: 300px;
   min-height: $height-placeholder; /* or match the height of your .boards */
 }
 
-/*choose button*/
-.choose-category-button {
-  font-size: $font-size-md;
-  padding: $space-sm $space-md;
-  border: none;
-  border-radius: $card-radius;
-  background-color: $color-primary;
-  color: $text-color-on-dark;
-  cursor: pointer;
-  transition: $transition-hover;
-}
 
-.choose-category-button:hover {
-  background-color: $color-accent;
-  box-shadow: $shadow-hover;
+@media (max-height: $screen-phone) {
+  h2 {
+    font-size: $font-size-sm-md;
+    margin:8px;
+  }
+
+  .words-board,
+  .images-board {
+    grid-template-columns: repeat(3, 1fr); // 3 cards per row
+    justify-items: center;
+    gap: $space-sm;
+  }
 }

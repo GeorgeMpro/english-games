@@ -1,0 +1,28 @@
+@use 'variables'as *;
+@use 'layout' as *;
+
+/*choose button*/
+.choose-category-button {
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+  padding: $space-sm $space-md;
+  border: none;
+  border-radius: $card-radius;
+  background-color: $color-primary;
+  color: $text-color-on-dark;
+  cursor: pointer;
+  transition: $transition-hover;
+}
+
+.choose-category-button:hover {
+  background-color: $color-accent;
+  box-shadow: $shadow-hover;
+}
+
+@media (max-height: $screen-phone), (max-width: $screen-phone) {
+  button > span {
+    display: flex;
+    font-size: $font-size-sm;
+    font-weight: $font-weight-semibold;
+  }
+}

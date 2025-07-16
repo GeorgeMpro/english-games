@@ -55,3 +55,14 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
+
+@media (max-width: $screen-phone), (max-height: $screen-phone) {
+  .logo-text,
+  .nav-list {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium;
+  }
+  .nav-list a{
+    padding: $space-sm $space-sm;
+  }
+}

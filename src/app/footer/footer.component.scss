@@ -22,5 +22,12 @@
 
 .footer-text {
   color: $text-color-on-gradient;
+  font-size: $font-size-sm;
   font-weight: $font-weight-medium;
+}
+
+@media (max-width: $screen-phone), (max-height: $screen-phone) {
+  .footer-text {
+    font-size: 0.8rem;
+  }
 }
