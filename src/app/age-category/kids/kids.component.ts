@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, signal} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
 import {GameCardDefinition, GameGridComponent} from '../../shared/components/game-grid/game-grid.component';
 import {IframeModeDirective} from '../../shared/directives/iframe-mode/iframe-mode.directive';
@@ -13,24 +13,33 @@ import {IframeModeDirective} from '../../shared/directives/iframe-mode/iframe-mo
     @if (!isEmbedded) {
       <section class="kids-games"
                data-testid="kids-games">
-        <h2>Select a Game</h2>
-        <app-game-grid [cards]="gameCards"/>
+        <button class="choose-category-button"
+                (click)="isSelectorOpen.set(!isSelectorOpen())">
+          <span>Select a Game</span>
+        </button>
       </section>
+    }
+    @if (isSelectorOpen()) {
+      <div class="app-modal" data-testid="game-selector-modal">
+        <div class="modal-content">
+          <app-game-grid [cards]="gameCards"
+                         (cardSelected)="this.isSelectorOpen.set(false)"/>
+          <button (click)="isSelectorOpen.set(false)">
+            <span>Close</span>
+          </button>
+        </div>
+      </div>
     }
     <router-outlet></router-outlet>
   `,
-  styles: `
-    .kids-games {
-      text-align: center;
-    }
-
-    .kids-games h2 {
-      color: #4e54c8;
-      margin-bottom: 1rem;
-    }
-  `
+  styleUrls: [
+    '../../../styles/components/modal.shared.scss',
+    '../../../styles/components/_button.scss',
+    './kids.component.scss'
+  ]
 })
 export class KidsComponent {
+  isSelectorOpen = signal<boolean>(false);
   readonly gameCards: GameCardDefinition[] = [
     {icon: '🔤', label: 'Match Words', link: 'match-words'},
     {icon: '🔊', label: 'Match Sounds', link: 'match-sounds'},

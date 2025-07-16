@@ -1,4 +1,4 @@
-import {Component, input} from '@angular/core';
+import {Component, input, output} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 import {GameCardComponent} from '../game-card/game-card.component';
@@ -18,7 +18,7 @@ export interface GameCardDefinition {
   template: `
     <section class="games-grid">
       @for (card of cards(); track card) {
-        <app-game-card [card]="card"></app-game-card>
+        <app-game-card [card]="card" (selected)="cardSelected.emit()"/>
       }
     </section>
   `,
@@ -26,4 +26,5 @@ export interface GameCardDefinition {
 })
 export class GameGridComponent {
   cards = input<GameCardDefinition[]>([]);
+  cardSelected = output<void>();
 }

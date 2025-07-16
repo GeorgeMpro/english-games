@@ -67,6 +67,7 @@ $layered-star-sparkle-transition: 0 0 3px #fff176,
   opacity: 0;
   animation: $modal-fadein;
   animation-delay: 50ms; /* slight lag after backdrop */
+  overflow: hidden; /* prevent content overflow */
 }
 
 .modal-content h2 {
@@ -165,7 +166,7 @@ $layered-star-sparkle-transition: 0 0 3px #fff176,
 /*Mobile*/
 @media (max-height: $screen-phone), (max-width: $screen-phone) {
   .modal-content {
-    max-width: 90%;
+    max-width: 500px;
     padding: $space-md;
     font-size: $font-size-sm;
     transform: scale(0.9);

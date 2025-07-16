@@ -1,0 +1,12 @@
+@use 'variables' as *;
+
+.kids-games {
+  text-align: center;
+
+  padding-top: $space-sm;
+}
+
+.kids-games h2 {
+  color: $color-primary;
+  margin-bottom: $space-md;
+}
