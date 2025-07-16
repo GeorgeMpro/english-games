@@ -1,0 +1,108 @@
+@use 'variables' as *;
+@use 'layout' as *;
+
+
+/* COMMON CARD LAYOUT */
+.card {
+  @include flex-layout();
+  aspect-ratio: 1; /* stay square */
+  width: $card-size;
+  height: $card-size;
+  border: $border-playing-card;
+  border-radius: $card-radius;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: $card-transition;
+}
+
+.card:hover,
+.word-card:hover {
+  transform: $lift-on-hover;
+  box-shadow: $shadow-hover;
+}
+
+.word-card,
+.image-card,
+.card-placeholder {
+  border: $border-playing-card;
+  border-radius: $card-radius;
+}
+
+/* WORD CARDS */
+/* base word‑card styling */
+.word-card {
+  @include flex-layout();
+  width: $card-size;
+  height: $card-size;
+  font-size: $font-size-sm-md;
+  font-weight: $font-weight-semibold;
+  color: $text-color-on-dark;
+  cursor: pointer;
+  user-select: none;
+  transition: $card-transition;
+}
+
+/* IMAGE CARDS */
+.image-card {
+  background: $color-bg-card;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.selected {
+  border-color: $color-accent;
+}
+
+.matched {
+  opacity: 0.6;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* Card Place Holder*/
+.card-placeholder {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: $color-bg-card;
+  box-shadow: $shadow-placeholder;
+  pointer-events: none;
+  z-index: 2;
+  margin: 0;
+  overflow: hidden;
+  opacity: 1;
+  transition: $transition-opacity;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.card-placeholder::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $placeholder-gradient;
+  animation: $card-placeholder-shimmer;
+  z-index: 1;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

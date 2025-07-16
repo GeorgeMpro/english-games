@@ -24,11 +24,12 @@ $color-placeholder-bg: #f5f7fa;
 $color-modal-background: rgba(60, 40, 122, 0.85);
 
 
-/*Colors gradient*/
+/*Color gradients*/
 $color-accent-gradient: #8f94fb;
 $text-color-on-gradient: #fff;
 $footer-gradient: linear-gradient(90deg, $color-primary, $color-accent-gradient);
-$yellow-accent-gradient: linear-gradient(90deg, $color-yellow-accent, $color-accent);
+$yellow-accent-gradient: linear-gradient(
+    90deg, $color-yellow-accent, $color-accent);
 $placeholder-gradient: linear-gradient(
     110deg,
     transparent 60%,

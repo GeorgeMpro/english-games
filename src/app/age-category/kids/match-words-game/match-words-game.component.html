@@ -34,9 +34,7 @@
                  [class.selected]="word.id === selectedWordId()"
                  [class.matched]="word.matched"
                  (click)="onSelectWord(word)"
-                 style="position:relative;"
-                 [style.background]="getCardColor(index)"
-            >
+                 [style.background]="getCardColor(index)">
               {{ word.text }}
               @if (!allImagesLoaded()) {
                 <div class="card-placeholder word" data-testid="card-placeholder"
@@ -74,7 +72,6 @@
               @if (!allImagesLoaded()) {
                 <div class="card-placeholder word"
                      data-testid="card-placeholder"
-                     style="position:absolute; inset:0; z-index:2;"
                      [class.fade-out]="fadePlaceholders()"></div>
               }
             </div>

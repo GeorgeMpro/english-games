@@ -1,7 +1,48 @@
-/*TODO
-    extract the star/endgame function?*/
+@use 'variables' as *;
+@use 'layout' as *;
+
+/*todo update and test*/
+/*modal animation*/
+$error-text-color: #d06a6a;
+$error-background-color: #fdecea;
+$error-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+$empty-star-color: #e0e0e0;
+$filled-star-color: #FFD700;
+$layered-star-glow: 0 0 2px #ffecb3,
+0 0 4px #fdd835,
+0 0 6px #fbc02d;
+$star-sparkle-animation: sparkle 1.5s infinite ease-in-out;
+$layered-star-sparkle-transition: 0 0 3px #fff176,
+0 0 6px #ffee58,
+0 0 10px #fdd835;
+
+[data-testid="end-game-modal"] {
+  @include flex-layout();
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  background-color: $color-modal-background;
+}
+
+
+@keyframes fadeinmodal {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .app-modal {
-  position: fixed; /* ✅ FIX: cover viewport regardless of scroll/parent */
+  position: fixed; /* ✅ fix: cover viewport regardless of scroll/parent */
   top: 0;
   left: 0;
   width: 100vw;
@@ -13,85 +54,80 @@
   background-color: rgba(0, 0, 0, 0.7); /* semi-transparent dark backdrop */
 }
 
-
 .modal-content {
-  background-color: var(--color-bg-card);
-  padding: var(--space-lg);
-  border-radius: var(--card-radius);
-  box-shadow: var(--shadow-hover);
+  background-color: $color-bg-card;
+  padding: $space-lg;
+  border-radius: $card-radius;
+  box-shadow: $shadow-hover;
   text-align: center;
   width: 100%;
   max-width: 700px;
-  font-size: var(--font-size-md);
-  color: var(--color-text);
+  font-size: $font-size-md;
+  color: $color-text;
+  opacity: 0;
+  animation: $modal-fadein;
+  animation-delay: 50ms; /* slight lag after backdrop */
 }
 
 .modal-content h2 {
-  font-size: var(--font-size-lg);
-  margin-bottom: var(--space-md);
+  font-size: $font-size-lg;
+  margin-bottom: $space-md;
 }
 
 .modal-content button {
-  font-size: var(--font-size-md);
-  padding: var(--space-sm) var(--space-md);
-  margin: var(--space-sm);
+  font-size: $font-size-md;
+  padding: $space-sm $space-md;
+  margin: $space-sm;
   border: none;
-  border-radius: var(--card-radius);
-  background-color: var(--color-primary);
+  border-radius: $card-radius;
+  background-color: $color-primary;
   color: white;
   cursor: pointer;
-  transition: background-color 0.2s, box-shadow 0.2s;
+  transition: $transition-hover;
 }
 
 .modal-content button:hover {
-  background-color: var(--color-accent);
-  box-shadow: var(--shadow-hover);
+  background-color: $color-accent;
+  box-shadow: $shadow-hover;
 }
 
 /*todo extract to reusable*/
 .modal-error {
-  color: #d06a6a;
-  font-weight: bold;
-  background-color: #fdecea;
-  padding: 0.75rem;
-  border-radius: 0.5rem;
-  margin-bottom: var(--space-md);
+  font-weight: $font-weight-heavy;
+  color: $error-text-color;
+  background-color: $error-background-color;
+  padding: $space-md-half;
+  border-radius: $space-sm;
+  margin-bottom: $space-md;
   text-align: center;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: $error-box-shadow;
 }
-
 
 .star-rating {
   display: flex;
-  gap: 0.2rem;
   justify-content: center;
   font-size: 2rem;
+  gap: 0.2rem;
 }
 
 .star {
-  color: #e0e0e0; /* Gray for empty stars */
+  color: $empty-star-color; /* Gray for empty stars */
   transition: color 0.3s ease;
 }
 
 .star.filled {
-  color: #FFD700; /* Gold */
-  text-shadow: 0 0 2px #ffecb3,
-  0 0 4px #fdd835,
-  0 0 6px #fbc02d;
-  animation: sparkle 1.5s infinite ease-in-out;
+  color: $filled-star-color; /* Gold */
+  text-shadow: $layered-star-glow;
+  animation: $star-sparkle-animation;
 }
 
 /* ✨ Sparkling effect using subtle scale + glow pulse */
 @keyframes sparkle {
   0%, 100% {
-    text-shadow: 0 0 2px #ffecb3,
-    0 0 4px #fdd835,
-    0 0 6px #fbc02d;
+    text-shadow: $layered-star-glow;
   }
   50% {
-    text-shadow: 0 0 3px #fff176,
-    0 0 6px #ffee58,
-    0 0 10px #fdd835;
+    text-shadow: $layered-star-sparkle-transition;
   }
 }
 

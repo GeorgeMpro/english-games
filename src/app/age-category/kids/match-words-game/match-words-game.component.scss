@@ -1,11 +1,7 @@
 @use 'variables' as *;
 @use 'layout' as *;
 
-
-.match-words h2 {
-  color: $color-primary;
-  margin-bottom: $space-sm;
-}
+$height-placeholder: 300px;
 
 /* make match-words a positioning context */
 .match-words {
@@ -14,8 +10,12 @@
   text-align: center;
 }
 
-/* turn .message into an overlay */
+.match-words h2 {
+  color: $color-primary;
+  margin-bottom: $space-sm;
+}
 
+/* turn .message into an overlay */
 .message {
   position: absolute;
   top: $space-sm;
@@ -56,148 +56,13 @@
 }
 
 
-/* COMMON CARD LAYOUT */
-.card {
-  @include flex-layout();
-  aspect-ratio: 1; /* stay square */
-  width: $card-size;
-  height: $card-size;
-  border: $border-playing-card;
-  border-radius: $card-radius;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  transition: $card-transition;
-}
-
-.card:hover {
-  transform: $lift-on-hover;
-  box-shadow: $shadow-hover;
-}
-
-/* SELECTED & MATCHED STATES */
-.selected {
-  border-color: $color-accent;
-}
-
-.matched {
-  opacity: 0.6;
-  cursor: default;
-  box-shadow: none;
-}
-
-/* WORD CARDS */
-/* base word‑card styling */
-.word-card {
-  @include flex-layout();
-  --index: 1;
-  width: $card-size;
-  height: $card-size;
-  border: $border-playing-card;
-  border-radius: $card-radius;
-  font-size: $font-size-sm-md;
-  font-weight: $font-weight-semibold;
-  color: $text-color-on-dark;
-  cursor: pointer;
-  user-select: none;
-  transition: $card-transition;
-}
-
-.word-card:hover {
-  transform: $lift-on-hover;
-  box-shadow: $shadow-hover;
-}
-
-.word-card.selected {
-  border-color: $color-accent;
-}
-
-.word-card.matched {
-  opacity: 0.6;
-  cursor: default;
-  box-shadow: none;
-}
-
-/* IMAGE CARDS */
-.image-card {
-  background: $color-bg-card;
-  border: $border-playing-card;
-  border-radius: $card-radius;
-}
-
-.image-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
-
-.image-card.selected {
-  border-color: $color-accent;
-}
-
 /*todo extract*/
 .state-placeholder {
   @include flex-layout();
   flex-direction: column; /* stack text and any spinner */
   text-align: center;
-  min-height: 300px; /* or match the height of your .boards */
+  min-height: $height-placeholder; /* or match the height of your .boards */
 }
-
-/*spinner*/
-.spinner {
-  width: 3rem;
-  height: 3rem;
-  border: 4px solid rgba(0, 0, 0, 0.1);
-  border-top-color: $color-accent;
-  border-radius: 50%;
-  animation: $spinner-animation;
-  margin: auto; /* center horizontally in the flex container */
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.state-placeholder {
-  @include flex-layout();
-  min-height: 300px;
-}
-
-/*todo update and test*/
-/*modal animation*/
-[data-testid="end-game-modal"] {
-  @include flex-layout();
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1000;
-  backdrop-filter: blur(5px);
-  background-color: $color-modal-background;
-}
-
-.modal-content {
-  opacity: 0;
-  animation: $modal-fadein;
-  animation-delay: 50ms; /* slight lag after backdrop */
-}
-
-@keyframes fadeInModal {
-  0% {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 
 /*choose button*/
 .choose-category-button {
@@ -214,48 +79,4 @@
 .choose-category-button:hover {
   background-color: $color-accent;
   box-shadow: $shadow-hover;
-}
-
-/* Card Place Holder*/
-.card-placeholder {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  background: #f5f7fa;
-  border-radius: $card-radius;
-  border: $border-playing-card;
-  box-shadow: $shadow-placeholder;
-  pointer-events: none;
-  z-index: 2;
-  margin: 0;
-  overflow: hidden;
-  opacity: 1;
-  transition: $transition-opacity;
-}
-
-
-.card-placeholder.fade-out {
-  opacity: 0;
-}
-
-.card-placeholder::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: $placeholder-gradient;
-  animation: $card-placeholder-shimmer;
-  z-index: 1;
-}
-
-@keyframes shimmer {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
 }
