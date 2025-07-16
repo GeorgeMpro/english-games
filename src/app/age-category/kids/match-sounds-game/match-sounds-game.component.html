@@ -1,2 +1,32 @@
-<p>match-sounds-game works!</p>
+<section class="match-sounds-game" data-testid="match-sounds-game">
+  <h2>Match the Word by Sound</h2>
 
+  <button class="choose-category-button"
+          data-testid="choose-in-sound-button">
+    Choose Category
+  </button>
+
+  <div class="audio-controls">
+    <button data-testid="play-sound-button">▶️ Play</button>
+    <button data-testid="repeat-sound-button">🔁 Repeat</button>
+    <button data-testid="slow-sound-button">🐢 Slow</button>
+  </div>
+
+  <section class="games-grid" data-testid="choices-grid">
+    <div class="word-card" data-testid="word-option">Cat</div>
+    <div class="word-card" data-testid="word-option">Dog</div>
+    <div class="word-card" data-testid="word-option">Bird</div>
+    <div class="word-card" data-testid="word-option">Fish</div>
+    <div class="word-card" data-testid="word-option">Lion</div>
+    <div class="word-card" data-testid="word-option">Bear</div>
+  </section>
+
+  @if (isSelectorOpen()) {
+    <div class="app-modal" data-testid="game-selector-modal">
+      <div class="modal-content">
+        <app-category-chooser-modal (close)="isSelectorOpen.set(false)"/>
+        <button (click)="isSelectorOpen.set(false)">Close</button>
+      </div>
+    </div>
+  }
+</section>

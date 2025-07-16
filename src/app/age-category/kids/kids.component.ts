@@ -15,7 +15,7 @@ import {IframeModeDirective} from '../../shared/directives/iframe-mode/iframe-mo
                data-testid="kids-games">
         <button class="choose-category-button"
                 (click)="isSelectorOpen.set(!isSelectorOpen())">
-          <span>Select a Game</span>
+          <span>Select Game</span>
         </button>
       </section>
     }
