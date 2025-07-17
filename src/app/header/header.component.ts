@@ -13,6 +13,10 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
         <a routerLink="/" class="logo">
           <span class="logo-text">English Games</span>
         </a>
+        <button data-testid="theme-toggle-button"
+                (click)="onThemeToggle()">
+
+        </button>
         <nav>
           <ul class="nav-list">
             <li><a routerLink="/kids" routerLinkActive="active">Kids</a></li>
@@ -25,4 +29,13 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 })
 export class HeaderComponent {
 
+  onThemeToggle(): void {
+    const element: HTMLElement = document.documentElement;
+    const isDarkMode = element.getAttribute('data-theme') === 'dark';
+    if (isDarkMode) {
+      element.removeAttribute('data-theme');
+    } else {
+      element.setAttribute('data-theme', 'dark');
+    }
+  }
 }

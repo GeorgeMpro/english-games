@@ -2,7 +2,15 @@
 @use 'layout' as *;
 @use 'components/card' as *;
 @use 'components/spinner' as *;
+@use 'themes' as *;
 
+:root {
+  @include theme($theme-light);
+}
+
+[data-theme="dark"] {
+  @include theme($theme-dark);
+}
 
 /* 1. Base reset & 100% heights */
 html, body, app-root {

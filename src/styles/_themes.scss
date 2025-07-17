@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+@mixin theme($map) {
+  @each $key, $value in $map {
+    --#{$key}: #{$value};
+  }
+}
+
+$theme-light: (
+  color-bg: #{$color-bg-card},
+  color-text: #{$color-text}
+);
+
+$theme-dark: (
+  color-bg: #121212, // override manually (no dark var yet)
+  color-text: #f0f0f0 // override manually (no dark var yet)
+);
