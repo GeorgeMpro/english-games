@@ -1,5 +1,8 @@
 @use 'variables' as *;
 @use 'layout' as *;
+@use 'components/button' as *;
+
+$fade-out-theme-toggle-animation: opacity 0.2s ease;
 
 :host {
   display: block;
@@ -55,6 +58,14 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
+.theme-toggle-button span {
+  display: inline-block;
+  transition: $fade-out-theme-toggle-animation;
+}
+
+.fade-out {
+  opacity: 0;
+}
 
 @media (max-width: $screen-phone), (max-height: $screen-phone) {
   .logo-text,
@@ -62,7 +73,7 @@
     font-size: $font-size-sm;
     font-weight: $font-weight-medium;
   }
-  .nav-list a{
+  .nav-list a {
     padding: $space-sm $space-sm;
   }
 }

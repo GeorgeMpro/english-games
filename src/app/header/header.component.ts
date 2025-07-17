@@ -14,8 +14,11 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
           <span class="logo-text">English Games</span>
         </a>
         <button data-testid="theme-toggle-button"
+                class="theme-toggle-button"
                 (click)="onThemeToggle()">
-
+         <span [class.fade-out]="iconFading">
+    {{ isDarkMode() ? '☀️' : '🌙' }}
+  </span>
         </button>
         <nav>
           <ul class="nav-list">
@@ -28,14 +31,27 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  iconFading = false;
 
   onThemeToggle(): void {
+    this.iconFading = true;
+
+    setTimeout(() => {
+      const element = document.documentElement;
+
+      if (this.isDarkMode()) {
+        element.removeAttribute('data-theme');
+      } else {
+        element.setAttribute('data-theme', 'dark');
+      }
+
+      this.iconFading = false;
+    }, 150);
+  }
+
+
+  isDarkMode() {
     const element: HTMLElement = document.documentElement;
-    const isDarkMode = element.getAttribute('data-theme') === 'dark';
-    if (isDarkMode) {
-      element.removeAttribute('data-theme');
-    } else {
-      element.setAttribute('data-theme', 'dark');
-    }
+    return element.getAttribute('data-theme') === 'dark';
   }
 }
