@@ -6,7 +6,6 @@ import {
 @Component({
   selector: 'app-match-sounds-game',
   imports: [
-    CategoryChooserModalComponent
   ],
   templateUrl: './match-sounds-game.component.html',
   styleUrl: './match-sounds-game.component.scss'

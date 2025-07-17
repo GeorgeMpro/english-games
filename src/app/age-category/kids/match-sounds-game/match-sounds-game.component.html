@@ -21,12 +21,11 @@
     <div class="word-card" data-testid="word-option">Bear</div>
   </section>
 
-  @if (isSelectorOpen()) {
     <div class="app-modal" data-testid="game-selector-modal">
       <div class="modal-content">
-        <app-category-chooser-modal (close)="isSelectorOpen.set(false)"/>
+<!--        <app-category-chooser-modal (close)="isSelectorOpen.set(false)"/>-->
         <button (click)="isSelectorOpen.set(false)">Close</button>
       </div>
     </div>
-  }
+<!--  }-->
 </section>

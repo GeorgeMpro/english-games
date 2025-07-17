@@ -37,7 +37,6 @@ $height-placeholder: 300px;
 .boards {
   @include flex-layout();
   gap: $space-lg;
-
 }
 
 //todo update for mobile use
@@ -68,6 +67,9 @@ $height-placeholder: 300px;
 
 
 @media (max-height: $screen-phone) {
+  .boards {
+    gap: $space-sm;
+  }
   h2 {
     font-size: $font-size-sm-md;
     margin:8px;
