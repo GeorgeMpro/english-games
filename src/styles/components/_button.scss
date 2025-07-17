@@ -3,6 +3,18 @@
 
 
 /*choose button*/
+$animation-rotate-toggle-icon: rotate 0.6s ease-in-out;
+
+
+@mixin button-remove-default-style {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .choose-category-button {
   font-size: $font-size-md;
   font-weight: $font-weight-medium;
@@ -21,14 +33,12 @@
 }
 
 .theme-toggle-button {
+  @include button-remove-default-style;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: $space-md;
+  padding: 0;
   font-size: $font-size-lg;
-  border: none;
-  background: none;
-  cursor: pointer;
   color: var(--color-text);
   transition: color 0.3s;
 
@@ -36,8 +46,19 @@
     color: $color-accent;
   }
 
-  &:active {
-    animation: rotate 0.6s ease-in-out;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .rotate-target {
+    display: inline-block;
+    transform-box: fill-box;
+    transform-origin: center;
+
+    &.rotate {
+      animation: $animation-rotate-toggle-icon;
+    }
   }
 }
 
@@ -56,5 +77,9 @@
     display: flex;
     font-size: $font-size-sm;
     font-weight: $font-weight-semibold;
+  }
+
+  .theme-toggle-button {
+    font-size: $font-size-sm;
   }
 }

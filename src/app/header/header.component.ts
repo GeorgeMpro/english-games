@@ -1,11 +1,15 @@
 import {Component} from '@angular/core';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
+import {LucideAngularModule, Moon, Sun} from 'lucide-angular';
+
+
 @Component({
   selector: 'app-header',
   imports: [
     RouterLink,
-    RouterLinkActive
+    RouterLinkActive,
+    LucideAngularModule
   ],
   template: `
     <header class="app-header">
@@ -13,31 +17,42 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
         <a routerLink="/" class="logo">
           <span class="logo-text">English Games</span>
         </a>
-        <button data-testid="theme-toggle-button"
-                class="theme-toggle-button"
-                (click)="onThemeToggle()">
-         <span [class.fade-out]="iconFading">
-    {{ isDarkMode() ? '☀️' : '🌙' }}
+
+        <div class="nav-actions">
+          <nav>
+            <ul class="nav-list">
+              <li><a routerLink="/kids" routerLinkActive="active">Kids</a></li>
+            </ul>
+          </nav>
+
+          <!--Toggle-->
+        <button class="theme-toggle-button" (click)="onThemeToggle()">
+  <span [class.fade-out]="iconFading">
+    <span class="rotate-target" [class.rotate]="iconFading">
+      @if (isDarkMode()) {
+        <lucide-angular [name]="'moon'" class="theme-icon" />
+      } @else {
+        <lucide-angular [name]="'sun'" class="theme-icon" />
+      }
+    </span>
   </span>
-        </button>
-        <nav>
-          <ul class="nav-list">
-            <li><a routerLink="/kids" routerLinkActive="active">Kids</a></li>
-          </ul>
-        </nav>
+</button>
+        </div>
       </div>
     </header>
   `,
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  readonly sun = Sun;
+  readonly moon = Moon;
   iconFading = false;
 
   onThemeToggle(): void {
     this.iconFading = true;
 
     setTimeout(() => {
-      const element = document.documentElement;
+      const element = this.getHTMLElement();
 
       if (this.isDarkMode()) {
         element.removeAttribute('data-theme');
@@ -46,12 +61,16 @@ export class HeaderComponent {
       }
 
       this.iconFading = false;
-    }, 150);
+    }, 200);
   }
 
 
   isDarkMode() {
-    const element: HTMLElement = document.documentElement;
+    const element = this.getHTMLElement();
     return element.getAttribute('data-theme') === 'dark';
+  }
+
+  private getHTMLElement(): HTMLElement {
+    return document.documentElement;
   }
 }

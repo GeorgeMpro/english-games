@@ -1,3 +1,4 @@
+
 @use 'variables' as *;
 @use 'layout' as *;
 @use 'components/button' as *;
@@ -23,7 +24,6 @@ $fade-out-theme-toggle-animation: opacity 0.2s ease;
   @include flex-layout(space-between);
 }
 
-
 .logo {
   @include inline-center;
   text-decoration: none;
@@ -42,22 +42,28 @@ $fade-out-theme-toggle-animation: opacity 0.2s ease;
   gap: $space-md-lg;
   margin: 0;
   padding: 0;
+
+  a {
+    text-decoration: none;
+    color: $text-color-on-gradient;
+    font-weight: $font-weight-heavy;
+    padding: $space-sm $space-md-half;
+    border-radius: $radius-md;
+    transition: $transition-bg-fast;
+
+    &:hover,
+    &.active {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
 }
 
-.nav-list a {
-  text-decoration: none;
-  color: $text-color-on-gradient;
-  font-weight: $font-weight-heavy;
-  padding: $space-sm $space-md-half;
-  border-radius: $radius-md;
-  transition: $transition-bg-fast;
+.nav-actions {
+  @include inline-center;
+  gap: $space-md-lg;
 }
 
-.nav-list a:hover,
-.nav-list a.active {
-  background: rgba(255, 255, 255, 0.2);
-}
-
+/* Fade & rotate animation */
 .theme-toggle-button span {
   display: inline-block;
   transition: $fade-out-theme-toggle-animation;
@@ -73,7 +79,12 @@ $fade-out-theme-toggle-animation: opacity 0.2s ease;
     font-size: $font-size-sm;
     font-weight: $font-weight-medium;
   }
+
   .nav-list a {
     padding: $space-sm $space-sm;
+  }
+
+  .theme-toggle-button {
+    font-size: $font-size-sm;
   }
 }
