@@ -3,37 +3,39 @@
 
 $border-card-default: 2px solid transparent;
 
+
 .game-card {
   width: $card-game-icon-size;
   height: $card-game-icon-size;
   @include column-flex;
   align-items: center;
   justify-content: center;
+
   background: var(--color-bg-card);
   border: $border-card-default;
   border-radius: $card-radius;
   cursor: pointer;
   transition: $card-transition;
+  box-shadow: var(--shadow-card);
+
+  .icon {
+    font-size: $font-size-lg;
+  }
+
+  .label {
+    margin-top: $space-sm;
+    font-weight: $font-weight-semibold;
+    color: var(--color-primary);
+    font-size: $font-size-sm;
+  }
+
+  &:hover {
+    transform: $lift-on-hover;
+    box-shadow: var(--shadow-hover);
+
+  }
+
+  &.active {
+    border-color: var(--color-accent);
+  }
 }
-
-.game-card .icon {
-  font-size: $font-size-lg;
-}
-
-.game-card .label {
-  margin-top: $space-sm;
-  font-weight: $font-weight-semibold;
-  color: var(--color-primary);
-  font-size: $font-size-sm;
-
-}
-
-.game-card:hover {
-  transform: $lift-on-hover;
-  box-shadow: var(--shadow-hover);
-}
-
-.game-card.active {
-  border-color: var(--color-accent);
-}
-

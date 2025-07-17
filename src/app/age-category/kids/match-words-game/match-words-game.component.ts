@@ -81,9 +81,15 @@ export class MatchWordsGameComponent implements OnInit {
     });
   }
 
+  // getCardColor(index: number): string {
+  //   /* pastel hue via golden angle: index × 137.508° */
+  //   // return `hsl(${index * 137.508}, 65%, 65%)`;
+  // }
+
   getCardColor(index: number): string {
-    /* pastel hue via golden angle: index × 137.508° */
-    return `hsl(${index * 137.508}, 65%, 65%)`;
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const lightness = isDark ? 45 : 65;
+    return `hsl(${index * 137.508}, 65%, ${lightness}%)`;
   }
 
   onSelectWord(word: WordCard): void {

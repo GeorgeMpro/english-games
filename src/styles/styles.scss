@@ -9,9 +9,18 @@
 }
 
 :root[data-theme="dark"] {
-  filter: brightness(0.90); // adjust as needed
+  //todo
+  //filter: brightness(0.80); // adjust as needed
+  img {
+    filter: brightness(0.9) contrast(1.05);
+  }
+
   transition: filter 0.3s ease;
   @include theme($theme-dark);
+
+  button, .label, .choose-category-button {
+    letter-spacing: 0.25px;
+  }
 }
 
 /* 1. Base reset & 100% heights */

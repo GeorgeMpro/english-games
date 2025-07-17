@@ -33,23 +33,32 @@ $theme-light: (
 );
 
 $theme-dark: (
-  color-primary: #e55656,
-  color-bg: #c96161, // override manually (no dark var yet)
-  color-bg-main:#15eeae,
-  color-text: #ac2bc0, // override manually (no dark var yet)
-  text-color-on-gradient: #ff960c,
-  text-color-on-dark: #ffeb0c,
-  color-accent: hsl(296, 100%, 61%),
-  color-modal-background:hsl(293, 63%, 47%),
-  color-yellow-accent: #ff8b59,
-  /*gradient*/
-  footer-gradient: linear-gradient(90deg, #e55656, #c96161),
-  yellow-accent-gradient: linear-gradient(
-      90deg, $color-yellow-accent, $color-accent),
-  hero-gradient: linear-gradient(135deg, $color-primary, $color-accent-gradient),
-  /*shadows*/
-  shadow-card: 0 2px 6px rgba(0, 0, 0, 0.61),
-  shadow-header: 0 2px 4px rgba(0, 0, 0, 0.47),
-  shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.47),
-  hover-overlay: rgba(0, 0, 0, 0.47),
+  /* base colors */
+  color-primary: #4766b3, // softer indigo tone
+  // softer blue (like Google dark mode)
+  color-accent: #e46d6d, // warm but not harsh
+  color-yellow-accent: #fdd663,
+  /* backgrounds */
+  color-bg: #2a2a2a, // primary page background (not full black)
+  color-bg-main: #121212, // main container deeper shade
+  color-bg-card: #2a2a2a,
+  // card/panel surface
+  color-modal-background: rgba(30, 30, 30, 0.95), // translucent overlay
+  /* text */
+  color-text: #f1f5ff,
+  text-color-on-gradient: #f1f5ff,
+  text-color-on-dark: #f1f5ff,
+  /* gradients */
+  footer-gradient: linear-gradient(90deg, #8ab4f8, #5f6368),
+  yellow-accent-gradient: linear-gradient(90deg, #fdd663, #f28b82),
+  hero-gradient: linear-gradient(135deg, #8ab4f8, #f28b82),
+  /* error */
+  error-text-color: #ff6d6d,
+  error-background-color: #2a1a1a,
+  error-box-shadow: 0 1px 3px rgba(255, 0, 0, 0.2),
+  /* shadows */
+  shadow-card: 0 1px 1px rgba(255, 255, 255, 0.04),
+  shadow-header:0 1px 2px rgba(255, 255, 255, 0.05),
+  shadow-hover: 0 8px 16px rgba(124, 118, 118, 0.12),
+  hover-overlay: rgba(255, 255, 255, 0.08)
 );
