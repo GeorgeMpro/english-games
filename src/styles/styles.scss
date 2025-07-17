@@ -8,7 +8,7 @@
   @include theme($theme-light);
 }
 
-[data-theme="dark"] {
+:root[data-theme="dark"] {
   @include theme($theme-dark);
 }
 
