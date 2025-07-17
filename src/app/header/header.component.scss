@@ -13,9 +13,9 @@ $fade-out-theme-toggle-animation: opacity 0.2s ease;
 }
 
 .app-header {
-  background: $footer-gradient;
-  color: $text-color-on-gradient;
-  box-shadow: $shadow-header;
+  background: var(--footer-gradient);
+  color: var(--text-color-on-gradient);
+  box-shadow: var(--shadow-header);
 }
 
 .header-content {
@@ -44,7 +44,7 @@ $fade-out-theme-toggle-animation: opacity 0.2s ease;
 
   a {
     text-decoration: none;
-    color: $text-color-on-gradient;
+    color: var(--text-color-on-gradient);
     font-weight: $font-weight-heavy;
     padding: $space-sm $space-md-half;
     border-radius: $radius-md;
@@ -52,7 +52,7 @@ $fade-out-theme-toggle-animation: opacity 0.2s ease;
 
     &:hover,
     &.active {
-      background: rgba(255, 255, 255, 0.2);
+      background: var(--hover-overlay);
     }
   }
 }

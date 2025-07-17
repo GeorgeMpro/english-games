@@ -5,6 +5,7 @@
 @use 'components/button' as *;
 
 $height-placeholder: 300px;
+$message-background: rgba(0, 0, 0, 0.75);
 
 /* make match-words a positioning context */
 .match-words {
@@ -27,8 +28,8 @@ $height-placeholder: 300px;
   transform: translateX(-50%);
   margin: 0; /* kill the old margin-bottom */
   padding: $space-sm $space-md;
-  background: rgba(0, 0, 0, 0.75);
-  color: $text-color-on-dark;
+  background: $message-background;
+  color: var(--text-color-on-dark);
   border-radius: $card-radius;
   z-index: 10;
   pointer-events: none; /* if you don’t need clicks */
@@ -72,7 +73,7 @@ $height-placeholder: 300px;
   }
   h2 {
     font-size: $font-size-sm-md;
-    margin:8px;
+    margin: 8px;
   }
 
   .words-board,

@@ -14,20 +14,26 @@ $font-weight-heavy: 700;
 /* Colors */
 $color-primary: #4e54c8;
 $color-accent: #ffa751;
-$color-yellow-accent: #ffe259;
+$color-yellow-accent: #ff8b59;
 $color-text: #333;
 $color-bg-card: #fff;
+$color-bg-main: #ffffff;
 $text-color-on-dark: #fff;
 
 $color-placeholder-bg: #f5f7fa;
 
 $color-modal-background: rgba(60, 40, 122, 0.85);
 
+/*Color Errors*/
+$error-text-color: #d06a6a;
+$error-background-color: #fdecea;
+$error-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
 /*Color gradients*/
 $color-accent-gradient: #8f94fb;
 $text-color-on-gradient: #fff;
 $footer-gradient: linear-gradient(90deg, $color-primary, $color-accent-gradient);
+$hero-gradient: linear-gradient(135deg, $color-primary, $color-accent-gradient);
 $yellow-accent-gradient: linear-gradient(
     90deg, $color-yellow-accent, $color-accent);
 $placeholder-gradient: linear-gradient(
@@ -41,6 +47,7 @@ $placeholder-gradient: linear-gradient(
 /* Visual Feedback */
 $color-hover-overlay: rgba(255, 255, 255, 0.2);
 $shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15);
+$hover-overlay: rgba(255, 255, 255, 0.2);
 
 /* Spacing */
 $space-sm: 0.5rem;

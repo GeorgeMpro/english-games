@@ -1,6 +1,5 @@
-@use '../styles/variables' as *;
+@use 'variables' as *;
 
-$hero-gradient: linear-gradient(135deg, $color-primary, $color-accent-gradient);
 
 .content {
   flex: 1; /* take up remaining space */
@@ -10,15 +9,15 @@ $hero-gradient: linear-gradient(135deg, $color-primary, $color-accent-gradient);
 .hero {
   text-align: center;
   padding: $space-xl $space-md;
-  background: $hero-gradient;
-  color: $text-color-on-gradient;
+  background: var(--hero-gradient);
+  color: var(--text-color-on-gradient);
 }
 
 /* gradient-filled main title */
 .hero-title {
   font-size: $font-size-xl;
   margin: 0;
-  background: $yellow-accent-gradient;
+  background: var(--yellow-accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -36,7 +35,7 @@ $hero-gradient: linear-gradient(135deg, $color-primary, $color-accent-gradient);
   display: block;
   width: 60px;
   height: 4px;
-  background: $color-yellow-accent;
+  background: var(--color-yellow-accent);
   border-radius: $radius-sm;
   margin: $space-md-half auto 0;
 }

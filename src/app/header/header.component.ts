@@ -33,7 +33,7 @@ import {LucideAngularModule, Moon, Sun} from 'lucide-angular';
                   class="rotate-target"
                   [class.rotate-cw]="rotated()"
                   [class.rotate-ccw]="!rotated()">
-      @if (isDarkMode()) {
+      @if (!isDarkMode()) {
         <lucide-angular [name]="moon" class="theme-icon"/>
       } @else {
         <lucide-angular [name]="sun" class="theme-icon"/>

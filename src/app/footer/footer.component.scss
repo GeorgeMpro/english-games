@@ -7,7 +7,7 @@
 
 .app-footer {
   @include flex-layout;
-  background: $footer-gradient;
+  background: var(--footer-gradient);
 }
 
 .footer-content {
@@ -21,7 +21,7 @@
 }
 
 .footer-text {
-  color: $text-color-on-gradient;
+  color: var(--text-color-on-gradient);
   font-size: $font-size-sm;
   font-weight: $font-weight-medium;
 }

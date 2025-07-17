@@ -13,7 +13,7 @@
   padding: $space-md;
   background: var(--color-bg-card);
   border-radius: 8px;
-  box-shadow: $shadow-card;
+  box-shadow: var(--shadow-card);
   cursor: pointer;
   transition: transform 0.2s;
 }

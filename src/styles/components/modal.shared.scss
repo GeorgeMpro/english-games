@@ -3,9 +3,6 @@
 
 /*todo update and test*/
 /*modal animation*/
-$error-text-color: #d06a6a;
-$error-background-color: #fdecea;
-$error-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
 $empty-star-color: #e0e0e0;
 $filled-star-color: #FFD700;
@@ -26,7 +23,7 @@ $layered-star-sparkle-transition: 0 0 3px #fff176,
   height: 100vh;
   z-index: 1000;
   backdrop-filter: blur(5px);
-  background-color: $color-modal-background;
+  background-color: var(--color-modal-background);
 }
 
 
@@ -42,28 +39,26 @@ $layered-star-sparkle-transition: 0 0 3px #fff176,
 }
 
 .app-modal {
-  position: fixed; /* ✅ fix: cover viewport regardless of scroll/parent */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-layout();
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.7); /* semi-transparent dark backdrop */
 }
 
 .modal-content {
-  background-color: $color-bg-card;
+  background-color: var(--color-bg-card);
   padding: $space-lg;
   border-radius: $card-radius;
-  box-shadow: $shadow-hover;
+  box-shadow: var(--shadow-hover);
   text-align: center;
   width: 100%;
   max-width: 700px;
   font-size: $font-size-md;
-  color: $color-text;
+  color: var(--color-text);
   opacity: 0;
   animation: $modal-fadein;
   animation-delay: 50ms; /* slight lag after backdrop */
@@ -81,27 +76,27 @@ $layered-star-sparkle-transition: 0 0 3px #fff176,
   margin: $space-sm;
   border: none;
   border-radius: $card-radius;
-  background-color: $color-primary;
-  color: white;
+  background-color: var(--color-primary);
+  color: var(--text-color-on-dark);
   cursor: pointer;
   transition: $transition-hover;
 }
 
 .modal-content button:hover {
-  background-color: $color-accent;
-  box-shadow: $shadow-hover;
+  background-color: var(--color-accent);
+  box-shadow: var(--shadow-hover);
 }
 
 /*todo extract to reusable*/
 .modal-error {
   font-weight: $font-weight-heavy;
-  color: $error-text-color;
-  background-color: $error-background-color;
+  color: var(--error-text-color);
+  background-color: var(--error-background-color);
   padding: $space-md-half;
   border-radius: $space-sm;
   margin-bottom: $space-md;
   text-align: center;
-  box-shadow: $error-box-shadow;
+  box-shadow: var(--error-box-shadow);
 }
 
 .star-rating {

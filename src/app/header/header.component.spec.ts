@@ -52,4 +52,20 @@ describe('HeaderComponent', () => {
   });
 
 
+  it('should toggle rotation class on theme toggle', () => {
+    const button = getElementByDataTestId(fixture, 'theme-toggle-button');
+    const rotator = fixture.nativeElement.querySelector('.rotate-target');
+
+    expect(rotator.classList).toContain('rotate-ccw');
+
+    button.click();
+    fixture.detectChanges();
+
+    expect(rotator.classList).toContain('rotate-cw');
+
+    button.click();
+    fixture.detectChanges();
+
+    expect(rotator.classList).toContain('rotate-ccw');
+  });
 });

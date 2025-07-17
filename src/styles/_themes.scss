@@ -1,4 +1,3 @@
-
 @use 'variables' as *;
 
 @mixin theme($map) {
@@ -10,11 +9,47 @@
 $theme-light: (
   color-primary: #{$color-primary},
   color-bg: #{$color-bg-card},
-  color-text: #{$color-text}
+  color-bg-card:#{$color-bg-card},
+  color-modal-background:#{$color-modal-background},
+  color-bg-main: #{$color-bg-main},
+  color-text: #{$color-text},
+  text-color-on-gradient: #{$text-color-on-gradient},
+  text-color-on-dark: #{$text-color-on-dark},
+  color-accent:#{$color-accent},
+  color-yellow-accent: #{$color-yellow-accent},
+  /*gradient*/
+  footer-gradient: #{$footer-gradient},
+  yellow-accent-gradient: #{$yellow-accent-gradient},
+  hero-gradient: #{$hero-gradient},
+  /*error*/
+  error-text-color:#{$error-text-color},
+  error-background-color: #{$error-background-color},
+  error-box-shadow: #{$error-box-shadow},
+  /*shadows*/
+  shadow-card: #{$shadow-card},
+  shadow-header:#{$shadow-header},
+  shadow-hover:#{$shadow-hover},
+  hover-overlay: #{$hover-overlay},
 );
 
 $theme-dark: (
-  color-primary: #c51d1d,
-  color-bg: #121212, // override manually (no dark var yet)
-  color-text: #f0f0f0 // override manually (no dark var yet)
+  color-primary: #e55656,
+  color-bg: #c96161, // override manually (no dark var yet)
+  color-bg-main:#15eeae,
+  color-text: #ac2bc0, // override manually (no dark var yet)
+  text-color-on-gradient: #ff960c,
+  text-color-on-dark: #ffeb0c,
+  color-accent: hsl(296, 100%, 61%),
+  color-modal-background:hsl(293, 63%, 47%),
+  color-yellow-accent: #ff8b59,
+  /*gradient*/
+  footer-gradient: linear-gradient(90deg, #e55656, #c96161),
+  yellow-accent-gradient: linear-gradient(
+      90deg, $color-yellow-accent, $color-accent),
+  hero-gradient: linear-gradient(135deg, $color-primary, $color-accent-gradient),
+  /*shadows*/
+  shadow-card: 0 2px 6px rgba(0, 0, 0, 0.61),
+  shadow-header: 0 2px 4px rgba(0, 0, 0, 0.47),
+  shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.47),
+  hover-overlay: rgba(0, 0, 0, 0.47),
 );

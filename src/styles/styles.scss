@@ -9,11 +9,14 @@
 }
 
 :root[data-theme="dark"] {
+  filter: brightness(0.90); // adjust as needed
+  transition: filter 0.3s ease;
   @include theme($theme-dark);
 }
 
 /* 1. Base reset & 100% heights */
 html, body, app-root {
+  background-color: var(--color-bg-main);
   height: 100%;
   margin: 0;
 }

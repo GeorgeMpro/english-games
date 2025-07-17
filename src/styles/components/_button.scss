@@ -1,5 +1,6 @@
 @use 'variables'as *;
 @use 'layout' as *;
+@use 'themes' as *;
 
 
 /*choose button*/
@@ -21,15 +22,15 @@ $animation-rotate-toggle-icon: rotate 0.6s ease-in-out;
   padding: $space-sm $space-md;
   border: none;
   border-radius: $card-radius;
-  background-color: $color-primary;
-  color: $text-color-on-dark;
+  background-color: var(--color-primary);
+  color: var(--text-color-on-dark);
   cursor: pointer;
   transition: $transition-hover;
 }
 
 .choose-category-button:hover {
-  background-color: $color-accent;
-  box-shadow: $shadow-hover;
+  background-color: var(--color-accent);
+  box-shadow: var(--shadow-hover);
 }
 
 .theme-toggle-button {
@@ -39,11 +40,11 @@ $animation-rotate-toggle-icon: rotate 0.6s ease-in-out;
   align-items: center;
   padding: 0;
   font-size: $font-size-lg;
-  color: $text-color-on-dark;
+  color: var(--text-color-on-dark);
   transition: color 0.3s;
 
   &:hover {
-    color: $color-accent;
+    color: var(--color-accent);
   }
 
   &:focus {
