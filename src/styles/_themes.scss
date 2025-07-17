@@ -8,11 +8,13 @@
 }
 
 $theme-light: (
+  color-primary: #{$color-primary},
   color-bg: #{$color-bg-card},
   color-text: #{$color-text}
 );
 
 $theme-dark: (
+  color-primary: #c51d1d,
   color-bg: #121212, // override manually (no dark var yet)
   color-text: #f0f0f0 // override manually (no dark var yet)
 );

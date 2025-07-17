@@ -1,4 +1,4 @@
-import {Component, ElementRef, ViewChild} from '@angular/core';
+import {Component, ElementRef, signal, ViewChild} from '@angular/core';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
 import {LucideAngularModule, Moon, Sun} from 'lucide-angular';
@@ -29,7 +29,10 @@ import {LucideAngularModule, Moon, Sun} from 'lucide-angular';
           <button data-testid="theme-toggle-button"
                   class="theme-toggle-button"
                   (click)="onThemeToggle()">
- <span class="rotate-target" #rotator>
+            <span #rotator
+                  class="rotate-target"
+                  [class.rotate-cw]="rotated()"
+                  [class.rotate-ccw]="!rotated()">
       @if (isDarkMode()) {
         <lucide-angular [name]="moon" class="theme-icon"/>
       } @else {
@@ -47,11 +50,13 @@ export class HeaderComponent {
   readonly sun = Sun;
   readonly moon = Moon;
   iconFading = false;
+  rotated = signal<boolean>(false);
 
   @ViewChild('rotator') rotatorRef!: ElementRef<HTMLElement>;
 
   onThemeToggle(): void {
     this.iconFading = true;
+    this.rotated.update(v => !v);
     this.triggerRotate();
     this.toggleTheme();
   }

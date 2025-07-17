@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'themes' as *;
 
 :host {
   width: 100%;
@@ -10,7 +11,7 @@
   align-items: center;
   justify-content: center;
   padding: $space-md;
-  background: $color-bg-card;
+  background: var(--color-bg-card);
   border-radius: 8px;
   box-shadow: $shadow-card;
   cursor: pointer;
@@ -25,7 +26,7 @@
   all: unset; /* remove browser default button styles */
   width: 100%; /* or fixed width */
   height: 100%; /* ensure fills the parent */
-  background: $color-bg-card;
+  background: var(--color-bg-card);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -43,8 +44,8 @@
 
 /* Icon circle: primary purple bg, white emoji */
 .icon {
-  background: $color-primary;
-  color: $color-bg-card;
+  background: var(--color-primary);
+  color: var(--color-bg-card);
   width: 60px;
   height: 60px;
   display: flex;
@@ -57,7 +58,7 @@
 
 /* Label text: match purple accent */
 .label {
-  color: $color-primary;
+  color: var(--color-primary);
   font-weight: 600;
   font-size: $font-size-sm;
   text-align: center;
