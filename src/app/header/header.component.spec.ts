@@ -13,12 +13,13 @@ describe('HeaderComponent', () => {
     TestBed.configureTestingModule({
       imports: [
         HeaderComponent,
-        LucideAngularModule.pick({ Sun, Moon })
+        LucideAngularModule.pick({Sun, Moon})
       ],
       providers: [provideRouter([])]
     });
     fixture = TestBed.createComponent(HeaderComponent);
     component = fixture.componentInstance;
+    fixture.detectChanges();
   });
 
   it('should create header component', () => {
@@ -36,14 +37,19 @@ describe('HeaderComponent', () => {
     expect(component.onThemeToggle).toHaveBeenCalled();
   })
 
+
   it('should toggle data-theme="dark" on the html element', () => {
+    const button = fixture.nativeElement.querySelector('[data-testid="theme-toggle-button"]');
+    expect(button).toBeTruthy();
+
     document.documentElement.removeAttribute('data-theme');
 
-    component.onThemeToggle();
+    button.click();
     expect(document.documentElement.getAttribute('data-theme')).toBe('dark');
 
-    component.onThemeToggle();
+    button.click();
     expect(document.documentElement.getAttribute('data-theme')).toBeNull();
   });
+
 
 });
