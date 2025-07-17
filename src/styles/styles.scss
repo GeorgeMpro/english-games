@@ -21,6 +21,49 @@
   button, .label, .choose-category-button {
     letter-spacing: 0.25px;
   }
+
+  /*chips*/
+  .mat-mdc-chip {
+    border: 1px solid var(--color-primary);
+    background-color: transparent;
+    color: var(--color-text);
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    transition: all 0.2s ease;
+
+    .mdc-evolution-chip__text-label {
+      color: var(--color-text);
+    }
+
+    &:hover {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+
+    &.mat-mdc-chip-selected {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+  }
+
+  /*paginator*/
+  .mat-mdc-paginator {
+    background-color: transparent;
+
+    .mat-mdc-icon-button:not([aria-disabled]) svg,
+    .mat-mdc-icon-button[aria-disabled="false"] svg {
+      fill: var(--color-primary) !important;
+    }
+
+    .mat-mdc-button {
+      background-color: var(--color-primary);
+      color: #fff;
+
+      &:hover {
+        background-color: lighten($color-primary, 10%);
+      }
+    }
+  }
 }
 
 /* 1. Base reset & 100% heights */
