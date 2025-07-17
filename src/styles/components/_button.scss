@@ -39,7 +39,7 @@ $animation-rotate-toggle-icon: rotate 0.6s ease-in-out;
   align-items: center;
   padding: 0;
   font-size: $font-size-lg;
-  color: var(--color-text);
+  color: $text-color-on-dark;
   transition: color 0.3s;
 
   &:hover {
@@ -77,9 +77,5 @@ $animation-rotate-toggle-icon: rotate 0.6s ease-in-out;
     display: flex;
     font-size: $font-size-sm;
     font-weight: $font-weight-semibold;
-  }
-
-  .theme-toggle-button {
-    font-size: $font-size-sm;
   }
 }

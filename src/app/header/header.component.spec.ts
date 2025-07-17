@@ -3,6 +3,7 @@ import {TestBed} from '@angular/core/testing';
 import {HeaderComponent} from './header.component';
 import {provideRouter} from '@angular/router';
 import {getElementByDataTestId} from '../shared/tests/dom-test-utils';
+import {LucideAngularModule, Moon, Sun} from 'lucide-angular';
 
 describe('HeaderComponent', () => {
 
@@ -10,7 +11,10 @@ describe('HeaderComponent', () => {
   let component: HeaderComponent;
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [HeaderComponent],
+      imports: [
+        HeaderComponent,
+        LucideAngularModule.pick({ Sun, Moon })
+      ],
       providers: [provideRouter([])]
     });
     fixture = TestBed.createComponent(HeaderComponent);
