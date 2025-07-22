@@ -4,6 +4,8 @@
 @use 'components/spinner' as *;
 @use 'themes' as *;
 
+@use 'sass:color';
+
 :root {
   @include theme($theme-light);
 }
@@ -60,7 +62,10 @@
       color: #fff;
 
       &:hover {
-        background-color: lighten($color-primary, 10%);
+        background-color: color.adjust($color-primary, $lightness: 10%)
+
+
+
       }
     }
   }

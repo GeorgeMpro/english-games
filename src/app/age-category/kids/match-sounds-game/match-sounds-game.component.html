@@ -6,10 +6,11 @@
     Choose Category
   </button>
 
+  <p class="current-sound" data-testid="current-sound-label">🔊 Sound: "{{ currentWord() }}"</p>
+
   <div class="audio-controls">
-    <button data-testid="play-sound-button">▶️ Play</button>
-    <button data-testid="repeat-sound-button">🔁 Repeat</button>
-    <button data-testid="slow-sound-button">🐢 Slow</button>
+    <button data-testid="play-sound-button" (click)="onPlay()">▶️ Play</button>
+    <button data-testid="slow-sound-button" (click)="onSlow()">🐢 Slow</button>
   </div>
 
   <section class="games-grid" data-testid="choices-grid">
@@ -21,11 +22,11 @@
     <div class="word-card" data-testid="word-option">Bear</div>
   </section>
 
-    <div class="app-modal" data-testid="game-selector-modal">
-      <div class="modal-content">
-<!--        <app-category-chooser-modal (close)="isSelectorOpen.set(false)"/>-->
-        <button (click)="isSelectorOpen.set(false)">Close</button>
-      </div>
+  <div class="app-modal" data-testid="game-selector-modal">
+    <div class="modal-content">
+      <!--        <app-category-chooser-modal (close)="isSelectorOpen.set(false)"/>-->
+      <button (click)="isSelectorOpen.set(false)">Close</button>
     </div>
-<!--  }-->
+  </div>
+  <!--  }-->
 </section>

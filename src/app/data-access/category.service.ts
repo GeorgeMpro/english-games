@@ -51,8 +51,6 @@ export class CategoryService {
         catchError(err => {
           this.errorMsg.set(FAILED_LOAD_CATEGORIES_MSG);
           console.error(FAILED_LOAD_CATEGORIES_MSG, err);
-          // todo
-          // return of([DEFAULT_CATEGORY]);
           return of(this.getAllFallbackGroups());
         })
       );

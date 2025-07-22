@@ -1,6 +1,10 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
-import { MatchSoundsGameComponent } from './match-sounds-game.component';
+
+import {MatchSoundsGameComponent} from './match-sounds-game.component';
+import {CategoryService} from '../../../data-access/category.service';
 
 describe('MatchSoundsGameComponent', () => {
   let component: MatchSoundsGameComponent;
@@ -10,7 +14,7 @@ describe('MatchSoundsGameComponent', () => {
     await TestBed.configureTestingModule({
       imports: [MatchSoundsGameComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(MatchSoundsGameComponent);
     component = fixture.componentInstance;
@@ -19,5 +23,51 @@ describe('MatchSoundsGameComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+});
+
+
+describe('Text to speech util', () => {
+  let component: MatchSoundsGameComponent;
+  let fixture: ComponentFixture<MatchSoundsGameComponent>;
+  let speakSpy: jasmine.Spy;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [
+        CategoryService,
+        MatchSoundsGameComponent,
+        provideHttpClient(),
+        provideHttpClientTesting()],
+    });
+    fixture = TestBed.createComponent(MatchSoundsGameComponent);
+    component = fixture.componentInstance;
+    speakSpy = spyOn(window.speechSynthesis, 'speak');
+    spyOn(window.speechSynthesis, 'cancel');
+    jasmine.clock().install(); // install fake clock
+  });
+
+  afterEach(() => {
+    jasmine.clock().uninstall(); // clean up
+  });
+
+  it('should call speechSynthesis.speak onPlay()', () => {
+    component.onPlay();
+    jasmine.clock().tick(1); // flush setTimeout
+    expect(speakSpy).toHaveBeenCalled();
+  });
+
+  it('should call speechSynthesis.speak onSlow()', () => {
+    component.onSlow();
+    jasmine.clock().tick(1);
+    expect(speakSpy).toHaveBeenCalled();
+  });
+});
+
+
+describe('MatchSoundsGameComponent', () => {
+  it('should get all category words', () => {
+
+
   });
 });
