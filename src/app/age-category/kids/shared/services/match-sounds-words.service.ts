@@ -17,6 +17,14 @@ export class MatchSoundsWordsService {
   getWordsFromCategory(categoryId: number): Observable<WordItem[]> {
     return this.catService.getAllWordsInGroup(categoryId)
   }
+
+  getStore() {
+    
+  }
+
+  initializeGame(categoryId: number) {
+    
+  }
 }
 
 // TODO
