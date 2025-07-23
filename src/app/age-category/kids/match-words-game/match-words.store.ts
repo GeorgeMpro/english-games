@@ -1,6 +1,7 @@
 import {computed, Injectable, signal, WritableSignal} from '@angular/core';
 import {ImageCard, MatchAttempt, MatchItem, WordCard} from '../../../shared/models/kids.models';
 import {WordItem} from '../../../data-access/api.models';
+import {AbstractGameStore} from '../shared/abstract-game.store';
 
 /**
  * Central reactive store for Match Words game state.
@@ -8,23 +9,7 @@ import {WordItem} from '../../../data-access/api.models';
  * This class is UI-agnostic and suitable for testing and composition.
  */
 @Injectable({providedIn: 'root'})
-export class MatchWordsStore {
-  /** The full set of word-image pairs retrieved from Wiki API. */
-  readonly items: WritableSignal<MatchItem[]> = signal([]);
-
-  /** The list of words for the currently selected category. */
-  readonly wordsFromChosenCategories: WritableSignal<WordItem[]> = signal([]);
-
-  /** The current shuffled slice of items used for the current gameplay. */
-  readonly shuffledItemsSlice: WritableSignal<MatchItem[]> = signal([]);
-
-  /** Items divided into stages; each stage is an array of match items. */
-  readonly stageItems: WritableSignal<MatchItem[][]> = signal([]);
-
-  /** The index of the current stage in the game. */
-  readonly currentStage: WritableSignal<number> = signal(0);
-
-  readonly gameOver: WritableSignal<boolean> = signal(false);
+export class MatchWordsStore extends AbstractGameStore {
 
   /*Items for the current game stage*/
   readonly currentStageItems = computed(() =>

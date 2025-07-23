@@ -10,11 +10,11 @@ export class ItemConverterService {
   constructor() {
   }
 
-  wordItemToMatchItem(toConvert: WordItem): MatchItem {
+  wordItemToMatchItem(item: WordItem): MatchItem {
     return {
-      id: toConvert.id,
-      word: toConvert.title,
-      imageUrl: toConvert.cover.url,
+      id: item.id,
+      word: item.title,
+      imageUrl: item.cover.url,
       matched: false
     };
   }

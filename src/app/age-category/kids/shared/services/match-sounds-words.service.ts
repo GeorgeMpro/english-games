@@ -4,13 +4,22 @@ import {Observable} from 'rxjs';
 
 import {CategoryService} from '../../../../data-access/category.service';
 import {WordItem} from '../../../../data-access/api.models';
+import {MatchSoundsStore} from '../../match-sounds-game/match-sounds.store';
+import {ItemConverterService} from '../../../../shared/services/item-converter.service';
+import {MatchItem} from '../../../../shared/models/kids.models';
+import {GameLogicService} from '../../../../shared/services/game-logic.service';
+import {DEFAULT_ITEMS_PER_STAGE, DEFAULT_STAGE_COUNT} from '../../../../shared/game-config.constants';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MatchSoundsWordsService {
 
-  constructor(private catService: CategoryService) {
+  constructor(
+    private store: MatchSoundsStore,
+    private catService: CategoryService,
+    private logicService: GameLogicService,
+    private converterService: ItemConverterService) {
   }
 
 
@@ -18,18 +27,72 @@ export class MatchSoundsWordsService {
     return this.catService.getAllWordsInGroup(categoryId)
   }
 
-  getStore() {
-    
+  getStore(): MatchSoundsStore {
+    return this.store;
   }
 
-  initializeGame(categoryId: number) {
-    
+
+  // todo update to num | num[]
+  initializeGame(categoryId: number): void {
+    this.getWordsFromCategory(categoryId).subscribe(words => this.setupGame(words));
+  }
+
+  setupGame(words: WordItem[]) {
+    this.setWordsFromChosenCategories(words);
+    this.initializeMatchItemsFromWords(words);
+    this.initializeShuffledItemsSlice();
+    this.setupStages();
+  }
+
+  private setWordsFromChosenCategories(words: WordItem[]): void {
+    this.store.wordsFromChosenCategories.set(words);
+  }
+
+  private initializeMatchItemsFromWords(words: WordItem[]): void {
+    const matchItems: MatchItem[] = this.converterService.wordItemsToMatchItems(words);
+
+    this.store.items.set(matchItems);
+  }
+
+  private initializeShuffledItemsSlice(stages: number = DEFAULT_STAGE_COUNT, itemsPerStage: number = DEFAULT_ITEMS_PER_STAGE): void {
+
+    const totalItems = stages * itemsPerStage;
+
+    const shuffledCopy: MatchItem[] = this.logicService.generateShuffledItemCopy(this.store.items());
+
+    this.store.shuffledItemsSlice.set(
+      shuffledCopy.slice(0, totalItems)
+    );
+
+  }
+
+  private setupStages(stages: number = DEFAULT_STAGE_COUNT, itemsPerStage: number = DEFAULT_ITEMS_PER_STAGE) {
+    const shuffledItemsSlicedByStages: MatchItem[][] = this.logicService.generateItemSlicesForEachStage(this.store.shuffledItemsSlice(), stages, itemsPerStage);
+
+    this.store.stageItems.set(shuffledItemsSlicedByStages);
+  }
+
+
+  progressStage(): void {
+    const hasFinishedFinalStage = this.store.currentStage() === DEFAULT_STAGE_COUNT - 1;
+    if (hasFinishedFinalStage) {
+      this.store.gameOver.set(true);
+    }
+
+    if (!this.store.gameOver()) {
+      this.store.progressStage();
+    }
   }
 }
 
 // TODO
 //  get words
-//  create a stage
+//  copy items
+//  shuffle copy items
+//  get item slice for game
+//  crate match items from words
+//  generate stages for items in slice
+//  select word to say in each stage
 //  display the words
 //  can interact with the words
 //  progress stages

@@ -49,6 +49,22 @@ export class GameLogicService {
     return a;
   }
 
+  generateShuffledItemCopy(items: MatchItem[]): MatchItem[] {
+    const copy = [...items];
+    return this.shuffle(copy);
+  }
+
+  generateItemSlicesForEachStage(items: MatchItem[], stages: number, itemsPerStage: number): MatchItem[][] {
+    const result: MatchItem[][] = [];
+    for (let i = 0; i < stages; i++) {
+      const start = i * itemsPerStage;
+      const end = start + itemsPerStage;
+      result.push(items.slice(start, end));
+    }
+
+    return result;
+  }
+
   markMatched<T extends { id: number; matched: boolean }>(cards: T[], id: number): T[] {
     return cards.map(card => card.id === id ? {...card, matched: true} : card);
   }
@@ -75,24 +91,6 @@ export class GameLogicService {
   setCardMatchFeedback(isCorrect: boolean): string {
     return isCorrect ? '✅ Correct!' : '❌ Try again.';
   }
-
-  // todo test?
-  generateItemSlicesForEachStage(items: MatchItem[], stages: number, itemsPerStage: number): MatchItem[][] {
-    const result: MatchItem[][] = [];
-    for (let i = 0; i < stages; i++) {
-      const start = i * itemsPerStage;
-      const end = start + itemsPerStage;
-      result.push(items.slice(start, end));
-    }
-
-    return result;
-  }
-
-  generateShuffledItemCopy(items: MatchItem[]): MatchItem[] {
-    const copy = [...items];
-    return this.shuffle(copy);
-  }
-
 
   /**
    * Updates the match attempts map with the given word and image IDs.

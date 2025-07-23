@@ -228,7 +228,7 @@ export class MatchWordsService {
     if (this.getCurrentStage() === DEFAULT_STAGE_COUNT - 1) {
       this.store.gameOver.set(true);
     } else {
-      this.progressStage();
+      this.store.progressStage();
     }
   }
 
@@ -261,10 +261,6 @@ export class MatchWordsService {
       ids.includes(item.id) ? {...item, matched: true} : item
     );
     this.store.stageItems.set(stageItems);
-  }
-
-  private progressStage(): void {
-    this.store.currentStage.update(stage => stage + 1);
   }
 
   getCurrentStageItems(): MatchItem[] {
