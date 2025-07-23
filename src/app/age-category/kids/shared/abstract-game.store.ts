@@ -20,10 +20,16 @@ export abstract class AbstractGameStore {
   /** The index of the current stage in the game. */
   readonly currentStage: WritableSignal<number> = signal(0);
 
+  readonly gameOver: WritableSignal<boolean> = signal(false);
+
   progressStage(): void {
+
+    const hasFinishedFinalStage = this.currentStage() === DEFAULT_STAGE_COUNT - 1;
+    if (hasFinishedFinalStage) {
+      this.gameOver.set(true);
+      return;
+    }
 
     this.currentStage.update(stage => stage + 1);
   }
-
-  readonly gameOver: WritableSignal<boolean> = signal(false);
 }

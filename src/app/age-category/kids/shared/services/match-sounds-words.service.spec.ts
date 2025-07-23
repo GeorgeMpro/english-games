@@ -104,11 +104,9 @@ describe('stage setup', () => {
     expect(store.currentStage()).toEqual(DEFAULT_STAGE_COUNT - 1);
     expect(store.gameOver()).toBeTruthy();
 
-
     // stop advancing levels
     soundService.progressStage();
     expect(store.currentStage()).toEqual(DEFAULT_STAGE_COUNT-1);
-
   });
   xit('should advance stage if stage complete', () => {
   });

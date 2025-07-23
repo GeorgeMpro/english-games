@@ -74,15 +74,9 @@ export class MatchSoundsWordsService {
 
 
   progressStage(): void {
-    const hasFinishedFinalStage = this.store.currentStage() === DEFAULT_STAGE_COUNT - 1;
-    if (hasFinishedFinalStage) {
-      this.store.gameOver.set(true);
-    }
-
-    if (!this.store.gameOver()) {
-      this.store.progressStage();
-    }
+    this.store.progressStage();
   }
+
 }
 
 // TODO
