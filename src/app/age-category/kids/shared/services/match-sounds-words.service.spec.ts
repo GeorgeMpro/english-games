@@ -12,6 +12,7 @@ import {MatchSoundsStore} from '../../match-sounds-game/match-sounds.store';
 import {ItemConverterService} from '../../../../shared/services/item-converter.service';
 import {GameLogicService} from '../../../../shared/services/game-logic.service';
 import {DEFAULT_STAGE_COUNT} from '../../../../shared/game-config.constants';
+import {MatchItem} from '../../../../shared/models/kids.models';
 
 describe('MatchSoundsWordsService', () => {
   let soundService: MatchSoundsWordsService;
@@ -60,68 +61,113 @@ describe('stage setup', () => {
     ({soundService, catService, converterService, logicService} = setupMatchSound());
   });
 
-  it('should fetch and store all chosen category items when initializing', () => {
-    const {mockWords, store} = setupGameState(categoryId);
+  describe('game initialization', () => {
 
-    expect(store.wordsFromChosenCategories()).toEqual(mockWords);
-    expect(catService.getAllWordsInGroup).toHaveBeenCalledWith(categoryId);
+    it('should fetch and store all chosen category items when initializing', () => {
+      const {mockWords, store} = setupGameState(categoryId);
+
+      expect(store.wordsFromChosenCategories()).toEqual(mockWords);
+      expect(catService.getAllWordsInGroup).toHaveBeenCalledWith(categoryId);
+    });
+
+    it('should handle multiple categories', () => {
+
+    });
+
+    it('should convert WordItems to MatchItems', () => {
+      const {store} = setupGameState(categoryId);
+
+      expect(converterService.wordItemsToMatchItems).toHaveBeenCalled()
+      expect(store.items()).not.toEqual([]);
+    });
+
+    it('should generate a shuffled copy without mutating original MatchItems', () => {
+      setupGameState(categoryId);
+
+      expect(logicService.generateShuffledItemCopy).toHaveBeenCalled();
+    });
+
+    it('should store a slice of shuffled MatchItems and generate stage items', () => {
+      const {store} = setupGameState(categoryId);
+
+      expect(logicService.generateItemSlicesForEachStage).toHaveBeenCalled();
+      expect(store.shuffledItemsSlice()).not.toEqual([]);
+      expect(store.stageItems()).not.toEqual([]);
+    });
+
+    it('should setup game items - main word for stage', () => {
+      const {store} = setupGameState(categoryId);
+
+      // already shuffled so the main word is the index 0 of each stage
+      for (let i = 0; i < DEFAULT_STAGE_COUNT; i++) {
+        const stage: MatchItem[] = store.stageItems()[i];
+        const mainWord: MatchItem = store.mainWords()[i];
+
+        expect(stage).toContain(mainWord);
+        expect(stage[0]).toEqual(mainWord);
+      }
+    });
+
+    it('should get the current main word to component', () => {
+      const {store} = setupGameState(categoryId);
+
+      // already shuffled so the main word is the index 0 of each stage
+      for (let i = 0; i < DEFAULT_STAGE_COUNT; i++) {
+        const mainWord: MatchItem = store.mainWords()[i];
+
+        expect(soundService.getCurrentMainWord()).toEqual(mainWord);
+        soundService.progressStage();
+      }
+    });
+
+
   });
 
-  it('should convert WordItems to MatchItems', () => {
-    const {store} = setupGameState(categoryId);
+  describe('stage progression', () => {
+    it(' should advance stages until game finishes, should not advance after game is complete', () => {
+      const finalStageFromZeroCount = DEFAULT_STAGE_COUNT - 1;
+      //   game start
+      const {store} = setupGameState(categoryId);
 
-    expect(converterService.wordItemsToMatchItems).toHaveBeenCalled()
-    expect(store.items()).not.toEqual([]);
+      expectStageProgression(store, DEFAULT_STAGE_COUNT);
+      expect(store.currentStage()).toEqual(finalStageFromZeroCount);
+
+      // stop advancing levels
+      soundService.progressStage();
+      expect(store.currentStage()).toEqual(finalStageFromZeroCount);
+    });
+
+    describe('game play', () => {
+
+      xit('should advance stage if stage complete', () => {
+      });
+
+      xit('should end game when finish final stage', () => {
+      });
+
+      xit('should not progress if not all items are matched', () => {
+      });
+
+      xit('should reset main words - on game end', () => {
+      });
+
+    });
+
+    function expectStageProgression(store: MatchSoundsStore, finalStage: number) {
+      let stage = 0;
+      expect(store.currentStage()).toEqual(stage);
+      for (stage; stage < finalStage; stage++) {
+        expect(store.currentStage()).toEqual(stage);
+        store.progressStage();
+      }
+
+      //   game end
+      expect(store.gameOver()).toBeTruthy();
+    }
   });
 
-  it('should generate a shuffled copy without mutating original MatchItems', () => {
-    setupGameState(categoryId);
-
-    expect(logicService.generateShuffledItemCopy).toHaveBeenCalled();
-  });
-
-  it('should store a slice of shuffled MatchItems and generate stage items', () => {
-    const {store} = setupGameState(categoryId);
-
-    expect(logicService.generateItemSlicesForEachStage).toHaveBeenCalled();
-    expect(store.shuffledItemsSlice()).not.toEqual([]);
-    expect(store.stageItems()).not.toEqual([]);
-  });
-
-  it(' should advance stages until game finishes, should not advance after game is complete', () => {
-    //   game start
-    const {store} = setupGameState(categoryId);
-    expect(store.currentStage()).toEqual(0);
-
-    //   advance stage
-    soundService.progressStage();
-    expect(store.currentStage()).toEqual(1);
-
-    soundService.progressStage();
-    soundService.progressStage();
-
-    //   game end
-    expect(store.currentStage()).toEqual(DEFAULT_STAGE_COUNT - 1);
-    expect(store.gameOver()).toBeTruthy();
-
-    // stop advancing levels
-    soundService.progressStage();
-    expect(store.currentStage()).toEqual(DEFAULT_STAGE_COUNT-1);
-  });
-  xit('should advance stage if stage complete', () => {
-  });
-
-  xit('should end game when finish final stage', () => {
-  });
-
-
-  xit('should setup game items - main word for stage', () => {
-  });
 
   xit('should not repeat main word - if possible', () => {
-  });
-
-  xit('should not progress if not all items are matched', () => {
   });
 
   function setupGameState(categoryId: number) {
@@ -157,8 +203,13 @@ describe('game completion', () => {
   });
   xit('should display end game modal and statistics', () => {
   });
-
+  xit('should reset current stage', () => {
+  });
+  xit('should reset matched status on new game, replay and rest', () => {
+  });
 });
+
+
 describe('display', () => {
   xit('should display game cards with pastel colors');
   xit('should update "matched/unmatched" classes');

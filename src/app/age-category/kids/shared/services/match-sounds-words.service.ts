@@ -23,25 +23,23 @@ export class MatchSoundsWordsService {
   }
 
 
+  initializeGame(categoryId: number): void {
+    this.getWordsFromCategory(categoryId).subscribe(words => this.setupGame(words));
+  }
+
   getWordsFromCategory(categoryId: number): Observable<WordItem[]> {
     return this.catService.getAllWordsInGroup(categoryId)
   }
 
-  getStore(): MatchSoundsStore {
-    return this.store;
-  }
-
 
   // todo update to num | num[]
-  initializeGame(categoryId: number): void {
-    this.getWordsFromCategory(categoryId).subscribe(words => this.setupGame(words));
-  }
 
   setupGame(words: WordItem[]) {
     this.setWordsFromChosenCategories(words);
     this.initializeMatchItemsFromWords(words);
     this.initializeShuffledItemsSlice();
     this.setupStages();
+    this.setupMainStageItems();
   }
 
   private setWordsFromChosenCategories(words: WordItem[]): void {
@@ -56,7 +54,7 @@ export class MatchSoundsWordsService {
 
   private initializeShuffledItemsSlice(stages: number = DEFAULT_STAGE_COUNT, itemsPerStage: number = DEFAULT_ITEMS_PER_STAGE): void {
 
-    const totalItems = stages * itemsPerStage;
+    const totalItems: number = stages * itemsPerStage;
 
     const shuffledCopy: MatchItem[] = this.logicService.generateShuffledItemCopy(this.store.items());
 
@@ -72,11 +70,28 @@ export class MatchSoundsWordsService {
     this.store.stageItems.set(shuffledItemsSlicedByStages);
   }
 
+  /**
+   * Sets the main word for each stage.
+   * Assumes that `stageItems` have already been shuffled,
+   * so the first item of each stage is used as the main word.
+   */
+  private setupMainStageItems(): void {
+    const stages = this.store.stageItems();
+    const mainItems: MatchItem[] = stages.map(stage => stage[0]);
+    this.store.mainWords.set(mainItems);
+  }
 
   progressStage(): void {
     this.store.progressStage();
   }
 
+  getStore(): MatchSoundsStore {
+    return this.store;
+  }
+
+  getCurrentMainWord() {
+    return this.store.getCurrentMainWord();
+  }
 }
 
 // TODO

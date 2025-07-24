@@ -68,6 +68,18 @@ describe('Text to speech util', () => {
 describe('MatchSoundsGameComponent', () => {
   it('should get all category words', () => {
 
-
+  });
+  xit('should update main word for each stage');
+  xit('', () => {
+  });
+  xit('', () => {
+  });
+  xit('', () => {
+  });
+  xit('', () => {
+  });
+  xit('', () => {
+  });
+  xit('', () => {
   });
 });
