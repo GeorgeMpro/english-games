@@ -5,6 +5,8 @@ import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 import {MatchSoundsGameComponent} from './match-sounds-game.component';
 import {CategoryService} from '../../../data-access/category.service';
+import {MatchSoundsWordsService} from '../shared/services/match-sounds-words.service';
+import {MatchSoundsStore} from './match-sounds.store';
 
 describe('MatchSoundsGameComponent', () => {
   let component: MatchSoundsGameComponent;
@@ -12,7 +14,13 @@ describe('MatchSoundsGameComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MatchSoundsGameComponent]
+      imports: [MatchSoundsGameComponent],
+      providers: [
+        MatchSoundsWordsService,
+        MatchSoundsStore,
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
     })
       .compileComponents();
 
@@ -34,9 +42,13 @@ describe('Text to speech util', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
+      imports: [
+        MatchSoundsGameComponent,
+      ],
       providers: [
         CategoryService,
-        MatchSoundsGameComponent,
+        MatchSoundsWordsService,
+        MatchSoundsStore,
         provideHttpClient(),
         provideHttpClientTesting()],
     });

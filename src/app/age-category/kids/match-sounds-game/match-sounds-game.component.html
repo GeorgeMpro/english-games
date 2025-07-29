@@ -13,13 +13,20 @@
     <button data-testid="slow-sound-button" (click)="onSlow()">🐢 Slow</button>
   </div>
 
-  <section class="games-grid" data-testid="choices-grid">
-    <div class="word-card" data-testid="word-option">Cat</div>
-    <div class="word-card" data-testid="word-option">Dog</div>
-    <div class="word-card" data-testid="word-option">Bird</div>
-    <div class="word-card" data-testid="word-option">Fish</div>
-    <div class="word-card" data-testid="word-option">Lion</div>
-    <div class="word-card" data-testid="word-option">Bear</div>
+  <section class="games-grid"
+           data-testid="choices-grid"
+           [style.display]="'grid'"
+           [style.grid-template-columns]="'repeat(3, 1fr)'"
+           [style.gap]="'2rem'"
+           [style.justify-content]="'center'"
+           [style.align-content]="'center'"
+           [style.text-align]="'center'">
+    @for (item of currentItems(); track item.id) {
+      <div class="word-card"
+           [style.color]="'red'">
+        {{ item.word }}
+      </div>
+    }
   </section>
 
   <div class="app-modal" data-testid="game-selector-modal">

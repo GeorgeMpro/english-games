@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 
-import {Observable} from 'rxjs';
+import {forkJoin, Observable} from 'rxjs';
 
 import {CategoryService} from '../../../../data-access/category.service';
 import {WordItem} from '../../../../data-access/api.models';
@@ -33,7 +33,6 @@ export class MatchSoundsWordsService {
 
 
   // todo update to num | num[]
-
   setupGame(words: WordItem[]) {
     this.setWordsFromChosenCategories(words);
     this.initializeMatchItemsFromWords(words);
@@ -91,6 +90,25 @@ export class MatchSoundsWordsService {
 
   getCurrentMainWord() {
     return this.store.getCurrentMainWord();
+  }
+
+  getCurrentStageItems(): any {
+    return this.store.currentStageItems();
+  }
+
+  /*New Categories */
+  newCategoriesGame(categories: number[]) {
+    const requests: Observable<WordItem[]>[] = categories.map(id => this.getWordsFromCategory(id));
+
+    // Notice: forkJoin silently resolves empty array without calling setup items.
+    // the if-clause is a guard
+    if (!categories.length) return;
+
+    forkJoin(requests).subscribe(
+      (wordGroups: WordItem[][]) => {
+        const allWordsFromGroups = wordGroups.flat();
+        this.setupGame(allWordsFromGroups);
+      });
   }
 }
 

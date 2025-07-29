@@ -1,4 +1,4 @@
-import {TestBed} from '@angular/core/testing';
+import {fakeAsync, flush, TestBed} from '@angular/core/testing';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 
@@ -70,9 +70,6 @@ describe('stage setup', () => {
       expect(catService.getAllWordsInGroup).toHaveBeenCalledWith(categoryId);
     });
 
-    it('should handle multiple categories', () => {
-
-    });
 
     it('should convert WordItems to MatchItems', () => {
       const {store} = setupGameState(categoryId);
@@ -120,7 +117,6 @@ describe('stage setup', () => {
       }
     });
 
-
   });
 
   describe('stage progression', () => {
@@ -139,6 +135,7 @@ describe('stage setup', () => {
 
     describe('game play', () => {
 
+      // todo
       xit('should advance stage if stage complete', () => {
       });
 
@@ -166,7 +163,6 @@ describe('stage setup', () => {
     }
   });
 
-
   xit('should not repeat main word - if possible', () => {
   });
 
@@ -187,6 +183,7 @@ describe('stage setup', () => {
 
 describe('match handling', () => {
 
+  // todo
   xit('should reset on false match', () => {
   });
   xit('should count unique ( first time) attempts to match', () => {
@@ -196,16 +193,79 @@ describe('match handling', () => {
 });
 
 describe('game completion', () => {
+  const categoryId = 4;
+  let soundService: MatchSoundsWordsService;
+  let catService: CategoryService;
+  let converterService: ItemConverterService;
+  let logicService: GameLogicService;
 
-  xit('should allow replay - same items re-shuffled', () => {
+  beforeEach(() => {
+    ({soundService, catService, converterService, logicService} = setupMatchSound());
   });
-  xit('should allow new game - same category or categories reshuffled', () => {
+  describe('New categories game', () => {
+
+    it('should handle multiple categories', () => {
+      //spy
+      spyOn(catService, 'getAllWordsInGroup').and.callFake((id: number) =>
+        of(fallbackDataMap[id])
+      );
+
+      // setup
+      const categories: number[] = [6, 5];
+      const store = soundService.getStore();
+      const expectedItems: MatchItem[] = categories.flatMap(id => fallbackDataMap[id]);
+      // execute
+      soundService.newCategoriesGame(categories);
+
+      // assert
+      expect(catService.getAllWordsInGroup).toHaveBeenCalledTimes(2);
+      expect(store.items().length).toEqual(expectedItems.length);
+    });
+
+    it('should do nothing if empty category array', fakeAsync(() => {
+      spyOn(catService, 'getAllWordsInGroup').and.callThrough();
+      spyOn(soundService, 'setupGame').and.callThrough();
+
+      const categories: number[] = [];
+      const store = soundService.getStore();
+
+      soundService.newCategoriesGame(categories);
+
+      flush();
+
+
+      expect(catService.getAllWordsInGroup).not.toHaveBeenCalled();
+      expect(soundService.setupGame).not.toHaveBeenCalled();
+      expect(store.items().length).toEqual(0);
+    }));
+    it('should be able to choose one new category', () => {
+
+    });
+
+    xit('should reset state after selecting new categories game', () => {
+
+    });
   });
-  xit('should display end game modal and statistics', () => {
+
+  describe('Replay', () => {
+
+    // todo
+    xit('should allow replay - same items re-shuffled', () => {
+    });
   });
-  xit('should reset current stage', () => {
+
+  describe('New game ( unchanged categories)', () => {
+    // TODO
+    xit('should allow new game - same category or categories reshuffled', () => {
+    });
   });
-  xit('should reset matched status on new game, replay and rest', () => {
+
+  describe('Resetting for new round', () => {
+    // todo
+    xit('should reset current stage', () => {
+    });
+    xit('should reset matched status on new game, replay and rest', () => {
+    });
   });
 });
 
@@ -213,7 +273,8 @@ describe('game completion', () => {
 describe('display', () => {
   xit('should display game cards with pastel colors');
   xit('should update "matched/unmatched" classes');
-
+  xit('should display end game modal and statistics', () => {
+  });
 
 });
 

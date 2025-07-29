@@ -1,4 +1,4 @@
-import {signal, WritableSignal} from '@angular/core';
+import {computed, signal, WritableSignal} from '@angular/core';
 import {WordItem} from '../../../data-access/api.models';
 import {MatchItem} from '../../../shared/models/kids.models';
 import {DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
@@ -32,4 +32,9 @@ export abstract class AbstractGameStore {
 
     this.currentStage.update(stage => stage + 1);
   }
+
+  /*Items for the current game stage*/
+  readonly currentStageItems = computed(() =>
+    this.stageItems()[this.currentStage()] ?? []
+  );
 }
