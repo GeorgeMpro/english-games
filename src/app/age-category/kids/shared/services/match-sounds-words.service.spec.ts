@@ -1,4 +1,4 @@
-import {fakeAsync, flush, TestBed} from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 
@@ -6,13 +6,13 @@ import {of} from 'rxjs';
 
 import {MatchSoundsWordsService} from './match-sounds-words.service';
 import {CategoryService} from '../../../../data-access/category.service';
-import {fallbackDataMap} from '../../match-words-game/category-json-mapper';
-import {WordItem} from '../../../../data-access/api.models';
-import {MatchSoundsStore} from '../../match-sounds-game/match-sounds.store';
 import {ItemConverterService} from '../../../../shared/services/item-converter.service';
 import {GameLogicService} from '../../../../shared/services/game-logic.service';
-import {DEFAULT_STAGE_COUNT} from '../../../../shared/game-config.constants';
+import {MatchSoundsStore} from '../../match-sounds-game/match-sounds.store';
+import {WordItem} from '../../../../data-access/api.models';
 import {MatchItem} from '../../../../shared/models/kids.models';
+import {fallbackDataMap} from '../../match-words-game/category-json-mapper';
+import {DEFAULT_STAGE_COUNT} from '../../../../shared/game-config.constants';
 
 describe('MatchSoundsWordsService', () => {
   let soundService: MatchSoundsWordsService;
@@ -45,9 +45,6 @@ describe('fetch words from category', () => {
       expect(catService.getAllWordsInGroup).toHaveBeenCalledWith(categoryId);
     });
   });
-  xit('should handle empty category - display that the category is not available at the moment', () => {
-  });
-
 });
 
 describe('stage setup', () => {
@@ -61,6 +58,7 @@ describe('stage setup', () => {
     ({soundService, catService, converterService, logicService} = setupMatchSound());
   });
 
+  // todo add the sentence to speak it
   describe('game initialization', () => {
 
     it('should fetch and store all chosen category items when initializing', () => {
@@ -120,6 +118,8 @@ describe('stage setup', () => {
   });
 
   describe('stage progression', () => {
+    // TODO
+    //  notice - use *paginate to advance stages
     it(' should advance stages until game finishes, should not advance after game is complete', () => {
       const finalStageFromZeroCount = DEFAULT_STAGE_COUNT - 1;
       //   game start
@@ -222,7 +222,7 @@ describe('game completion', () => {
       expect(store.items().length).toEqual(expectedItems.length);
     });
 
-    it('should do nothing if empty category array', fakeAsync(() => {
+    it('should do return if empty category array', () => {
       spyOn(catService, 'getAllWordsInGroup').and.callThrough();
       spyOn(soundService, 'setupGame').and.callThrough();
 
@@ -231,26 +231,33 @@ describe('game completion', () => {
 
       soundService.newCategoriesGame(categories);
 
-      flush();
-
-
       expect(catService.getAllWordsInGroup).not.toHaveBeenCalled();
       expect(soundService.setupGame).not.toHaveBeenCalled();
       expect(store.items().length).toEqual(0);
-    }));
-    it('should be able to choose one new category', () => {
-
     });
 
-    xit('should reset state after selecting new categories game', () => {
+    it('should reset state after selecting new categories game', () => {
+      spyOn(soundService, 'setupGame').and.callThrough();
+      spyOn(soundService, 'resetGameState').and.callThrough();
 
+      const store = soundService.getStore();
+
+      soundService.newCategoriesGame([4]);
+
+      expect(soundService.resetGameState).toHaveBeenCalled();
     });
   });
 
   describe('Replay', () => {
 
-    // todo
-    xit('should allow replay - same items re-shuffled', () => {
+    it('should allow replay - same items re-shuffled', () => {
+
+      //   todo
+      //    spy on replay
+      //    reset match state
+      //    spy on re-shuffle
+      //      re-shuffle the same stage*per stage items
+
     });
   });
 
@@ -266,6 +273,12 @@ describe('game completion', () => {
     });
     xit('should reset matched status on new game, replay and rest', () => {
     });
+  });
+
+//   TODO
+//    implement and test reset in each game completion
+//    notice: replay does not remove game items just reshuffles them
+  xit('should reset game state on reset', () => {
   });
 });
 

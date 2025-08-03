@@ -11,5 +11,9 @@ export class MatchSoundsStore extends AbstractGameStore {
   getCurrentMainWord(): MatchItem {
     return this.mainWords()[this.currentStage()];
   }
+
+  reset() {
+    // todo implement
+  }
 }
 

@@ -98,17 +98,31 @@ export class MatchSoundsWordsService {
 
   /*New Categories */
   newCategoriesGame(categories: number[]) {
-    const requests: Observable<WordItem[]>[] = categories.map(id => this.getWordsFromCategory(id));
-
     // Notice: forkJoin silently resolves empty array without calling setup items.
     // the if-clause is a guard
     if (!categories.length) return;
+
+    this.resetGameState();
+
+    this.processCategoryRequests(categories);
+  }
+
+  private processCategoryRequests(categories: number[]) {
+    const requests = this.generateCategoryObservables(categories);
 
     forkJoin(requests).subscribe(
       (wordGroups: WordItem[][]) => {
         const allWordsFromGroups = wordGroups.flat();
         this.setupGame(allWordsFromGroups);
       });
+  }
+
+  private generateCategoryObservables(categories: number[]) {
+    return categories.map(id => this.getWordsFromCategory(id));
+  }
+
+  resetGameState() {
+    this.store.reset();
   }
 }
 
