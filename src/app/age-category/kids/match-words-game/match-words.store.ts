@@ -11,8 +11,6 @@ import {AbstractGameStore} from '../shared/abstract-game.store';
 @Injectable({providedIn: 'root'})
 export class MatchWordsStore extends AbstractGameStore {
 
-
-
   /*Counts unique first attempts to match word - image pair*/
   readonly uniqueCorrectMatchAttemptCounter = signal(new Map<number, MatchAttempt>());
 
