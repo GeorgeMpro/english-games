@@ -137,47 +137,35 @@ describe('stage setup', () => {
     describe('game play', () => {
       let stages: number = DEFAULT_STAGE_COUNT
 
-      // todo
-      it('should finish stage when all matched', () => {
-        const {mockWords, store} = setupGameState(categoryId);
-        const start = store.currentStage();
-        const stageItems = store.currentStageItems();
+      const scenarios = [
+        {name: "advance when all matched", mutate: completeCurrentStage, delta: 1},
+        {name: "not advance when not all are matched", mutate: partlyMatchedCurrentStage, delta: 0},
+      ]
 
-        expect(start).toEqual(0);
-        expect(stageItems.every(item => !item.matched)).toBeTrue();
+      scenarios.forEach(({name, mutate, delta}) => {
+        it(`should ${name}`, () => {
+          const {store} = setupGameState(categoryId);
+          const start = store.currentStage();
 
-        //   act
-        completeCurrentStage(store);
-        expect(store.currentStageItems().length).toBeGreaterThan(0);
-        expect(store.currentStageItems().every(i => i.matched)).toBeTrue(); // <-- this is false now
+          expect(start).toEqual(0);
+          expectStage(store, start);
 
-        store.progressStage()
-        expect(store.currentStage()).toEqual(start + 1);
+          mutate(store);
+          store.progressStage();
+
+          expectStage(store, start + delta);
+        });
       });
 
-      it('should not progress if not all items are matched', () => {
-        const store = soundService.getStore();
-        const start = store.currentStage();
-        const stageItems = store.currentStageItems();
-
-        expect(start).toEqual(0);
-
-        stageItems.forEach(item => item.matched = false);
-        store.progressStage()
-        expect(store.currentStage()).toEqual(0);
-
+      it('should end game when finish final stage', () => {
+        const {store} = setupGameState(categoryId);
+        for (let i = 0; i < DEFAULT_STAGE_COUNT; i++) {
+          completeCurrentStage(store);
+          store.progressStage();
+        }
+        expect(store.currentStage()).toEqual(DEFAULT_STAGE_COUNT - 1);
+        expect(store.gameOver()).toBeTrue();
       });
-
-      xit('should advance stage if stage complete', () => {
-
-      });
-
-      xit('should end game when finish final stage', () => {
-      });
-
-      xit('should reset main words - on game end', () => {
-      });
-
     });
 
     function expectStageProgression(store: MatchSoundsStore, finalStage: number) {
@@ -345,4 +333,16 @@ function setupMatchSound() {
 
 function completeCurrentStage(store: MatchSoundsStore): void {
   store.currentStageItems().every(item => item.matched = true);
+}
+
+function partlyMatchedCurrentStage(store: MatchSoundsStore) {
+  const items = store.currentStageItems();
+  items.forEach((item, idx) => {
+    item.matched = idx < items.length - 1; // last one false
+  });
+}
+
+function expectStage(store: MatchSoundsStore, expectedStage: number): void {
+  expect(store.currentStage()).toEqual(expectedStage);
+
 }
