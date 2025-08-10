@@ -111,6 +111,7 @@ describe('stage setup', () => {
         const mainWord: MatchItem = store.mainWords()[i];
 
         expect(soundService.getCurrentMainWord()).toEqual(mainWord);
+        completeCurrentStage(store);
         soundService.progressStage();
       }
     });
@@ -134,15 +135,44 @@ describe('stage setup', () => {
     });
 
     describe('game play', () => {
+      let stages: number = DEFAULT_STAGE_COUNT
 
       // todo
+      it('should finish stage when all matched', () => {
+        const {mockWords, store} = setupGameState(categoryId);
+        const start = store.currentStage();
+        const stageItems = store.currentStageItems();
+
+        expect(start).toEqual(0);
+        expect(stageItems.every(item => !item.matched)).toBeTrue();
+
+        //   act
+        completeCurrentStage(store);
+        expect(store.currentStageItems().length).toBeGreaterThan(0);
+        expect(store.currentStageItems().every(i => i.matched)).toBeTrue(); // <-- this is false now
+
+        store.progressStage()
+        expect(store.currentStage()).toEqual(start + 1);
+      });
+
+      it('should not progress if not all items are matched', () => {
+        const store = soundService.getStore();
+        const start = store.currentStage();
+        const stageItems = store.currentStageItems();
+
+        expect(start).toEqual(0);
+
+        stageItems.forEach(item => item.matched = false);
+        store.progressStage()
+        expect(store.currentStage()).toEqual(0);
+
+      });
+
       xit('should advance stage if stage complete', () => {
+
       });
 
       xit('should end game when finish final stage', () => {
-      });
-
-      xit('should not progress if not all items are matched', () => {
       });
 
       xit('should reset main words - on game end', () => {
@@ -154,6 +184,7 @@ describe('stage setup', () => {
       let stage = 0;
       expect(store.currentStage()).toEqual(stage);
       for (stage; stage < finalStage; stage++) {
+        store.currentStageItems().every(item => item.matched = true);
         expect(store.currentStage()).toEqual(stage);
         store.progressStage();
       }
@@ -311,3 +342,7 @@ function setupMatchSound() {
   return {soundService, catService, converterService, logicService};
 }
 
+
+function completeCurrentStage(store: MatchSoundsStore): void {
+  store.currentStageItems().every(item => item.matched = true);
+}

@@ -2,6 +2,7 @@ import {computed, signal, WritableSignal} from '@angular/core';
 import {WordItem} from '../../../data-access/api.models';
 import {MatchItem} from '../../../shared/models/kids.models';
 import {DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
+import {every} from 'rxjs';
 
 export abstract class AbstractGameStore {
 
@@ -23,8 +24,13 @@ export abstract class AbstractGameStore {
   readonly gameOver: WritableSignal<boolean> = signal(false);
 
   progressStage(): void {
-
     const hasFinishedFinalStage = this.currentStage() === DEFAULT_STAGE_COUNT - 1;
+    const items = this.currentStageItems();
+    const areMatched = items.every(item => item.matched);
+
+    if (!areMatched || !items.length) {
+      return;
+    }
     if (hasFinishedFinalStage) {
       this.gameOver.set(true);
       return;

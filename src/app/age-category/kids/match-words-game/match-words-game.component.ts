@@ -37,6 +37,7 @@ export class MatchWordsGameComponent implements OnInit {
   // todo image loading
   loadedImageCount = signal<number>(0);
   allImagesLoaded = signal<boolean>(false);
+  fadePlaceholders = signal(false);
 
   readonly numberOfStages = DEFAULT_STAGE_COUNT;
 
@@ -81,11 +82,6 @@ export class MatchWordsGameComponent implements OnInit {
     });
   }
 
-  // getCardColor(index: number): string {
-  //   /* pastel hue via golden angle: index × 137.508° */
-  //   // return `hsl(${index * 137.508}, 65%, 65%)`;
-  // }
-
   getCardColor(index: number): string {
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
     const lightness = isDark ? 45 : 65;
@@ -118,7 +114,7 @@ export class MatchWordsGameComponent implements OnInit {
     return this.matchWordService.countTotalItems();
   }
 
-  // Choosing Category
+  /* Choosing Category*/
   onChooseCategory(): void {
     this.categoryModal.open();
   }
@@ -128,11 +124,7 @@ export class MatchWordsGameComponent implements OnInit {
     this.resetImageLoading();
   }
 
-
   // todo
-
-  fadePlaceholders = signal(false);
-
   onImageLoad() {
     this.loadedImageCount.set(this.loadedImageCount() + 1);
     if (this.loadedImageCount() === this.images().length) {
@@ -145,12 +137,9 @@ export class MatchWordsGameComponent implements OnInit {
   }
 
 // And always call reset logic (see previous message) on stage change/new game.
-
-
   resetImageLoading() {
     this.loadedImageCount.set(0);
     this.allImagesLoaded.set(false);
     this.fadePlaceholders.set(false);
   }
-
 }
