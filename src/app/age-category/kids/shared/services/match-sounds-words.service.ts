@@ -126,7 +126,10 @@ export class MatchSoundsWordsService {
   }
 
   processMatchAttempt(itemId: number): void {
-    if (itemId === this.getMainStageItemId()) {
+    const isAMatch = itemId === this.getMainStageItemId();
+
+    if (isAMatch) {
+      this.store.uniqueMatches.update(currentCount => currentCount + 1);
       this.getCurrentMainWord().matched = true;
       this.progressStage();
     }

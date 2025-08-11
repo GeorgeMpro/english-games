@@ -211,48 +211,66 @@ describe('match handling', () => {
     ({soundService, catService, converterService, logicService} = setupMatchSound());
   });
 
-  it('should update "matched" ', () => {
+  it('should update matched to true on correct match', () => {
     const {store} = setupGameState(categoryId);
 
     expect(store.mainWords()).not.toEqual([]);
     expect(store.stageItems()).not.toEqual([]);
     const mainWord = soundService.getCurrentMainWord();
-    const firstMainId = mainWord.id;
-    const matchingId = firstMainId;
-    soundService.processMatchAttempt(matchingId);
+    soundService.processMatchAttempt(mainWord.id);
 
     expect(mainWord.matched).toBe(true);
-    expect(firstMainId).toEqual(matchingId);
   });
-  it('should advance stage if correct match', () => {
-    const {store} = setupGameState(categoryId);
-    const stage = store.currentStage();
-    const firstId = soundService.getMainStageItemId();
 
+  it('should advance stage when correct match', () => {
+    const {store} = setupGameState(categoryId);
     spyOn(soundService, 'progressStage').and.callThrough();
 
-    soundService.processMatchAttempt(firstId);
-    expectStage(store, stage + 1);
-    expect(soundService.progressStage).toHaveBeenCalled();
+    // check unique id's
+    const seen = new Set<number>();
+    for (let stage = 0; stage < DEFAULT_STAGE_COUNT - 1; stage++) {
+      const id = soundService.getMainStageItemId();
+      expectStage(store, stage);
+      soundService.processMatchAttempt(id);
+      expect(seen.has(id)).toBeFalse();
+      seen.add(id);
 
-    const secondId = soundService.getMainStageItemId();
-
-    expect(firstId).not.toEqual(secondId);
-    soundService.processMatchAttempt(secondId);
-    expectStage(store, stage + 2);
-    expect(soundService.progressStage).toHaveBeenCalled();
+      expectStage(store, stage + 1);
+      expect(soundService.progressStage).toHaveBeenCalledTimes(stage + 1);
+    }
 
   });
 
-  xit('should unique match true if first attempt', () => {
+  const WRONG_ID = -999;
+  const scenarios = [
+    {
+      name: "count unique correct matches true if first attempt",
+      getId: (): number => soundService.getMainStageItemId(),
+      delta: DEFAULT_STAGE_COUNT
+    },
+    {name: "not increment count on false match", getId: (): number => WRONG_ID, delta: 0},
+  ]
+
+  scenarios.forEach(scenario => {
+    it(`should ${scenario.name}`, () => {
+      const {store} = setupGameState(categoryId);
+
+      for (let stage = 0; stage < DEFAULT_STAGE_COUNT; stage++) {
+        soundService.processMatchAttempt(scenario.getId());
+      }
+
+      expect(store.uniqueMatches()).toEqual(scenario.delta);
+
+    });
+  });
+
+
+  it('should not add match if already matched', () => {
   });
   xit('should not set unique on non-first time attempts', () => {
   });
-  xit('should not on false match', () => {
-  });
 
-  xit('should ', () => {
-  });
+
   xit('should ', () => {
   });
   xit('should ', () => {

@@ -9,6 +9,8 @@ export class MatchSoundsStore extends AbstractGameStore {
 
   readonly mainWords: WritableSignal<MatchItem[]> = signal([]);
 
+  readonly uniqueMatches: WritableSignal<number> = signal(0);
+
   getCurrentMainWord(): MatchItem {
     return this.mainWords()[this.currentStage()];
   }
@@ -28,5 +30,6 @@ export class MatchSoundsStore extends AbstractGameStore {
   reset() {
     // todo implement
   }
+
 }
 
