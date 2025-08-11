@@ -219,11 +219,6 @@ describe('match handling', () => {
     const mainWord = soundService.getCurrentMainWord();
     const firstMainId = mainWord.id;
     const matchingId = firstMainId;
-
-    //   todo
-    //    attempt to match correct item
-    //    check that all methods ran add
-    //
     soundService.processMatchAttempt(matchingId);
 
     expect(mainWord.matched).toBe(true);
@@ -232,14 +227,19 @@ describe('match handling', () => {
   it('should advance stage if correct match', () => {
     const {store} = setupGameState(categoryId);
     const stage = store.currentStage();
+    const firstId = soundService.getMainStageItemId();
+
     spyOn(soundService, 'progressStage').and.callThrough();
 
-    //   todo setup
-    //   spy on progress stage
-    //   expect next stage?
-    soundService.processMatchAttempt(soundService.getMainStageItemId());
+    soundService.processMatchAttempt(firstId);
+    expectStage(store, stage + 1);
+    expect(soundService.progressStage).toHaveBeenCalled();
 
-    expect(store.currentStage()).toEqual(stage + 1);
+    const secondId = soundService.getMainStageItemId();
+
+    expect(firstId).not.toEqual(secondId);
+    soundService.processMatchAttempt(secondId);
+    expectStage(store, stage + 2);
     expect(soundService.progressStage).toHaveBeenCalled();
 
   });
@@ -393,14 +393,11 @@ function setupMatchSound() {
 
 
 function completeCurrentStage(store: MatchSoundsStore): void {
-  store.currentStageItems().every(item => item.matched = true);
+  store.getCurrentMainWord().matched = true;
 }
 
 function partlyMatchedCurrentStage(store: MatchSoundsStore) {
-  const items = store.currentStageItems();
-  items.forEach((item, idx) => {
-    item.matched = idx < items.length - 1; // last one false
-  });
+  store.getCurrentMainWord().matched = false;
 }
 
 function expectStage(store: MatchSoundsStore, expectedStage: number): void {

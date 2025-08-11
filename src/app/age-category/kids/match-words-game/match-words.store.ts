@@ -2,6 +2,7 @@ import {computed, Injectable, signal, WritableSignal} from '@angular/core';
 import {ImageCard, MatchAttempt, MatchItem, WordCard} from '../../../shared/models/kids.models';
 import {WordItem} from '../../../data-access/api.models';
 import {AbstractGameStore} from '../shared/abstract-game.store';
+import {DEFAULT_STAGE_COUNT} from '../../../shared/game-config.constants';
 
 /**
  * Central reactive store for Match Words game state.
@@ -34,5 +35,20 @@ export class MatchWordsStore extends AbstractGameStore {
     this.selectedWordId.set(undefined);
     this.selectedImageId.set(undefined);
     this.matchAttemptMessage.set('');
+  }
+  progressStage(): void {
+    const hasFinishedFinalStage = this.currentStage() === DEFAULT_STAGE_COUNT - 1;
+    const items = this.currentStageItems();
+    const areMatched = items.every(item => item.matched);
+
+    if (!areMatched || !items.length) {
+      return;
+    }
+    if (hasFinishedFinalStage) {
+      this.gameOver.set(true);
+      return;
+    }
+
+    this.currentStage.update(stage => stage + 1);
   }
 }

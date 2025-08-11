@@ -23,21 +23,7 @@ export abstract class AbstractGameStore {
 
   readonly gameOver: WritableSignal<boolean> = signal(false);
 
-  progressStage(): void {
-    const hasFinishedFinalStage = this.currentStage() === DEFAULT_STAGE_COUNT - 1;
-    const items = this.currentStageItems();
-    const areMatched = items.every(item => item.matched);
-
-    if (!areMatched || !items.length) {
-      return;
-    }
-    if (hasFinishedFinalStage) {
-      this.gameOver.set(true);
-      return;
-    }
-
-    this.currentStage.update(stage => stage + 1);
-  }
+  abstract progressStage(): void;
 
   /*Items for the current game stage*/
   readonly currentStageItems = computed(() =>
