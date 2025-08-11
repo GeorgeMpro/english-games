@@ -65,6 +65,7 @@ export class GameLogicService {
     return result;
   }
 
+  /*Matching*/
   markMatched<T extends { id: number; matched: boolean }>(cards: T[], id: number): T[] {
     return cards.map(card => card.id === id ? {...card, matched: true} : card);
   }
@@ -86,10 +87,6 @@ export class GameLogicService {
       updatedImages: isCorrect ? this.markMatched(images, wordId) : images,
       message: this.setCardMatchFeedback(isCorrect)
     };
-  }
-
-  setCardMatchFeedback(isCorrect: boolean): string {
-    return isCorrect ? '✅ Correct!' : '❌ Try again.';
   }
 
   /**
@@ -127,6 +124,10 @@ export class GameLogicService {
     });
 
     return newMap;
+  }
+
+  setCardMatchFeedback(isCorrect: boolean): string {
+    return isCorrect ? '✅ Correct!' : '❌ Try again.';
   }
 }
 

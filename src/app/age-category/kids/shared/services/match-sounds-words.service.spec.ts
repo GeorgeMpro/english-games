@@ -201,14 +201,75 @@ describe('stage setup', () => {
 });
 
 describe('match handling', () => {
+  const categoryId = 4;
+  let soundService: MatchSoundsWordsService;
+  let catService: CategoryService;
+  let converterService: ItemConverterService;
+  let logicService: GameLogicService;
 
-  // todo
-  xit('should reset on false match', () => {
+  beforeEach(() => {
+    ({soundService, catService, converterService, logicService} = setupMatchSound());
   });
-  xit('should count unique ( first time) attempts to match', () => {
+
+  it('should update "matched" ', () => {
+    const {store} = setupGameState(categoryId);
+
+    expect(store.mainWords()).not.toEqual([]);
+    expect(store.stageItems()).not.toEqual([]);
+    const mainWord = soundService.getCurrentMainWord();
+    const firstMainId = mainWord.id;
+    const matchingId = firstMainId;
+
+    //   todo
+    //    attempt to match correct item
+    //    check that all methods ran add
+    //
+    soundService.processMatchAttempt(matchingId);
+
+    expect(mainWord.matched).toBe(true);
+    expect(firstMainId).toEqual(matchingId);
   });
-  xit('should update "matched" and make the matched unplayable', () => {
+  it('should advance stage if correct match', () => {
+    const {store} = setupGameState(categoryId);
+    const stage = store.currentStage();
+    spyOn(soundService, 'progressStage').and.callThrough();
+
+    //   todo setup
+    //   spy on progress stage
+    //   expect next stage?
+    soundService.processMatchAttempt(soundService.getMainStageItemId());
+
+    expect(store.currentStage()).toEqual(stage + 1);
+    expect(soundService.progressStage).toHaveBeenCalled();
+
   });
+
+  xit('should unique match true if first attempt', () => {
+  });
+  xit('should not set unique on non-first time attempts', () => {
+  });
+  xit('should not on false match', () => {
+  });
+
+  xit('should ', () => {
+  });
+  xit('should ', () => {
+  });
+  xit('should ', () => {
+  });
+
+  function setupGameState(categoryId: number) {
+    const mockWords: WordItem[] = fallbackDataMap[categoryId];
+    // Spies setup
+    spyOn(catService, 'getAllWordsInGroup').and.returnValue(of(mockWords));
+    spyOn(converterService, "wordItemsToMatchItems").and.callThrough();
+    spyOn(logicService, 'generateShuffledItemCopy').and.callThrough();
+    spyOn(logicService, 'generateItemSlicesForEachStage').and.callThrough();
+
+    soundService.initializeGame(categoryId);
+
+    return {mockWords, store: soundService.getStore()}
+  }
 });
 
 describe('game completion', () => {

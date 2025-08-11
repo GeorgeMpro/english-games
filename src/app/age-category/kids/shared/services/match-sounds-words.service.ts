@@ -88,7 +88,7 @@ export class MatchSoundsWordsService {
     return this.store;
   }
 
-  getCurrentMainWord() {
+  getCurrentMainWord(): MatchItem {
     return this.store.getCurrentMainWord();
   }
 
@@ -123,6 +123,18 @@ export class MatchSoundsWordsService {
 
   resetGameState() {
     this.store.reset();
+  }
+
+  processMatchAttempt(itemId: number): void {
+    if (itemId === this.getMainStageItemId()) {
+      this.getCurrentMainWord().matched = true;
+      this.progressStage();
+    }
+  }
+
+  // todo move to store?
+  getMainStageItemId(): number {
+    return this.getCurrentMainWord().id;
   }
 }
 
