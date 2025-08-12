@@ -65,7 +65,10 @@ export class MatchSoundsStore extends AbstractGameStore {
   }
 
   reset() {
-    // todo implement
+    this.currentStage.set(0);
+    this.resetStageAttempts();
+    this.gameOver.set(false);
+    this.mainWords.set([]);
   }
 
 

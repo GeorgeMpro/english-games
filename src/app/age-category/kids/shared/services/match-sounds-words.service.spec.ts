@@ -308,6 +308,7 @@ describe('game completion', () => {
   beforeEach(() => {
     ({soundService, catService, converterService, logicService} = setupMatchSound());
   });
+
   describe('New categories game', () => {
 
     it('should handle multiple categories', () => {
@@ -353,16 +354,49 @@ describe('game completion', () => {
   });
 
   describe('Replay', () => {
+    const categoryId = 4;
 
-    it('should allow replay - same items re-shuffled', () => {
-      const {store} = setupGameState(4);
+    it('should keep same items but change order', () => { /* spy & expect */
+      const {store} = setupGameState(categoryId);
+      const original = store.items();
+
+      // reach game end
+      for (let stage = 0; stage < 3; stage++) {
+        soundService.processMatchAttempt(soundService.getMainStageItemId());
+      }
+
+      expect(store.gameOver()).toBeTrue();
+      expect(store.currentStage()).toEqual(2)
+      expect(store.mainWords().every(w => w.matched)).toBeTrue();
+
+      // replay
+      soundService.replay();
+
+      const replayed = store.items();
+
+      expect(store.currentStage()).toEqual(0)
+      expect(replayed.length).toEqual(original.length);
+      expect(store.mainWords().some(w => w.matched)).toBeFalse();
+      expect(store.gameOver()).toBeFalse();
 
       //   todo
-      //    spy on replay
-      //    reset match state
-      //    spy on re-shuffle
-      //      re-shuffle the same stage*per stage items
+      //    spy on - reshufffle
 
+      //   todo
+      //    reset main match
+      //    reset stages
+      //    reset stage
+
+
+    });
+
+    it('should reset match state on replay', () => { /* check all matched false */
+    });
+
+    it('should reshuffle items on replay', () => { /* spy & expect called */
+    });
+
+    it('should keep same items but in different order', () => {
     });
 
     function setupGameState(categoryId: number) {

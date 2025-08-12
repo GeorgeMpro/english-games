@@ -150,6 +150,11 @@ export class MatchSoundsWordsService {
   getMainStageItemId(): number {
     return this.store.getMainWordId();
   }
+
+  replay() {
+    this.resetGameState();
+
+  }
 }
 
 // TODO
