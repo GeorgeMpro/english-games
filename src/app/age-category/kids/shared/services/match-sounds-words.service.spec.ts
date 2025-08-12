@@ -357,16 +357,15 @@ describe('game completion', () => {
     const categoryId = 4;
 
     it('should keep same items but change order', () => { /* spy & expect */
+      const firstStage = 0;
+      const finalStage = 2;
       const {store} = setupGameState(categoryId);
       const original = store.items();
 
-      // reach game end
-      for (let stage = 0; stage < 3; stage++) {
-        soundService.processMatchAttempt(soundService.getMainStageItemId());
-      }
+      reachGameEnd(finalStage);
 
       expect(store.gameOver()).toBeTrue();
-      expect(store.currentStage()).toEqual(2)
+      expectStage(store, finalStage);
       expect(store.mainWords().every(w => w.matched)).toBeTrue();
 
       // replay
@@ -374,26 +373,15 @@ describe('game completion', () => {
 
       const replayed = store.items();
 
-      expect(store.currentStage()).toEqual(0)
+      expectStage(store, firstStage);
       expect(replayed.length).toEqual(original.length);
       expect(store.mainWords().some(w => w.matched)).toBeFalse();
       expect(store.gameOver()).toBeFalse();
+    });
 
+    it('should reshuffle items on replay', () => {
       //   todo
       //    spy on - reshufffle
-
-      //   todo
-      //    reset main match
-      //    reset stages
-      //    reset stage
-
-
-    });
-
-    it('should reset match state on replay', () => { /* check all matched false */
-    });
-
-    it('should reshuffle items on replay', () => { /* spy & expect called */
     });
 
     it('should keep same items but in different order', () => {
@@ -410,6 +398,12 @@ describe('game completion', () => {
       soundService.initializeGame(categoryId);
 
       return {mockWords, store: soundService.getStore()}
+    }
+
+    function reachGameEnd(finalStage: number) {
+      for (let stage = 0; stage <= finalStage; stage++) {
+        soundService.processMatchAttempt(soundService.getMainStageItemId());
+      }
     }
   });
 
