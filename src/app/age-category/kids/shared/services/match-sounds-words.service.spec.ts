@@ -58,7 +58,6 @@ describe('stage setup', () => {
     ({soundService, catService, converterService, logicService} = setupMatchSound());
   });
 
-  // todo add the sentence to speak it
   describe('game initialization', () => {
 
     it('should fetch and store all chosen category items when initializing', () => {
@@ -119,8 +118,6 @@ describe('stage setup', () => {
   });
 
   describe('stage progression', () => {
-    // TODO
-    //  notice - use *paginate to advance stages
     it(' should advance stages until game finishes, should not advance after game is complete', () => {
       const finalStageFromZeroCount = DEFAULT_STAGE_COUNT - 1;
       //   game start
@@ -135,7 +132,6 @@ describe('stage setup', () => {
     });
 
     describe('game play', () => {
-      let stages: number = DEFAULT_STAGE_COUNT
 
       const scenarios = [
         {name: "advance when all matched", mutate: completeCurrentStage, delta: 1},
@@ -197,7 +193,6 @@ describe('stage setup', () => {
 
     return {mockWords, store: soundService.getStore()}
   }
-
 });
 
 describe('match handling', () => {
@@ -213,13 +208,14 @@ describe('match handling', () => {
 
   it('should update matched to true on correct match', () => {
     const {store} = setupGameState(categoryId);
-
+    const stage = store.currentStage();
     expect(store.mainWords()).not.toEqual([]);
     expect(store.stageItems()).not.toEqual([]);
     const mainWord = soundService.getCurrentMainWord();
     soundService.processMatchAttempt(mainWord.id);
 
-    expect(mainWord.matched).toBe(true);
+    expect(store.mainWords()[stage].matched).toBeTrue();
+    expect(store.mainWords()[stage + 1].matched).toBeFalse();
   });
 
   it('should advance stage when correct match', () => {
@@ -259,21 +255,33 @@ describe('match handling', () => {
         soundService.processMatchAttempt(scenario.getId());
       }
 
-      expect(store.uniqueMatches()).toEqual(scenario.delta);
-
+      expect(store.firstTryMatch()).toEqual(scenario.delta);
     });
   });
 
+  it('should count unique correct attempt on correct first try', () => {
+    const {store} = setupGameState(categoryId);
+    const stage = store.currentStage();
+    spyOn(store, 'resetStageAttempts').and.callThrough();
 
-  it('should not add match if already matched', () => {
-  });
-  xit('should not set unique on non-first time attempts', () => {
-  });
+    expect(store.currentStage()).toEqual(stage);
+    expect(store.attemptsThisStage()).toEqual(0);
 
+    // stage 0: correct on first
+    soundService.processMatchAttempt(soundService.getMainStageItemId());
+    expect(store.resetStageAttempts).toHaveBeenCalledTimes(1);
+    expect(store.firstTryMatch()).toEqual(1);
 
-  xit('should ', () => {
-  });
-  xit('should ', () => {
+    // stage 1: wrong then correct
+    expect(store.currentStage()).toEqual(stage + 1);
+    expect(store.attemptsThisStage()).toEqual(0);
+    soundService.processMatchAttempt(WRONG_ID);
+    soundService.processMatchAttempt(soundService.getMainStageItemId());
+
+    // stage 2
+    expect(store.firstTryMatch()).toEqual(1);
+    expect(store.resetStageAttempts).toHaveBeenCalledTimes(2);
+    expect(store.currentStage()).toEqual(stage + 2);
   });
 
   function setupGameState(categoryId: number) {
@@ -291,7 +299,6 @@ describe('match handling', () => {
 });
 
 describe('game completion', () => {
-  const categoryId = 4;
   let soundService: MatchSoundsWordsService;
   let catService: CategoryService;
   let converterService: ItemConverterService;
@@ -337,8 +344,6 @@ describe('game completion', () => {
     it('should reset state after selecting new categories game', () => {
       spyOn(soundService, 'setupGame').and.callThrough();
       spyOn(soundService, 'resetGameState').and.callThrough();
-
-      const store = soundService.getStore();
 
       soundService.newCategoriesGame([4]);
 

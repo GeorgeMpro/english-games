@@ -126,28 +126,33 @@ export class MatchSoundsWordsService {
   }
 
   processMatchAttempt(itemId: number): void {
-    const isAMatch = itemId === this.getMainStageItemId();
+    this.incrementMatchAttempts();
 
-    if (isAMatch) {
-      this.store.uniqueMatches.update(currentCount => currentCount + 1);
-      this.getCurrentMainWord().matched = true;
+    if (this.isCorrectMatch(itemId)) {
+      this.matchMainWord();
       this.progressStage();
     }
   }
 
-  // todo move to store?
+  private matchMainWord(): void {
+    this.store.matchMainWord();
+  }
+
+  private isCorrectMatch(itemId: number): boolean {
+    return this.store.isCorrectMatch(itemId);
+  }
+
+  private incrementMatchAttempts() {
+    this.store.incrementAttempts();
+  }
+
+// todo move to store?
   getMainStageItemId(): number {
-    return this.getCurrentMainWord().id;
+    return this.store.getMainWordId();
   }
 }
 
 // TODO
-//  get words
-//  copy items
-//  shuffle copy items
-//  get item slice for game
-//  crate match items from words
-//  generate stages for items in slice
 //  select word to say in each stage
 //  display the words
 //  can interact with the words
