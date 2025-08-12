@@ -95,3 +95,9 @@ describe('MatchSoundsGameComponent', () => {
   xit('', () => {
   });
 });
+describe('display', () => {
+  xit('should display game cards with pastel colors');
+  xit('should update "matched/unmatched" classes');
+  xit('should display end game modal and statistics', () => {
+  });
+});

@@ -162,6 +162,7 @@ describe('stage setup', () => {
         expect(store.currentStage()).toEqual(DEFAULT_STAGE_COUNT - 1);
         expect(store.gameOver()).toBeTrue();
       });
+
     });
 
     function expectStageProgression(store: MatchSoundsStore, finalStage: number) {
@@ -354,6 +355,7 @@ describe('game completion', () => {
   describe('Replay', () => {
 
     it('should allow replay - same items re-shuffled', () => {
+      const {store} = setupGameState(4);
 
       //   todo
       //    spy on replay
@@ -362,6 +364,19 @@ describe('game completion', () => {
       //      re-shuffle the same stage*per stage items
 
     });
+
+    function setupGameState(categoryId: number) {
+      const mockWords: WordItem[] = fallbackDataMap[categoryId];
+      // Spies setup
+      spyOn(catService, 'getAllWordsInGroup').and.returnValue(of(mockWords));
+      spyOn(converterService, "wordItemsToMatchItems").and.callThrough();
+      spyOn(logicService, 'generateShuffledItemCopy').and.callThrough();
+      spyOn(logicService, 'generateItemSlicesForEachStage').and.callThrough();
+
+      soundService.initializeGame(categoryId);
+
+      return {mockWords, store: soundService.getStore()}
+    }
   });
 
   describe('New game ( unchanged categories)', () => {
@@ -385,14 +400,6 @@ describe('game completion', () => {
   });
 });
 
-
-describe('display', () => {
-  xit('should display game cards with pastel colors');
-  xit('should update "matched/unmatched" classes');
-  xit('should display end game modal and statistics', () => {
-  });
-
-});
 
 function setupMatchSound() {
   TestBed.configureTestingModule({
