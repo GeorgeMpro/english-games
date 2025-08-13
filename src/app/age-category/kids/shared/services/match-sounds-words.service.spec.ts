@@ -300,6 +300,10 @@ describe('match handling', () => {
 });
 
 describe('game completion', () => {
+  const firstStage = 0;
+  const finalStage = 2;
+  const categoryId = 4;
+
   let soundService: MatchSoundsWordsService;
   let catService: CategoryService;
   let converterService: ItemConverterService;
@@ -309,6 +313,7 @@ describe('game completion', () => {
     ({soundService, catService, converterService, logicService} = setupMatchSound());
   });
 
+  // todo implement new categories?
   describe('New categories game', () => {
 
     it('should handle multiple categories', () => {
@@ -354,9 +359,6 @@ describe('game completion', () => {
   });
 
   describe('Replay', () => {
-    const firstStage = 0;
-    const finalStage = 2;
-    const categoryId = 4;
 
     it('should keep same items but change order', () => { /* spy & expect */
       const {store} = setupGameState(categoryId);
@@ -400,19 +402,30 @@ describe('game completion', () => {
       expect(beforeSorted).toEqual(afterSorted);
     });
 
-    function getComparableStageItems(store: MatchSoundsStore) {
-      const items = store.stageItems().flat();
-      const ids = items.map(item => item.id);
-      const sortedIds = [...ids].sort((a, b) => a - b);
-
-      return {items, ids, sortedIds};
-    }
 
   });
 
   describe('New game ( unchanged categories)', () => {
-    // TODO
-    xit('should allow new game - same category or categories reshuffled', () => {
+    it('should reshuffle all items and create new slice', () => {
+      const {store} = setupGameState(categoryId);
+      const {items: before, ids: beforeIds, sortedIds: beforeSorted} = getComparableStageItems(store);
+
+      spyOn(soundService, 'resetGameState').and.callThrough();
+
+      // act
+      reachGameEnd(finalStage);
+      soundService.newGame();
+
+      const {items: after, ids: afterIds, sortedIds: afterSorted} = getComparableStageItems(store);
+
+      expect(logicService.generateShuffledItemCopy).toHaveBeenCalled();
+      expect(logicService.generateItemSlicesForEachStage).toHaveBeenCalled();
+      expect(soundService.resetGameState).toHaveBeenCalled();
+
+      expect(after.length).toEqual(before.length);
+      // different order
+      expect(afterIds).not.toEqual(beforeIds);
+      expect(beforeSorted).not.toEqual(afterSorted);
     });
   });
 
@@ -424,11 +437,6 @@ describe('game completion', () => {
     });
   });
 
-//   TODO
-//    implement and test reset in each game completion
-//    notice: replay does not remove game items just reshuffles them
-  xit('should reset game state on reset', () => {
-  });
 
 
   function reachGameEnd(finalStage: number) {
@@ -448,6 +456,14 @@ describe('game completion', () => {
     soundService.initializeGame(categoryId);
 
     return {mockWords, store: soundService.getStore()}
+  }
+
+  function getComparableStageItems(store: MatchSoundsStore) {
+    const items = store.stageItems().flat();
+    const ids = items.map(item => item.id);
+    const sortedIds = [...ids].sort((a, b) => a - b);
+
+    return {items, ids, sortedIds};
   }
 });
 

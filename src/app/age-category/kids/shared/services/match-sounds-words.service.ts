@@ -171,6 +171,12 @@ export class MatchSoundsWordsService {
     )
   }
 
+  /* New Game */
+  newGame(): void {
+    this.resetGameState();
+    this.initializeShuffledItemsSlice();
+    this.setupGameItems();
+  }
 }
 
 // TODO

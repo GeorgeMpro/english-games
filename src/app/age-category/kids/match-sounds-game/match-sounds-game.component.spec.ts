@@ -7,6 +7,8 @@ import {MatchSoundsGameComponent} from './match-sounds-game.component';
 import {CategoryService} from '../../../data-access/category.service';
 import {MatchSoundsWordsService} from '../shared/services/match-sounds-words.service';
 import {MatchSoundsStore} from './match-sounds.store';
+import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
+import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
 
 describe('MatchSoundsGameComponent', () => {
   let component: MatchSoundsGameComponent;
@@ -30,6 +32,8 @@ describe('MatchSoundsGameComponent', () => {
   });
 
   it('should create', () => {
+    fixture.detectChanges();
+
     expect(component).toBeTruthy();
   });
 });
@@ -74,6 +78,81 @@ describe('Text to speech util', () => {
     jasmine.clock().tick(1);
     expect(speakSpy).toHaveBeenCalled();
   });
+});
+
+describe('End Game Buttons', () => {
+  let soundService: MatchSoundsWordsService;
+  let component: MatchSoundsGameComponent;
+  let fixture: ComponentFixture<MatchSoundsGameComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [
+        MatchSoundsGameComponent,
+        EndGameModalComponent
+      ],
+      providers: [
+        MatchSoundsWordsService,
+        MatchSoundsStore,
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    })
+    fixture = TestBed.createComponent(MatchSoundsGameComponent);
+    component = fixture.componentInstance;
+    soundService = TestBed.inject(MatchSoundsWordsService);
+    fixture.detectChanges();
+  });
+
+  describe('New Game', () => {
+    const scenarios = [
+      {testId: 'new-game-button', method: 'newGame',},
+      {testId: 'replay-button', method: 'replayGame'},
+    ]
+
+    scenarios.forEach(s => {
+      it(`Clicking ${s.testId} calls ${s.method}`, () => {
+        const spy = spyOn(component, s.method as keyof MatchSoundsGameComponent).and.callThrough();
+        const store = soundService.getStore();
+        store.gameOver.set(true);
+        fixture.detectChanges();
+
+        const btn = getElementByDataTestId(fixture, s.testId);
+        btn.click();
+
+        expect(btn).toBeTruthy();
+        expect(spy).toHaveBeenCalled();
+      });
+    });
+
+    it('should call new game onNewGame()', () => {
+      spyOn(component, 'newGame').and.callThrough();
+      const store = soundService.getStore();
+      store.gameOver.set(true);
+      fixture.detectChanges();
+
+      const btn = getElementByDataTestId(fixture, 'new-game-button')
+      btn.click();
+
+      expect(btn).toBeTruthy();
+      expect(component.newGame).toHaveBeenCalled();
+    });
+  });
+
+  describe('Replay', () => {
+    it('should call replay onReplay()', () => {
+
+    });
+  })
+
+  describe('New Categories Game', () => {
+
+    it('should call new game with chosen categories', () => {
+
+    });
+
+  })
+
 });
 
 

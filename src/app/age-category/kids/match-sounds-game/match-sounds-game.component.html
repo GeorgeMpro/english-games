@@ -1,10 +1,21 @@
-<section class="match-sounds-game" data-testid="match-sounds-game">
+<!--  todo delete all-->
+<section
+  class="match-sounds-game"
+  data-testid="match-sounds-game">
   <h2>Match the Word by Sound</h2>
 
   <button class="choose-category-button"
           data-testid="choose-in-sound-button">
     Choose Category
   </button>
+
+
+  @if (gameOver()) {
+    <app-end-game-modal
+      (newGameClicked)="newGame()"
+      (replayClicked)="replayGame()"
+    ></app-end-game-modal>
+  }
 
   <p class="current-sound" data-testid="current-sound-label">🔊 Sound: "{{ currentWord() }}"</p>
 
@@ -38,3 +49,4 @@
   </div>
   <!--  }-->
 </section>
+

@@ -1,22 +1,32 @@
-import {Component, effect, OnInit, signal, WritableSignal} from '@angular/core';
+import {Component, effect, inject, OnInit, signal, WritableSignal} from '@angular/core';
 
 import {SoundService} from '../shared/services/sound.service';
 import {MatchSoundsWordsService} from '../shared/services/match-sounds-words.service';
 import {MatchItem} from '../../../shared/models/kids.models';
+import {MatchSoundsStore} from './match-sounds.store';
+import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
 
 @Component({
   selector: 'app-match-sounds-game',
-  imports: [],
+  imports: [
+    EndGameModalComponent
+  ],
   templateUrl: './match-sounds-game.component.html',
   styleUrl: './match-sounds-game.component.scss'
 })
 export class MatchSoundsGameComponent implements OnInit {
   isSelectorOpen: any;
-  readonly currentWord = signal('');
+  private readonly soundService = inject(SoundService);
+  private readonly matchSoundsService = inject(MatchSoundsWordsService);
+  private readonly store = inject(MatchSoundsStore);
+
+  readonly gameOver = this.store.gameOver;
+
+  // TODO just dummy below
+  currentWord = signal('');
   readonly currentItems: WritableSignal<MatchItem[]> = signal([]);
 
-  constructor(private soundService: SoundService,
-              private matchSoundsService: MatchSoundsWordsService) {
+  constructor() {
     effect(() => {
       // Notice: decided upon taking the first word in stage as main
       const chosenWordLoc = 0;
@@ -38,5 +48,13 @@ export class MatchSoundsGameComponent implements OnInit {
 
   onSlow(): void {
     this.soundService.speak(this.currentWord(), 0.5);
+  }
+
+  newGame() {
+    this.matchSoundsService.newGame();
+  }
+
+  replayGame() {
+    this.matchSoundsService.replay();
   }
 }
