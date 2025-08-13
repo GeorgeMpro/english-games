@@ -104,54 +104,40 @@ describe('End Game Buttons', () => {
     fixture.detectChanges();
   });
 
-  describe('New Game', () => {
-    const scenarios = [
-      {testId: 'new-game-button', method: 'newGame',},
-      {testId: 'replay-button', method: 'replayGame'},
-    ]
+  const scenarios = [
+    {testId: 'new-game-button', method: 'newGame',},
+    {testId: 'replay-button', method: 'replayGame'},
+    {testId: 'choose-button', method: 'openChooser',},
+    {testId: 'choose-in-match-button', method: 'openChooser',},
+  ]
 
-    scenarios.forEach(s => {
-      it(`Clicking ${s.testId} calls ${s.method}`, () => {
-        const spy = spyOn(component, s.method as keyof MatchSoundsGameComponent).and.callThrough();
-        const store = soundService.getStore();
-        store.gameOver.set(true);
-        fixture.detectChanges();
-
-        const btn = getElementByDataTestId(fixture, s.testId);
-        btn.click();
-
-        expect(btn).toBeTruthy();
-        expect(spy).toHaveBeenCalled();
-      });
-    });
-
-    it('should call new game onNewGame()', () => {
-      spyOn(component, 'newGame').and.callThrough();
+  scenarios.forEach(s => {
+    it(`Clicking ${s.testId} calls ${s.method}`, () => {
+      const spy = spyOn(component, s.method as keyof MatchSoundsGameComponent).and.callThrough();
       const store = soundService.getStore();
       store.gameOver.set(true);
       fixture.detectChanges();
 
-      const btn = getElementByDataTestId(fixture, 'new-game-button')
+      const btn = getElementByDataTestId(fixture, s.testId);
       btn.click();
 
       expect(btn).toBeTruthy();
-      expect(component.newGame).toHaveBeenCalled();
+      expect(spy).toHaveBeenCalled();
     });
   });
 
-  describe('Replay', () => {
-    it('should call replay onReplay()', () => {
+  it('should call new game onNewGame()', () => {
+    spyOn(component, 'newGame').and.callThrough();
+    const store = soundService.getStore();
+    store.gameOver.set(true);
+    fixture.detectChanges();
 
-    });
-  })
+    const btn = getElementByDataTestId(fixture, 'new-game-button')
+    btn.click();
 
-  describe('New Categories Game', () => {
-
-    it('should call new game with chosen categories', () => {
-
-    });
-
-  })
+    expect(btn).toBeTruthy();
+    expect(component.newGame).toHaveBeenCalled();
+  });
 
 });
 

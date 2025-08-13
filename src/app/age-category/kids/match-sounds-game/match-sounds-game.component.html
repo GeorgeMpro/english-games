@@ -4,9 +4,10 @@
   data-testid="match-sounds-game">
   <h2>Match the Word by Sound</h2>
 
-  <button class="choose-category-button"
-          data-testid="choose-in-sound-button">
-    Choose Category
+  <button data-testid="choose-in-match-button"
+          class="choose-category-button"
+          (click)="openChooser()">
+    <span>Change Categories</span>
   </button>
 
 
@@ -14,8 +15,13 @@
     <app-end-game-modal
       (newGameClicked)="newGame()"
       (replayClicked)="replayGame()"
+      (chooseClicked)="openChooser()"
     ></app-end-game-modal>
   }
+  <app-category-chooser-modal
+    (submit)="newCategoriesGame($event)"></app-category-chooser-modal>
+
+  <!--  TODO wire up game play-->
 
   <p class="current-sound" data-testid="current-sound-label">🔊 Sound: "{{ currentWord() }}"</p>
 
