@@ -9,6 +9,11 @@ import {MatchSoundsWordsService} from '../shared/services/match-sounds-words.ser
 import {MatchSoundsStore} from './match-sounds.store';
 import {getElementByDataTestId} from '../../../shared/tests/dom-test-utils';
 import {EndGameModalComponent} from '../../../shared/components/end-game-modal/end-game-modal.component';
+import {By} from '@angular/platform-browser';
+import {
+  CategoryChooserModalComponent
+} from '../../../shared/components/category-chooser-modal/category-chooser-modal.component';
+import {WordGroup} from '../../../data-access/api.models';
 
 describe('MatchSoundsGameComponent', () => {
   let component: MatchSoundsGameComponent;
@@ -80,7 +85,7 @@ describe('Text to speech util', () => {
   });
 });
 
-describe('End Game Buttons', () => {
+describe('Game Play Buttons', () => {
   let soundService: MatchSoundsWordsService;
   let component: MatchSoundsGameComponent;
   let fixture: ComponentFixture<MatchSoundsGameComponent>;
@@ -126,17 +131,21 @@ describe('End Game Buttons', () => {
     });
   });
 
-  it('should call new game onNewGame()', () => {
-    spyOn(component, 'newGame').and.callThrough();
-    const store = soundService.getStore();
-    store.gameOver.set(true);
+  it('should start new game with chosen categories', () => {
+    spyOn(component, 'newCategoriesGame').and.callThrough();
+
+    const chooser = fixture.debugElement.query(By.directive(CategoryChooserModalComponent)).componentInstance as CategoryChooserModalComponent;
+    const chosen: WordGroup[] = [
+      {id: 1, title: 'Animals'} as WordGroup,
+      {id: 2, title: 'Colors'} as WordGroup,
+    ];
+
+    chooser.submit.emit(chosen);
     fixture.detectChanges();
 
-    const btn = getElementByDataTestId(fixture, 'new-game-button')
-    btn.click();
-
-    expect(btn).toBeTruthy();
-    expect(component.newGame).toHaveBeenCalled();
+    expect(component.newCategoriesGame).toHaveBeenCalledWith(chosen);
+    // Optional assertion if you expose a signal for selections:
+    // expect(comp.selectedCategories()).toEqual(chosen);
   });
 
 });
