@@ -153,18 +153,21 @@ export class MatchSoundsWordsService {
   }
 
   /* Replay */
-  replay() {
+  replay(): void {
     this.resetGameState();
     this.reshuffleSlice();
     this.setupGameItems();
   }
 
-  private reshuffleSlice(stages: number = DEFAULT_STAGE_COUNT, itemsPerStage: number = DEFAULT_ITEMS_PER_STAGE) {
-    const totalItems: number = stages * itemsPerStage;
-    const shuffledCopy: MatchItem[] = this.logicService.generateShuffledItemCopy(this.store.stageItems().flat());
+  private reshuffleSlice(
+    stages: number = DEFAULT_STAGE_COUNT,
+    itemsPerStage: number = DEFAULT_ITEMS_PER_STAGE
+  ): void {
+    const flatStageItems: MatchItem[] = this.store.stageItems().flat();
+    const shuffledCopy: MatchItem[] = this.logicService.generateShuffledItemCopy(flatStageItems);
 
     this.store.shuffledItemsSlice.set(
-      shuffledCopy.slice(0, totalItems)
+      shuffledCopy.slice(0, stages * itemsPerStage)
     )
   }
 

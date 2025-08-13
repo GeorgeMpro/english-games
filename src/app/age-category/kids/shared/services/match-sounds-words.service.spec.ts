@@ -380,29 +380,33 @@ describe('game completion', () => {
     });
 
     it('should reshuffle items on replay', () => {
-      //   todo
-      //    spy on - reshuffle, replay, generate slice for each stage
-      //    same items (id? word?) but different location
       const {store} = setupGameState(categoryId);
-      const before = store.stageItems().flat();
-      const beforeIds = before.map(item => item.id);
-      const beforeSorted = [...beforeIds].sort((a, b) => a - b);
+      const {items: before, ids: beforeIds, sortedIds: beforeSorted} = getComparableStageItems(store);
 
+      // act
       reachGameEnd(finalStage);
       soundService.replay();
 
-      const after = store.stageItems().flat();
-      const afterIds = after.map(item => item.id);
-      const afterSorted = [...afterIds].sort((a, b) => a - b);
+      const {items: after, ids: afterIds, sortedIds: afterSorted} = getComparableStageItems(store);
 
-      expect(after.length).toEqual(before.length);
       expect(logicService.generateShuffledItemCopy).toHaveBeenCalled();
       expect(logicService.generateItemSlicesForEachStage).toHaveBeenCalled();
+
+      expect(after.length).toEqual(before.length);
+      // same id's
       expect(afterIds).toEqual(jasmine.arrayWithExactContents(beforeIds));
+      // different order
       expect(afterIds).not.toEqual(beforeIds);
       expect(beforeSorted).toEqual(afterSorted);
     });
 
+    function getComparableStageItems(store: MatchSoundsStore) {
+      const items = store.stageItems().flat();
+      const ids = items.map(item => item.id);
+      const sortedIds = [...ids].sort((a, b) => a - b);
+
+      return {items, ids, sortedIds};
+    }
 
   });
 
