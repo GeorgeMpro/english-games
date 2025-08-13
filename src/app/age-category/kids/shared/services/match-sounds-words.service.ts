@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import {inject, Injectable} from '@angular/core';
 
 import {forkJoin, Observable} from 'rxjs';
 
@@ -14,13 +14,10 @@ import {DEFAULT_ITEMS_PER_STAGE, DEFAULT_STAGE_COUNT} from '../../../../shared/g
   providedIn: 'root'
 })
 export class MatchSoundsWordsService {
-
-  constructor(
-    private store: MatchSoundsStore,
-    private catService: CategoryService,
-    private logicService: GameLogicService,
-    private converterService: ItemConverterService) {
-  }
+  private readonly store = inject(MatchSoundsStore);
+  private readonly catService = inject(CategoryService);
+  private readonly logicService = inject(GameLogicService);
+  private readonly converterService = inject(ItemConverterService);
 
 
   initializeGame(categoryId: number): void {
@@ -37,6 +34,10 @@ export class MatchSoundsWordsService {
     this.setWordsFromChosenCategories(words);
     this.initializeMatchItemsFromWords(words);
     this.initializeShuffledItemsSlice();
+    this.setupGameItems();
+  }
+
+  private setupGameItems() {
     this.setupStages();
     this.setupMainStageItems();
   }
@@ -151,10 +152,22 @@ export class MatchSoundsWordsService {
     return this.store.getMainWordId();
   }
 
+  /* Replay */
   replay() {
     this.resetGameState();
-
+    this.reshuffleSlice();
+    this.setupGameItems();
   }
+
+  private reshuffleSlice(stages: number = DEFAULT_STAGE_COUNT, itemsPerStage: number = DEFAULT_ITEMS_PER_STAGE) {
+    const totalItems: number = stages * itemsPerStage;
+    const shuffledCopy: MatchItem[] = this.logicService.generateShuffledItemCopy(this.store.stageItems().flat());
+
+    this.store.shuffledItemsSlice.set(
+      shuffledCopy.slice(0, totalItems)
+    )
+  }
+
 }
 
 // TODO

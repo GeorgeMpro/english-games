@@ -354,11 +354,11 @@ describe('game completion', () => {
   });
 
   describe('Replay', () => {
+    const firstStage = 0;
+    const finalStage = 2;
     const categoryId = 4;
 
     it('should keep same items but change order', () => { /* spy & expect */
-      const firstStage = 0;
-      const finalStage = 2;
       const {store} = setupGameState(categoryId);
       const original = store.items();
 
@@ -381,30 +381,29 @@ describe('game completion', () => {
 
     it('should reshuffle items on replay', () => {
       //   todo
-      //    spy on - reshufffle
+      //    spy on - reshuffle, replay, generate slice for each stage
+      //    same items (id? word?) but different location
+      const {store} = setupGameState(categoryId);
+      const before = store.stageItems().flat();
+      const beforeIds = before.map(item => item.id);
+      const beforeSorted = [...beforeIds].sort((a, b) => a - b);
+
+      reachGameEnd(finalStage);
+      soundService.replay();
+
+      const after = store.stageItems().flat();
+      const afterIds = after.map(item => item.id);
+      const afterSorted = [...afterIds].sort((a, b) => a - b);
+
+      expect(after.length).toEqual(before.length);
+      expect(logicService.generateShuffledItemCopy).toHaveBeenCalled();
+      expect(logicService.generateItemSlicesForEachStage).toHaveBeenCalled();
+      expect(afterIds).toEqual(jasmine.arrayWithExactContents(beforeIds));
+      expect(afterIds).not.toEqual(beforeIds);
+      expect(beforeSorted).toEqual(afterSorted);
     });
 
-    it('should keep same items but in different order', () => {
-    });
 
-    function setupGameState(categoryId: number) {
-      const mockWords: WordItem[] = fallbackDataMap[categoryId];
-      // Spies setup
-      spyOn(catService, 'getAllWordsInGroup').and.returnValue(of(mockWords));
-      spyOn(converterService, "wordItemsToMatchItems").and.callThrough();
-      spyOn(logicService, 'generateShuffledItemCopy').and.callThrough();
-      spyOn(logicService, 'generateItemSlicesForEachStage').and.callThrough();
-
-      soundService.initializeGame(categoryId);
-
-      return {mockWords, store: soundService.getStore()}
-    }
-
-    function reachGameEnd(finalStage: number) {
-      for (let stage = 0; stage <= finalStage; stage++) {
-        soundService.processMatchAttempt(soundService.getMainStageItemId());
-      }
-    }
   });
 
   describe('New game ( unchanged categories)', () => {
@@ -426,6 +425,26 @@ describe('game completion', () => {
 //    notice: replay does not remove game items just reshuffles them
   xit('should reset game state on reset', () => {
   });
+
+
+  function reachGameEnd(finalStage: number) {
+    for (let stage = 0; stage <= finalStage; stage++) {
+      soundService.processMatchAttempt(soundService.getMainStageItemId());
+    }
+  }
+
+  function setupGameState(categoryId: number) {
+    const mockWords: WordItem[] = fallbackDataMap[categoryId];
+    // Spies setup
+    spyOn(catService, 'getAllWordsInGroup').and.returnValue(of(mockWords));
+    spyOn(converterService, "wordItemsToMatchItems").and.callThrough();
+    spyOn(logicService, 'generateShuffledItemCopy').and.callThrough();
+    spyOn(logicService, 'generateItemSlicesForEachStage').and.callThrough();
+
+    soundService.initializeGame(categoryId);
+
+    return {mockWords, store: soundService.getStore()}
+  }
 });
 
 

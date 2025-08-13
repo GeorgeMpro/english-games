@@ -38,6 +38,8 @@ export class GameLogicService {
     );
   }
 
+
+  /*Shuffling*/
   // todo cleanup
   // fisher yates shuffle
   private shuffle<T>(arr: T[]): T[] {
