@@ -17,17 +17,22 @@ import {MatPaginator, PageEvent} from '@angular/material/paginator';
 import {WordGroup} from '../../../data-access/api.models';
 import {CategoryService} from '../../../data-access/category.service';
 import {DEFAULT_PAGINATION_NUMBER_OF_ITEMS} from '../../game-config.constants';
+import {ModalCloseListenerDirective} from '../../directives/modal-close/modal-close-listener.directive';
 
 @Component({
   selector: 'app-category-chooser-modal',
   imports: [
     MatChipOption,
     MatPaginator,
+    ModalCloseListenerDirective
   ],
   template: `
     @if (isVisible()) {
-      <div class="app-modal" data-testid="category-chooser-modal">
-        <div class="modal-content">
+      <div class="app-modal"
+           data-testid="category-chooser-modal">
+        <div class="modal-content"
+             appModalCloseListener
+             (modalClose)="close()">
           @if (errorMessage()) {
             <div data-testid="error-msg" class="modal-error">
               {{ errorMessage() }}
@@ -149,10 +154,4 @@ export class CategoryChooserModalComponent implements OnInit {
   getChosenCategories(): WordGroup[] {
     return this.availableCategories.filter(category => this.selectedIds().has(category.id));
   }
-
-  @HostListener('document:keydown.escape', ['$event'])
-  onEsc(_e: KeyboardEvent) {
-    if (this.isVisible()) this.close();
-  }
-
 }
