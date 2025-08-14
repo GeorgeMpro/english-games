@@ -226,7 +226,57 @@ describe('Functionality', () => {
       expect(component.isVisible()).toBe(false);
       expect(component.getChosenCategories()).toEqual([]);
     });
+  });
+});
 
+describe('Keyboard interactions (ESC)', () => {
+  let fixture: ComponentFixture<CategoryChooserModalComponent>;
+  let component: CategoryChooserModalComponent;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [CategoryChooserModalComponent],
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(CategoryChooserModalComponent);
+    component = fixture.componentInstance;
+    component.availableCategories = DEFAULT_CATEGORIES;
+    fixture.detectChanges();
+  });
+
+  it('closes when ESC is pressed and modal is visible', () => {
+    component.open();
+    fixture.detectChanges();
+
+    document.dispatchEvent(new KeyboardEvent('keydown', {key: 'Escape'}));
+    fixture.detectChanges();
+
+    expect(component.isVisible()).toBeFalse();
+    expect(getElementByDataTestId(fixture, 'category-chooser-modal')).toBeNull();
+  });
+
+  it('does nothing when ESC is pressed and modal is hidden', () => {
+    component.close();
+    fixture.detectChanges();
+
+    window.dispatchEvent(new KeyboardEvent('keydown', {key: 'Escape'}));
+    fixture.detectChanges();
+
+    expect(component.isVisible()).toBeFalse();
+  });
+
+  it('ignores non-ESC keys', () => {
+    component.open();
+    fixture.detectChanges();
+
+    window.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}));
+    fixture.detectChanges();
+
+    expect(component.isVisible()).toBeTrue();
   });
 });
 

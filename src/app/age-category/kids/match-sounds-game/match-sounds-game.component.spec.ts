@@ -144,10 +144,7 @@ describe('Game Play Buttons', () => {
     fixture.detectChanges();
 
     expect(component.newCategoriesGame).toHaveBeenCalledWith(chosen);
-    // Optional assertion if you expose a signal for selections:
-    // expect(comp.selectedCategories()).toEqual(chosen);
   });
-
 });
 
 

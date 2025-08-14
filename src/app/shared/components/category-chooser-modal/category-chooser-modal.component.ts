@@ -1,4 +1,15 @@
-import {Component, QueryList, ViewChildren, signal, output, OnInit, effect, ViewChild, computed} from '@angular/core';
+import {
+  Component,
+  QueryList,
+  ViewChildren,
+  signal,
+  output,
+  OnInit,
+  effect,
+  ViewChild,
+  computed,
+  HostListener
+} from '@angular/core';
 
 import {MatChipOption} from '@angular/material/chips';
 import {MatPaginator, PageEvent} from '@angular/material/paginator';
@@ -138,4 +149,10 @@ export class CategoryChooserModalComponent implements OnInit {
   getChosenCategories(): WordGroup[] {
     return this.availableCategories.filter(category => this.selectedIds().has(category.id));
   }
+
+  @HostListener('document:keydown.escape', ['$event'])
+  onEsc(_e: KeyboardEvent) {
+    if (this.isVisible()) this.close();
+  }
+
 }
